@@ -1,26 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Econ Hub</title>
-    <style>
-        body { font-family: system-ui, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 2rem; color: #333; }
-        h1 { color: #2563eb; }
-        .course-card { border: 1px solid #e5e7eb; padding: 1.5rem; border-radius: 8px; }
-        a { color: #2563eb; text-decoration: none; font-weight: 500; }
-        a:hover { text-decoration: underline; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Economics Study Hub</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Georgia', serif;
+      background: #F8F9FA;
+      color: #1F2937;
+      line-height: 1.75;
+      font-size: 16px;
+    }
+
+    .page {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 40px 80px;
+      background: #FFFFFF;
+      box-shadow: 0 0 40px rgba(0,0,0,0.07);
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    .site-tag {
+      display: inline-block;
+      background: #1E3A5F;
+      color: #fff;
+      font-family: 'Arial', sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 4px;
+      margin-bottom: 14px;
+    }
+
+    h1.hub-title {
+      font-family: 'Georgia', serif;
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: #111827;
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+
+    .hub-subtitle {
+      font-family: 'Arial', sans-serif;
+      color: #6B7280;
+      font-size: 0.95rem;
+      margin-bottom: 40px;
+    }
+
+    /* ── Course Card ── */
+    .course-card {
+      border: 1px solid #E5E7EB;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 28px;
+    }
+
+    .course-card-header {
+      background: #1E3A5F;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .course-code {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #93C5FD;
+      white-space: nowrap;
+    }
+
+    .course-card-header h2 {
+      font-family: 'Georgia', serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #FFFFFF;
+      border: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .course-card-body {
+      padding: 8px 0;
+    }
+
+    .chapter-link {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 14px 24px;
+      border-bottom: 1px solid #F3F4F6;
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+
+    .chapter-link:last-child {
+      border-bottom: none;
+    }
+
+    .chapter-link:hover {
+      background: #EFF6FF;
+    }
+
+    .chapter-num {
+      flex-shrink: 0;
+      width: 32px;
+      height: 32px;
+      background: #EFF6FF;
+      color: #1D4ED8;
+      font-family: 'Arial', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 700;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .chapter-link:hover .chapter-num {
+      background: #2563EB;
+      color: #fff;
+    }
+
+    .chapter-title {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.97rem;
+      font-weight: 600;
+      color: #1E3A5F;
+    }
+
+    .chapter-link:hover .chapter-title {
+      color: #1D4ED8;
+    }
+
+    .chapter-arrow {
+      margin-left: auto;
+      color: #9CA3AF;
+      font-size: 1rem;
+      transition: transform 0.15s, color 0.15s;
+    }
+
+    .chapter-link:hover .chapter-arrow {
+      transform: translateX(4px);
+      color: #2563EB;
+    }
+
+    /* ── Footer note ── */
+    .footer-note {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.83rem;
+      color: #9CA3AF;
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid #E5E7EB;
+    }
+  </style>
 </head>
 <body>
-    <h1>Economics Study Hub</h1>
-    
+  <div class="page">
+
+    <div class="site-tag">McMaster University - Economics 1</div>
+    <h1 class="hub-title">Economics Study Hub</h1>
+    <p class="hub-subtitle">Rendered lessons with visualisations — select a chapter to begin.</p>
+
     <div class="course-card">
-        <h2>1ME3: Introduction to Mathematical Economics</h2>
-        <ul>
-            <li><a href="/1ME3/ch1">Chapter 1: Linear Equations</a></li>
-            <li><a href="/1ME3/ch2">Chapter 2: Linear Inequalities</a></li>
-        </ul>
+      <div class="course-card-header">
+        <span class="course-code">ECON 1ME3</span>
+        <h2>Introduction to Mathematical Economics</h2>
+      </div>
+      <div class="course-card-body">
+        <a class="chapter-link" href="/1ME3/ch1">
+          <span class="chapter-num">1</span>
+          <span class="chapter-title">Chapter 1: Linear Equations</span>
+          <span class="chapter-arrow">→</span>
+        </a>
+        <a class="chapter-link" href="/1ME3/ch2">
+          <span class="chapter-num">2</span>
+          <span class="chapter-title">Chapter 2: Linear Inequalities</span>
+          <span class="chapter-arrow">→</span>
+        </a>
+      </div>
     </div>
+
+    <p class="footer-note">Textbook: <em>Mathematics for Economists</em> — Pemberton &amp; Rau, 4th Ed.</p>
+
+  </div>
 </body>
 </html>
