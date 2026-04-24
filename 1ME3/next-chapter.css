@@ -1,0 +1,52 @@
+/* ── Next Chapter Button ── */
+#footer {
+  margin-top: 56px;
+  padding-top: 32px;
+  border-top: 2px solid #E5E7EB;
+  display: flex;
+  justify-content: flex-end;
+}
+.next-chapter-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: #1E3A5F;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 14px 24px;
+  border-radius: 8px;
+  transition: background 0.18s, transform 0.18s;
+}
+.next-chapter-btn:hover {
+  background: #2563EB;
+  transform: translateX(4px);
+  color: #fff;
+  text-decoration: none;
+}
+.next-chapter-btn .btn-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+}
+.next-chapter-btn .btn-eyebrow {
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+.next-chapter-btn .btn-title {
+  font-size: 0.97rem;
+}
+.next-chapter-btn .btn-arrow {
+  font-size: 1.3rem;
+  line-height: 1;
+  transition: transform 0.18s;
+}
+.next-chapter-btn:hover .btn-arrow {
+  transform: translateX(4px);
+}
