@@ -4,7 +4,6 @@ A personal study hub for my McMaster Economics courses — combining course outl
 
 The goal is to make it genuinely easy to learn everything for each course without bouncing between PDFs, lecture slides, and random YouTube tabs.
 
----
 
 ## What's inside each lesson
 
@@ -19,3 +18,5 @@ Every chapter page is a self-contained, rendered HTML lesson that includes:
 - **Self-check checklist** — skills you should be able to do before moving on
 
 ---
+### Current public-facing URL: (https://econhub.canhost.cc)[https://econhub.canhost.cc]
+*built with Claude Code and hosted via Cloudflare Pages.*
