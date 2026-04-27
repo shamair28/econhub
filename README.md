@@ -18,5 +18,5 @@ Every chapter page is a self-contained, rendered HTML lesson that includes:
 - **Self-check checklist** — skills you should be able to do before moving on
 
 ---
-### Current public-facing URL: (https://econhub.canhost.cc)[https://econhub.canhost.cc]
+### [Current public-facing URL:](https://econhub.canhost.cc)
 *built with Claude Code and hosted via Cloudflare Pages.*
