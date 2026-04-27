@@ -4,287 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ECON 1ME3 — Chapter 1: Linear Equations</title>
-<link rel="stylesheet" href="next-chapter.css">
-<style>
-  /* ── Reset & Base ── */
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: 'Georgia', serif;
-    background: #F8F9FA;
-    color: #1F2937;
-    line-height: 1.75;
-    font-size: 16px;
-  }
-
-  /* ── Layout ── */
-  .page {
-    max-width: 860px;
-    margin: 0 auto;
-    padding: 48px 40px 80px;
-    background: #FFFFFF;
-    box-shadow: 0 0 40px rgba(0,0,0,0.07);
-    min-height: 100vh;
-  }
-
-  /* ── Header ── */
-  .course-tag {
-    display: inline-block;
-    background: #1E3A5F;
-    color: #fff;
-    font-family: 'Arial', sans-serif;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    padding: 4px 12px;
-    border-radius: 4px;
-    margin-bottom: 14px;
-  }
-  h1.lesson-title {
-    font-family: 'Georgia', serif;
-    font-size: 2.4rem;
-    font-weight: 700;
-    color: #111827;
-    line-height: 1.2;
-    margin-bottom: 10px;
-  }
-  .subtitle {
-    font-family: 'Arial', sans-serif;
-    color: #6B7280;
-    font-size: 0.95rem;
-    margin-bottom: 8px;
-  }
-  .objectives-box {
-    background: #EFF6FF;
-    border-left: 4px solid #2563EB;
-    border-radius: 0 8px 8px 0;
-    padding: 16px 20px;
-    margin: 28px 0 36px;
-  }
-  .objectives-box strong {
-    display: block;
-    font-family: 'Arial', sans-serif;
-    font-size: 0.85rem;
-    font-weight: 700;
-    letter-spacing: 0.8px;
-    text-transform: uppercase;
-    color: #1D4ED8;
-    margin-bottom: 8px;
-  }
-  .objectives-box ul {
-    padding-left: 20px;
-  }
-  .objectives-box li {
-    margin-bottom: 4px;
-    font-size: 0.95rem;
-    color: #1E3A5F;
-  }
-
-  /* ── Section Headings ── */
-  .section-number {
-    font-family: 'Arial', sans-serif;
-    font-size: 0.78rem;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: #9CA3AF;
-    margin-bottom: 4px;
-  }
-  h2 {
-    font-family: 'Georgia', serif;
-    font-size: 1.65rem;
-    font-weight: 700;
-    color: #111827;
-    margin-bottom: 16px;
-    padding-bottom: 8px;
-    border-bottom: 2px solid #E5E7EB;
-  }
-  h3 {
-    font-family: 'Arial', sans-serif;
-    font-size: 1.05rem;
-    font-weight: 700;
-    color: #374151;
-    margin: 24px 0 10px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-  }
-  section { margin-bottom: 56px; }
-  p { margin-bottom: 14px; }
-
-  /* ── Code / math ── */
-  code {
-    font-family: 'Courier New', monospace;
-    background: #F3F4F6;
-    border: 1px solid #E5E7EB;
-    border-radius: 4px;
-    padding: 1px 6px;
-    font-size: 0.9em;
-    color: #1D4ED8;
-  }
-  pre {
-    background: #1E293B;
-    color: #E2E8F0;
-    border-radius: 8px;
-    padding: 18px 20px;
-    font-family: 'Courier New', monospace;
-    font-size: 0.88rem;
-    line-height: 1.65;
-    overflow-x: auto;
-    margin: 16px 0 20px;
-  }
-
-  /* ── Worked examples ── */
-  .example {
-    background: #F9FAFB;
-    border: 1px solid #E5E7EB;
-    border-radius: 10px;
-    padding: 20px 24px;
-    margin: 20px 0;
-  }
-  .example-label {
-    font-family: 'Arial', sans-serif;
-    font-size: 0.78rem;
-    font-weight: 700;
-    letter-spacing: 1.2px;
-    text-transform: uppercase;
-    color: #6B7280;
-    margin-bottom: 6px;
-  }
-  .example blockquote {
-    border-left: 3px solid #D1D5DB;
-    padding-left: 14px;
-    color: #374151;
-    font-style: italic;
-    margin: 8px 0 14px;
-  }
-
-  /* ── Callout boxes ── */
-  .callout {
-    border-radius: 8px;
-    padding: 14px 18px;
-    margin: 18px 0;
-    font-size: 0.95rem;
-  }
-  .callout.tip {
-    background: #ECFDF5;
-    border-left: 4px solid #10B981;
-    color: #065F46;
-  }
-  .callout.warning {
-    background: #FFFBEB;
-    border-left: 4px solid #F59E0B;
-    color: #78350F;
-  }
-  .callout.insight {
-    background: #EFF6FF;
-    border-left: 4px solid #2563EB;
-    color: #1E3A5F;
-  }
-  .callout strong { font-family: 'Arial', sans-serif; }
-
-  /* ── Tables ── */
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 16px 0 20px;
-    font-size: 0.93rem;
-  }
-  th {
-    background: #1E3A5F;
-    color: #fff;
-    font-family: 'Arial', sans-serif;
-    font-size: 0.82rem;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    padding: 10px 14px;
-    text-align: left;
-  }
-  td { padding: 9px 14px; border-bottom: 1px solid #E5E7EB; }
-  tr:nth-child(even) td { background: #F9FAFB; }
-
-  /* ── Figures ── */
-  figure {
-    margin: 24px 0 28px;
-    text-align: center;
-  }
-  .caption {
-    font-family: 'Arial', sans-serif;
-    font-size: 0.83rem;
-    color: #6B7280;
-    margin-top: 8px;
-    font-style: italic;
-  }
-
-  /* ── Practice problems ── */
-  .practice-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 18px;
-    margin-top: 20px;
-  }
-  @media (max-width: 600px) { .practice-grid { grid-template-columns: 1fr; } }
-  .problem {
-    background: #F9FAFB;
-    border: 1px solid #E5E7EB;
-    border-radius: 10px;
-    padding: 18px;
-  }
-  .problem-num {
-    font-family: 'Arial', sans-serif;
-    font-size: 0.75rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #9CA3AF;
-    margin-bottom: 6px;
-  }
-  details summary {
-    cursor: pointer;
-    font-family: 'Arial', sans-serif;
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: #2563EB;
-    margin-top: 12px;
-    user-select: none;
-  }
-  details[open] summary { margin-bottom: 8px; }
-  .answer-box {
-    background: #ECFDF5;
-    border-radius: 6px;
-    padding: 10px 14px;
-    font-size: 0.9rem;
-    color: #065F46;
-  }
-
-  /* ── Summary table ── */
-  .summary-table th { background: #2563EB; }
-
-  /* ── Divider ── */
-  hr { border: none; border-top: 1px solid #E5E7EB; margin: 40px 0; }
-
-
-  /* ── TOC ── */
-  .toc {
-    background: #F9FAFB;
-    border: 1px solid #E5E7EB;
-    border-radius: 10px;
-    padding: 20px 24px;
-    margin: 32px 0 48px;
-  }
-  .toc strong {
-    font-family: 'Arial', sans-serif;
-    font-size: 0.82rem;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #6B7280;
-    display: block;
-    margin-bottom: 10px;
-  }
-  .toc ol { padding-left: 20px; }
-  .toc li { margin-bottom: 5px; }
-  .toc a { color: #2563EB; text-decoration: none; font-size: 0.95rem; }
-  .toc a:hover { text-decoration: underline; }
-</style>
+<link rel="stylesheet" href="1ME3.css">
 </head>
 <body>
 <div class="page">
@@ -360,6 +80,17 @@
       <pre>At x = 5:  y = 2(5) − 3 = 10 − 3 = 7</pre>
       <p>So the point (5, 7) lies on this line.</p>
     </div>
+    <aside class="resources-box">
+      <strong>Further Practice & Video</strong>
+      <ul>
+        <li>
+          <a href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equations/x2f8bb11595b61c86:graphing-slope-intercept-equations/a/graphing-slope-intercept-form" target="_blank" rel="noopener">
+            <span class="src">Khan Academy</span> — Graphing Slope-Intercept Form
+          </a>
+          <span class="note">— Article and exercises on reading slope and intercept from y = ax + b.</span>
+        </li>
+      </ul>
+    </aside>
   </section>
 
   <!-- Section 3 -->
@@ -474,6 +205,23 @@ Substitute into Eq. 2:  2 + y = 7  →  y = 5</pre>
       <tr><td>Same slope, different intercept</td><td>Parallel lines — never meet</td><td><strong>No solution</strong></td></tr>
       <tr><td>Same slope, same intercept</td><td>Identical lines — overlap completely</td><td><strong>Infinitely many</strong></td></tr>
     </table>
+    <aside class="resources-box">
+      <strong>Further Practice & Video</strong>
+      <ul>
+        <li>
+          <a href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:systems-of-equations" target="_blank" rel="noopener">
+            <span class="src">Khan Academy</span> — Systems of Equations
+          </a>
+          <span class="note">— Full unit covering substitution, elimination, and applications.</span>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=PwdR8FxAWqw" target="_blank" rel="noopener">
+            <span class="src">Professor Leonard</span> — Solving Systems by Elimination
+          </a>
+          <span class="note">— Full lecture-pace walkthrough — good for the 10-system elimination drill.</span>
+        </li>
+      </ul>
+    </aside>
   </section>
 
   <!-- Section 6 -->

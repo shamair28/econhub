@@ -4,203 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ECON 1ME3 — Chapter 2: Linear Inequalities</title>
-<link rel="stylesheet" href="next-chapter.css">
-<style>
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: 'Georgia', serif;
-    background: #F8F9FA;
-    color: #1F2937;
-    line-height: 1.75;
-    font-size: 16px;
-  }
-  .page {
-    max-width: 860px;
-    margin: 0 auto;
-    padding: 48px 40px 80px;
-    background: #FFFFFF;
-    box-shadow: 0 0 40px rgba(0,0,0,0.07);
-    min-height: 100vh;
-  }
-  .course-tag {
-    display: inline-block;
-    background: #1E3A5F;
-    color: #fff;
-    font-family: 'Arial', sans-serif;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    padding: 4px 12px;
-    border-radius: 4px;
-    margin-bottom: 14px;
-  }
-  h1.lesson-title {
-    font-family: 'Georgia', serif;
-    font-size: 2.4rem;
-    font-weight: 700;
-    color: #111827;
-    line-height: 1.2;
-    margin-bottom: 10px;
-  }
-  .subtitle {
-    font-family: 'Arial', sans-serif;
-    color: #6B7280;
-    font-size: 0.95rem;
-    margin-bottom: 8px;
-  }
-  .objectives-box {
-    background: #FFF7ED;
-    border-left: 4px solid #F59E0B;
-    border-radius: 0 8px 8px 0;
-    padding: 16px 20px;
-    margin: 28px 0 36px;
-  }
-  .objectives-box strong {
-    display: block;
-    font-family: 'Arial', sans-serif;
-    font-size: 0.85rem;
-    font-weight: 700;
-    letter-spacing: 0.8px;
-    text-transform: uppercase;
-    color: #92400E;
-    margin-bottom: 8px;
-  }
-  .objectives-box ul { padding-left: 20px; }
-  .objectives-box li { margin-bottom: 4px; font-size: 0.95rem; color: #78350F; }
-  .section-number {
-    font-family: 'Arial', sans-serif;
-    font-size: 0.78rem;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: #9CA3AF;
-    margin-bottom: 4px;
-  }
-  h2 {
-    font-family: 'Georgia', serif;
-    font-size: 1.65rem;
-    font-weight: 700;
-    color: #111827;
-    margin-bottom: 16px;
-    padding-bottom: 8px;
-    border-bottom: 2px solid #E5E7EB;
-  }
-  h3 {
-    font-family: 'Arial', sans-serif;
-    font-size: 1.05rem;
-    font-weight: 700;
-    color: #374151;
-    margin: 24px 0 10px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-  }
-  section { margin-bottom: 56px; }
-  p { margin-bottom: 14px; }
-  ul.body-list { padding-left: 22px; margin-bottom: 14px; }
-  ul.body-list li { margin-bottom: 6px; }
-  code {
-    font-family: 'Courier New', monospace;
-    background: #F3F4F6;
-    border: 1px solid #E5E7EB;
-    border-radius: 4px;
-    padding: 1px 6px;
-    font-size: 0.9em;
-    color: #1D4ED8;
-  }
-  pre {
-    background: #1E293B;
-    color: #E2E8F0;
-    border-radius: 8px;
-    padding: 18px 20px;
-    font-family: 'Courier New', monospace;
-    font-size: 0.88rem;
-    line-height: 1.65;
-    overflow-x: auto;
-    margin: 16px 0 20px;
-  }
-  .example {
-    background: #F9FAFB;
-    border: 1px solid #E5E7EB;
-    border-radius: 10px;
-    padding: 20px 24px;
-    margin: 20px 0;
-  }
-  .example-label {
-    font-family: 'Arial', sans-serif;
-    font-size: 0.78rem;
-    font-weight: 700;
-    letter-spacing: 1.2px;
-    text-transform: uppercase;
-    color: #6B7280;
-    margin-bottom: 6px;
-  }
-  .example blockquote {
-    border-left: 3px solid #D1D5DB;
-    padding-left: 14px;
-    color: #374151;
-    font-style: italic;
-    margin: 8px 0 14px;
-  }
-  .callout {
-    border-radius: 8px;
-    padding: 14px 18px;
-    margin: 18px 0;
-    font-size: 0.95rem;
-  }
-  .callout.tip    { background: #ECFDF5; border-left: 4px solid #10B981; color: #065F46; }
-  .callout.warning{ background: #FFFBEB; border-left: 4px solid #F59E0B; color: #78350F; }
-  .callout.insight{ background: #EFF6FF; border-left: 4px solid #2563EB; color: #1E3A5F; }
-  .callout.danger { background: #FEF2F2; border-left: 4px solid #DC2626; color: #7F1D1D; }
-  .callout strong { font-family: 'Arial', sans-serif; }
-  table { width: 100%; border-collapse: collapse; margin: 16px 0 20px; font-size: 0.93rem; }
-  th { background: #1E3A5F; color: #fff; font-family: 'Arial', sans-serif; font-size: 0.82rem;
-       font-weight: 600; letter-spacing: 0.5px; padding: 10px 14px; text-align: left; }
-  td { padding: 9px 14px; border-bottom: 1px solid #E5E7EB; }
-  tr:nth-child(even) td { background: #F9FAFB; }
-  figure { margin: 24px 0 28px; text-align: center; }
-  .caption { font-family: 'Arial', sans-serif; font-size: 0.83rem; color: #6B7280;
-             margin-top: 8px; font-style: italic; }
-  .practice-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 20px; }
-  @media (max-width: 600px) { .practice-grid { grid-template-columns: 1fr; } }
-  .problem { background: #F9FAFB; border: 1px solid #E5E7EB; border-radius: 10px; padding: 18px; }
-  .problem-num { font-family: 'Arial', sans-serif; font-size: 0.75rem; font-weight: 700;
-                 text-transform: uppercase; letter-spacing: 1px; color: #9CA3AF; margin-bottom: 6px; }
-  details summary { cursor: pointer; font-family: 'Arial', sans-serif; font-size: 0.85rem;
-                    font-weight: 600; color: #2563EB; margin-top: 12px; user-select: none; }
-  details[open] summary { margin-bottom: 8px; }
-  .answer-box { background: #ECFDF5; border-radius: 6px; padding: 10px 14px;
-                font-size: 0.9rem; color: #065F46; }
-  .summary-table th { background: #92400E; }
-  hr { border: none; border-top: 1px solid #E5E7EB; margin: 40px 0; }
-  .toc { background: #F9FAFB; border: 1px solid #E5E7EB; border-radius: 10px;
-         padding: 20px 24px; margin: 32px 0 48px; }
-  .toc strong { font-family: 'Arial', sans-serif; font-size: 0.82rem; letter-spacing: 1px;
-                text-transform: uppercase; color: #6B7280; display: block; margin-bottom: 10px; }
-  .toc ol { padding-left: 20px; }
-  .toc li { margin-bottom: 5px; }
-  .toc a { color: #2563EB; text-decoration: none; font-size: 0.95rem; }
-  .toc a:hover { text-decoration: underline; }
-  .rule-card { border-radius: 10px; padding: 16px 20px; margin: 12px 0; border: 1px solid; }
-  .rule-card.r1 { background:#EFF6FF; border-color:#BFDBFE; }
-  .rule-card.r2 { background:#F0FDF4; border-color:#BBF7D0; }
-  .rule-card.r3 { background:#FEF2F2; border-color:#FECACA; }
-  .rule-card .rule-head { font-family:'Arial',sans-serif; font-weight:700; font-size:0.9rem;
-                          margin-bottom:6px; }
-  .rule-card.r1 .rule-head { color:#1D4ED8; }
-  .rule-card.r2 .rule-head { color:#15803D; }
-  .rule-card.r3 .rule-head { color:#DC2626; }
-  .step-list { counter-reset: step; padding: 0; list-style: none; margin: 14px 0; }
-  .step-list li { counter-increment: step; padding: 8px 0 8px 48px; position: relative;
-                  border-bottom: 1px solid #F3F4F6; }
-  .step-list li::before { content: counter(step); position: absolute; left: 0; top: 6px;
-    width: 28px; height: 28px; background: #1E3A5F; color: white; border-radius: 50%;
-    display: flex; align-items: center; justify-content: center;
-    font-family: 'Arial', sans-serif; font-size: 0.8rem; font-weight: 700;
-    text-align: center; line-height: 28px; }
-</style>
+<link rel="stylesheet" href="1ME3.css">
 </head>
-<body>
+<body class="theme-amber">
 <div class="page">
 
   <!-- ── Header ── -->
@@ -314,6 +120,17 @@
      x ≤ −2           ← divide by −2 (Rule 3, direction FLIPS)</pre>
       <p><strong>Solution:</strong> <code>x ≤ −2</code> &nbsp; — all real numbers less than or equal to −2.</p>
     </div>
+    <aside class="resources-box">
+      <strong>Further Practice & Video</strong>
+      <ul>
+        <li>
+          <a href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:inequalities-systems-graphs" target="_blank" rel="noopener">
+            <span class="src">Khan Academy</span> — Inequalities, Systems &amp; Graphs
+          </a>
+          <span class="note">— Manipulation-rules portion — practice the sign-flip on negative multiplication.</span>
+        </li>
+      </ul>
+    </aside>
   </section>
 
   <!-- ── Section 4 ── -->
@@ -396,6 +213,17 @@ Solving for (4, 2):
 
     <h3>When Is There No Feasible Region?</h3>
     <p>It's possible for a system of inequalities to have <strong>no feasible region</strong> — if the constraints are contradictory (e.g., <code>x ≥ 5</code> and <code>x ≤ 2</code> simultaneously). In economics, this would mean the constraints are inconsistent — for instance, a budget that is simultaneously required to be above and below a certain level.</p>
+    <aside class="resources-box">
+      <strong>Further Practice & Video</strong>
+      <ul>
+        <li>
+          <a href="https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:inequalities-systems-graphs" target="_blank" rel="noopener">
+            <span class="src">Khan Academy</span> — Inequalities, Systems &amp; Graphs
+          </a>
+          <span class="note">— Graphing and feasible-region portion of the same Khan unit.</span>
+        </li>
+      </ul>
+    </aside>
   </section>
 
   <!-- ── Section 6 ── -->
@@ -502,6 +330,17 @@ Budget set (feasible region): 2x₁ + 3x₂ ≤ 12, x₁ ≥ 0, x₂ ≥ 0</pre>
     <div class="callout insight">
       <strong>Connection to linear programming:</strong> A consumer choosing the most preferred affordable bundle is solving a type of optimisation problem over the budget set. When preferences are linear (constant rate of substitution), the optimal bundle is at a corner of the budget set — exactly the corner point theorem. When preferences are curved (the standard case with indifference curves), the optimum is an interior tangency point — but that requires calculus, coming in later chapters.
     </div>
+    <aside class="resources-box">
+      <strong>Further Practice & Video</strong>
+      <ul>
+        <li>
+          <a href="https://www.khanacademy.org/math/ncert-class-12/x7ce8ca9c5869750b:linear-programming-ncert-new/x7ce8ca9c5869750b:linear-prgramming-problems-and-its-mathematical-formulation/v/introduction-to-linear-programming" target="_blank" rel="noopener">
+            <span class="src">Khan Academy</span> — Intro to Linear Programming
+          </a>
+          <span class="note">— Direct match — corner point theorem with worked examples.</span>
+        </li>
+      </ul>
+    </aside>
   </section>
 
   <!-- ── Section 8: Practice Problems ── -->
