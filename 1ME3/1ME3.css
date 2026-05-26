@@ -21,6 +21,13 @@ body.theme-emerald {
   --obj-text:   #064E3B;
   --th-bg:      #065F46;
 }
+body.theme-purple {
+  --obj-bg:     #FAF5FF;
+  --obj-border: #9333EA;
+  --obj-strong: #6B21A8;
+  --obj-text:   #3B0764;
+  --th-bg:      #6B21A8;
+}
 
   /* ── Reset & Base ── */
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
