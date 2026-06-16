@@ -235,13 +235,6 @@ body.theme-purple {
     margin: 24px 0 28px;
     text-align: center;
   }
-  figure img {
-    max-width: 680px;
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
   .caption {
     font-family: 'Arial', sans-serif;
     font-size: 0.83rem;
