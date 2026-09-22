@@ -35,6 +35,7 @@
   // ────────────────────────────────────────────────────────────────────────
   function h(tag, attrs, ...children) {
     const e = document.createElement(tag);
+    if (typeof attrs === 'string' || typeof attrs === 'number' || attrs instanceof Node) { children.unshift(attrs); attrs = null; }
     if (attrs) for (const k in attrs) {
       const v = attrs[k];
       if (v == null || v === false) continue;
