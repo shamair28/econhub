@@ -1,0 +1,451 @@
+{
+  "schema": "practice-bank/v1",
+  "id": "1B03-mt1-slides-u2",
+  "course": "ECON 1B03",
+  "title": "Unit 2 Lecture Slides",
+  "defaultSource": {
+    "label": "Unit 2 Lecture Slides",
+    "kind": "slides"
+  },
+  "defaultUnit": 2,
+  "scenarios": {
+    "farms": {
+      "title": "Two farms, two crops",
+      "body": "Priya and Derek each own 80 acres of farmland that can grow **Barley** or **Oats**. If a farmer devotes an acre entirely to one crop, the yield per acre is shown below (assume constant returns to scale, so each farmer's own PPF is a straight line).",
+      "table": {
+        "caption": "Table U2-1 · Yield per acre",
+        "headers": [
+          "",
+          "Barley (tons/acre)",
+          "Oats (tons/acre)"
+        ],
+        "rows": [
+          [
+            "Priya",
+            "4",
+            "16"
+          ],
+          [
+            "Derek",
+            "6",
+            "12"
+          ]
+        ],
+        "rowHeaders": true
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "u2-q01",
+      "type": "mc",
+      "unit": 2,
+      "topic": "PPF definition",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 1 · slides 4–5"
+      },
+      "prompt": "A small island nation has 200 workers who can be assigned only to fishing or farming. Economists draw a curve showing every maximum combination of fish and crops the island can produce with these workers. What does this curve, the PPF, represent?",
+      "options": [
+        "The maximum combinations of two goods (fish and crops) attainable with the island's current, finite resources",
+        "The combinations of fish and crops that island consumers most want to buy at current prices",
+        "The exact combination of fish and crops the island will choose to produce",
+        "The minimum number of workers needed to produce a given amount of fish and crops"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides define production possibilities as the total quantity an economy **can** produce with its finite resources, and the PPF traces the maximum attainable combinations. (b) confuses this supply-side concept with consumer demand. (c) is wrong because the PPF shows what is *possible*, not what will actually be chosen. (d) reverses the relationship — the PPF fixes resources and shows maximum output, not the minimum resources needed for a given output."
+    },
+    {
+      "id": "u2-q02",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Opportunity set & unattainable points",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 1 · slides 6–7"
+      },
+      "prompt": "A factory has two identical production lines but management runs only one of them this month, choosing not to run the second. Relative to the economy's PPF, where does this month's output combination sit, and what is the term for this region?",
+      "options": [
+        "Inside the frontier — part of the opportunity set, attainable but not efficient",
+        "Beyond the frontier — not attainable with current resources",
+        "On the frontier — the most efficient point available",
+        "At the origin — where no output at all is being produced"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides define the **opportunity set** as every point below (inside) the frontier: attainable, since the resources exist, but not efficient because some go unused — exactly the unused second production line here. (b) describes points beyond the frontier instead. (c) is wrong because only points *on* the frontier are efficient. (d) is too extreme: the factory is still producing something, just not the maximum possible."
+    },
+    {
+      "id": "u2-q03",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Opportunity cost",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 1 · slide 9"
+      },
+      "prompt": "Maya spends her Saturday afternoon at a paid shift instead of studying for Monday's exam. According to the slides' general definition, what is the opportunity cost of Maya working that shift?",
+      "options": [
+        "The benefit she could have received from her next best alternative — the study time forgone",
+        "The wage she is paid for the shift",
+        "Zero, since working is a productive use of her time",
+        "The average value of everything Maya could possibly do in a day"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides define opportunity cost as **the benefit that could be received from the next best alternative** forgone — here, the value of the study time Maya gives up. (b) describes her wage, a benefit *gained*, not a cost. (c) is wrong: every decision carries an opportunity cost, even a productive one. (d) confuses opportunity cost with an unrelated average over every option, instead of just the next-best one."
+    },
+    {
+      "id": "u2-q04",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Marginal rate of transformation",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 1 · slide 10"
+      },
+      "prompt": "On a PPF for wheat and corn, moving from one point to another trades 10 fewer units of wheat for 30 more units of corn. What concept measures this exact rate of trade-off, and how is it found graphically?",
+      "options": [
+        "The marginal rate of transformation (MRT) — the slope of the PPF",
+        "The marginal rate of transformation (MRT) — the point where the PPF meets the horizontal axis",
+        "The opportunity set — the ratio of total wheat to total corn produced",
+        "Elasticity of demand — how responsive quantity demanded is to price"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides state the MRT is **the slope of the PPF** — the rate at which we can switch between good A and good B. (b) mislabels an axis-intercept as the MRT. (c) misapplies the opportunity-set term to a simple ratio, not a rate of exchange. (d) is an unrelated demand-side concept from a different unit."
+    },
+    {
+      "id": "u2-q05",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Diminishing returns & the PPF",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 1 · slides 11–13"
+      },
+      "prompt": "As a farm reallocates land from wheat to corn, each extra acre of corn costs more and more forgone wheat than the acre before it. What does this pattern of diminishing returns imply about the PPF's shape and its MRT?",
+      "options": [
+        "The PPF bows outward and the MRT (slope) changes along the frontier, unlike a straight-line PPF where the MRT is constant",
+        "The PPF is a straight line and the MRT stays constant throughout",
+        "The PPF bows outward, but the MRT stays constant since total output never falls",
+        "The PPF shifts inward over time as more land is reallocated"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "Diminishing returns mean each extra unit of corn costs **increasing** amounts of forgone wheat, so the slope keeps steepening — the PPF **bows outward** and the **MRT is not constant**. A straight-line PPF, by contrast, has a constant MRT (constant opportunity cost) throughout. (b) describes that constant-MRT case, the opposite of what's happening here. (c) wrongly claims the MRT stays constant despite an obviously changing trade-off. (d) confuses a movement *along* the PPF with a *shift* of the whole frontier."
+    },
+    {
+      "id": "u2-q06",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Absolute vs. comparative advantage",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 2 · slides 20, 23"
+      },
+      "prompt": "Country X can produce more of both cars and textiles per worker than Country Y. According to the slides, which statement about comparative advantage must still be true?",
+      "options": [
+        "Country Y must have the comparative advantage (the lower opportunity cost) in at least one of the two goods",
+        "Country X automatically has the comparative advantage in both goods too",
+        "Neither country can have a comparative advantage in anything",
+        "Comparative advantage does not apply unless both countries are equally productive"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides state it is possible to hold an **absolute** advantage in both goods, but **impossible** to hold a **comparative** advantage (the lower opportunity cost) in both — if Country X's opportunity cost of one good is lower, Country Y's opportunity cost of the *other* good must be lower. This is also why comparative advantage can exist **without** any absolute advantage. (b) contradicts this rule directly, and (c)/(d) are not conditions the slides place on comparative advantage."
+    },
+    {
+      "id": "u2-q07",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Specialisation and trade",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 2 · slides 24–26"
+      },
+      "prompt": "Two neighbouring bakeries each currently make both bread and pastries themselves. If each instead specialises in the good where it has the comparative advantage and they trade with each other, what does the lecture's example conclude?",
+      "options": [
+        "Both bakeries end up with more of both goods than before specialising and trading",
+        "Only the bakery with the absolute advantage gains from the trade",
+        "Combined output falls, since each bakery now makes only one good",
+        "Neither bakery's final bundle of goods changes"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides conclude that **'by specializing and trading, they each end up with more!'** — specialising by comparative advantage raises total production, and a mutually beneficial trade leaves both sides better off. (b) wrongly limits the gains to whichever bakery has the absolute advantage. (c) has it backwards: specialisation by comparative advantage *increases* combined output. (d) contradicts the entire point of trading."
+    },
+    {
+      "id": "u2-q08",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Output vs. factor markets",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 3 · slides 29, 32–33"
+      },
+      "prompt": "A software firm pays a developer a salary for her time, and separately sells finished apps to customers. Which of these two transactions occurs in a factor market rather than an output market?",
+      "options": [
+        "Paying the developer's salary — the labour market",
+        "Selling the finished apps to customers — the labour market",
+        "Paying the developer's salary — an output market",
+        "Selling the finished apps to customers — a factor market"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The **labour market is a factor market**: households (here, the developer) supply time and effort, and firms pay wages for it. (b) and (d) mislabel selling finished goods as a factor-market transaction — that happens in **output** markets. (c) mislabels a wage payment as an output-market transaction, reversing the two categories."
+    },
+    {
+      "id": "u2-q09",
+      "type": "mc",
+      "unit": 2,
+      "topic": "B2C / B2B / B2G",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 3 · slide 31"
+      },
+      "prompt": "A furniture manufacturer sells chairs to individual households, office sets to other companies, and desks to a city government office. Using the lecture's terms, name these three types of customers.",
+      "options": [
+        "B2C, B2B, and B2G",
+        "Domestic, foreign, and online customers",
+        "Labour, capital, and land markets",
+        "Retailers, wholesalers, and manufacturers"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides classify a firm's output-market customers as households (**B2C**), other firms (**B2B**), or governments (**B2G**) — matching the households, companies, and city office in the example. (c) actually lists factor-market categories, and land isn't even one of the two factor markets covered (only labour and capital are). (b) and (d) are groupings never introduced in the lecture."
+    },
+    {
+      "id": "u2-q10",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Circular flow of income",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 3 · slide 34"
+      },
+      "prompt": "In the circular flow diagram, a firm pays money to a household for the labour and capital it supplied. Which set of payments correctly describes what firms send to households?",
+      "options": [
+        "Wages, profits, and interest",
+        "Taxes and savings",
+        "Purchases of goods and services",
+        "Donations to not-for-profit organizations"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The circular-flow diagram shows **firms paying households** wages, profits, and interest in return for labour and capital, while **households pay firms** through purchases and pay government through taxes and savings. (b) and (c) describe flows running the opposite direction, from households outward. (d) is a flow between households and the not-for-profit sector, not firms."
+    },
+    {
+      "id": "u2-q11",
+      "type": "numeric",
+      "unit": 2,
+      "topic": "Opportunity cost calculation",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 2 · slides 18–19"
+      },
+      "scenario": "farms",
+      "prompt": "Refer to the scenario. What is Priya's opportunity cost of producing 1 ton of Barley, measured in tons of Oats?",
+      "answer": {
+        "value": 4,
+        "tolerance": 0.01,
+        "display": "4 tons of Oats",
+        "hint": "Divide the Oats given up by the Barley gained, per acre."
+      },
+      "explanation": "Opportunity cost of 1 unit of A = (units of B given up) ÷ (units of A gained). Devoting 1 acre to Barley instead of Oats gives Priya 4 tons of Barley but forgoes 16 tons of Oats: 16 ÷ 4 = **4 tons of Oats** per ton of Barley."
+    },
+    {
+      "id": "u2-q12",
+      "type": "numeric",
+      "unit": 2,
+      "topic": "Opportunity cost calculation",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 2 · slides 18–19"
+      },
+      "scenario": "farms",
+      "prompt": "Refer to the scenario. What is Derek's opportunity cost of producing 1 ton of Oats, measured in tons of Barley?",
+      "answer": {
+        "value": 0.5,
+        "tolerance": 0.01,
+        "display": "1/2 (0.5) ton of Barley",
+        "hint": "Divide the Barley given up by the Oats gained, per acre."
+      },
+      "explanation": "Devoting 1 acre to Oats instead of Barley gives Derek 12 tons of Oats but forgoes 6 tons of Barley: 6 ÷ 12 = **1/2 (0.5) ton of Barley** per ton of Oats. This is higher than Priya's own opportunity cost of Oats (4 ÷ 16 = 1/4 ton of Barley), so **Priya**, not Derek, holds the comparative advantage in Oats."
+    },
+    {
+      "id": "u2-q13",
+      "type": "numeric",
+      "unit": 2,
+      "topic": "Full specialisation output",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 2 · slide 24"
+      },
+      "scenario": "farms",
+      "prompt": "Refer to the scenario. Derek has the comparative advantage in Barley. If Derek devotes all 80 acres to Barley, how many tons of Barley will he produce in total?",
+      "answer": {
+        "value": 480,
+        "tolerance": 0.01,
+        "display": "480 tons",
+        "hint": "Multiply Derek's per-acre Barley yield by his total acres."
+      },
+      "explanation": "Derek's opportunity cost of Barley (2 tons of Oats, since 12 ÷ 6 = 2) is lower than Priya's (4 tons of Oats), so Derek holds the **comparative advantage** in Barley. Full specialisation puts all 80 acres into Barley: 80 × 6 tons/acre = **480 tons of Barley**."
+    },
+    {
+      "id": "u2-q14",
+      "type": "numeric",
+      "unit": 2,
+      "topic": "Terms of trade",
+      "difficulty": 3,
+      "source": {
+        "ref": "Lesson 2 · slides 24–25"
+      },
+      "scenario": "farms",
+      "prompt": "Refer to the scenario. Derek specialises in Barley and offers to sell some to Priya. What is the **minimum** number of tons of Oats Derek would accept in exchange for 1 ton of Barley?",
+      "answer": {
+        "value": 2,
+        "tolerance": 0.01,
+        "display": "2 tons of Oats",
+        "hint": "Derek's own opportunity cost of Barley sets his minimum price."
+      },
+      "explanation": "Derek will not sell a ton of Barley for less Oats than he could have grown himself by using that acre for Oats — his own **opportunity cost**. On Derek's farm, 1 acre of Barley yields 6 tons but forgoes 12 tons of Oats: 12 ÷ 6 = **2 tons of Oats** per ton of Barley. Priya's opportunity cost of Barley is 16 ÷ 4 = 4 tons of Oats, so any price **between 2 and 4 tons of Oats per ton of Barley** leaves both farmers better off than self-sufficiency — for example 3 tons of Oats."
+    },
+    {
+      "id": "u2-q15",
+      "type": "graph",
+      "unit": 2,
+      "topic": "PPF regions",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 1 · slides 5–7"
+      },
+      "prompt": "The graph shows a straight-line PPF for two goods, X and Y. Place point E at a combination that is on the frontier (productively efficient), and place point I at a combination that is attainable but not efficient (inside the frontier).",
+      "graph": {
+        "x": {
+          "label": "Units of Good X",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Units of Good Y",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "ppf",
+            "label": "PPF",
+            "points": [
+              [
+                0,
+                100
+              ],
+              [
+                100,
+                0
+              ]
+            ],
+            "color": "slate"
+          }
+        ],
+        "tasks": [
+          {
+            "id": "E",
+            "kind": "point",
+            "label": "E",
+            "prompt": "Mark an efficient point (on the PPF)",
+            "expect": {
+              "onCurve": "ppf"
+            },
+            "model": {
+              "x": 30,
+              "y": 70
+            }
+          },
+          {
+            "id": "I",
+            "kind": "point",
+            "label": "I",
+            "prompt": "Mark an attainable but inefficient point (inside the frontier)",
+            "expect": {
+              "region": {
+                "xmax": 40,
+                "ymax": 40
+              }
+            },
+            "model": {
+              "x": 20,
+              "y": 20
+            }
+          }
+        ]
+      },
+      "explanation": "Any point **on** the PPF, like E, uses all resources fully — it is productively efficient because more of one good can only be produced by giving up some of the other. Any point strictly **inside** the frontier, like I, is attainable (the resources exist) but inefficient, since some resources sit idle or are misallocated and more of both goods could still be produced. Points beyond the frontier, by contrast, are not attainable at all."
+    },
+    {
+      "id": "u2-q16",
+      "type": "graph",
+      "unit": 2,
+      "topic": "PPF regions",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 1 · slides 5–7"
+      },
+      "prompt": "The graph shows a straight-line PPF for two goods, X and Y. Place point N at a combination of the two goods that is currently NOT attainable given the economy's resources.",
+      "graph": {
+        "x": {
+          "label": "Units of Good X",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Units of Good Y",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "ppf",
+            "label": "PPF",
+            "points": [
+              [
+                0,
+                100
+              ],
+              [
+                100,
+                0
+              ]
+            ],
+            "color": "slate"
+          }
+        ],
+        "tasks": [
+          {
+            "id": "N",
+            "kind": "point",
+            "label": "N",
+            "prompt": "Mark an unattainable point (beyond the frontier)",
+            "expect": {
+              "region": {
+                "xmin": 65,
+                "ymin": 65
+              }
+            },
+            "model": {
+              "x": 80,
+              "y": 80
+            }
+          }
+        ]
+      },
+      "explanation": "A point beyond the PPF, like N, would require more resources or better technology than the economy currently has — the slides label this region **'Not Attainable.'** Only points on or inside the frontier can be produced with current resources; the frontier itself marks the maximum efficient combinations attainable today."
+    }
+  ]
+}

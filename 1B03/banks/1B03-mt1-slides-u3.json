@@ -1,0 +1,654 @@
+{
+  "schema": "practice-bank/v1",
+  "id": "1B03-mt1-slides-u3",
+  "course": "ECON 1B03",
+  "title": "Unit 3 Lecture Slides",
+  "defaultSource": {
+    "label": "Unit 3 Lecture Slides",
+    "kind": "slides"
+  },
+  "defaultUnit": 3,
+  "scenarios": {
+    "earbuds": {
+      "title": "Market for wireless earbuds",
+      "body": "In the market for wireless earbuds, the inverse demand function is **P = 240 − 3Q** and the inverse supply function is **P = 40 + 2Q**, where P is price in dollars and Q is quantity in thousands of units per month."
+    }
+  },
+  "questions": [
+    {
+      "id": "u3-q01",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Perfect competition assumptions",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 1 · slide 5"
+      },
+      "prompt": "The Supply and Demand framework assumes perfect competition. According to the slides, which of the following is **NOT** one of the underlying assumptions?",
+      "options": [
+        "Firms can enter or exit the market easily",
+        "Each agent is small compared to the overall market and cannot change the market price",
+        "A single large firm can set the market price to maximize its own profit",
+        "There are many buyers and many sellers"
+      ],
+      "answer": "c",
+      "shuffleOptions": true,
+      "explanation": "Perfect competition assumes many buyers/sellers, price-taking agents, each \"small\" relative to the market, and free entry/exit. A firm large enough to **set** the market price on its own contradicts the \"small compared to the overall market\" assumption — that describes market power, not perfect competition."
+    },
+    {
+      "id": "u3-q02",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Law of Demand",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 1 · slide 6"
+      },
+      "prompt": "According to the Law of Demand, holding every other factor constant, what happens to quantity demanded when the price of a good falls?",
+      "options": [
+        "Quantity demanded increases",
+        "Quantity demanded decreases",
+        "Demand increases — the whole curve shifts right",
+        "Demand decreases — the whole curve shifts left"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The Law of Demand states that, ceteris paribus, a **decrease** in price raises **quantity demanded**. Options c and d confuse this own-price effect with a shift in demand, which the slides reserve for changes in factors *other than* the good's own price."
+    },
+    {
+      "id": "u3-q03",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Substitution vs income effect",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 1 · slides 10–11"
+      },
+      "prompt": "A good's price falls. Using the slides' framing of the two effects behind the Law of Demand, which statement correctly distinguishes the substitution effect from the income effect?",
+      "options": [
+        "Substitution effect: the good is now relatively cheaper, so consumers switch to buying this good instead of others; Income effect: consumers can now afford to buy more than before with the same income",
+        "Substitution effect: consumers can now afford to buy more than before with the same income; Income effect: consumers switch to buying other goods instead",
+        "Both effects describe consumers switching to substitute goods when the price changes",
+        "Both effects describe a fixed income buying strictly less as the price falls"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "Per the slides: the **substitution effect** is switching toward a good that is now relatively cheaper; the **income effect** is being able to afford more with the same fixed income. Option b swaps these two definitions, and c/d each collapse both effects into only one of them."
+    },
+    {
+      "id": "u3-q04",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Demand function vs inverse demand",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 1 · slide 8"
+      },
+      "prompt": "The demand function is Q<sub>D</sub> = a − bP. When rewritten in inverse form P = c − dQ<sub>D</sub> for graphing, how are c and d related to a and b?",
+      "options": [
+        "c = a/b and d = 1/b",
+        "c = b/a and d = b",
+        "c = a − b and d = a/b",
+        "c = ab and d = 1/a"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides define the inverse demand function as P = c − dQ<sub>D</sub>, where **c = a/b** (the vertical intercept) and **d = 1/b** (the slope). This is why price sits on the vertical axis of the demand curve even though it is the independent variable in Q<sub>D</sub> = a − bP."
+    },
+    {
+      "id": "u3-q05",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Movement vs shift in demand",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 1 · slide 17"
+      },
+      "prompt": "The price of a good rises while every other factor affecting demand stays the same. What does this cause, according to the slides?",
+      "options": [
+        "A change in the quantity demanded — a movement along the existing demand curve",
+        "A change in demand — the demand curve shifts left",
+        "A change in demand — the demand curve shifts right",
+        "Both the demand curve and the supply curve shift"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides define a movement along the demand curve (a **change in quantity demanded**) as caused specifically by a change in the good's *own* price. A **shift** (change in demand) is instead caused by other factors like income or population — none of which changed here."
+    },
+    {
+      "id": "u3-q06",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Demand shifters",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 1 · slide 15"
+      },
+      "prompt": "According to the slides, which of the following would cause the demand curve for good X to shift outward (increase)?",
+      "options": [
+        "A reduction in interest rates",
+        "An increase in interest rates",
+        "An increase in the price of a complementary good Z",
+        "A decrease in the price of a substitute good Y"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides list a **reduction in interest rates** as a factor that increases demand — cheaper borrowing supports more spending, so D shifts outward. A **rise** in interest rates, a pricier complement, or a cheaper substitute are each listed as demand **decreasers** instead."
+    },
+    {
+      "id": "u3-q07",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Law of Supply",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 2 · slides 20, 24"
+      },
+      "prompt": "Why does the supply curve slope upward, according to the slides?",
+      "options": [
+        "Because producers' costs rise as they produce more, so firms need higher prices to cover those costs",
+        "Because consumers are willing to pay more when a good is scarce",
+        "Because producers prefer to sell less at higher prices",
+        "Because the substitution effect makes producers switch to other goods"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides state the supply curve is a **direct representation of producers' costs**: costs rise as output rises, so firms must charge higher prices to cover them — this gives the Law of Supply its upward slope. Option b describes consumer willingness to pay, a demand-side idea, not the supply relationship."
+    },
+    {
+      "id": "u3-q08",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Supply shifters",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 2 · slides 28–29"
+      },
+      "prompt": "Which of the following would cause the supply curve for good X to shift inward (decrease), according to the slides?",
+      "options": [
+        "Interest rates rise",
+        "Production technology improves",
+        "The number of firms increases",
+        "Cheaper alternative inputs become available"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "Rising interest rates raise firms' borrowing costs and are listed as a supply **decreaser**, shifting S inward. Improved technology, more firms, and cheaper alternative inputs are all listed as supply **increasers** — the opposite effect on the curve."
+    },
+    {
+      "id": "u3-q09",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Shortage and producer response",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 3 · slide 34"
+      },
+      "prompt": "At a market price below equilibrium, quantity demanded exceeds quantity supplied — a shortage (excess demand). According to the slides, how will producers respond?",
+      "options": [
+        "Raise prices and expand production until equilibrium is reached",
+        "Cut prices and cut production until equilibrium is reached",
+        "Keep prices unchanged since the market self-corrects without producer action",
+        "Reduce production now to build inventory for future demand"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides state that at a shortage, producers notice unserved customers and respond by **raising prices and expanding production** until reaching equilibrium. Option b describes the correct response to a **surplus** (excess supply) at a price *above* equilibrium instead."
+    },
+    {
+      "id": "u3-q10",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Demand vs supply shifts on P and Q",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 4 · slide 53"
+      },
+      "prompt": "According to the slides, which statement correctly describes how equilibrium price and quantity respond to shifts in demand versus shifts in supply?",
+      "options": [
+        "A demand shift moves price and quantity in the same direction; a supply shift moves them in opposite directions",
+        "A demand shift moves price and quantity in opposite directions; a supply shift moves them in the same direction",
+        "Both demand and supply shifts always move price and quantity in the same direction",
+        "Both demand and supply shifts always move price and quantity in opposite directions"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides state that when **demand** shifts, price and quantity always move **together** (both rise or both fall); when **supply** shifts, they move in **opposite** directions. Options c and d each erase this distinction, and b reverses it entirely."
+    },
+    {
+      "id": "u3-q11",
+      "type": "numeric",
+      "unit": 3,
+      "topic": "Equilibrium quantity",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 3 · slides 37–40"
+      },
+      "scenario": "earbuds",
+      "prompt": "Refer to the scenario. What is the equilibrium quantity Q*, in thousands of units?",
+      "answer": {
+        "value": 40,
+        "tolerance": 0.5,
+        "hint": "Set the two prices equal and solve for Q."
+      },
+      "explanation": "Set the two curves equal: 240 − 3Q = 40 + 2Q → 200 = 5Q → **Q\\* = 40** (thousand units). Checking either curve at Q = 40 gives the same price, confirming equilibrium."
+    },
+    {
+      "id": "u3-q12",
+      "type": "numeric",
+      "unit": 3,
+      "topic": "Equilibrium price",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 3 · slides 37–40"
+      },
+      "scenario": "earbuds",
+      "prompt": "Refer to the scenario. What is the equilibrium price P*, in dollars?",
+      "answer": {
+        "value": 120,
+        "tolerance": 0.5,
+        "prefix": "$",
+        "display": "$120",
+        "hint": "Substitute Q* into either curve."
+      },
+      "explanation": "Substitute Q\\* = 40 into either curve: P = 240 − 3(40) = **$120**, or P = 40 + 2(40) = $120. Both curves agree, confirming the equilibrium price."
+    },
+    {
+      "id": "u3-q13",
+      "type": "numeric",
+      "unit": 3,
+      "topic": "Shortage size",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 3 · slide 34"
+      },
+      "scenario": "earbuds",
+      "prompt": "Refer to the scenario. If the market price were $90 instead of the equilibrium price, what would be the size of the shortage, in thousands of units?",
+      "answer": {
+        "value": 25,
+        "tolerance": 0.5,
+        "hint": "Compare Q<sub>D</sub> and Q<sub>S</sub> at P = 90."
+      },
+      "explanation": "At P = 90: Q<sub>D</sub> = (240 − 90)/3 = **50**; Q<sub>S</sub> = (90 − 40)/2 = **25**. Since Q<sub>D</sub> > Q<sub>S</sub>, there is a shortage of 50 − 25 = **25** (thousand units) — producers will raise price and expand output toward equilibrium."
+    },
+    {
+      "id": "u3-q14",
+      "type": "numeric",
+      "unit": 3,
+      "topic": "Demand function to inverse form",
+      "difficulty": 3,
+      "source": {
+        "ref": "Lesson 1 · slide 8"
+      },
+      "scenario": "earbuds",
+      "prompt": "Refer to the scenario. The demand function can also be written as Q<sub>D</sub> = 80 − (1/3)P. In the inverse form P = c − dQ<sub>D</sub>, what is the value of d?",
+      "answer": {
+        "value": 3,
+        "tolerance": 0.1,
+        "hint": "d = 1/b, where b is the coefficient on P."
+      },
+      "explanation": "With Q<sub>D</sub> = a − bP, here a = 80 and b = 1/3. The slides give **d = 1/b** = 1/(1/3) = **3**, which matches the −3Q term already used in P = 240 − 3Q for this scenario."
+    },
+    {
+      "id": "u3-q15",
+      "type": "graph",
+      "unit": 3,
+      "topic": "Demand shift - increase",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 1 · slide 15"
+      },
+      "prompt": "The population of consumers for good X grows. Draw the new demand curve D₂ and mark the new equilibrium E₂.",
+      "graph": {
+        "x": {
+          "label": "Quantity of X",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Price",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "D",
+            "label": "D₁",
+            "points": [
+              [
+                8,
+                78
+              ],
+              [
+                70,
+                12
+              ]
+            ],
+            "color": "blue"
+          },
+          {
+            "id": "S",
+            "label": "S₁",
+            "points": [
+              [
+                8,
+                12
+              ],
+              [
+                78,
+                82
+              ]
+            ],
+            "color": "red"
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E₁",
+            "x": 44.3,
+            "y": 48.3,
+            "drop": "both",
+            "dropLabels": {
+              "x": "Q₁",
+              "y": "P₁"
+            }
+          }
+        ],
+        "tasks": [
+          {
+            "id": "D2",
+            "kind": "line",
+            "label": "D₂",
+            "prompt": "Draw the new demand curve D₂",
+            "expect": {
+              "slope": "negative",
+              "shiftOf": "D",
+              "direction": "right"
+            }
+          },
+          {
+            "id": "E2",
+            "kind": "point",
+            "label": "E₂",
+            "prompt": "Mark the new equilibrium E₂",
+            "expect": {
+              "atIntersection": [
+                "user:D2",
+                "S"
+              ],
+              "relativeTo": {
+                "ref": "E",
+                "x": "+",
+                "y": "+"
+              }
+            }
+          }
+        ]
+      },
+      "explanation": "Population growth raises the number of buyers, increasing demand for X at **every** price — the whole curve shifts right to D₂. Supply is unchanged, so the market slides up along S₁: equilibrium **price rises** (P₂ > P₁) and equilibrium **quantity rises** (Q₂ > Q₁)."
+    },
+    {
+      "id": "u3-q16",
+      "type": "graph",
+      "unit": 3,
+      "topic": "Demand shift - decrease",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 1 · slide 16"
+      },
+      "prompt": "Interest rates rise, making it more expensive for consumers to finance purchases of good X on credit. Draw the new demand curve D₂ and mark the new equilibrium E₂.",
+      "graph": {
+        "x": {
+          "label": "Quantity of X",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Price",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "D",
+            "label": "D₁",
+            "points": [
+              [
+                8,
+                78
+              ],
+              [
+                70,
+                12
+              ]
+            ],
+            "color": "blue"
+          },
+          {
+            "id": "S",
+            "label": "S₁",
+            "points": [
+              [
+                8,
+                12
+              ],
+              [
+                78,
+                82
+              ]
+            ],
+            "color": "red"
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E₁",
+            "x": 44.3,
+            "y": 48.3,
+            "drop": "both",
+            "dropLabels": {
+              "x": "Q₁",
+              "y": "P₁"
+            }
+          }
+        ],
+        "tasks": [
+          {
+            "id": "D2",
+            "kind": "line",
+            "label": "D₂",
+            "prompt": "Draw the new demand curve D₂",
+            "expect": {
+              "slope": "negative",
+              "shiftOf": "D",
+              "direction": "left"
+            }
+          },
+          {
+            "id": "E2",
+            "kind": "point",
+            "label": "E₂",
+            "prompt": "Mark the new equilibrium E₂",
+            "expect": {
+              "atIntersection": [
+                "user:D2",
+                "S"
+              ],
+              "relativeTo": {
+                "ref": "E",
+                "x": "-",
+                "y": "-"
+              }
+            }
+          }
+        ]
+      },
+      "explanation": "Higher interest rates raise the cost of financing purchases, decreasing demand for X at **every** price — the whole curve shifts left to D₂. Supply is unchanged, so the market slides down along S₁: equilibrium **price falls** (P₂ < P₁) and equilibrium **quantity falls** (Q₂ < Q₁)."
+    },
+    {
+      "id": "u3-q17",
+      "type": "graph",
+      "unit": 3,
+      "topic": "Supply shift - decrease",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 2 · slide 29"
+      },
+      "prompt": "Several firms exit the industry, reducing the number of firms producing good X. Draw the new supply curve S₂ and mark the new equilibrium E₂.",
+      "graph": {
+        "x": {
+          "label": "Quantity of X",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Price",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "D",
+            "label": "D₁",
+            "points": [
+              [
+                8,
+                78
+              ],
+              [
+                70,
+                12
+              ]
+            ],
+            "color": "blue"
+          },
+          {
+            "id": "S",
+            "label": "S₁",
+            "points": [
+              [
+                8,
+                12
+              ],
+              [
+                78,
+                82
+              ]
+            ],
+            "color": "red"
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E₁",
+            "x": 44.3,
+            "y": 48.3,
+            "drop": "both",
+            "dropLabels": {
+              "x": "Q₁",
+              "y": "P₁"
+            }
+          }
+        ],
+        "tasks": [
+          {
+            "id": "S2",
+            "kind": "line",
+            "label": "S₂",
+            "prompt": "Draw the new supply curve S₂",
+            "expect": {
+              "slope": "positive",
+              "shiftOf": "S",
+              "direction": "left"
+            }
+          },
+          {
+            "id": "E2",
+            "kind": "point",
+            "label": "E₂",
+            "prompt": "Mark the new equilibrium E₂",
+            "expect": {
+              "atIntersection": [
+                "D",
+                "user:S2"
+              ],
+              "relativeTo": {
+                "ref": "E",
+                "x": "-",
+                "y": "+"
+              }
+            }
+          }
+        ]
+      },
+      "explanation": "Fewer firms in the industry means less is supplied at **every** price — the whole curve shifts left to S₂. Demand is unchanged, so along D₁ the new equilibrium has a **higher price** (P₂ > P₁) and a **lower quantity** (Q₂ < Q₁) — price and quantity move in **opposite** directions, as supply shifts always do."
+    },
+    {
+      "id": "u3-q18",
+      "type": "graph",
+      "unit": 3,
+      "topic": "Movement along demand curve",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 1 · slides 12–13"
+      },
+      "prompt": "The demand curve is P = 200 − 4Q. Mark the point on the demand curve showing the quantity demanded when the price is $120.",
+      "graph": {
+        "x": {
+          "label": "Quantity",
+          "min": 0,
+          "max": 50,
+          "step": 10
+        },
+        "y": {
+          "label": "Price ($)",
+          "min": 0,
+          "max": 200,
+          "step": 40
+        },
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "linear": {
+              "intercept": 200,
+              "slope": -4
+            },
+            "color": "blue"
+          }
+        ],
+        "guides": [
+          {
+            "axis": "y",
+            "at": 120,
+            "label": "$120",
+            "dashed": true
+          }
+        ],
+        "tasks": [
+          {
+            "id": "pt",
+            "kind": "point",
+            "label": "Q at $120",
+            "prompt": "Place the point on D where P = $120",
+            "expect": {
+              "onCurve": "D",
+              "atY": 120,
+              "tol": 0.07
+            }
+          }
+        ]
+      },
+      "explanation": "Solve 120 = 200 − 4Q → 4Q = 80 → **Q = 20**. This is a movement *along* the existing demand curve, caused by a change in the good's own price — the curve itself does not shift."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Practice Framework — Demo</title>
+<link rel="stylesheet" href="graph.css">
+<link rel="stylesheet" href="engine.css">
+<style>html, body { margin: 0; padding: 0; }</style>
+</head>
+<body>
+<div id="app"></div>
+<script src="graph.js"></script>
+<script src="engine.js"></script>
+<script>
+// Reference mount used to exercise every question type. See SCHEMA.md.
+PracticeEngine.mount(document.getElementById('app'), {
+  id: 'practice-demo',
+  course: 'DEMO',
+  courseTitle: 'Practice framework',
+  title: 'Framework Demo',
+  subtitle: 'One question of every type — mc, multi, tf, numeric, static figure, graph drawing.',
+  homeHref: '/',
+  banks: ['examples/demo-bank.json'],
+  scope: { id: 'demo', label: 'the demo test', units: [2, 3, 4], note: 'Scope filter demo: only units 2–4 count as "in scope".' },
+  unitNames: { 2: 'Trade-offs', 3: 'Supply & Demand', 4: 'Market Efficiency' },
+  exam: { questions: 8, minutes: 16 }
+});
+</script>
+</body>
+</html>

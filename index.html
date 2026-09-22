@@ -156,6 +156,41 @@
       color: #2563EB;
     }
 
+    /* ── Practice link (test-prep pages) ── */
+    .chapter-link.practice-link {
+      background: linear-gradient(90deg, #EEF2FF 0%, #FFFFFF 60%);
+      border-top: 1px solid #E5E7EB;
+    }
+    .chapter-link.practice-link:hover { background: linear-gradient(90deg, #E0E7FF 0%, #EFF6FF 60%); }
+    .chapter-link.practice-link .chapter-num {
+      background: #4F46E5;
+      color: #fff;
+      font-size: 0.95rem;
+    }
+    .chapter-link.practice-link .chapter-title { color: #3730A3; }
+    .chapter-link.practice-link:hover .chapter-title { color: #4F46E5; }
+    .practice-tag {
+      font-family: 'Arial', sans-serif;
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #4F46E5;
+      background: #E0E7FF;
+      border-radius: 4px;
+      padding: 2px 7px;
+      margin-left: 6px;
+      white-space: nowrap;
+    }
+    .practice-sub {
+      display: block;
+      font-family: 'Arial', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 400;
+      color: #6B7280;
+      margin-top: 2px;
+    }
+
     /* ── Footer note ── */
     .footer-note {
       font-family: 'Arial', sans-serif;
@@ -227,6 +262,12 @@
         <a class="chapter-link" href="/1B03/ch3">
           <span class="chapter-num">3</span>
           <span class="chapter-title">Chapter 3: Where Prices Come From: The Interaction of Supply and Demand</span>
+          <span class="chapter-arrow">→</span>
+        </a>
+        <a class="chapter-link practice-link" href="/1B03/midterm1">
+          <span class="chapter-num">✎</span>
+          <span class="chapter-title">Midterm 1 Practice Test <span class="practice-tag">Interactive</span>
+            <span class="practice-sub">Units 1–4 · F22 practice midterm + lecture-slide questions · graph-drawing drills · timed exam mode</span></span>
           <span class="chapter-arrow">→</span>
         </a>
       </div>

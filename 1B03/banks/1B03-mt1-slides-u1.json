@@ -1,0 +1,349 @@
+{
+  "schema": "practice-bank/v1",
+  "id": "1B03-mt1-slides-u1",
+  "course": "ECON 1B03",
+  "title": "Unit 1 Lecture Slides",
+  "defaultSource": {
+    "label": "Unit 1 Lecture Slides",
+    "kind": "slides"
+  },
+  "defaultUnit": 1,
+  "scenarios": {},
+  "questions": [
+    {
+      "id": "u1-q01",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Definition of economics",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 1 · slide 4"
+      },
+      "prompt": "Priya wants to spend Saturday studying, working her part-time job, and seeing friends, but she only has one day to do it all. Economics defines this situation as choice being limited by ___.",
+      "options": [
+        "scarce resources",
+        "a hypothesis",
+        "positive analysis",
+        "allocative efficiency"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides define economics as the study of human behaviour and choice, where **opportunities and choices are limited by scarce resources** such as limited time, money, and materials. A hypothesis (b) and positive analysis (c) are terms from Lesson 3, and allocative efficiency (d) is a Lesson 2 concept — neither describes the cause of Priya's trade-off."
+    },
+    {
+      "id": "u1-q02",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Three perspectives",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 1 · slide 5"
+      },
+      "prompt": "A city raises the minimum wage. An economist studies how this changes a fast-food franchise owner's staffing decisions. Whose perspective is this economist adopting?",
+      "options": [
+        "Consumer",
+        "Manager",
+        "Government policymaker",
+        "Central planner"
+      ],
+      "answer": "b",
+      "shuffleOptions": true,
+      "explanation": "The slides identify **three perspectives**: consumers, managers, and government policymakers. Staffing decisions are made by a business's **managers**, not by the consumers who buy the food or the policymakers who set the wage. 'Central planner' (d) is not one of the three perspectives listed."
+    },
+    {
+      "id": "u1-q03",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Behavioural assumptions",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 1 · slide 6"
+      },
+      "prompt": "When a coffee shop starts offering a free pastry with every $10 purchase, more students start buying $10 worth of coffee. This best illustrates which assumption about human behaviour?",
+      "options": [
+        "People are rational",
+        "People act altruistically",
+        "People respond to incentives",
+        "People use cost-benefit analysis"
+      ],
+      "answer": "c",
+      "shuffleOptions": true,
+      "explanation": "The slides state that **when an option becomes more attractive, people are more likely to select it** — this is the 'respond to incentives' assumption, matching the free pastry making the $10 purchase more attractive. It differs from cost-benefit analysis (d), which requires explicitly comparing marginal benefit and marginal cost, and altruism (b) is not one of the three assumptions covered."
+    },
+    {
+      "id": "u1-q04",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Cost-benefit analysis",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 1 · slide 7"
+      },
+      "prompt": "Studying an extra hour for a quiz gives Marcus a marginal benefit of 8 (in expected grade points) but a marginal cost of 5 (in lost sleep and leisure). According to the slides' decision rule, what should Marcus do, and why?",
+      "options": [
+        "Not study, because Net Benefit = 8 − 5 = 3 is too small",
+        "Study the extra hour, because Marginal Benefit alone exceeds zero",
+        "Not study, because Marginal Cost is greater than zero",
+        "Study the extra hour, because Net Benefit = 8 − 5 = 3 is positive"
+      ],
+      "answer": "d",
+      "shuffleOptions": true,
+      "explanation": "**Net Benefit = Marginal Benefit − Marginal Cost = 8 − 5 = 3**, and the slides state only options with a **positive net benefit** are selected, so Marcus should study. Comparing MB or MC in isolation (options b, c) ignores the net-benefit rule, and 'too small' (a) is not a real decision criterion in this framework — any positive net benefit is enough."
+    },
+    {
+      "id": "u1-q05",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Economic problem & questions",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 1 · slides 8–9"
+      },
+      "prompt": "A country decides to convert farmland into either wheat fields or a solar farm, and separately must decide whether workers or robots will assemble the solar panels. The second decision most directly answers which of the three economic questions?",
+      "options": [
+        "How will it be produced?",
+        "What will be produced?",
+        "Who will receive it?",
+        "Whether to produce at all?"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides list three economic questions: **what**, **how**, and **who**. Choosing between workers and robots is a production-method choice, so it answers **'how will goods be produced?'** 'What' (b) is answered by the wheat-vs-solar choice, 'who' (c) concerns distribution, and 'whether to produce at all' (d) is not one of the three questions — limited resources and unlimited wants make trade-offs unavoidable."
+    },
+    {
+      "id": "u1-q06",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Market economy",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 2 · slide 16"
+      },
+      "prompt": "In a market economy, small startup food trucks constantly experiment with new menus to attract customers, but a few successful chains end up controlling most of the market and pricing out small competitors. Which pairing correctly matches an advantage and a disadvantage of market economies shown here?",
+      "options": [
+        "Advantage: reduces inequality; Disadvantage: lacks innovation",
+        "Advantage: fosters innovation; Disadvantage: can generate substantial inequality",
+        "Advantage: efficient consumption allocation; Disadvantage: requires government targets",
+        "Advantage: rationing; Disadvantage: underperforms in production"
+      ],
+      "answer": "b",
+      "shuffleOptions": true,
+      "explanation": "The slides list **fostering innovation and entrepreneurship** as an advantage of market economies and note they **can generate substantial inequality** because resources aren't always allocated efficiently with respect to consumption — exactly what the food-truck example shows. Options (a) and (d) actually describe centrally-planned economies (rationing reduces inequality, but production is inefficient), and (c) reverses which side of the economy markets allocate efficiently (production, not necessarily consumption)."
+    },
+    {
+      "id": "u1-q07",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Socialism vs communism",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 2 · slides 17–18"
+      },
+      "prompt": "In Country X, most businesses are owned collectively — by worker co-operatives or as state-owned enterprises — although some private firms remain. In Country Y, almost every enterprise is owned and run by the state. According to the slides, X is closest to ___ and Y is closest to ___.",
+      "options": [
+        "communism; socialism",
+        "a market economy; a mixed economy",
+        "socialism; communism",
+        "socialism; a market economy"
+      ],
+      "answer": "c",
+      "shuffleOptions": true,
+      "explanation": "The slides define **socialism** as emphasizing **community ownership of business** through co-operatives and state-owned enterprises, while a **communist** system exists when **all or most businesses are state-owned**. Country X's collective ownership fits socialism; Country Y's near-total state ownership fits communism. A market economy (b, d) is characterized by an *absence* of state intervention, the opposite of both countries."
+    },
+    {
+      "id": "u1-q08",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Mixed economy & deregulation",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 2 · slides 20–21"
+      },
+      "prompt": "Since the 1980s, many Western European and North American governments have sold off state-owned enterprises and reduced regulations. According to the slides, this trend was driven by economists advocating which philosophy?",
+      "options": [
+        "Socialist economists",
+        "Central planners",
+        "Classical communists",
+        "Neo-liberal (free-market) economists"
+      ],
+      "answer": "d",
+      "shuffleOptions": true,
+      "explanation": "The slides state that since the 1980s, **neo-liberal economists** have successfully argued for governments to adopt **deregulation** and sell state-owned enterprises, pushing mixed economies further toward the market end. Socialists (a) and communists (c) favour more collective/state ownership, not less, and 'central planner' (b) describes a role in centrally-planned economies, not a philosophy driving deregulation."
+    },
+    {
+      "id": "u1-q09",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Productive & allocative efficiency",
+      "difficulty": 3,
+      "source": {
+        "ref": "Lesson 2 · slide 23"
+      },
+      "prompt": "A factory produces sneakers at the lowest possible cost, but the styles it makes are not what shoppers actually want to buy. This factory has achieved ___ efficiency but not ___ efficiency.",
+      "options": [
+        "productive; allocative",
+        "allocative; productive",
+        "productive; equitable",
+        "allocative; equitable"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "**Productive efficiency** means goods are produced at the **lowest possible cost**, while **allocative efficiency** means resources produce the mix of goods **consumers actually want**. The factory has the first but not the second. 'Equitable' (c, d) refers to a fair distribution of resources — a separate concept, since the slides note that improving equity usually *reduces* efficiency rather than being a type of it."
+    },
+    {
+      "id": "u1-q10",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Building an economic model",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 3 · slide 27"
+      },
+      "prompt": "An economist's model of gas prices fails to predict what actually happened last month. According to the five-step process on the slides, what should the economist do next?",
+      "options": [
+        "Immediately publish the model as confirmed",
+        "Revise the model's assumptions and re-test it against the data",
+        "Keep the original model, since assumptions can never be changed",
+        "Discard economics as a discipline and rely only on data"
+      ],
+      "answer": "b",
+      "shuffleOptions": true,
+      "explanation": "The slides' five steps end with **revising the model if it fails to explain the data well**, then retesting — the process is iterative, not final after one attempt. Refusing to revise assumptions (c) contradicts the point of hypothesis testing, and publishing an unconfirmed model (a) or abandoning economics entirely (d) both skip the required testing step."
+    },
+    {
+      "id": "u1-q11",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Positive/normative & micro/macro",
+      "difficulty": 3,
+      "source": {
+        "ref": "Lesson 3 · slides 31–32"
+      },
+      "prompt": "A commentator states: 'National unemployment fell to 5.5% this quarter, and the government should introduce more job-training subsidies to push it lower.' The first half of this statement (about unemployment falling) is best classified as ___ and ___.",
+      "options": [
+        "normative; microeconomic",
+        "positive; microeconomic",
+        "positive; macroeconomic",
+        "normative; macroeconomic"
+      ],
+      "answer": "c",
+      "shuffleOptions": true,
+      "explanation": "The unemployment-rate claim is **positive** (a factual, testable observation about what 'is') and **macroeconomic** (it concerns the whole economy's aggregate unemployment, not one firm or market). 'Microeconomic' options are wrong because national unemployment is an economy-wide measure, and 'normative' options are wrong because this half makes no value judgment — that only appears in the subsidy recommendation."
+    },
+    {
+      "id": "u1-q12",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Three ways to do economics",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 3 · slide 33"
+      },
+      "prompt": "A professor explains the law of demand three times: once in a sentence, once by sketching a downward-sloping curve, and once by writing Q<sub>d</sub> = 100 − 2P. According to the slides, these three explanations are all valid because economics can be expressed using ___.",
+      "options": [
+        "consumers, managers, and policymakers",
+        "micro, macro, and mixed analysis",
+        "positive, normative, and mixed methods",
+        "words, graphs, and equations"
+      ],
+      "answer": "d",
+      "shuffleOptions": true,
+      "explanation": "The slides state that **all aspects of economics can be explained in one of three ways: words, graphs, and equations** — exactly the sentence, the curve, and the formula in the example. The other options recombine unrelated terms from other parts of the unit (perspectives, analysis types) that do not describe these three explanatory formats."
+    },
+    {
+      "id": "u1-q13",
+      "type": "numeric",
+      "unit": 1,
+      "topic": "Slope from two points",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 4 · slide 40"
+      },
+      "prompt": "A linear function passes through the points (2, 7) and (5, 19). What is the slope of this line?",
+      "answer": {
+        "value": 4,
+        "tolerance": 0.1
+      },
+      "explanation": "Using **m = (y<sub>2</sub> − y<sub>1</sub>)/(x<sub>2</sub> − x<sub>1</sub>) = (19 − 7)/(5 − 2) = 12/3 = 4**. A common mistake is reversing the order of subtraction in only one of the two differences (e.g., (7 − 19)/(5 − 2) = −4), which flips the sign of the slope."
+    },
+    {
+      "id": "u1-q14",
+      "type": "numeric",
+      "unit": 1,
+      "topic": "Intersection of two lines",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 4 · slides 47–52"
+      },
+      "prompt": "Two functions are given by y = 4x + 2 and y = −2x + 20. At the point where these two lines intersect, what is the value of x?",
+      "answer": {
+        "value": 3,
+        "tolerance": 0.1
+      },
+      "explanation": "Set the equations equal: **4x + 2 = −2x + 20 → 6x = 18 → x = 3**. Substituting back gives y = 4(3) + 2 = 14 for both equations, confirming the solution. Forgetting to move the −2x term to the left side before combining like terms is a common error that leads to an incorrect x-value."
+    },
+    {
+      "id": "u1-q15",
+      "type": "graph",
+      "unit": 1,
+      "topic": "Graphing a linear function",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 4 · slides 36–45"
+      },
+      "prompt": "Plot the linear function that passes through the two labelled points below by drawing a straight line through both of them.",
+      "graph": {
+        "x": {
+          "label": "x",
+          "min": 0,
+          "max": 10,
+          "step": 2
+        },
+        "y": {
+          "label": "y",
+          "min": 0,
+          "max": 25,
+          "step": 5
+        },
+        "points": [
+          {
+            "id": "A",
+            "label": "(2, 8)",
+            "x": 2,
+            "y": 8
+          },
+          {
+            "id": "B",
+            "label": "(5, 17)",
+            "x": 5,
+            "y": 17
+          }
+        ],
+        "tasks": [
+          {
+            "id": "L",
+            "kind": "line",
+            "label": "y = 3x + 2",
+            "prompt": "Draw the line through both points",
+            "expect": {
+              "slope": "positive",
+              "through": [
+                {
+                  "x": 2,
+                  "y": 8,
+                  "tol": 0.09
+                },
+                {
+                  "x": 5,
+                  "y": 17,
+                  "tol": 0.09
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "explanation": "The slope is **m = (17 − 8)/(5 − 2) = 9/3 = 3**, and using the point (2, 8): 8 = 3(2) + b → b = 2, giving **y = 3x + 2**. The line should slope upward and pass through both (2, 8) and (5, 17)."
+    }
+  ]
+}

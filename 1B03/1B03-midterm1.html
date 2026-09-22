@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>ECON 1B03 — Midterm 1 Practice</title>
+<link rel="stylesheet" href="../practice/graph.css">
+<link rel="stylesheet" href="../practice/engine.css">
+<style>
+  html, body { margin: 0; padding: 0; }
+  /* course accent: ECON 1B03 uses the hub's blue */
+  .pe { --pe-accent: #2563EB; --pe-accent-2: #3B82F6; --pe-accent-soft: #EFF6FF; }
+  @media (prefers-color-scheme: dark) { .pe:not([data-theme="light"]) { --pe-accent: #60A5FA; --pe-accent-2: #93C5FD; --pe-accent-soft: #172554; } }
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script src="../practice/graph.js"></script>
+<script src="../practice/engine.js"></script>
+<script>
+PracticeEngine.mount(document.getElementById('app'), {
+  id: '1B03-midterm1',
+  course: 'ECON 1B03',
+  courseTitle: 'Introductory Microeconomics',
+  title: 'Midterm 1 Practice',
+  subtitle: 'Units 1–4 · Fall 2026 (Dr. Mang) · Test date: Saturday October 3, 2026',
+  homeHref: '/',
+  banks: [
+    'banks/1B03-mt1-f22.json',
+    'banks/1B03-mt1-slides-u1.json',
+    'banks/1B03-mt1-slides-u2.json',
+    'banks/1B03-mt1-slides-u3.json',
+    'banks/1B03-mt1-slides-u4.json'
+  ],
+  scope: {
+    id: 'f26-mt1',
+    label: 'Fall 2026 Midterm 1',
+    units: [1, 2, 3, 4],
+    note: 'Midterm 1 covers **Units 1–4** (Ch. 1, 2, 3, 4). The Fall 2022 practice test also included elasticity and externalities questions — those are hidden by default because they are tested later this term.'
+  },
+  unitNames: {
+    1: 'Introduction to Economics',
+    2: 'Trade-offs & Comparative Advantage',
+    3: 'Supply & Demand',
+    4: 'Market Efficiency',
+    5: 'Elasticity',
+    12: 'Externalities & Public Goods'
+  },
+  exam: { questions: 40, minutes: 80 }
+});
+</script>
+</body>
+</html>

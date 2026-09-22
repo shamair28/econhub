@@ -1,0 +1,1494 @@
+{
+  "schema": "practice-bank/v1",
+  "id": "1B03-mt1-f22",
+  "course": "ECON 1B03",
+  "title": "F22 Practice Midterm",
+  "description": "ECON 1B03 Practice Midterm Test, Fall 2022, Version 1 — 40 multiple-choice questions, 80 minutes.",
+  "defaultSource": {
+    "label": "F22 Practice Midterm",
+    "kind": "past-test"
+  },
+  "scenarios": {
+    "laptops": {
+      "title": "Market for laptops",
+      "body": "Suppose the market demand for laptops is Q<sub>d</sub> = 10,000 + 0.8T + 0.005N − 4P, where T = the price of a tablet = $500, N = income = $80,000, and P = the price of laptops. Suppose the market supply of laptops is Q<sub>s</sub> = 5P."
+    },
+    "table25": {
+      "title": "Table 2-5 — Levi's and Frame",
+      "body": "Table 2-5 shows the hours each producer needs to make one unit of jeans or sweaters, and the amount each could produce if it devoted all 240 hours to that good.",
+      "table": {
+        "caption": "Table 2-5",
+        "headers": [
+          "",
+          "Hours per pair of jeans",
+          "Hours per sweater",
+          "Jeans in 240 h",
+          "Sweaters in 240 h"
+        ],
+        "rows": [
+          [
+            "Levi's",
+            3,
+            2,
+            80,
+            120
+          ],
+          [
+            "Frame",
+            4,
+            3,
+            60,
+            80
+          ]
+        ],
+        "rowHeaders": true
+      }
+    },
+    "market1200": {
+      "title": "Market with QD = 1200 − 2P",
+      "body": "Market demand is given as Q<sub>D</sub> = 1200 − 2P. Market supply is given as Q<sub>S</sub> = 4P."
+    },
+    "market140": {
+      "title": "Market with Qd = 140 − 2P",
+      "body": "Market demand is given as Q<sub>d</sub> = 140 − 2P. Market supply is given as Q<sub>s</sub> = P + 5."
+    }
+  },
+  "questions": [
+    {
+      "id": "f22-q01",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Elasticity comparison",
+      "tags": [
+        "elasticity"
+      ],
+      "scopeNote": "Elasticity (Ch. 6) is Unit 5 in Fall 2026 and is tested on Midterm 2, not Midterm 1.",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q1"
+      },
+      "scenario": "laptops",
+      "prompt": "Refer to the scenario. Which curve is more inelastic, supply or demand?",
+      "options": [
+        {
+          "id": "a",
+          "text": "supply"
+        },
+        {
+          "id": "b",
+          "text": "both curves have the same elasticity"
+        },
+        {
+          "id": "c",
+          "text": "there is not enough information to answer the question"
+        },
+        {
+          "id": "d",
+          "text": "demand"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "Elasticity magnitude equals the coefficient on price times P/Q. Demand is Q<sub>d</sub> = 10,800 − 4P, so |E<sub>d</sub>| = 4·P/Q; supply is Q<sub>s</sub> = 5P, so E<sub>s</sub> = 5·P/Q. At the market equilibrium, P and Q are the same for both curves, so the smaller coefficient (4 on demand vs. 5 on supply) means **demand is more inelastic**. Option (c) is wrong because both slopes are given explicitly — no missing information is needed to compare them."
+    },
+    {
+      "id": "f22-q02",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Cross-price relationships",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q2"
+      },
+      "scenario": "laptops",
+      "prompt": "Refer to the scenario. How are laptops and tablets related?",
+      "options": [
+        {
+          "id": "a",
+          "text": "they are not related."
+        },
+        {
+          "id": "b",
+          "text": "they are substitutes in consumption"
+        },
+        {
+          "id": "c",
+          "text": "laptops are an inferior good and tablets are a normal good"
+        },
+        {
+          "id": "d",
+          "text": "they are complements in consumption"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "The coefficient on T (the tablet price) in the demand equation is **+0.8**, meaning a *higher* tablet price *raises* the quantity of laptops demanded — the classic sign of **substitutes** in consumption. If they were complements (d), the coefficient would be negative; if unrelated (a), it would be zero. Option (c) confuses the cross-price relationship between two goods with the good-vs-income relationship (normal/inferior), which is a separate idea tested in the next question."
+    },
+    {
+      "id": "f22-q03",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Inverse demand",
+      "difficulty": 3,
+      "source": {
+        "ref": "Q3"
+      },
+      "scenario": "laptops",
+      "prompt": "Refer to the scenario. What is the equation for the inverse demand?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Q<sub>d</sub> = 10,800 − 4P"
+        },
+        {
+          "id": "b",
+          "text": "Q<sub>d</sub> = 2,200 − 4P"
+        },
+        {
+          "id": "c",
+          "text": "P = 10,800 − 4Q<sub>d</sub>"
+        },
+        {
+          "id": "d",
+          "text": "P = 2,700 − (1/4)Q<sub>d</sub>"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "First plug in T = 500 and N = 80,000: Q<sub>d</sub> = 10,000 + 0.8(500) + 0.005(80,000) − 4P = 10,000 + 400 + 400 − 4P = **10,800 − 4P**. That is the regular demand equation — option (a) — not the *inverse* demand. To invert it, solve for P: 4P = 10,800 − Q<sub>d</sub>, so **P = 2,700 − (1/4)Q<sub>d</sub>**. Option (c) makes the common mistake of not dividing both the intercept and the slope by 4 when isolating P."
+    },
+    {
+      "id": "f22-q04",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Normal vs inferior goods",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q4"
+      },
+      "scenario": "laptops",
+      "prompt": "Refer to the scenario. What type of good are laptops?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a normal good"
+        },
+        {
+          "id": "b",
+          "text": "a luxury good"
+        },
+        {
+          "id": "c",
+          "text": "an inferior good"
+        },
+        {
+          "id": "d",
+          "text": "a necessity good"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "The coefficient on N (income) in the demand equation is **+0.005** — positive — meaning quantity demanded of laptops rises as income rises. Any good whose demand rises with income is, by definition, a **normal good**. Luxury vs. necessity (b, d) is a finer classification based on the *size* of the income elasticity (whether it exceeds 1), which a single coefficient's sign can't tell us, and inferior (c) would require a *negative* income coefficient."
+    },
+    {
+      "id": "f22-q05",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Positive vs normative statements",
+      "difficulty": 1,
+      "source": {
+        "ref": "Q5"
+      },
+      "prompt": "Which of the following is an example of a positive statement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Greater economic equality benefits all people in all societies."
+        },
+        {
+          "id": "b",
+          "text": "The higher the price of gas, the worse off society is."
+        },
+        {
+          "id": "c",
+          "text": "The longer unemployment goes on, the higher the incidence of depression."
+        },
+        {
+          "id": "d",
+          "text": "The existence of welfare programs improves the economy."
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "A **positive statement** is a testable, fact-based claim about how the world *is* — 'longer unemployment → more depression' can in principle be checked against data. Statements (a), (b), and (d) all smuggle in a value judgment about what is *good* or *bad* ('benefits', 'worse off', 'improves') — that makes them **normative** statements, which describe how the world *should* be rather than how it *is*."
+    },
+    {
+      "id": "f22-q06",
+      "type": "mc",
+      "unit": 12,
+      "topic": "Coase theorem / externalities",
+      "tags": [
+        "externalities"
+      ],
+      "scopeNote": "Externalities and public goods (Ch. 5) are covered in Week 12 in Fall 2026, not on Midterm 1.",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q6"
+      },
+      "prompt": "Maria owns a dog whose barking annoys Maria’s neighbour Jane. Suppose that the benefit of owning the dog is worth $800 to Maria and that Jane bears a cost of $1000 from the barking. Assuming Maria has the legal right to keep the dog, what is a possible private solution to this problem?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jane pays Maria $799 to get rid of the dog."
+        },
+        {
+          "id": "b",
+          "text": "Jane pays Maria $950 to get rid of the dog."
+        },
+        {
+          "id": "c",
+          "text": "Maria pays Jane $950 for her inconvenience."
+        },
+        {
+          "id": "d",
+          "text": "There is no private solution that would improve this situation."
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "Since Maria has the legal right to keep the dog, only **Jane** can pay Maria to give it up (ruling out c). Because Jane's cost from the barking ($1,000) exceeds Maria's benefit from the dog ($800), removing the dog is efficient, and any payment strictly **between $800 and $1,000** leaves both people better off. $950 works (b); **$799 is below Maria's $800 benefit**, so Maria would refuse it and (a) fails. Since a mutually beneficial payment exists, (d) is wrong — this is exactly the private bargaining the Coase theorem predicts when property rights are clearly assigned."
+    },
+    {
+      "id": "f22-q07",
+      "type": "mc",
+      "unit": 2,
+      "topic": "PPF and unemployment",
+      "difficulty": 1,
+      "source": {
+        "ref": "Q7"
+      },
+      "prompt": "Suppose an economy that produces apples and oranges has 110 million workers it can employ and employs all 110 million of them. The firm then lays off 5 million workers. What would this cause an economy to do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "produce at a point inside its production possibilities frontier"
+        },
+        {
+          "id": "b",
+          "text": "produce at a new lower point on its production possibilities frontier"
+        },
+        {
+          "id": "c",
+          "text": "produce at a point outside of its production possibilities frontier"
+        },
+        {
+          "id": "d",
+          "text": "produce at a new, lower production possibilities frontier"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "The PPF shows the *maximum* output attainable when **all** resources are fully employed. Laying off 5 million of the 110 million workers means some resources now sit idle, so the economy produces **less than the frontier allows** — a point **inside** the PPF (a). The frontier itself hasn't moved (ruling out d, which would require losing resources or technology, not just leaving them idle), and (c) is impossible by definition since the PPF marks the outer limit of what's producible."
+    },
+    {
+      "id": "f22-q08",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Simultaneous demand & supply shifts",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q8"
+      },
+      "prompt": "Suppose that the incomes of buyers in a particular market for a normal good increase and there is also a reduction in input prices. What would we expect to occur in this market?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Equilibrium quantity would increase, but the impact on equilibrium price would be ambiguous."
+        },
+        {
+          "id": "b",
+          "text": "The equilibrium price would increase, but the impact on equilibrium quantity would be ambiguous."
+        },
+        {
+          "id": "c",
+          "text": "The equilibrium price would decrease, but the impact on equilibrium quantity would be ambiguous."
+        },
+        {
+          "id": "d",
+          "text": "Equilibrium quantity would decrease, but the impact on equilibrium price would be ambiguous."
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Higher income raises **demand** for a normal good (shifts D right), while cheaper inputs raise **supply** (shifts S right). Both shifts push **quantity up**, so the effect on Q is unambiguous. But demand pulls price up while supply pulls price down, so the **net effect on price is ambiguous** — it depends on which shift is larger. Options (b)–(d) all get quantity or price backwards relative to this reasoning."
+    },
+    {
+      "id": "f22-q09",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Substitutes in production",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q9"
+      },
+      "prompt": "Suppose goods X and Y are substitutes in production. What can we expect to happen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "If the price of X rises, the supply of Y will rise."
+        },
+        {
+          "id": "b",
+          "text": "If the price of X falls, the price of Y will rise."
+        },
+        {
+          "id": "c",
+          "text": "If the price of X falls, the supply of Y will fall."
+        },
+        {
+          "id": "d",
+          "text": "If the price of X rises, the supply of Y will fall"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "Goods that are **substitutes in production** compete for the same resources. If the price of X rises, producers shift resources *toward* X and *away* from Y, so **supply of Y falls** — matching (d). Option (a) has the direction backwards; (b) and (c) wrongly jump straight to a *price* prediction for Y without going through the supply-shift step, and get the direction wrong regardless."
+    },
+    {
+      "id": "f22-q10",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Determinants of elasticity",
+      "tags": [
+        "elasticity"
+      ],
+      "scopeNote": "Elasticity (Ch. 6) is Unit 5 in Fall 2026 and is tested on Midterm 2, not Midterm 1.",
+      "difficulty": 1,
+      "source": {
+        "ref": "Q10"
+      },
+      "prompt": "When would demand for a good tend to be more elastic?",
+      "options": [
+        {
+          "id": "a",
+          "text": "when the market is more broadly defined"
+        },
+        {
+          "id": "b",
+          "text": "when the good is considered more of a necessity"
+        },
+        {
+          "id": "c",
+          "text": "when the time period considered is shorter"
+        },
+        {
+          "id": "d",
+          "text": "when the good has more substitutes"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "Demand is more elastic (more price-sensitive) the **more substitutes** a good has, since buyers can easily switch away when price rises — matching (d). The other options all describe conditions for **less** elastic demand: a *broadly* defined market (a) and a *necessity* (b) both have fewer substitutes, and a *shorter* time period (c) gives consumers less time to find alternatives."
+    },
+    {
+      "id": "f22-q11",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Opportunity cost",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q11"
+      },
+      "scenario": "table25",
+      "prompt": "Refer to the scenario. What is the opportunity cost of one pair of jeans for Levi’s?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2 sweaters"
+        },
+        {
+          "id": "b",
+          "text": "2/3 sweater"
+        },
+        {
+          "id": "c",
+          "text": "3/2 sweaters"
+        },
+        {
+          "id": "d",
+          "text": "3 sweaters"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "Levi's needs 3 hours per pair of jeans and 2 hours per sweater. In the 3 hours it takes to make one pair of jeans, Levi's could instead make 3 ÷ 2 = **3/2 sweaters** — that is the opportunity cost. Option (b) inverts the ratio and instead gives the opportunity cost of a *sweater* in jeans (2/3 jean), which is what the next question asks about — for a different producer."
+    },
+    {
+      "id": "f22-q12",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Opportunity cost",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q12"
+      },
+      "scenario": "table25",
+      "prompt": "Refer to the scenario. What is the opportunity cost of one sweater for Frame?",
+      "options": [
+        {
+          "id": "a",
+          "text": "4/3 jeans"
+        },
+        {
+          "id": "b",
+          "text": "3/4 jeans"
+        },
+        {
+          "id": "c",
+          "text": "3 jeans"
+        },
+        {
+          "id": "d",
+          "text": "4 jeans"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "Frame needs 4 hours per pair of jeans and 3 hours per sweater. In the 3 hours it takes to make one sweater, Frame could instead make 3 ÷ 4 = **3/4 jean** — the opportunity cost of a sweater. Option (a) inverts the ratio, giving the opportunity cost of a *jean* in sweaters (4/3) instead of a sweater in jeans."
+    },
+    {
+      "id": "f22-q13",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Absolute vs comparative advantage",
+      "difficulty": 3,
+      "source": {
+        "ref": "Q13"
+      },
+      "scenario": "table25",
+      "prompt": "Refer to the scenario. What does each producer have an absolute or comparative advantage in?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Levi’s has a comparative advantage in sweaters, and Frame has an absolute advantage in neither good."
+        },
+        {
+          "id": "b",
+          "text": "Levi’s has a comparative advantage in sweaters, and Frame has an absolute advantage in jeans."
+        },
+        {
+          "id": "c",
+          "text": "Levi’s has a comparative advantage in jeans, and Frame has an absolute advantage in sweaters."
+        },
+        {
+          "id": "d",
+          "text": "Levi’s has a comparative advantage in jeans, and Frame has an absolute advantage in both goods."
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Levi's needs fewer hours for **both** goods (3 &lt; 4 hours for jeans, 2 &lt; 3 hours for sweaters), so Levi's has the **absolute advantage in both** — which means Frame has the absolute advantage in **neither**. Comparing opportunity costs: Levi's OC of a sweater is 2/3 jean vs. Frame's 3/4 jean (2/3 &lt; 3/4), so **Levi's has the comparative advantage in sweaters**, and by elimination Frame has the comparative advantage in jeans. Options (b)–(d) all wrongly award Frame an absolute advantage in some good, which contradicts Levi's needing fewer hours everywhere."
+    },
+    {
+      "id": "f22-q14",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Terms of trade",
+      "difficulty": 3,
+      "source": {
+        "ref": "Q14"
+      },
+      "scenario": "table25",
+      "prompt": "Refer to the scenario. What price of trade might both Levi’s and Frame agree to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 sweater = 0.5 jeans"
+        },
+        {
+          "id": "b",
+          "text": "1 jean = 2 sweaters"
+        },
+        {
+          "id": "c",
+          "text": "1 sweater = 1 jean"
+        },
+        {
+          "id": "d",
+          "text": "1 jean = 1.4 sweaters"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "Mutually beneficial terms of trade must lie **between** each producer's opportunity cost of a jean: Frame's is 4/3 (≈1.33) sweaters per jean, and Levi's is 3/2 (1.5) sweaters per jean. Any rate strictly between 1.33 and 1.5 makes both better off than producing alone — **1 jean = 1.4 sweaters** fits (d). The other options fall outside that band; (c), for example, would require identical opportunity costs, which would eliminate any gains from trade."
+    },
+    {
+      "id": "f22-q15",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Microeconomics vs macroeconomics",
+      "difficulty": 1,
+      "source": {
+        "ref": "Q15"
+      },
+      "prompt": "Which of the following would a microeconomist study?",
+      "options": [
+        {
+          "id": "a",
+          "text": "the impact of agricultural price support programs in the cotton industry"
+        },
+        {
+          "id": "b",
+          "text": "the effect of an increase in the price of imported oil on the Canadian inflation rate"
+        },
+        {
+          "id": "c",
+          "text": "the impact of monetary policy on the rate of inflation"
+        },
+        {
+          "id": "d",
+          "text": "the effect of tax policy on the rate of economic growth"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "**Microeconomics** studies individual markets and industries — like price supports in the *cotton industry* specifically (a). Options (b)–(d) all concern economy-wide aggregates (the national inflation rate, monetary policy, and overall economic growth), which are the domain of **macroeconomics**."
+    },
+    {
+      "id": "f22-q16",
+      "type": "mc",
+      "unit": 12,
+      "topic": "Free-rider problem",
+      "tags": [
+        "public-goods"
+      ],
+      "scopeNote": "Externalities and public goods (Ch. 5) are covered in Week 12 in Fall 2026, not on Midterm 1.",
+      "difficulty": 1,
+      "source": {
+        "ref": "Q16"
+      },
+      "prompt": "What causes market failure associated with the free-rider problem?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a problem associated with pollution"
+        },
+        {
+          "id": "b",
+          "text": "losses that accrue to providers of the product"
+        },
+        {
+          "id": "c",
+          "text": "a project in which costs exceed benefits"
+        },
+        {
+          "id": "d",
+          "text": "benefits that accrue to those who don’t pay"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "The free-rider problem arises from **non-excludability**: once a good is provided, people can enjoy its **benefits without paying** for it (d), so private markets under-provide it. Pollution (a) is an externality example rather than the definition of free-riding, and (b)/(c) describe cost-side problems, not the benefit-side non-payment that actually defines free-riding."
+    },
+    {
+      "id": "f22-q17",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Unit elastic demand",
+      "tags": [
+        "elasticity"
+      ],
+      "scopeNote": "Elasticity (Ch. 6) is Unit 5 in Fall 2026 and is tested on Midterm 2, not Midterm 1.",
+      "difficulty": 1,
+      "source": {
+        "ref": "Q17"
+      },
+      "prompt": "When is demand said to be unit elastic?",
+      "options": [
+        {
+          "id": "a",
+          "text": "when the quantity demanded changes by a larger percentage than the price"
+        },
+        {
+          "id": "b",
+          "text": "when the quantity demanded does not respond to a change in price"
+        },
+        {
+          "id": "c",
+          "text": "when the quantity demanded changes by the same percentage as the price"
+        },
+        {
+          "id": "d",
+          "text": "when the quantity demanded changes by a smaller percentage than the price"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "**Unit elastic** means the elasticity coefficient equals exactly 1 — the **percentage change in quantity demanded equals the percentage change in price** (c). Option (a) describes *elastic* demand (|E| &gt; 1), (d) describes *inelastic* demand (|E| &lt; 1), and (b) describes **perfectly inelastic** demand (E = 0), not unit elastic."
+    },
+    {
+      "id": "f22-q18",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Cross-price elasticity",
+      "tags": [
+        "elasticity"
+      ],
+      "scopeNote": "Elasticity (Ch. 6) is Unit 5 in Fall 2026 and is tested on Midterm 2, not Midterm 1.",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q18"
+      },
+      "prompt": "Suppose that the cross-price elasticity of demand between chips and pizza is −2. If there is a 20 percent decrease in the price of chips, what will happen to the quantity of pizza purchased?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It will rise by 200 percent."
+        },
+        {
+          "id": "b",
+          "text": "It will fall by 40 percent."
+        },
+        {
+          "id": "c",
+          "text": "It will fall by 200 percent."
+        },
+        {
+          "id": "d",
+          "text": "It will rise by 40 percent."
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "Cross-price elasticity: %ΔQ<sub>pizza</sub> = E<sub>xy</sub> × %ΔP<sub>chips</sub> = (−2) × (−20%) = **+40%**. The two negatives (a negative cross-elasticity and a price *decrease*) multiply to a **positive** 40% — pizza purchases **rise**. Option (b) gets the sign backwards, and (a)/(c) mistakenly treat 2 × 20 as 200 instead of the correct 2 × 20% = 40%."
+    },
+    {
+      "id": "f22-q19",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Price elasticity of demand",
+      "tags": [
+        "elasticity"
+      ],
+      "scopeNote": "Elasticity (Ch. 6) is Unit 5 in Fall 2026 and is tested on Midterm 2, not Midterm 1.",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q19"
+      },
+      "prompt": "If the price elasticity of demand for a good is 4.0, what would result from a 10 percent decrease in price?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a 4 percent increase in the quantity demanded"
+        },
+        {
+          "id": "b",
+          "text": "a 4 percent decrease in the quantity demanded"
+        },
+        {
+          "id": "c",
+          "text": "a 10 percent increase in the quantity demanded"
+        },
+        {
+          "id": "d",
+          "text": "a 40 percent increase in the quantity demanded"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "The law of demand says a price **decrease** raises quantity demanded. %ΔQ<sub>d</sub> = |E<sub>d</sub>| × %ΔP = 4.0 × 10% = **40% increase** (d). Options (a) and (b) mistake the elasticity value itself (4.0) for the percentage change instead of multiplying it by the 10% price change, and (b) also has the direction backwards for a price *decrease*; (c) just restates the price change instead of the resulting quantity change."
+    },
+    {
+      "id": "f22-q20",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Price floors",
+      "difficulty": 3,
+      "source": {
+        "ref": "Q20"
+      },
+      "scenario": "market1200",
+      "prompt": "Refer to the scenario. What legally imposed price would constitute a binding price floor?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$450"
+        },
+        {
+          "id": "b",
+          "text": "$650"
+        },
+        {
+          "id": "c",
+          "text": "$150"
+        },
+        {
+          "id": "d",
+          "text": "$200"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Equilibrium: 1200 − 2P = 4P → 1200 = 6P → **P = $200**, Q = 800. A price **floor** only binds if set *above* $200, which rules out (c) $150 and (d) $200 itself (exactly at equilibrium isn't binding). Between the remaining choices, $650 lies **above** the demand curve's choke price — at P = 650, Q<sub>D</sub> = 1200 − 2(650) would be negative, which is meaningless — so it isn't a valid floor within this model; **$450** is the only option that both exceeds equilibrium and stays within the demand curve's valid range (0 ≤ P ≤ 600)."
+    },
+    {
+      "id": "f22-q21",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Tax incidence — equilibrium price",
+      "difficulty": 3,
+      "source": {
+        "ref": "Q21"
+      },
+      "scenario": "market1200",
+      "prompt": "Refer to the scenario. Suppose the government implements a tax of $12 on producers. What is the new equilibrium price, after the tax?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$188"
+        },
+        {
+          "id": "b",
+          "text": "$200"
+        },
+        {
+          "id": "c",
+          "text": "$196"
+        },
+        {
+          "id": "d",
+          "text": "$208"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "With a $12 tax on producers, they receive P − 12 per unit sold, so supply becomes Q<sub>S</sub> = 4(P − 12). Setting Q<sub>D</sub> = Q<sub>S</sub>: 1200 − 2P = 4P − 48 → 1248 = 6P → **P = $208** — the new price consumers pay. Producers keep $208 − $12 = $196, so (c) is the *producer* price, not the equilibrium (consumer) price the question asks for, and (a)/(b) don't solve the after-tax system at all."
+    },
+    {
+      "id": "f22-q22",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Tax incidence — burden",
+      "difficulty": 3,
+      "source": {
+        "ref": "Q22"
+      },
+      "scenario": "market1200",
+      "prompt": "Refer to the scenario. How is the burden of the above tax divided between consumers and producers?",
+      "options": [
+        {
+          "id": "a",
+          "text": "consumers bear a larger burden of the tax because the demand curve is more inelastic than the supply curve"
+        },
+        {
+          "id": "b",
+          "text": "producers bear a larger burden of the tax because the tax was placed on producers"
+        },
+        {
+          "id": "c",
+          "text": "producers bear a larger burden of the tax because the supply curve is more elastic than the demand curve"
+        },
+        {
+          "id": "d",
+          "text": "producers bear a larger burden of the tax because the supply curve is more inelastic than the demand curve"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "From the previous question: consumers now pay $208 (up **$8** from $200) while producers receive $196 (down **$4** from $200) — consumers already absorb $8 of the $12 tax and producers only $4, before even discussing elasticity. This matches the elasticity rule: at equilibrium (P = 200, Q = 800), |E<sub>d</sub>| = 2·200/800 = 0.5 while |E<sub>s</sub>| = 4·200/800 = 1.0, so **demand is more inelastic** than supply, and the more inelastic side of a market always bears the larger share of a tax. Options (b)–(d) all wrongly conclude producers bear more, which the $8-vs-$4 split already contradicts."
+    },
+    {
+      "id": "f22-q23",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Deadweight loss",
+      "difficulty": 3,
+      "source": {
+        "ref": "Q23"
+      },
+      "scenario": "market1200",
+      "prompt": "Refer to the scenario. What is the value of deadweight loss due to this tax?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$132"
+        },
+        {
+          "id": "b",
+          "text": "$196"
+        },
+        {
+          "id": "c",
+          "text": "$66"
+        },
+        {
+          "id": "d",
+          "text": "$96"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "The after-tax quantity is Q = 4(196) = **784**, down from the original 800. Deadweight loss is the triangle between the old and new quantity: DWL = ½ × tax × ΔQ = ½ × $12 × (800 − 784) = ½ × 12 × 16 = **$96**. Options (a) and (c) use the wrong base or omit the ½, and (b) is simply the after-tax producer price, not the DWL triangle."
+    },
+    {
+      "id": "f22-q24",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Producer surplus after a tax",
+      "difficulty": 3,
+      "source": {
+        "ref": "Q24"
+      },
+      "scenario": "market1200",
+      "prompt": "Refer to the scenario. What is the value of producer surplus after this tax?",
+      "options": [
+        {
+          "id": "a",
+          "text": "$153,664"
+        },
+        {
+          "id": "b",
+          "text": "$230,496"
+        },
+        {
+          "id": "c",
+          "text": "$76,832"
+        },
+        {
+          "id": "d",
+          "text": "$88,785"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "After the tax, producers receive $196 per unit and sell Q = 784 units. Since supply is linear from the origin (Q<sub>S</sub> = 4P), producer surplus is the triangle under the price line and above supply: PS = ½ × Q × (producer price) = ½ × 784 × 196 = **$76,832**. The other options either use the pre-tax price/quantity or mistakenly use the $208 consumer price instead of the $196 producers actually keep."
+    },
+    {
+      "id": "f22-q25",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Slope vs elasticity",
+      "tags": [
+        "elasticity"
+      ],
+      "scopeNote": "Elasticity (Ch. 6) is Unit 5 in Fall 2026 and is tested on Midterm 2, not Midterm 1.",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q25"
+      },
+      "prompt": "Moving down a linear demand curve, what happens to the slope and the elasticity?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The slope and elasticity both change."
+        },
+        {
+          "id": "b",
+          "text": "The slope is constant but elasticity changes."
+        },
+        {
+          "id": "c",
+          "text": "The slope and elasticity are both constant."
+        },
+        {
+          "id": "d",
+          "text": "The slope changes but elasticity is constant."
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "For a **linear** demand curve, the slope (ΔP/ΔQ) is constant by definition. But elasticity = (1/slope) × (P/Q), and the ratio **P/Q changes** at every point along the line — falling as you move down the curve — so **elasticity is not constant** even though slope is (b). This is why demand is elastic near the top of a linear curve and inelastic near the bottom, despite the line's steepness never changing."
+    },
+    {
+      "id": "f22-q26",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Equilibrium price and quantity",
+      "difficulty": 3,
+      "source": {
+        "ref": "Q26"
+      },
+      "scenario": "market140",
+      "prompt": "Refer to the scenario. In a perfectly competitive equilibrium, what will be the price and quantity traded in the market?",
+      "options": [
+        {
+          "id": "a",
+          "text": "price will be $20 and quantity will be 25"
+        },
+        {
+          "id": "b",
+          "text": "price will be $45 and quantity will be 50"
+        },
+        {
+          "id": "c",
+          "text": "price will be $35 and quantity will be 40"
+        },
+        {
+          "id": "d",
+          "text": "price will be $10 and quantity will be 15"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "Set Q<sub>d</sub> = Q<sub>s</sub>: 140 − 2P = P + 5 → 135 = 3P → **P = $45**. Substitute back into either equation: Q = 45 + 5 = **50**. None of the other price/quantity pairs satisfy both equations simultaneously — plugging $35 or $20 into the demand equation, for instance, gives a quantity that doesn't match the paired supply quantity."
+    },
+    {
+      "id": "f22-q27",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Surplus at a price above equilibrium",
+      "difficulty": 3,
+      "source": {
+        "ref": "Q27"
+      },
+      "scenario": "market140",
+      "prompt": "Refer to the scenario. What would result if the market price were $60?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a shortage of 15"
+        },
+        {
+          "id": "b",
+          "text": "a surplus of 45"
+        },
+        {
+          "id": "c",
+          "text": "a surplus of 15"
+        },
+        {
+          "id": "d",
+          "text": "a shortage of 30"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "At P = $60 (above the $45 equilibrium): Q<sub>d</sub> = 140 − 2(60) = **20**, and Q<sub>s</sub> = 60 + 5 = **65**. Since quantity supplied exceeds quantity demanded, there is a **surplus of 65 − 20 = 45 units** (b). A price *above* equilibrium always creates a surplus rather than a shortage, which rules out (a) and (d), and (c) simply miscalculates one of the two quantities."
+    },
+    {
+      "id": "f22-q28",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Income elasticity of demand",
+      "tags": [
+        "elasticity"
+      ],
+      "scopeNote": "Elasticity (Ch. 6) is Unit 5 in Fall 2026 and is tested on Midterm 2, not Midterm 1.",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q28"
+      },
+      "prompt": "Assume that a 2 percent increase in income results in a 4 percent increase in the quantity demanded of a good. What is the income elasticity of demand for the good, and what type of good is it?",
+      "options": [
+        {
+          "id": "a",
+          "text": "positive, and therefore the good is an inferior good"
+        },
+        {
+          "id": "b",
+          "text": "negative, and therefore the good is a normal good"
+        },
+        {
+          "id": "c",
+          "text": "positive, and therefore the good is a normal good"
+        },
+        {
+          "id": "d",
+          "text": "negative, and therefore the good is an inferior good"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "Income elasticity = %ΔQ<sub>d</sub> / %ΔIncome = 4% / 2% = **+2** — **positive**, meaning quantity demanded rises when income rises, which is the definition of a **normal good** (c). A positive income elasticity can never indicate an inferior good (a), since inferior goods have *negative* income elasticity by definition; options (b) and (d) both mislabel the sign of the elasticity itself."
+    },
+    {
+      "id": "f22-q29",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Producer surplus and demand shifts",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q29"
+      },
+      "prompt": "Suppose the demand for bananas decreases. What will happen to producer surplus in the market for bananas?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It increases."
+        },
+        {
+          "id": "b",
+          "text": "It decreases."
+        },
+        {
+          "id": "c",
+          "text": "It is unaffected by this change in market forces."
+        },
+        {
+          "id": "d",
+          "text": "It decreases briefly then increases."
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "A fall in demand for bananas shifts the demand curve **left**, lowering both the equilibrium price and the equilibrium quantity traded. Producer surplus is the area below the market price and above the supply curve — with a **lower price and lower quantity**, that area shrinks, so producer surplus **decreases** (b). It can't be unaffected (c) since both the price and quantity that determine PS have changed."
+    },
+    {
+      "id": "f22-q30",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Price above equilibrium",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q30"
+      },
+      "prompt": "Suppose shirts are currently selling for $25 each. The equilibrium price of shirts is $15 each. What would we expect?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a shortage to exist and the market price of shirts to decrease"
+        },
+        {
+          "id": "b",
+          "text": "a shortage to exist and the market price of shirts to increase"
+        },
+        {
+          "id": "c",
+          "text": "a surplus to exist and the market price of shirts to increase"
+        },
+        {
+          "id": "d",
+          "text": "a surplus to exist and the market price of shirts to decrease"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "The market price ($25) is **above** the equilibrium price ($15), so quantity supplied exceeds quantity demanded — a **surplus**. Excess supply pushes the market price back **down** toward the $15 equilibrium (d). A price above equilibrium can never create a shortage, ruling out (a) and (b), and a surplus pushes price down rather than up, ruling out (c)."
+    },
+    {
+      "id": "f22-q31",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Elasticity and total revenue",
+      "tags": [
+        "elasticity"
+      ],
+      "scopeNote": "Elasticity (Ch. 6) is Unit 5 in Fall 2026 and is tested on Midterm 2, not Midterm 1.",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q31"
+      },
+      "prompt": "Your younger brother opened a lemonade stand to make the $300 he needs to buy a trampoline. He is currently charging 50 cents per cup, but wants to adjust his price to earn the money faster. What is your advice to him?",
+      "options": [
+        {
+          "id": "a",
+          "text": "If the demand for lemonade is elastic, lower the price to increase total revenue."
+        },
+        {
+          "id": "b",
+          "text": "If the demand for lemonade is inelastic, lower the price to increase total revenue."
+        },
+        {
+          "id": "c",
+          "text": "If the demand for lemonade is elastic, raise the price to increase total revenue."
+        },
+        {
+          "id": "d",
+          "text": "If the demand for lemonade is unit elastic, raise the price to increase total revenue."
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Total revenue rises when quantity responds proportionally *more* than price — which happens precisely when demand is **elastic**: lowering price then increases revenue because the percentage rise in quantity sold outweighs the percentage fall in price (a). If demand were inelastic (b), lowering price would instead *reduce* revenue; raising price under elastic demand (c) would *reduce* revenue for the same reason in reverse, and revenue stays unchanged (not increases) under unit-elastic demand regardless of direction (d)."
+    },
+    {
+      "id": "f22-q32",
+      "type": "mc",
+      "unit": 12,
+      "topic": "Correcting externalities",
+      "tags": [
+        "externalities"
+      ],
+      "scopeNote": "Externalities and public goods (Ch. 5) are covered in Week 12 in Fall 2026, not on Midterm 1.",
+      "difficulty": 1,
+      "source": {
+        "ref": "Q32"
+      },
+      "prompt": "Which of the following actions should government take in order to internalize externalities?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Government should tax goods with positive externalities and subsidize goods with negative externalities."
+        },
+        {
+          "id": "b",
+          "text": "Government should tax goods with negative externalities and subsidize goods with positive externalities."
+        },
+        {
+          "id": "c",
+          "text": "Government should subsidize goods with either positive or negative externalities."
+        },
+        {
+          "id": "d",
+          "text": "Government should tax goods with either positive or negative externalities."
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "Internalizing an externality means making the private decision-maker feel the **full social cost or benefit** of their choice. A **negative** externality means the activity is *overproduced* relative to the social optimum, so a **tax** discourages it; a **positive** externality means the activity is *underproduced*, so a **subsidy** encourages more of it (b). Option (a) has the tax/subsidy pairing exactly backwards, and (c)/(d) apply the same tool to both cases, which fails to correct one of the two."
+    },
+    {
+      "id": "f22-q33",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Scarcity",
+      "difficulty": 1,
+      "source": {
+        "ref": "Q33"
+      },
+      "prompt": "When does scarcity exist?",
+      "options": [
+        {
+          "id": "a",
+          "text": "when society can meet the wants of every individual"
+        },
+        {
+          "id": "b",
+          "text": "when there is less than an infinite amount of a resource or good"
+        },
+        {
+          "id": "c",
+          "text": "when the government fails to produce goods"
+        },
+        {
+          "id": "d",
+          "text": "when there is less of a good or resource available than people wish to have"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "**Scarcity** exists because wants are effectively unlimited while resources are limited — there is **less of a good or resource available than people wish to have** (d). Option (b) is a tempting distractor: a merely *finite* amount doesn't by itself create scarcity if that amount is still enough to satisfy everyone's wants — scarcity is about the *relative* shortfall between availability and desire, not finiteness alone."
+    },
+    {
+      "id": "f22-q34",
+      "type": "mc",
+      "unit": 12,
+      "topic": "Positive externalities",
+      "tags": [
+        "externalities"
+      ],
+      "scopeNote": "Externalities and public goods (Ch. 5) are covered in Week 12 in Fall 2026, not on Midterm 1.",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q34"
+      },
+      "prompt": "What will a market that experiences a positive consumption externality also experience?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a greater market output and higher market price than is optimal"
+        },
+        {
+          "id": "b",
+          "text": "a greater market output and lower market price than is optimal"
+        },
+        {
+          "id": "c",
+          "text": "a smaller market output and lower market price than is optimal"
+        },
+        {
+          "id": "d",
+          "text": "a smaller market output and a higher market price than is optimal"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "With a **positive consumption externality**, the private demand curve (which ignores the external benefit enjoyed by third parties) lies *below* the true social-benefit curve. The market therefore settles at a **lower price and smaller quantity** than the socially optimal outcome would produce (c) — too little of the good gets consumed because its full social value isn't reflected in what buyers are willing to pay."
+    },
+    {
+      "id": "f22-q35",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Movement along a demand curve",
+      "difficulty": 1,
+      "source": {
+        "ref": "Q35"
+      },
+      "prompt": "When we move up or down a given demand curve, what is held constant?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Everything but the price of the good itself."
+        },
+        {
+          "id": "b",
+          "text": "Income and the price of the good are held constant."
+        },
+        {
+          "id": "c",
+          "text": "All determinants of quantity demanded are held constant."
+        },
+        {
+          "id": "d",
+          "text": "Only price is held constant."
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Moving **along** a single demand curve isolates the effect of the good's **own price** on quantity demanded — every other determinant (income, prices of related goods, tastes, expectations) is held fixed, so 'everything **but** the price of the good itself' is held constant (a). Option (c) is the tempting-but-wrong choice: price is itself a determinant of quantity demanded, so saying *all* determinants are held constant would wrongly imply price doesn't move either, leaving no movement along the curve at all."
+    },
+    {
+      "id": "f22-q36",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Marginal change",
+      "difficulty": 1,
+      "source": {
+        "ref": "Q36"
+      },
+      "prompt": "What is a marginal change?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a large, significant adjustment"
+        },
+        {
+          "id": "b",
+          "text": "a small incremental adjustment"
+        },
+        {
+          "id": "c",
+          "text": "a long-term trend"
+        },
+        {
+          "id": "d",
+          "text": "a change for the worse, and so is usually short term"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "A **marginal change** is a **small, incremental adjustment** to an existing plan of action (b) — the basis of marginal analysis, where decision-makers compare the extra benefit to the extra cost of one more unit. It has nothing to do with the size implied by (a), the time horizon implied by (c), or any value judgment about direction implied by (d)."
+    },
+    {
+      "id": "f22-q37",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Opportunity cost from a PPF",
+      "difficulty": 3,
+      "source": {
+        "ref": "Q37"
+      },
+      "figure": {
+        "type": "graph",
+        "caption": "Figure — production possibilities for food and machines",
+        "spec": {
+          "x": {
+            "label": "Machines",
+            "min": 0,
+            "max": 80,
+            "step": 10
+          },
+          "y": {
+            "label": "Food",
+            "min": 0,
+            "max": 40,
+            "step": 5
+          },
+          "curves": [
+            {
+              "id": "ppf",
+              "label": "PPF",
+              "color": "slate",
+              "smooth": true,
+              "points": [
+                [
+                  0,
+                  35
+                ],
+                [
+                  10,
+                  34.5
+                ],
+                [
+                  20,
+                  33
+                ],
+                [
+                  30,
+                  30
+                ],
+                [
+                  40,
+                  25.5
+                ],
+                [
+                  50,
+                  19.5
+                ],
+                [
+                  60,
+                  10
+                ],
+                [
+                  70,
+                  0
+                ]
+              ],
+              "labelPos": "start"
+            }
+          ],
+          "points": [
+            {
+              "id": "A",
+              "label": "A",
+              "x": 30,
+              "y": 30,
+              "drop": "both"
+            },
+            {
+              "id": "B",
+              "label": "B",
+              "x": 30,
+              "y": 20
+            },
+            {
+              "id": "C",
+              "label": "C",
+              "x": 50,
+              "y": 25
+            },
+            {
+              "id": "D",
+              "label": "D",
+              "x": 60,
+              "y": 10,
+              "drop": "both"
+            }
+          ]
+        }
+      },
+      "prompt": "Refer to Figure. What is the opportunity cost of moving from point D to point A?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3/2 machine"
+        },
+        {
+          "id": "b",
+          "text": "30 food"
+        },
+        {
+          "id": "c",
+          "text": "2/3 machine"
+        },
+        {
+          "id": "d",
+          "text": "3/2 food"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Moving from D (60, 10) to A (30, 30): machines given up = 60 − 30 = **30**; food gained = 30 − 10 = **20**. The opportunity cost of the extra food is 30 ÷ 20 = **3/2 machine** per unit of food (a). Option (d) has the identical number but the wrong label (food instead of machines), (c) inverts the ratio (20 ÷ 30), and (b) simply restates the raw 30-machine change without expressing it per unit of food gained."
+    },
+    {
+      "id": "f22-q38",
+      "type": "mc",
+      "unit": 12,
+      "topic": "Types of goods — common resources",
+      "tags": [
+        "public-goods"
+      ],
+      "scopeNote": "Externalities and public goods (Ch. 5) are covered in Week 12 in Fall 2026, not on Midterm 1.",
+      "difficulty": 1,
+      "source": {
+        "ref": "Q38"
+      },
+      "prompt": "What are common resource goods?",
+      "options": [
+        {
+          "id": "a",
+          "text": "rival in consumption but not excludable"
+        },
+        {
+          "id": "b",
+          "text": "neither excludable nor rival in consumption"
+        },
+        {
+          "id": "c",
+          "text": "both excludable and rival in consumption"
+        },
+        {
+          "id": "d",
+          "text": "excludable but not rival in consumption"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "The four-way goods classification splits goods by **excludability** and **rivalry**. **Common resources** are **rival** in consumption (one person's use reduces what's left for others, like fish in the ocean) but **not excludable** (anyone can access them) — matching (a). Option (c) describes **private goods**, (b) describes **public goods**, and (d) describes a **club good**."
+    },
+    {
+      "id": "f22-q39",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Comparative advantage and gains from trade",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q39"
+      },
+      "prompt": "For two people who are planning to trade two different goods, when will there NOT be a comparative advantage for either?",
+      "options": [
+        {
+          "id": "a",
+          "text": "if they have exactly the same opportunity cost"
+        },
+        {
+          "id": "b",
+          "text": "if they have agreed in advance on who will produce what and how much each will produce"
+        },
+        {
+          "id": "c",
+          "text": "if the terms of trade are such that neither can gain from trade"
+        },
+        {
+          "id": "d",
+          "text": "if one person has an absolute advantage in both products"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Comparative advantage — and therefore gains from trade — exists only when two producers have **different** opportunity costs. If both have **exactly the same opportunity cost** (a), neither can produce a good relatively more cheaply than the other, so there's nothing to gain from specializing and trading. Option (d) is a common trap: having an absolute advantage in *both* goods (like Levi's in the Table 2-5 questions) does **not** rule out a comparative advantage for the other party, since comparative advantage depends on relative, not absolute, costs."
+    },
+    {
+      "id": "f22-q40",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Shape of the PPF",
+      "difficulty": 1,
+      "source": {
+        "ref": "Q40"
+      },
+      "prompt": "When will a production possibilities frontier be linear and not bowed out?",
+      "options": [
+        {
+          "id": "a",
+          "text": "if the tradeoff between the two goods is always at a constant rate."
+        },
+        {
+          "id": "b",
+          "text": "if the unemployment rate is zero."
+        },
+        {
+          "id": "c",
+          "text": "if no tradeoffs exist."
+        },
+        {
+          "id": "d",
+          "text": "if resources are allocated efficiently."
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "A PPF is **bowed outward** when resources aren't equally suited to producing both goods, so the opportunity cost of each good **rises** as more of it is produced. A PPF is **linear** instead when that opportunity cost is **constant** — the tradeoff between the two goods happens **at the same rate** everywhere along the frontier (a). Being on the frontier at all already implies full employment (b) and efficient resource use (d), so those describe *any* point on a PPF rather than explaining why it would be straight instead of bowed."
+    }
+  ]
+}

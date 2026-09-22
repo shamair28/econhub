@@ -1,0 +1,168 @@
+{
+  "schema": "practice-bank/v1",
+  "id": "demo",
+  "course": "DEMO",
+  "title": "Framework Demo",
+  "description": "One question of every type, used to exercise the engine and as a copy-paste reference for bank authors.",
+  "defaultSource": { "label": "Demo Bank", "kind": "custom" },
+  "scenarios": {
+    "market": {
+      "title": "A simple market",
+      "body": "Market demand is **Q<sub>d</sub> = 140 − 2P** and market supply is **Q<sub>s</sub> = P + 5**.",
+      "table": { "caption": "Table D-1 · Hours needed to make one unit", "headers": ["", "Jeans", "Sweaters"], "rows": [["Levi's", "3", "2"], ["Frame", "4", "3"]], "rowHeaders": true }
+    }
+  },
+  "questions": [
+    {
+      "id": "demo-mc",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Equilibrium",
+      "difficulty": 1,
+      "source": { "ref": "MC example" },
+      "scenario": "market",
+      "prompt": "Refer to the scenario. In a perfectly competitive equilibrium, what are the price and quantity traded?",
+      "options": [
+        "price will be $20 and quantity will be 25",
+        "price will be $45 and quantity will be 50",
+        "price will be $35 and quantity will be 40",
+        "price will be $10 and quantity will be 15"
+      ],
+      "answer": "b",
+      "explanation": "Set Q<sub>d</sub> = Q<sub>s</sub>: 140 − 2P = P + 5 → 135 = 3P → **P = 45**. Substitute back: Q = 45 + 5 = **50**."
+    },
+    {
+      "id": "demo-numeric",
+      "type": "numeric",
+      "unit": 3,
+      "topic": "Surplus / shortage",
+      "difficulty": 2,
+      "source": { "ref": "Numeric example" },
+      "scenario": "market",
+      "prompt": "Refer to the scenario. If the market price were $60, what would the size of the surplus be (in units)?",
+      "answer": { "value": 45, "tolerance": 0.5, "hint": "Q<sub>s</sub> − Q<sub>d</sub> at P = 60" },
+      "explanation": "At P = 60: Q<sub>d</sub> = 140 − 120 = 20 and Q<sub>s</sub> = 60 + 5 = 65. Surplus = 65 − 20 = **45**."
+    },
+    {
+      "id": "demo-multi",
+      "type": "multi",
+      "unit": 3,
+      "topic": "Demand shifters",
+      "difficulty": 2,
+      "source": { "ref": "Multi-select example" },
+      "prompt": "Which of the following would shift the demand curve for coffee to the **right**? Select all that apply.",
+      "options": [
+        "An increase in consumer income (coffee is a normal good)",
+        "A fall in the price of tea, a substitute",
+        "A fall in the price of coffee creamer, a complement",
+        "A fall in the price of coffee itself"
+      ],
+      "answer": ["a", "c"],
+      "explanation": "Income up (normal good) and a cheaper complement both raise demand at every price. A cheaper *substitute* pulls buyers away (demand falls). A change in coffee's own price is a **movement along** the curve, not a shift."
+    },
+    {
+      "id": "demo-tf",
+      "type": "tf",
+      "unit": 4,
+      "topic": "Price controls",
+      "difficulty": 1,
+      "source": { "ref": "True/false example" },
+      "prompt": "A price ceiling set *above* the equilibrium price is binding and creates a shortage.",
+      "answer": false,
+      "explanation": "A ceiling only binds when it is set **below** P*. Above P* the market simply settles at equilibrium and the ceiling has no effect."
+    },
+    {
+      "id": "demo-figure",
+      "type": "mc",
+      "unit": 2,
+      "topic": "PPF & opportunity cost",
+      "difficulty": 2,
+      "source": { "ref": "Static figure example" },
+      "figure": {
+        "type": "graph",
+        "caption": "Figure D-1 · Production possibilities for food and machines",
+        "spec": {
+          "x": { "label": "Machines", "min": 0, "max": 80, "step": 10 },
+          "y": { "label": "Food", "min": 0, "max": 40, "step": 5 },
+          "curves": [ { "id": "ppf", "label": "PPF", "color": "slate", "smooth": true, "points": [[0, 35], [15, 34], [30, 30], [45, 23], [60, 10], [70, 0]] } ],
+          "points": [
+            { "id": "A", "label": "A", "x": 30, "y": 30, "drop": "both" },
+            { "id": "B", "label": "B", "x": 30, "y": 20 },
+            { "id": "C", "label": "C", "x": 50, "y": 25 },
+            { "id": "D", "label": "D", "x": 60, "y": 10, "drop": "both" }
+          ]
+        }
+      },
+      "prompt": "Refer to Figure D-1. What is the opportunity cost of moving from point D to point A?",
+      "options": ["3/2 machine", "30 food", "2/3 machine", "3/2 food"],
+      "answer": "a",
+      "explanation": "D → A gives up 60 − 30 = 30 machines to gain 30 − 10 = 20 food. Per unit of food: 30 ÷ 20 = **3/2 machine**."
+    },
+    {
+      "id": "demo-graph-shift",
+      "type": "graph",
+      "unit": 3,
+      "topic": "Shift in demand",
+      "difficulty": 2,
+      "source": { "ref": "Graph example · shift" },
+      "prompt": "Consumer incomes rise and coffee is a **normal good**. Draw the new demand curve **D₂** and mark the new equilibrium **E₂**.",
+      "graph": {
+        "x": { "label": "Quantity of coffee", "min": 0, "max": 100, "hideTicks": true },
+        "y": { "label": "Price", "min": 0, "max": 100, "hideTicks": true },
+        "curves": [
+          { "id": "D", "label": "D₁", "points": [[8, 78], [70, 12]], "color": "blue" },
+          { "id": "S", "label": "S", "points": [[8, 12], [78, 82]], "color": "red" }
+        ],
+        "points": [ { "id": "E", "label": "E₁", "x": 44.3, "y": 48.3, "drop": "both", "dropLabels": { "x": "Q₁", "y": "P₁" } } ],
+        "tasks": [
+          { "id": "D2", "kind": "line", "label": "D₂", "prompt": "Draw the new demand curve D₂", "expect": { "slope": "negative", "shiftOf": "D", "direction": "right" } },
+          { "id": "E2", "kind": "point", "label": "E₂", "prompt": "Mark the new equilibrium E₂", "expect": { "atIntersection": ["user:D2", "S"], "relativeTo": { "ref": "E", "x": "+", "y": "+" } } }
+        ]
+      },
+      "explanation": "Higher income raises the demand for a normal good at **every** price, so the whole curve shifts right. Supply is unchanged, so the market slides up along S: both equilibrium price and quantity rise."
+    },
+    {
+      "id": "demo-graph-movement",
+      "type": "graph",
+      "unit": 3,
+      "topic": "Movement along supply",
+      "difficulty": 1,
+      "source": { "ref": "Graph example · point on curve" },
+      "prompt": "The supply curve is P = 20 + 3Q. Mark the point on the supply curve showing quantity supplied when the price is **$110**.",
+      "graph": {
+        "x": { "label": "Quantity", "min": 0, "max": 60, "step": 10 },
+        "y": { "label": "Price ($)", "min": 0, "max": 200, "step": 40 },
+        "curves": [ { "id": "S", "label": "S", "linear": { "intercept": 20, "slope": 3 }, "color": "red" } ],
+        "guides": [ { "axis": "y", "at": 110, "label": "$110", "dashed": true } ],
+        "tasks": [
+          { "id": "pt", "kind": "point", "label": "Q at $110", "prompt": "Place the point on S where P = $110", "expect": { "onCurve": "S", "atY": 110, "tol": 0.07 } }
+        ]
+      },
+      "explanation": "Solve 110 = 20 + 3Q → Q = **30**. A change in the good's own price is a movement *along* the supply curve — supply itself does not shift."
+    },
+    {
+      "id": "demo-graph-ceiling",
+      "type": "graph",
+      "unit": 4,
+      "topic": "Price ceiling",
+      "difficulty": 3,
+      "source": { "ref": "Graph example · price control" },
+      "prompt": "The government imposes a binding **price ceiling**. Draw the ceiling as a horizontal line below the equilibrium price, then mark the quantity supplied at that price on the supply curve.",
+      "graph": {
+        "x": { "label": "Quantity", "min": 0, "max": 100, "hideTicks": true },
+        "y": { "label": "Price", "min": 0, "max": 100, "hideTicks": true },
+        "curves": [
+          { "id": "D", "label": "D", "points": [[8, 82], [80, 10]], "color": "blue" },
+          { "id": "S", "label": "S", "points": [[8, 10], [80, 82]], "color": "red" },
+          { "id": "Pstar", "points": [[0, 45], [100, 45]], "hidden": true }
+        ],
+        "points": [ { "id": "E", "label": "E", "x": 45, "y": 45, "drop": "both", "dropLabels": { "x": "Q*", "y": "P*" } } ],
+        "tasks": [
+          { "id": "ceil", "kind": "line", "label": "P max", "prompt": "Draw the price ceiling", "expect": { "slope": "flat", "shiftOf": "Pstar", "direction": "down" }, "hints": { "shift": "A binding ceiling must sit below the equilibrium price." }, "model": { "points": [[0, 28], [100, 28]] } },
+          { "id": "qs", "kind": "point", "label": "Qₛ", "prompt": "Mark quantity supplied at the ceiling", "expect": { "atIntersection": ["user:ceil", "S"], "relativeTo": { "ref": "E", "x": "-", "y": "-" } } }
+        ]
+      },
+      "explanation": "A binding ceiling is a horizontal line **below** P*. At that lower price, producers move down along S and supply less (Q<sub>s</sub> < Q*), while consumers want more (Q<sub>d</sub> > Q*) — a shortage."
+    }
+  ]
+}

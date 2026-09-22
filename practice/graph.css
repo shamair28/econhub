@@ -1,0 +1,43 @@
+/* practice/graph.css — styles for EconGraph (graph.js)
+ * The plot itself is always drawn on white (like a printed figure) so curve colours stay
+ * legible in both colour schemes; only the task bar / hint follow the page theme.
+ */
+
+.eg { --eg-text: #374151; --eg-muted: #6B7280; --eg-grid: #E5E7EB; --eg-ui-text: #374151; --eg-ui-muted: #6B7280; --eg-ui-bg: #FFFFFF; --eg-chip: #F3F4F6; --eg-border: #E5E7EB; }
+.eg-wrap { display: flex; flex-direction: column; gap: 10px; align-items: center; }
+.eg-svg { display: block; width: 100%; height: auto; background: #FFFFFF; border-radius: 10px; user-select: none; -webkit-user-select: none; font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+.eg-svg.is-interactive { cursor: crosshair; touch-action: none; }
+.eg-svg.is-interactive.is-locked { cursor: default; }
+.eg-gridline { stroke: var(--eg-grid); stroke-width: 1; stroke-dasharray: 3 4; }
+.eg-axis-label { font-size: 14px; font-weight: 600; fill: var(--eg-text); }
+.eg-tick { font-size: 12px; fill: var(--eg-muted); }
+.eg-curve-label { font-size: 15px; font-weight: 700; }
+.eg-point-label { font-size: 14px; font-weight: 700; }
+.eg-region-label { font-size: 13px; font-weight: 700; }
+.eg-guide-label { font-size: 12px; font-weight: 600; }
+.eg-user-line { filter: drop-shadow(0 1px 1px rgba(0,0,0,0.15)); }
+.eg-model path, .eg-model circle { opacity: 0.9; }
+.eg-hit { cursor: inherit; }
+.eg-caption { font-size: 0.85rem; color: var(--eg-ui-muted); font-style: italic; text-align: center; }
+
+/* task bar */
+.eg-taskbar { width: 100%; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; }
+.eg-taskbar.is-locked .eg-task { cursor: default; }
+.eg-tasks { display: flex; flex-wrap: wrap; gap: 8px; }
+.eg-task { --task-color: #7C3AED; display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px 6px 6px; border-radius: 999px; border: 1.5px solid var(--eg-border); background: var(--eg-chip); color: var(--eg-ui-text); font: 600 0.85rem/1.2 ui-sans-serif, system-ui, sans-serif; cursor: pointer; transition: background .15s, border-color .15s, transform .15s; }
+.eg-task:hover { transform: translateY(-1px); }
+.eg-task.is-active { border-color: var(--task-color); background: color-mix(in srgb, var(--task-color) 14%, var(--eg-ui-bg)); }
+.eg-task.is-done .eg-task-state { color: #059669; }
+.eg-task-num { width: 22px; height: 22px; border-radius: 50%; background: var(--task-color); color: #fff; display: inline-flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 700; }
+.eg-task-state { min-width: 12px; font-weight: 800; }
+.eg-controls { display: flex; gap: 6px; }
+.eg-btn { padding: 6px 12px; border-radius: 8px; border: 1.5px solid var(--eg-border); background: var(--eg-ui-bg); color: var(--eg-ui-text); font: 600 0.82rem ui-sans-serif, system-ui, sans-serif; cursor: pointer; }
+.eg-btn:hover { background: var(--eg-chip); }
+.eg-taskbar.is-locked .eg-btn { opacity: 0.4; pointer-events: none; }
+.eg-hint { font-size: 0.85rem; color: var(--eg-ui-muted); min-height: 1.2em; text-align: center; transition: color .2s; }
+.eg-hint.is-flash { color: #DC2626; font-weight: 600; }
+
+@media (prefers-color-scheme: dark) {
+  .eg:not([data-theme="light"]) { --eg-ui-text: #E5E7EB; --eg-ui-muted: #9CA3AF; --eg-ui-bg: #111827; --eg-chip: #1F2937; --eg-border: #374151; }
+  .eg:not([data-theme="light"]) .eg-task.is-done .eg-task-state { color: #34D399; }
+}

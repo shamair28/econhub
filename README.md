@@ -17,6 +17,12 @@ Every chapter page is a self-contained, rendered HTML lesson that includes:
 - **Chapter summary table** — key concepts, formulas, and when to use them
 - **Self-check checklist** — skills you should be able to do before moving on
 
+## Practice tests
+
+Interactive, one-question-at-a-time practice tests built on the reusable framework in `practice/` (see `practice/SCHEMA.md`):
+
+- **ECON 1B03 · Midterm 1** — `/1B03/midterm1` — the Fall 2022 practice midterm (40 MC, with the official key) plus new questions written from the Unit 1–4 lecture slides, including numeric problems and **graph-drawing drills** (draw a shifted demand curve, mark the new equilibrium, draw a price ceiling…). Practice mode gives instant feedback with explanations; exam mode is timed like the real test. Every question shows where it came from.
+
 ---
 ### [Current public-facing site](https://econ.canhost.cc)
 *built with Claude Code and hosted via Cloudflare Pages.*

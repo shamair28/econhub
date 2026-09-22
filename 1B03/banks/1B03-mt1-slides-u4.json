@@ -1,0 +1,674 @@
+{
+  "schema": "practice-bank/v1",
+  "id": "1B03-mt1-slides-u4",
+  "course": "ECON 1B03",
+  "title": "Unit 4 Lecture Slides",
+  "defaultSource": {
+    "label": "Unit 4 Lecture Slides",
+    "kind": "slides"
+  },
+  "defaultUnit": 4,
+  "scenarios": {
+    "u4-tax-market": {
+      "title": "A taxed market",
+      "body": "In a competitive market, demand is **P = 140 − 2Q** and supply is **P = 20 + 4Q** (P in dollars per unit, Q in units). The next five questions refer to this market, including the effect of an **$18 unit tax imposed on producers**."
+    }
+  },
+  "questions": [
+    {
+      "id": "u4-q01",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Consumer surplus",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 4.1 · slide 5–7"
+      },
+      "prompt": "Which statement about consumer surplus (CS) is correct?",
+      "options": [
+        "CS is the value a consumer places on a unit (read off the demand curve) minus the price actually paid, so CS = 0 on the last unit bought at Q*",
+        "CS is the price a consumer actually pays minus the marginal cost of producing the unit",
+        "CS is the same for every unit purchased because all consumers pay the same market price P*",
+        "CS is largest for the last unit purchased because that unit is valued the most"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The demand curve shows how much each unit is **valued**; CS = Value − Price. At Q*, the demand price equals P*, so CS = P* − P* = **0** on the last unit. Option b describes producer surplus, not CS. Option c is wrong — CS shrinks as Q rises toward Q* because value falls while price stays at P*. Option d has it backwards: the *first* units are valued most, not the last."
+    },
+    {
+      "id": "u4-q02",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Consumer expenditure & producer revenue",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 4.2 · slide 20"
+      },
+      "prompt": "In a competitive market with equilibrium price P* and quantity Q*, total consumer expenditure equals P* × Q*. From the sellers' side, this same dollar amount is best described as...",
+      "options": [
+        "Producer revenue, since every dollar consumers spend is received by producers",
+        "Producer surplus, since it captures sellers' gains from trade",
+        "Deadweight loss, since resources were used up producing the good",
+        "Consumer surplus, since it measures the value received by buyers"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides state Consumer Expenditure = **P × Q** = Producer Revenue — the same flow of money seen from each side of the transaction. Producer surplus (b) is revenue **minus** the cost of production (the area above the supply curve), so it is smaller than total revenue, not equal to it. c and d describe unrelated concepts."
+    },
+    {
+      "id": "u4-q03",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Producer surplus",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 4.2 · slide 21–22"
+      },
+      "prompt": "The supply curve shows, for each unit, the minimum price a producer must receive to be willing to sell it. Given this, producer surplus on a given unit equals...",
+      "options": [
+        "The market price minus the marginal cost of producing that unit, read off the supply curve",
+        "The marginal cost of that unit minus the market price",
+        "The market price minus the average cost of all units produced",
+        "Total revenue minus total consumer expenditure"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "PS = Price − Marginal Cost, and the supply curve **is** the marginal-cost curve for each unit. Option b reverses the subtraction (it would be negative for any unit actually worth producing). Option c uses average cost, not the marginal cost of that specific unit. Option d is meaningless — revenue and consumer expenditure are the same number (P × Q)."
+    },
+    {
+      "id": "u4-q04",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Total surplus & market efficiency",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 4.2 · slide 30–31"
+      },
+      "prompt": "At the free-market equilibrium (P*, Q*), total surplus (CS + PS) is maximized. If the price is instead pushed above P*, what happens to quantity traded and total surplus?",
+      "options": [
+        "Quantity traded falls below Q*, so total surplus is lower than at (P*, Q*)",
+        "Quantity traded rises above Q*, so total surplus increases even further",
+        "Total surplus is unchanged — CS and PS merely swap places",
+        "Consumer surplus rises while total surplus stays at its maximum"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides show that **either** a price above P* or a price below P* reduces the quantity actually traded, and any quantity other than Q* produces less total surplus — that is why the free-market equilibrium is efficient. A higher price reduces quantity demanded, so fewer units trade and both CS and total surplus fall (not just shift between CS and PS as in b/c/d)."
+    },
+    {
+      "id": "u4-q05",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Why governments intervene",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 4.3 · slide 34"
+      },
+      "prompt": "Free markets maximize total surplus, yet governments still use price floors, ceilings, quotas, or taxes. According to the slides, the main reason is that...",
+      "options": [
+        "Free markets can generate inequality, and governments intervene for normative (equity) reasons even though total surplus falls",
+        "Free markets are actually inefficient, and intervention raises total surplus above the free-market level",
+        "Free markets cannot reach any equilibrium without government price-setting",
+        "Producers request intervention specifically to eliminate consumer surplus"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides are explicit: free markets are efficient, but they can generate inequality, so for **normative** reasons the government may still choose to change the market outcome — accepting a smaller total surplus. Option b contradicts the efficiency result from Lesson 4.2; c and d are not claims made anywhere in the slides."
+    },
+    {
+      "id": "u4-q06",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Price floor",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 4.3 · slide 35–37"
+      },
+      "prompt": "A government sets a price floor. According to the slides, this policy only changes the market outcome when...",
+      "options": [
+        "It is set above P*, which raises price and lowers quantity traded below Q*, benefiting producers at consumers' expense and creating a deadweight loss",
+        "It is set below P*, since the price must legally stay above the floor at all times",
+        "It is set above P*, but has no effect because the market always trends back to P* anyway",
+        "It is set exactly at P*, which doubles both consumer surplus and producer surplus"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "A floor set **below** P* is non-binding — the market simply settles at P* as usual. Only a floor set **above** P* binds, becoming the new price; quantity sold falls, consumer surplus is transferred to producers, and the resulting drop in quantity traded creates a deadweight loss. Options b–d each contradict the binding condition shown on the slides."
+    },
+    {
+      "id": "u4-q07",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Price ceiling",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 4.3 · slide 39–41"
+      },
+      "prompt": "A binding price ceiling is imposed below P*. Which of the following does NOT follow from this policy, according to the slides?",
+      "options": [
+        "Every consumer who wants the good at the new, lower price is able to buy it",
+        "Producer surplus shrinks, and part of it transfers to the consumers who can still buy at the lower price",
+        "Excess demand arises because quantity demanded at the ceiling exceeds quantity supplied",
+        "Total surplus falls, creating a deadweight loss"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "Because the ceiling creates **excess demand** (Qd > Qs at the lower price), only Qₛ units are actually available — some consumers who want the good at that price cannot get it and are left worse off, so (a) is false. Statements b, c, and d all match the slides: some consumers gain, producer surplus transfers to them, and the shortfall in trades is a deadweight loss."
+    },
+    {
+      "id": "u4-q08",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Quota",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 4.3 · slide 42–43"
+      },
+      "prompt": "A government imposes a quota (a maximum quantity) that is binding. Compared to the free-market outcome, this policy...",
+      "options": [
+        "Restricts quantity below Q*, raising the price producers receive, transferring surplus to producers, and creating a deadweight loss",
+        "Has no effect on the market unless it is set above Q*",
+        "Increases quantity traded above Q*, benefiting both consumers and producers",
+        "Eliminates producer surplus entirely by fixing the quantity sold"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "A quota only binds when set **below** Q* — above Q* the market naturally settles at Q* anyway (ruling out b). A binding quota restricts quantity, raises price, transfers consumer surplus to producers, and — because fewer mutually beneficial units are traded — creates a deadweight loss, just like a price floor. c and d misstate the direction and size of the effect."
+    },
+    {
+      "id": "u4-q09",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Unit tax vs. ad valorem tax",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 4.4 · slide 49"
+      },
+      "prompt": "A government wants to add a sales tax to a good. Which correctly distinguishes a unit tax from an ad valorem (value-added) tax?",
+      "options": [
+        "A unit tax is a fixed dollar amount per unit regardless of price; an ad valorem tax is a percentage of price, so it rises as price rises",
+        "A unit tax is a percentage of price; an ad valorem tax is a fixed dollar amount per unit",
+        "Both are fixed dollar amounts per unit — they differ only in who is legally required to remit them",
+        "A unit tax applies only to producers, while an ad valorem tax applies only to consumers"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides define a **unit tax** as a fixed amount that does not change with price, and an **ad valorem (value-added) tax** as a percentage of price that grows as price grows. Option b swaps the two definitions; c and d invent distinctions the slides never make — incidence (who ultimately bears the burden) is a separate concept from who legally remits the tax."
+    },
+    {
+      "id": "u4-q10",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Tax incidence",
+      "difficulty": 3,
+      "source": {
+        "ref": "Lesson 4.4 · slide 51"
+      },
+      "prompt": "A $10 unit tax is placed on producers. The consumer price rises from $50 to $56, and the producer price falls from $50 to $46. What are the consumer and producer incidence of the tax?",
+      "options": [
+        "Consumer incidence = $6, producer incidence = $4; $6 + $4 = $10 = the tax, and the consumer price rose by less than the full $10 tax",
+        "Consumer incidence = $10 and producer incidence = $10, since both parties pay the full tax",
+        "Consumer incidence = $4, producer incidence = $6, since producers set the price",
+        "The incidences cannot be found because only producers are legally required to pay the tax"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "Tax = Consumer Incidence + Producer Incidence. Consumer price rose by $56 − $50 = **$6** (consumer incidence); producer price fell by $50 − $46 = **$4** (producer incidence); $6 + $4 = $10, matching the tax. Note the consumer price rose by **less than** the full $10 tax — producers absorb part of it. Option b double-counts the tax; c swaps the two values; d confuses legal remittance with economic incidence."
+    },
+    {
+      "id": "u4-q11",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Consumer surplus (equilibrium)",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 4.1 · slide 13"
+      },
+      "scenario": "u4-tax-market",
+      "prompt": "Refer to the scenario. Before any tax, what is the consumer surplus in this market?",
+      "answer": {
+        "value": 400,
+        "tolerance": 1,
+        "prefix": "$",
+        "display": "$400"
+      },
+      "explanation": "Set demand equal to supply: 140 − 2Q = 20 + 4Q → 120 = 6Q → **Q* = 20**, so **P* = 140 − 2(20) = $100**. CS is the triangle between D and the price line from 0 to Q*: CS = ½ × Base × Height = ½ × 20 × (140 − 100) = ½ × 20 × 40 = **$400**."
+    },
+    {
+      "id": "u4-q12",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Producer surplus (equilibrium)",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 4.2 · slide 26"
+      },
+      "scenario": "u4-tax-market",
+      "prompt": "Refer to the scenario. Before any tax, what is the producer surplus in this market?",
+      "answer": {
+        "value": 800,
+        "tolerance": 1,
+        "prefix": "$",
+        "display": "$800"
+      },
+      "explanation": "At equilibrium, P* = $100 and Q* = 20 (from 140 − 2Q = 20 + 4Q). PS is the triangle between S and the price line from 0 to Q*: PS = ½ × Base × Height = ½ × 20 × (100 − 20) = ½ × 20 × 80 = **$800**. A common mistake is using the demand intercept ($140) as the height instead of the supply intercept ($20) — that describes CS's triangle, not PS's."
+    },
+    {
+      "id": "u4-q13",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Quantity after a tax",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 4.4 · slide 56–57"
+      },
+      "scenario": "u4-tax-market",
+      "prompt": "Refer to the scenario. With an $18 per-unit tax on producers, supply becomes P = 20 + 4Q + 18 = 38 + 4Q. What is the new equilibrium quantity traded?",
+      "answer": {
+        "value": 17,
+        "tolerance": 0.5,
+        "display": "17"
+      },
+      "explanation": "Set demand equal to the after-tax supply curve: 140 − 2Q = 38 + 4Q → 102 = 6Q → **Q = 17**. Quantity traded falls from Q* = 20 to 17: the tax raises the price consumers face and lowers the price producers keep, so fewer units remain mutually beneficial to trade."
+    },
+    {
+      "id": "u4-q14",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Tax revenue",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 4.4 · slide 58"
+      },
+      "scenario": "u4-tax-market",
+      "prompt": "Refer to the scenario. With the $18 tax and 17 units traded, what is total tax revenue?",
+      "answer": {
+        "value": 306,
+        "tolerance": 1,
+        "prefix": "$",
+        "display": "$306"
+      },
+      "explanation": "Tax Revenue = Tax × Quantity Sold = $18 × 17 = **$306**. This is not the deadweight loss — DWL only counts the surplus lost on units that no longer trade (Q* − 17 = 3 units), not the money transferred to government on the 17 units still traded."
+    },
+    {
+      "id": "u4-q15",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Deadweight loss",
+      "difficulty": 3,
+      "source": {
+        "ref": "Lesson 4.4 · slide 59"
+      },
+      "scenario": "u4-tax-market",
+      "prompt": "Refer to the scenario. What is the deadweight loss caused by the $18 tax? (Hint: find the consumer price and producer price at the after-tax quantity first.)",
+      "answer": {
+        "value": 27,
+        "tolerance": 1,
+        "prefix": "$",
+        "display": "$27"
+      },
+      "explanation": "At the after-tax quantity Q = 17, consumers pay the demand price **140 − 2(17) = $106** and producers keep the supply price **20 + 4(17) = $88** (a wedge of $106 − $88 = $18 = the tax). DWL = ½ × Base × Height, where Base is the lost quantity (Q* − Q = 20 − 17 = 3) and Height is the tax wedge ($18): DWL = ½ × 3 × 18 = **$27**. Check with DWL = Old Total Surplus − New Total Surplus: new CS = ½ × 17 × (140 − 106) = $289 and new PS = ½ × 17 × (88 − 20) = $578, so DWL = (400 + 800) − (289 + 578 + 306) = 1,200 − 1,173 = **$27**."
+    },
+    {
+      "id": "u4-q16",
+      "type": "graph",
+      "unit": 4,
+      "topic": "Price ceiling",
+      "difficulty": 3,
+      "source": {
+        "ref": "Lesson 4.3 · slide 39"
+      },
+      "prompt": "The government sets a legal maximum price below the market equilibrium. Draw the price ceiling, then mark the quantity producers are willing to supply at that price.",
+      "graph": {
+        "x": {
+          "label": "Quantity",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Price",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "points": [
+              [
+                8,
+                78
+              ],
+              [
+                70,
+                12
+              ]
+            ],
+            "color": "blue"
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "points": [
+              [
+                8,
+                12
+              ],
+              [
+                78,
+                82
+              ]
+            ],
+            "color": "red"
+          },
+          {
+            "id": "Pstar",
+            "points": [
+              [
+                0,
+                48.3
+              ],
+              [
+                100,
+                48.3
+              ]
+            ],
+            "hidden": true
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 44.3,
+            "y": 48.3,
+            "drop": "both",
+            "dropLabels": {
+              "x": "Q*",
+              "y": "P*"
+            }
+          }
+        ],
+        "tasks": [
+          {
+            "id": "ceil",
+            "kind": "line",
+            "label": "P max",
+            "prompt": "Draw the price ceiling",
+            "expect": {
+              "slope": "flat",
+              "shiftOf": "Pstar",
+              "direction": "down"
+            },
+            "hints": {
+              "shift": "A binding ceiling must sit below the equilibrium price."
+            },
+            "model": {
+              "points": [
+                [
+                  0,
+                  30
+                ],
+                [
+                  100,
+                  30
+                ]
+              ]
+            }
+          },
+          {
+            "id": "qs",
+            "kind": "point",
+            "label": "Qₛ",
+            "prompt": "Mark the quantity supplied at the ceiling",
+            "expect": {
+              "atIntersection": [
+                "user:ceil",
+                "S"
+              ],
+              "relativeTo": {
+                "ref": "E",
+                "x": "-",
+                "y": "-"
+              }
+            }
+          }
+        ]
+      },
+      "explanation": "A binding price ceiling is a maximum price set **below** P*, shown as a flat line under the equilibrium. At that lower price producers slide down along S and supply less (Qₛ < Q*), while consumers want more — an **excess demand**. Some consumers gain from the lower price (producer surplus transfers to them), but others cannot get the good at all and are left worse off. The trades lost between Qₛ and Q* are a **deadweight loss**."
+    },
+    {
+      "id": "u4-q17",
+      "type": "graph",
+      "unit": 4,
+      "topic": "Price floor",
+      "difficulty": 3,
+      "source": {
+        "ref": "Lesson 4.3 · slide 36"
+      },
+      "prompt": "The government sets a legal minimum price above the market equilibrium. Draw the price floor, then mark the quantity consumers are willing to buy at that price.",
+      "graph": {
+        "x": {
+          "label": "Quantity",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Price",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "points": [
+              [
+                8,
+                78
+              ],
+              [
+                70,
+                12
+              ]
+            ],
+            "color": "blue"
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "points": [
+              [
+                8,
+                12
+              ],
+              [
+                78,
+                82
+              ]
+            ],
+            "color": "red"
+          },
+          {
+            "id": "Pstar",
+            "points": [
+              [
+                0,
+                48.3
+              ],
+              [
+                100,
+                48.3
+              ]
+            ],
+            "hidden": true
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 44.3,
+            "y": 48.3,
+            "drop": "both",
+            "dropLabels": {
+              "x": "Q*",
+              "y": "P*"
+            }
+          }
+        ],
+        "tasks": [
+          {
+            "id": "floor",
+            "kind": "line",
+            "label": "P min",
+            "prompt": "Draw the price floor",
+            "expect": {
+              "slope": "flat",
+              "shiftOf": "Pstar",
+              "direction": "up"
+            },
+            "hints": {
+              "shift": "A binding floor must sit above the equilibrium price."
+            },
+            "model": {
+              "points": [
+                [
+                  0,
+                  66
+                ],
+                [
+                  100,
+                  66
+                ]
+              ]
+            }
+          },
+          {
+            "id": "qd",
+            "kind": "point",
+            "label": "Qd",
+            "prompt": "Mark the quantity demanded at the floor",
+            "expect": {
+              "atIntersection": [
+                "user:floor",
+                "D"
+              ],
+              "relativeTo": {
+                "ref": "E",
+                "x": "-",
+                "y": "+"
+              }
+            }
+          }
+        ]
+      },
+      "explanation": "A binding price floor is a minimum price set **above** P*, shown as a flat line above the equilibrium. At that higher price consumers slide up along D and buy less (Qd < Q*), even though producers would like to sell more. **Producer surplus rises** as consumer surplus is transferred to producers, but because quantity traded falls below Q*, total surplus falls — a **deadweight loss**."
+    },
+    {
+      "id": "u4-q18",
+      "type": "graph",
+      "unit": 4,
+      "topic": "Unit tax on producers",
+      "difficulty": 3,
+      "source": {
+        "ref": "Lesson 4.4 · slide 50"
+      },
+      "prompt": "The government imposes a unit tax on producers. Draw the after-tax supply curve S + tax, then mark the new quantity traded where it meets demand.",
+      "graph": {
+        "x": {
+          "label": "Quantity",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Price",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "points": [
+              [
+                8,
+                78
+              ],
+              [
+                70,
+                12
+              ]
+            ],
+            "color": "blue"
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "points": [
+              [
+                8,
+                12
+              ],
+              [
+                78,
+                82
+              ]
+            ],
+            "color": "red"
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 44.3,
+            "y": 48.3,
+            "drop": "both",
+            "dropLabels": {
+              "x": "Q*",
+              "y": "P*"
+            }
+          }
+        ],
+        "tasks": [
+          {
+            "id": "St",
+            "kind": "line",
+            "label": "S + tax",
+            "prompt": "Draw the after-tax supply curve",
+            "expect": {
+              "slope": "positive",
+              "shiftOf": "S",
+              "direction": "up"
+            }
+          },
+          {
+            "id": "Qt",
+            "kind": "point",
+            "label": "Q after tax",
+            "prompt": "Mark the new quantity traded (where S + tax meets D)",
+            "expect": {
+              "atIntersection": [
+                "D",
+                "user:St"
+              ],
+              "relativeTo": {
+                "ref": "E",
+                "x": "-",
+                "y": "+"
+              }
+            }
+          }
+        ]
+      },
+      "explanation": "A unit tax on producers shifts supply **up** by the amount of the tax, since sellers need a higher price to cover both their cost and the tax. The new equilibrium, where S + tax meets D, has a **lower quantity** than Q*. Consumers now pay more and producers keep less — **both CS and PS shrink** — and the trades lost between the new quantity and Q* become a **deadweight loss**. The government collects tax revenue that could fund goods the free market under-provides, but the slides note there is no guarantee it is spent productively."
+    }
+  ]
+}
