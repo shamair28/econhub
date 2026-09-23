@@ -193,7 +193,10 @@
       return nq;
     }
 
-    unitName(u) { return this.cfg.unitNames && this.cfg.unitNames[u] ? this.cfg.unitNames[u] : (u != null ? `Unit ${u}` : 'General'); }
+    // Course divisions: 'Unit' by default; e.g. { unitWord: 'Ch.', unitNoun: 'chapter' } for chapter-based courses.
+    get unitWord() { return this.cfg.unitWord || 'Unit'; }
+    get unitNoun() { return this.cfg.unitNoun || 'unit'; }
+    unitName(u) { return this.cfg.unitNames && this.cfg.unitNames[u] ? this.cfg.unitNames[u] : (u != null ? `${this.unitWord} ${u}` : 'General'); }
     sourceText(q) { return q.source.label + (q.source.ref ? ` · ${q.source.ref}` : ''); }
 
     // ── persistence ─────────────────────────────────────────────────────
@@ -305,8 +308,8 @@
             scopeToggle,
             h('div', { class: 'pe-field' }, h('span', { class: 'pe-field-label', text: 'Sources' }),
               h('div', { class: 'pe-chips' }, ...Object.entries(sources).map(([label, s]) => chip(label, form.sources, label, String(s.n))))),
-            h('div', { class: 'pe-field' }, h('span', { class: 'pe-field-label', text: 'Units' }),
-              h('div', { class: 'pe-chips' }, ...unitKeys.map(u => chip(u === 'none' ? 'General' : `Unit ${u} · ${this.unitName(Number(u))}`, form.units, String(u), String(units[u]))))),
+            h('div', { class: 'pe-field' }, h('span', { class: 'pe-field-label', text: this.unitNoun.charAt(0).toUpperCase() + this.unitNoun.slice(1) + 's' }),
+              h('div', { class: 'pe-chips' }, ...unitKeys.map(u => chip(u === 'none' ? 'General' : `${this.unitWord} ${u} · ${this.unitName(Number(u))}`, form.units, String(u), String(units[u]))))),
             h('div', { class: 'pe-field' }, h('span', { class: 'pe-field-label', text: 'Question types' }),
               h('div', { class: 'pe-chips' }, ...Object.keys(types).map(t => chip(typeLabel[t] || t, form.types, t, String(types[t]))))),
             h('div', { class: 'pe-field pe-field-row' },
@@ -473,12 +476,14 @@
       const locked = this.showsFeedback() && a && a.checked;
       const meta = h('div', { class: 'pe-meta' },
         h('span', { class: 'pe-badge pe-badge-' + (q.source.kind || 'custom'), title: KIND_LABEL[q.source.kind] || '' }, this.sourceText(q)),
-        q.unit != null ? h('span', { class: 'pe-badge pe-badge-unit' }, `Unit ${q.unit}${q.topic ? ' · ' + q.topic : ''}`) : (q.topic ? h('span', { class: 'pe-badge pe-badge-unit' }, q.topic) : null),
+        q.unit != null ? h('span', { class: 'pe-badge pe-badge-unit' }, `${this.unitWord} ${q.unit}${q.topic ? ' · ' + q.topic : ''}`) : (q.topic ? h('span', { class: 'pe-badge pe-badge-unit' }, q.topic) : null),
         !q.inScope && this.cfg.scope ? h('span', { class: 'pe-badge pe-badge-warn', title: q.scopeNote || '' }, `Not on ${this.cfg.scope.label}`) : null,
         h('button', { type: 'button', class: 'pe-flag' + (s.flags[q.id] ? ' is-on' : ''), 'aria-pressed': !!s.flags[q.id], title: 'Flag for review (F)', onClick: (e) => this.toggleFlag(e.currentTarget) }, '⚑', h('span', { class: 'pe-sr', text: 'Flag' })));
 
       const scenario = q.scenarioKey ? this._buildScenario(this.scenarios[q.scenarioKey]) : null;
-      const figure = q.figure ? this._buildFigure(q.figure) : null;
+      const figure = Array.isArray(q.figure)
+        ? h('div', { class: 'pe-figure-row' }, ...q.figure.map(f => this._buildFigure(f)))
+        : (q.figure ? this._buildFigure(q.figure) : null);
       const prompt = h('div', { class: 'pe-prompt', html: md(q.prompt) });
 
       let answerArea;
@@ -868,7 +873,7 @@
               missed.length ? h('button', { type: 'button', class: 'pe-btn', onClick: () => this.startSession({ mode: 'practice', shuffle: true, count: 'all' }, missed) }, 'Retry missed questions') : null,
               h('button', { type: 'button', class: 'pe-btn pe-btn-ghost', onClick: () => this.renderStart() }, 'New session')),
             h('div', { class: 'pe-breakdowns' },
-              breakdown('By unit', byUnit, k => k === 'none' ? 'General' : `Unit ${k} · ${this.unitName(Number(k))}`),
+              breakdown(`By ${this.unitNoun}`, byUnit, k => k === 'none' ? 'General' : `${this.unitWord} ${k} · ${this.unitName(Number(k))}`),
               breakdown('By source', bySource, k => k),
               breakdown('By question type', byType, k => typeLabel[k] || k)),
             missed.length ? h('div', { class: 'pe-missed' },

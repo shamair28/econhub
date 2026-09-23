@@ -251,7 +251,8 @@ def check_question(rep, bank, q, i, seen_ids):
     if q.get("scenario") and q["scenario"] not in (bank.get("scenarios") or {}):
         rep.err(w, f'scenario "{q["scenario"]}" is not defined in bank.scenarios')
     if "figure" in q:
-        check_figure(rep, w, q["figure"])
+        for f in (q["figure"] if isinstance(q["figure"], list) else [q["figure"]]):
+            check_figure(rep, w, f)
     if "tags" in q and not (isinstance(q["tags"], list) and all(isinstance(x, str) for x in q["tags"])):
         rep.err(w, "tags must be a list of strings")
 

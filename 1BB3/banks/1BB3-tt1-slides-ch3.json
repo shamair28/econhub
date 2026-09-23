@@ -1,0 +1,656 @@
+{
+  "schema": "practice-bank/v1",
+  "id": "1BB3-tt1-slides-ch3",
+  "course": "ECON 1BB3",
+  "title": "Ch. 3 Lecture Slides",
+  "defaultSource": {
+    "label": "Ch. 3 Lecture Slides",
+    "kind": "slides"
+  },
+  "defaultUnit": 3,
+  "scenarios": {
+    "waterbottles": {
+      "title": "Market for reusable water bottles",
+      "body": "The market demand for reusable water bottles is **Q<sub>D</sub> = 200 − 4P** and the market supply is **Q<sub>S</sub> = 20 + 6P**, where P is the price in dollars and Q is the quantity in hundreds of units per week."
+    }
+  },
+  "questions": [
+    {
+      "id": "c3-q01",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Law of Demand",
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 4"
+      },
+      "prompt": "Holding all other factors constant (ceteris paribus), the price of reusable water bottles rises. According to the Law of Demand, what happens to quantity demanded?",
+      "options": [
+        "Quantity demanded falls",
+        "Quantity demanded rises",
+        "Demand decreases — the whole curve shifts left",
+        "Demand increases — the whole curve shifts right"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides define the **Law of Demand**: when price rises, quantity demanded falls (and vice versa), ceteris paribus. Options c and d describe a **shift** in demand, which the slides reserve for changes in factors *other than* the good's own price — not what happened here."
+    },
+    {
+      "id": "c3-q02",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Substitution vs income effect",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 5"
+      },
+      "prompt": "The price of chicken falls. Some consumers buy more because chicken is now cheaper relative to beef; others buy more simply because their fixed grocery budget now stretches further. Which effect does each represent?",
+      "options": [
+        "Cheaper relative to beef = substitution effect; budget stretches further = income effect",
+        "Cheaper relative to beef = income effect; budget stretches further = substitution effect",
+        "Both examples describe only the substitution effect",
+        "Both examples describe only the income effect"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "Per the slides, the **substitution effect** is switching toward a good that is now relatively cheaper than substitutes; the **income effect** is that a lower price raises real purchasing power, letting the same income buy more. Option b swaps the two definitions."
+    },
+    {
+      "id": "c3-q03",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Quantity demanded vs demand",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 7"
+      },
+      "prompt": "A store puts reusable water bottles on sale, cutting the price. Nothing else about the market changes. This price cut by itself causes:",
+      "options": [
+        "A change in quantity demanded — a movement along the existing demand curve",
+        "A change in demand — the demand curve shifts right",
+        "A change in demand — the demand curve shifts left",
+        "No change in either quantity demanded or demand"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides assign a change in the good's **own price** to a **movement along** the demand curve (a change in quantity demanded). A **shift** in the whole curve (a change in demand) is caused by any *other* factor — income, tastes, related-good prices, and so on — none of which changed here."
+    },
+    {
+      "id": "c3-q04",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Normal vs inferior goods",
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 9"
+      },
+      "prompt": "During a recession, consumer income falls: sales of instant noodles rise while sales of restaurant meals fall. Based on the slides' examples, how should these two goods be classified?",
+      "options": [
+        "Instant noodles are an inferior good; restaurant meals are a normal good",
+        "Instant noodles are a normal good; restaurant meals are an inferior good",
+        "Both are normal goods",
+        "Both are inferior goods"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides list **instant noodles** as an inferior-good example (demand rises as income falls) and **restaurant meals** as a normal-good example (demand rises as income rises, so it falls in a recession). Only option a matches both listed examples."
+    },
+    {
+      "id": "c3-q05",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Related goods: substitutes and complements",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 10"
+      },
+      "prompt": "The slides list the Big Mac and Whopper as substitutes and hot dogs and hot dog buns as complements. If the price of hot dog buns rises, and separately the price of the Whopper rises, what happens to demand for hot dogs and for the Big Mac respectively?",
+      "options": [
+        "Demand for hot dogs shifts left; demand for Big Macs shifts right",
+        "Demand for hot dogs shifts right; demand for Big Macs shifts left",
+        "Both demand curves shift right",
+        "Both demand curves shift left"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "A pricier **complement** (buns) makes hot dogs less attractive at every price, shifting hot-dog demand **left**. A pricier **substitute** (Whopper) pushes buyers toward the Big Mac, shifting its demand **right**. The slides give exactly these two examples with opposite directions."
+    },
+    {
+      "id": "c3-q06",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Tastes vs demographics",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 11"
+      },
+      "prompt": "Scenario 1: Consumers become more health-conscious and buy less fast food. Scenario 2: A rising birth rate increases the number of parents buying diapers. Which factor shifts demand in each scenario?",
+      "options": [
+        "Scenario 1 = tastes; Scenario 2 = demographics",
+        "Scenario 1 = demographics; Scenario 2 = tastes",
+        "Both scenarios are examples of a change in tastes",
+        "Both scenarios are examples of a change in demographics"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides define a **taste** change as consumers wanting more or less of a good at the same price (health-conscious consumers wanting less fast food), while **demographics** refers to changes in the size or makeup of the population of buyers (more potential diaper buyers). Each scenario matches a different one of the two factors."
+    },
+    {
+      "id": "c3-q07",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Expected future prices (demand)",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 12"
+      },
+      "prompt": "Homeowners learn that lumber prices are expected to fall sharply next month. According to the slides, what happens to the demand for lumber today?",
+      "options": [
+        "Demand for lumber today decreases — the curve shifts left",
+        "Demand for lumber today increases — the curve shifts right",
+        "Quantity demanded today falls as a movement along the curve",
+        "Nothing changes until next month, when prices actually fall"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides treat future and current purchases as substitutes: an **expected price decrease** tomorrow makes buying today relatively less attractive, so consumers wait — **decreasing** today's demand. This mirrors the slides' gasoline example, but with the opposite expected price movement."
+    },
+    {
+      "id": "c3-q08",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Law of Supply",
+      "difficulty": 1,
+      "source": {
+        "ref": "slides 14–15"
+      },
+      "prompt": "Why, according to the slides, does the supply curve for reusable water bottles slope upward?",
+      "options": [
+        "As output rises, producers' costs rise (e.g., longer factory hours, higher input prices), so firms need a higher price to justify supplying more",
+        "Consumers are willing to pay more when the good is in short supply",
+        "Producers prefer to sell fewer units when the price is high",
+        "The income effect makes producers supply more as their purchasing power rises"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides explain that expanding production raises firms' costs, so higher prices are needed to cover those costs and make greater output worthwhile — this is the **Law of Supply**. Option b describes consumer behaviour (demand side), and the income effect in option d applies to consumers, not producers."
+    },
+    {
+      "id": "c3-q09",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Supply shifters",
+      "difficulty": 3,
+      "source": {
+        "ref": "slides 18–21"
+      },
+      "prompt": "Which of the following would cause the supply curve for good X to shift **left** (decrease)?",
+      "options": [
+        "The price of an input used to produce X rises",
+        "A new technology lowers the per-unit cost of producing X",
+        "More firms enter the market for X",
+        "The price of Y, a substitute in production, falls, so producers redirect resources back toward X"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "A pricier input raises production costs and makes supplying X less profitable at every price, shifting supply **left**. Improved technology, more firms, and a cheaper substitute-in-production (which frees resources toward X) are all listed in the slides as supply **increasers** instead."
+    },
+    {
+      "id": "c3-q10",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Simultaneous shifts in D and S",
+      "difficulty": 3,
+      "source": {
+        "ref": "slide 31 (Fig. 3.11)"
+      },
+      "prompt": "New firms enter the reusable water bottle market (supply increases) at the same time as rising incomes increase demand for this normal good. What can we say for certain about the new equilibrium?",
+      "options": [
+        "Equilibrium quantity definitely rises; the effect on equilibrium price is ambiguous",
+        "Equilibrium price definitely rises; the effect on equilibrium quantity is ambiguous",
+        "Both equilibrium price and quantity definitely rise",
+        "Both equilibrium price and quantity definitely fall"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "Demand increasing pushes **both** P and Q up; supply increasing pushes Q up but P **down**. The quantity effects agree, so **Q definitely rises**, but the price effects conflict, so **P depends on which shift is larger** — exactly the ambiguity the slides illustrate in Figure 3.11."
+    },
+    {
+      "id": "c3-q11",
+      "type": "numeric",
+      "unit": 3,
+      "topic": "Equilibrium price",
+      "difficulty": 1,
+      "source": {
+        "ref": "slides 24–25"
+      },
+      "scenario": "waterbottles",
+      "prompt": "Refer to the scenario. What is the equilibrium price P*, in dollars?",
+      "answer": {
+        "value": 18,
+        "tolerance": 0.5,
+        "prefix": "$",
+        "display": "$18",
+        "hint": "Set Q<sub>D</sub> = Q<sub>S</sub> and solve for P."
+      },
+      "explanation": "Set the two functions equal: 200 − 4P = 20 + 6P → 180 = 10P → **P\\* = $18**. Substituting back confirms both curves meet at Q = 128."
+    },
+    {
+      "id": "c3-q12",
+      "type": "numeric",
+      "unit": 3,
+      "topic": "Equilibrium quantity",
+      "difficulty": 1,
+      "source": {
+        "ref": "slides 24–25"
+      },
+      "scenario": "waterbottles",
+      "prompt": "Refer to the scenario. What is the equilibrium quantity Q*, in hundreds of units per week?",
+      "answer": {
+        "value": 128,
+        "tolerance": 0.5,
+        "hint": "Substitute P* into either function."
+      },
+      "explanation": "At P\\* = 18: Q<sub>D</sub> = 200 − 4(18) = 200 − 72 = **128**, and Q<sub>S</sub> = 20 + 6(18) = 20 + 108 = **128**. Both curves agree, confirming equilibrium."
+    },
+    {
+      "id": "c3-q13",
+      "type": "numeric",
+      "unit": 3,
+      "topic": "Shortage size",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 26"
+      },
+      "scenario": "waterbottles",
+      "prompt": "Refer to the scenario. If the price were $10 instead of the equilibrium price, what would be the size of the shortage, in hundreds of units?",
+      "answer": {
+        "value": 80,
+        "tolerance": 0.5,
+        "hint": "Compare Q<sub>D</sub> and Q<sub>S</sub> at P = 10."
+      },
+      "explanation": "At P = 10: Q<sub>D</sub> = 200 − 4(10) = **160**; Q<sub>S</sub> = 20 + 6(10) = **80**. Since Q<sub>D</sub> > Q<sub>S</sub>, there is a shortage of 160 − 80 = **80** (hundred units) — below equilibrium, quantity demanded exceeds quantity supplied, and producers respond by raising price."
+    },
+    {
+      "id": "c3-q14",
+      "type": "numeric",
+      "unit": 3,
+      "topic": "New equilibrium after a demand shift",
+      "difficulty": 3,
+      "source": {
+        "ref": "slide 11"
+      },
+      "scenario": "waterbottles",
+      "prompt": "Refer to the scenario. Suppose population growth among target buyers **increases demand** by 40 (hundred units) at every price, so the new demand function is Q<sub>D</sub> = 240 − 4P, while supply is unchanged. What is the new equilibrium price P*, in dollars?",
+      "answer": {
+        "value": 22,
+        "tolerance": 0.5,
+        "prefix": "$",
+        "display": "$22",
+        "hint": "Set the new Q<sub>D</sub> equal to Q<sub>S</sub>."
+      },
+      "explanation": "Set 240 − 4P = 20 + 6P → 220 = 10P → **P\\* = $22**. This is higher than the original $18: population growth (a demographic factor) increases demand, and since supply is unchanged, the market slides up along S to a higher equilibrium price (and, checking Q = 240 − 4(22) = 152, a higher quantity too)."
+    },
+    {
+      "id": "c3-q15",
+      "type": "graph",
+      "unit": 3,
+      "topic": "Demand shift - increase",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 29 (Fig. 3.10)"
+      },
+      "prompt": "Consumer incomes rise, and reusable water bottles are a **normal good**. Draw the new demand curve D₂ and mark the new equilibrium E₂.",
+      "graph": {
+        "x": {
+          "label": "Quantity of water bottles",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Price",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "D",
+            "label": "D₁",
+            "points": [
+              [
+                8,
+                78
+              ],
+              [
+                70,
+                12
+              ]
+            ],
+            "color": "blue"
+          },
+          {
+            "id": "S",
+            "label": "S₁",
+            "points": [
+              [
+                8,
+                12
+              ],
+              [
+                78,
+                82
+              ]
+            ],
+            "color": "red"
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E₁",
+            "x": 39.97,
+            "y": 43.97,
+            "drop": "both",
+            "dropLabels": {
+              "x": "Q₁",
+              "y": "P₁"
+            }
+          }
+        ],
+        "tasks": [
+          {
+            "id": "D2",
+            "kind": "line",
+            "label": "D₂",
+            "prompt": "Draw the new demand curve D₂",
+            "expect": {
+              "slope": "negative",
+              "shiftOf": "D",
+              "direction": "right"
+            }
+          },
+          {
+            "id": "E2",
+            "kind": "point",
+            "label": "E₂",
+            "prompt": "Mark the new equilibrium E₂",
+            "expect": {
+              "atIntersection": [
+                "user:D2",
+                "S"
+              ],
+              "relativeTo": {
+                "ref": "E",
+                "x": "+",
+                "y": "+"
+              }
+            }
+          }
+        ]
+      },
+      "explanation": "Higher income raises demand for a normal good at **every** price, so the whole curve shifts right to D₂. Supply is unchanged, so the market slides up along S₁: equilibrium **price rises** (P₂ > P₁) and equilibrium **quantity rises** (Q₂ > Q₁)."
+    },
+    {
+      "id": "c3-q16",
+      "type": "graph",
+      "unit": 3,
+      "topic": "Supply shift - increase",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 20"
+      },
+      "prompt": "Producers of reusable water bottles adopt a new, more efficient manufacturing process, lowering their per-unit production cost. Draw the new supply curve S₂ and mark the new equilibrium E₂.",
+      "graph": {
+        "x": {
+          "label": "Quantity of water bottles",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Price",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "D",
+            "label": "D₁",
+            "points": [
+              [
+                8,
+                78
+              ],
+              [
+                70,
+                12
+              ]
+            ],
+            "color": "blue"
+          },
+          {
+            "id": "S",
+            "label": "S₁",
+            "points": [
+              [
+                8,
+                12
+              ],
+              [
+                78,
+                82
+              ]
+            ],
+            "color": "red"
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E₁",
+            "x": 39.97,
+            "y": 43.97,
+            "drop": "both",
+            "dropLabels": {
+              "x": "Q₁",
+              "y": "P₁"
+            }
+          }
+        ],
+        "tasks": [
+          {
+            "id": "S2",
+            "kind": "line",
+            "label": "S₂",
+            "prompt": "Draw the new supply curve S₂",
+            "expect": {
+              "slope": "positive",
+              "shiftOf": "S",
+              "direction": "right"
+            }
+          },
+          {
+            "id": "E2",
+            "kind": "point",
+            "label": "E₂",
+            "prompt": "Mark the new equilibrium E₂",
+            "expect": {
+              "atIntersection": [
+                "D",
+                "user:S2"
+              ],
+              "relativeTo": {
+                "ref": "E",
+                "x": "+",
+                "y": "-"
+              }
+            }
+          }
+        ]
+      },
+      "explanation": "A cost-saving technology lets producers supply more at **every** price, shifting the whole curve right to S₂. Demand is unchanged, so along D₁ the new equilibrium has a **lower price** (P₂ < P₁) and a **higher quantity** (Q₂ > Q₁) — price and quantity move in **opposite** directions, as supply shifts always do."
+    },
+    {
+      "id": "c3-q17",
+      "type": "graph",
+      "unit": 3,
+      "topic": "Supply shift - decrease",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 19"
+      },
+      "prompt": "The price of recycled plastic, a key input for reusable water bottles, rises sharply. Draw the new supply curve S₂ and mark the new equilibrium E₂.",
+      "graph": {
+        "x": {
+          "label": "Quantity of water bottles",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Price",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "D",
+            "label": "D₁",
+            "points": [
+              [
+                8,
+                78
+              ],
+              [
+                70,
+                12
+              ]
+            ],
+            "color": "blue"
+          },
+          {
+            "id": "S",
+            "label": "S₁",
+            "points": [
+              [
+                8,
+                12
+              ],
+              [
+                78,
+                82
+              ]
+            ],
+            "color": "red"
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E₁",
+            "x": 39.97,
+            "y": 43.97,
+            "drop": "both",
+            "dropLabels": {
+              "x": "Q₁",
+              "y": "P₁"
+            }
+          }
+        ],
+        "tasks": [
+          {
+            "id": "S2",
+            "kind": "line",
+            "label": "S₂",
+            "prompt": "Draw the new supply curve S₂",
+            "expect": {
+              "slope": "positive",
+              "shiftOf": "S",
+              "direction": "left"
+            }
+          },
+          {
+            "id": "E2",
+            "kind": "point",
+            "label": "E₂",
+            "prompt": "Mark the new equilibrium E₂",
+            "expect": {
+              "atIntersection": [
+                "D",
+                "user:S2"
+              ],
+              "relativeTo": {
+                "ref": "E",
+                "x": "-",
+                "y": "+"
+              }
+            }
+          }
+        ]
+      },
+      "explanation": "A pricier input raises production costs, so less is supplied at **every** price — the whole curve shifts left to S₂. Demand is unchanged, so along D₁ the new equilibrium has a **higher price** (P₂ > P₁) and a **lower quantity** (Q₂ < Q₁), moving in opposite directions as supply shifts always do."
+    },
+    {
+      "id": "c3-q18",
+      "type": "graph",
+      "unit": 3,
+      "topic": "Movement along demand curve",
+      "difficulty": 1,
+      "source": {
+        "ref": "slides 4, 7"
+      },
+      "prompt": "The demand curve for a good is P = 150 − 3Q. Mark the point on the demand curve showing the quantity demanded when the price is $60.",
+      "graph": {
+        "x": {
+          "label": "Quantity",
+          "min": 0,
+          "max": 60,
+          "step": 10
+        },
+        "y": {
+          "label": "Price ($)",
+          "min": 0,
+          "max": 200,
+          "step": 40
+        },
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "linear": {
+              "intercept": 150,
+              "slope": -3
+            },
+            "color": "blue"
+          }
+        ],
+        "guides": [
+          {
+            "axis": "y",
+            "at": 60,
+            "label": "$60",
+            "dashed": true
+          }
+        ],
+        "tasks": [
+          {
+            "id": "pt",
+            "kind": "point",
+            "label": "Q at $60",
+            "prompt": "Place the point on D where P = $60",
+            "expect": {
+              "onCurve": "D",
+              "atY": 60,
+              "tol": 0.07
+            }
+          }
+        ]
+      },
+      "explanation": "Solve 60 = 150 − 3Q → 3Q = 90 → **Q = 30**. This is a movement *along* the existing demand curve caused by a change in the good's own price — the curve itself does not shift."
+    }
+  ]
+}

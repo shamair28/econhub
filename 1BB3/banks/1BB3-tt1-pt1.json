@@ -1,0 +1,1417 @@
+{
+  "schema": "practice-bank/v1",
+  "id": "1BB3-tt1-pt1",
+  "course": "ECON 1BB3",
+  "title": "1BB3 Practice Test #1",
+  "description": "ECON 1BB3 Practice Test #1 (Term Test 1 format: 30 multiple-choice questions, 60 minutes, Ch. 1–3). No official answer key was provided; answers were worked out independently.",
+  "defaultSource": {
+    "label": "1BB3 Practice Test #1",
+    "kind": "past-test",
+    "note": "*No official key was provided for this test — this answer was worked out and double-checked independently.*"
+  },
+  "scenarios": {
+    "table25": {
+      "title": "Table 2.5 — Serena and Haley",
+      "body": "Table 2.5 shows the output per week of two jewellers, Serena and Haley. They can either devote their time to making bracelets or making necklaces.",
+      "table": {
+        "caption": "Table 2.5",
+        "headers": [
+          "",
+          "Serena",
+          "Haley"
+        ],
+        "rows": [
+          [
+            "Bracelets",
+            8,
+            9
+          ],
+          [
+            "Necklaces",
+            16,
+            12
+          ]
+        ],
+        "rowHeaders": true
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "pt1-q01",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Surplus and shortage",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q1"
+      },
+      "prompt": "The following equations represent the demand and supply for bird feeders:\nQ<sub>D</sub> = 30 − P\nQ<sub>S</sub> = −5 + 3P\n\nAt the price of $15, which of the following statements is correct?",
+      "options": [
+        "there is a surplus of 40",
+        "there is a surplus of 25",
+        "there is a shortage of 25",
+        "there is a shortage of 40"
+      ],
+      "answer": "b",
+      "explanation": "At P = $15: Q<sub>D</sub> = 30 − 15 = **15** and Q<sub>S</sub> = −5 + 3(15) = **40**. Quantity supplied exceeds quantity demanded, so there is a **surplus of 40 − 15 = 25**. The equilibrium is where 30 − P = −5 + 3P → P = $8.75, so $15 is above equilibrium — a price above equilibrium always gives a surplus, never a shortage. Option (a) mistakes Q<sub>S</sub> alone (40) for the surplus.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q02",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Shift vs movement (supply)",
+      "difficulty": 1,
+      "source": {
+        "ref": "Q2"
+      },
+      "figure": {
+        "type": "graph",
+        "caption": "Figure 3.3",
+        "spec": {
+          "x": {
+            "label": "Quantity",
+            "min": 0,
+            "max": 100,
+            "hideTicks": true
+          },
+          "y": {
+            "label": "Price",
+            "min": 0,
+            "max": 100,
+            "hideTicks": true
+          },
+          "curves": [
+            {
+              "id": "S1",
+              "label": "Supply, S₁",
+              "points": [
+                [
+                  12,
+                  18
+                ],
+                [
+                  62,
+                  82
+                ]
+              ],
+              "color": "slate"
+            },
+            {
+              "id": "S2",
+              "label": "S₂",
+              "points": [
+                [
+                  27,
+                  8
+                ],
+                [
+                  80,
+                  76
+                ]
+              ],
+              "color": "gray"
+            }
+          ],
+          "points": [
+            {
+              "id": "A",
+              "label": "A",
+              "x": 24,
+              "y": 33.36,
+              "labelDx": -16,
+              "labelDy": -6
+            },
+            {
+              "id": "B",
+              "label": "B",
+              "x": 36,
+              "y": 48.72,
+              "labelDx": -16,
+              "labelDy": -6
+            }
+          ]
+        }
+      },
+      "prompt": "Refer to Figure 3.3. An increase in the price of inputs would be represented by a movement from",
+      "options": [
+        "A to B.",
+        "B to A.",
+        "S₁ to S₂.",
+        "S₂ to S₁."
+      ],
+      "answer": "d",
+      "explanation": "Input prices are a **supply shifter**, not the good's own price, so the answer must be a shift of the curve — not a movement along it (ruling out A→B and B→A). Higher input costs make firms supply **less at every price**, so supply shifts **left**: from **S₂ to S₁**. S₁ → S₂ (c) is an *increase* in supply, e.g. cheaper inputs or better technology.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q03",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Shortage from a graph",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q3"
+      },
+      "figure": {
+        "type": "graph",
+        "caption": "Figure 3.6",
+        "spec": {
+          "x": {
+            "label": "Quantity",
+            "min": 0,
+            "max": 1000,
+            "ticks": [
+              200,
+              400,
+              500,
+              600,
+              700,
+              800
+            ]
+          },
+          "y": {
+            "label": "Price",
+            "min": 0,
+            "max": 30,
+            "ticks": [
+              {
+                "at": 10,
+                "label": "$10.00"
+              },
+              {
+                "at": 15,
+                "label": "15.00"
+              },
+              {
+                "at": 20,
+                "label": "20.00"
+              },
+              {
+                "at": 25,
+                "label": "$25.00"
+              }
+            ]
+          },
+          "curves": [
+            {
+              "id": "S",
+              "label": "S",
+              "points": [
+                [
+                  120,
+                  8
+                ],
+                [
+                  880,
+                  27
+                ]
+              ],
+              "color": "red"
+            },
+            {
+              "id": "D",
+              "label": "D",
+              "points": [
+                [
+                  440,
+                  28
+                ],
+                [
+                  860,
+                  7
+                ]
+              ],
+              "color": "blue"
+            }
+          ],
+          "points": [
+            {
+              "id": "s200",
+              "x": 200,
+              "y": 10,
+              "r": 4,
+              "drop": "both"
+            },
+            {
+              "id": "s400",
+              "x": 400,
+              "y": 15,
+              "r": 4,
+              "drop": "both"
+            },
+            {
+              "id": "e",
+              "x": 600,
+              "y": 20,
+              "r": 4,
+              "drop": "both"
+            },
+            {
+              "id": "s800",
+              "x": 800,
+              "y": 25,
+              "r": 4,
+              "drop": "both"
+            },
+            {
+              "id": "d800",
+              "x": 800,
+              "y": 10,
+              "r": 4
+            },
+            {
+              "id": "d700",
+              "x": 700,
+              "y": 15,
+              "r": 0.01,
+              "drop": "x"
+            },
+            {
+              "id": "d500",
+              "x": 500,
+              "y": 25,
+              "r": 0.01,
+              "drop": "x"
+            }
+          ]
+        }
+      },
+      "prompt": "Refer to Figure 3.6. If the price is $10,",
+      "options": [
+        "there would be a surplus of 200 units.",
+        "there would be a shortage of 200 units.",
+        "there would be a shortage of 600 units.",
+        "there would be a surplus of 600 units."
+      ],
+      "answer": "c",
+      "explanation": "Read both curves at $10: the supply curve gives **Q<sub>S</sub> = 200** and the demand curve gives **Q<sub>D</sub> = 800**. Since buyers want more than sellers offer, there is a **shortage of 800 − 200 = 600**. The price is below the $20 equilibrium, so it must be a shortage; option (b) reads only the 200 off the supply side.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q04",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Simultaneous shifts",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q4"
+      },
+      "prompt": "An increase in the demand for lobster due to changes in consumer tastes, accompanied by a decrease in the supply of lobster as a result of bad weather reducing the number of fishermen trapping lobster, will result in",
+      "options": [
+        "an increase in the equilibrium price of lobster and no change in the equilibrium quantity.",
+        "a decrease in the equilibrium quantity of lobster; the equilibrium price may increase or decrease.",
+        "a decrease in the equilibrium quantity of lobster and no change in the equilibrium price.",
+        "an increase in the equilibrium price of lobster; the equilibrium quantity may increase or decrease."
+      ],
+      "answer": "d",
+      "explanation": "Demand shifting **right** pushes price up and quantity up. Supply shifting **left** pushes price up and quantity down. Both push **price up**, so the price rise is certain; they pull **quantity in opposite directions**, so the quantity change depends on which shift is bigger — it is ambiguous. Options (a) and (c) claim a definite 'no change', which only happens if the shifts exactly offset.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q05",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Rationality",
+      "difficulty": 1,
+      "source": {
+        "ref": "Q5"
+      },
+      "prompt": "Economists assume that rational people do all of the following *except*",
+      "options": [
+        "respond to economic incentives.",
+        "weigh the benefits and costs of all possible alternative actions.",
+        "undertake activities that benefit others and hurt themselves.",
+        "use all available information as they act to achieve their goals."
+      ],
+      "answer": "c",
+      "explanation": "Rational people make choices to **make themselves better off** given their resources: they use all available information, compare costs and benefits, and respond to incentives. Deliberately choosing something that **hurts themselves** contradicts that assumption. (Rationality does not rule out helping others — only acting against one's own goals.)",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q06",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Shifts in D and S",
+      "difficulty": 3,
+      "source": {
+        "ref": "Q6"
+      },
+      "figure": {
+        "type": "graph",
+        "caption": "Figure 3.14",
+        "spec": {
+          "x": {
+            "label": "Quantity",
+            "min": 0,
+            "max": 100,
+            "hideTicks": true
+          },
+          "y": {
+            "label": "Price",
+            "min": 0,
+            "max": 100,
+            "hideTicks": true
+          },
+          "curves": [
+            {
+              "id": "S2",
+              "label": "S₂",
+              "points": [
+                [
+                  10,
+                  22
+                ],
+                [
+                  66,
+                  84
+                ]
+              ],
+              "color": "slate"
+            },
+            {
+              "id": "S1",
+              "label": "S₁",
+              "points": [
+                [
+                  24,
+                  8
+                ],
+                [
+                  82,
+                  72
+                ]
+              ],
+              "color": "slate"
+            },
+            {
+              "id": "D2",
+              "label": "D₂",
+              "points": [
+                [
+                  10,
+                  82
+                ],
+                [
+                  52,
+                  18
+                ]
+              ],
+              "color": "slate"
+            },
+            {
+              "id": "D1",
+              "label": "D₁",
+              "points": [
+                [
+                  30,
+                  88
+                ],
+                [
+                  74,
+                  22
+                ]
+              ],
+              "color": "slate"
+            }
+          ],
+          "points": [
+            {
+              "id": "E",
+              "label": "E",
+              "x": 32.8054,
+              "y": 47.2489,
+              "labelDx": -16
+            },
+            {
+              "id": "B",
+              "label": "B",
+              "x": 46.8219,
+              "y": 62.7671
+            },
+            {
+              "id": "C",
+              "label": "C",
+              "x": 44.0463,
+              "y": 30.12,
+              "labelDx": -14,
+              "labelDy": 18
+            },
+            {
+              "id": "A",
+              "label": "A",
+              "x": 58.1854,
+              "y": 45.7219
+            }
+          ]
+        }
+      },
+      "prompt": "Refer to Figure 3.14. The graph in this figure illustrates an initial competitive equilibrium in the market for apples at the intersection of D₂ and S₂ (point E). Which of the following changes would cause the equilibrium to change to point A?",
+      "options": [
+        "a positive change in the technology used to produce apples and decrease in the price of oranges, a substitute for apples",
+        "a decrease in the wages of apple workers and an increase in the price of oranges, a substitute for apples",
+        "an increase in the number of apple producers and a decrease in the number of apple trees as a result of disease",
+        "an increase in the wages of apple workers and a decrease in the price of oranges, a substitute for apples"
+      ],
+      "answer": "b",
+      "explanation": "Point A is where **D₁** meets **S₁** — both curves lie to the **right** of D₂ and S₂, so we need demand to increase **and** supply to increase. Lower wages (a cheaper input) shift supply right; a higher price of oranges (a substitute) makes buyers switch to apples, shifting demand right → **(b)**. Option (a) gets supply right but a cheaper substitute *decreases* demand; (c) mixes a supply increase with a supply decrease and never moves demand; (d) moves both curves the wrong way.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q07",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Substitutes",
+      "difficulty": 1,
+      "source": {
+        "ref": "Q7"
+      },
+      "prompt": "Following the successful launch of Red Bull in the Canadian market in 2004, companies such as Coca Cola, Pepsi, and many others have introduced products to compete with Red Bull. The energy drinks introduced to compete with Red Bull would be considered",
+      "options": [
+        "inferior goods compared to Red Bull.",
+        "normal goods compared to Red Bull.",
+        "complements to Red Bull.",
+        "substitutes for Red Bull."
+      ],
+      "answer": "d",
+      "explanation": "Goods that can be **used in place of** one another are **substitutes** — competing energy drinks serve the same purpose as Red Bull. Complements are used *together* (like hot dogs and buns). Normal vs inferior describes how demand responds to **income**, not the relationship between two goods.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q08",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Expected future prices (supply)",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q8"
+      },
+      "prompt": "If a firm has an incentive to increase supply now and decrease supply in the future, the firm expects that the",
+      "options": [
+        "demand for the product will be lower in the future than it is today.",
+        "price of its product will be lower in the future than it is today.",
+        "price of inputs will be lower in the future than they are today.",
+        "price of its product will be higher in the future than it is today."
+      ],
+      "answer": "b",
+      "explanation": "Firms shift sales toward the period when they expect to get the **better price**. Selling more now and less later means the firm expects the product's price to be **lower in the future**. If it expected a *higher* future price (d), it would hold output back now. Cheaper future inputs (c) would make producing *later* more attractive, the opposite of what is described.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q09",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Linear PPF",
+      "difficulty": 1,
+      "source": {
+        "ref": "Q9"
+      },
+      "prompt": "If the production possibilities frontier is __________, then opportunity costs are constant as more of one good is produced.",
+      "options": [
+        "bowed out",
+        "nonlinear",
+        "linear",
+        "bowed in"
+      ],
+      "answer": "c",
+      "explanation": "The slope of the PPF is the opportunity cost. A **straight-line (linear)** PPF has a constant slope, so each extra unit costs the same amount of the other good. A **bowed-out** PPF reflects **increasing** marginal opportunity cost, because resources are not equally suited to both goods.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q10",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Substitutes and demand",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q10"
+      },
+      "prompt": "The more substitutes there are for a good",
+      "options": [
+        "the flatter the demand curve will be.",
+        "the larger the income effect.",
+        "the less important the price of the good will be in determining demand.",
+        "the steeper the demand curve will be."
+      ],
+      "answer": "a",
+      "explanation": "With many substitutes, even a small price rise sends buyers elsewhere, so quantity demanded responds **strongly** to price — the demand curve is **flatter**. That also means price becomes *more* (not less) important, ruling out (c), and (d) is the opposite case. The number of substitutes affects the substitution effect, not the income effect (b).",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q11",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Demand shifters",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q11"
+      },
+      "prompt": "Olive oil producers want to sell more olive oil at a higher price. Which of the following events would have this effect?",
+      "options": [
+        "an increase in the price of land used to plant olives",
+        "an increase in the price of olive oil presses",
+        "a decrease in the cost of transporting olive oil to markets",
+        "Research finds that consumption of olive oil reduces the risk of heart disease."
+      ],
+      "answer": "d",
+      "explanation": "Selling **more** at a **higher** price is exactly what an **increase in demand** produces (P and Q both rise). Health research raises consumer tastes for olive oil, shifting demand right. Options (a) and (b) raise input costs — supply falls, so price rises but quantity **falls**. Option (c) lowers costs — supply rises, so quantity rises but price **falls**.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q12",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Legal basis of markets",
+      "difficulty": 1,
+      "source": {
+        "ref": "Q12"
+      },
+      "prompt": "A successful market economy requires",
+      "options": [
+        "an equitable distribution of income and limits on immigration.",
+        "generous unemployment benefits and paid medical leave for everyone in the labour force.",
+        "well-defined property rights and an independent court system to adjudicate disputes based on the law.",
+        "a government-controlled banking system and government price controls."
+      ],
+      "answer": "c",
+      "explanation": "Markets only work when people can **own, use and trade property** and **enforce contracts**. That requires clearly defined **property rights** and **independent courts** to settle disputes. The other options describe policy choices some countries make, but none is a precondition for a market system — and (d) describes government control, the opposite of a market economy.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q13",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Normal vs inferior goods",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q13"
+      },
+      "prompt": "As incomes in Alberta fall people are drinking less craft beer and more beer produced by international brewers. Thus, an economist would consider beer produced by international brewers to be a(n)",
+      "options": [
+        "inferior good.",
+        "normal good.",
+        "complementary good.",
+        "substitute good."
+      ],
+      "answer": "a",
+      "explanation": "Demand for international beer **rises when income falls** — it moves in the **opposite** direction to income, which is the definition of an **inferior good**. (Craft beer, whose demand falls with income, is the normal good here.) The two beers are substitutes for each other, but the question asks how international beer responds to **income**.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q14",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Fixed supply",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q14"
+      },
+      "figure": [
+        {
+          "type": "graph",
+          "caption": "Figure 3.5 — Graph A",
+          "spec": {
+            "width": 400,
+            "height": 320,
+            "x": {
+              "label": "Quantity",
+              "min": 0,
+              "max": 100,
+              "hideTicks": true
+            },
+            "y": {
+              "label": "Price",
+              "min": 0,
+              "max": 100,
+              "hideTicks": true
+            },
+            "curves": [
+              {
+                "id": "D",
+                "label": "Demand",
+                "points": [
+                  [
+                    10,
+                    82
+                  ],
+                  [
+                    80,
+                    12
+                  ]
+                ],
+                "color": "blue"
+              },
+              {
+                "id": "S",
+                "label": "Supply",
+                "points": [
+                  [
+                    12,
+                    14
+                  ],
+                  [
+                    80,
+                    82
+                  ]
+                ],
+                "color": "red",
+                "labelPos": "end"
+              }
+            ]
+          }
+        },
+        {
+          "type": "graph",
+          "caption": "Figure 3.5 — Graph B",
+          "spec": {
+            "width": 400,
+            "height": 320,
+            "x": {
+              "label": "Quantity",
+              "min": 0,
+              "max": 100,
+              "hideTicks": true
+            },
+            "y": {
+              "label": "Price",
+              "min": 0,
+              "max": 100,
+              "hideTicks": true
+            },
+            "curves": [
+              {
+                "id": "D",
+                "label": "Demand",
+                "points": [
+                  [
+                    10,
+                    82
+                  ],
+                  [
+                    80,
+                    12
+                  ]
+                ],
+                "color": "blue"
+              },
+              {
+                "id": "S",
+                "label": "Supply",
+                "points": [
+                  [
+                    46,
+                    4
+                  ],
+                  [
+                    46,
+                    95
+                  ]
+                ],
+                "color": "red",
+                "labelPos": "end"
+              }
+            ]
+          }
+        }
+      ],
+      "prompt": "Refer to Figure 3.5. The figure above shows the supply and demand curves for two markets: the market for original Picasso paintings and the market for designer jeans. Which graph most likely represents which market?",
+      "options": [
+        "Graph B represents the market for original Picasso paintings and Graph A represents the market for designer jeans.",
+        "Graph B represents both the market for original Picasso paintings and designer jeans.",
+        "Graph A represents the market for original Picasso paintings and Graph B represents the market for designer jeans.",
+        "Graph A represents both the market for original Picasso paintings and designer jeans."
+      ],
+      "answer": "a",
+      "explanation": "No more **original** Picasso paintings can ever be made, so the quantity supplied is fixed whatever the price — a **vertical** supply curve (Graph B). Designer jeans can be produced in larger quantities when the price rises, so their supply curve slopes **upward** (Graph A).",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q15",
+      "type": "mc",
+      "unit": 3,
+      "topic": "Demand vs quantity demanded",
+      "difficulty": 1,
+      "source": {
+        "ref": "Q15"
+      },
+      "prompt": "What is the difference between an \"increase in demand\" and an \"increase in quantity demanded\"?",
+      "options": [
+        "There is no difference between the two terms; they both refer to a shift of the demand curve.",
+        "An \"increase in demand\" is represented by a rightward shift of the demand curve while an \"increase in quantity demanded\" is represented by a movement along a given demand curve.",
+        "An \"increase in demand\" is represented by a movement along a given demand curve, while an \"increase in quantity demanded\" is represented by a rightward shift of the demand curve.",
+        "There is no difference between the two terms; they both refer to a movement downward along a given demand curve."
+      ],
+      "answer": "b",
+      "explanation": "A change in **demand** means the whole curve **shifts**, caused by something other than the good's own price (income, tastes, related prices…). A change in **quantity demanded** is a **movement along** the existing curve, caused only by a change in the good's own price. Option (c) swaps the two definitions — the classic vocabulary trap.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q16",
+      "type": "mc",
+      "unit": 2,
+      "topic": "PPF shifts",
+      "difficulty": 3,
+      "source": {
+        "ref": "Q16"
+      },
+      "figure": {
+        "type": "graph",
+        "caption": "Figure 2.4 — points on three production possibilities frontiers for a nation",
+        "spec": {
+          "x": {
+            "label": "Plastic products",
+            "min": 0,
+            "max": 100,
+            "hideTicks": true
+          },
+          "y": {
+            "label": "Food products",
+            "min": 0,
+            "max": 100,
+            "hideTicks": true
+          },
+          "curves": [
+            {
+              "id": "ppf1",
+              "points": [
+                [
+                  0.0,
+                  64.0
+                ],
+                [
+                  8.135,
+                  63.212
+                ],
+                [
+                  16.069,
+                  60.868
+                ],
+                [
+                  23.608,
+                  57.024
+                ],
+                [
+                  30.565,
+                  51.777
+                ],
+                [
+                  36.77,
+                  45.255
+                ],
+                [
+                  42.069,
+                  37.618
+                ],
+                [
+                  46.332,
+                  29.055
+                ],
+                [
+                  49.455,
+                  19.777
+                ],
+                [
+                  51.36,
+                  10.012
+                ],
+                [
+                  52.0,
+                  0.0
+                ]
+              ],
+              "smooth": true,
+              "color": "slate"
+            },
+            {
+              "id": "ppf2",
+              "points": [
+                [
+                  0.0,
+                  64.0
+                ],
+                [
+                  10.638,
+                  63.212
+                ],
+                [
+                  21.013,
+                  60.868
+                ],
+                [
+                  30.871,
+                  57.024
+                ],
+                [
+                  39.969,
+                  51.777
+                ],
+                [
+                  48.083,
+                  45.255
+                ],
+                [
+                  55.013,
+                  37.618
+                ],
+                [
+                  60.588,
+                  29.055
+                ],
+                [
+                  64.672,
+                  19.777
+                ],
+                [
+                  67.163,
+                  10.012
+                ],
+                [
+                  68.0,
+                  0.0
+                ]
+              ],
+              "smooth": true,
+              "color": "slate"
+            },
+            {
+              "id": "ppf3",
+              "points": [
+                [
+                  0.0,
+                  80.0
+                ],
+                [
+                  13.14,
+                  79.015
+                ],
+                [
+                  25.957,
+                  76.085
+                ],
+                [
+                  38.135,
+                  71.281
+                ],
+                [
+                  49.374,
+                  64.721
+                ],
+                [
+                  59.397,
+                  56.569
+                ],
+                [
+                  67.957,
+                  47.023
+                ],
+                [
+                  74.845,
+                  36.319
+                ],
+                [
+                  79.889,
+                  24.721
+                ],
+                [
+                  82.966,
+                  12.515
+                ],
+                [
+                  84.0,
+                  0.0
+                ]
+              ],
+              "smooth": true,
+              "color": "slate"
+            }
+          ],
+          "points": [
+            {
+              "id": "V",
+              "label": "V",
+              "x": 24,
+              "y": 28
+            },
+            {
+              "id": "W",
+              "label": "W",
+              "x": 27.556,
+              "y": 54.275
+            },
+            {
+              "id": "X",
+              "label": "X",
+              "x": 47.504,
+              "y": 26.031,
+              "labelDx": -16
+            },
+            {
+              "id": "Y",
+              "label": "Y",
+              "x": 58.89,
+              "y": 32.0
+            },
+            {
+              "id": "Z",
+              "label": "Z",
+              "x": 49.374,
+              "y": 64.721
+            }
+          ]
+        }
+      },
+      "prompt": "Refer to Figure 2.4. A movement from X to Y",
+      "options": [
+        "could be due to a change in consumers' tastes and preferences.",
+        "is the result of advancements in food production technology only, with no change in the technology for plastic production.",
+        "could occur because of an influx of immigrant labour.",
+        "is the result of advancements in plastic production technology only, with no change in food production technology."
+      ],
+      "answer": "d",
+      "explanation": "X is on the inner PPF and Y on the middle one. The two frontiers share the **same food intercept** — the maximum amount of food is unchanged — but the middle one reaches **further along the plastic axis**. A frontier that pivots out on one axis only reflects better technology **for that good only**: plastic. More labour (c) would raise the maximum output of **both** goods, shifting the whole frontier out like the outer PPF. Tastes (a) choose a point *on* a frontier and cannot move the frontier itself.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q17",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Gains from specialization",
+      "difficulty": 3,
+      "source": {
+        "ref": "Q17"
+      },
+      "prompt": "Suppose that a worker in Cornland can grow either 40 bushels of corn or 10 bushels of oats per year, and a worker in Oatland can grow either 5 bushels of corn or 50 bushels of oats per year. There are 20 workers in Cornland and 20 workers in Oatland. If the two countries do not trade, Cornland will produce and consume 400 bushels of corn and 100 bushels of oats, while Oatland will produce and consume 50 bushels of corn and 500 bushels of oats. Combined output for the two countries would therefore be 450 bushels of corn and 600 bushels of oats. If the two countries do trade, each will completely specialize in producing the crop for which it has a comparative advantage. If trade occurs, by what amount will the combined output for the two countries increase?",
+      "options": [
+        "800 bushels of corn and 1000 bushels of oats",
+        "400 bushels of corn and 500 bushels of oats",
+        "350 bushels of corn and 400 bushels of oats",
+        "200 bushels of corn and 200 bushels of oats"
+      ],
+      "answer": "c",
+      "explanation": "Cornland's opportunity cost of 1 corn is 10/40 = ¼ oat (Oatland's is 50/5 = 10 oats), so Cornland specializes in **corn**: 20 × 40 = **800 corn**. Oatland specializes in **oats**: 20 × 50 = **1,000 oats**. Compared with 450 corn and 600 oats before, combined output rises by **800 − 450 = 350 corn** and **1,000 − 600 = 400 oats**. Option (a) gives the new *totals*, not the *increase*.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q18",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Points relative to the PPF",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q18"
+      },
+      "figure": {
+        "type": "table",
+        "caption": "Table 2.1 — Production choices for Tomaso's Trattoria",
+        "headers": [
+          "Choice",
+          "Quantity of Pizzas Produced",
+          "Quantity of Calzones Produced"
+        ],
+        "rows": [
+          [
+            "A",
+            48,
+            0
+          ],
+          [
+            "B",
+            36,
+            15
+          ],
+          [
+            "C",
+            24,
+            30
+          ],
+          [
+            "D",
+            12,
+            45
+          ],
+          [
+            "E",
+            0,
+            60
+          ]
+        ],
+        "rowHeaders": true
+      },
+      "prompt": "Refer to Table 2.1. Assume Tomaso's Trattoria only produces pizzas and calzones. A combination of 36 pizzas and 30 calzones would appear",
+      "options": [
+        "along Tomaso's production possibilities frontier.",
+        "inside Tomaso's production possibilities frontier.",
+        "outside Tomaso's production possibilities frontier.",
+        "at the horizontal intercept of Tomaso's production possibilities frontier."
+      ],
+      "answer": "c",
+      "explanation": "Choice B shows that when Tomaso makes **36 pizzas**, the most calzones possible is **15**. Producing 30 calzones alongside 36 pizzas needs more than his resources allow, so (36, 30) lies **outside** the frontier — unattainable. (Equivalently, 30 calzones allows at most 24 pizzas — choice C.)",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q19",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Comparative advantage",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q19"
+      },
+      "prompt": "For each watch that Switzerland produces, it gives up the opportunity to make 50 pounds of chocolate. Germany can produce 1 watch for every 100 pounds of chocolate it produces. Which of the following is *true* about the comparative advantage between the two countries?",
+      "options": [
+        "Switzerland has the comparative advantage in chocolate.",
+        "Switzerland has the comparative advantage in watches.",
+        "Germany has the comparative advantage in watches and chocolate.",
+        "Germany has the comparative advantage in watches."
+      ],
+      "answer": "b",
+      "explanation": "Opportunity cost of a watch: Switzerland **50 lb** of chocolate, Germany **100 lb**. Switzerland's is lower, so **Switzerland has the comparative advantage in watches** (and Germany, at 1/100 watch per lb vs Switzerland's 1/50, has it in chocolate). No one can hold the comparative advantage in both goods, ruling out (c).",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q20",
+      "type": "mc",
+      "unit": 1,
+      "topic": "What / how / who",
+      "difficulty": 1,
+      "source": {
+        "ref": "Q20"
+      },
+      "prompt": "Automobile manufacturers produce a range of automobiles such as sports utility vehicles, luxury sedans, pickup trucks and compact cars. What fundamental economic question are they addressing by making this range of products?",
+      "options": [
+        "How to produce goods that consumers want?",
+        "Why produce a variety of automobiles?",
+        "Who to produce automobiles for?",
+        "What to produce?"
+      ],
+      "answer": "d",
+      "explanation": "Choosing **which goods** to make — SUVs vs sedans vs trucks — answers **what to produce**. 'How' concerns production methods (robots vs workers), and 'who' concerns which buyers receive the output. 'Why' is not one of the three fundamental questions.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q21",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Opportunity cost",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q21"
+      },
+      "scenario": "table25",
+      "prompt": "Refer to Table 2.5. What is Haley's opportunity cost of making a bracelet?",
+      "options": [
+        "2 necklaces",
+        "3 bracelets",
+        "3/4 of a bracelet",
+        "1 1/3 necklaces"
+      ],
+      "answer": "d",
+      "explanation": "In a week Haley can make **9 bracelets or 12 necklaces**. Each bracelet therefore costs her 12 ÷ 9 = **1 1/3 necklaces**. 2 necklaces (a) is **Serena's** opportunity cost (16 ÷ 8). An opportunity cost of a bracelet must be measured in necklaces, which rules out (b) and (c).",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q22",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Absolute advantage",
+      "difficulty": 1,
+      "source": {
+        "ref": "Q22"
+      },
+      "scenario": "table25",
+      "prompt": "Refer to Table 2.5. Which of the following statements is *true*?",
+      "options": [
+        "Haley has an absolute advantage in making both products.",
+        "Haley has an absolute advantage in making necklaces and Serena in making bracelets.",
+        "Serena has an absolute advantage in making both products.",
+        "Haley has an absolute advantage in making bracelets and Serena in making necklaces."
+      ],
+      "answer": "d",
+      "explanation": "Absolute advantage = producing **more** with the same resources (one week). Bracelets: Haley 9 > Serena 8, so **Haley**. Necklaces: Serena 16 > Haley 12, so **Serena**. Neither has an absolute advantage in both goods.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q23",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Terms of trade",
+      "difficulty": 3,
+      "source": {
+        "ref": "Q23"
+      },
+      "scenario": "table25",
+      "prompt": "Refer to Table 2.5. What might the price of trade be?",
+      "options": [
+        "1.5 necklaces for 1 bracelet",
+        "2 bracelets for 1 necklace",
+        "3 necklaces for 1 bracelet",
+        "1 bracelet for 1 necklace"
+      ],
+      "answer": "a",
+      "explanation": "Opportunity cost of a bracelet: Haley 12/9 ≈ **1.33 necklaces**, Serena 16/8 = **2 necklaces**. Haley (lower cost) sells bracelets and will not accept less than 1.33 necklaces; Serena will not pay more than 2. Any price **between 1.33 and 2 necklaces per bracelet** benefits both, so **1.5 necklaces for 1 bracelet** works. 3 necklaces (c) is above Serena's limit, and 1 necklace (d) is below Haley's. Option (b), 2 bracelets for 1 necklace, means only ½ necklace per bracelet — far below Haley's limit.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q24",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Slope (appendix)",
+      "difficulty": 2,
+      "source": {
+        "ref": "Q24"
+      },
+      "prompt": "If a straight line passes through the point x = 14 and y = 3 and also through the point x = 4 and y = 10, the slope of this line is",
+      "options": [
+        "negative 11 divided by 6.",
+        "seven tenths.",
+        "negative seven tenths.",
+        "6 divided by 11."
+      ],
+      "answer": "c",
+      "explanation": "Slope = Δy / Δx = (10 − 3) / (4 − 14) = 7 / (−10) = **−0.7** (negative seven tenths). As x rises from 4 to 14, y falls from 10 to 3, so the slope must be negative, which rules out (b) and (d).",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q25",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Micro vs macro",
+      "difficulty": 1,
+      "source": {
+        "ref": "Q25"
+      },
+      "prompt": "Which of the following is a microeconomics question?",
+      "options": [
+        "What factors determine the price of carrots?",
+        "What determines the average price level and inflation?",
+        "How much will be saved and how much will be produced in the entire economy?",
+        "What will the level of economic growth be in the entire economy?"
+      ],
+      "answer": "a",
+      "explanation": "**Microeconomics** studies individual households, firms and **markets** — the price of carrots is set in a single market. Inflation, economy-wide saving and production, and economic growth are all **aggregate** questions about the whole economy — **macroeconomics**, the subject of this course.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q26",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Factors of production",
+      "difficulty": 1,
+      "source": {
+        "ref": "Q26"
+      },
+      "prompt": "An example of a factor of production is",
+      "options": [
+        "a worker hired by Bombardier.",
+        "stock issued by Bombardier.",
+        "a snow machine produced by Bombardier.",
+        "the streetcars exported by Bombardier."
+      ],
+      "answer": "a",
+      "explanation": "Factors of production are the **inputs** firms use — **labour**, capital, natural resources and entrepreneurial ability. A worker Bombardier hires is labour. Snow machines and streetcars are Bombardier's **outputs** (goods sold in product markets), and a share of stock is a financial asset, not physical capital.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q27",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Opportunity cost on a PPF",
+      "difficulty": 3,
+      "source": {
+        "ref": "Q27"
+      },
+      "figure": {
+        "type": "graph",
+        "caption": "Figure 2.5",
+        "spec": {
+          "x": {
+            "label": "Steel (millions of tons)",
+            "min": 0,
+            "max": 24,
+            "ticks": [
+              14,
+              16,
+              19,
+              20
+            ]
+          },
+          "y": {
+            "label": "Paper (millions of tons)",
+            "min": 0,
+            "max": 18,
+            "ticks": [
+              4,
+              9,
+              11
+            ]
+          },
+          "curves": [
+            {
+              "id": "ppf",
+              "points": [
+                [
+                  0,
+                  15
+                ],
+                [
+                  7,
+                  14
+                ],
+                [
+                  11,
+                  12.7
+                ],
+                [
+                  14,
+                  11
+                ],
+                [
+                  16,
+                  9
+                ],
+                [
+                  18,
+                  6.2
+                ],
+                [
+                  19,
+                  4
+                ],
+                [
+                  20,
+                  0
+                ]
+              ],
+              "smooth": true,
+              "color": "slate"
+            }
+          ],
+          "guides": [
+            {
+              "axis": "x",
+              "at": 14,
+              "toY": 11
+            },
+            {
+              "axis": "y",
+              "at": 11,
+              "toX": 14
+            },
+            {
+              "axis": "x",
+              "at": 16,
+              "toY": 9
+            },
+            {
+              "axis": "y",
+              "at": 9,
+              "toX": 16
+            },
+            {
+              "axis": "x",
+              "at": 19,
+              "toY": 4
+            },
+            {
+              "axis": "y",
+              "at": 4,
+              "toX": 19
+            }
+          ],
+          "points": [
+            {
+              "id": "Y",
+              "label": "Y",
+              "x": 14,
+              "y": 9,
+              "labelDx": -14
+            },
+            {
+              "id": "W",
+              "label": "W",
+              "x": 16,
+              "y": 9
+            },
+            {
+              "id": "X",
+              "label": "X",
+              "x": 19,
+              "y": 4
+            }
+          ]
+        }
+      },
+      "prompt": "Refer to Figure 2.5. If this economy is currently considering switching from point X to point W, what is the opportunity cost of each newly produced ton of paper?",
+      "options": [
+        "3 tons of steel",
+        "0.6 tons of steel",
+        "1.67 tons of paper",
+        "5 tons of paper"
+      ],
+      "answer": "b",
+      "explanation": "X = (19 steel, 4 paper) and W = (16 steel, 9 paper). Moving X → W **gives up 19 − 16 = 3** million tons of steel to **gain 9 − 4 = 5** million tons of paper. Opportunity cost per ton of paper = 3 ÷ 5 = **0.6 tons of steel**. Option (a) is the *total* cost, not per ton. An opportunity cost of paper must be in steel, ruling out (c) and (d).",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q28",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Incentives",
+      "difficulty": 1,
+      "source": {
+        "ref": "Q28"
+      },
+      "prompt": "Obesity is one of the biggest health challenges facing Canadians, with few Canadians getting the recommended amount of daily physical activity. Economists would expect",
+      "options": [
+        "there is no correlation between fines for skipping exercise and how often people will go to the gym.",
+        "people will exercise more when the cost of skipping exercise increases.",
+        "people who agree to pay a fine for skipping exercise sessions will be less healthy than those who do not.",
+        "people who value physical appearance to exercise less than others."
+      ],
+      "answer": "b",
+      "explanation": "**People respond to incentives**: raising the cost of an action (a fine for skipping the gym) makes people do less of it, so they exercise **more**. Option (a) denies that incentives matter at all, and (c) and (d) run against the incentive the fine creates.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q29",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Economic models",
+      "difficulty": 1,
+      "source": {
+        "ref": "Q29"
+      },
+      "prompt": "An economic __________ is a simplified version of some aspect of economic life used to analyze an economic issue.",
+      "options": [
+        "trade-off",
+        "market",
+        "variable",
+        "model"
+      ],
+      "answer": "d",
+      "explanation": "An **economic model** is a deliberately simplified representation of reality, built on assumptions and used to form testable predictions. A trade-off is the idea that getting more of one thing means less of another. A market is a group of buyers and sellers, and a variable is something measurable that can take different values.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "pt1-q30",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Unattainable points",
+      "difficulty": 1,
+      "source": {
+        "ref": "Q30"
+      },
+      "prompt": "The points outside the production possibilities frontier are",
+      "options": [
+        "efficient.",
+        "inefficient.",
+        "attainable.",
+        "unattainable."
+      ],
+      "answer": "d",
+      "explanation": "The PPF marks the **maximum** combinations an economy can produce with its current resources and technology. Points **beyond** it cannot be produced — they are **unattainable**. Points **on** the frontier are efficient, and points **inside** it are attainable but inefficient.",
+      "shuffleOptions": false
+    }
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "schema": "practice-bank/v1",
+  "id": "1BB3-tt1-slides-ch2",
+  "course": "ECON 1BB3",
+  "title": "Ch. 2 Lecture Slides",
+  "defaultSource": {
+    "label": "Ch. 2 Lecture Slides",
+    "kind": "slides"
+  },
+  "defaultUnit": 2,
+  "scenarios": {
+    "sidehustle": {
+      "title": "Two side hustles: Granola bars and Candles",
+      "body": "Owen and Layla each have 40 hours a week to spend making **Granola bars** or **Candles**. If a person devotes an hour entirely to one good, their output per hour is shown below (assume constant returns to scale, so each person's own production possibilities frontier is a straight line).",
+      "table": {
+        "caption": "Table C2-1 · Output per hour worked",
+        "headers": [
+          "",
+          "Granola bars",
+          "Candles"
+        ],
+        "rows": [
+          [
+            "Owen",
+            "6",
+            "3"
+          ],
+          [
+            "Layla",
+            "2",
+            "8"
+          ]
+        ],
+        "rowHeaders": true
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "c2-q01",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Scarcity and opportunity cost",
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 3"
+      },
+      "prompt": "According to the slides, why does scarcity force every economic decision to involve an opportunity cost?",
+      "options": [
+        "Unlimited wants exceed the limited resources available, so choosing one use of a resource means giving up another use",
+        "Governments set prices too high for consumers to afford everything they want",
+        "Firms deliberately restrict output in order to raise prices",
+        "Opportunity cost only arises when a good is traded internationally"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides define **scarcity** as a situation where unlimited wants exceed the limited resources available to satisfy them — so every choice to use a resource one way necessarily gives up another use, which is the opportunity cost of that choice. (b) confuses high prices with scarcity itself. (c) describes deliberate firm behaviour, not the universal condition of scarcity. (d) is wrong because opportunity cost applies to any decision, domestic or international."
+    },
+    {
+      "id": "c2-q02",
+      "type": "mc",
+      "unit": 2,
+      "topic": "PPF definition",
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 4"
+      },
+      "prompt": "A curve shows the maximum attainable combinations of two goods producible with an economy's current resources and technology. The slides call the PPF a **positive** economic tool. What does 'positive' mean here?",
+      "options": [
+        "It describes what is possible to produce, not what should be produced",
+        "It shows that total output is always increasing over time",
+        "It proves the economy is currently performing efficiently",
+        "It measures how satisfied consumers are with the goods produced"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides state the PPF \"is a positive economic tool because it describes what is possible, not what should be.\" It is a descriptive map of attainable output, not a value judgement. (b) confuses 'positive' with growth — the PPF can just as easily show a shrinking economy. (c) mistakes a descriptive tool for proof of efficiency, which depends on *where* on or inside the curve the economy actually sits. (d) misapplies a demand-side idea (satisfaction) to a supply-side concept."
+    },
+    {
+      "id": "c2-q03",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Efficient, inefficient, and unattainable points",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 7"
+      },
+      "prompt": "A bakery's PPF shows every maximum combination of bread loaves and cakes it can bake with its ovens and staff. This week it leaves one oven idle and bakes less of both goods than its ovens allow. Where does this week's output sit relative to the PPF?",
+      "options": [
+        "Inside the frontier — attainable, but inefficient",
+        "On the frontier — productively efficient",
+        "Outside the frontier — unattainable with current resources",
+        "At the vertical intercept — producing only cakes"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "Leaving an oven idle means the bakery is not using all of its resources, so it produces **below** its PPF — attainable (the resources exist) but inefficient, exactly like point F on Tesla's PPF (slide 7). (b) is wrong because only points *on* the curve, using every resource fully, are efficient. (c) is the opposite region: unattainable points, like Tesla's point G, require *more* resources than the bakery has. (d) names one specific point on the axis, not the general region described here."
+    },
+    {
+      "id": "c2-q04",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Increasing marginal opportunity cost",
+      "difficulty": 3,
+      "source": {
+        "ref": "slides 8-9"
+      },
+      "prompt": "On the health-care/automobile PPF, point A is 0 cars & 400 operations, B is 200 cars & 350 operations, C is 400 cars & 200 operations, and D is 500 cars & 0 operations. Which comparison shows the opportunity cost of a car rising as more cars are produced?",
+      "options": [
+        "Moving from B to C costs 0.75 operations per car, but moving from C to D costs 2 operations per car",
+        "Moving from A to B costs 0.25 operations per car, the same rate as moving from C to D",
+        "The opportunity cost of a car is constant at 0.4 operations across every segment of the PPF",
+        "Moving from C to D costs less per car than moving from B to C, since fewer operations remain to give up"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "From B to C, cars rise by 400 − 200 = 200 while operations fall by 350 − 200 = 150, so the cost is 150 ÷ 200 = **0.75 operations per car**. From C to D, cars rise by 500 − 400 = 100 while operations fall by 200 − 0 = 200, so the cost is 200 ÷ 100 = **2 operations per car**. Since 0.75 < 2, each additional car costs more forgone operations than the last — the defining feature of an outward-bowed PPF. (b) invents a false equality: A→B actually costs 50 ÷ 200 = 0.25, which is *not* equal to the 2 operations per car found for C→D. (c) and (d) both wrongly claim the cost is constant or falling, when it is clearly rising."
+    },
+    {
+      "id": "c2-q05",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Economic growth: sources of a PPF shift",
+      "difficulty": 2,
+      "source": {
+        "ref": "slides 11-12"
+      },
+      "prompt": "Figure 2.3 shows two ways a health-care/automobile PPF can shift outward: panel (a) from more resources becoming available, and panel (b) from a technological improvement in the auto industry only. How do the two shifts differ?",
+      "options": [
+        "Panel (a) shifts the whole frontier outward for both goods; panel (b) expands attainable cars while the maximum possible operations stays about the same",
+        "Panels (a) and (b) both produce an identical outward shift in both goods",
+        "Panel (b) shifts the frontier inward for cars while operations increase",
+        "Neither panel represents economic growth, since the number of workers is unchanged"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "Slide 11 shows more available resources moving the whole PPF outward, raising the maximum of **both** goods (point A to point B). Slide 12 shows a technology improvement in the auto industry alone: \"the quantity of operations that can be produced remains unchanged,\" while many previously unattainable car/operation combinations become attainable — an asymmetric shift, not a uniform one. (b) ignores this asymmetry. (c) reverses the direction entirely. (d) is wrong: **economic growth** is defined as the ability to produce more goods and services, which a technology gain achieves even without new workers."
+    },
+    {
+      "id": "c2-q06",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Absolute vs. comparative advantage",
+      "difficulty": 2,
+      "source": {
+        "ref": "slides 13, 17"
+      },
+      "prompt": "You can pick at most 20 kg of apples or 20 kg of cherries a week; your neighbour can pick at most 30 kg of apples or 60 kg of cherries. Your neighbour out-picks you at both fruits. Per the slides, can trade still benefit her?",
+      "options": [
+        "Yes — she has the comparative advantage in cherries even though she has the absolute advantage in both fruits, so specializing and trading with you can still raise her consumption",
+        "No — since she is better at picking everything, trading with you cannot make her better off",
+        "Yes, but only because she has the comparative advantage in apples, not cherries",
+        "No — comparative advantage requires holding the absolute advantage in only one good"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "Your opportunity cost of a cherry is 20 ÷ 20 = 1 apple, but your neighbour's is only 30 ÷ 60 = **0.5 apple** — her lower opportunity cost gives her the **comparative advantage in cherries**, even though her larger totals (30 and 60) give her the **absolute advantage** in both fruits (slide 17). (b) is precisely the misconception the slides refute: gains from trade come from comparative, not absolute, advantage. (c) reverses the two goods — you hold the comparative advantage in apples, not her. (d) states a rule the slides never impose; a party can hold the absolute advantage everywhere and still have a comparative advantage in one good."
+    },
+    {
+      "id": "c2-q07",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Specialization and gains from trade",
+      "difficulty": 3,
+      "source": {
+        "ref": "slides 15-16"
+      },
+      "prompt": "Continuing the apple/cherry example: you specialize fully in apples (20 kg) and your neighbour specializes fully in cherries (60 kg). You then trade 10 kg of your apples for 15 kg of her cherries. Compared with your no-trade bundle of 8 kg apples and 12 kg cherries, are you better off?",
+      "options": [
+        "Yes — after trading you hold 10 kg of apples and 15 kg of cherries, more of both goods than your original 8 kg and 12 kg",
+        "No — you now have only 10 kg of apples, less than the 20 kg you produced by specializing",
+        "No — trading always leaves at least one party worse off than before specializing",
+        "Yes, but only because your neighbour's consumption falls"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "After specializing you hold 20 kg of apples; trading away 10 kg for 15 kg of cherries leaves you with **10 kg apples + 15 kg cherries** — both amounts exceed your original no-trade bundle of 8 kg apples and 12 kg cherries (slide 15), so you gain from specializing and trading. (b) wrongly compares your post-trade apples to your total specialized output instead of your original consumption. (c) contradicts the slides' whole point — a mutually beneficial trade leaves **both** sides with more. (d) is false: the neighbour also ends up with more of both fruits (slide 16)."
+    },
+    {
+      "id": "c2-q08",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Circular flow and factor markets",
+      "difficulty": 2,
+      "source": {
+        "ref": "slides 19, 21"
+      },
+      "prompt": "A tutoring company hires university students as tutors, paying them wages, and separately sells tutoring packages to families. In the circular-flow diagram, which of these is money flowing from the **firm to households**?",
+      "options": [
+        "The wage payment to the tutors, since labour is bought in the factor market",
+        "The families' payment for tutoring packages, since that is a factor-market transaction",
+        "The wage payment to the tutors, since that is an output-market transaction",
+        "There is no money flow running from firms to households in the circular-flow diagram"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The circular-flow diagram has firms paying households wages, profits, and interest for the **factors of production** households supply — here, the tutors' labour (slide 21). The families' payment for tutoring packages instead flows household → firm through the **output market** (slide 19), the opposite direction, making (b) wrong. (c) mislabels the wage payment as an output-market transaction when it is a factor-market one. (d) is simply false — the wage payment is exactly such a flow."
+    },
+    {
+      "id": "c2-q09",
+      "type": "mc",
+      "unit": 2,
+      "topic": "Factors of production and entrepreneurship",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 20"
+      },
+      "prompt": "A food-truck owner combines her own delivery van, a rented commercial kitchen, flour and vegetables, and two part-time cooks to launch a new business. Which factor of production best describes her own role in bringing these resources together?",
+      "options": [
+        "Entrepreneurial ability — she is the entrepreneur who organizes the other factors to produce and sell a good",
+        "Labour, the same factor supplied by her part-time cooks",
+        "Capital, since she owns the van used in the business",
+        "Natural resources, since she supplies the flour and vegetables"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides define an entrepreneur as someone who operates a business, with **entrepreneurial ability** the skill of bringing together labour, capital, and natural resources to produce and sell goods — exactly her role here. (b) misclassifies her organizing role as ordinary labour like her cooks. (c) and (d) correctly name factors the business *uses* (the van is capital; the ingredients are natural-resource inputs), but neither describes *her own* organizing role."
+    },
+    {
+      "id": "c2-q10",
+      "type": "mc",
+      "unit": 2,
+      "topic": "The invisible hand and market coordination",
+      "difficulty": 2,
+      "source": {
+        "ref": "slides 22-24"
+      },
+      "prompt": "No single person or firm knows how to make an entire iPad — thousands of specialized firms worldwide design, manufacture, and assemble its components, coordinated through markets and prices. Which concept from the slides does this illustrate?",
+      "options": [
+        "The invisible hand — individuals and firms pursuing their own self-interest are coordinated by markets into jointly producing complex goods",
+        "A price ceiling that limits how firms can price their components",
+        "A centrally planned economy directing every firm's production decisions",
+        "The circular-flow diagram's household-to-firm factor payments"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides use the iPad's global supply chain to illustrate Adam Smith's **invisible hand**: markets mobilize dispersed, specialized knowledge through prices and competition, so self-interested firms coordinate without any central direction to produce something no one person could design alone (slides 22-24). (b) misapplies an unrelated price-control idea from a later chapter. (c) is the opposite of what happens — no planner directs the iPad's production. (d) names a different diagram entirely, not the coordinating mechanism described here."
+    },
+    {
+      "id": "c2-q11",
+      "type": "numeric",
+      "unit": 2,
+      "topic": "Opportunity cost calculation",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 18"
+      },
+      "scenario": "sidehustle",
+      "prompt": "Refer to the scenario. What is Owen's opportunity cost of producing 1 Granola bar, measured in Candles?",
+      "answer": {
+        "value": 0.5,
+        "tolerance": 0.01,
+        "display": "1/2 (0.5) candle",
+        "hint": "Divide the candles given up by the granola bars gained, per hour."
+      },
+      "explanation": "Opportunity cost of 1 unit of A = (units of B given up) ÷ (units of A gained). Devoting 1 hour to Granola bars instead of Candles gives Owen 6 bars but forgoes 3 candles: 3 ÷ 6 = **1/2 (0.5) candle** per granola bar."
+    },
+    {
+      "id": "c2-q12",
+      "type": "numeric",
+      "unit": 2,
+      "topic": "Opportunity cost calculation",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 18"
+      },
+      "scenario": "sidehustle",
+      "prompt": "Refer to the scenario. What is Layla's opportunity cost of producing 1 Granola bar, measured in Candles?",
+      "answer": {
+        "value": 4,
+        "tolerance": 0.01,
+        "display": "4 candles",
+        "hint": "Divide the candles given up by the granola bars gained, per hour."
+      },
+      "explanation": "Devoting 1 hour to Granola bars instead of Candles gives Layla 2 bars but forgoes 8 candles: 8 ÷ 2 = **4 candles** per granola bar. This is far higher than Owen's opportunity cost of 1/2 candle, so **Owen**, not Layla, holds the comparative advantage in Granola bars."
+    },
+    {
+      "id": "c2-q13",
+      "type": "numeric",
+      "unit": 2,
+      "topic": "Full specialization output",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 17"
+      },
+      "scenario": "sidehustle",
+      "prompt": "Refer to the scenario. Layla has the comparative advantage in Candles. If Layla devotes all 40 hours to Candles, how many candles will she produce in total?",
+      "answer": {
+        "value": 320,
+        "tolerance": 0.01,
+        "display": "320 candles",
+        "hint": "Multiply Layla's per-hour candle output by her total hours."
+      },
+      "explanation": "Layla's opportunity cost of a candle (2 ÷ 8 = 1/4 granola bar) is lower than Owen's (3 ÷ 6 = 1/2 granola bar), so Layla holds the **comparative advantage** in Candles. Full specialization puts all 40 hours into Candles: 40 × 8 candles/hour = **320 candles**."
+    },
+    {
+      "id": "c2-q14",
+      "type": "numeric",
+      "unit": 2,
+      "topic": "Terms of trade",
+      "difficulty": 3,
+      "source": {
+        "ref": "slides 17-18"
+      },
+      "scenario": "sidehustle",
+      "prompt": "Refer to the scenario. Layla specializes in Candles and offers to sell some to Owen. What is the **minimum** number of Granola bars Layla would accept in exchange for 1 Candle?",
+      "answer": {
+        "value": 0.25,
+        "tolerance": 0.01,
+        "display": "1/4 (0.25) granola bar",
+        "hint": "Layla's own opportunity cost of a Candle sets her minimum acceptable price."
+      },
+      "explanation": "Layla will not sell a Candle for fewer Granola bars than she could have made herself by using that hour on Granola instead — her own **opportunity cost**. On Layla's schedule, 1 hour of Candles yields 8 candles but forgoes 2 granola bars: 2 ÷ 8 = **1/4 (0.25) granola bar** per candle. Owen's opportunity cost of a Candle is 6 ÷ 3 = 2 granola bars, so any price **between 1/4 and 2 granola bars per candle** leaves both people better off than self-sufficiency — for example, 1 granola bar."
+    },
+    {
+      "id": "c2-q15",
+      "type": "graph",
+      "unit": 2,
+      "topic": "PPF regions",
+      "difficulty": 2,
+      "source": {
+        "ref": "slides 7-9"
+      },
+      "prompt": "The graph shows a bowed-out PPF for Automobiles and Health-care operations, reflecting increasing marginal opportunity costs. Place point E at a combination that is on the frontier (productively efficient), and place point I at a combination that is attainable but not efficient (inside the frontier).",
+      "graph": {
+        "x": {
+          "label": "Automobiles",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Health-care operations",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "ppf",
+            "label": "PPF",
+            "color": "slate",
+            "smooth": true,
+            "points": [
+              [
+                0,
+                90
+              ],
+              [
+                20,
+                85
+              ],
+              [
+                40,
+                70
+              ],
+              [
+                60,
+                45
+              ],
+              [
+                80,
+                15
+              ],
+              [
+                95,
+                0
+              ]
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "id": "E",
+            "kind": "point",
+            "label": "E",
+            "prompt": "Mark an efficient point (on the PPF)",
+            "expect": {
+              "onCurve": "ppf"
+            },
+            "model": {
+              "x": 40,
+              "y": 70
+            }
+          },
+          {
+            "id": "I",
+            "kind": "point",
+            "label": "I",
+            "prompt": "Mark an attainable but inefficient point (inside the frontier)",
+            "expect": {
+              "side": {
+                "of": "ppf",
+                "which": "below",
+                "minGap": 0.04
+              }
+            },
+            "model": {
+              "x": 30,
+              "y": 20
+            },
+            "hints": {
+              "near": "I should sit strictly inside the frontier (between the PPF and the origin) — attainable, but with idle or misallocated resources."
+            }
+          }
+        ]
+      },
+      "explanation": "Any point **on** the bowed-out PPF, like E, uses every resource fully — it is productively efficient, since producing more of one good is only possible by giving up some of the other (slide 7). Any point strictly **inside** the frontier, like I, is attainable (the resources exist) but inefficient: some resources sit idle or are misallocated, so more of both goods could still be produced. Points beyond the frontier are unattainable, not attainable-but-inefficient."
+    },
+    {
+      "id": "c2-q16",
+      "type": "graph",
+      "unit": 2,
+      "topic": "Economic growth shifts the PPF",
+      "difficulty": 2,
+      "source": {
+        "ref": "slides 11-12"
+      },
+      "prompt": "The economy gains new resources — for example more capital and labour — letting it produce more of both goods than before. Draw the new production possibilities frontier, PPF₂, after this growth.",
+      "graph": {
+        "x": {
+          "label": "Good X",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Good Y",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "ppf",
+            "label": "PPF₁",
+            "points": [
+              [
+                0,
+                80
+              ],
+              [
+                80,
+                0
+              ]
+            ],
+            "color": "slate"
+          }
+        ],
+        "tasks": [
+          {
+            "id": "ppf2",
+            "kind": "line",
+            "label": "PPF₂",
+            "prompt": "Draw the new PPF after economic growth",
+            "expect": {
+              "slope": "negative",
+              "shiftOf": "ppf",
+              "direction": "right"
+            }
+          }
+        ]
+      },
+      "explanation": "Shifts in the PPF represent **economic growth** — the slides show that more available resources (or better technology) let the economy produce more of both goods than before (slides 11-12). The new frontier PPF₂ must lie entirely outside (up and to the right of) the original PPF₁, making previously unattainable combinations attainable. A curve that merely rotates or sits inside PPF₁ would not represent growth, since total attainable output would not rise."
+    }
+  ]
+}

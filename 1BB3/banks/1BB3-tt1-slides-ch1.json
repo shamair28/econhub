@@ -1,0 +1,348 @@
+{
+  "schema": "practice-bank/v1",
+  "id": "1BB3-tt1-slides-ch1",
+  "course": "ECON 1BB3",
+  "title": "Ch. 1 Lecture Slides",
+  "defaultSource": {
+    "label": "Ch. 1 Lecture Slides",
+    "kind": "slides"
+  },
+  "defaultUnit": 1,
+  "scenarios": {},
+  "questions": [
+    {
+      "id": "c1-q01",
+      "type": "mc",
+      "unit": 1,
+      "topic": "People are rational",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 4"
+      },
+      "prompt": "Before buying lecture recordings for $50, Wei weighs the expected improvement in her grade against the cost using all the information she has, and decides not to buy them. She later does worse than she hoped. Was Wei's decision rational?",
+      "options": [
+        "Yes — she used available information to compare costs and benefits; being wrong once doesn't make a decision irrational",
+        "No — a rational decision must always lead to the best possible outcome",
+        "No — comparing costs and benefits is not part of rational decision-making",
+        "Yes, but only because she saved $50"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides define rational people as those who use **all available information** and **compare costs and benefits**; a rational person **will sometimes be wrong, but will not be systematically wrong**. Wei followed this process, so an unlucky outcome doesn't make her irrational. Option (b) confuses rationality with perfect foresight, and (c) ignores that cost-benefit comparison is the core of rational decision-making."
+    },
+    {
+      "id": "c1-q02",
+      "type": "mc",
+      "unit": 1,
+      "topic": "People respond to incentives",
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 5"
+      },
+      "prompt": "A downtown parking garage adds a $2/hour surcharge during rush hour. Many commuters who used to drive now take the bus during those hours instead. Which key economic idea does this best illustrate?",
+      "options": [
+        "People are rational",
+        "People respond to incentives",
+        "Optimal decisions are made at the margin",
+        "Allocative efficiency"
+      ],
+      "answer": "b",
+      "shuffleOptions": true,
+      "explanation": "The slides state that **when costs or benefits change, behaviour changes** — exactly like banks skipping bullet-resistant shields when robbery costs are low, or consumers buying more when a sales tax cut lowers the after-tax price. Here, a higher cost of driving (the surcharge) causes commuters to switch to the bus. 'Rational' (a) is the broader assumption behind the response, but the surcharge-driven behaviour change specifically illustrates **incentives**; 'allocative efficiency' (d) describes whether production matches what consumers want — not a behavioural response to a price change."
+    },
+    {
+      "id": "c1-q03",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Marginal analysis",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 6"
+      },
+      "prompt": "A food-truck owner considers staying open one extra hour each evening. The extra hour would bring in $60 of additional revenue but cost $75 in wages and ingredients. Using marginal analysis, what should the owner do?",
+      "options": [
+        "Stay open the extra hour, because marginal benefit is positive",
+        "Close at the regular time, because marginal cost ($75) exceeds marginal benefit ($60)",
+        "Stay open the extra hour, because total revenue would increase",
+        "Close at the regular time, because marginal cost is greater than zero"
+      ],
+      "answer": "b",
+      "shuffleOptions": true,
+      "explanation": "**Marginal analysis** compares the additional (marginal) cost and benefit of a small change. Here MC ($75) > MB ($60), so the extra hour is not worthwhile. Option (a) looks only at MB, ignoring that MC is even larger; (c) confuses total revenue with the marginal comparison; (d) is not the decision rule — MC is always greater than zero, but that alone never justifies stopping."
+    },
+    {
+      "id": "c1-q04",
+      "type": "mc",
+      "unit": 1,
+      "topic": "What/How/Who questions",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 9"
+      },
+      "prompt": "A government raises income taxes on high earners and increases transfer payments to low-income households, changing who ends up able to buy goods and services. This policy is most directly aimed at which of the three economic questions?",
+      "options": [
+        "How will the goods be produced?",
+        "What goods will be produced?",
+        "Who will receive the goods and services produced?",
+        "Whether markets or governments should exist?"
+      ],
+      "answer": "c",
+      "shuffleOptions": true,
+      "explanation": "The slides state that **who receives goods and services depends on income distribution**, and governments can change that distribution **through taxation and transfers** — exactly what this policy does. 'How' (a) concerns production technique (e.g., robots vs. workers), 'what' (b) concerns which goods get made, and (d) is not one of the three economic questions."
+    },
+    {
+      "id": "c1-q05",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Types of economies",
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 10"
+      },
+      "prompt": "In Country Z, the government sets production quotas for every factory and assigns workers to jobs according to a national plan, leaving almost no role for buyers and sellers negotiating prices. According to the slides, Country Z's economy is best classified as ___.",
+      "options": [
+        "a market economy",
+        "a mixed economy",
+        "a centrally planned economy",
+        "a decentralized economy"
+      ],
+      "answer": "c",
+      "shuffleOptions": true,
+      "explanation": "The slides define a **centrally planned economy** as one where **the government decides how economic resources will be allocated** — matching the quotas and job assignments here. A **market economy** relies on households and firms interacting in markets, and a **mixed economy** still has markets doing most of the allocating with government playing a role, neither of which fits a plan with 'almost no role' for buyers and sellers. 'Decentralized economy' (d) is not a term the slides define."
+    },
+    {
+      "id": "c1-q06",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Productive vs. allocative efficiency",
+      "difficulty": 3,
+      "source": {
+        "ref": "slides 11–12"
+      },
+      "prompt": "Intense competition has pushed a furniture manufacturer's production costs down to the lowest in the industry, but it keeps making bulky armoires that fewer and fewer customers want. This firm has achieved ___ efficiency but not ___ efficiency.",
+      "options": [
+        "productive; allocative",
+        "allocative; productive",
+        "productive; equitable",
+        "allocative; equitable"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "**Productive efficiency** means a good is produced at the **lowest possible cost**, which arises from competition — the low-cost production here. **Allocative efficiency** means production matches **consumer preferences**, arising from voluntary exchange — which is missing since customers don't want the armoires. 'Equitable' (c, d) refers to a fair distribution of benefits, a separate goal from either efficiency type."
+    },
+    {
+      "id": "c1-q07",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Efficiency–equity trade-off",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 13"
+      },
+      "prompt": "A city imposes strict rent control so housing is more affordable and fairly distributed among renters (improving equity). Landlords respond by cutting maintenance and building fewer new units. This illustrates that policies which improve equity can ___.",
+      "options": [
+        "always increase productive efficiency",
+        "reduce efficiency, because people respond to incentives",
+        "have no effect on efficiency",
+        "eliminate scarcity"
+      ],
+      "answer": "b",
+      "shuffleOptions": true,
+      "explanation": "The slides note there is often a **trade-off between efficiency and equity because people respond to incentives** — just as taxing high earners to fund redistribution can reduce entrepreneurs' incentive to start businesses, rent control reduces landlords' incentive to maintain and build housing, lowering efficiency. Efficiency and equity are not automatically aligned (a, c), and neither policy removes scarcity (d)."
+    },
+    {
+      "id": "c1-q08",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Building an economic model",
+      "difficulty": 2,
+      "source": {
+        "ref": "slides 15–16"
+      },
+      "prompt": "An economist builds a model to test the hypothesis that 'raising the minimum wage increases teen unemployment,' but the model's predictions don't match the actual employment data. According to the five-step process on the slides, what should happen next?",
+      "options": [
+        "Discard the hypothesis as untestable",
+        "Publish the results without changes since the hypothesis was clearly stated",
+        "Revise the model's assumptions and retest against the data",
+        "Switch to a normative analysis instead"
+      ],
+      "answer": "c",
+      "shuffleOptions": true,
+      "explanation": "The five steps end with **revising the model if it fails to explain the data well**, then retesting — model-building is iterative. Publishing an unconfirmed model (b) or discarding the hypothesis outright (a) skips this required revision step, and switching to normative analysis (d) abandons the fact-based hypothesis-testing process entirely."
+    },
+    {
+      "id": "c1-q09",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Positive vs. normative analysis",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 18"
+      },
+      "prompt": "A columnist writes: 'The inflation rate climbed to 4.2% last quarter, and the central bank ought to raise interest rates immediately to fix it.' The claim that the bank 'ought to raise interest rates' is best classified as ___ analysis, because it ___.",
+      "options": [
+        "positive; relies on facts or logic",
+        "normative; relies on a value judgment",
+        "positive; can be tested with data",
+        "normative; describes the current inflation rate"
+      ],
+      "answer": "b",
+      "shuffleOptions": true,
+      "explanation": "The word **'ought'** signals **normative analysis**, which relies on **value judgments** about what should be done. The 4.2% inflation figure is the **positive** (factual, testable) part of the statement, so options built around 'positive' (a, c) misclassify the recommendation, and (d) mislabels what the normative clause is actually about."
+    },
+    {
+      "id": "c1-q10",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Microeconomics vs. macroeconomics",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 14"
+      },
+      "prompt": "A researcher studies how a proposed increase in Canada's unemployment insurance benefits might affect the national unemployment rate and total consumer spending across the whole country. This research question falls under ___.",
+      "options": [
+        "microeconomics, because it involves a government policy",
+        "macroeconomics, because it concerns the economy as a whole",
+        "microeconomics, because unemployment insurance is paid to individuals",
+        "macroeconomics, because it involves a single labour market"
+      ],
+      "answer": "b",
+      "shuffleOptions": true,
+      "explanation": "**Macroeconomics** is the **study of the entire economy**, including unemployment and aggregate spending — exactly the national-level measures here. Options (a) and (c) mistake the *policy tool* or *individual recipients* for the *scope of analysis*, and (d) is self-contradictory: a single labour market would be a **microeconomic** topic, not macro."
+    },
+    {
+      "id": "c1-q11",
+      "type": "mc",
+      "unit": 1,
+      "topic": "Key terms: technology & capital",
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 19"
+      },
+      "prompt": "An economist notes that a factory's ___ includes its assembly-line robots and delivery trucks — durable manufactured goods used to produce other goods and services — while its ___ is the specific process it uses to turn steel and plastic into finished appliances.",
+      "options": [
+        "capital; technology",
+        "technology; capital",
+        "capital; capital",
+        "technology; technology"
+      ],
+      "answer": "a",
+      "shuffleOptions": true,
+      "explanation": "The slides define **capital** as **durable manufactured goods used to produce other goods and services** (the robots and trucks), and **technology** as the **process a firm uses to turn inputs into outputs** (converting steel and plastic into appliances). Economics gives these everyday words precise, distinct meanings, so swapping or repeating the same term (b, c, d) misapplies the definitions."
+    },
+    {
+      "id": "c1-q12",
+      "type": "numeric",
+      "unit": 1,
+      "topic": "Slope of a line (Appendix)",
+      "difficulty": 1,
+      "source": {
+        "ref": "Appendix · slide 24"
+      },
+      "prompt": "A line passes through the points (5, 20) and (15, 60). Using Slope = Rise/Run = Δy/Δx, what is the slope of this line?",
+      "answer": {
+        "value": 4,
+        "tolerance": 0.1
+      },
+      "explanation": "**Slope = (y₂ − y₁)/(x₂ − x₁) = (60 − 20)/(15 − 5) = 40/10 = 4**. Because the slope of a straight line is constant, any two points on it give the same result — subtracting in the wrong order for only one of the two differences (e.g., (20 − 60)/(15 − 5) = −4) is the most common mistake."
+    },
+    {
+      "id": "c1-q13",
+      "type": "numeric",
+      "unit": 1,
+      "topic": "Percentage change (Appendix)",
+      "difficulty": 1,
+      "source": {
+        "ref": "Appendix · slide 30"
+      },
+      "prompt": "Quarterly household spending rises from $8,000 to $8,640. Using the percentage-change formula, what is the percentage change in spending? (Enter just the number, e.g. 8 for 8%.)",
+      "answer": {
+        "value": 8,
+        "tolerance": 0.2,
+        "display": "8%"
+      },
+      "explanation": "**Percentage change = [(Value in second period − Value in first period) / Value in first period] × 100 = [(8,640 − 8,000)/8,000] × 100 = (640/8,000) × 100 = 8**. Dividing by the *second*-period value instead of the first is the usual mistake and gives a different, incorrect result."
+    },
+    {
+      "id": "c1-q14",
+      "type": "numeric",
+      "unit": 1,
+      "topic": "Area of a triangle (Appendix)",
+      "difficulty": 2,
+      "source": {
+        "ref": "Appendix · slide 32"
+      },
+      "prompt": "On a price–quantity graph, a shaded triangle has a base (difference in quantity) of 30,000 units and a height (difference in price) of $4.00. Using Area of a triangle = ½ × Base × Height, what is the area of this triangle (in dollars)?",
+      "answer": {
+        "value": 60000,
+        "tolerance": 500,
+        "prefix": "$",
+        "display": "$60,000"
+      },
+      "explanation": "**Area = ½ × Base × Height = ½ × 30,000 × $4.00 = 0.5 × 120,000 = $60,000**. Forgetting the ½ factor (and instead computing a full base×height rectangle, $120,000) is the most common error when finding a triangular area like consumer or producer surplus."
+    },
+    {
+      "id": "c1-q15",
+      "type": "graph",
+      "unit": 1,
+      "topic": "Graphing a linear function (Appendix)",
+      "difficulty": 1,
+      "source": {
+        "ref": "Appendix · slides 23–24"
+      },
+      "prompt": "Plot the linear function that passes through the two labelled points below by drawing a straight line through both of them.",
+      "graph": {
+        "x": {
+          "label": "x",
+          "min": 0,
+          "max": 10,
+          "step": 2
+        },
+        "y": {
+          "label": "y",
+          "min": 0,
+          "max": 30,
+          "step": 5
+        },
+        "points": [
+          {
+            "id": "A",
+            "label": "(1, 4)",
+            "x": 1,
+            "y": 4
+          },
+          {
+            "id": "B",
+            "label": "(5, 16)",
+            "x": 5,
+            "y": 16
+          }
+        ],
+        "tasks": [
+          {
+            "id": "L",
+            "kind": "line",
+            "label": "y = 3x + 1",
+            "prompt": "Draw the line through both points",
+            "expect": {
+              "slope": "positive",
+              "through": [
+                {
+                  "x": 1,
+                  "y": 4,
+                  "tol": 0.09
+                },
+                {
+                  "x": 5,
+                  "y": 16,
+                  "tol": 0.09
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "explanation": "The slope is **m = (16 − 4)/(5 − 1) = 12/4 = 3**, and using the point (1, 4): 4 = 3(1) + b → b = 1, giving **y = 3x + 1**. The line should slope upward and pass through both (1, 4) and (5, 16)."
+    }
+  ]
+}

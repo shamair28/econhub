@@ -95,8 +95,8 @@ function lintPoints(file, id, spec) {
 for (const file of process.argv.slice(2)) {
   const bank = JSON.parse(fs.readFileSync(file, 'utf8'));
   for (const q of bank.questions || []) {
-    const spec = q.graph || (q.figure && q.figure.spec);
-    if (spec) lintPoints(path.basename(file), q.id, spec);
+    const figs = [].concat(q.figure || []).map(f => f.spec).filter(Boolean);
+    for (const spec of [q.graph, ...figs].filter(Boolean)) lintPoints(path.basename(file), q.id, spec);
   }
 }
 

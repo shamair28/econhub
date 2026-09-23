@@ -33,6 +33,8 @@ PracticeEngine.mount(document.getElementById('app'), {
 </script>
 ```
 
+Bump the `?v=` query on the framework's `<link>`/`<script>` tags in every test page whenever `engine.*` or `graph.*` change, so returning visitors don't run a cached engine against new banks. Chapter-based courses can pass `unitWord: 'Ch.', unitNoun: 'chapter'` so badges and filters say "Ch. 3" instead of "Unit 3". A question's `figure` may also be an array of figures, shown side by side.
+
 A question is **in scope** when its `unit` is in `scope.units` and it does not carry the tag `out-of-scope` (or `"inScope": false`). Out-of-scope questions stay in the bank but are hidden unless the student turns off the scope filter, and they show a "Not on <scope label>" badge.
 
 ## Bank file

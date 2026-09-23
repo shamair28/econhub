@@ -198,6 +198,8 @@
 .pe-figure img { max-width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--pe-border); }
 .pe-figure figcaption { font-size: 0.82rem; color: var(--pe-muted); margin-top: 6px; font-style: italic; }
 .pe-figure-graph { border: 1px solid var(--pe-border); border-radius: 12px; padding: 10px; background: var(--pe-card); }
+.pe-figure-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin: 8px 0 20px; }
+.pe-figure-row .pe-figure { margin: 0; }
 
 /* options */
 .pe-options { display: flex; flex-direction: column; gap: 10px; }

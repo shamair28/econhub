@@ -22,6 +22,7 @@ Every chapter page is a self-contained, rendered HTML lesson that includes:
 Interactive, one-question-at-a-time practice tests built on the reusable framework in `practice/` (see `practice/SCHEMA.md`):
 
 - **ECON 1B03 · Midterm 1** — `/1B03/midterm1` — the Fall 2022 practice midterm (40 MC, with the official key) plus new questions written from the Unit 1–4 lecture slides, including numeric problems and **graph-drawing drills** (draw a shifted demand curve, mark the new equilibrium, draw a price ceiling…). Practice mode gives instant feedback with explanations; exam mode is timed like the real test. Every question shows where it came from.
+- **ECON 1BB3 · Term Test 1** — `/1BB3/test1` — Practice Test #1 (30 MC, Ch. 1–3, figures rebuilt as crisp graphs) plus 49 new questions from the Ch. 1–3 lecture slides, including graph-drawing drills. Timed mode matches the real test (30 questions, 60 minutes).
 
 ---
 ### [Current public-facing site](https://econ.canhost.cc)
