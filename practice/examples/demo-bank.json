@@ -113,7 +113,7 @@
           { "id": "D", "label": "D₁", "points": [[8, 78], [70, 12]], "color": "blue" },
           { "id": "S", "label": "S", "points": [[8, 12], [78, 82]], "color": "red" }
         ],
-        "points": [ { "id": "E", "label": "E₁", "x": 44.3, "y": 48.3, "drop": "both", "dropLabels": { "x": "Q₁", "y": "P₁" } } ],
+        "points": [ { "id": "E", "label": "E₁", "x": 39.97, "y": 43.97, "drop": "both", "dropLabels": { "x": "Q₁", "y": "P₁" } } ],
         "tasks": [
           { "id": "D2", "kind": "line", "label": "D₂", "prompt": "Draw the new demand curve D₂", "expect": { "slope": "negative", "shiftOf": "D", "direction": "right" } },
           { "id": "E2", "kind": "point", "label": "E₂", "prompt": "Mark the new equilibrium E₂", "expect": { "atIntersection": ["user:D2", "S"], "relativeTo": { "ref": "E", "x": "+", "y": "+" } } }
@@ -154,9 +154,9 @@
         "curves": [
           { "id": "D", "label": "D", "points": [[8, 82], [80, 10]], "color": "blue" },
           { "id": "S", "label": "S", "points": [[8, 10], [80, 82]], "color": "red" },
-          { "id": "Pstar", "points": [[0, 45], [100, 45]], "hidden": true }
+          { "id": "Pstar", "points": [[0, 46], [100, 46]], "hidden": true }
         ],
-        "points": [ { "id": "E", "label": "E", "x": 45, "y": 45, "drop": "both", "dropLabels": { "x": "Q*", "y": "P*" } } ],
+        "points": [ { "id": "E", "label": "E", "x": 44, "y": 46, "drop": "both", "dropLabels": { "x": "Q*", "y": "P*" } } ],
         "tasks": [
           { "id": "ceil", "kind": "line", "label": "P max", "prompt": "Draw the price ceiling", "expect": { "slope": "flat", "shiftOf": "Pstar", "direction": "down" }, "hints": { "shift": "A binding ceiling must sit below the equilibrium price." }, "model": { "points": [[0, 28], [100, 28]] } },
           { "id": "qs", "kind": "point", "label": "Qₛ", "prompt": "Mark quantity supplied at the ceiling", "expect": { "atIntersection": ["user:ceil", "S"], "relativeTo": { "ref": "E", "x": "-", "y": "-" } } }

@@ -77,5 +77,58 @@ for (const file of process.argv.slice(2)) {
     console.log(`ok   ${tag} (${spec.tasks.length} task${spec.tasks.length === 1 ? '' : 's'})`);
   }
 }
+// ── Lint: a labelled point that sits NEAR (but not ON) the crossing of two curves is almost certainly a
+// mis-computed equilibrium — relativeTo checks against it would then grade correct answers wrong.
+function lintPoints(file, id, spec) {
+  const curves = (spec.curves || []).filter(c => c.points && c.points.length === 2);
+  for (const p of spec.points || []) {
+    const pn = toNorm(spec, p.x, p.y);
+    for (let a = 0; a < curves.length; a++) for (let b = a + 1; b < curves.length; b++) {
+      const A = curves[a].points.map(q => toNorm(spec, q[0], q[1])), B = curves[b].points.map(q => toNorm(spec, q[0], q[1]));
+      const ix = EconGraph._geom.polyIntersect(A, B);
+      if (!ix) continue;
+      const d = Math.hypot(pn[0] - ix[0], pn[1] - ix[1]);
+      if (d > 0.005 && d < 0.1) { failures++; const [x, y] = fromNorm(spec, ix[0], ix[1]); console.log(`FAIL ${file} ${id}: point "${p.id}" (${p.x}, ${p.y}) is near but not on the crossing of ${curves[a].id} and ${curves[b].id} at (${x.toFixed(2)}, ${y.toFixed(2)})`); }
+    }
+  }
+}
+for (const file of process.argv.slice(2)) {
+  const bank = JSON.parse(fs.readFileSync(file, 'utf8'));
+  for (const q of bank.questions || []) {
+    const spec = q.graph || (q.figure && q.figure.spec);
+    if (spec) lintPoints(path.basename(file), q.id, spec);
+  }
+}
+
+// ── Regression cases for tolerant grading (bugs reported from real use) ──
+function expectGrade(name, spec, drawings, want) {
+  const r = EconGraph.gradeDrawings(spec, drawings);
+  if (r.ok !== want) { failures++; console.log(`FAIL regression: ${name} → got ${r.ok}, want ${want}: ${r.results.map(x => x.message).join(' | ')}`); }
+  else console.log(`ok   regression: ${name}`);
+}
+{
+  const ppf = { x: { min: 0, max: 100 }, y: { min: 0, max: 100 }, curves: [{ id: 'ppf', points: [[0, 100], [100, 0]] }],
+    tasks: [{ id: 'N', kind: 'point', label: 'N', expect: { side: { of: 'ppf', which: 'above' } } }] };
+  expectGrade('PPF point just beyond the frontier (55, 62) is unattainable', ppf, { N: { kind: 'point', x: 55, y: 62 } }, true);
+  expectGrade('PPF point inside the frontier (30, 30) is not unattainable', ppf, { N: { kind: 'point', x: 30, y: 30 } }, false);
+  const inside = JSON.parse(JSON.stringify(ppf)); inside.tasks[0].expect = { side: { of: 'ppf', which: 'below' } };
+  expectGrade('PPF point (60, 30) is inside the frontier', inside, { N: { kind: 'point', x: 60, y: 30 } }, true);
+
+  // small leftward supply shift; E₂ tapped near the true intersection must pass "higher price than E₁"
+  const D = [[8, 78], [70, 12]], S = [[8, 12], [78, 82]];
+  const t = 66 / (66 / 62 + 1), E = { id: 'E', x: 8 + t, y: 12 + t };
+  const spec = { x: { min: 0, max: 100 }, y: { min: 0, max: 100 }, curves: [{ id: 'D', points: D }, { id: 'S', points: S }], points: [E],
+    tasks: [{ id: 'S2', kind: 'line', expect: { slope: 'positive', shiftOf: 'S', direction: 'left' } },
+            { id: 'E2', kind: 'point', expect: { atIntersection: ['D', 'user:S2'], relativeTo: { ref: 'E', x: '-', y: '+' } } }] };
+  const S2 = S.map(p => [p[0] - 6, p[1]]); // just over the minimum shift
+  const m1 = (D[1][1] - D[0][1]) / (D[1][0] - D[0][0]), c1 = D[0][1] - m1 * D[0][0];
+  const m2 = (S2[1][1] - S2[0][1]) / (S2[1][0] - S2[0][0]), c2 = S2[0][1] - m2 * S2[0][0];
+  const ix = (c2 - c1) / (m1 - m2), iy = m1 * ix + c1;
+  expectGrade('small S shift, E₂ tapped 2 units off the true intersection', spec,
+    { S2: { kind: 'line', points: S2 }, E2: { kind: 'point', x: ix + 1, y: iy - 2 } }, true);
+  expectGrade('small S shift, E₂ tapped on the old equilibrium', spec,
+    { S2: { kind: 'line', points: S2 }, E2: { kind: 'point', x: E.x, y: E.y } }, false);
+}
+
 console.log(`\n${checked} graph questions checked, ${failures} failure(s)`);
 process.exit(failures ? 1 : 0);

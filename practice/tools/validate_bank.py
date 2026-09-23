@@ -189,11 +189,15 @@ def check_graph_spec(rep, where, spec, allow_tasks=True):
             if not any(k in e for k in ("slope", "shiftOf", "through")):
                 rep.err(w, "line expect needs at least one of slope / shiftOf+direction / through")
         else:
-            targets = [k for k in ("near", "atIntersection", "onCurve", "region") if k in e]
+            targets = [k for k in ("near", "atIntersection", "onCurve", "region", "side") if k in e]
             if len(targets) > 1:
                 rep.err(w, f"point expect should use a single target, got {targets}")
             if not targets and "relativeTo" not in e:
-                rep.err(w, "point expect needs near / atIntersection / onCurve / region / relativeTo")
+                rep.err(w, "point expect needs near / atIntersection / onCurve / region / side / relativeTo")
+            if "side" in e:
+                sd = e["side"]
+                if not (isinstance(sd, dict) and ref_ok(sd.get("of")) and sd.get("which") in ("above", "below")):
+                    rep.err(w, 'side must be {"of": <curve id>, "which": "above"|"below"}')
             if "near" in e and not (isinstance(e["near"], dict) and is_num(e["near"].get("x")) and is_num(e["near"].get("y"))):
                 rep.err(w, "near must be {x, y}")
             if "atIntersection" in e:

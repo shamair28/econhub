@@ -198,6 +198,7 @@ Colours: `blue red green purple amber gray slate pink teal orange indigo` or any
 | `atIntersection` | `[refA, refB]` — refs are curve ids, `"user:<taskId>"` (the student's own line) or `"model:<taskId>"` |
 | `onCurve` + `atX`/`atY` | on a curve at a given coordinate; omit `atX/atY` to accept anywhere on the curve |
 | `region` | `{ xmin?, xmax?, ymin?, ymax? }` in data units |
+| `side` | `{ of: "ppf", which: "above"\|"below", minGap?: 0.03 }` — point must lie above/below a curve (measured vertically against the curve). For a downward PPF, `above` = beyond the frontier (unattainable), `below` = inside it (attainable but inefficient). Prefer this over `region` for PPF questions |
 | `relativeTo` | `{ ref: "E", x: "+"\|"-"\|"0"\|"any", y: … }` — compare to a defined point or `"user:<taskId>"` |
 
 `model` (optional) overrides the dashed "model answer" overlay: lines `{ points: [[x,y],[x,y]] }` or `{ shift: 0.2 }` (fraction of range); points `{ x, y }`. Without it the engine derives a model from `expect` (a shifted copy of the reference, the intersection, etc.).

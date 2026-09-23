@@ -372,14 +372,18 @@
             "label": "I",
             "prompt": "Mark an attainable but inefficient point (inside the frontier)",
             "expect": {
-              "region": {
-                "xmax": 40,
-                "ymax": 40
+              "side": {
+                "of": "ppf",
+                "which": "below",
+                "minGap": 0.04
               }
             },
             "model": {
               "x": 20,
               "y": 20
+            },
+            "hints": {
+              "near": "I should sit strictly inside the frontier (between the PPF and the origin) — attainable, but with idle or misallocated resources."
             }
           }
         ]
@@ -433,14 +437,18 @@
             "label": "N",
             "prompt": "Mark an unattainable point (beyond the frontier)",
             "expect": {
-              "region": {
-                "xmin": 65,
-                "ymin": 65
+              "side": {
+                "of": "ppf",
+                "which": "above",
+                "minGap": 0.03
               }
             },
             "model": {
               "x": 80,
               "y": 80
+            },
+            "hints": {
+              "near": "N should sit beyond the PPF (farther from the origin than the frontier) — more than current resources can produce."
             }
           }
         ]

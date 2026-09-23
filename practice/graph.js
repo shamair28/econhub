@@ -156,6 +156,16 @@
     return null;
   }
   function dist(a, b) { return Math.hypot(a[0] - b[0], a[1] - b[1]); }
+  // Signed vertical gap of point p above curve `poly` (normalised units). Where the curve has no
+  // value at p's x (outside its x-range), fall back to horizontal distance, then to the range box.
+  function sideGap(poly, p) {
+    const vc = polyAtU(poly, p[0]);
+    if (vc !== null) return p[1] - vc;
+    const uc = polyAtV(poly, p[1]);
+    if (uc !== null) return p[0] - uc;
+    const r = polyRange(poly);
+    return (p[0] > r.umax || p[1] > r.vmax) ? 1 : -1;
+  }
 
   function slopeClass(d, opts) {
     const flat = (opts && opts.flatDeg) || TOL.flatDeg;
@@ -732,6 +742,13 @@
               if (v !== null) pt = [u, v];
             }
           }
+        } else if (e.side && e.side.of) {
+          const c = resolveRef(ctx, e.side.of, models, true);
+          if (c && c.kind === 'line') {
+            const r = polyRange(c.poly); const u = (r.umin + r.umax) / 2; const v = polyAtU(c.poly, u);
+            const k = e.side.which === 'below' ? -0.16 : 0.16;
+            if (v !== null) pt = [clamp(u + k, 0.04, 0.96), clamp(v + k, 0.04, 0.96)];
+          }
         } else if (e.region) {
           // open-ended bounds fall back to the axis limits
           const r = e.region;
@@ -861,6 +878,18 @@
             res.message = res.ok ? (t.success || `${label} is on ${refLabel(spec, e.onCurve)}.`) : (hints.near || `${label} should sit on ${refLabel(spec, e.onCurve)}.`);
             results.push(res); continue;
           }
+        } else if (e.side && e.side.of) {
+          const c = resolveRef(ctx, e.side.of, models);
+          const name = refLabel(spec, e.side.of);
+          if (!c || c.kind !== 'line') { res.message = `Draw ${name} first.`; results.push(res); continue; }
+          const gap = sideGap(c.poly, p);
+          const minGap = isNum(e.side.minGap) ? e.side.minGap : 0.03;
+          const want = e.side.which === 'below' ? -1 : 1;
+          res.ok = gap * want >= minGap;
+          const where = want > 0 ? 'above / beyond' : 'below / inside';
+          res.message = res.ok ? (t.success || `${label} is ${where} ${name}.`)
+            : (hints.near || (Math.abs(gap) < minGap ? `${label} is on ${name} — move it clearly ${want > 0 ? 'outside' : 'inside'} the curve.` : `${label} should be ${where} ${name}.`));
+          results.push(res); continue;
         } else if (e.region) {
           const r = e.region;
           const [x, y] = [spec.x.min + p[0] * (spec.x.max - spec.x.min), spec.y.min + p[1] * (spec.y.max - spec.y.min)];
@@ -872,14 +901,20 @@
         if (problem) { res.message = problem; results.push(res); continue; }
         // relative comparison (can be combined with target check)
         const problems = [];
+        let onTarget = false;
         if (target) {
           const d = dist(p, target);
-          if (d > tol) problems.push(hints.near || `${label} is too far from where it should be${e.atIntersection ? ` (where ${refLabel(spec, e.atIntersection[0])} meets ${refLabel(spec, e.atIntersection[1])})` : ''}.`);
+          onTarget = d <= tol;
+          if (!onTarget) problems.push(hints.near || `${label} is too far from where it should be${e.atIntersection ? ` (where ${refLabel(spec, e.atIntersection[0])} meets ${refLabel(spec, e.atIntersection[1])})` : ''}.`);
         }
         if (e.relativeTo) {
           const ref = resolveRef(ctx, e.relativeTo.ref, models);
           if (ref && ref.kind === 'point') {
-            const dz = isNum(e.relativeTo.deadZone) ? e.relativeTo.deadZone : TOL.deadZone;
+            // When the student's point is already on the target (e.g. where their own S₂ meets D), judge the
+            // exact target instead of the tap: a small-but-correct shift moves the intersection only a little,
+            // and click jitter must not flip the sign.
+            const probe = onTarget ? target : p;
+            const dz = onTarget ? 0.002 : (isNum(e.relativeTo.deadZone) ? e.relativeTo.deadZone : TOL.deadZone);
             const cmp = (delta, want, axisName) => {
               if (!want || want === 'any') return null;
               const s = delta > dz ? '+' : delta < -dz ? '-' : '0';
@@ -887,9 +922,13 @@
               const words = { '+': 'higher', '-': 'lower', '0': 'the same' };
               return hints.relative || `${label} should have ${want === '0' ? 'the same' : words[want]} ${axisName} ${want === '0' ? 'as' : 'than'} ${refLabel(spec, e.relativeTo.ref)}.`;
             };
-            const m1 = cmp(p[0] - ref.point[0], e.relativeTo.x, spec.x.label.toLowerCase());
-            const m2 = cmp(p[1] - ref.point[1], e.relativeTo.y, spec.y.label.toLowerCase());
+            const m1 = cmp(probe[0] - ref.point[0], e.relativeTo.x, spec.x.label.toLowerCase());
+            const m2 = cmp(probe[1] - ref.point[1], e.relativeTo.y, spec.y.label.toLowerCase());
             if (m1) problems.push(m1); if (m2) problems.push(m2);
+            // …but a tap that is clearly nearer the old point than the new target is just the old point.
+            const moves = [e.relativeTo.x, e.relativeTo.y].some(s => s === '+' || s === '-');
+            if (!m1 && !m2 && onTarget && moves && dist(p, ref.point) < 0.5 * dist(p, target))
+              problems.push(hints.relative || `${label} is sitting on ${refLabel(spec, e.relativeTo.ref)} — mark where the curves cross now.`);
           }
         }
         res.ok = problems.length === 0;
