@@ -526,3 +526,49 @@ mark { background: color-mix(in srgb, var(--w4) 35%, transparent); color: inheri
   .toc .toc-foot > * { flex: 1 1 auto; justify-content: center; }
   .toc .toc-foot .btn.ghost { display: none; }
 }
+
+/* ── Side menu (chapter pages + weeks) ── */
+.menu-btn { gap: 7px; font-weight: 650; }
+.menu-btn span[aria-hidden] { font-size: 15px; line-height: 1; }
+@media (max-width: 600px) { .menu-lbl { display: none; } }
+body.noscroll { overflow: hidden; }
+.scrim { position: fixed; inset: 0; z-index: 90; background: rgba(3,6,12,.55); backdrop-filter: blur(2px); animation: fadeIn .18s ease; }
+@keyframes fadeIn { from { opacity: 0; } }
+.drawer {
+  position: fixed; top: 0; left: 0; bottom: 0; z-index: 95; width: min(360px, 88vw);
+  background: var(--surface); border-right: 1px solid var(--border-strong); box-shadow: var(--shadow);
+  transform: translateX(-102%); transition: transform .24s cubic-bezier(.2,.7,.2,1);
+  display: flex; flex-direction: column;
+}
+.drawer.open { transform: none; }
+.drawer-head { display: flex; align-items: center; justify-content: space-between; padding: 14px 16px; border-bottom: 1px solid var(--border); }
+.drawer nav { overflow-y: auto; padding: 6px 10px 24px; }
+.dsec { font-size: 11.5px; font-weight: 800; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); margin: 16px 8px 6px; }
+.dsec .muted { text-transform: none; letter-spacing: 0; font-weight: 600; }
+.dlink {
+  display: grid; grid-template-columns: 34px 1fr auto; gap: 10px; align-items: center;
+  padding: 9px 10px; border-radius: 10px; color: var(--text); border: 1px solid transparent;
+}
+.dlink:hover { background: var(--surface-2); text-decoration: none; border-color: var(--border); }
+.dlink.here { background: color-mix(in srgb, var(--acc) 11%, transparent); border-color: color-mix(in srgb, var(--acc) 35%, transparent); }
+.dnum {
+  width: 32px; height: 32px; border-radius: 9px; display: grid; place-items: center;
+  font-weight: 800; font-size: 13px; background: var(--surface-3); border: 1px solid var(--border); color: var(--text);
+}
+.dnum.wk { color: var(--wk); background: color-mix(in srgb, var(--wk) 13%, transparent); border-color: color-mix(in srgb, var(--wk) 30%, transparent); font-size: 12px; }
+.dtxt { display: grid; gap: 3px; min-width: 0; }
+.dt { font-weight: 650; font-size: 14px; line-height: 1.3; }
+.dw { display: flex; flex-wrap: wrap; gap: 4px; font-size: 12px; }
+.wtag { font-size: 11px; font-weight: 700; padding: 1px 7px; border-radius: 6px; color: var(--muted); background: var(--surface-2); border: 1px solid var(--border); }
+.wtag.on { color: var(--wk); border-color: color-mix(in srgb, var(--wk) 45%, transparent); background: color-mix(in srgb, var(--wk) 12%, transparent); }
+.dext { color: var(--muted); font-size: 13px; }
+@media print { .drawer, .scrim, .menu-btn { display: none !important; } }
+
+/* top bar: never wrap; breadcrumb gives way first */
+.topbar > * { flex-shrink: 0; }
+.topbar .crumbs { flex: 0 1 auto; min-width: 0; overflow: hidden; }
+.brand, .icon-btn, .crumbs span { white-space: nowrap; }
+@media (max-width: 860px) { .topbar .crumbs { display: none; } }
+@media (max-width: 600px) { .topbar { gap: 8px; } .hub-btn { display: none; } }
+/* let wide tables scroll inside their card instead of stretching grid tracks */
+.items > *, .stack > *, .trapboard > *, .qz-review > *, .ap-wrap > *, .model > * { min-width: 0; }

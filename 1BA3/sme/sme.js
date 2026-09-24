@@ -74,6 +74,47 @@
       <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" fill="var(--text)" font-size="${size / 4.4}" font-weight="800">${pct}%</text></svg>`;
   }
 
+  /* ── side menu: chapter lesson pages + weeks ── */
+  const CHAPTERS = [
+    { n: 1, t: 'Organizational Behaviour and Management', wk: [['w1', '']] },
+    { n: 2, t: 'Personality and Learning', wk: [['w2', 'Personality §2.1–2.3'], ['w4', 'Learning §2.4–2.8']] },
+    { n: 3, t: 'Perception, Attribution, and Diversity', wk: [['w3', '']] },
+    { n: 4, t: 'Values, Attitudes, and Work Behaviour', wk: [['w2', '']] },
+    { n: 5, t: 'Theories of Work Motivation', wk: [['w2', '§5.2 abilities'], ['w4', '§5.1, 5.3–5.6']] },
+    { n: 6, t: 'Motivation in Practice', wk: [['w4', '']] }
+  ];
+  let drawerOpen = false, lastFocus = null;
+  function renderDrawer() {
+    const cur = (location.hash.replace(/^#\/?/, '').split('/')[0]) || '';
+    const nav = $('#drawerNav'); if (!nav) return;
+    nav.innerHTML = `
+      <div class="dsec">Chapter lesson pages <span class="muted">· open in a new tab</span></div>
+      ${CHAPTERS.map(c => {
+        const here = c.wk.some(([w]) => w === cur);
+        return `<a class="dlink ch ${here ? 'here' : ''}" href="/1BA3/ch${c.n}" target="_blank" rel="noopener">
+          <span class="dnum">${c.n}</span>
+          <span class="dtxt"><span class="dt">${c.t}</span>
+            <span class="dw">${c.wk.map(([w, part]) => `<span class="wtag ${w === cur ? 'on' : ''}" style="--wk:var(--${w})">Week ${byId[w] ? byId[w].num : w.slice(1)}${part ? ' · ' + part : ''}</span>`).join('')}</span></span>
+          <span class="dext" aria-hidden="true">↗</span>
+        </a>`;
+      }).join('')}
+      <div class="dsec">SME Prep weeks</div>
+      <a class="dlink ${cur === '' ? 'here' : ''}" href="#/"><span class="dnum">★</span><span class="dtxt"><span class="dt">Overview &amp; question map</span></span></a>
+      ${WEEKS.map(w => `<a class="dlink ${cur === w.id ? 'here' : ''}" href="#/${w.id}" style="--wk:var(--${w.id})"><span class="dnum wk">W${w.num}</span><span class="dtxt"><span class="dt">${w.title}</span><span class="dw muted">${w.chapterLine}</span></span></a>`).join('')}
+      <div class="dsec">Site</div>
+      <a class="dlink" href="/"><span class="dnum">⌂</span><span class="dtxt"><span class="dt">Study hub home</span><span class="dw muted">All courses</span></span></a>`;
+  }
+  function setDrawer(open) {
+    drawerOpen = open;
+    const d = $('#drawer'), sc = $('#scrim'), b = $('#menuBtn');
+    if (open) { renderDrawer(); lastFocus = document.activeElement; }
+    d.classList.toggle('open', open); d.setAttribute('aria-hidden', String(!open)); d.inert = !open;
+    sc.hidden = !open; b.setAttribute('aria-expanded', String(open));
+    document.body.classList.toggle('noscroll', open);
+    if (open) { const f = $('.dlink.here', d) || $('.dlink', d); if (f) f.focus({ preventScroll: true }); }
+    else if (lastFocus && lastFocus.focus) lastFocus.focus({ preventScroll: true });
+  }
+
   /* ── router ── */
   const app = () => $('#app');
   let cleanup = [];
@@ -447,7 +488,7 @@
     $$('#fcMode button').forEach(b => b.onclick = () => { mode = b.dataset.m; i = 0; $$('#fcMode button').forEach(x => x.classList.toggle('on', x === b)); draw(); });
     $('#fcShuf').onclick = () => { order = shuffle(all); i = 0; draw(); toast('Deck shuffled'); };
     const onKey = e => {
-      if (e.target.matches('input, textarea')) return;
+      if (drawerOpen || e.target.matches('input, textarea')) return;
       if (e.key === ' ') { e.preventDefault(); flip(); }
       else if (e.key === 'ArrowRight') mark('yes');
       else if (e.key === 'ArrowLeft') mark('no');
@@ -527,7 +568,7 @@
       $('#qAgain').onclick = () => start(shuffle(w.quiz));
     }
     const onKey = e => {
-      if (!qs.length || !$('.qz-opts', box) || e.target.matches('input, textarea')) return;
+      if (drawerOpen || !qs.length || !$('.qz-opts', box) || e.target.matches('input, textarea')) return;
       const n = { '1': 0, '2': 1, '3': 2, '4': 3, a: 0, b: 1, c: 2, d: 3 }[e.key.toLowerCase()];
       if (n != null && answers[i] == null && n < qs[i].opts.length) choose(n);
       else if (e.key === 'Enter' && answers[i] != null) { e.preventDefault(); next(); }
@@ -585,6 +626,11 @@
   document.addEventListener('DOMContentLoaded', () => {
     $('#themeBtn').onclick = () => { const t = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'; store.set('theme', t); applyTheme(t); };
     applyTheme(store.get('theme', 'dark'));
+    $('#menuBtn').onclick = () => setDrawer(!drawerOpen);
+    $('#drawerClose').onclick = () => setDrawer(false);
+    $('#scrim').onclick = () => setDrawer(false);
+    $('#drawerNav').addEventListener('click', e => { const a = e.target.closest('a'); if (a && a.getAttribute('href').startsWith('#')) setDrawer(false); });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape' && drawerOpen) setDrawer(false); });
     route();
   });
 })();
