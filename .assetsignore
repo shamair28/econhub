@@ -1,0 +1,3 @@
+# not served as static files
+worker
+.assetsignore

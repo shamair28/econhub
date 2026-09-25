@@ -16,6 +16,7 @@
   'use strict';
 
   const SITE = window.HUB_SITE || { courses: [], events: [] };
+  const SELF_V = ((document.currentScript && document.currentScript.src) || '').match(/\?v=\d+/);
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
   const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -357,6 +358,10 @@
   }
 
   function initLesson() {
+    /* "✦ Explain" AI helper — its own file; it stays hidden unless /api/explain is configured */
+    const xp = document.createElement('script');
+    xp.src = '/site/explain.js' + (SELF_V ? SELF_V[0] : ''); xp.defer = true;
+    document.body.appendChild(xp);
     /* a few older callout titles carry their own symbol ("⚠ Common mistake:") — don't add a second one */
     $$('.callout > strong:first-child').forEach(el => { if (/^[^\p{L}\p{N}"“‘'(]/u.test(el.textContent.trim())) el.classList.add('own-icon'); });
     renderHeroLinks();

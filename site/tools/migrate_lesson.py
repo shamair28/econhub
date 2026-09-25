@@ -25,7 +25,7 @@ import pathlib
 import re
 import sys
 
-ASSET_VERSION = 1
+ASSET_VERSION = 2
 
 WEB = pathlib.Path(__file__).resolve().parents[2]
 PAGE_RE = re.compile(r"^(?P<code>[0-9A-Z]{4})-ch(?P<n>\d+)\.html$")
