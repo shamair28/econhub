@@ -213,7 +213,7 @@
       ],
       "answer": "a",
       "shuffleOptions": true,
-      "explanation": "Demand increasing pushes **both** P and Q up; supply increasing pushes Q up but P **down**. The quantity effects agree, so **Q definitely rises**, but the price effects conflict, so **P depends on which shift is larger** — exactly the ambiguity the slides illustrate in Figure 3.11."
+      "explanation": "Demand increasing pushes **both** P and Q up; supply increasing pushes Q up but P **down**. The quantity effects agree, so **Q definitely rises**, but the price effects conflict, so **P depends on which shift is larger**. Whenever two shifts push one variable in opposite directions, that variable's change is ambiguous without knowing the sizes of the shifts."
     },
     {
       "id": "c3-q11",

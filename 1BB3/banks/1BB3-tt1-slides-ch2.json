@@ -33,6 +33,31 @@
         ],
         "rowHeaders": true
       }
+    },
+    "orchard": {
+      "title": "Picking apples and cherries",
+      "body": "You and your neighbour each spend a week picking fruit. The table shows the most each of you could pick in a week if you picked **only** that fruit (each person's trade-off is at a constant rate).",
+      "table": {
+        "caption": "Maximum weekly output (kg)",
+        "headers": [
+          "",
+          "Apples",
+          "Cherries"
+        ],
+        "rows": [
+          [
+            "You",
+            20,
+            20
+          ],
+          [
+            "Your neighbour",
+            30,
+            60
+          ]
+        ],
+        "rowHeaders": true
+      }
     }
   },
   "questions": [
@@ -94,7 +119,7 @@
       ],
       "answer": "a",
       "shuffleOptions": true,
-      "explanation": "Leaving an oven idle means the bakery is not using all of its resources, so it produces **below** its PPF — attainable (the resources exist) but inefficient, exactly like point F on Tesla's PPF (slide 7). (b) is wrong because only points *on* the curve, using every resource fully, are efficient. (c) is the opposite region: unattainable points, like Tesla's point G, require *more* resources than the bakery has. (d) names one specific point on the axis, not the general region described here."
+      "explanation": "Leaving an oven idle means the bakery is not using all of its resources, so it produces **inside** its PPF — attainable (the resources exist) but inefficient. (b) is wrong because only points *on* the curve, using every resource fully, are efficient. (c) is the opposite region: points **outside** the frontier would need *more* resources than the bakery has. (d) names one specific point on an axis, not the region described here."
     },
     {
       "id": "c2-q04",
@@ -105,7 +130,7 @@
       "source": {
         "ref": "slides 8-9"
       },
-      "prompt": "On the health-care/automobile PPF, point A is 0 cars & 400 operations, B is 200 cars & 350 operations, C is 400 cars & 200 operations, and D is 500 cars & 0 operations. Which comparison shows the opportunity cost of a car rising as more cars are produced?",
+      "prompt": "Refer to the figure. On this health-care/automobile PPF, point A is 0 cars & 400 operations, B is 200 cars & 350 operations, C is 400 cars & 200 operations, and D is 500 cars & 0 operations. Which comparison shows the opportunity cost of a car rising as more cars are produced?",
       "options": [
         "Moving from B to C costs 0.75 operations per car, but moving from C to D costs 2 operations per car",
         "Moving from A to B costs 0.25 operations per car, the same rate as moving from C to D",
@@ -114,7 +139,90 @@
       ],
       "answer": "a",
       "shuffleOptions": true,
-      "explanation": "From B to C, cars rise by 400 − 200 = 200 while operations fall by 350 − 200 = 150, so the cost is 150 ÷ 200 = **0.75 operations per car**. From C to D, cars rise by 500 − 400 = 100 while operations fall by 200 − 0 = 200, so the cost is 200 ÷ 100 = **2 operations per car**. Since 0.75 < 2, each additional car costs more forgone operations than the last — the defining feature of an outward-bowed PPF. (b) invents a false equality: A→B actually costs 50 ÷ 200 = 0.25, which is *not* equal to the 2 operations per car found for C→D. (c) and (d) both wrongly claim the cost is constant or falling, when it is clearly rising."
+      "explanation": "From B to C, cars rise by 400 − 200 = 200 while operations fall by 350 − 200 = 150, so the cost is 150 ÷ 200 = **0.75 operations per car**. From C to D, cars rise by 500 − 400 = 100 while operations fall by 200 − 0 = 200, so the cost is 200 ÷ 100 = **2 operations per car**. Since 0.75 < 2, each additional car costs more forgone operations than the last — the defining feature of an outward-bowed PPF. (b) invents a false equality: A→B actually costs 50 ÷ 200 = 0.25, which is *not* equal to the 2 operations per car found for C→D. (c) and (d) both wrongly claim the cost is constant or falling, when it is clearly rising.",
+      "figure": {
+        "type": "graph",
+        "caption": "Production possibilities for health care and automobiles",
+        "spec": {
+          "x": {
+            "label": "Automobiles (cars)",
+            "min": 0,
+            "max": 600,
+            "ticks": [
+              200,
+              400,
+              500
+            ]
+          },
+          "y": {
+            "label": "Health-care operations",
+            "min": 0,
+            "max": 450,
+            "ticks": [
+              200,
+              350,
+              400
+            ]
+          },
+          "curves": [
+            {
+              "id": "ppf",
+              "label": "PPF",
+              "points": [
+                [
+                  0,
+                  400
+                ],
+                [
+                  200,
+                  350
+                ],
+                [
+                  400,
+                  200
+                ],
+                [
+                  500,
+                  0
+                ]
+              ],
+              "smooth": true,
+              "color": "slate",
+              "labelPos": "end"
+            }
+          ],
+          "points": [
+            {
+              "id": "A",
+              "label": "A",
+              "x": 0,
+              "y": 400,
+              "drop": "both"
+            },
+            {
+              "id": "B",
+              "label": "B",
+              "x": 200,
+              "y": 350,
+              "drop": "both"
+            },
+            {
+              "id": "C",
+              "label": "C",
+              "x": 400,
+              "y": 200,
+              "drop": "both"
+            },
+            {
+              "id": "D",
+              "label": "D",
+              "x": 500,
+              "y": 0,
+              "drop": "both"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "c2-q05",
@@ -125,7 +233,7 @@
       "source": {
         "ref": "slides 11-12"
       },
-      "prompt": "Figure 2.3 shows two ways a health-care/automobile PPF can shift outward: panel (a) from more resources becoming available, and panel (b) from a technological improvement in the auto industry only. How do the two shifts differ?",
+      "prompt": "Refer to the figure. Both panels show a health-care/automobile PPF shifting outward from PPF₁ to PPF₂: panel (a) because more resources become available, and panel (b) because of a technological improvement in the auto industry only. How do the two shifts differ?",
       "options": [
         "Panel (a) shifts the whole frontier outward for both goods; panel (b) expands attainable cars while the maximum possible operations stays about the same",
         "Panels (a) and (b) both produce an identical outward shift in both goods",
@@ -134,7 +242,295 @@
       ],
       "answer": "a",
       "shuffleOptions": true,
-      "explanation": "Slide 11 shows more available resources moving the whole PPF outward, raising the maximum of **both** goods (point A to point B). Slide 12 shows a technology improvement in the auto industry alone: \"the quantity of operations that can be produced remains unchanged,\" while many previously unattainable car/operation combinations become attainable — an asymmetric shift, not a uniform one. (b) ignores this asymmetry. (c) reverses the direction entirely. (d) is wrong: **economic growth** is defined as the ability to produce more goods and services, which a technology gain achieves even without new workers."
+      "explanation": "In **panel (a)** more resources let the economy produce more of **both** goods, so the whole frontier moves outward — both intercepts rise. In **panel (b)** only the auto industry's technology improves: the maximum number of cars rises, but the maximum number of **operations stays the same**, so the frontier pivots outward along the cars axis while its operations intercept doesn't move. (b) ignores this asymmetry, and (c) reverses the direction. (d) is wrong because **economic growth** means the ability to produce more goods and services — a technology gain achieves that even with no new workers.",
+      "figure": [
+        {
+          "type": "graph",
+          "caption": "Panel (a) — more resources become available",
+          "spec": {
+            "width": 400,
+            "height": 320,
+            "x": {
+              "label": "Automobiles",
+              "min": 0,
+              "max": 100,
+              "hideTicks": true
+            },
+            "y": {
+              "label": "Health-care operations",
+              "min": 0,
+              "max": 100,
+              "hideTicks": true
+            },
+            "curves": [
+              {
+                "id": "ppf1",
+                "label": "PPF₁",
+                "points": [
+                  [
+                    0.0,
+                    55.0
+                  ],
+                  [
+                    6.53,
+                    54.53
+                  ],
+                  [
+                    12.94,
+                    53.13
+                  ],
+                  [
+                    19.13,
+                    50.81
+                  ],
+                  [
+                    25.0,
+                    47.63
+                  ],
+                  [
+                    30.44,
+                    43.63
+                  ],
+                  [
+                    35.36,
+                    38.89
+                  ],
+                  [
+                    39.67,
+                    33.48
+                  ],
+                  [
+                    43.3,
+                    27.5
+                  ],
+                  [
+                    46.19,
+                    21.05
+                  ],
+                  [
+                    48.3,
+                    14.24
+                  ],
+                  [
+                    49.57,
+                    7.18
+                  ],
+                  [
+                    50.0,
+                    0.0
+                  ]
+                ],
+                "smooth": true,
+                "color": "slate"
+              },
+              {
+                "id": "ppf2",
+                "label": "PPF₂",
+                "points": [
+                  [
+                    0.0,
+                    78.0
+                  ],
+                  [
+                    9.4,
+                    77.33
+                  ],
+                  [
+                    18.63,
+                    75.34
+                  ],
+                  [
+                    27.55,
+                    72.06
+                  ],
+                  [
+                    36.0,
+                    67.55
+                  ],
+                  [
+                    43.83,
+                    61.88
+                  ],
+                  [
+                    50.91,
+                    55.15
+                  ],
+                  [
+                    57.12,
+                    47.48
+                  ],
+                  [
+                    62.35,
+                    39.0
+                  ],
+                  [
+                    66.52,
+                    29.85
+                  ],
+                  [
+                    69.55,
+                    20.19
+                  ],
+                  [
+                    71.38,
+                    10.18
+                  ],
+                  [
+                    72.0,
+                    0.0
+                  ]
+                ],
+                "smooth": true,
+                "color": "blue",
+                "labelPos": "end"
+              }
+            ]
+          }
+        },
+        {
+          "type": "graph",
+          "caption": "Panel (b) — better technology in the auto industry only",
+          "spec": {
+            "width": 400,
+            "height": 320,
+            "x": {
+              "label": "Automobiles",
+              "min": 0,
+              "max": 100,
+              "hideTicks": true
+            },
+            "y": {
+              "label": "Health-care operations",
+              "min": 0,
+              "max": 100,
+              "hideTicks": true
+            },
+            "curves": [
+              {
+                "id": "ppf1",
+                "label": "PPF₁",
+                "points": [
+                  [
+                    0.0,
+                    55.0
+                  ],
+                  [
+                    6.53,
+                    54.53
+                  ],
+                  [
+                    12.94,
+                    53.13
+                  ],
+                  [
+                    19.13,
+                    50.81
+                  ],
+                  [
+                    25.0,
+                    47.63
+                  ],
+                  [
+                    30.44,
+                    43.63
+                  ],
+                  [
+                    35.36,
+                    38.89
+                  ],
+                  [
+                    39.67,
+                    33.48
+                  ],
+                  [
+                    43.3,
+                    27.5
+                  ],
+                  [
+                    46.19,
+                    21.05
+                  ],
+                  [
+                    48.3,
+                    14.24
+                  ],
+                  [
+                    49.57,
+                    7.18
+                  ],
+                  [
+                    50.0,
+                    0.0
+                  ]
+                ],
+                "smooth": true,
+                "color": "slate"
+              },
+              {
+                "id": "ppf2",
+                "label": "PPF₂",
+                "points": [
+                  [
+                    0.0,
+                    55.0
+                  ],
+                  [
+                    10.18,
+                    54.53
+                  ],
+                  [
+                    20.19,
+                    53.13
+                  ],
+                  [
+                    29.85,
+                    50.81
+                  ],
+                  [
+                    39.0,
+                    47.63
+                  ],
+                  [
+                    47.48,
+                    43.63
+                  ],
+                  [
+                    55.15,
+                    38.89
+                  ],
+                  [
+                    61.88,
+                    33.48
+                  ],
+                  [
+                    67.55,
+                    27.5
+                  ],
+                  [
+                    72.06,
+                    21.05
+                  ],
+                  [
+                    75.34,
+                    14.24
+                  ],
+                  [
+                    77.33,
+                    7.18
+                  ],
+                  [
+                    78.0,
+                    0.0
+                  ]
+                ],
+                "smooth": true,
+                "color": "blue",
+                "labelPos": "end"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "c2-q06",
@@ -145,7 +541,7 @@
       "source": {
         "ref": "slides 13, 17"
       },
-      "prompt": "You can pick at most 20 kg of apples or 20 kg of cherries a week; your neighbour can pick at most 30 kg of apples or 60 kg of cherries. Your neighbour out-picks you at both fruits. Per the slides, can trade still benefit her?",
+      "prompt": "Refer to the scenario. Your neighbour out-picks you at both fruits. Can trading with you still benefit her?",
       "options": [
         "Yes — she has the comparative advantage in cherries even though she has the absolute advantage in both fruits, so specializing and trading with you can still raise her consumption",
         "No — since she is better at picking everything, trading with you cannot make her better off",
@@ -154,7 +550,8 @@
       ],
       "answer": "a",
       "shuffleOptions": true,
-      "explanation": "Your opportunity cost of a cherry is 20 ÷ 20 = 1 apple, but your neighbour's is only 30 ÷ 60 = **0.5 apple** — her lower opportunity cost gives her the **comparative advantage in cherries**, even though her larger totals (30 and 60) give her the **absolute advantage** in both fruits (slide 17). (b) is precisely the misconception the slides refute: gains from trade come from comparative, not absolute, advantage. (c) reverses the two goods — you hold the comparative advantage in apples, not her. (d) states a rule the slides never impose; a party can hold the absolute advantage everywhere and still have a comparative advantage in one good."
+      "explanation": "Your opportunity cost of a cherry is 20 ÷ 20 = 1 apple, but your neighbour's is only 30 ÷ 60 = **0.5 apple** — her lower opportunity cost gives her the **comparative advantage in cherries**, even though her larger totals (30 and 60) give her the **absolute advantage** in both fruits (slide 17). (b) is precisely the misconception the slides refute: gains from trade come from comparative, not absolute, advantage. (c) reverses the two goods — you hold the comparative advantage in apples, not her. (d) states a rule the slides never impose; a party can hold the absolute advantage everywhere and still have a comparative advantage in one good.",
+      "scenario": "orchard"
     },
     {
       "id": "c2-q07",
@@ -165,7 +562,7 @@
       "source": {
         "ref": "slides 15-16"
       },
-      "prompt": "Continuing the apple/cherry example: you specialize fully in apples (20 kg) and your neighbour specializes fully in cherries (60 kg). You then trade 10 kg of your apples for 15 kg of her cherries. Compared with your no-trade bundle of 8 kg apples and 12 kg cherries, are you better off?",
+      "prompt": "Refer to the scenario. Without trade, you pick 8 kg of apples and 12 kg of cherries. Instead, you specialize fully in apples (20 kg) and your neighbour specializes fully in cherries (60 kg), and you trade 10 kg of your apples for 15 kg of her cherries. Are you better off than without trade?",
       "options": [
         "Yes — after trading you hold 10 kg of apples and 15 kg of cherries, more of both goods than your original 8 kg and 12 kg",
         "No — you now have only 10 kg of apples, less than the 20 kg you produced by specializing",
@@ -174,7 +571,8 @@
       ],
       "answer": "a",
       "shuffleOptions": true,
-      "explanation": "After specializing you hold 20 kg of apples; trading away 10 kg for 15 kg of cherries leaves you with **10 kg apples + 15 kg cherries** — both amounts exceed your original no-trade bundle of 8 kg apples and 12 kg cherries (slide 15), so you gain from specializing and trading. (b) wrongly compares your post-trade apples to your total specialized output instead of your original consumption. (c) contradicts the slides' whole point — a mutually beneficial trade leaves **both** sides with more. (d) is false: the neighbour also ends up with more of both fruits (slide 16)."
+      "explanation": "After specializing you hold 20 kg of apples; trading away 10 kg for 15 kg of cherries leaves you with **10 kg apples + 15 kg cherries** — both amounts exceed your original no-trade bundle of 8 kg apples and 12 kg cherries , so you gain from specializing and trading. (b) wrongly compares your post-trade apples to your total specialized output instead of your original consumption. (c) contradicts the slides' whole point — a mutually beneficial trade leaves **both** sides with more. (d) is false: the neighbour also ends up with more of both fruits.",
+      "scenario": "orchard"
     },
     {
       "id": "c2-q08",
