@@ -15,8 +15,9 @@ What it does to an old-format page (one that still links <CODE>.css / next-chapt
 Content, figures and ids are untouched; the script verifies figure payloads, section ids and table
 counts are identical before writing. Already-migrated pages are skipped (only their ?v= is synced).
 
-Every run also rewrites `/site/<asset>?v=N` in all lesson pages, index.html and 404.html to
-ASSET_VERSION — bump it after editing anything in site/ so browsers and Cloudflare refetch.
+Every run also adds the tab-icon links (site/icon.svg, favicon.ico, apple-touch-icon — built by
+make_icons.py) to any shell page missing them, and rewrites `/site/<asset>?v=N` in all lesson pages,
+index.html and 404.html to ASSET_VERSION — bump it after editing anything in site/ so browsers and Cloudflare refetch.
 It then warns about chapter pages missing from site/courses.js or _redirects.
 """
 import hashlib
@@ -49,6 +50,10 @@ SHELL_CLOSE = """</main>
 <script src="/site/courses.js?v=1"></script>
 <script src="/site/site.js?v=1"></script>
 </body>"""
+
+ICON_LINKS = """<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/site/icon.svg?v=1" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/site/apple-touch-icon.png?v=1">"""
 
 PAGER = '<nav class="pager" id="pager" aria-label="Chapter navigation"></nav>'
 
@@ -115,8 +120,13 @@ def migrate(html, code, n):
 
 
 def sync_versions(path):
-    text = path.read_text(encoding="utf-8")
-    new = re.sub(r'(/site/[\w.-]+\.(?:css|js))\?v=\d+', rf"\g<1>?v={ASSET_VERSION}", text)
+    text = path.read_bytes().decode("utf-8")
+    new = text
+    anchor = '<meta name="color-scheme" content="light dark">'
+    if 'rel="icon"' not in new and anchor in new:
+        nl = "\r\n" if "\r\n" in new else "\n"
+        new = new.replace(anchor, anchor + nl + ICON_LINKS.replace("\n", nl), 1)
+    new = re.sub(r'(/site/[\w.-]+\.(?:css|js|svg|png))\?v=\d+', rf"\g<1>?v={ASSET_VERSION}", new)
     if new != text:
         path.write_bytes(new.encode("utf-8"))
         return True
