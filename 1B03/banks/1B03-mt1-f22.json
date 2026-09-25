@@ -46,7 +46,7 @@
     },
     "market1200": {
       "title": "Market with QD = 1200 − 2P",
-      "body": "Market demand is given as Q<sub>D</sub> = 1200 − 2P. Market supply is given as Q<sub>S</sub> = 4P."
+      "body": "Market demand is given as Q<sub>D</sub> = 1200 − 2P. Market supply is given as Q<sub>S</sub> = 4P.\n\nWhere a question refers to a tax, it is a **tax of $12 per unit imposed on producers**."
     },
     "market140": {
       "title": "Market with Qd = 140 − 2P",
@@ -122,7 +122,7 @@
       ],
       "answer": "b",
       "shuffleOptions": false,
-      "explanation": "The coefficient on T (the tablet price) in the demand equation is **+0.8**, meaning a *higher* tablet price *raises* the quantity of laptops demanded — the classic sign of **substitutes** in consumption. If they were complements (d), the coefficient would be negative; if unrelated (a), it would be zero. Option (c) confuses the cross-price relationship between two goods with the good-vs-income relationship (normal/inferior), which is a separate idea tested in the next question."
+      "explanation": "The coefficient on T (the tablet price) in the demand equation is **+0.8**, meaning a *higher* tablet price *raises* the quantity of laptops demanded — the classic sign of **substitutes** in consumption. If they were complements (d), the coefficient would be negative; if unrelated (a), it would be zero. Option (c) confuses the cross-price relationship between two goods with the good-vs-income relationship (normal/inferior) — a separate idea, read from the coefficient on income (N), not on the price of a related good."
     },
     {
       "id": "f22-q03",
@@ -421,7 +421,7 @@
       ],
       "answer": "c",
       "shuffleOptions": false,
-      "explanation": "Levi's needs 3 hours per pair of jeans and 2 hours per sweater. In the 3 hours it takes to make one pair of jeans, Levi's could instead make 3 ÷ 2 = **3/2 sweaters** — that is the opportunity cost. Option (b) inverts the ratio and instead gives the opportunity cost of a *sweater* in jeans (2/3 jean), which is what the next question asks about — for a different producer."
+      "explanation": "Levi's needs 3 hours per pair of jeans and 2 hours per sweater. In the 3 hours it takes to make one pair of jeans, Levi's could instead make 3 ÷ 2 = **3/2 sweaters** — that is the opportunity cost. Option (b) inverts the ratio and instead gives the opportunity cost of a *sweater* in jeans (2/3 jean) — the reverse question."
     },
     {
       "id": "f22-q12",
@@ -771,10 +771,11 @@
       "topic": "Tax incidence — burden",
       "difficulty": 3,
       "source": {
-        "ref": "Q22"
+        "ref": "Q22",
+        "note": "Wording adapted slightly: the original said \"the above tax\" / \"this tax\", referring to the $12 tax introduced in Q21."
       },
       "scenario": "market1200",
-      "prompt": "Refer to the scenario. How is the burden of the above tax divided between consumers and producers?",
+      "prompt": "Refer to the scenario. How is the burden of the $12 tax on producers divided between consumers and producers?",
       "options": [
         {
           "id": "a",
@@ -795,7 +796,7 @@
       ],
       "answer": "a",
       "shuffleOptions": false,
-      "explanation": "From the previous question: consumers now pay $208 (up **$8** from $200) while producers receive $196 (down **$4** from $200) — consumers already absorb $8 of the $12 tax and producers only $4, before even discussing elasticity. This matches the elasticity rule: at equilibrium (P = 200, Q = 800), |E<sub>d</sub>| = 2·200/800 = 0.5 while |E<sub>s</sub>| = 4·200/800 = 1.0, so **demand is more inelastic** than supply, and the more inelastic side of a market always bears the larger share of a tax. Options (b)–(d) all wrongly conclude producers bear more, which the $8-vs-$4 split already contradicts."
+      "explanation": "Without the tax, 1200 − 2P = 4P gives P = **$200**. With the $12 tax, supply becomes Q<sub>S</sub> = 4(P − 12), so 1200 − 2P = 4P − 48 → P = **$208**: consumers now pay $208 (up **$8**) while producers keep $208 − $12 = $196 (down **$4**) — consumers already absorb $8 of the $12 tax and producers only $4, before even discussing elasticity. This matches the elasticity rule: at equilibrium (P = 200, Q = 800), |E<sub>d</sub>| = 2·200/800 = 0.5 while |E<sub>s</sub>| = 4·200/800 = 1.0, so **demand is more inelastic** than supply, and the more inelastic side of a market always bears the larger share of a tax. Options (b)–(d) all wrongly conclude producers bear more, which the $8-vs-$4 split already contradicts."
     },
     {
       "id": "f22-q23",
@@ -804,10 +805,11 @@
       "topic": "Deadweight loss",
       "difficulty": 3,
       "source": {
-        "ref": "Q23"
+        "ref": "Q23",
+        "note": "Wording adapted slightly: the original said \"the above tax\" / \"this tax\", referring to the $12 tax introduced in Q21."
       },
       "scenario": "market1200",
-      "prompt": "Refer to the scenario. What is the value of deadweight loss due to this tax?",
+      "prompt": "Refer to the scenario. What is the value of deadweight loss due to the $12 tax on producers?",
       "options": [
         {
           "id": "a",
@@ -837,10 +839,11 @@
       "topic": "Producer surplus after a tax",
       "difficulty": 3,
       "source": {
-        "ref": "Q24"
+        "ref": "Q24",
+        "note": "Wording adapted slightly: the original said \"the above tax\" / \"this tax\", referring to the $12 tax introduced in Q21."
       },
       "scenario": "market1200",
-      "prompt": "Refer to the scenario. What is the value of producer surplus after this tax?",
+      "prompt": "Refer to the scenario. What is the value of producer surplus after the $12 tax on producers?",
       "options": [
         {
           "id": "a",
@@ -1456,7 +1459,7 @@
       ],
       "answer": "a",
       "shuffleOptions": false,
-      "explanation": "Comparative advantage — and therefore gains from trade — exists only when two producers have **different** opportunity costs. If both have **exactly the same opportunity cost** (a), neither can produce a good relatively more cheaply than the other, so there's nothing to gain from specializing and trading. Option (d) is a common trap: having an absolute advantage in *both* goods (like Levi's in the Table 2-5 questions) does **not** rule out a comparative advantage for the other party, since comparative advantage depends on relative, not absolute, costs."
+      "explanation": "Comparative advantage — and therefore gains from trade — exists only when two producers have **different** opportunity costs. If both have **exactly the same opportunity cost** (a), neither can produce a good relatively more cheaply than the other, so there's nothing to gain from specializing and trading. Option (d) is a common trap: having an absolute advantage in *both* goods (e.g. one tailor who needs fewer hours than another for both jeans and sweaters) does **not** rule out a comparative advantage for the other party, since comparative advantage depends on relative, not absolute, costs."
     },
     {
       "id": "f22-q40",
