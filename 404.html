@@ -1,78 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Not Found - Econ Hub</title>
-    <style>
-        body { 
-            font-family: system-ui, sans-serif; 
-            line-height: 1.6; 
-            max-width: 800px; 
-            margin: 0 auto; 
-            padding: 2rem; 
-            color: #333; 
-            text-align: center; 
-            margin-top: 10vh;
-        }
-        h1 { 
-            color: #111827; 
-            border-bottom: 2px solid #e5e7eb; 
-            padding-bottom: 0.5rem; 
-            margin-bottom: 1rem; 
-            display: inline-block;
-        }
-        p { 
-            margin-bottom: 2rem; 
-            color: #4b5563; 
-        }
-        
-        /* Button Container */
-        .button-group {
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-        }
-
-        /* Shared Button Styles */
-        .btn { 
-            text-decoration: none; 
-            font-weight: 500; 
-            padding: 0.75rem 1.5rem;
-            border-radius: 6px;
-            transition: all 0.2s ease;
-            font-size: 1rem;
-            font-family: inherit;
-            cursor: pointer;
-            border: 1px solid #e5e7eb;
-            background: transparent;
-        }
-        
-        /* Primary Button (Blue) */
-        .btn-primary {
-            color: #2563eb; 
-        }
-        .btn-primary:hover { 
-            background-color: #f3f4f6; 
-        }
-
-        /* Secondary Button (Gray) */
-        .btn-secondary {
-            color: #4b5563;
-        }
-        .btn-secondary:hover {
-            background-color: #e5e7eb;
-            color: #111827;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Not Found · Economics Study Hub</title>
+<meta name="color-scheme" content="light dark">
+<script>try{var d=document.documentElement,t=localStorage.getItem('hub:theme');if(t)d.setAttribute('data-theme',t)}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/site/site.css?v=1">
 </head>
-<body>
-    <h1>404 - Page Not Found</h1>
-    <p>It looks like this concept hasn't been covered yet, or the link is broken.</p>
-    
-    <div class="button-group">
-        <button onclick="window.history.back()" class="btn btn-secondary">&larr; Go Back</button>
-        <a href="/" class="btn btn-primary">Return to Hub</a>
-    </div>
+<body data-page="404">
+<header class="topbar" id="topbar"></header>
+<aside class="sidenav" id="sidenav" aria-label="Site menu"></aside>
+<div class="scrim" id="scrim" hidden></div>
+
+<main class="nf" id="main">
+  <span class="eyebrow">404 · Page not found</span>
+  <h1>That page isn’t here yet</h1>
+  <p>This chapter may not be published yet, or the link is broken. Everything that exists is on the hub — or open the ☰ menu to jump straight to a chapter.</p>
+  <div class="row">
+    <button class="btn" type="button" onclick="history.back()">← Go back</button>
+    <a class="btn primary" href="/">Study Hub home</a>
+  </div>
+</main>
+
+<script src="/site/courses.js?v=1"></script>
+<script src="/site/site.js?v=1"></script>
 </body>
 </html>

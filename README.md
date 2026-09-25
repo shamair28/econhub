@@ -17,6 +17,10 @@ Every chapter page is a self-contained, rendered HTML lesson that includes:
 - **Chapter summary table** — key concepts, formulas, and when to use them
 - **Self-check checklist** — skills you should be able to do before moving on
 
+## Getting around
+
+Every chapter page shares one site shell (`site/`): a sidebar listing the course's chapters with the current chapter's sections tracked as you scroll, previous/next chapter links, "Practise" links to the matching practice test or prep hub, a reading-progress bar, "mark as studied", and a light/dark theme. The homepage is generated from the site map in `site/courses.js` — it shows where you left off, upcoming tests, the interactive prep tools and every course. Progress is saved in your browser only.
+
 ## Practice tests
 
 Interactive, one-question-at-a-time practice tests built on the reusable framework in `practice/` (see `practice/SCHEMA.md`):
