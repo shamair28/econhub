@@ -20,7 +20,7 @@
 const DEFAULT_MODEL = 'gemini-3.8-flash';
 const DEFAULT_FALLBACK = 'gemini-3.5-flash-lite';
 const API = 'https://generativelanguage.googleapis.com/v1beta/models/';
-const LIMITS = { context: 16000, objectives: 2000, selection: 2500, question: 800, turns: 6, turnText: 4000, title: 200 };
+const LIMITS = { context: 16000, objectives: 2000, selection: 2500, question: 800, draft: 4000, turns: 6, turnText: 4000, title: 200 };
 const PER_MINUTE = 12, PER_HOUR = 80;
 
 const MODES = {
@@ -28,10 +28,12 @@ const MODES = {
   simpler: 'Explain this more simply, as if to a classmate meeting the idea for the first time. Use one everyday analogy.',
   example: 'Give ONE new worked example that applies this — different from the examples already in the lesson — with a short step-by-step solution and the takeaway.',
   quiz: 'Quiz me: ask 3 short check-your-understanding questions on this (mix multiple choice and short answer, exam style). Put the answers with one-line explanations at the end under a heading "Answers".',
+  why: 'Explain why the correct answer is right and why each of the other options is wrong, in terms of the course concepts. If I chose a wrong option, start with why that choice is tempting but wrong. End with a one-line tip for spotting this kind of question.',
+  feedback: 'Give feedback on my draft answer to this assignment scenario. Judge it against the Name → Define → Apply → Recommend structure and the model answer: say which parts would earn marks, what is missing, vague or wrong, and give the 2–3 most valuable concrete improvements. Be specific and encouraging, and do NOT write a full replacement answer.',
   ask: ''
 };
 
-const SYSTEM = `You are a patient, precise tutor built into a McMaster University first-year study website. The student is reading a lesson page and has asked about part of it. You are given the course, chapter, section, the section's text and sometimes a passage they highlighted.
+const SYSTEM = `You are a patient, precise tutor built into a McMaster University first-year study website. The student is on a lesson page or the course's assignment-prep (SME) page and has asked about part of it. You are given the course, chapter or week, the section and its text, and sometimes a passage they highlighted, a quiz question or their own draft answer.
 
 - Ground every answer in the lesson: use its terminology, notation, examples and memory aids (mnemonics such as TRIBE or SPENT) where relevant. If general knowledge differs from the lesson or textbook, say the lesson/textbook version is what the course expects.
 - Focus on the highlighted passage when there is one; otherwise on the section.
@@ -104,7 +106,10 @@ export function buildRequest(b) {
   ].filter(Boolean).join('\n\n');
   const selection = clip(b.selection, LIMITS.selection);
   const focus = selection ? `\n\nThe student highlighted this passage:\n"""\n${selection}\n"""` : '';
-  const ask = mode === 'ask' ? question : MODES[mode] + (question ? `\n\nAlso: ${question}` : '');
+  const draft = clip(b.draft, LIMITS.draft);
+  if (mode === 'feedback' && !draft) return { error: 'Write a draft answer first, then ask for feedback.' };
+  let ask = mode === 'ask' ? question : MODES[mode] + (question ? `\n\nAlso: ${question}` : '');
+  if (mode === 'feedback') ask += `\n\nMy draft answer:\n"""\n${draft}\n"""`;
 
   const contents = [{ role: 'user', parts: [{ text: `${lesson}${focus}` }] },
                     { role: 'model', parts: [{ text: 'Got it — I have the lesson section. What would you like?' }] }];

@@ -25,7 +25,7 @@ import pathlib
 import re
 import sys
 
-ASSET_VERSION = 2
+ASSET_VERSION = 5
 
 WEB = pathlib.Path(__file__).resolve().parents[2]
 PAGE_RE = re.compile(r"^(?P<code>[0-9A-Z]{4})-ch(?P<n>\d+)\.html$")
@@ -119,11 +119,11 @@ def migrate(html, code, n):
     return html
 
 
-def sync_versions(path):
+def sync_versions(path, icons=True):
     text = path.read_bytes().decode("utf-8")
     new = text
     anchor = '<meta name="color-scheme" content="light dark">'
-    if 'rel="icon"' not in new and anchor in new:
+    if icons and 'rel="icon"' not in new and anchor in new:
         nl = "\r\n" if "\r\n" in new else "\n"
         new = new.replace(anchor, anchor + nl + ICON_LINKS.replace("\n", nl), 1)
     new = re.sub(r'(/site/[\w.-]+\.(?:css|js|svg|png))\?v=\d+', rf"\g<1>?v={ASSET_VERSION}", new)
@@ -171,6 +171,7 @@ def main(argv):
         sync_versions(p)
     for extra in ("index.html", "404.html"):
         sync_versions(WEB / extra)
+    sync_versions(WEB / "1BA3" / "1BA3-sme.html", icons=False)  # loads /site/explain.js; its own UI is untouched
     check_registration([p for p in pages if PAGE_RE.match(p.name)])
 
 

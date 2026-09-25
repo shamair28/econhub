@@ -1,44 +1,56 @@
-/* site/explain.js — "✦ Explain" on lesson pages (loaded by site/site.js on lesson pages only).
+/* site/explain.js — "✦ Explain with AI": shared panel + the lesson-page adapter.
  *
- * Adds an Explain button to each content section and an "Explain" chip when text is highlighted.
- * Both open a panel that streams an answer from POST /api/explain (worker/index.js → Gemini),
- * sending the section's text, the highlighted passage and the chapter's learning objectives as
- * context. Modes: explain deeper · simpler · new example · quiz me, plus free-text follow-ups.
- * The whole feature stays hidden unless GET /api/explain says { ready: true }.
+ * Core (window.HubExplain, used by any page that loads this file):
+ *   ready                 Promise<boolean> — true when GET /api/explain reports the endpoint is configured.
+ *                         Nothing is shown (and explain.css isn't loaded) until then.
+ *   open(opts)            opens the side panel (bottom sheet on phones) and streams an answer:
+ *                           title, kicker?, quote?          — header + optional quoted passage
+ *                           build: () => payload            — worker fields: course, chapter, section, objectives,
+ *                                                             context, selection?, draft?  (called on every ask,
+ *                                                             so it can re-read live state such as a draft)
+ *                           modes: [[mode, label], …]       — follow-up buttons (worker modes: explain, simpler,
+ *                                                             example, quiz, why, feedback)
+ *                           start: [mode, label] | null     — asked immediately on open
+ *   attachSelection({ root, resolve })  "✦ Explain" chip on highlighted text; resolve({ text, node }) returns
+ *                         open() options (without start/quote) or null to ignore that selection
+ *   textOf(el)            readable plain text of an element (figures → alt text, tables → cells)
+ *
+ * Lesson adapter (body.lesson): an Explain button per section (not Practice Problems) + the chip.
+ * The SME Prep hub has its own adapter: 1BA3/sme/sme-explain.js.
+ * Backend: worker/index.js → Google Gemini (free tier).
  */
 (function () {
   'use strict';
   const ENDPOINT = '/api/explain';
-  const main = document.querySelector('main.page');
-  if (!document.body.classList.contains('lesson') || !main) return;
-
+  const V = ((document.currentScript && document.currentScript.src) || '').match(/\?v=\d+/);
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
   const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-  const MODES = [
-    ['explain', 'Explain deeper'], ['simpler', 'Simpler'], ['example', 'New example'], ['quiz', 'Quiz me']
-  ];
-  const SKIP = new Set(['practice']); // problem sets: explaining would just give answers away
+  const DEFAULT_MODES = [['explain', 'Explain deeper'], ['simpler', 'Simpler'], ['example', 'New example'], ['quiz', 'Quiz me']];
 
-  fetch(ENDPOINT, { cache: 'no-store' })
+  /* ── readiness: endpoint configured + stylesheet loaded ── */
+  const ready = fetch(ENDPOINT, { cache: 'no-store' })
     .then(r => (r.ok ? r.json() : null))
-    .then(j => { if (j && j.ready) init(); })
-    .catch(() => { /* no endpoint (e.g. plain static server) → feature stays hidden */ });
-
-  /* ── page context ── */
-  const chapterTitle = () => ($('h1.lesson-title') || {}).textContent || document.title;
-  const courseName = () => (($('.course-tag') || {}).textContent || '').replace(/\s+/g, ' ').trim();
-  const objectives = () => $$('.objectives-box li').map(li => '- ' + li.textContent.trim()).join('\n');
-  function sectionLabel(sec) {
-    const n = $('.section-number', sec), h = $('h2', sec);
-    const num = n && (n.textContent.match(/\d+/) || [])[0];
-    return (num ? '§' + num + ' ' : '') + (h ? h.textContent.trim() : sec.id);
+    .then(j => (j && j.ready ? loadCss().then(() => true) : false))
+    .catch(() => false);
+  function loadCss() {
+    return new Promise(res => {
+      if ($('link[data-xp-css]')) return res();
+      const l = document.createElement('link');
+      l.rel = 'stylesheet'; l.href = '/site/explain.css' + (V ? V[0] : ''); l.dataset.xpCss = '';
+      l.onload = l.onerror = () => res();
+      document.head.appendChild(l);
+      setTimeout(res, 2500);
+    });
   }
-  function sectionText(sec) {
-    const c = sec.cloneNode(true);
-    $$('.xp-sec, button, script, style', c).forEach(e => e.remove());
+
+  /* ── text helpers ── */
+  function textOf(el) {
+    if (!el) return '';
+    const c = el.cloneNode(true);
+    $$('.xp-sec, .xp-item, [data-xp-btn], button, script, style, textarea', c).forEach(e => e.remove());
     $$('img', c).forEach(i => i.replaceWith(document.createTextNode(`\n[Figure: ${i.alt || 'diagram'}]\n`)));
-    $$('p, li, h2, h3, h4, pre, tr, blockquote, figure, .rule-head, .example-label, .callout > strong:first-child', c).forEach(e => e.append('\n'));
+    $$('p, li, h1, h2, h3, h4, pre, tr, blockquote, figure, .rule-head, .example-label, .callout > strong:first-child, .step, .group, .mrow, .nt, .kind, .ititle, .readings > div', c).forEach(e => e.append('\n'));
     $$('td, th', c).forEach(e => e.append(' | '));
     return c.textContent.replace(/[ \t ]+/g, ' ').replace(/ *\n */g, '\n').replace(/\n{3,}/g, '\n\n').trim().slice(0, 16000);
   }
@@ -71,76 +83,68 @@
     return out.join('');
   }
 
-  /* ── state ── */
-  let panel, focus = null, history = [], ctrl = null;
-
-  function init() {
-    $$('main.page > section[id]').forEach(sec => {
-      if (SKIP.has(sec.id) || !$('h2', sec)) return;
-      const b = document.createElement('button');
-      b.type = 'button'; b.className = 'xp-sec';
-      b.innerHTML = '<span aria-hidden="true">✦</span> Explain';
-      b.setAttribute('aria-label', 'Explain this section with AI: ' + sectionLabel(sec));
-      b.addEventListener('click', () => open({ section: sec, selection: '' }, 'explain'));
-      sec.prepend(b);
-    });
-    buildPanel();
-    initSelectionChip();
-  }
+  /* ── panel ── */
+  let panel, cur = null, history = [], ctrl = null;
 
   function buildPanel() {
+    if (panel) return;
     panel = document.createElement('aside');
     panel.className = 'xp'; panel.hidden = true;
     panel.setAttribute('role', 'dialog'); panel.setAttribute('aria-labelledby', 'xpTitle');
     panel.innerHTML = `
       <header class="xp-head">
-        <div class="xp-h"><span class="xp-kicker"><span aria-hidden="true">✦</span> Explain with AI</span><h2 id="xpTitle" tabindex="-1"></h2></div>
-        <button class="icon-btn xp-close" type="button" aria-label="Close explanation panel"><span class="glyph" aria-hidden="true">✕</span></button>
+        <div class="xp-h"><span class="xp-kicker"></span><h2 id="xpTitle" tabindex="-1"></h2></div>
+        <button class="xp-x" type="button" aria-label="Close explanation panel">✕</button>
       </header>
       <div class="xp-body">
         <blockquote class="xp-quote" hidden></blockquote>
         <div class="xp-thread" aria-live="polite"></div>
       </div>
       <div class="xp-foot">
-        <div class="xp-modes" role="group" aria-label="Ask for">${MODES.map(([k, l]) => `<button type="button" class="xp-mode" data-mode="${k}">${l}</button>`).join('')}</div>
+        <div class="xp-modes" role="group" aria-label="Ask for"></div>
         <form class="xp-ask">
           <textarea rows="1" maxlength="800" placeholder="Ask a follow-up about this…" aria-label="Ask a follow-up question"></textarea>
-          <button class="btn primary xp-send" type="submit">Ask</button>
+          <button class="xp-send" type="submit">Ask</button>
         </form>
-        <p class="xp-note">Answers by Google Gemini (free tier) — they can be wrong, so check them against the lesson. Google may use free-tier prompts to improve its products; don't type personal info.</p>
+        <p class="xp-note">Answers by Google Gemini (free tier) — they can be wrong, so check them against the course material. Google may use free-tier prompts to improve its products; don't type personal info.</p>
       </div>`;
     document.body.appendChild(panel);
-    $('.xp-close', panel).addEventListener('click', close);
-    $$('.xp-mode', panel).forEach(b => b.addEventListener('click', () => ask(b.dataset.mode, MODES.find(m => m[0] === b.dataset.mode)[1])));
+    $('.xp-x', panel).addEventListener('click', close);
+    $('.xp-modes', panel).addEventListener('click', e => { const b = e.target.closest('.xp-mode'); if (b) ask(b.dataset.mode, b.textContent); });
     const ta = $('textarea', panel);
-    $('.xp-ask', panel).addEventListener('submit', e => { e.preventDefault(); const q = ta.value.trim(); if (!q) return; ta.value = ''; autosize(ta); ask('ask', q, q); });
+    $('.xp-ask', panel).addEventListener('submit', e => { e.preventDefault(); const q = ta.value.trim(); if (!q || ctrl) return; ta.value = ''; autosize(ta); ask('ask', q, q); });
     ta.addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); $('.xp-ask', panel).requestSubmit(); } });
     ta.addEventListener('input', () => autosize(ta));
-    document.addEventListener('keydown', e => { if (e.key === 'Escape' && !panel.hidden && !document.querySelector('.lightbox')) close(); });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape' && panel && !panel.hidden && !$('.lightbox')) close(); });
   }
   const autosize = ta => { ta.style.height = 'auto'; ta.style.height = Math.min(ta.scrollHeight, 140) + 'px'; };
 
-  function open(f, mode) {
-    focus = f; history = [];
+  function open(opts) {
+    buildPanel();
+    cur = { modes: DEFAULT_MODES, kicker: '✦ Explain with AI', ...opts };
+    history = [];
     if (ctrl) ctrl.abort();
-    $('#xpTitle', panel).textContent = sectionLabel(f.section);
+    $('.xp-kicker', panel).textContent = cur.kicker;
+    $('#xpTitle', panel).textContent = cur.title || '';
     const q = $('.xp-quote', panel);
-    q.hidden = !f.selection; q.textContent = f.selection ? '“' + f.selection + '”' : '';
+    q.hidden = !cur.quote; q.textContent = cur.quote ? '“' + cur.quote + '”' : '';
+    $('.xp-modes', panel).innerHTML = cur.modes.map(([k, l]) => `<button type="button" class="xp-mode" data-mode="${k}">${esc(l)}</button>`).join('');
     $('.xp-thread', panel).innerHTML = '';
     panel.hidden = false;
     document.body.classList.add('xp-open');
     requestAnimationFrame(() => panel.classList.add('on'));
     $('#xpTitle', panel).focus({ preventScroll: true });
-    ask(mode, f.selection ? 'Explain the highlighted passage' : 'Explain this section');
+    if (cur.start) ask(cur.start[0], cur.start[1]);
   }
   function close() {
+    if (!panel) return;
     if (ctrl) ctrl.abort();
     panel.classList.remove('on'); document.body.classList.remove('xp-open');
     setTimeout(() => { if (!panel.classList.contains('on')) panel.hidden = true; }, 220);
   }
 
   async function ask(mode, label, question = '') {
-    if (!focus) return;
+    if (!cur) return;
     if (ctrl) ctrl.abort();
     const thread = $('.xp-thread', panel);
     const you = document.createElement('div'); you.className = 'xp-you'; you.textContent = label;
@@ -149,16 +153,10 @@
     thread.append(you, ans);
     you.scrollIntoView({ block: 'nearest' });
     setBusy(true);
-    ctrl = new AbortController();
-    const my = ctrl;
-    const payload = {
-      mode, question,
-      course: courseName(), chapter: chapterTitle(), section: sectionLabel(focus.section),
-      objectives: objectives(), context: sectionText(focus.section), selection: focus.selection,
-      history: history.slice(-6)
-    };
+    const my = ctrl = new AbortController();
     let text = '';
     try {
+      const payload = { ...cur.build(), mode, question, history: history.slice(-6) };
       const res = await fetch(ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload), signal: my.signal });
       if (!res.ok || !res.body) {
         const j = await res.json().catch(() => ({}));
@@ -176,8 +174,9 @@
       ans.innerHTML = md(text);
       history.push({ role: 'user', text: mode === 'ask' ? question : label }, { role: 'model', text });
     } catch (e) {
-      if (e.name === 'AbortError') { ans.innerHTML = text ? md(text) + '<p class="xp-muted">(stopped)</p>' : '<p class="xp-muted">(stopped)</p>'; }
-      else { ans.classList.remove('is-loading'); ans.classList.add('xp-err'); ans.textContent = e.message; }
+      ans.classList.remove('is-loading');
+      if (e.name === 'AbortError') ans.innerHTML = (text ? md(text) : '') + '<p class="xp-muted">(stopped)</p>';
+      else { ans.classList.add('xp-err'); ans.textContent = e.message; }
     } finally {
       if (ctrl === my) { ctrl = null; setBusy(false); }
     }
@@ -191,8 +190,8 @@
     send.onclick = busy ? () => { if (ctrl) ctrl.abort(); } : null;
   }
 
-  /* ── "Explain" chip on highlighted text ── */
-  function initSelectionChip() {
+  /* ── "✦ Explain" chip on highlighted text ── */
+  function attachSelection({ root, resolve }) {
     const chip = document.createElement('button');
     chip.type = 'button'; chip.className = 'xp-chip'; chip.hidden = true;
     chip.innerHTML = '<span aria-hidden="true">✦</span> Explain';
@@ -205,10 +204,10 @@
       if (text.length < 12 || text.length > 2500) return null;
       const r = sel.getRangeAt(0);
       const node = r.commonAncestorContainer.nodeType === 1 ? r.commonAncestorContainer : r.commonAncestorContainer.parentElement;
-      if (!node || !main.contains(node) || node.closest('.xp, .pager, .lesson-hero')) return null;
-      const section = node.closest('main.page > section[id]') || (r.startContainer.parentElement || node).closest('main.page > section[id]');
-      if (!section || SKIP.has(section.id)) return null;
-      return { text, rect: r.getBoundingClientRect(), section };
+      const box = typeof root === 'function' ? root() : root;
+      if (!node || !box || !box.contains(node) || node.closest('.xp, textarea, input')) return null;
+      const opts = resolve({ text, node });
+      return opts ? { text, rect: r.getBoundingClientRect(), opts } : null;
     };
     const place = () => {
       pending = current();
@@ -217,7 +216,7 @@
       const { rect } = pending;
       chip.hidden = false;
       const w = chip.offsetWidth, h = chip.offsetHeight;
-      let x = Math.min(Math.max(8, rect.left + rect.width / 2 - w / 2), innerWidth - w - 8);
+      const x = Math.min(Math.max(8, rect.left + rect.width / 2 - w / 2), innerWidth - w - 8);
       let y = touch ? rect.bottom + 12 : rect.top - h - 8;   // below on phones (native menu sits above)
       if (y < 60) y = rect.bottom + 8;
       chip.style.left = x + 'px'; chip.style.top = Math.min(y, innerHeight - h - 8) + 'px';
@@ -228,10 +227,51 @@
     chip.addEventListener('mousedown', e => e.preventDefault()); // keep the selection
     chip.addEventListener('click', () => {
       if (!pending) return;
-      const f = { section: pending.section, selection: pending.text };
+      const { text, opts } = pending;
       pending = null; chip.hidden = true;
       getSelection().removeAllRanges(); // the passage is quoted in the panel; stops the chip re-appearing
-      open(f, 'explain');
+      open({ ...opts, quote: text, start: ['explain', 'Explain the highlighted passage'] });
     });
   }
+
+  window.HubExplain = { ready, open, close, attachSelection, textOf, md };
+
+  /* ════════════ lesson adapter ════════════ */
+  const main = $('main.page');
+  if (!document.body.classList.contains('lesson') || !main) return;
+  const SKIP = new Set(['practice']); // problem sets: explaining would just give answers away
+  const courseName = () => (($('.course-tag') || {}).textContent || '').replace(/\s+/g, ' ').trim();
+  const chapterTitle = () => ($('h1.lesson-title') || {}).textContent || document.title;
+  const objectives = () => $$('.objectives-box li').map(li => '- ' + li.textContent.trim()).join('\n');
+  function sectionLabel(sec) {
+    const n = $('.section-number', sec), h = $('h2', sec);
+    const num = n && (n.textContent.match(/\d+/) || [])[0];
+    return (num ? '§' + num + ' ' : '') + (h ? h.textContent.trim() : sec.id);
+  }
+  const forSection = (sec, selection = '') => ({
+    title: sectionLabel(sec),
+    build: () => ({ course: courseName(), chapter: chapterTitle(), section: sectionLabel(sec), objectives: objectives(), context: textOf(sec), selection })
+  });
+
+  ready.then(ok => {
+    if (!ok) return;
+    $$('main.page > section[id]').forEach(sec => {
+      if (SKIP.has(sec.id) || !$('h2', sec)) return;
+      const b = document.createElement('button');
+      b.type = 'button'; b.className = 'xp-sec';
+      b.innerHTML = '<span aria-hidden="true">✦</span> Explain';
+      b.setAttribute('aria-label', 'Explain this section with AI: ' + sectionLabel(sec));
+      b.addEventListener('click', () => open({ ...forSection(sec), start: ['explain', 'Explain this section'] }));
+      sec.prepend(b);
+    });
+    attachSelection({
+      root: main,
+      resolve({ text, node }) {
+        if (node.closest('.pager, .lesson-hero')) return null;
+        const sec = node.closest('main.page > section[id]');
+        if (!sec || SKIP.has(sec.id)) return null;
+        return forSection(sec, text);
+      }
+    });
+  });
 })();
