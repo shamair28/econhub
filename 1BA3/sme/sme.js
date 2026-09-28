@@ -161,7 +161,7 @@
         <p class="lede">Each group member owns one question topic. You won't see the question ahead of time, so this page gives you everything for your week in one place: key definitions, models, lists with memory aids, exam traps, a self-quiz and timed answer practice. You don't need to jump between chapter pages.</p>
         <div class="hero-meta">
           <span class="chip">Johns &amp; Saks · Ch 1–6</span>
-          <span class="chip">Lecture slides Weeks 1–3 folded in</span>
+          <span class="chip">Lecture slides Weeks 1–4 folded in</span>
           <span class="chip">Progress saves on this device</span>
         </div>
       </section>
@@ -217,13 +217,13 @@
 
       <div class="section-title"><h2>Coverage notes</h2></div>
       <div class="stack">
-        <div class="note info"><span class="nt">Where Chapter 5 lives</span>The outline starts Chapter 5 ("Intro to Motivation") in Week 3, but the Week 3 lecture deck covered Chapter 3 only, and the assignment labels Week 3 "Perception" and Week 4 "Motivation." So all of Chapter 5's motivation theory (§5.1, 5.3–5.6) is on the <a href="#/w4">Week 4 page</a>. The one exception is <b>§5.2 abilities</b> (cognitive ability and EI), which was a Week 2 reading and is on the <a href="#/w2">Week 2 page</a>.</div>
+        <div class="note info"><span class="nt">Where Chapter 5 lives</span>The outline starts Chapter 5 ("Intro to Motivation") in Week 3, but the Week 3 lecture deck covered Chapter 3 only, the Week 4 deck taught Chapter 5 (adding Herzberg's two-factor theory), and the assignment labels Week 3 "Perception" and Week 4 "Motivation." So all of Chapter 5's motivation theory (§5.1, 5.3–5.6) is on the <a href="#/w4">Week 4 page</a>. The one exception is <b>§5.2 abilities</b> (cognitive ability and EI), which was a Week 2 reading and is on the <a href="#/w2">Week 2 page</a>.</div>
         <div class="note info"><span class="nt">Week 4 also includes Learning (Ch 2, §2.4–2.8)</span>The outline pairs the second half of Chapter 2 (operant learning, reinforcement, social cognitive theory) with Chapter 6 under "Motivation cont." It's on the Week 4 page in its own section. A Motivation question could ask you to reinforce behaviour just as easily as to redesign a job.</div>
         <div class="note tip"><span class="nt">Two people on one week? Split the depth</span>Practice Q1/Q2 are both Week 1, Q3/Q4 are both Week 2, and Assignment #1 Q4/Q5 are both Week 4. Each week page suggests a split so the two SMEs cover everything between them, while each still reads the other half.</div>
       </div>
 
 
-      <div class="footer">Built from the Johns &amp; Saks text (12th ed., which the course's Week 1 deck names; the outline names the 13th, and chapter/section numbering matches), Dr. Kassaye's Week 2–3 slides and the Week 1 handout. Lecture-only content is tagged <span class="badge lec">Lecture</span> or <span class="badge hand">Handout</span>. Chapter lesson pages: <a href="/1BA3/ch1">Ch 1</a> · <a href="/1BA3/ch2">Ch 2</a> · <a href="/1BA3/ch3">Ch 3</a> · <a href="/1BA3/ch4">Ch 4</a> · <a href="/1BA3/ch5">Ch 5</a> · <a href="/1BA3/ch6">Ch 6</a> · <a href="/">Study hub home</a></div>
+      <div class="footer">Built from the Johns &amp; Saks text (12th ed., which the course's Week 1 deck names; the outline names the 13th, and chapter/section numbering matches), Dr. Kassaye's Week 2–4 slides and the Week 1 handout. Lecture-only content is tagged <span class="badge lec">Lecture</span> or <span class="badge hand">Handout</span>. Chapter lesson pages: <a href="/1BA3/ch1">Ch 1</a> · <a href="/1BA3/ch2">Ch 2</a> · <a href="/1BA3/ch3">Ch 3</a> · <a href="/1BA3/ch4">Ch 4</a> · <a href="/1BA3/ch5">Ch 5</a> · <a href="/1BA3/ch6">Ch 6</a> · <a href="/">Study hub home</a></div>
     `;
 
     $$('.claim', app()).forEach(b => b.addEventListener('click', e => {

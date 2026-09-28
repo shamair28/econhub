@@ -7,17 +7,17 @@ SME.addWeek({
     { c: 'Ch 6', t: 'Motivation in Practice', s: '§6.1–6.8' },
     { c: 'Ch 2', t: 'Learning', s: '§2.4–2.8', note: 'Part B, paired with Ch 6 under "Motivation cont."' }
   ],
-  sources: ['Textbook Ch 5, 6, 2 (Part B)', 'Week 4 slides not yet posted'],
-  keys: ['Maslow / ERG', 'McClelland', 'SDT', 'Expectancy', 'Equity', 'Goal setting', 'JCM + MPS', 'Pay plans', 'Reinforcement'],
+  sources: ['Textbook Ch 5, 6, 2 (Part B)', 'Week 4 lecture deck (34 slides)'],
+  keys: ['Maslow / ERG', 'Herzberg', 'McClelland', 'SDT', 'Expectancy', 'Equity', 'Goal setting', 'JCM + MPS', 'Pay plans', 'Reinforcement'],
 
   brief: [
     '<b>Motivation</b> is the extent to which <b>persistent effort is directed toward a goal</b> (effort · persistence · direction · goals). It’s <b>not</b> the same as performance, which also depends on ability, personality, EI, task understanding and chance.',
-    '<b>Need theories</b> say <i>what</i> motivates: <b>Maslow</b> (5 levels), <b>Alderfer’s ERG</b> (adds <b>frustration-regression</b>), <b>McClelland</b> (n Ach, n Aff, n Pow; effective managers = high n Pow, <b>low</b> n Aff), and <b>SDT</b> (competence, autonomy, relatedness → autonomous vs controlled motivation).',
-    '<b>Process theories</b> say <i>how</i>: <b>Expectancy</b> (Force = Σ(V × I) × E; expectancy = effort→performance, instrumentality = performance→outcome), <b>Equity</b> (ratio comparison; 5 ways to restore equity), and <b>Goal setting</b> (specific, challenging, committed, with feedback; 4 mechanisms).',
-    '<b>In practice (Ch 6)</b>: pay (piece-rate problems: <b>"Lousy Deals Ruin Incentive Rates"</b>; merit pay fails when <b>Low, Small, Secret</b>; team plans: <b>PEGS</b>), job design (<b>JCM</b>: <b>"a VISA Fee"</b> → 3 psychological states; <b>MPS</b>), enrichment vs enlargement, MBO, flexible work.',
+    '<b>Need theories</b> (the lecture calls them <b>content</b> theories) say <i>what</i> motivates: <b>Maslow</b> (5 levels), <b>Herzberg</b> (lecture only: <b>motivators</b> vs <b>hygiene factors</b>; pay is hygiene), <b>Alderfer’s ERG</b> (adds <b>frustration-regression</b>), <b>McClelland</b> (n Ach, n Aff, n Pow; effective managers = high n Pow, <b>low</b> n Aff), and <b>SDT</b> (competence, autonomy, relatedness → autonomous vs controlled motivation).',
+    '<b>Process theories</b> (lecture: <b>cognitive / information-processing</b>) say <i>how</i>: <b>Expectancy</b> (Force = Σ(V × I) × E; expectancy = effort→performance, instrumentality = performance→outcome), <b>Equity</b> (ratio comparison; 5 ways to restore equity), and <b>Goal setting</b> (specific, challenging, committed, with feedback; 4 mechanisms).',
+    '<b>In practice (Ch 6)</b>, which the lecture groups with reinforcement as <b>contextual theories</b>: pay (piece-rate problems: <b>"Lousy Deals Ruin Incentive Rates"</b>; merit pay fails when <b>Low, Small, Secret</b>; team plans: <b>PEGS</b>), job design (<b>JCM</b>: <b>"a VISA Fee"</b> → 3 psychological states; <b>MPS</b>), enrichment vs enlargement, MBO, flexible work.',
     '<b>Learning (Ch 2B)</b>: operant learning. Positive reinforcement (add good) and negative reinforcement (remove bad) both <b>increase</b> behaviour. Punishment adds bad to decrease it, and extinction removes the reinforcer. Also <b>social cognitive theory</b>: observational learning, self-efficacy (4 sources), self-regulation.'
   ],
-  split: 'Assignment #1 Q4 and Q5 are <b>both</b> Motivation. <b>SME A: Ch 5 theories</b> (need + process theories, culture, the integrative model). <b>SME B: Ch 6 practice + Ch 2 Learning</b> (pay plans, JCM/MPS, enrichment, MBO, flex work, reinforcement, SCT). Both should know <b>expectancy theory</b> and the <b>JCM</b>: a Q4/Q5 pair will very likely pit "diagnose why they’re unmotivated" (theory) against "redesign the job or pay" (practice).',
+  split: 'Assignment #1 Q4 and Q5 are <b>both</b> Motivation. <b>SME A: Ch 5 theories</b> (need/content theories incl. the lecture’s <b>Herzberg</b>, process/cognitive theories, culture, the integrative model). <b>SME B: the lecture’s “contextual theories”</b>: Ch 6 practice + Ch 2 Learning (pay plans, JCM/MPS, enrichment, MBO, flex work, reinforcement, O.B. Mod’s five steps, SCT). Both should know <b>expectancy theory</b> and the <b>JCM</b>: a Q4/Q5 pair will very likely pit "diagnose why they’re unmotivated" (theory) against "redesign the job or pay" (practice).',
   lens: 'The classic setup: a demotivated person or team. <b>Diagnose</b> with a Ch 5 theory (is it low expectancy, low instrumentality, low valence, or inequity? an unmet need?), then <b>fix</b> with a Ch 6 practice (job enrichment raising specific JCM characteristics, a better pay plan, MBO goals) or reinforcement. Naming the theory and the practice turns an 8-mark answer into a 10.',
 
   sections: [
@@ -32,7 +32,16 @@ SME.addWeek({
                  ['Examples', 'Achievement, competence, interest in the task', 'Pay, benefits, supervision, policy'],
                  ['Predicts', 'Performance <b>quality</b>, complex tasks', 'Performance <b>quantity</b>']],
           after: 'Some rewards are both (a promotion, a compliment). Extrinsic rewards can undermine intrinsic motivation only under narrow, avoidable conditions. <b>Motivation purity bias</b>: candidates who mention extrinsic rewards are unfairly seen as less intrinsically motivated.' },
-        { t: 'def', term: 'Performance (≠ motivation)', ref: '§5.1 · Exhibit 5.1', def: 'The extent to which a member contributes to organizational objectives. It depends on <b>motivation</b> plus <b>personality, general cognitive ability, emotional intelligence, task understanding and chance</b>. High motivation doesn’t guarantee high performance.' }
+        { t: 'def', term: 'Performance (≠ motivation)', ref: '§5.1 · Exhibit 5.1', def: 'The extent to which a member contributes to organizational objectives. It depends on <b>motivation</b> plus <b>personality, general cognitive ability, emotional intelligence, task understanding and chance</b>. High motivation doesn’t guarantee high performance.' },
+        { t: 'list', title: 'Three critical questions about motivation', src: 'lec', ref: 'Week 4 slide 2', intro: 'The lecture opens with the questions every motivation theory tries to answer:',
+          items: ['What gets behaviour <b>started</b>?', 'What determines its <b>magnitude or intensity</b>?', 'What causes it to <b>stop</b>?'],
+          after: 'Slide 3 draws motivation as a cycle: <b>needs → behaviour → satisfaction</b>, which then feeds new needs. Slide 4: <b>Motivation = Effort + Persistence + Direction + Goals</b>.',
+          mnem: '<b>Start, strength, stop.</b>' },
+        { t: 'cmp', title: 'The lecture’s three families of motivation theory', src: 'lec', ref: 'slides 9, 15, 24, 25', head: ['Lecture label', 'Textbook label', 'Theories', 'Question'],
+          rows: [['<b>Content</b> approaches', 'Need theories', 'Maslow, <b>Herzberg</b> (lecture only), Alderfer, McClelland (+ SDT as “an important new consideration”)', '<i>What</i> motivates: needs and desires'],
+                 ['<b>Cognitive / information-processing</b> approaches', 'Process theories', 'Expectancy, equity, goal setting', '<i>How</i> motivation works: expectations, fairness, goals'],
+                 ['<b>Contextual</b> theories', '(no textbook equivalent)', 'Reinforcement (operant learning), job design, money, alternative methods (work schedules, non-monetary incentives)', 'How the work setting shapes motivation']] },
+        { t: 'note', tone: 'trap', title: 'Content = need, cognitive = process', body: 'The exam or an assignment question may use either vocabulary. “Content theory” = the textbook’s <b>need</b> theories. “Cognitive” or “information-processing” = <b>process</b> theories. “Contextual” is the lecture’s own label for Ch 2B + Ch 6.' }
       ]
     },
     {
@@ -56,7 +65,21 @@ SME.addWeek({
         { t: 'def', term: 'Self-determination theory (SDT)', ref: '§5.3', def: 'Three <b>universal</b> psychological needs: <b>competence</b>, <b>autonomy</b> and <b>relatedness</b>. When they’re satisfied, motivation is <b>autonomous</b> (self-motivated: the task is interesting or chosen, and internally regulated). When they aren’t, it’s <b>controlled</b> (done for a reward, to avoid punishment, or because you’re watched). SDT is about motivation <i>quality</i>, not quantity.',
           more: '<b>Autonomy support</b> (the manager gives a rationale, offers choice, acknowledges perspectives and encourages initiative) is the key predictor of need satisfaction and autonomous motivation, and it can be trained.',
           mnem: 'SDT needs = <b>"CAR"</b>: Competence · Autonomy · Relatedness. Driving your own <b>CAR</b> = autonomous motivation.' },
-        { t: 'note', tone: 'trap', title: 'Autonomous/controlled ≈ but ≠ intrinsic/extrinsic', body: 'SDT’s lens is the <b>degree of internal vs external regulation</b>. It’s close to intrinsic/extrinsic, but not interchangeable on a precisely worded MC question.' }
+        { t: 'note', tone: 'trap', title: 'Autonomous/controlled ≈ but ≠ intrinsic/extrinsic', body: 'SDT’s lens is the <b>degree of internal vs external regulation</b>. It’s close to intrinsic/extrinsic, but not interchangeable on a precisely worded MC question.' },
+        { t: 'groups', title: 'Herzberg’s two-factor theory', src: 'lec', ref: 'Week 4 slides 9–13', intro: '<b>Lecture only</b>: the textbook cites Herzberg in an endnote but doesn’t teach the theory. <b>Hygiene factors</b> (the job’s context) cause dissatisfaction when poor, but improving them only removes dissatisfaction. <b>Motivators</b> (the work itself) are what increase satisfaction and motivation.',
+          groups: [
+            { name: 'Motivators (satisfiers)', items: ['Work itself', 'Responsibility', 'Advancement', 'Growth', 'Achievement', 'Recognition'] },
+            { name: 'Hygiene factors (dissatisfiers)', items: ['Salary', 'Job security', 'Working conditions', 'Quality of interpersonal relations (peers, supervisors, subordinates)', 'Company policies (speaker notes)'] }
+          ],
+          after: 'Managerial implication (slide 13 notes): fix hygiene factors so people aren’t dissatisfied, <i>and</i> build motivators through job enrichment (meaningful work, achievement, recognition, growth). That links straight to the JCM.',
+          mnem: '<b>Hygiene keeps you from getting sick; motivators make you strong.</b> Hygiene = the four S’s of the job’s surroundings: <b>S</b>alary, <b>S</b>ecurity, <b>S</b>urroundings (conditions), <b>S</b>ocial relations (+ policies).' },
+        { t: 'cmp', title: 'The four content theories side by side', src: 'lec', ref: 'slide 11', head: ['', 'Maslow', 'Herzberg', 'Alderfer', 'McClelland'],
+          rows: [['Higher-order', 'Self-actualization; esteem', 'Motivators', 'Growth', 'n Ach; n Pow'],
+                 ['Social', 'Belongingness', 'Hygiene: interpersonal relations', 'Relatedness', 'n Aff'],
+                 ['Basic', 'Safety; physiological', 'Hygiene: security, conditions, salary', 'Existence', '—']],
+          after: 'Rows follow slide 11’s alignment as closely as the slide text allows.' },
+        { t: 'note', tone: 'trap', title: 'Herzberg: salary is a hygiene factor', body: 'In Herzberg’s theory a raise removes dissatisfaction but doesn’t create lasting motivation. Chapter 6 says money <i>is</i> a strong motivator when tied to performance (expectancy theory). Answer from the theory the question names.' },
+        { t: 'note', tone: 'lec', title: 'SDT on the slides: autonomy ≠ independence', body: 'Slide 14 presents SDT as “an important new consideration”: competence, autonomy and relatedness → autonomous or controlled motivation → effective performance. The notes stress that <b>autonomy does not mean independence</b>. It means freedom to make your own choices.' }
       ]
     },
     {
@@ -90,7 +113,20 @@ SME.addWeek({
                  ['<b>Performance-prove</b>', 'Focus on demonstrating competence and earning favourable judgments', '<b>Not reliably</b> linked (the "null" one)'],
                  ['<b>Performance-avoid</b>', 'Focus on avoiding negative judgments', '<b>Negative</b>'],
                  ['<b>Distal</b> vs <b>proximal</b> goals', 'Long-term end goals vs short-term sub-goals', 'Proximal goals matter most for <b>novel or complex</b> tasks (more frequent feedback). Pair them when learning something new']],
-          after: 'Specific, difficult <b>performance</b> goals work best on tasks people already know. On novel or complex tasks, a specific <b>learning</b> goal beats a performance goal.' }
+          after: 'Specific, difficult <b>performance</b> goals work best on tasks people already know. On novel or complex tasks, a specific <b>learning</b> goal beats a performance goal.' },
+        { t: 'cmp', title: 'Expectancy combinations table', src: 'lec', ref: 'slide 17', head: ['E: effort → performance', 'I: performance → outcome', 'Valence', 'Motivation'],
+          rows: [['High', 'High', 'High', '<b>High</b>'], ['High', 'High', 'Low', 'Moderate'], ['High', 'Low', 'High', 'Moderate'], ['High', 'Low', 'Low', 'Low'],
+                 ['Low', 'High', 'High', 'Low'], ['Low', 'High', 'Low', 'Low'], ['Low', 'Low', 'High', 'Low'], ['Low', 'Low', 'Low', '<b>Very low</b>']],
+          after: 'Once expectancy is low, motivation is low whatever the reward. Only all-high gives high motivation.',
+          mnem: '<b>“No belief, no drive.”</b> A low first column caps motivation at Low.' },
+        { t: 'note', tone: 'trap', title: 'Slide 17 labels both links “Expectancy”', body: 'The slide heads the performance → outcome column “Expectancy” too. The textbook (and slide 16’s notes) call that link <b>instrumentality</b>. Use the textbook terms.' },
+        { t: 'groups', title: 'Equity theory: inputs and outputs (lecture list)', src: 'lec', ref: 'slide 20',
+          groups: [
+            { name: 'Inputs (you give)', items: ['Quality and quantity of work', 'Job knowledge', 'Cooperation with others', 'Self-improvement', 'Adaptability/versatility', 'Intelligence', 'Experience', 'Education', 'Attitude', 'Initiative'] },
+            { name: 'Outputs (you get)', items: ['Pay', 'Job security', 'Possibility of growth', 'Relationships with supervisor and peers', 'Responsibility', 'Advancement', 'Recognition', 'Status', 'Adequate working conditions'] }
+          ],
+          after: 'The lecture says <b>outputs</b>; the textbook says <b>outcomes</b>. What managers should do (slide 21 notes): be transparent about pay and promotion decisions, recognize individual contributions, check fairness perceptions and fix inequity promptly, and explain reward decisions clearly.' },
+        { t: 'note', tone: 'lec', title: 'Goal setting on the slides: “acceptance” and SMART', body: 'Slide 22 names the four components <b>specificity, difficulty/challenge, acceptance/commitment, feedback</b>. The notes describe good goals as <b>SMART</b> (specific, measurable, achievable, relevant, time-bound), which is not a textbook term.' }
       ]
     },
     {
@@ -172,6 +208,7 @@ SME.addWeek({
           after: 'Exhibit 6.9 flex-time example: start any time after 7 a.m., leave by 6 p.m., work 8 hours, and be present for core time <b>9:15–noon and 2:00–4:15</b>.',
           mnem: '<b>Sort them by what they flex</b>: When (flex-time) · How many days (compressed) · How much / by whom (job and work sharing) · Where (telecommuting).' },
         { t: 'note', tone: 'trap', title: 'Job sharing vs work sharing', body: '<b>Job sharing</b>: two people voluntarily split <b>one</b> ongoing role. <b>Work sharing</b>: <b>everyone’s</b> hours are temporarily reduced to <b>avoid layoffs</b>.' },
+        { t: 'note', tone: 'lec', title: 'MBO in the Week 4 speaker notes', body: 'Five key features: collaborative <b>SMART</b> goal setting · <b>participation</b> (commitment and ownership) · <b>performance evaluation</b> through periodic check-ins · continuous <b>feedback and communication</b> · an end-of-period <b>performance appraisal</b> that can guide promotions, bonuses or salary. It fits the textbook’s four-step cycle.' },
         { t: 'list', title: 'Choosing a motivational practice: contingency factors', ref: '§6.8 · Exhibit 6.10', intro: 'There’s no single correct practice. Effective firms combine several (e.g., performance pay <i>and</i> enrichment), chosen by:',
           items: ['<b>Employee needs</b>', '<b>Nature of the job</b> (individual vs group work)', '<b>Organization characteristics</b> (strategy, culture)', '<b>Desired outcome</b> (performance vs retention vs satisfaction)'] }
       ]
@@ -187,6 +224,16 @@ SME.addWeek({
                  ['Behaviour <b>DECREASES</b>', '<b>Punishment</b>: add something aversive (the worst task after lateness)', '<b>Extinction</b>: remove the reinforcer that was maintaining it (stop laughing at the class clown)']],
           mnem: '<b>Reinforcement always INCREASES behaviour.</b> "Positive/negative" means <b>add/remove</b>, not good/bad. Negative reinforcement ≠ punishment.' },
         { t: 'note', tone: 'trap', title: 'Negative reinforcement is the most-missed concept', body: 'Expect "which is TRUE" questions built on the fact that <b>negative reinforcement increases behaviour</b>. If something unpleasant is <i>added</i> to stop a behaviour, that’s <b>punishment</b>.' },
+        { t: 'cmp', title: 'Reinforcement techniques with the lecture’s examples', src: 'lec', ref: 'slides 25–27', head: ['Technique', 'Lecture definition', 'Lecture example'],
+          rows: [['Positive reinforcement', 'Provide a positive consequence to strengthen desired behaviour', 'Bonus for hitting sales targets'],
+                 ['Negative reinforcement', 'Remove an unpleasant condition to strengthen desired behaviour', 'Reduce supervision for someone who reliably meets deadlines'],
+                 ['Punishment', 'Impose a negative consequence <i>or remove a positive benefit</i> to discourage behaviour', 'Reprimand for tardiness'],
+                 ['Extinction', 'Withhold reinforcement to weaken undesirable behaviour', 'Ignore disruptive behaviour or gossip until it stops']] },
+        { t: 'note', tone: 'trap', title: 'Removing a benefit: punishment or extinction?', body: 'The textbook defines punishment only as <i>applying</i> an aversive stimulus. Slide 26 adds “removing a positive benefit.” Ask what was taken away. If it was <b>the reward that kept this behaviour going</b> (attention for gossip), that’s <b>extinction</b>. If it was <b>some other privilege, taken as a penalty</b>, the lecture calls it <b>punishment</b>. Negative reinforcement always <i>increases</i> behaviour, so it is never the answer to “discourage.”' },
+        { t: 'list', title: 'O.B. Mod: five steps', src: 'lec', ref: 'slide 29',
+          items: ['<b>Define</b> the target behaviour', '<b>Set</b> reasonable performance goals', '<b>Measure</b> the frequency of the behaviour (baseline)', '<b>Monitor</b> the behaviour', '<b>Administer rewards</b>'],
+          after: 'The textbook defines O.B. Mod but doesn’t number its steps. Slide 29 lists O.B. Mod alongside employee recognition programs and training &amp; development as organizational learning programs.',
+          mnem: '<b>“Define, Set, Measure, Monitor, Reward.”</b> Two verbs, two M’s, then the reward. Measure = before (baseline); monitor = during.' },
         { t: 'cmp', title: 'Reinforcement schedules', ref: 'Exhibit 2.3', head: ['Strategy', 'Learning speed', 'Persistence once reinforcement stops'],
           rows: [['<b>Continuous, immediate</b>', '<b>Fast</b> acquisition', '<b>Low</b>: extinguishes quickly'], ['<b>Partial, delayed</b>', 'Slower', '<b>High</b>: harder to extinguish']],
           mnem: '<b>"Fast in, fast out."</b> Train with continuous reinforcement, then maintain with partial.' },
@@ -209,6 +256,13 @@ SME.addWeek({
   ],
 
   quiz: [
+    { q: 'According to Herzberg’s two-factor theory (Week 4 lecture), which of these is a HYGIENE factor rather than a motivator?', o: ['Salary', 'Recognition', 'Responsibility', 'Advancement'], a: 0, why: 'Salary is a <b>hygiene factor</b>: it prevents dissatisfaction but doesn’t create lasting motivation. Recognition, responsibility and advancement are <b>motivators</b>.' },
+    { q: 'A company fixes its outdated equipment and cramped offices and raises pay to market. Staff complaints drop, but effort doesn’t rise. Herzberg would say this is because:', o: ['Improving hygiene factors removes dissatisfaction but doesn’t motivate', 'Pay is a motivator but conditions are not', 'Expectancy is still low', 'The firm skipped the esteem level of Maslow’s hierarchy'], a: 0, why: 'Fixing <b>hygiene factors</b> gets people to “not dissatisfied.” To motivate, Herzberg says to add <b>motivators</b>: achievement, recognition, responsibility, growth, the work itself.' },
+    { q: 'In the Week 4 lecture, "content approaches" to motivation correspond to which textbook category?', o: ['Need theories (what motivates)', 'Process theories (how motivation works)', 'Reinforcement theory', 'Job design'], a: 0, why: 'Content = <b>need</b> theories (Maslow, Herzberg, Alderfer, McClelland). “Cognitive/information-processing” = the textbook’s <b>process</b> theories.' },
+    { q: 'Which theory is NOT one of the lecture’s “cognitive / information-processing” approaches?', o: ['Herzberg’s two-factor theory', 'Expectancy theory', 'Equity theory', 'Goal-setting theory'], a: 0, why: 'Herzberg is a <b>content</b> (need) theory. Expectancy, equity and goal setting are the cognitive approaches.' },
+    { q: 'On slide 17’s expectancy table, an employee who is confident hard work will produce results and who values the reward, but who doubts performance will actually be rewarded, has what level of motivation?', o: ['Moderate', 'High', 'Low', 'Very low'], a: 0, why: 'High expectancy, <b>low</b> instrumentality, high valence = <b>Moderate</b>. Any row with low expectancy is Low or Very low.' },
+    { q: 'What is the correct order of the O.B. Mod steps on the Week 4 slides?', o: ['Define target behaviour → set goals → measure frequency → monitor → administer rewards', 'Administer rewards → define behaviour → monitor → set goals → measure', 'Set goals → administer rewards → define behaviour → measure → monitor', 'Measure frequency → monitor → define behaviour → reward → set goals'], a: 0, why: '<b>Define, Set, Measure, Monitor, Reward.</b> Measure first establishes the baseline.' },
+    { q: 'A manager stops giving micromanaging check-ins to an employee once she consistently meets deadlines, and she keeps meeting them. According to the Week 4 lecture example, this is:', o: ['Negative reinforcement', 'Extinction', 'Punishment', 'Positive reinforcement'], a: 0, why: 'Removing an <b>unpleasant</b> condition (close supervision) to <b>strengthen</b> a desired behaviour is <b>negative reinforcement</b>. This is the lecture’s own example.' },
     { q: 'A sales manager says: "I don’t care how many calls you make. I care whether you close deals." Which property of motivation is she emphasizing?', o: ['Direction', 'Effort', 'Persistence', 'Goals'], a: 0, why: 'Channelling effort toward the outcomes that matter is <b>direction</b> ("working smart as well as hard").' },
     { q: 'Denied a promotion she wanted for growth, Ana suddenly starts pushing hard for a bigger salary. Which theory best explains this?', o: ['Alderfer’s ERG (frustration-regression)', 'Maslow’s hierarchy', 'McClelland’s need theory', 'Goal-setting theory'], a: 0, why: 'A frustrated higher need (growth) makes a lower need (existence) stronger. That’s <b>frustration-regression</b>, which is unique to ERG.' },
     { q: 'According to McClelland, the most effective managers typically have:', o: ['High need for power and low need for affiliation', 'High need for affiliation and low need for power', 'High need for achievement only', 'Equal levels of all three needs'], a: 0, why: '<b>High n Pow, low n Aff</b>, with power directed at organizational goals. High affiliation is the intuitive trap.' },
@@ -234,6 +288,12 @@ SME.addWeek({
   ],
 
   prompts: [
+    { q: 'A retail chain raised wages above market, renovated its break rooms and improved job security after a union drive. A year later, turnover complaints are down, but managers say staff still “do the minimum” and nobody volunteers for projects. <b>Explain using a content theory from the Week 4 lecture, and recommend what to do next.</b>',
+      name: '<b>Herzberg’s two-factor theory</b> (lecture): hygiene factors vs motivators. Link to <b>job enrichment / JCM</b> (Ch 6).',
+      define: 'Herzberg separates hygiene factors (salary, security, working conditions, relations, policy), which prevent dissatisfaction when adequate, from motivators (achievement, recognition, responsibility, advancement, growth, the work itself), which actually increase satisfaction and motivation.',
+      apply: 'Pay, break rooms and job security are all <b>hygiene</b> factors. Improving them explains why complaints and turnover fell: staff are “not dissatisfied.” But none of the changes touched <b>motivators</b>, so effort and volunteering haven’t risen. That’s exactly what Herzberg predicts.',
+      recommend: 'Add motivators through <b>job enrichment</b>: give staff responsibility (e.g., running a section of the store), recognition for specific achievements, growth paths (cross-training, promotion from within), and more meaningful work (connect them to customer outcomes). Keep hygiene factors adequate so dissatisfaction doesn’t return.',
+      also: 'Maslow/ERG higher-order (growth) needs; the JCM (autonomy, task identity); SDT competence and autonomy.' },
     { q: 'A call-centre team’s sales have dropped. Interviews show agents think the new targets are "impossible," bonuses were paid late or not at all last quarter, and several say the bonus "isn’t worth the stress anyway." <b>Diagnose using a motivation theory and recommend fixes.</b>',
       name: '<b>Expectancy theory</b> (Vroom): low expectancy, low instrumentality, low valence.',
       define: 'Expectancy theory says motivation (force) = Σ(valence × instrumentality) × expectancy. Expectancy is the perceived effort → performance link, instrumentality the performance → outcome link, and valence the attractiveness of the outcome.',
