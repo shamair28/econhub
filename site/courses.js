@@ -21,7 +21,8 @@ window.HUB_SITE = {
       chapters: [
         { n: 1, title: 'Economics: Foundations and Models' },
         { n: 2, title: 'Trade-offs, Comparative Advantage, and the Market System' },
-        { n: 3, title: 'Where Prices Come From: The Interaction of Supply and Demand' }
+        { n: 3, title: 'Where Prices Come From: The Interaction of Supply and Demand' },
+        { n: 4, title: 'Economic Efficiency, Government Price Setting, and Taxes' }
       ],
       tools: [
         {
