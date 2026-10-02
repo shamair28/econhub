@@ -5,7 +5,9 @@ SME.addWeek({
   chapters: [
     { c: 'Ch 5', t: 'Theories of Work Motivation', s: '§5.1, 5.3–5.6', note: 'the outline starts it in Week 3; §5.2 is on the Week 2 page' },
     { c: 'Ch 6', t: 'Motivation in Practice', s: '§6.1–6.8' },
-    { c: 'Ch 2', t: 'Learning', s: '§2.4–2.8', note: 'Part B, paired with Ch 6 under "Motivation cont."' }
+    { c: 'Ch 2', t: 'Learning', s: '§2.4–2.8', note: 'Part B, paired with Ch 6 under "Motivation cont."' },
+    { c: 'Slides', t: 'Herzberg · content / cognitive / contextual theories · expectancy table · O.B. Mod steps' },
+    { c: 'Video', t: 'Week 4 recorded lecture', s: 'SDT · expectancy diagram · equity · goal setting' }
   ],
   sources: ['Textbook Ch 5, 6, 2 (Part B)', 'Week 4 lecture deck (34 slides)', 'Week 4 recorded lecture'],
   keys: ['Maslow / ERG', 'Herzberg', 'McClelland', 'SDT', 'Expectancy', 'Equity', 'Goal setting', 'JCM + MPS', 'Pay plans', 'Reinforcement'],

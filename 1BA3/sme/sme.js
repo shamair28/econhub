@@ -223,7 +223,7 @@
       </div>
 
 
-      <div class="footer">Built from the Johns &amp; Saks text (12th ed., which the course's Week 1 deck names; the outline names the 13th, and chapter/section numbering matches), Dr. Kassaye's Week 2–4 slides and the Week 1 handout. Lecture-only content is tagged <span class="badge lec">Lecture</span> or <span class="badge hand">Handout</span>. Chapter lesson pages: <a href="/1BA3/ch1">Ch 1</a> · <a href="/1BA3/ch2">Ch 2</a> · <a href="/1BA3/ch3">Ch 3</a> · <a href="/1BA3/ch4">Ch 4</a> · <a href="/1BA3/ch5">Ch 5</a> · <a href="/1BA3/ch6">Ch 6</a> · <a href="/">Study hub home</a></div>
+      <div class="footer">Built from the Johns &amp; Saks text (12th ed., which the course's Week 1 deck names; the outline names the 13th, and chapter/section numbering matches), Dr. Kassaye's Week 2–4 slides, the Week 4 recorded lecture and the Week 1 handout. Lecture-only content is tagged <span class="badge lec">Lecture</span> or <span class="badge hand">Handout</span>. Chapter lesson pages: <a href="/1BA3/ch1">Ch 1</a> · <a href="/1BA3/ch2">Ch 2</a> · <a href="/1BA3/ch3">Ch 3</a> · <a href="/1BA3/ch4">Ch 4</a> · <a href="/1BA3/ch5">Ch 5</a> · <a href="/1BA3/ch6">Ch 6</a> · <a href="/">Study hub home</a></div>
     `;
 
     $$('.claim', app()).forEach(b => b.addEventListener('click', e => {
