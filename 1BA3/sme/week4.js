@@ -7,7 +7,7 @@ SME.addWeek({
     { c: 'Ch 6', t: 'Motivation in Practice', s: '§6.1–6.8' },
     { c: 'Ch 2', t: 'Learning', s: '§2.4–2.8', note: 'Part B, paired with Ch 6 under "Motivation cont."' }
   ],
-  sources: ['Textbook Ch 5, 6, 2 (Part B)', 'Week 4 lecture deck (34 slides)'],
+  sources: ['Textbook Ch 5, 6, 2 (Part B)', 'Week 4 lecture deck (34 slides)', 'Week 4 recorded lecture'],
   keys: ['Maslow / ERG', 'Herzberg', 'McClelland', 'SDT', 'Expectancy', 'Equity', 'Goal setting', 'JCM + MPS', 'Pay plans', 'Reinforcement'],
 
   brief: [
@@ -41,7 +41,8 @@ SME.addWeek({
           rows: [['<b>Content</b> approaches', 'Need theories', 'Maslow, <b>Herzberg</b> (lecture only), Alderfer, McClelland (+ SDT as “an important new consideration”)', '<i>What</i> motivates: needs and desires'],
                  ['<b>Cognitive / information-processing</b> approaches', 'Process theories', 'Expectancy, equity, goal setting', '<i>How</i> motivation works: expectations, fairness, goals'],
                  ['<b>Contextual</b> theories', '(no textbook equivalent)', 'Reinforcement (operant learning), job design, money, alternative methods (work schedules, non-monetary incentives)', 'How the work setting shapes motivation']] },
-        { t: 'note', tone: 'trap', title: 'Content = need, cognitive = process', body: 'The exam or an assignment question may use either vocabulary. “Content theory” = the textbook’s <b>need</b> theories. “Cognitive” or “information-processing” = <b>process</b> theories. “Contextual” is the lecture’s own label for Ch 2B + Ch 6.' }
+        { t: 'note', tone: 'trap', title: 'Content = need, cognitive = process', body: 'The exam or an assignment question may use either vocabulary. “Content theory” = the textbook’s <b>need</b> theories. “Cognitive” or “information-processing” = <b>process</b> theories. “Contextual” is the lecture’s own label for Ch 2B + Ch 6.' },
+        { t: 'note', tone: 'lec', title: 'Content vs process: the job-security example', body: 'From the Week 4 recorded lecture: a <b>content</b> approach identifies <i>job security</i> as a need. A <b>process</b> approach asks <i>why and how</i> the person decides to pursue it: the beliefs and choices that turn the need into behaviour. Another of his examples: someone who grew up poor and is driven to become rich is a process story.' }
       ]
     },
     {
@@ -79,7 +80,11 @@ SME.addWeek({
                  ['Basic', 'Safety; physiological', 'Hygiene: security, conditions, salary', 'Existence', '—']],
           after: 'Rows follow slide 11’s alignment as closely as the slide text allows.' },
         { t: 'note', tone: 'trap', title: 'Herzberg: salary is a hygiene factor', body: 'In Herzberg’s theory a raise removes dissatisfaction but doesn’t create lasting motivation. Chapter 6 says money <i>is</i> a strong motivator when tied to performance (expectancy theory). Answer from the theory the question names.' },
-        { t: 'note', tone: 'lec', title: 'SDT on the slides: autonomy ≠ independence', body: 'Slide 14 presents SDT as “an important new consideration”: competence, autonomy and relatedness → autonomous or controlled motivation → effective performance. The notes stress that <b>autonomy does not mean independence</b>. It means freedom to make your own choices.' }
+        { t: 'note', tone: 'lec', title: 'SDT on the slides: autonomy ≠ independence', body: 'Slide 14 presents SDT as “an important new consideration”: competence, autonomy and relatedness → autonomous or controlled motivation → effective performance. The notes stress that <b>autonomy does not mean independence</b>. It means freedom to make your own choices.' },
+        { t: 'list', title: 'SDT: what managers should do', src: 'lec', ref: 'Week 4 recorded lecture', intro: 'Dr. Kassaye frames SDT as asking <i>why</i> someone is motivated, not just how much: doing something willingly vs because you feel pressured. (Same exam studying, three reasons: you enjoy it, it helps your career, or you fear failing.) His four implications:',
+          items: ['Create a work environment that satisfies the needs for <b>competence, relatedness and autonomy</b>.', 'Give people the chance to work by <b>their own choices</b> and exercise their expertise.', 'Provide <b>autonomy support</b>, and jobs that are interesting and challenging.', 'Recognize employees’ <b>perspectives</b>, encourage <b>self-initiative</b>, give good <b>feedback</b>, and give a <b>reasonable explanation</b> when asking for a behaviour.'],
+          after: 'His definitions: <b>competence</b> = feeling capable (clear instructions, manageable challenges, helpful feedback); <b>autonomy</b> = choice and volition, <i>not</i> doing whatever you want or working without rules; <b>relatedness</b> = feeling connected, respected and cared for. The three needs are <b>not levels</b> like Maslow’s; they all matter at once. And the arrow to performance shows a relationship, <b>not a guarantee</b>.',
+          mnem: 'The four implications = <b>“Needs, Choice, Support, Respect.”</b>' }
       ]
     },
     {
@@ -114,6 +119,10 @@ SME.addWeek({
                  ['<b>Performance-avoid</b>', 'Focus on avoiding negative judgments', '<b>Negative</b>'],
                  ['<b>Distal</b> vs <b>proximal</b> goals', 'Long-term end goals vs short-term sub-goals', 'Proximal goals matter most for <b>novel or complex</b> tasks (more frequent feedback). Pair them when learning something new']],
           after: 'Specific, difficult <b>performance</b> goals work best on tasks people already know. On novel or complex tasks, a specific <b>learning</b> goal beats a performance goal.' },
+        { t: 'flow', title: 'Expectancy theory diagram (slide 16)', src: 'lec', ref: 'Week 4 recorded lecture',
+          steps: [{ h: 'Motivation', d: '→ willingness to invest time and energy' }, { h: 'Effort', d: 'turned into performance through <em>capabilities</em> (knowledge, skill, resources)' }, { h: 'Performance', d: '<em>Expectancies</em> = beliefs about performance capabilities' }, { h: 'Consequences', d: 'reached through <em>contingencies</em>. <em>Instrumentalities</em> = beliefs about outcome contingencies' }, { h: 'Valences', d: 'beliefs about outcome desirabilities' }],
+          after: '<b>Externalities</b> act on both performance and consequences: conditions outside the employee’s control (equipment availability, customer demand). Lecture examples: “With training and practice I can hit my sales target” = high expectancy. A promised bonus that is repeatedly not paid = low instrumentality. One person values a bonus, another flexible hours = different valences.',
+          mnem: 'The lecture’s three questions: <b>Can I succeed if I try? Will success lead to an outcome? Do I value the outcome?</b> Slide 16 labels the middle link correctly as <i>instrumentalities</i> (slide 17 doesn’t).' },
         { t: 'cmp', title: 'Expectancy combinations table', src: 'lec', ref: 'slide 17', head: ['E: effort → performance', 'I: performance → outcome', 'Valence', 'Motivation'],
           rows: [['High', 'High', 'High', '<b>High</b>'], ['High', 'High', 'Low', 'Moderate'], ['High', 'Low', 'High', 'Moderate'], ['High', 'Low', 'Low', 'Low'],
                  ['Low', 'High', 'High', 'Low'], ['Low', 'High', 'Low', 'Low'], ['Low', 'Low', 'High', 'Low'], ['Low', 'Low', 'Low', '<b>Very low</b>']],
@@ -123,9 +132,14 @@ SME.addWeek({
         { t: 'groups', title: 'Equity theory: inputs and outputs (lecture list)', src: 'lec', ref: 'slide 20',
           groups: [
             { name: 'Inputs (you give)', items: ['Quality and quantity of work', 'Job knowledge', 'Cooperation with others', 'Self-improvement', 'Adaptability/versatility', 'Intelligence', 'Experience', 'Education', 'Attitude', 'Initiative'] },
-            { name: 'Outputs (you get)', items: ['Pay', 'Job security', 'Possibility of growth', 'Relationships with supervisor and peers', 'Responsibility', 'Advancement', 'Recognition', 'Status', 'Adequate working conditions'] }
+            { name: 'Outputs (you get)', items: ['Pay', 'Job security', 'Possibility of growth', 'Relationships with supervisor and peers', 'Amount of work', 'Responsibility', 'Advancement', 'Recognition', 'Status', 'Adequate working conditions'] }
           ],
           after: 'The lecture says <b>outputs</b>; the textbook says <b>outcomes</b>. What managers should do (slide 21 notes): be transparent about pay and promotion decisions, recognize individual contributions, check fairness perceptions and fix inequity promptly, and explain reward decisions clearly.' },
+        { t: 'list', title: 'Two strengths of equity theory', src: 'lec', ref: 'Week 4 recorded lecture',
+          items: ['<b>Applicability</b>: it works across contexts (workplace, personal relationships, education) as a framework for how fairness perceptions shape motivation, satisfaction and behaviour.', '<b>Social comparison</b>: people constantly compare themselves with others, which explains why someone can be demotivated <i>even after a substantial reward</i>. <b>Relative</b> perception matters more than the absolute reward.'],
+          after: 'His spoken examples also add effort, time, skill and loyalty as inputs, and benefits, promotion and job satisfaction as outcomes.',
+          mnem: 'Equity always asks <b>“compared to whom?”</b> A well-paid but upset employee in a scenario is an equity clue.' },
+        { t: 'note', tone: 'lec', title: 'Is setting a goal enough? No', body: 'From the Week 4 recorded lecture: you must <b>commit</b> to the goal, <b>work</b> toward it and use <b>feedback</b> to adjust your approach. Feedback can come from supervisors, colleagues, customers or other stakeholders. How challenging a goal should be depends on the person’s <b>current ability</b>: challenging but achievable.' },
         { t: 'note', tone: 'lec', title: 'Goal setting on the slides: “acceptance” and SMART', body: 'Slide 22 names the four components <b>specificity, difficulty/challenge, acceptance/commitment, feedback</b>. The notes describe good goals as <b>SMART</b> (specific, measurable, achievable, relevant, time-bound), which is not a textbook term.' }
       ]
     },
@@ -256,6 +270,11 @@ SME.addWeek({
   ],
 
   quiz: [
+    { q: 'In the expectancy diagram from the Week 4 lecture, a sales rep works hard and is skilled, but a supplier shortage leaves her with no stock to sell, so she misses her target. The diagram calls this kind of factor:', o: ['An externality', 'A valence', 'A contingency', 'An instrumentality'], a: 0, why: '<b>Externalities</b> are conditions outside the employee’s control (equipment, customer demand, supply) that affect performance and consequences.' },
+    { q: 'On slide 16’s expectancy diagram, “beliefs about outcome contingencies” are:', o: ['Instrumentalities', 'Expectancies', 'Valences', 'Capabilities'], a: 0, why: 'Expectancies = beliefs about <b>performance capabilities</b>; instrumentalities = beliefs about <b>outcome contingencies</b>; valences = beliefs about <b>outcome desirabilities</b>.' },
+    { q: 'Priya just got a 6% raise, the biggest in her career, but she is angry because a colleague who does less got 8%. According to the Week 4 lecture, which strength of equity theory explains this?', o: ['Its emphasis on social comparison: relative perceptions matter more than the absolute reward', 'Its applicability to personal relationships', 'Its focus on goal difficulty', 'Its distinction between hygiene factors and motivators'], a: 0, why: 'Equity theory explains why people can be demotivated <b>even after a substantial reward</b>: what matters is the comparison with others.' },
+    { q: 'According to the Week 4 lecture, autonomy in self-determination theory means:', o: ['Having choice and a sense of volition in what you do', 'Doing whatever you want without rules', 'Working alone, independent of others', 'Being paid for performance'], a: 0, why: 'Autonomy = choice and volition. Dr. Kassaye stresses it does <b>not</b> mean doing whatever you want or working without rules (and the notes add: not independence).' },
+    { q: 'A student asks: “If I set a specific, challenging goal, is that enough?” Dr. Kassaye’s answer in the recorded lecture was:', o: ['No: you must commit to it, work toward it and use feedback to adjust', 'Yes: specific goals are sufficient on their own', 'Yes, as long as it is written as a SMART goal', 'No: goals only work when tied to money'], a: 0, why: 'Setting a goal is only the start. <b>Commitment, work and feedback</b> make it effective.' },
     { q: 'According to Herzberg’s two-factor theory (Week 4 lecture), which of these is a HYGIENE factor rather than a motivator?', o: ['Salary', 'Recognition', 'Responsibility', 'Advancement'], a: 0, why: 'Salary is a <b>hygiene factor</b>: it prevents dissatisfaction but doesn’t create lasting motivation. Recognition, responsibility and advancement are <b>motivators</b>.' },
     { q: 'A company fixes its outdated equipment and cramped offices and raises pay to market. Staff complaints drop, but effort doesn’t rise. Herzberg would say this is because:', o: ['Improving hygiene factors removes dissatisfaction but doesn’t motivate', 'Pay is a motivator but conditions are not', 'Expectancy is still low', 'The firm skipped the esteem level of Maslow’s hierarchy'], a: 0, why: 'Fixing <b>hygiene factors</b> gets people to “not dissatisfied.” To motivate, Herzberg says to add <b>motivators</b>: achievement, recognition, responsibility, growth, the work itself.' },
     { q: 'In the Week 4 lecture, "content approaches" to motivation correspond to which textbook category?', o: ['Need theories (what motivates)', 'Process theories (how motivation works)', 'Reinforcement theory', 'Job design'], a: 0, why: 'Content = <b>need</b> theories (Maslow, Herzberg, Alderfer, McClelland). “Cognitive/information-processing” = the textbook’s <b>process</b> theories.' },
