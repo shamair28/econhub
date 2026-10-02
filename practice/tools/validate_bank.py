@@ -14,6 +14,8 @@ KINDS = {"past-test", "slides", "textbook", "generated", "custom"}
 SLOPES = {"negative", "positive", "flat", "vertical", "any"}
 DIRS = {"right", "left", "up", "down"}
 ALL_OF_THE_ABOVE = re.compile(r"\b(all|none|both|neither)\b.*\b(above|of these|a and b|b and c|\(a\)|\(b\))", re.I)
+# "(b)", "Option c", "c and d", "b/c" — but not algebra such as "c = a/b"
+LETTER_REF = re.compile(r"\([a-e]\)|\b[Oo]ptions?\s+\(?[a-e]\b|(?<!= )\b[a-e]\s*(?:/|,|\band\b|\bor\b)\s*\(?[a-e]\b")
 
 
 class Report:
@@ -276,6 +278,10 @@ def check_question(rep, bank, q, i, seen_ids):
                 continue
             if q.get("shuffleOptions") and isinstance(text, str) and ALL_OF_THE_ABOVE.search(text):
                 rep.err(w, f'shuffleOptions is true but option "{text[:40]}" references other options')
+        if q.get("shuffleOptions") and LETTER_REF.search(q.get("explanation") or ""):
+            rep.warn(w, "shuffleOptions is true but the explanation cites options by letter; the engine shuffles "
+                        "options, not the explanation. Set shuffleOptions false (spreading answers across a–d) "
+                        "or describe the options by content")
         if len(set(ids)) != len(ids):
             rep.err(w, f"duplicate option ids {ids}")
         ans = q.get("answer")

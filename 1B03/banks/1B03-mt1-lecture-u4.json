@@ -1,0 +1,754 @@
+{
+  "schema": "practice-bank/v1",
+  "id": "1B03-mt1-lecture-u4",
+  "course": "ECON 1B03",
+  "title": "Unit 4 In-Class Lecture",
+  "description": "Unit 4 lecture deck (Sept 29): tax cuts, subsidies and the in-class $20-tax exercise, plus Market A price-control drills.",
+  "defaultSource": {
+    "label": "Unit 4 In-Class Lecture",
+    "kind": "slides"
+  },
+  "defaultUnit": 4,
+  "scenarios": {
+    "inclass": {
+      "title": "In-class exercise (Unit 4 lecture)",
+      "body": "Demand is **P = 260 − 3Q** and supply is **P = 20 + 2Q**. Later questions add a **$20 per-unit tax on producers**, which makes supply + tax **P = 40 + 2Q**. (The lecture left these answer slides blank to work through in class.)"
+    },
+    "marketA": {
+      "title": "Market A (Unit 4 slides)",
+      "body": "Demand is **P = 100 − 2Q** and supply is **P = 0.5Q**. With no intervention, Q* = 40 and P* = $20, so CS = $1,600, PS = $400 and total surplus = $2,000."
+    }
+  },
+  "questions": [
+    {
+      "id": "lu4-q01",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Cutting a tax",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 9"
+      },
+      "prompt": "The government **cuts** a per-unit sales tax. According to the Unit 4 lecture, what happens in that market?",
+      "options": [
+        "Consumers' price falls by the full amount of the tax cut, and producers' price is unchanged",
+        "Quantity sold rises, producers' price rises, and consumers' price falls — but by less than the amount of the tax cut",
+        "Quantity sold falls, because producers now keep less of each sale",
+        "Nothing changes until something shifts the demand curve"
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "A tax cut **runs the tax process in reverse** (lecture slide 9): S + tax shifts back down, so the quantity sold **increases**, producers **raise** their price (they move up their supply curve as they sell more), and consumers pay a **lower** price — but the drop is **smaller than the tax cut**, because part of the cut goes to producers. That is the same incidence logic as a tax: the cut is split between the two sides, so (a) is wrong. (c) has the direction backwards, and (d) ignores that the tax itself shifts the supply-plus-tax curve."
+    },
+    {
+      "id": "lu4-q02",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Subsidy — which curve shifts",
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 10"
+      },
+      "prompt": "A **subsidy** is a payment from the government to firms that covers part of the cost of production. How does a per-unit subsidy show up on a supply-and-demand graph?",
+      "options": [
+        "Demand shifts right by the subsidy amount",
+        "Supply shifts up (leftward) by the subsidy amount",
+        "Supply shifts down (rightward) by the subsidy amount — an increase in supply",
+        "Neither curve shifts; only the market price changes"
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "The subsidy **lowers the per-unit cost of production**, so at every quantity firms will accept a price lower by the subsidy amount: the supply curve shifts **down by the subsidy** (S<sub>sub</sub>), which is the same as a rightward **increase in supply** (slide 10). It is paid to firms, not buyers, so demand (a) doesn't move. (b) is what a **tax** does. (d) is wrong because a cost change is a supply shifter."
+    },
+    {
+      "id": "lu4-q03",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Subsidy — effects and the catch",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 11"
+      },
+      "prompt": "Compared with the free-market outcome, what does a per-unit subsidy to producers do, according to the lecture?",
+      "options": [
+        "It reduces production and raises the price consumers pay",
+        "It raises the price consumers pay, because firms now have more money to spend",
+        "It is costless to society, because the government rather than consumers pays for it",
+        "It increases production and lowers the price consumers pay, but the money must be raised by taxing other goods"
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "With supply shifted down by the subsidy, the new equilibrium has a **higher quantity** and a **lower consumer price** (slide 11). The lecture's catch: **\"the money to pay for the subsidy must be raised by taxing other goods\"**, so (c) is wrong. Those taxes distort other markets. (a) and (b) describe the effect of a tax or a supply decrease, the opposite shift."
+    },
+    {
+      "id": "lu4-q04",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Removing a subsidy",
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 12"
+      },
+      "prompt": "A long-standing per-unit subsidy is removed. What happens to price and quantity?",
+      "options": [
+        "Price rises and quantity falls back to the free-market equilibrium",
+        "Price falls and quantity rises further",
+        "Both price and quantity fall below the free-market levels",
+        "Nothing — firms have already adjusted to the subsidized price"
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Removing the subsidy **reverses the process** (slide 12). Supply shifts back up to the original S, so the consumer price **rises** and quantity **falls back to the free-market equilibrium** (P*, Q*). It returns to the free-market levels, not below them, so (c) is wrong. (b) has both directions backwards."
+    },
+    {
+      "id": "lu4-q05",
+      "type": "tf",
+      "unit": 4,
+      "topic": "Free markets and efficiency",
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 4"
+      },
+      "prompt": "According to the Unit 4 lecture, a free market produces the largest possible total surplus, so any government intervention in that market will reduce market efficiency.",
+      "answer": true,
+      "explanation": "**True.** Slide 4 states it directly: *\"A free market will produce the largest possible total surplus. Any intervention by the government will reduce market efficiency.\"* Floors, ceilings, quotas, taxes and subsidies all move quantity away from Q* and create a deadweight loss. A government may still choose one for **normative** reasons (e.g. equity), but that is a separate question from efficiency."
+    },
+    {
+      "id": "lu4-q06",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Expenditure vs. revenue under a tax",
+      "difficulty": 3,
+      "source": {
+        "ref": "slide 3"
+      },
+      "prompt": "Without a sales tax, consumer expenditure equals firm revenue (P × Q). After a unit tax, consumers spend P<sub>C</sub> × Q<sub>t</sub> but firms receive only P<sub>S</sub> × Q<sub>t</sub>. The gap between these two amounts equals…",
+      "options": [
+        "The deadweight loss",
+        "The government's tax revenue",
+        "The consumer incidence of the tax",
+        "Producer surplus"
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "The slide's wording is careful: expenditure equals firm revenue **\"in a market without sales taxes.\"** With a tax, the gap is (P<sub>C</sub> − P<sub>S</sub>) × Q<sub>t</sub>, and P<sub>C</sub> − P<sub>S</sub> is exactly the tax. So the gap = tax × Q<sub>t</sub> = **tax revenue**. The deadweight loss (a) is surplus on units that are *no longer traded*, so it never shows up as spending. Consumer incidence (c) is a per-unit price change (P<sub>C</sub> − P*), not a total."
+    },
+    {
+      "id": "lu4-q07",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Equilibrium quantity",
+      "difficulty": 1,
+      "source": {
+        "ref": "slides 13–14"
+      },
+      "prompt": "Refer to the scenario. What is the free-market equilibrium quantity Q*?",
+      "answer": {
+        "value": 48,
+        "tolerance": 0.5,
+        "display": "48"
+      },
+      "explanation": "Set the two P equations equal: 20 + 2Q = 260 − 3Q → 5Q = 240 → **Q* = 48**.",
+      "scenario": "inclass"
+    },
+    {
+      "id": "lu4-q08",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Equilibrium price",
+      "difficulty": 1,
+      "source": {
+        "ref": "slides 14–15"
+      },
+      "prompt": "Refer to the scenario. What is the free-market equilibrium price P*?",
+      "answer": {
+        "value": 116,
+        "tolerance": 0.5,
+        "prefix": "$",
+        "display": "$116"
+      },
+      "explanation": "Substitute Q* = 48 into either curve: P = 260 − 3(48) = 260 − 144 = **$116**; check with supply: 20 + 2(48) = $116 ✓.",
+      "scenario": "inclass"
+    },
+    {
+      "id": "lu4-q09",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Consumer surplus",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 16"
+      },
+      "prompt": "Refer to the scenario. Before any tax, what is consumer surplus?",
+      "answer": {
+        "value": 3456,
+        "tolerance": 0.5,
+        "prefix": "$",
+        "display": "$3,456"
+      },
+      "explanation": "CS = ½ × base × height = ½ × 48 × (260 − 116) = ½ × 48 × 144 = **$3,456**. The height runs from P* up to the **demand intercept** ($260).",
+      "scenario": "inclass"
+    },
+    {
+      "id": "lu4-q10",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Producer surplus",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 16"
+      },
+      "prompt": "Refer to the scenario. Before any tax, what is producer surplus?",
+      "answer": {
+        "value": 2304,
+        "tolerance": 0.5,
+        "prefix": "$",
+        "display": "$2,304"
+      },
+      "explanation": "PS = ½ × 48 × (116 − 20) = ½ × 48 × 96 = **$2,304**. Watch the height: it is P* minus the **supply intercept** ($20), not P* minus zero. Using 116 would give $2,784, a common wrong answer.",
+      "scenario": "inclass"
+    },
+    {
+      "id": "lu4-q11",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Quantity after a tax",
+      "difficulty": 2,
+      "source": {
+        "ref": "slides 17–19"
+      },
+      "prompt": "Refer to the scenario. The government adds a **$20 per-unit tax** on producers. What is the new quantity traded?",
+      "answer": {
+        "value": 44,
+        "tolerance": 0.5,
+        "display": "44"
+      },
+      "explanation": "**Shift:** S + tax is P = 20 + 2Q + 20 = 40 + 2Q (slide 17). **Solve:** 40 + 2Q = 260 − 3Q → 5Q = 220 → **Q<sub>t</sub> = 44**, down from 48.",
+      "scenario": "inclass"
+    },
+    {
+      "id": "lu4-q12",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Consumer and producer prices after a tax",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 19"
+      },
+      "prompt": "Refer to the scenario. With the $20 tax and 44 units traded, what price do consumers pay (tax included), and what price do producers keep?",
+      "options": [
+        "Consumers pay $136; producers keep $116",
+        "Consumers pay $116; producers keep $96",
+        "Consumers pay $128; producers keep $108",
+        "Consumers pay $108; producers keep $128"
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "**Split** at Q<sub>t</sub> = 44: the consumer price comes from **demand**, 260 − 3(44) = **$128**. The producer price comes from the **original supply**, 20 + 2(44) = **$108**. Check: 128 − 108 = $20 = the tax ✓. (a) adds the full tax to P*, which would mean consumers pay all of it — only true if demand were vertical. (b) subtracts the full tax from P*. (d) swaps the two prices.",
+      "scenario": "inclass"
+    },
+    {
+      "id": "lu4-q13",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Tax revenue",
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 20"
+      },
+      "prompt": "Refer to the scenario. How much tax revenue does the $20 tax raise?",
+      "answer": {
+        "value": 880,
+        "tolerance": 0.5,
+        "prefix": "$",
+        "display": "$880"
+      },
+      "explanation": "Tax revenue = tax × quantity sold = $20 × 44 = **$880**. Use the after-tax quantity (44), not Q* (48); 20 × 48 = $960 is the classic slip.",
+      "scenario": "inclass"
+    },
+    {
+      "id": "lu4-q14",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Consumer surplus after a tax",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 20"
+      },
+      "prompt": "Refer to the scenario. What is consumer surplus after the $20 tax?",
+      "answer": {
+        "value": 2904,
+        "tolerance": 0.5,
+        "prefix": "$",
+        "display": "$2,904"
+      },
+      "explanation": "CS = ½ × 44 × (260 − 128) = ½ × 44 × 132 = **$2,904** (down from $3,456). The height uses the **consumer** price $128.",
+      "scenario": "inclass"
+    },
+    {
+      "id": "lu4-q15",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Producer surplus after a tax",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 20"
+      },
+      "prompt": "Refer to the scenario. What is producer surplus after the $20 tax?",
+      "answer": {
+        "value": 1936,
+        "tolerance": 0.5,
+        "prefix": "$",
+        "display": "$1,936"
+      },
+      "explanation": "PS = ½ × 44 × (108 − 20) = ½ × 44 × 88 = **$1,936** (down from $2,304). The height uses the **producer** price $108, never the $128 consumers pay.",
+      "scenario": "inclass"
+    },
+    {
+      "id": "lu4-q16",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Deadweight loss of a tax",
+      "difficulty": 3,
+      "source": {
+        "ref": "slide 21"
+      },
+      "prompt": "Refer to the scenario. What is the deadweight loss caused by the $20 tax?",
+      "answer": {
+        "value": 40,
+        "tolerance": 0.5,
+        "prefix": "$",
+        "display": "$40"
+      },
+      "explanation": "DWL = ½ × (Q* − Q<sub>t</sub>) × (P<sub>C</sub> − P<sub>S</sub>) = ½ × (48 − 44) × (128 − 108) = ½ × 4 × 20 = **$40**. Check with the slides' method, DWL = old surplus − new surplus: (3,456 + 2,304) − (2,904 + 1,936 + 880) = 5,760 − 5,720 = **$40** ✓.",
+      "scenario": "inclass"
+    },
+    {
+      "id": "lu4-q17",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Tax incidence",
+      "difficulty": 2,
+      "source": {
+        "ref": "slides 6, 19"
+      },
+      "prompt": "Refer to the scenario. How is the $20 tax burden split between consumers and producers?",
+      "options": [
+        "Consumers bear the full $20, because the tax raises the price they pay",
+        "Consumers bear $8 per unit and producers bear $12 per unit",
+        "Producers bear the full $20, because the tax is placed on producers",
+        "Consumers bear $12 per unit and producers bear $8 per unit"
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "Consumer incidence = P<sub>C</sub> − P* = 128 − 116 = **$12**; producer incidence = P* − P<sub>S</sub> = 116 − 108 = **$8**; together they equal the $20 tax ✓. Consumers bear more because demand is steeper (slope 3) than supply (slope 2): the **steeper side pays more**, and 3 ÷ (3 + 2) = 60% of $20 = $12. Who is legally charged (c) doesn't decide the burden, and the consumer price rises by **less** than the full tax (a).",
+      "scenario": "inclass"
+    },
+    {
+      "id": "lu4-q18",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Binding price ceiling — quantity and shortage",
+      "difficulty": 2,
+      "source": {
+        "label": "Unit 4 Drill · Market A",
+        "kind": "generated",
+        "note": "Built on Market A from the Unit 4 slides (P = 100 − 2Q, P = 0.5Q). The slides show these policies on graphs; these calculations take them one step further, the way the Ch. 4 lesson page does.",
+        "ref": "Lesson 4.3"
+      },
+      "prompt": "Refer to the scenario. The government sets a **price ceiling of $15**. How many units are actually sold, and what is the shortage?",
+      "options": [
+        "30 units are sold, with a shortage of 12.5 units",
+        "42.5 units are sold, with a shortage of 12.5 units",
+        "30 units are sold, with a surplus of 12.5 units",
+        "40 units are sold, because the ceiling is not binding"
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "The ceiling ($15) is **below** P* ($20), so it binds. At $15, sellers offer Q<sub>S</sub>: 15 = 0.5Q → **30**; buyers want Q<sub>D</sub>: 15 = 100 − 2Q → **42.5**. Under a price control **the short side rules**: you can't buy what isn't offered, so only **30** are sold. The **shortage** (excess demand) is 42.5 − 30 = **12.5**. (b) uses the quantity demanded as the amount sold. (c) mislabels a shortage as a surplus. (d) is wrong because a ceiling below P* is binding.",
+      "scenario": "marketA"
+    },
+    {
+      "id": "lu4-q19",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Deadweight loss of a price ceiling",
+      "difficulty": 3,
+      "source": {
+        "label": "Unit 4 Drill · Market A",
+        "kind": "generated",
+        "note": "Built on Market A from the Unit 4 slides (P = 100 − 2Q, P = 0.5Q). The slides show these policies on graphs; these calculations take them one step further, the way the Ch. 4 lesson page does.",
+        "ref": "Lesson 4.3"
+      },
+      "prompt": "Refer to the scenario. With the **$15 price ceiling** (30 units sold), what is the deadweight loss?",
+      "answer": {
+        "value": 125,
+        "tolerance": 0.5,
+        "prefix": "$",
+        "display": "$125"
+      },
+      "explanation": "At the 30th unit, buyers value it at the demand price 100 − 2(30) = $40, while it costs only 0.5(30) = $15 to make. DWL = ½ × (Q* − 30) × (40 − 15) = ½ × 10 × 25 = **$125**. Check: new CS = (40 − 15) × 30 + ½ × 30 × (100 − 40) = $1,650, new PS = ½ × 30 × 15 = $225, and the old total was $2,000, so DWL = 2,000 − 1,875 = $125 ✓. The height is the gap between **demand and supply at 30 units** ($40 − $15), not the gap between P* and the ceiling.",
+      "scenario": "marketA"
+    },
+    {
+      "id": "lu4-q20",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Binding price floor — quantity and surplus",
+      "difficulty": 2,
+      "source": {
+        "label": "Unit 4 Drill · Market A",
+        "kind": "generated",
+        "note": "Built on Market A from the Unit 4 slides (P = 100 − 2Q, P = 0.5Q). The slides show these policies on graphs; these calculations take them one step further, the way the Ch. 4 lesson page does.",
+        "ref": "Lesson 4.3"
+      },
+      "prompt": "Refer to the scenario. The government sets a **price floor of $30**. How many units are sold, and what does the floor create?",
+      "options": [
+        "60 units are sold, and there is a surplus of 25 units",
+        "35 units are sold, and there is a surplus (excess supply) of 25 units",
+        "35 units are sold, and there is a shortage of 25 units",
+        "40 units are sold, because the floor is not binding"
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "The floor ($30) is **above** P* ($20), so it binds. At $30, buyers want Q<sub>D</sub>: 30 = 100 − 2Q → **35**; sellers would offer Q<sub>S</sub>: 30 = 0.5Q → **60**. Buyers are now the short side, so only **35** are sold, leaving a **surplus of 60 − 35 = 25** unsold units. (a) counts what sellers *offer* as what is sold. A shortage (c) comes from a ceiling, not a floor (\"Floor → Flood\").",
+      "scenario": "marketA"
+    },
+    {
+      "id": "lu4-q21",
+      "type": "multi",
+      "unit": 4,
+      "topic": "Binding or not?",
+      "difficulty": 2,
+      "source": {
+        "label": "Unit 4 Drill · Market A",
+        "kind": "generated",
+        "note": "Built on Market A from the Unit 4 slides (P = 100 − 2Q, P = 0.5Q). The slides show these policies on graphs; these calculations take them one step further, the way the Ch. 4 lesson page does.",
+        "ref": "Lesson 4.3 · slides 35, 38, 42"
+      },
+      "scenario": "marketA",
+      "prompt": "Refer to the scenario (P* = $20, Q* = 40). Select **every** policy that would be **binding** — that is, would actually change the market outcome.",
+      "options": [
+        "A price ceiling of $25",
+        "A price ceiling of $15",
+        "A price floor of $30",
+        "A price floor of $18",
+        "A quota of 50 units",
+        "A quota of 30 units"
+      ],
+      "answer": [
+        "b",
+        "c",
+        "f"
+      ],
+      "shuffleOptions": true,
+      "explanation": "The binding rules from the slides: a **ceiling binds only below P***, a **floor binds only above P***, and a **quota binds only below Q***. Otherwise *\"it does not matter. The market will naturally trend towards P* (or Q*) anyway.\"* Ceiling $15 &lt; $20 → **binding**; ceiling $25 → not. Floor $30 &gt; $20 → **binding**; floor $18 → not. Quota 30 &lt; 40 → **binding**; quota 50 → not. Memory aid: a floor holds prices **up**, so it only matters when it sits above P*; a ceiling holds prices **down**, so it only matters below P*."
+    },
+    {
+      "id": "lu4-q22",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Price under a quota",
+      "difficulty": 2,
+      "source": {
+        "label": "Unit 4 Drill · Market A",
+        "kind": "generated",
+        "note": "Built on Market A from the Unit 4 slides (P = 100 − 2Q, P = 0.5Q). The slides show these policies on graphs; these calculations take them one step further, the way the Ch. 4 lesson page does.",
+        "ref": "Lesson 4.3 · slide 42"
+      },
+      "prompt": "Refer to the scenario. The government imposes a **quota of 30 units**. What price will buyers pay?",
+      "answer": {
+        "value": 40,
+        "tolerance": 0.5,
+        "prefix": "$",
+        "display": "$40"
+      },
+      "explanation": "With only 30 units available, the price is set by what buyers will pay for the 30th unit — read it off **demand**: P = 100 − 2(30) = **$40**. The quota is binding (30 &lt; Q* = 40), so the price rises above P* = $20. Reading it off supply instead (0.5 × 30 = $15) gives the marginal cost of the last unit. The $25 gap between the two is the quota rent producers capture.",
+      "scenario": "marketA"
+    },
+    {
+      "id": "lu4-q23",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Who gets the rectangle?",
+      "difficulty": 3,
+      "source": {
+        "label": "Unit 4 Drill · Market A",
+        "kind": "generated",
+        "note": "Built on Market A from the Unit 4 slides (P = 100 − 2Q, P = 0.5Q). The slides show these policies on graphs; these calculations take them one step further, the way the Ch. 4 lesson page does.",
+        "ref": "Lesson 4.3–4.4"
+      },
+      "prompt": "Refer to the scenario. A $15 ceiling, a $40 floor, a 30-unit quota and a $25 unit tax each cut Market A to 30 units, with the same $125 deadweight loss. Who ends up with the $750 rectangle, (40 − 15) × 30, under each policy?",
+      "options": [
+        "Ceiling → producers; floor → consumers; quota → the government; tax → consumers",
+        "The government in every case",
+        "Ceiling → consumers; floor → producers; quota → producers; tax → the government",
+        "Nobody — it is part of the deadweight loss in every case"
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "The deadweight loss depends only on **which units are lost** (units 30–40), so it is $125 every time. The policies differ only in who gets the rectangle between the demand price ($40) and the supply price ($15) on the 30 units still traded. A **ceiling** holds the price at $15, so buyers keep it (PS → CS). A **floor** at $40 or a **quota** lets sellers charge $40 (CS → PS). A **tax** splits the prices at $40 / $15 and the government collects the gap as revenue. Rule of thumb: *the rectangle goes to whoever the policy was written for.* (d) confuses the rectangle (a transfer) with the triangle (a true loss).",
+      "scenario": "marketA"
+    },
+    {
+      "id": "lu4-q24",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Subsidy — numbers",
+      "difficulty": 3,
+      "source": {
+        "label": "Unit 4 Drill · Market A",
+        "kind": "generated",
+        "note": "Built on Market A from the Unit 4 slides (P = 100 − 2Q, P = 0.5Q). The slides show these policies on graphs; these calculations take them one step further, the way the Ch. 4 lesson page does.",
+        "ref": "slides 10–11"
+      },
+      "prompt": "Refer to the scenario. The government pays producers a **$10 subsidy per unit**, so supply becomes P = 0.5Q − 10. What is the new outcome?",
+      "options": [
+        "44 units are traded; consumers pay $22 and producers receive $12 per unit",
+        "36 units are traded; consumers pay $28 per unit",
+        "40 units are traded; consumers pay $10 per unit",
+        "44 units are traded; consumers pay $12 and producers receive $22 per unit"
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "**Solve:** 0.5Q − 10 = 100 − 2Q → 2.5Q = 110 → **Q = 44** (up from 40). Consumers pay the **demand** price: 100 − 2(44) = **$12** (down $8). Producers receive the **original supply** price: 0.5(44) = **$22**, which is $12 from the buyer plus $10 from the government. The subsidy costs the government $10 × 44 = $440, which must be raised by taxing other goods (slide 11). (a) swaps the two prices. (b) treats the subsidy like a tax, shifting supply up instead of down.",
+      "scenario": "marketA"
+    },
+    {
+      "id": "lu4-q25",
+      "type": "graph",
+      "unit": 4,
+      "topic": "Subsidy — graph",
+      "difficulty": 2,
+      "source": {
+        "ref": "slides 10–11"
+      },
+      "prompt": "The government gives producers a per-unit subsidy. Draw the new supply curve S<sub>sub</sub>, then mark the new equilibrium E₂.",
+      "graph": {
+        "x": {
+          "label": "Quantity",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Price",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "points": [
+              [
+                8,
+                78
+              ],
+              [
+                70,
+                12
+              ]
+            ],
+            "color": "blue"
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "points": [
+              [
+                8,
+                12
+              ],
+              [
+                78,
+                82
+              ]
+            ],
+            "color": "red"
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E₁",
+            "x": 39.97,
+            "y": 43.97,
+            "drop": "both",
+            "dropLabels": {
+              "x": "Q₁",
+              "y": "P₁"
+            }
+          }
+        ],
+        "tasks": [
+          {
+            "id": "Ssub",
+            "kind": "line",
+            "label": "S sub",
+            "prompt": "Draw the subsidized supply curve",
+            "expect": {
+              "slope": "positive",
+              "shiftOf": "S",
+              "direction": "down"
+            },
+            "hints": {
+              "shift": "A subsidy lowers producers' cost per unit, so supply shifts DOWN (to the right) by the subsidy amount."
+            }
+          },
+          {
+            "id": "E2",
+            "kind": "point",
+            "label": "E₂",
+            "prompt": "Mark the new equilibrium",
+            "expect": {
+              "atIntersection": [
+                "D",
+                "user:Ssub"
+              ],
+              "relativeTo": {
+                "ref": "E",
+                "x": "+",
+                "y": "-"
+              }
+            }
+          }
+        ]
+      },
+      "explanation": "A subsidy covers part of each unit's cost, so producers will supply every quantity at a price lower by the subsidy: **supply shifts down (right)**. Where S<sub>sub</sub> meets D, quantity is **higher** and the price consumers pay is **lower** than at E₁ (slide 11). Producers receive that consumer price **plus** the subsidy. This is the mirror image of the S + tax drill, which shifts supply up."
+    },
+    {
+      "id": "lu4-q26",
+      "type": "graph",
+      "unit": 4,
+      "topic": "Quota — graph",
+      "difficulty": 3,
+      "source": {
+        "label": "Unit 4 Lecture Slides",
+        "ref": "Lesson 4.3 · slides 42–43"
+      },
+      "prompt": "The government imposes a binding quota. Draw the quota as the new supply limit (S<sub>quota</sub>), then mark the price buyers will pay at that quantity.",
+      "graph": {
+        "x": {
+          "label": "Quantity",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Price",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "points": [
+              [
+                8,
+                78
+              ],
+              [
+                70,
+                12
+              ]
+            ],
+            "color": "blue"
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "points": [
+              [
+                8,
+                12
+              ],
+              [
+                78,
+                82
+              ]
+            ],
+            "color": "red"
+          },
+          {
+            "id": "Qstar",
+            "points": [
+              [
+                39.97,
+                0
+              ],
+              [
+                39.97,
+                100
+              ]
+            ],
+            "hidden": true
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E₁",
+            "x": 39.97,
+            "y": 43.97,
+            "drop": "both",
+            "dropLabels": {
+              "x": "Q₁",
+              "y": "P₁"
+            }
+          }
+        ],
+        "tasks": [
+          {
+            "id": "quota",
+            "kind": "line",
+            "label": "S quota",
+            "prompt": "Draw the quota (a vertical line)",
+            "expect": {
+              "slope": "vertical",
+              "shiftOf": "Qstar",
+              "direction": "left"
+            },
+            "hints": {
+              "slope": "A quota caps quantity, so it is a VERTICAL line at the quota amount.",
+              "shift": "A binding quota must sit to the LEFT of Q* — a quota above Q* changes nothing."
+            },
+            "model": {
+              "points": [
+                [
+                  25,
+                  0
+                ],
+                [
+                  25,
+                  100
+                ]
+              ]
+            }
+          },
+          {
+            "id": "PQ",
+            "kind": "point",
+            "label": "P_Q",
+            "prompt": "Mark the price buyers pay at the quota",
+            "expect": {
+              "atIntersection": [
+                "user:quota",
+                "D"
+              ],
+              "relativeTo": {
+                "ref": "E",
+                "x": "-",
+                "y": "+"
+              }
+            }
+          }
+        ]
+      },
+      "explanation": "A quota is a **maximum quantity**, so supply becomes **vertical** at the quota (S<sub>quota</sub>, slide 42). To bind, it must sit **left of Q***. With only that many units available, buyers bid the price up to the **demand curve** at the quota, P<sub>Q</sub>, above P*. Consumer surplus is transferred to producers, and the units between the quota and Q* are a **deadweight loss** (slide 43)."
+    }
+  ]
+}

@@ -26,14 +26,14 @@
       },
       "prompt": "Which statement about consumer surplus (CS) is correct?",
       "options": [
-        "CS is the value a consumer places on a unit (read off the demand curve) minus the price actually paid, so CS = 0 on the last unit bought at Q*",
         "CS is the price a consumer actually pays minus the marginal cost of producing the unit",
+        "CS is the value a consumer places on a unit (read off the demand curve) minus the price actually paid, so CS = 0 on the last unit bought at Q*",
         "CS is the same for every unit purchased because all consumers pay the same market price P*",
         "CS is largest for the last unit purchased because that unit is valued the most"
       ],
-      "answer": "a",
-      "shuffleOptions": true,
-      "explanation": "The demand curve shows how much each unit is **valued**; CS = Value − Price. At Q*, the demand price equals P*, so CS = P* − P* = **0** on the last unit. Option b describes producer surplus, not CS. Option c is wrong — CS shrinks as Q rises toward Q* because value falls while price stays at P*. Option d has it backwards: the *first* units are valued most, not the last."
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "The demand curve shows how much each unit is **valued**; CS = Value − Price. At Q*, the demand price equals P*, so CS = P* − P* = **0** on the last unit. Option a describes producer surplus, not CS. Option c is wrong — CS shrinks as Q rises toward Q* because value falls while price stays at P*. Option d has it backwards: the *first* units are valued most, not the last."
     },
     {
       "id": "u4-q02",
@@ -46,14 +46,14 @@
       },
       "prompt": "In a competitive market with equilibrium price P* and quantity Q*, total consumer expenditure equals P* × Q*. From the sellers' side, this same dollar amount is best described as...",
       "options": [
-        "Producer revenue, since every dollar consumers spend is received by producers",
         "Producer surplus, since it captures sellers' gains from trade",
         "Deadweight loss, since resources were used up producing the good",
+        "Producer revenue, since every dollar consumers spend is received by producers",
         "Consumer surplus, since it measures the value received by buyers"
       ],
-      "answer": "a",
-      "shuffleOptions": true,
-      "explanation": "The slides state Consumer Expenditure = **P × Q** = Producer Revenue — the same flow of money seen from each side of the transaction. Producer surplus (b) is revenue **minus** the cost of production (the area above the supply curve), so it is smaller than total revenue, not equal to it. c and d describe unrelated concepts."
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "The slides state Consumer Expenditure = **P × Q** = Producer Revenue — the same flow of money seen from each side of the transaction. Producer surplus (a) is revenue **minus** the cost of production (the area above the supply curve), so it is smaller than total revenue, not equal to it. b and d describe unrelated concepts."
     },
     {
       "id": "u4-q03",
@@ -66,14 +66,14 @@
       },
       "prompt": "The supply curve shows, for each unit, the minimum price a producer must receive to be willing to sell it. Given this, producer surplus on a given unit equals...",
       "options": [
-        "The market price minus the marginal cost of producing that unit, read off the supply curve",
         "The marginal cost of that unit minus the market price",
         "The market price minus the average cost of all units produced",
-        "Total revenue minus total consumer expenditure"
+        "Total revenue minus total consumer expenditure",
+        "The market price minus the marginal cost of producing that unit, read off the supply curve"
       ],
-      "answer": "a",
-      "shuffleOptions": true,
-      "explanation": "PS = Price − Marginal Cost, and the supply curve **is** the marginal-cost curve for each unit. Option b reverses the subtraction (it would be negative for any unit actually worth producing). Option c uses average cost, not the marginal cost of that specific unit. Option d is meaningless — revenue and consumer expenditure are the same number (P × Q)."
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "PS = Price − Marginal Cost, and the supply curve **is** the marginal-cost curve for each unit. Option a reverses the subtraction (it would be negative for any unit actually worth producing). Option b uses average cost, not the marginal cost of that specific unit. Option c is meaningless — revenue and consumer expenditure are the same number (P × Q)."
     },
     {
       "id": "u4-q04",
@@ -92,8 +92,8 @@
         "Consumer surplus rises while total surplus stays at its maximum"
       ],
       "answer": "a",
-      "shuffleOptions": true,
-      "explanation": "The slides show that **either** a price above P* or a price below P* reduces the quantity actually traded, and any quantity other than Q* produces less total surplus — that is why the free-market equilibrium is efficient. A higher price reduces quantity demanded, so fewer units trade and both CS and total surplus fall (not just shift between CS and PS as in b/c/d)."
+      "shuffleOptions": false,
+      "explanation": "The slides show that **either** a price above P* or a price below P* reduces the quantity actually traded, and any quantity other than Q* produces less total surplus — that is why the free-market equilibrium is efficient. A higher price reduces quantity demanded, so fewer units trade and both CS and total surplus fall — it doesn't just shift between CS and PS. (b) gets the direction of quantity wrong, and (c) and (d) wrongly claim total surplus stays at its maximum."
     },
     {
       "id": "u4-q05",
@@ -106,14 +106,14 @@
       },
       "prompt": "Free markets maximize total surplus, yet governments still use price floors, ceilings, quotas, or taxes. According to the slides, the main reason is that...",
       "options": [
-        "Free markets can generate inequality, and governments intervene for normative (equity) reasons even though total surplus falls",
         "Free markets are actually inefficient, and intervention raises total surplus above the free-market level",
+        "Free markets can generate inequality, and governments intervene for normative (equity) reasons even though total surplus falls",
         "Free markets cannot reach any equilibrium without government price-setting",
         "Producers request intervention specifically to eliminate consumer surplus"
       ],
-      "answer": "a",
-      "shuffleOptions": true,
-      "explanation": "The slides are explicit: free markets are efficient, but they can generate inequality, so for **normative** reasons the government may still choose to change the market outcome — accepting a smaller total surplus. Option b contradicts the efficiency result from Lesson 4.2; c and d are not claims made anywhere in the slides."
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "The slides are explicit: free markets are efficient, but they can generate inequality, so for **normative** reasons the government may still choose to change the market outcome — accepting a smaller total surplus. Option a contradicts the efficiency result from Lesson 4.2; c and d are not claims made anywhere in the slides."
     },
     {
       "id": "u4-q06",
@@ -126,14 +126,14 @@
       },
       "prompt": "A government sets a price floor. According to the slides, this policy only changes the market outcome when...",
       "options": [
-        "It is set above P*, which raises price and lowers quantity traded below Q*, benefiting producers at consumers' expense and creating a deadweight loss",
         "It is set below P*, since the price must legally stay above the floor at all times",
         "It is set above P*, but has no effect because the market always trends back to P* anyway",
+        "It is set above P*, which raises price and lowers quantity traded below Q*, benefiting producers at consumers' expense and creating a deadweight loss",
         "It is set exactly at P*, which doubles both consumer surplus and producer surplus"
       ],
-      "answer": "a",
-      "shuffleOptions": true,
-      "explanation": "A floor set **below** P* is non-binding — the market simply settles at P* as usual. Only a floor set **above** P* binds, becoming the new price; quantity sold falls, consumer surplus is transferred to producers, and the resulting drop in quantity traded creates a deadweight loss. Options b–d each contradict the binding condition shown on the slides."
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "A floor set **below** P* is non-binding — the market simply settles at P* as usual. Only a floor set **above** P* binds, becoming the new price; quantity sold falls, consumer surplus is transferred to producers, and the resulting drop in quantity traded creates a deadweight loss. Options (a), (b) and (d) each contradict the binding condition shown on the slides."
     },
     {
       "id": "u4-q07",
@@ -146,14 +146,14 @@
       },
       "prompt": "A binding price ceiling is imposed below P*. Which of the following does NOT follow from this policy, according to the slides?",
       "options": [
-        "Every consumer who wants the good at the new, lower price is able to buy it",
         "Producer surplus shrinks, and part of it transfers to the consumers who can still buy at the lower price",
         "Excess demand arises because quantity demanded at the ceiling exceeds quantity supplied",
-        "Total surplus falls, creating a deadweight loss"
+        "Total surplus falls, creating a deadweight loss",
+        "Every consumer who wants the good at the new, lower price is able to buy it"
       ],
-      "answer": "a",
-      "shuffleOptions": true,
-      "explanation": "Because the ceiling creates **excess demand** (Qd > Qs at the lower price), only Qₛ units are actually available — some consumers who want the good at that price cannot get it and are left worse off, so (a) is false. Statements b, c, and d all match the slides: some consumers gain, producer surplus transfers to them, and the shortfall in trades is a deadweight loss."
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "Because the ceiling creates **excess demand** (Qd > Qs at the lower price), only Qₛ units are actually available — some consumers who want the good at that price cannot get it and are left worse off, so (d) is false. Statements a, b, and c all match the slides: some consumers gain, producer surplus transfers to them, and the shortfall in trades is a deadweight loss."
     },
     {
       "id": "u4-q08",
@@ -172,7 +172,7 @@
         "Eliminates producer surplus entirely by fixing the quantity sold"
       ],
       "answer": "a",
-      "shuffleOptions": true,
+      "shuffleOptions": false,
       "explanation": "A quota only binds when set **below** Q* — above Q* the market naturally settles at Q* anyway (ruling out b). A binding quota restricts quantity, raises price, transfers consumer surplus to producers, and — because fewer mutually beneficial units are traded — creates a deadweight loss, just like a price floor. c and d misstate the direction and size of the effect."
     },
     {
@@ -186,14 +186,14 @@
       },
       "prompt": "A government wants to add a sales tax to a good. Which correctly distinguishes a unit tax from an ad valorem (value-added) tax?",
       "options": [
-        "A unit tax is a fixed dollar amount per unit regardless of price; an ad valorem tax is a percentage of price, so it rises as price rises",
         "A unit tax is a percentage of price; an ad valorem tax is a fixed dollar amount per unit",
+        "A unit tax is a fixed dollar amount per unit regardless of price; an ad valorem tax is a percentage of price, so it rises as price rises",
         "Both are fixed dollar amounts per unit — they differ only in who is legally required to remit them",
         "A unit tax applies only to producers, while an ad valorem tax applies only to consumers"
       ],
-      "answer": "a",
-      "shuffleOptions": true,
-      "explanation": "The slides define a **unit tax** as a fixed amount that does not change with price, and an **ad valorem (value-added) tax** as a percentage of price that grows as price grows. Option b swaps the two definitions; c and d invent distinctions the slides never make — incidence (who ultimately bears the burden) is a separate concept from who legally remits the tax."
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "The slides define a **unit tax** as a fixed amount that does not change with price, and an **ad valorem (value-added) tax** as a percentage of price that grows as price grows. Option a swaps the two definitions; c and d invent distinctions the slides never make — incidence (who ultimately bears the burden) is a separate concept from who legally remits the tax."
     },
     {
       "id": "u4-q10",
@@ -206,14 +206,14 @@
       },
       "prompt": "A $10 unit tax is placed on producers. The consumer price rises from $50 to $56, and the producer price falls from $50 to $46. What are the consumer and producer incidence of the tax?",
       "options": [
-        "Consumer incidence = $6, producer incidence = $4; $6 + $4 = $10 = the tax, and the consumer price rose by less than the full $10 tax",
         "Consumer incidence = $10 and producer incidence = $10, since both parties pay the full tax",
         "Consumer incidence = $4, producer incidence = $6, since producers set the price",
+        "Consumer incidence = $6, producer incidence = $4; $6 + $4 = $10 = the tax, and the consumer price rose by less than the full $10 tax",
         "The incidences cannot be found because only producers are legally required to pay the tax"
       ],
-      "answer": "a",
-      "shuffleOptions": true,
-      "explanation": "Tax = Consumer Incidence + Producer Incidence. Consumer price rose by $56 − $50 = **$6** (consumer incidence); producer price fell by $50 − $46 = **$4** (producer incidence); $6 + $4 = $10, matching the tax. Note the consumer price rose by **less than** the full $10 tax — producers absorb part of it. Option b double-counts the tax; c swaps the two values; d confuses legal remittance with economic incidence."
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "Tax = Consumer Incidence + Producer Incidence. Consumer price rose by $56 − $50 = **$6** (consumer incidence); producer price fell by $50 − $46 = **$4** (producer incidence); $6 + $4 = $10, matching the tax. Note the consumer price rose by **less than** the full $10 tax — producers absorb part of it. Option a double-counts the tax; (b) swaps the two values; d confuses legal remittance with economic incidence."
     },
     {
       "id": "u4-q11",

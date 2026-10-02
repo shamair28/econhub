@@ -520,7 +520,7 @@
       ],
       "answer": "d",
       "shuffleOptions": false,
-      "explanation": "Mutually beneficial terms of trade must lie **between** each producer's opportunity cost of a jean: Frame's is 4/3 (≈1.33) sweaters per jean, and Levi's is 3/2 (1.5) sweaters per jean. Any rate strictly between 1.33 and 1.5 makes both better off than producing alone — **1 jean = 1.4 sweaters** fits (d). The other options fall outside that band; (c), for example, would require identical opportunity costs, which would eliminate any gains from trade."
+      "explanation": "Mutually beneficial terms of trade must lie **between** each producer's opportunity cost of a jean: Frame's is 4/3 (≈1.33) sweaters per jean, and Levi's is 3/2 (1.5) sweaters per jean. Any rate strictly between 1.33 and 1.5 makes both better off than producing alone — **1 jean = 1.4 sweaters** fits (d). The other options fall outside that band. (c) 1 jean = 1 sweater is *below* Frame's 4/3, so Frame (who has the comparative advantage in jeans and would sell them) refuses — in the time one jean takes, Frame could make 4/3 sweaters itself. (a) and (b) both mean 1 jean = 2 sweaters, *above* Levi's 3/2, so Levi's (who would buy jeans with its sweaters) refuses."
     },
     {
       "id": "f22-q15",
@@ -729,7 +729,7 @@
       ],
       "answer": "a",
       "shuffleOptions": false,
-      "explanation": "Equilibrium: 1200 − 2P = 4P → 1200 = 6P → **P = $200**, Q = 800. A price **floor** only binds if set *above* $200, which rules out (c) $150 and (d) $200 itself (exactly at equilibrium isn't binding). Between the remaining choices, $650 lies **above** the demand curve's choke price — at P = 650, Q<sub>D</sub> = 1200 − 2(650) would be negative, which is meaningless — so it isn't a valid floor within this model; **$450** is the only option that both exceeds equilibrium and stays within the demand curve's valid range (0 ≤ P ≤ 600)."
+      "explanation": "Equilibrium: 1200 − 2P = 4P → 1200 = 6P → **P = $200**, Q = 800. A price **floor** only binds if set *above* $200, which rules out (c) $150 and (d) $200 itself (exactly at equilibrium isn't binding). $650 is also above $200, but it is above the demand curve's choke price of $600 (where Q<sub>D</sub> = 1200 − 2P reaches zero), so it would shut the market down entirely rather than act as an ordinary floor. The key's intended answer is **$450** — the only option that is above equilibrium and still inside the demand curve's range (P ≤ $600), so some units still trade."
     },
     {
       "id": "f22-q21",
@@ -830,7 +830,7 @@
       ],
       "answer": "d",
       "shuffleOptions": false,
-      "explanation": "The after-tax quantity is Q = 4(196) = **784**, down from the original 800. Deadweight loss is the triangle between the old and new quantity: DWL = ½ × tax × ΔQ = ½ × $12 × (800 − 784) = ½ × 12 × 16 = **$96**. Options (a) and (c) use the wrong base or omit the ½, and (b) is simply the after-tax producer price, not the DWL triangle."
+      "explanation": "The after-tax quantity is Q = 4(196) = **784**, down from the original 800. Deadweight loss is the triangle between the old and new quantity: DWL = ½ × tax × ΔQ = ½ × $12 × (800 − 784) = ½ × 12 × 16 = **$96**. (b) $196 is the after-tax producer price, not an area at all, and (a) and (c) don't come from ½ × tax × lost units. Always check that the DWL base is the quantity *lost* (800 − 784 = 16), not the quantity still traded."
     },
     {
       "id": "f22-q24",
@@ -864,7 +864,7 @@
       ],
       "answer": "c",
       "shuffleOptions": false,
-      "explanation": "After the tax, producers receive $196 per unit and sell Q = 784 units. Since supply is linear from the origin (Q<sub>S</sub> = 4P), producer surplus is the triangle under the price line and above supply: PS = ½ × Q × (producer price) = ½ × 784 × 196 = **$76,832**. The other options either use the pre-tax price/quantity or mistakenly use the $208 consumer price instead of the $196 producers actually keep."
+      "explanation": "After the tax, producers receive $196 per unit and sell Q = 784 units. Since supply is linear from the origin (Q<sub>S</sub> = 4P), producer surplus is the triangle under the price line and above supply: PS = ½ × Q × (producer price) = ½ × 784 × 196 = **$76,832**. (a) $153,664 is 784 × 196 — the full rectangle, i.e. forgetting the ½ (it happens to equal the after-tax *consumer* surplus too: ½ × 784 × (600 − 208)). (b) and (d) don't match the producer-surplus triangle. The height must be the $196 producers keep, not the $208 consumers pay."
     },
     {
       "id": "f22-q25",

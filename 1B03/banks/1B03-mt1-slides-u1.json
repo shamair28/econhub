@@ -27,8 +27,8 @@
         "allocative efficiency"
       ],
       "answer": "a",
-      "shuffleOptions": true,
-      "explanation": "The slides define economics as the study of human behaviour and choice, where **opportunities and choices are limited by scarce resources** such as limited time, money, and materials. A hypothesis (b) and positive analysis (c) are terms from Lesson 3, and allocative efficiency (d) is a Lesson 2 concept — neither describes the cause of Priya's trade-off."
+      "shuffleOptions": false,
+      "explanation": "The slides define economics as the study of human behaviour and choice, where **opportunities and choices are limited by scarce resources** such as limited time, money, and materials. A hypothesis (b) and positive analysis (c) are terms from Lesson 3, and allocative efficiency (d) is a Lesson 2 concept — none of them describes the cause of Priya's trade-off."
     },
     {
       "id": "u1-q02",
@@ -47,7 +47,7 @@
         "Central planner"
       ],
       "answer": "b",
-      "shuffleOptions": true,
+      "shuffleOptions": false,
       "explanation": "The slides identify **three perspectives**: consumers, managers, and government policymakers. Staffing decisions are made by a business's **managers**, not by the consumers who buy the food or the policymakers who set the wage. 'Central planner' (d) is not one of the three perspectives listed."
     },
     {
@@ -67,7 +67,7 @@
         "People use cost-benefit analysis"
       ],
       "answer": "c",
-      "shuffleOptions": true,
+      "shuffleOptions": false,
       "explanation": "The slides state that **when an option becomes more attractive, people are more likely to select it** — this is the 'respond to incentives' assumption, matching the free pastry making the $10 purchase more attractive. It differs from cost-benefit analysis (d), which requires explicitly comparing marginal benefit and marginal cost, and altruism (b) is not one of the three assumptions covered."
     },
     {
@@ -87,7 +87,7 @@
         "Study the extra hour, because Net Benefit = 8 − 5 = 3 is positive"
       ],
       "answer": "d",
-      "shuffleOptions": true,
+      "shuffleOptions": false,
       "explanation": "**Net Benefit = Marginal Benefit − Marginal Cost = 8 − 5 = 3**, and the slides state only options with a **positive net benefit** are selected, so Marcus should study. Comparing MB or MC in isolation (options b, c) ignores the net-benefit rule, and 'too small' (a) is not a real decision criterion in this framework — any positive net benefit is enough."
     },
     {
@@ -107,7 +107,7 @@
         "Whether to produce at all?"
       ],
       "answer": "a",
-      "shuffleOptions": true,
+      "shuffleOptions": false,
       "explanation": "The slides list three economic questions: **what**, **how**, and **who**. Choosing between workers and robots is a production-method choice, so it answers **'how will goods be produced?'** 'What' (b) is answered by the wheat-vs-solar choice, 'who' (c) concerns distribution, and 'whether to produce at all' (d) is not one of the three questions — limited resources and unlimited wants make trade-offs unavoidable."
     },
     {
@@ -127,7 +127,7 @@
         "Advantage: rationing; Disadvantage: underperforms in production"
       ],
       "answer": "b",
-      "shuffleOptions": true,
+      "shuffleOptions": false,
       "explanation": "The slides list **fostering innovation and entrepreneurship** as an advantage of market economies and note they **can generate substantial inequality** because resources aren't always allocated efficiently with respect to consumption — exactly what the food-truck example shows. Options (a) and (d) actually describe centrally-planned economies (rationing reduces inequality, but production is inefficient), and (c) reverses which side of the economy markets allocate efficiently (production, not necessarily consumption)."
     },
     {
@@ -147,7 +147,7 @@
         "socialism; a market economy"
       ],
       "answer": "c",
-      "shuffleOptions": true,
+      "shuffleOptions": false,
       "explanation": "The slides define **socialism** as emphasizing **community ownership of business** through co-operatives and state-owned enterprises, while a **communist** system exists when **all or most businesses are state-owned**. Country X's collective ownership fits socialism; Country Y's near-total state ownership fits communism. A market economy (b, d) is characterized by an *absence* of state intervention, the opposite of both countries."
     },
     {
@@ -167,7 +167,7 @@
         "Neo-liberal (free-market) economists"
       ],
       "answer": "d",
-      "shuffleOptions": true,
+      "shuffleOptions": false,
       "explanation": "The slides state that since the 1980s, **neo-liberal economists** have successfully argued for governments to adopt **deregulation** and sell state-owned enterprises, pushing mixed economies further toward the market end. Socialists (a) and communists (c) favour more collective/state ownership, not less, and 'central planner' (b) describes a role in centrally-planned economies, not a philosophy driving deregulation."
     },
     {
@@ -187,7 +187,7 @@
         "allocative; equitable"
       ],
       "answer": "a",
-      "shuffleOptions": true,
+      "shuffleOptions": false,
       "explanation": "**Productive efficiency** means goods are produced at the **lowest possible cost**, while **allocative efficiency** means resources produce the mix of goods **consumers actually want**. The factory has the first but not the second. 'Equitable' (c, d) refers to a fair distribution of resources — a separate concept, since the slides note that improving equity usually *reduces* efficiency rather than being a type of it."
     },
     {
@@ -207,7 +207,7 @@
         "Discard economics as a discipline and rely only on data"
       ],
       "answer": "b",
-      "shuffleOptions": true,
+      "shuffleOptions": false,
       "explanation": "The slides' five steps end with **revising the model if it fails to explain the data well**, then retesting — the process is iterative, not final after one attempt. Refusing to revise assumptions (c) contradicts the point of hypothesis testing, and publishing an unconfirmed model (a) or abandoning economics entirely (d) both skip the required testing step."
     },
     {

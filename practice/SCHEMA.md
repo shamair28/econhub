@@ -214,6 +214,6 @@ Colours: `blue red green purple amber gray slate pink teal orange indigo` or any
 3. **Numbers must check out.** Solve every numeric/algebra question in the explanation; the validator cannot do the economics for you.
 4. **Tag scope honestly** — `unit` must reflect the *course's* unit numbering for the term the page targets.
 5. **Cite the source**: `source.ref` should point to a slide/lesson or the original question number.
-6. Don't use `shuffleOptions: true` when any option says "all/none of the above", "both a and b", etc.
+6. Don't use `shuffleOptions: true` when any option says "all/none of the above", "both a and b", etc. — **or when the explanation cites options by letter** ("(b) is wrong", "Options c and d"): options are shuffled, explanations are not. Either describe distractors by content, or set `shuffleOptions: false` and place correct answers across a–d yourself (the validator warns on this).
 7. For graph questions, keep axes qualitative (`hideTicks: true`) unless the numbers matter; keep reference curves well inside the plot so shifted curves fit.
 8. Keep `id`s stable — session history and resumed sessions key on them.

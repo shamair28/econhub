@@ -47,14 +47,14 @@
       },
       "prompt": "A small island nation has 200 workers who can be assigned only to fishing or farming. Economists draw a curve showing every maximum combination of fish and crops the island can produce with these workers. What does this curve, the PPF, represent?",
       "options": [
-        "The maximum combinations of two goods (fish and crops) attainable with the island's current, finite resources",
         "The combinations of fish and crops that island consumers most want to buy at current prices",
+        "The maximum combinations of two goods (fish and crops) attainable with the island's current, finite resources",
         "The exact combination of fish and crops the island will choose to produce",
         "The minimum number of workers needed to produce a given amount of fish and crops"
       ],
-      "answer": "a",
-      "shuffleOptions": true,
-      "explanation": "The slides define production possibilities as the total quantity an economy **can** produce with its finite resources, and the PPF traces the maximum attainable combinations. (b) confuses this supply-side concept with consumer demand. (c) is wrong because the PPF shows what is *possible*, not what will actually be chosen. (d) reverses the relationship — the PPF fixes resources and shows maximum output, not the minimum resources needed for a given output."
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "The slides define production possibilities as the total quantity an economy **can** produce with its finite resources, and the PPF traces the maximum attainable combinations. (a) confuses this supply-side concept with consumer demand. (c) is wrong because the PPF shows what is *possible*, not what will actually be chosen. (d) reverses the relationship — the PPF fixes resources and shows maximum output, not the minimum resources needed for a given output."
     },
     {
       "id": "u2-q02",
@@ -67,14 +67,14 @@
       },
       "prompt": "A factory has two identical production lines but management runs only one of them this month, choosing not to run the second. Relative to the economy's PPF, where does this month's output combination sit, and what is the term for this region?",
       "options": [
-        "Inside the frontier — part of the opportunity set, attainable but not efficient",
         "Beyond the frontier — not attainable with current resources",
         "On the frontier — the most efficient point available",
+        "Inside the frontier — part of the opportunity set, attainable but not efficient",
         "At the origin — where no output at all is being produced"
       ],
-      "answer": "a",
-      "shuffleOptions": true,
-      "explanation": "The slides define the **opportunity set** as every point below (inside) the frontier: attainable, since the resources exist, but not efficient because some go unused — exactly the unused second production line here. (b) describes points beyond the frontier instead. (c) is wrong because only points *on* the frontier are efficient. (d) is too extreme: the factory is still producing something, just not the maximum possible."
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "The slides define the **opportunity set** as every point below (inside) the frontier: attainable, since the resources exist, but not efficient because some go unused — exactly the unused second production line here. (a) describes points beyond the frontier instead. (b) is wrong because only points *on* the frontier are efficient. (d) is too extreme: the factory is still producing something, just not the maximum possible."
     },
     {
       "id": "u2-q03",
@@ -87,14 +87,14 @@
       },
       "prompt": "Maya spends her Saturday afternoon at a paid shift instead of studying for Monday's exam. According to the slides' general definition, what is the opportunity cost of Maya working that shift?",
       "options": [
-        "The benefit she could have received from her next best alternative — the study time forgone",
         "The wage she is paid for the shift",
         "Zero, since working is a productive use of her time",
-        "The average value of everything Maya could possibly do in a day"
+        "The average value of everything Maya could possibly do in a day",
+        "The benefit she could have received from her next best alternative — the study time forgone"
       ],
-      "answer": "a",
-      "shuffleOptions": true,
-      "explanation": "The slides define opportunity cost as **the benefit that could be received from the next best alternative** forgone — here, the value of the study time Maya gives up. (b) describes her wage, a benefit *gained*, not a cost. (c) is wrong: every decision carries an opportunity cost, even a productive one. (d) confuses opportunity cost with an unrelated average over every option, instead of just the next-best one."
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "The slides define opportunity cost as **the benefit that could be received from the next best alternative** forgone — here, the value of the study time Maya gives up. (a) describes her wage, a benefit *gained*, not a cost. (b) is wrong: every decision carries an opportunity cost, even a productive one. (c) confuses opportunity cost with an unrelated average over every option, instead of just the next-best one."
     },
     {
       "id": "u2-q04",
@@ -113,7 +113,7 @@
         "Elasticity of demand — how responsive quantity demanded is to price"
       ],
       "answer": "a",
-      "shuffleOptions": true,
+      "shuffleOptions": false,
       "explanation": "The slides state the MRT is **the slope of the PPF** — the rate at which we can switch between good A and good B. (b) mislabels an axis-intercept as the MRT. (c) misapplies the opportunity-set term to a simple ratio, not a rate of exchange. (d) is an unrelated demand-side concept from a different unit."
     },
     {
@@ -127,14 +127,14 @@
       },
       "prompt": "As a farm reallocates land from wheat to corn, each extra acre of corn costs more and more forgone wheat than the acre before it. What does this pattern of diminishing returns imply about the PPF's shape and its MRT?",
       "options": [
-        "The PPF bows outward and the MRT (slope) changes along the frontier, unlike a straight-line PPF where the MRT is constant",
         "The PPF is a straight line and the MRT stays constant throughout",
+        "The PPF bows outward and the MRT (slope) changes along the frontier, unlike a straight-line PPF where the MRT is constant",
         "The PPF bows outward, but the MRT stays constant since total output never falls",
         "The PPF shifts inward over time as more land is reallocated"
       ],
-      "answer": "a",
-      "shuffleOptions": true,
-      "explanation": "Diminishing returns mean each extra unit of corn costs **increasing** amounts of forgone wheat, so the slope keeps steepening — the PPF **bows outward** and the **MRT is not constant**. A straight-line PPF, by contrast, has a constant MRT (constant opportunity cost) throughout. (b) describes that constant-MRT case, the opposite of what's happening here. (c) wrongly claims the MRT stays constant despite an obviously changing trade-off. (d) confuses a movement *along* the PPF with a *shift* of the whole frontier."
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "Diminishing returns mean each extra unit of corn costs **increasing** amounts of forgone wheat, so the slope keeps steepening — the PPF **bows outward** and the **MRT is not constant**. A straight-line PPF, by contrast, has a constant MRT (constant opportunity cost) throughout. (a) describes that constant-MRT case, the opposite of what's happening here. (c) wrongly claims the MRT stays constant despite an obviously changing trade-off. (d) confuses a movement *along* the PPF with a *shift* of the whole frontier."
     },
     {
       "id": "u2-q06",
@@ -147,14 +147,14 @@
       },
       "prompt": "Country X can produce more of both cars and textiles per worker than Country Y. According to the slides, which statement about comparative advantage must still be true?",
       "options": [
-        "Country Y must have the comparative advantage (the lower opportunity cost) in at least one of the two goods",
         "Country X automatically has the comparative advantage in both goods too",
         "Neither country can have a comparative advantage in anything",
+        "Country Y must have the comparative advantage (the lower opportunity cost) in at least one of the two goods",
         "Comparative advantage does not apply unless both countries are equally productive"
       ],
-      "answer": "a",
-      "shuffleOptions": true,
-      "explanation": "The slides state it is possible to hold an **absolute** advantage in both goods, but **impossible** to hold a **comparative** advantage (the lower opportunity cost) in both — if Country X's opportunity cost of one good is lower, Country Y's opportunity cost of the *other* good must be lower. This is also why comparative advantage can exist **without** any absolute advantage. (b) contradicts this rule directly, and (c)/(d) are not conditions the slides place on comparative advantage."
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "The slides state it is possible to hold an **absolute** advantage in both goods, but **impossible** to hold a **comparative** advantage (the lower opportunity cost) in both — if Country X's opportunity cost of one good is lower, Country Y's opportunity cost of the *other* good must be lower. This is also why comparative advantage can exist **without** any absolute advantage. (a) contradicts this rule directly, and (b)/(d) are not conditions the slides place on comparative advantage."
     },
     {
       "id": "u2-q07",
@@ -167,14 +167,14 @@
       },
       "prompt": "Two neighbouring bakeries each currently make both bread and pastries themselves. If each instead specialises in the good where it has the comparative advantage and they trade with each other, what does the lecture's example conclude?",
       "options": [
-        "Both bakeries end up with more of both goods than before specialising and trading",
         "Only the bakery with the absolute advantage gains from the trade",
         "Combined output falls, since each bakery now makes only one good",
-        "Neither bakery's final bundle of goods changes"
+        "Neither bakery's final bundle of goods changes",
+        "Both bakeries end up with more of both goods than before specialising and trading"
       ],
-      "answer": "a",
-      "shuffleOptions": true,
-      "explanation": "The slides conclude that **'by specializing and trading, they each end up with more!'** — specialising by comparative advantage raises total production, and a mutually beneficial trade leaves both sides better off. (b) wrongly limits the gains to whichever bakery has the absolute advantage. (c) has it backwards: specialisation by comparative advantage *increases* combined output. (d) contradicts the entire point of trading."
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "The slides conclude that **'by specializing and trading, they each end up with more!'** — specialising by comparative advantage raises total production, and a mutually beneficial trade leaves both sides better off. (a) wrongly limits the gains to whichever bakery has the absolute advantage. (b) has it backwards: specialisation by comparative advantage *increases* combined output. (c) contradicts the entire point of trading."
     },
     {
       "id": "u2-q08",
@@ -193,7 +193,7 @@
         "Selling the finished apps to customers — a factor market"
       ],
       "answer": "a",
-      "shuffleOptions": true,
+      "shuffleOptions": false,
       "explanation": "The **labour market is a factor market**: households (here, the developer) supply time and effort, and firms pay wages for it. (b) and (d) mislabel selling finished goods as a factor-market transaction — that happens in **output** markets. (c) mislabels a wage payment as an output-market transaction, reversing the two categories."
     },
     {
@@ -207,14 +207,14 @@
       },
       "prompt": "A furniture manufacturer sells chairs to individual households, office sets to other companies, and desks to a city government office. Using the lecture's terms, name these three types of customers.",
       "options": [
-        "B2C, B2B, and B2G",
         "Domestic, foreign, and online customers",
+        "B2C, B2B, and B2G",
         "Labour, capital, and land markets",
         "Retailers, wholesalers, and manufacturers"
       ],
-      "answer": "a",
-      "shuffleOptions": true,
-      "explanation": "The slides classify a firm's output-market customers as households (**B2C**), other firms (**B2B**), or governments (**B2G**) — matching the households, companies, and city office in the example. (c) actually lists factor-market categories, and land isn't even one of the two factor markets covered (only labour and capital are). (b) and (d) are groupings never introduced in the lecture."
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "The slides classify a firm's output-market customers as households (**B2C**), other firms (**B2B**), or governments (**B2G**) — matching the households, companies, and city office in the example. (c) actually lists factor-market categories, and land isn't even one of the two factor markets covered (only labour and capital are). (a) and (d) are groupings never introduced in the lecture."
     },
     {
       "id": "u2-q10",
@@ -227,14 +227,14 @@
       },
       "prompt": "In the circular flow diagram, a firm pays money to a household for the labour and capital it supplied. Which set of payments correctly describes what firms send to households?",
       "options": [
-        "Wages, profits, and interest",
         "Taxes and savings",
         "Purchases of goods and services",
+        "Wages, profits, and interest",
         "Donations to not-for-profit organizations"
       ],
-      "answer": "a",
-      "shuffleOptions": true,
-      "explanation": "The circular-flow diagram shows **firms paying households** wages, profits, and interest in return for labour and capital, while **households pay firms** through purchases and pay government through taxes and savings. (b) and (c) describe flows running the opposite direction, from households outward. (d) is a flow between households and the not-for-profit sector, not firms."
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "The circular-flow diagram shows **firms paying households** wages, profits, and interest in return for labour and capital, while **households pay firms** through purchases and pay government through taxes and savings. (a) and (b) describe flows running the opposite direction, from households outward. (d) Donations flow to the not-for-profit sector (from both households and firms), not from firms to households."
     },
     {
       "id": "u2-q11",

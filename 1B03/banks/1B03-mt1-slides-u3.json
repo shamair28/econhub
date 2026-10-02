@@ -46,13 +46,13 @@
       },
       "prompt": "According to the Law of Demand, holding every other factor constant, what happens to quantity demanded when the price of a good falls?",
       "options": [
-        "Quantity demanded increases",
         "Quantity demanded decreases",
+        "Quantity demanded increases",
         "Demand increases — the whole curve shifts right",
         "Demand decreases — the whole curve shifts left"
       ],
-      "answer": "a",
-      "shuffleOptions": true,
+      "answer": "b",
+      "shuffleOptions": false,
       "explanation": "The Law of Demand states that, ceteris paribus, a **decrease** in price raises **quantity demanded**. Options c and d confuse this own-price effect with a shift in demand, which the slides reserve for changes in factors *other than* the good's own price."
     },
     {
@@ -66,14 +66,14 @@
       },
       "prompt": "A good's price falls. Using the slides' framing of the two effects behind the Law of Demand, which statement correctly distinguishes the substitution effect from the income effect?",
       "options": [
-        "Substitution effect: the good is now relatively cheaper, so consumers switch to buying this good instead of others; Income effect: consumers can now afford to buy more than before with the same income",
         "Substitution effect: consumers can now afford to buy more than before with the same income; Income effect: consumers switch to buying other goods instead",
         "Both effects describe consumers switching to substitute goods when the price changes",
+        "Substitution effect: the good is now relatively cheaper, so consumers switch to buying this good instead of others; Income effect: consumers can now afford to buy more than before with the same income",
         "Both effects describe a fixed income buying strictly less as the price falls"
       ],
-      "answer": "a",
-      "shuffleOptions": true,
-      "explanation": "Per the slides: the **substitution effect** is switching toward a good that is now relatively cheaper; the **income effect** is being able to afford more with the same fixed income. Option b swaps these two definitions, and c/d each collapse both effects into only one of them."
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "Per the slides: the **substitution effect** is switching toward a good that is now relatively cheaper; the **income effect** is being able to afford more with the same fixed income. Option a swaps these two definitions, and b/d each collapse both effects into only one of them."
     },
     {
       "id": "u3-q04",
@@ -146,14 +146,14 @@
       },
       "prompt": "Why does the supply curve slope upward, according to the slides?",
       "options": [
-        "Because producers' costs rise as they produce more, so firms need higher prices to cover those costs",
         "Because consumers are willing to pay more when a good is scarce",
         "Because producers prefer to sell less at higher prices",
-        "Because the substitution effect makes producers switch to other goods"
+        "Because the substitution effect makes producers switch to other goods",
+        "Because producers' costs rise as they produce more, so firms need higher prices to cover those costs"
       ],
-      "answer": "a",
-      "shuffleOptions": true,
-      "explanation": "The slides state the supply curve is a **direct representation of producers' costs**: costs rise as output rises, so firms must charge higher prices to cover them — this gives the Law of Supply its upward slope. Option b describes consumer willingness to pay, a demand-side idea, not the supply relationship."
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "The slides state the supply curve is a **direct representation of producers' costs**: costs rise as output rises, so firms must charge higher prices to cover them — this gives the Law of Supply its upward slope. Option a describes consumer willingness to pay, a demand-side idea, not the supply relationship."
     },
     {
       "id": "u3-q08",
@@ -192,7 +192,7 @@
         "Reduce production now to build inventory for future demand"
       ],
       "answer": "a",
-      "shuffleOptions": true,
+      "shuffleOptions": false,
       "explanation": "The slides state that at a shortage, producers notice unserved customers and respond by **raising prices and expanding production** until reaching equilibrium. Option b describes the correct response to a **surplus** (excess supply) at a price *above* equilibrium instead."
     },
     {
@@ -206,14 +206,14 @@
       },
       "prompt": "According to the slides, which statement correctly describes how equilibrium price and quantity respond to shifts in demand versus shifts in supply?",
       "options": [
-        "A demand shift moves price and quantity in the same direction; a supply shift moves them in opposite directions",
         "A demand shift moves price and quantity in opposite directions; a supply shift moves them in the same direction",
+        "A demand shift moves price and quantity in the same direction; a supply shift moves them in opposite directions",
         "Both demand and supply shifts always move price and quantity in the same direction",
         "Both demand and supply shifts always move price and quantity in opposite directions"
       ],
-      "answer": "a",
-      "shuffleOptions": true,
-      "explanation": "The slides state that when **demand** shifts, price and quantity always move **together** (both rise or both fall); when **supply** shifts, they move in **opposite** directions. Options c and d each erase this distinction, and b reverses it entirely."
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "The slides state that when **demand** shifts, price and quantity always move **together** (both rise or both fall); when **supply** shifts, they move in **opposite** directions. Options (c) and (d) each erase this distinction, and (a) reverses it entirely."
     },
     {
       "id": "u3-q11",

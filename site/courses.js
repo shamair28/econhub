@@ -28,7 +28,7 @@ window.HUB_SITE = {
         {
           href: '/1B03/midterm1', icon: '✎', kind: 'Practice test',
           title: 'Midterm 1 Practice',
-          desc: 'Units 1–4 · F22 practice midterm + lecture-slide questions · graph-drawing drills · timed exam mode',
+          desc: 'Units 1–4 · F22 practice midterm + lecture-slide questions · Unit 4 in-class tax exercise &amp; price-control drills · timed exam mode',
           chapters: [1, 2, 3, 4]
         }
       ]
