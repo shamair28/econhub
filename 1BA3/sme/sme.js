@@ -1,5 +1,5 @@
 /* COMM 1BA3 — SME Prep hub engine.
-   Week content lives in week1.js … week4.js, each calling SME.addWeek({...}).
+   Week content lives in week1.js … week5.js, each calling SME.addWeek({...}).
    Routes (hash): #/  ·  #/w1  ·  #/w1/cards  ·  #/w1/quiz  ·  #/w1/practice          */
 (function () {
   'use strict';
@@ -36,14 +36,20 @@
   /* ── assignment config (from Dr. Kassaye's announcement) ── */
   const ASSIGNMENTS = [
     {
-      id: 'practice', name: 'Practice Assignment', stakes: 'Rehearsal — not graded',
+      id: 'practice', short: 'Practice', name: 'Practice Assignment', stakes: 'Rehearsal — not graded',
       when: 'C08 · Thu Oct 1 &nbsp;·&nbsp; C07 · Fri Oct 2',
       qs: [['w1', 'Intro to OB'], ['w1', 'Intro to OB'], ['w2', 'Abilities, Personality, Values, Attitudes'], ['w2', 'Abilities, Personality, Values, Attitudes'], ['w3', 'Perception']]
     },
     {
-      id: 'a1', name: 'Assignment #1', stakes: '10% of your grade',
+      id: 'a1', short: 'A#1', name: 'Assignment #1', stakes: '10% of your grade',
       when: 'As posted: C08 · Oct 9 &nbsp;·&nbsp; C07 · Oct 8',
       qs: [['w1', 'Intro to OB'], ['w2', 'Abilities, Personality, Values, Attitudes'], ['w3', 'Perception'], ['w4', 'Motivation'], ['w4', 'Motivation']]
+    },
+    {
+      /* question → week map not announced yet; when it is, fill qs and drop pending */
+      id: 'a2', short: 'A#2', name: 'Assignment #2', stakes: '10% of your grade',
+      when: 'Outline: Week 10 (Nov 9–13)', pending: 'Weeks 5–9 · Ch 7, 8, 9, 10, 11',
+      qs: []
     }
   ];
 
@@ -81,7 +87,9 @@
     { n: 3, t: 'Perception, Attribution, and Diversity', wk: [['w3', '']] },
     { n: 4, t: 'Values, Attitudes, and Work Behaviour', wk: [['w2', '']] },
     { n: 5, t: 'Theories of Work Motivation', wk: [['w2', '§5.2 abilities'], ['w4', '§5.1, 5.3–5.6']] },
-    { n: 6, t: 'Motivation in Practice', wk: [['w4', '']] }
+    { n: 6, t: 'Motivation in Practice', wk: [['w4', '']] },
+    { n: 10, t: 'Communication', wk: [['w5', '']] },
+    { n: 11, t: 'Decision Making', wk: [['w5', '§11.1–11.5']] }
   ];
   let drawerOpen = false, lastFocus = null;
   function renderDrawer() {
@@ -140,7 +148,12 @@
     setCrumbs('<span>Group Assignment SME Prep</span>', 'var(--w1)');
     document.title = 'SME Prep · COMM 1BA3';
     const mine = myWeeks();
-    const qmap = a => `
+    const qmap = a => a.pending ? `
+      <div class="card qmap pending">
+        <h3>${a.name}</h3>
+        <div class="sub">${a.stakes} · ${a.when} · ${a.pending}</div>
+        <div class="note info" style="margin-top:12px"><span class="nt">Question map not announced yet</span>Dr. Kassaye announced the Assignment #1 map shortly before it. Until the #2 map is out, prep by week: <a href="#/w5">Week 5 (Decision Making &amp; Communication)</a> is ready now. Weeks 7–9 (groups &amp; teams, culture &amp; socialization, leadership) get pages as they're taught.</div>
+      </div>` : `
       <div class="card qmap">
         <h3>${a.name}</h3>
         <div class="sub">${a.stakes} · ${a.when}</div>
@@ -160,8 +173,8 @@
         <h1>Become the <span class="grad">Subject Matter Expert</span> for your week.</h1>
         <p class="lede">Each group member owns one question topic. You won't see the question ahead of time, so this page gives you everything for your week in one place: key definitions, models, lists with memory aids, exam traps, a self-quiz and timed answer practice. You don't need to jump between chapter pages.</p>
         <div class="hero-meta">
-          <span class="chip">Johns &amp; Saks · Ch 1–6</span>
-          <span class="chip">Lecture slides Weeks 1–4 folded in</span>
+          <span class="chip">Johns &amp; Saks · Ch 1–6, 10, 11</span>
+          <span class="chip">Lecture slides Weeks 1–5 folded in</span>
           <span class="chip">Progress saves on this device</span>
         </div>
       </section>
@@ -178,7 +191,7 @@
           <div class="facts">
             <div class="fact"><div class="k">Format</div><div class="v">5 questions × 10 marks</div></div>
             <div class="fact"><div class="k">Time</div><div class="v">50 min · closed book</div></div>
-            <div class="fact"><div class="k">Assignment #1</div><div class="v">10% · Weeks 1–4</div></div>
+            <div class="fact"><div class="k">Assignments #1 · #2</div><div class="v">10% each · Weeks 1–4 · 5–9</div></div>
             <div class="fact"><div class="k">Group</div><div class="v">Same 5 all term</div></div>
           </div>
         </div>
@@ -219,11 +232,12 @@
       <div class="stack">
         <div class="note info"><span class="nt">Where Chapter 5 lives</span>The outline starts Chapter 5 ("Intro to Motivation") in Week 3, but the Week 3 lecture deck covered Chapter 3 only, the Week 4 deck taught Chapter 5 (adding Herzberg's two-factor theory), and the assignment labels Week 3 "Perception" and Week 4 "Motivation." So all of Chapter 5's motivation theory (§5.1, 5.3–5.6) is on the <a href="#/w4">Week 4 page</a>. The one exception is <b>§5.2 abilities</b> (cognitive ability and EI), which was a Week 2 reading and is on the <a href="#/w2">Week 2 page</a>.</div>
         <div class="note info"><span class="nt">Week 4 also includes Learning (Ch 2, §2.4–2.8)</span>The outline pairs the second half of Chapter 2 (operant learning, reinforcement, social cognitive theory) with Chapter 6 under "Motivation cont." It's on the Week 4 page in its own section. A Motivation question could ask you to reinforce behaviour just as easily as to redesign a job.</div>
+        <div class="note info"><span class="nt">Week 5 covers only half of Chapter 11</span>Week 5 taught Chapter 10 and <b>§11.1–11.5</b> of Chapter 11 (individual decision making). §11.6–11.7 (group decision making, groupthink, improving decisions) are scheduled for Week 7 with Chapter 7. Both halves count for Assignment #2. For the exams, Chapter 10 and §11.1–11.5 are <b>midterm</b> material and §11.6–11.7 is <b>final-exam</b> material.</div>
         <div class="note tip"><span class="nt">Two people on one week? Split the depth</span>Practice Q1/Q2 are both Week 1, Q3/Q4 are both Week 2, and Assignment #1 Q4/Q5 are both Week 4. Each week page suggests a split so the two SMEs cover everything between them, while each still reads the other half.</div>
       </div>
 
 
-      <div class="footer">Built from the Johns &amp; Saks text (12th ed., which the course's Week 1 deck names; the outline names the 13th, and chapter/section numbering matches), Dr. Kassaye's Week 2–4 slides, the Week 4 recorded lecture and the Week 1 handout. Lecture-only content is tagged <span class="badge lec">Lecture</span> or <span class="badge hand">Handout</span>. Chapter lesson pages: <a href="/1BA3/ch1">Ch 1</a> · <a href="/1BA3/ch2">Ch 2</a> · <a href="/1BA3/ch3">Ch 3</a> · <a href="/1BA3/ch4">Ch 4</a> · <a href="/1BA3/ch5">Ch 5</a> · <a href="/1BA3/ch6">Ch 6</a> · <a href="/">Study hub home</a></div>
+      <div class="footer">Built from the Johns &amp; Saks text (12th ed., which the course's Week 1 deck names; the outline names the 13th, and chapter/section numbering matches), Dr. Kassaye's Week 2–5 slides, the Week 4 and Week 5 recorded lectures and the Week 1 handout. Lecture-only content is tagged <span class="badge lec">Lecture</span> or <span class="badge hand">Handout</span>. Chapter lesson pages: <a href="/1BA3/ch1">Ch 1</a> · <a href="/1BA3/ch2">Ch 2</a> · <a href="/1BA3/ch3">Ch 3</a> · <a href="/1BA3/ch4">Ch 4</a> · <a href="/1BA3/ch5">Ch 5</a> · <a href="/1BA3/ch6">Ch 6</a> · <a href="/1BA3/ch10">Ch 10</a> · <a href="/1BA3/ch11">Ch 11</a> · <a href="/">Study hub home</a></div>
     `;
 
     $$('.claim', app()).forEach(b => b.addEventListener('click', e => {
@@ -284,7 +298,7 @@
     document.title = `Week ${w.num} · ${w.title} · SME Prep`;
     const pr = progress(w);
     const slots = [];
-    ASSIGNMENTS.forEach(a => a.qs.forEach(([wid], i) => { if (wid === w.id) slots.push(`${a.id === 'a1' ? 'A#1' : 'Practice'} Q${i + 1}`); }));
+    ASSIGNMENTS.forEach(a => a.qs.forEach(([wid], i) => { if (wid === w.id) slots.push(`${a.short} Q${i + 1}`); }));
     const nCards = buildDeck(w).length;
     const tabs = [['study', 'Study', checkables(w).length], ['cards', 'Flashcards', nCards], ['quiz', 'Self-Quiz', w.quiz.length], ['practice', 'Answer Practice', w.prompts.length]];
 

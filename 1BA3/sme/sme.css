@@ -18,7 +18,7 @@
   --lec: #f472b6;    --lec-bg: rgba(244,114,182,.09);
   --info: #60a5fa;   --info-bg: rgba(96,165,250,.09);
   --ok: #34d399; --bad: #f87171;
-  --w1: #38bdf8; --w2: #a78bfa; --w3: #34d399; --w4: #fbbf24;
+  --w1: #38bdf8; --w2: #a78bfa; --w3: #34d399; --w4: #fbbf24; --w5: #fb7185;
   --acc: #38bdf8;
   --radius: 14px;
   --mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, monospace;
@@ -42,7 +42,7 @@
   --lec: #db2777;    --lec-bg: rgba(219,39,119,.06);
   --info: #2563eb;   --info-bg: rgba(37,99,235,.06);
   --ok: #059669; --bad: #dc2626;
-  --w1: #0284c7; --w2: #7c3aed; --w3: #059669; --w4: #d97706;
+  --w1: #0284c7; --w2: #7c3aed; --w3: #059669; --w4: #d97706; --w5: #e11d48;
   color-scheme: light;
 }
 
@@ -135,7 +135,7 @@ kbd {
 .hero { padding: 26px 0 8px; }
 .hero h1 { font-size: clamp(28px, 4.2vw, 44px); font-weight: 800; letter-spacing: -.03em; }
 .hero h1 .grad {
-  background: linear-gradient(90deg, var(--w1), var(--w2) 45%, var(--w3) 75%, var(--w4));
+  background: linear-gradient(90deg, var(--w1), var(--w2) 35%, var(--w3) 60%, var(--w4) 82%, var(--w5));
   -webkit-background-clip: text; background-clip: text; color: transparent;
 }
 .hero p.lede { font-size: 17px; color: var(--text-2); max-width: 760px; margin: 12px 0 0; }
@@ -176,6 +176,7 @@ kbd {
 @media (max-width: 900px) { .qmaps { grid-template-columns: 1fr; } }
 .qmap h3 { font-size: 16.5px; }
 .qmap .sub { font-size: 13px; color: var(--muted); margin-top: 3px; }
+.qmap.pending { grid-column: 1 / -1; }
 .qrow {
   display: grid; grid-template-columns: 44px 1fr auto; gap: 12px; align-items: center;
   padding: 9px 10px; margin-top: 8px; border-radius: 11px; border: 1px solid var(--border);

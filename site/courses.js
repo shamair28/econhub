@@ -62,14 +62,16 @@ window.HUB_SITE = {
         { n: 3, title: 'Perception, Attribution, and Diversity' },
         { n: 4, title: 'Values, Attitudes, and Work Behaviour' },
         { n: 5, title: 'Theories of Work Motivation' },
-        { n: 6, title: 'Motivation in Practice' }
+        { n: 6, title: 'Motivation in Practice' },
+        { n: 10, title: 'Communication' },
+        { n: 11, title: 'Decision Making' }
       ],
       tools: [
         {
           href: '/1BA3/sme', icon: '★', kind: 'Assignment prep',
           title: 'Group Assignment SME Prep',
           short: 'SME Prep',
-          desc: 'Weeks 1–4 · pick your week · key concepts, traps &amp; memory aids · flashcards · self-quiz · timed answer practice',
+          desc: 'Weeks 1–5 · pick your week · key concepts, traps &amp; memory aids · flashcards · self-quiz · timed answer practice',
           /* same chapter ↔ week map as the SME page's own side menu (1BA3/sme/sme.js) */
           chapters: {
             1: [['#/w1', 'Week 1']],
@@ -77,7 +79,9 @@ window.HUB_SITE = {
             3: [['#/w3', 'Week 3']],
             4: [['#/w2', 'Week 2']],
             5: [['#/w2', 'Week 2 · §5.2'], ['#/w4', 'Week 4 · §5.1, 5.3–5.6']],
-            6: [['#/w4', 'Week 4']]
+            6: [['#/w4', 'Week 4']],
+            10: [['#/w5', 'Week 5']],
+            11: [['#/w5', 'Week 5 · §11.1–11.5']]
           }
         }
       ]
