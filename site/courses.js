@@ -63,6 +63,7 @@ window.HUB_SITE = {
         { n: 4, title: 'Values, Attitudes, and Work Behaviour' },
         { n: 5, title: 'Theories of Work Motivation' },
         { n: 6, title: 'Motivation in Practice' },
+        { n: 7, title: 'Groups and Teamwork' },
         { n: 10, title: 'Communication' },
         { n: 11, title: 'Decision Making' }
       ],
