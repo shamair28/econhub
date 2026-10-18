@@ -22,7 +22,8 @@ window.HUB_SITE = {
         { n: 1, title: 'Economics: Foundations and Models' },
         { n: 2, title: 'Trade-offs, Comparative Advantage, and the Market System' },
         { n: 3, title: 'Where Prices Come From: The Interaction of Supply and Demand' },
-        { n: 4, title: 'Economic Efficiency, Government Price Setting, and Taxes' }
+        { n: 4, title: 'Economic Efficiency, Government Price Setting, and Taxes' },
+        { n: 8, title: 'Consumer Choice and Behavioural Economics' }
       ],
       tools: [
         {
@@ -41,7 +42,8 @@ window.HUB_SITE = {
         { n: 1, title: 'Economics: Foundations and Models' },
         { n: 2, title: 'Trade-offs, Comparative Advantage, and the Market System' },
         { n: 3, title: 'Where Prices Come From: The Interaction of Supply and Demand' },
-        { n: 4, title: 'GDP: Measuring Total Production and Income' }
+        { n: 4, title: 'GDP: Measuring Total Production and Income' },
+        { n: 7, title: 'Long-Run Economic Growth: Sources and Policies' }
       ],
       tools: [
         {
