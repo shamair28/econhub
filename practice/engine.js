@@ -172,6 +172,7 @@
       nq.type = q.type || 'mc';
       if (nq.type === 'tf') {
         nq.type = 'mc';
+        nq.kind = 'tf';   // graded as mc; kept separate in the type filter and results
         nq.options = [{ id: 'a', text: 'True' }, { id: 'b', text: 'False' }];
         nq.answer = (q.answer === true || q.answer === 'true' || q.answer === 'a') ? 'a' : 'b';
       }
@@ -222,7 +223,7 @@
         if (q.inScope) sources[q.source.label].inScope++;
         const uk = q.unit != null ? q.unit : 'none';
         units[uk] = (units[uk] || 0) + 1;
-        types[q.type] = (types[q.type] || 0) + 1;
+        types[q.kind || q.type] = (types[q.kind || q.type] || 0) + 1;
       }
       const outOfScope = this.questions.filter(q => !q.inScope).length;
       const saved = this.store.session && !this.store.session.finished ? this.store.session : null;
@@ -263,7 +264,7 @@
       };
 
       const unitKeys = Object.keys(units).sort((a, b) => (a === 'none') - (b === 'none') || Number(a) - Number(b));
-      const typeLabel = { mc: 'Multiple choice', multi: 'Select all that apply', numeric: 'Numeric', graph: 'Graph drawing' };
+      const typeLabel = { mc: 'Multiple choice', tf: 'True / false', multi: 'Select all that apply', numeric: 'Numeric', graph: 'Graph drawing' };
 
       const scopeToggle = cfg.scope ? h('label', { class: 'pe-switch' },
         h('input', { type: 'checkbox', checked: form.scopeOnly, onChange: (e) => { form.scopeOnly = e.target.checked; updateCount(); } }),
@@ -339,7 +340,7 @@
         (!form.scopeOnly || q.inScope) &&
         form.sources.has(q.source.label) &&
         form.units.has(String(q.unit != null ? q.unit : 'none')) &&
-        form.types.has(q.type));
+        form.types.has(q.kind || q.type));
     }
 
     // ── session lifecycle ───────────────────────────────────────────────
@@ -823,7 +824,7 @@
         const bump = (m, k) => { m[k] = m[k] || { n: 0, ok: 0 }; m[k].n++; if (ok) m[k].ok++; };
         bump(byUnit, q.unit != null ? q.unit : 'none');
         bump(bySource, q.source.label);
-        bump(byType, q.type);
+        bump(byType, q.kind || q.type);
       }
       const breakdown = (title, map, labelFn) => h('div', { class: 'pe-breakdown' },
         h('h3', { text: title }),
@@ -852,7 +853,7 @@
         return wrap;
       })();
 
-      const typeLabel = { mc: 'Multiple choice', multi: 'Select all', numeric: 'Numeric', graph: 'Graph drawing' };
+      const typeLabel = { mc: 'Multiple choice', tf: 'True / false', multi: 'Select all', numeric: 'Numeric', graph: 'Graph drawing' };
       const verdict = p >= 90 ? 'Excellent — you are in great shape.' : p >= 80 ? 'Strong. Review the misses and you are there.' : p >= 65 ? 'Decent foundation — focus on the weakest units below.' : 'Keep going: work through the missed questions, then retry.';
 
       root.appendChild(h('div', { class: 'pe-shell pe-results' },

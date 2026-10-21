@@ -1,0 +1,3726 @@
+{
+ "schema": "practice-bank/v1",
+ "id": "1BA3-mt-sme",
+ "course": "COMM 1BA3",
+ "title": "SME Self-Quiz",
+ "description": "The self-quiz questions from the SME Prep hub (Weeks 1–5), tagged by chapter.",
+ "defaultSource": {
+  "label": "SME Self-Quiz",
+  "kind": "custom"
+ },
+ "scenarios": {},
+ "questions": [
+  {
+   "id": "sme-w1-q01",
+   "type": "mc",
+   "unit": 1,
+   "topic": "Mintzberg Informational Roles",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 1 · Q1"
+   },
+   "prompt": "During a staff meeting, a marketing director spends 20 minutes telling her team what she learned at last week’s industry conference. Which Mintzberg role is she performing?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Disseminator"
+    },
+    {
+     "id": "b",
+     "text": "Spokesperson"
+    },
+    {
+     "id": "c",
+     "text": "Monitor"
+    },
+    {
+     "id": "d",
+     "text": "Liaison"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "She is sending information to people <b>inside</b> the organization. Spokesperson sends it <i>outside</i>. Monitor was the act of gathering it at the conference, which already happened. Liaison is about keeping horizontal contacts."
+  },
+  {
+   "id": "sme-w1-q02",
+   "type": "mc",
+   "unit": 1,
+   "topic": "Mintzberg Monitor Role",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 1 · Q2"
+   },
+   "prompt": "A manager flies to a trade show mainly to learn what competitors are launching next year. Which role?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Monitor"
+    },
+    {
+     "id": "b",
+     "text": "Disseminator"
+    },
+    {
+     "id": "c",
+     "text": "Entrepreneur"
+    },
+    {
+     "id": "d",
+     "text": "Figurehead"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "<b>Monitor</b>: scanning the environment for information and trends. Disseminating would be sharing it internally afterwards."
+  },
+  {
+   "id": "sme-w1-q03",
+   "type": "mc",
+   "unit": 1,
+   "topic": "Mintzberg Spokesperson Role",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 1 · Q3"
+   },
+   "prompt": "A CEO gives a televised interview explaining the firm’s quarterly results. Which role?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Spokesperson"
+    },
+    {
+     "id": "b",
+     "text": "Disseminator"
+    },
+    {
+     "id": "c",
+     "text": "Figurehead"
+    },
+    {
+     "id": "d",
+     "text": "Negotiator"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "<b>Spokesperson</b> sends information into the <i>external</i> environment (media, shareholders). Figurehead is symbolic duty, not information transmission."
+  },
+  {
+   "id": "sme-w1-q04",
+   "type": "mc",
+   "unit": 1,
+   "topic": "Disturbance Handler Resource Allocator",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 1 · Q4"
+   },
+   "prompt": "A supervisor steps in to stop a shouting match between two reps and then decides who gets first pick of overtime. Which two decisional roles?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Disturbance handler and resource allocator"
+    },
+    {
+     "id": "b",
+     "text": "Leader and negotiator"
+    },
+    {
+     "id": "c",
+     "text": "Liaison and entrepreneur"
+    },
+    {
+     "id": "d",
+     "text": "Monitor and disturbance handler"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Handling conflict = <b>disturbance handler</b>. Deploying a scarce resource (overtime) = <b>resource allocator</b>. Both are decisional roles."
+  },
+  {
+   "id": "sme-w1-q05",
+   "type": "mc",
+   "unit": 1,
+   "topic": "Weber's Bureaucracy",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 1 · Q5"
+   },
+   "prompt": "Which of the following is NOT one of Weber’s qualities of bureaucracy?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Decentralized decision making by front-line employees"
+    },
+    {
+     "id": "b",
+     "text": "A strict chain of command"
+    },
+    {
+     "id": "c",
+     "text": "Selection and promotion based on technical skill"
+    },
+    {
+     "id": "d",
+     "text": "Detailed rules and procedures"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Weber called for <b>centralization</b> of power at the top. Decentralization is the opposite, and it’s what the human relations critics wanted."
+  },
+  {
+   "id": "sme-w1-q06",
+   "type": "mc",
+   "unit": 1,
+   "topic": "Hawthorne Studies",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 1 · Q6"
+   },
+   "prompt": "The Hawthorne studies are most closely associated with the rise of:",
+   "options": [
+    {
+     "id": "a",
+     "text": "The human relations movement"
+    },
+    {
+     "id": "b",
+     "text": "Scientific management"
+    },
+    {
+     "id": "c",
+     "text": "Bureaucracy"
+    },
+    {
+     "id": "d",
+     "text": "Evidence-based management"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Hawthorne showed that social and psychological factors affect productivity, and that launched the <b>human relations movement</b>."
+  },
+  {
+   "id": "sme-w1-q07",
+   "type": "mc",
+   "unit": 1,
+   "topic": "Management Functions Predicting",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 1 · Q7"
+   },
+   "prompt": "A manager can reliably tell when two senior developers will threaten to quit after a product launch, but has no idea why. This illustrates which goal of OB?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Predicting"
+    },
+    {
+     "id": "b",
+     "text": "Explaining"
+    },
+    {
+     "id": "c",
+     "text": "Managing"
+    },
+    {
+     "id": "d",
+     "text": "Contingency planning"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Anticipating behaviour without knowing the cause is <b>predicting</b>. \"Contingency planning\" isn’t one of the three goals."
+  },
+  {
+   "id": "sme-w1-q08",
+   "type": "mc",
+   "unit": 1,
+   "topic": "Contingency Approach",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 1 · Q8"
+   },
+   "prompt": "A firm manages its payroll unit with tight procedures and its R&D unit with loose, flexible rules. This best reflects:",
+   "options": [
+    {
+     "id": "a",
+     "text": "The contingency approach"
+    },
+    {
+     "id": "b",
+     "text": "The classical viewpoint"
+    },
+    {
+     "id": "c",
+     "text": "Scientific management"
+    },
+    {
+     "id": "d",
+     "text": "The human relations movement"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Matching the style to the demands of each unit’s situation is the <b>contingency approach</b>, and this is the textbook’s own example."
+  },
+  {
+   "id": "sme-w1-q09",
+   "type": "mc",
+   "unit": 1,
+   "topic": "Kotter's Effective Managers",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 1 · Q9"
+   },
+   "prompt": "Which is NOT one of Kotter’s three elements of what effective general managers do?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Functional foremanship"
+    },
+    {
+     "id": "b",
+     "text": "Agenda setting"
+    },
+    {
+     "id": "c",
+     "text": "Networking"
+    },
+    {
+     "id": "d",
+     "text": "Agenda implementation"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "<b>Functional foremanship</b> is Taylor’s idea (supervisors specialize by function)."
+  },
+  {
+   "id": "sme-w1-q10",
+   "type": "mc",
+   "unit": 1,
+   "topic": "Luthans Networking Research",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 1 · Q10"
+   },
+   "prompt": "According to Luthans and colleagues, managers who spend the most time networking tend to:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Be promoted fastest, though their units aren’t the most effective"
+    },
+    {
+     "id": "b",
+     "text": "Run the most effective units"
+    },
+    {
+     "id": "c",
+     "text": "Have the most satisfied employees"
+    },
+    {
+     "id": "d",
+     "text": "Avoid routine communication entirely"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Networking brings the <b>fastest promotion</b>. Time on <b>HRM</b> brings the most effective units and the most satisfied employees. It’s a trade-off."
+  },
+  {
+   "id": "sme-w1-q11",
+   "type": "mc",
+   "unit": 1,
+   "topic": "Psychological Capital",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 1 · Q11"
+   },
+   "prompt": "Psychological capital (PsyCap) falls under which contemporary management concern?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Employee health and well-being"
+    },
+    {
+     "id": "b",
+     "text": "Talent management and engagement"
+    },
+    {
+     "id": "c",
+     "text": "Corporate social responsibility"
+    },
+    {
+     "id": "d",
+     "text": "Diversity"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "PsyCap (hope, efficacy, resilience, optimism) is the basis of <b>positive OB</b>, which sits under <b>employee health and well-being</b>."
+  },
+  {
+   "id": "sme-w1-q12",
+   "type": "mc",
+   "unit": 1,
+   "topic": "Precarious Work",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 1 · Q12"
+   },
+   "prompt": "Work that is risky, uncertain and unpredictable, with low or unreliable pay and few protections, is called:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Precarious work"
+    },
+    {
+     "id": "b",
+     "text": "Workplace spirituality"
+    },
+    {
+     "id": "c",
+     "text": "Internal CSR"
+    },
+    {
+     "id": "d",
+     "text": "Job crafting"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "<b>Precarious work</b>, which falls under <b>alternative work arrangements</b>."
+  },
+  {
+   "id": "sme-w1-q13",
+   "type": "mc",
+   "unit": 1,
+   "topic": "Work Engagement",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 1 · Q13"
+   },
+   "prompt": "Work engagement is characterized by:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Vigour, dedication and absorption"
+    },
+    {
+     "id": "b",
+     "text": "Hope, efficacy and resilience"
+    },
+    {
+     "id": "c",
+     "text": "Meaning, purpose and community"
+    },
+    {
+     "id": "d",
+     "text": "Vitality and learning"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Engagement = <b>vigour, dedication, absorption</b>. Hope/efficacy/resilience/optimism is PsyCap. Meaning/purpose/community is spirituality. Vitality + learning is thriving."
+  },
+  {
+   "id": "sme-w1-q14",
+   "type": "mc",
+   "unit": 1,
+   "topic": "Human Relations Critique",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 1 · Q14"
+   },
+   "prompt": "Which is part of the human relations critique of bureaucracy?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Impersonal rules become a performance ceiling: the minimum becomes the norm"
+    },
+    {
+     "id": "b",
+     "text": "Promotion on technical skill encourages nepotism"
+    },
+    {
+     "id": "c",
+     "text": "Centralization improves learning and innovation"
+    },
+    {
+     "id": "d",
+     "text": "Specialization increases commitment to overall goals"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Rules set a minimum acceptable level that turns into the <b>ceiling</b>. The other options reverse the critique: centralization <i>wastes</i> ideas, and specialization <i>causes</i> the red-tape mentality."
+  },
+  {
+   "id": "sme-w1-q15",
+   "type": "mc",
+   "unit": 1,
+   "topic": "Scientific Management",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 1 · Q15"
+   },
+   "prompt": "Taylor’s scientific management focused mainly on:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Designing and standardizing individual jobs on the shop floor"
+    },
+    {
+     "id": "b",
+     "text": "Organization-wide chain of command and promotion rules"
+    },
+    {
+     "id": "c",
+     "text": "Participative, people-oriented management"
+    },
+    {
+     "id": "d",
+     "text": "Adapting management to each situation"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Taylor = <b>job design</b> and standardizing physical work. Chain of command and promotion rules are Weber’s bureaucracy."
+  },
+  {
+   "id": "sme-w1-q16",
+   "type": "mc",
+   "unit": 1,
+   "topic": "S + T = R Thinking",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 1 · Q16"
+   },
+   "prompt": "In the handout’s S + T = R, the \"T\" stands for:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Thinking: the person’s interpretation of the situation"
+    },
+    {
+     "id": "b",
+     "text": "Task: the work itself"
+    },
+    {
+     "id": "c",
+     "text": "Training received"
+    },
+    {
+     "id": "d",
+     "text": "Time pressure"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "<b>Situation + Thinking = Response.</b> People respond to how they interpret a situation, not to the situation itself."
+  },
+  {
+   "id": "sme-w1-q17",
+   "type": "mc",
+   "unit": 1,
+   "topic": "SWOT Analysis Thermostat",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 1 · Q17"
+   },
+   "prompt": "In the thermostat analogy, what comes first, and with what tool?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Assess the current state with a SWOT analysis"
+    },
+    {
+     "id": "b",
+     "text": "Set the desired state with a mission statement"
+    },
+    {
+     "id": "c",
+     "text": "Close the gap with an action plan"
+    },
+    {
+     "id": "d",
+     "text": "Measure results with a balanced scorecard"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "<b>Read, Set, Close, Check</b>: step 1 is the <b>current state</b>, diagnosed with <b>SWOT</b>."
+  },
+  {
+   "id": "sme-w1-q18",
+   "type": "mc",
+   "unit": 1,
+   "topic": "Internal CSR",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 1 · Q18"
+   },
+   "prompt": "A firm donates to local shelters and cuts packaging waste. It also runs pay-equity reviews for its own staff. The pay-equity reviews are an example of:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Internal CSR"
+    },
+    {
+     "id": "b",
+     "text": "External CSR"
+    },
+    {
+     "id": "c",
+     "text": "Talent management"
+    },
+    {
+     "id": "d",
+     "text": "Workplace spirituality"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "CSR aimed at the <b>workforce</b> is <b>internal CSR</b>. The community and environment work is external CSR."
+  },
+  {
+   "id": "sme-w2-q01",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Big Five Predictors",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 2 · Q1"
+   },
+   "prompt": "Which Big Five dimension predicts job performance most consistently across virtually all occupations?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Conscientiousness"
+    },
+    {
+     "id": "b",
+     "text": "Extraversion"
+    },
+    {
+     "id": "c",
+     "text": "Openness to experience"
+    },
+    {
+     "id": "d",
+     "text": "Agreeableness"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "<b>Conscientiousness</b> is the strongest, most universal predictor. Extraversion matters mostly in interpersonal jobs, openness in creative ones, and agreeableness in helping and teamwork jobs."
+  },
+  {
+   "id": "sme-w2-q02",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Locus of Control",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 2 · Q2"
+   },
+   "prompt": "Deja believes her promotions depend on connections and luck, so she rarely bothers with extra training. She is displaying:",
+   "options": [
+    {
+     "id": "a",
+     "text": "An external locus of control"
+    },
+    {
+     "id": "b",
+     "text": "High self-monitoring"
+    },
+    {
+     "id": "c",
+     "text": "Low core self-evaluations"
+    },
+    {
+     "id": "d",
+     "text": "Negative affectivity"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Beliefs that outside forces control outcomes = <b>external locus of control</b>. CSE is a four-trait bundle, and the scenario gives no evidence on the other three."
+  },
+  {
+   "id": "sme-w2-q03",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Core Self-Evaluations",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 2 · Q3"
+   },
+   "prompt": "Which is NOT one of the four core self-evaluation traits?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Extraversion"
+    },
+    {
+     "id": "b",
+     "text": "Self-esteem"
+    },
+    {
+     "id": "c",
+     "text": "Locus of control"
+    },
+    {
+     "id": "d",
+     "text": "Neuroticism"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "CSE = self-esteem, general self-efficacy, locus of control and neuroticism. <b>Extraversion</b> is the classic distractor."
+  },
+  {
+   "id": "sme-w2-q04",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Positive Negative Affectivity",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 2 · Q4"
+   },
+   "prompt": "According to the textbook, positive and negative affectivity are:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Relatively independent dimensions"
+    },
+    {
+     "id": "b",
+     "text": "Opposite ends of one continuum"
+    },
+    {
+     "id": "c",
+     "text": "Learned through reinforcement only"
+    },
+    {
+     "id": "d",
+     "text": "The same as moods"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "PA and NA are <b>independent</b>, not opposites. This is a common true/false trap."
+  },
+  {
+   "id": "sme-w2-q05",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Situation Strength Personality",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 2 · Q5"
+   },
+   "prompt": "Personality traits are most likely to influence behaviour in:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Weak situations with loosely defined roles and few rules"
+    },
+    {
+     "id": "b",
+     "text": "Strong situations with clear rules and rewards"
+    },
+    {
+     "id": "c",
+     "text": "Any situation equally"
+    },
+    {
+     "id": "d",
+     "text": "Only highly stressful situations"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "<b>Weak situations</b> let personality show. Strong situations constrain it (interactionist view)."
+  },
+  {
+   "id": "sme-w2-q06",
+   "type": "mc",
+   "unit": 4,
+   "topic": "Interactional Justice",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 2 · Q6"
+   },
+   "prompt": "An employee got the raise she felt she deserved, but her manager announced it curtly in front of others and wouldn’t answer questions. Which fairness type was violated?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Interactional"
+    },
+    {
+     "id": "b",
+     "text": "Distributive"
+    },
+    {
+     "id": "c",
+     "text": "Procedural"
+    },
+    {
+     "id": "d",
+     "text": "Equity"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The outcome was fine (distributive OK). The <b>manner of treatment and explanation</b> was the problem, which is <b>interactional</b>. People who experience it tend to blame the boss personally."
+  },
+  {
+   "id": "sme-w2-q07",
+   "type": "mc",
+   "unit": 4,
+   "topic": "Procedural Justice",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 2 · Q7"
+   },
+   "prompt": "Staff are upset because raises were decided without any consultation, with no explanation of criteria and no way to appeal. Which fairness type is at issue?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Procedural"
+    },
+    {
+     "id": "b",
+     "text": "Distributive"
+    },
+    {
+     "id": "c",
+     "text": "Interactional"
+    },
+    {
+     "id": "d",
+     "text": "Normative"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The complaint is about the <b>process</b>: no two-way communication, no appeals. That’s <b>procedural</b> fairness."
+  },
+  {
+   "id": "sme-w2-q08",
+   "type": "mc",
+   "unit": 4,
+   "topic": "Continuance Commitment",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 2 · Q8"
+   },
+   "prompt": "Marco stays at his company only because leaving would cost him a generous pension and he sees no other job options. This is:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Continuance commitment"
+    },
+    {
+     "id": "b",
+     "text": "Affective commitment"
+    },
+    {
+     "id": "c",
+     "text": "Normative commitment"
+    },
+    {
+     "id": "d",
+     "text": "Organizational citizenship"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Staying because of the <b>costs of leaving</b> (\"have to\") is <b>continuance</b>. It’s also the type that’s negatively related to performance."
+  },
+  {
+   "id": "sme-w2-q09",
+   "type": "mc",
+   "unit": 4,
+   "topic": "Commitment and Performance",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 2 · Q9"
+   },
+   "prompt": "Which type of commitment is negatively related to job performance?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Continuance"
+    },
+    {
+     "id": "b",
+     "text": "Affective"
+    },
+    {
+     "id": "c",
+     "text": "Normative"
+    },
+    {
+     "id": "d",
+     "text": "None: all commitment improves performance"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "<b>Continuance</b> commitment is negatively related to performance. Affective commitment boosts it."
+  },
+  {
+   "id": "sme-w2-q10",
+   "type": "mc",
+   "unit": 4,
+   "topic": "Hofstede Canada vs US",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 2 · Q10"
+   },
+   "prompt": "Canada and the US have similar Hofstede profiles on every dimension except:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Masculinity"
+    },
+    {
+     "id": "b",
+     "text": "Power distance"
+    },
+    {
+     "id": "c",
+     "text": "Individualism"
+    },
+    {
+     "id": "d",
+     "text": "Long-term orientation"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Both are low power distance, weak uncertainty avoidance, individualist and short-term. The <b>US is more masculine</b> than Canada."
+  },
+  {
+   "id": "sme-w2-q11",
+   "type": "mc",
+   "unit": 4,
+   "topic": "Uncertainty Avoidance",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 2 · Q11"
+   },
+   "prompt": "A culture that stresses rules, security and conformity, and treats hard work as a virtue, is high on:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Uncertainty avoidance"
+    },
+    {
+     "id": "b",
+     "text": "Power distance"
+    },
+    {
+     "id": "c",
+     "text": "Individualism"
+    },
+    {
+     "id": "d",
+     "text": "Short-term orientation"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Discomfort with ambiguity and a preference for rules = <b>strong uncertainty avoidance</b> (e.g., Japan, Greece, Portugal)."
+  },
+  {
+   "id": "sme-w2-q12",
+   "type": "mc",
+   "unit": 4,
+   "topic": "Emotional Labour",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 2 · Q12"
+   },
+   "prompt": "A call-centre agent must stay cheerful with rude callers and hide her irritation. This requirement is:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Emotional labour"
+    },
+    {
+     "id": "b",
+     "text": "Emotional contagion"
+    },
+    {
+     "id": "c",
+     "text": "Affective commitment"
+    },
+    {
+     "id": "d",
+     "text": "Negative affectivity"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Conforming to display rules regardless of true feelings is <b>emotional labour</b>. Suppressing negative emotion is the draining form."
+  },
+  {
+   "id": "sme-w2-q13",
+   "type": "mc",
+   "unit": 4,
+   "topic": "Emotional Contagion",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 2 · Q13"
+   },
+   "prompt": "A server’s bad mood spreads to her table of customers. This illustrates:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Emotional contagion"
+    },
+    {
+     "id": "b",
+     "text": "Emotional labour"
+    },
+    {
+     "id": "c",
+     "text": "Projection"
+    },
+    {
+     "id": "d",
+     "text": "Affective events theory’s display rules"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Moods spreading between people = <b>emotional contagion</b>."
+  },
+  {
+   "id": "sme-w2-q14",
+   "type": "mc",
+   "unit": 4,
+   "topic": "Forms of OCB",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 2 · Q14"
+   },
+   "prompt": "Which of the following is NOT one of the textbook’s forms of OCB?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Civic virtue"
+    },
+    {
+     "id": "b",
+     "text": "Helping"
+    },
+    {
+     "id": "c",
+     "text": "Being a good sport"
+    },
+    {
+     "id": "d",
+     "text": "Courtesy and cooperation"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "This text lists helping, conscientiousness, being a good sport, and courtesy/cooperation. <b>Civic virtue</b> isn’t in it."
+  },
+  {
+   "id": "sme-w2-q15",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Salovey-Mayer EI Branches",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 2 · Q15"
+   },
+   "prompt": "In Salovey & Mayer’s four-branch model, the highest-level branch is:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Managing emotions"
+    },
+    {
+     "id": "b",
+     "text": "Perceiving emotions"
+    },
+    {
+     "id": "c",
+     "text": "Using emotions to facilitate thinking"
+    },
+    {
+     "id": "d",
+     "text": "Understanding emotions"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Perceive → Use → Understand → <b>Manage</b> (PUUM), lowest to highest."
+  },
+  {
+   "id": "sme-w2-q16",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Goleman EI Competencies",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 2 · Q16"
+   },
+   "prompt": "\"Empathy, organizational awareness and service\" make up which domain of Goleman’s competency model (lecture)?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Social awareness"
+    },
+    {
+     "id": "b",
+     "text": "Self-awareness"
+    },
+    {
+     "id": "c",
+     "text": "Self-management"
+    },
+    {
+     "id": "d",
+     "text": "Relationship management"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Those three are <b>social awareness</b>. Relationship management is influence, conflict management, teamwork and the rest."
+  },
+  {
+   "id": "sme-w2-q17",
+   "type": "mc",
+   "unit": 4,
+   "topic": "Cultural Intelligence Factors",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 2 · Q17"
+   },
+   "prompt": "Which cultural-intelligence sub-skill appears in the lecture’s four-factor model but NOT in the textbook’s three components?",
+   "options": [
+    {
+     "id": "a",
+     "text": "CQ-Strategy"
+    },
+    {
+     "id": "b",
+     "text": "CQ-Knowledge"
+    },
+    {
+     "id": "c",
+     "text": "CQ-Motivation"
+    },
+    {
+     "id": "d",
+     "text": "CQ-Behaviour"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The text lists knowledge, motivation and behaviour. The lecture adds <b>Strategy</b> (metacognitive)."
+  },
+  {
+   "id": "sme-w2-q18",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Ability and Performance Model",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 2 · Q18"
+   },
+   "prompt": "Research on ability and motivation supports which model of performance?",
+   "options": [
+    {
+     "id": "a",
+     "text": "An additive model where each contributes independently"
+    },
+    {
+     "id": "b",
+     "text": "A multiplicative model: Ability × Motivation"
+    },
+    {
+     "id": "c",
+     "text": "Ability matters only when motivation is high"
+    },
+    {
+     "id": "d",
+     "text": "Motivation matters only for low-ability workers"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The evidence supports an <b>additive</b> model, not the popular multiplicative one."
+  },
+  {
+   "id": "sme-w2-q19",
+   "type": "mc",
+   "unit": 4,
+   "topic": "Facet vs Overall Satisfaction",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 2 · Q19"
+   },
+   "prompt": "Two employees report the same overall job satisfaction, but one loves the pay and hates the boss and the other the reverse. This illustrates:",
+   "options": [
+    {
+     "id": "a",
+     "text": "The difference between facet and overall satisfaction"
+    },
+    {
+     "id": "b",
+     "text": "Discrepancy theory failing"
+    },
+    {
+     "id": "c",
+     "text": "Emotional contagion"
+    },
+    {
+     "id": "d",
+     "text": "Continuance commitment"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "<b>Facet</b> satisfactions can differ while the <b>overall</b> summary is the same."
+  },
+  {
+   "id": "sme-w2-q20",
+   "type": "mc",
+   "unit": 4,
+   "topic": "Honeymoon-Hangover Effect",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 2 · Q20"
+   },
+   "prompt": "A friend quits a job she hated. Six months into the new job, her satisfaction has dropped again. This is the:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Honeymoon–hangover effect"
+    },
+    {
+     "id": "b",
+     "text": "Halo effect"
+    },
+    {
+     "id": "c",
+     "text": "Withdrawal progression"
+    },
+    {
+     "id": "d",
+     "text": "Discrepancy effect"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Satisfaction rises after a job change (honeymoon), then falls as the new job’s flaws show (<b>hangover</b>)."
+  },
+  {
+   "id": "sme-w2-q21",
+   "type": "mc",
+   "unit": 2,
+   "topic": "MBTI Thinking vs Feeling",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 2 · Q21"
+   },
+   "prompt": "An MBTI \"T\" versus \"F\" describes:",
+   "options": [
+    {
+     "id": "a",
+     "text": "How you make decisions: logic versus values and people"
+    },
+    {
+     "id": "b",
+     "text": "Where you direct energy"
+    },
+    {
+     "id": "c",
+     "text": "How you take in information"
+    },
+    {
+     "id": "d",
+     "text": "How you handle the outside world"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "T/F is the <b>deciding</b> preference. E/I = energy, S/N = information, J/P = handling the world."
+  },
+  {
+   "id": "sme-w3-q01",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Attribution Disposition Cues",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 3 · Q1"
+   },
+   "prompt": "Aiden misses a deadline every week. His teammates rarely miss deadlines, and he missed them regularly at his last co-op too. His manager will most likely attribute this to:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Aiden’s disposition"
+    },
+    {
+     "id": "b",
+     "text": "A temporary situational factor"
+    },
+    {
+     "id": "c",
+     "text": "The team’s workload"
+    },
+    {
+     "id": "d",
+     "text": "Poor training"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "High consistency (every week) + low consensus (teammates don’t) + low distinctiveness (the last job too) = <b>dispositional</b>. If workload were the cause, teammates would miss deadlines too."
+  },
+  {
+   "id": "sme-w3-q02",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Actor-Observer Effect",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 3 · Q2"
+   },
+   "prompt": "A manager calls a chronically late employee \"irresponsible,\" ignoring that the bus route was cancelled. The employee blames the bus schedule. This pair of reactions illustrates:",
+   "options": [
+    {
+     "id": "a",
+     "text": "The actor–observer effect"
+    },
+    {
+     "id": "b",
+     "text": "Self-serving bias only"
+    },
+    {
+     "id": "c",
+     "text": "Stereotype threat"
+    },
+    {
+     "id": "d",
+     "text": "Perceptual defence"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Actor = situational, observer = dispositional, for the <b>same</b> behaviour. That’s the <b>actor–observer effect</b>."
+  },
+  {
+   "id": "sme-w3-q03",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Central Tendency Error",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 3 · Q3"
+   },
+   "prompt": "A store manager rates nearly every employee \"average,\" rarely using \"excellent\" or \"poor\" even though performance clearly varies. This is:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Central tendency"
+    },
+    {
+     "id": "b",
+     "text": "Halo effect"
+    },
+    {
+     "id": "c",
+     "text": "Leniency"
+    },
+    {
+     "id": "d",
+     "text": "Similar-to-me effect"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Clustering ratings in the <b>middle</b> is <b>central tendency</b>. Leniency clusters at the high end."
+  },
+  {
+   "id": "sme-w3-q04",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Contrast Effect",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 3 · Q4"
+   },
+   "prompt": "An interviewer sees two outstanding candidates, then rates an average third candidate \"below average.\" This is most likely:",
+   "options": [
+    {
+     "id": "a",
+     "text": "A contrast effect"
+    },
+    {
+     "id": "b",
+     "text": "The recency effect"
+    },
+    {
+     "id": "c",
+     "text": "Projection"
+    },
+    {
+     "id": "d",
+     "text": "The self-fulfilling prophecy"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The earlier candidates distorted the perception of the current one. That’s a <b>contrast effect</b>."
+  },
+  {
+   "id": "sme-w3-q05",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Stereotype Accuracy",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 3 · Q5"
+   },
+   "prompt": "Which statement about stereotypes is TRUE, according to the textbook?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Some stereotypes are accurate, and people hold favourable stereotypes of their in-groups"
+    },
+    {
+     "id": "b",
+     "text": "All stereotypes are inaccurate"
+    },
+    {
+     "id": "c",
+     "text": "Stereotypes always involve unfavourable traits"
+    },
+    {
+     "id": "d",
+     "text": "Stereotyping is most likely when the perceiver has extensive information"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The text says <i>most</i>, not all, are inaccurate. Favourable ones exist, and stereotyping thrives when the perceiver <i>lacks</i> information."
+  },
+  {
+   "id": "sme-w3-q06",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Self-Serving Bias",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 3 · Q6"
+   },
+   "prompt": "A student takes full credit for an A (\"I studied hard\") but blames a C on \"unfair questions.\" This is:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Self-serving bias"
+    },
+    {
+     "id": "b",
+     "text": "Fundamental attribution error"
+    },
+    {
+     "id": "c",
+     "text": "Actor–observer effect"
+    },
+    {
+     "id": "d",
+     "text": "Implicit personality theory"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Success → disposition, failure → situation, for <b>one’s own</b> outcomes. That’s <b>self-serving bias</b>."
+  },
+  {
+   "id": "sme-w3-q07",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Bruner's Perceptual Process",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 3 · Q7"
+   },
+   "prompt": "A new co-worker is labelled \"high potential\" because of his Stanford degree. Later, his declining performance is ignored. Which model best describes this?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Bruner’s model of the perceptual process"
+    },
+    {
+     "id": "b",
+     "text": "The five-stage perceptual process"
+    },
+    {
+     "id": "c",
+     "text": "Signalling theory"
+    },
+    {
+     "id": "d",
+     "text": "Social identity theory"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Categorization, then <b>cue selectivity</b>, then categorization strengthened is <b>Bruner’s model</b>. This is the textbook’s own example."
+  },
+  {
+   "id": "sme-w3-q08",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Perceptual Selection Overload",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 3 · Q8"
+   },
+   "prompt": "In the lecture’s five-stage perceptual process, \"sensory overload\" happens at which stage?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Perceptual selection"
+    },
+    {
+     "id": "b",
+     "text": "Observation"
+    },
+    {
+     "id": "c",
+     "text": "Organization"
+    },
+    {
+     "id": "d",
+     "text": "Interpretation"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Too many stimuli to process is a <b>selection</b> problem (stage 3). Remember \"SOS, Oh I see.\""
+  },
+  {
+   "id": "sme-w3-q09",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Self-Fulfilling Prophecy",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 3 · Q9"
+   },
+   "prompt": "A manager expects a new hire to struggle, gives her fewer chances to shine, and she ends up performing poorly. This illustrates:",
+   "options": [
+    {
+     "id": "a",
+     "text": "The self-fulfilling prophecy"
+    },
+    {
+     "id": "b",
+     "text": "The halo effect"
+    },
+    {
+     "id": "c",
+     "text": "Projection"
+    },
+    {
+     "id": "d",
+     "text": "The primacy effect"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Expectations led the person to behave <b>consistently with them</b>. That’s a <b>self-fulfilling prophecy</b> (on the lecture’s list)."
+  },
+  {
+   "id": "sme-w3-q10",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Projection",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 3 · Q10"
+   },
+   "prompt": "A dishonest employee assumes all his co-workers are padding their expense claims too. This is:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Projection"
+    },
+    {
+     "id": "b",
+     "text": "Stereotyping"
+    },
+    {
+     "id": "c",
+     "text": "Implicit personality theory"
+    },
+    {
+     "id": "d",
+     "text": "Central traits"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Attributing <b>your own</b> thoughts and feelings to others is <b>projection</b>, and here it may also work as perceptual defence."
+  },
+  {
+   "id": "sme-w3-q11",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Halo Effect",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 3 · Q11"
+   },
+   "prompt": "An interviewer assumes a candidate who arrives very well-dressed must also be competent and reliable, with no evidence. Which error is on the lecture list but filed under rater errors in the textbook?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Halo effect"
+    },
+    {
+     "id": "b",
+     "text": "Contrast effect"
+    },
+    {
+     "id": "c",
+     "text": "Recency effect"
+    },
+    {
+     "id": "d",
+     "text": "Stereotype threat"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "One trait shaping the general impression is the <b>halo effect</b>."
+  },
+  {
+   "id": "sme-w3-q12",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Stereotype Threat",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 3 · Q12"
+   },
+   "prompt": "Women told a math test \"shows gender differences\" score lower than women who weren’t told. This is:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Stereotype threat"
+    },
+    {
+     "id": "b",
+     "text": "Stereotyping"
+    },
+    {
+     "id": "c",
+     "text": "Self-serving bias"
+    },
+    {
+     "id": "d",
+     "text": "Perceptual defence"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Fear of confirming a stereotype lowers the <b>target’s own</b> performance. That’s <b>stereotype threat</b>."
+  },
+  {
+   "id": "sme-w3-q13",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Trust Components",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 3 · Q13"
+   },
+   "prompt": "Employees believe management is competent, cares about their interests and sticks to sound principles. These are the three bases of:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Trust"
+    },
+    {
+     "id": "b",
+     "text": "Perceived organizational support"
+    },
+    {
+     "id": "c",
+     "text": "Diversity climate"
+    },
+    {
+     "id": "d",
+     "text": "Organizational commitment"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Ability + benevolence + integrity = <b>trust</b> (\"ABI\")."
+  },
+  {
+   "id": "sme-w3-q14",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Perceived Organizational Support",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 3 · Q14"
+   },
+   "prompt": "Because the company supported her through a family crisis, Leila now volunteers for extra projects to \"give back.\" This best reflects:",
+   "options": [
+    {
+     "id": "a",
+     "text": "POS and the norm of reciprocity"
+    },
+    {
+     "id": "b",
+     "text": "The halo effect"
+    },
+    {
+     "id": "c",
+     "text": "Signalling theory"
+    },
+    {
+     "id": "d",
+     "text": "Continuance commitment"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Strong <b>perceived organizational support</b> creates a felt obligation to reciprocate (organizational support theory)."
+  },
+  {
+   "id": "sme-w3-q15",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Signalling Theory",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 3 · Q15"
+   },
+   "prompt": "An applicant turns down an offer because the interviewer was dismissive and the tests felt unfair: \"That’s probably what working there is like.\" This illustrates:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Signalling theory"
+    },
+    {
+     "id": "b",
+     "text": "Contrast effects"
+    },
+    {
+     "id": "c",
+     "text": "Projection"
+    },
+    {
+     "id": "d",
+     "text": "Stereotype threat"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Applicants read the selection experience as <b>signals</b> of what the organization is really like."
+  },
+  {
+   "id": "sme-w3-q16",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Kelley's Attribution Cues",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 3 · Q16"
+   },
+   "prompt": "Which pattern of cues produces a SITUATIONAL attribution in the textbook’s example (Mika)?",
+   "options": [
+    {
+     "id": "a",
+     "text": "High consistency, high consensus, high distinctiveness"
+    },
+    {
+     "id": "b",
+     "text": "High consistency, low consensus, low distinctiveness"
+    },
+    {
+     "id": "c",
+     "text": "Low consistency, high consensus, low distinctiveness"
+    },
+    {
+     "id": "d",
+     "text": "Low consistency, low consensus, high distinctiveness"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Mika: <b>High/High/High → situational</b>. High/Low/Low is Roshani (dispositional). Low/High/Low is Sam (temporary situational)."
+  },
+  {
+   "id": "sme-w3-q17",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Reducing Rater Errors",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 3 · Q17"
+   },
+   "prompt": "Which is the best way to reduce rater errors like halo and leniency?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Frame-of-reference training and BARS"
+    },
+    {
+     "id": "b",
+     "text": "More awareness-only diversity training"
+    },
+    {
+     "id": "c",
+     "text": "Longer, unstructured interviews"
+    },
+    {
+     "id": "d",
+     "text": "Letting managers rate from memory at year end"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "<b>FOR training</b> and <b>behaviourally anchored rating scales</b> are the textbook’s fixes."
+  },
+  {
+   "id": "sme-w3-q18",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Fundamental Attribution Error",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 3 · Q18"
+   },
+   "prompt": "The tendency to overemphasize dispositional explanations for OTHER people’s behaviour is:",
+   "options": [
+    {
+     "id": "a",
+     "text": "The fundamental attribution error"
+    },
+    {
+     "id": "b",
+     "text": "The actor–observer effect"
+    },
+    {
+     "id": "c",
+     "text": "Self-serving bias"
+    },
+    {
+     "id": "d",
+     "text": "The primacy effect"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "That’s the definition of the <b>fundamental attribution error</b>."
+  },
+  {
+   "id": "sme-w3-q19",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Perceptual Defence",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 3 · Q19"
+   },
+   "prompt": "The perceiver’s tendency to screen out or distort information that would provoke unpleasant emotions is called:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Perceptual defence"
+    },
+    {
+     "id": "b",
+     "text": "Perceptual constancy"
+    },
+    {
+     "id": "c",
+     "text": "Sensory overload"
+    },
+    {
+     "id": "d",
+     "text": "Projection"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "<b>Perceptual defence</b> is part of the perceiver component."
+  },
+  {
+   "id": "sme-w4-q01",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Expectancy Externalities",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q1"
+   },
+   "prompt": "In the expectancy diagram from the Week 4 lecture, a sales rep works hard and is skilled, but a supplier shortage leaves her with no stock to sell, so she misses her target. The diagram calls this kind of factor:",
+   "options": [
+    {
+     "id": "a",
+     "text": "An externality"
+    },
+    {
+     "id": "b",
+     "text": "A valence"
+    },
+    {
+     "id": "c",
+     "text": "A contingency"
+    },
+    {
+     "id": "d",
+     "text": "An instrumentality"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "<b>Externalities</b> are conditions outside the employee’s control (equipment, customer demand, supply) that affect performance and consequences."
+  },
+  {
+   "id": "sme-w4-q02",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Instrumentality Beliefs",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q2"
+   },
+   "prompt": "On slide 16’s expectancy diagram, “beliefs about outcome contingencies” are:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Instrumentalities"
+    },
+    {
+     "id": "b",
+     "text": "Expectancies"
+    },
+    {
+     "id": "c",
+     "text": "Valences"
+    },
+    {
+     "id": "d",
+     "text": "Capabilities"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Expectancies = beliefs about <b>performance capabilities</b>; instrumentalities = beliefs about <b>outcome contingencies</b>; valences = beliefs about <b>outcome desirabilities</b>."
+  },
+  {
+   "id": "sme-w4-q03",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Equity Social Comparison",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q3"
+   },
+   "prompt": "Priya just got a 6% raise, the biggest in her career, but she is angry because a colleague who does less got 8%. According to the Week 4 lecture, which strength of equity theory explains this?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Its emphasis on social comparison: relative perceptions matter more than the absolute reward"
+    },
+    {
+     "id": "b",
+     "text": "Its applicability to personal relationships"
+    },
+    {
+     "id": "c",
+     "text": "Its focus on goal difficulty"
+    },
+    {
+     "id": "d",
+     "text": "Its distinction between hygiene factors and motivators"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Equity theory explains why people can be demotivated <b>even after a substantial reward</b>: what matters is the comparison with others."
+  },
+  {
+   "id": "sme-w4-q04",
+   "type": "mc",
+   "unit": 5,
+   "topic": "SDT Autonomy",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q4"
+   },
+   "prompt": "According to the Week 4 lecture, autonomy in self-determination theory means:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Having choice and a sense of volition in what you do"
+    },
+    {
+     "id": "b",
+     "text": "Doing whatever you want without rules"
+    },
+    {
+     "id": "c",
+     "text": "Working alone, independent of others"
+    },
+    {
+     "id": "d",
+     "text": "Being paid for performance"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Autonomy = choice and volition. Dr. Kassaye stresses it does <b>not</b> mean doing whatever you want or working without rules (and the notes add: not independence)."
+  },
+  {
+   "id": "sme-w4-q05",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Goal Setting Commitment",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q5"
+   },
+   "prompt": "A student asks: “If I set a specific, challenging goal, is that enough?” Dr. Kassaye’s answer in the recorded lecture was:",
+   "options": [
+    {
+     "id": "a",
+     "text": "No: you must commit to it, work toward it and use feedback to adjust"
+    },
+    {
+     "id": "b",
+     "text": "Yes: specific goals are sufficient on their own"
+    },
+    {
+     "id": "c",
+     "text": "Yes, as long as it is written as a SMART goal"
+    },
+    {
+     "id": "d",
+     "text": "No: goals only work when tied to money"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Setting a goal is only the start. <b>Commitment, work and feedback</b> make it effective."
+  },
+  {
+   "id": "sme-w4-q06",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Herzberg Hygiene Factors",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q6"
+   },
+   "prompt": "According to Herzberg’s two-factor theory (Week 4 lecture), which of these is a HYGIENE factor rather than a motivator?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Salary"
+    },
+    {
+     "id": "b",
+     "text": "Recognition"
+    },
+    {
+     "id": "c",
+     "text": "Responsibility"
+    },
+    {
+     "id": "d",
+     "text": "Advancement"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Salary is a <b>hygiene factor</b>: it prevents dissatisfaction but doesn’t create lasting motivation. Recognition, responsibility and advancement are <b>motivators</b>."
+  },
+  {
+   "id": "sme-w4-q07",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Herzberg Hygiene vs Motivators",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q7"
+   },
+   "prompt": "A company fixes its outdated equipment and cramped offices and raises pay to market. Staff complaints drop, but effort doesn’t rise. Herzberg would say this is because:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Improving hygiene factors removes dissatisfaction but doesn’t motivate"
+    },
+    {
+     "id": "b",
+     "text": "Pay is a motivator but conditions are not"
+    },
+    {
+     "id": "c",
+     "text": "Expectancy is still low"
+    },
+    {
+     "id": "d",
+     "text": "The firm skipped the esteem level of Maslow’s hierarchy"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Fixing <b>hygiene factors</b> gets people to “not dissatisfied.” To motivate, Herzberg says to add <b>motivators</b>: achievement, recognition, responsibility, growth, the work itself."
+  },
+  {
+   "id": "sme-w4-q08",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Content vs Process Theories",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q8"
+   },
+   "prompt": "In the Week 4 lecture, \"content approaches\" to motivation correspond to which textbook category?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Need theories (what motivates)"
+    },
+    {
+     "id": "b",
+     "text": "Process theories (how motivation works)"
+    },
+    {
+     "id": "c",
+     "text": "Reinforcement theory"
+    },
+    {
+     "id": "d",
+     "text": "Job design"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Content = <b>need</b> theories (Maslow, Herzberg, Alderfer, McClelland). “Cognitive/information-processing” = the textbook’s <b>process</b> theories."
+  },
+  {
+   "id": "sme-w4-q09",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Cognitive Motivation Theories",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q9"
+   },
+   "prompt": "Which theory is NOT one of the lecture’s “cognitive / information-processing” approaches?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Herzberg’s two-factor theory"
+    },
+    {
+     "id": "b",
+     "text": "Expectancy theory"
+    },
+    {
+     "id": "c",
+     "text": "Equity theory"
+    },
+    {
+     "id": "d",
+     "text": "Goal-setting theory"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Herzberg is a <b>content</b> (need) theory. Expectancy, equity and goal setting are the cognitive approaches."
+  },
+  {
+   "id": "sme-w4-q10",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Expectancy Motivation Levels",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q10"
+   },
+   "prompt": "On slide 17’s expectancy table, an employee who is confident hard work will produce results and who values the reward, but who doubts performance will actually be rewarded, has what level of motivation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Moderate"
+    },
+    {
+     "id": "b",
+     "text": "High"
+    },
+    {
+     "id": "c",
+     "text": "Low"
+    },
+    {
+     "id": "d",
+     "text": "Very low"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "High expectancy, <b>low</b> instrumentality, high valence = <b>Moderate</b>. Any row with low expectancy is Low or Very low."
+  },
+  {
+   "id": "sme-w4-q11",
+   "type": "mc",
+   "unit": 2,
+   "topic": "O.B. Mod Steps",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q11"
+   },
+   "prompt": "What is the correct order of the O.B. Mod steps on the Week 4 slides?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Define target behaviour → set goals → measure frequency → monitor → administer rewards"
+    },
+    {
+     "id": "b",
+     "text": "Administer rewards → define behaviour → monitor → set goals → measure"
+    },
+    {
+     "id": "c",
+     "text": "Set goals → administer rewards → define behaviour → measure → monitor"
+    },
+    {
+     "id": "d",
+     "text": "Measure frequency → monitor → define behaviour → reward → set goals"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "<b>Define, Set, Measure, Monitor, Reward.</b> Measure first establishes the baseline."
+  },
+  {
+   "id": "sme-w4-q12",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Negative Reinforcement",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q12"
+   },
+   "prompt": "A manager stops giving micromanaging check-ins to an employee once she consistently meets deadlines, and she keeps meeting them. According to the Week 4 lecture example, this is:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Negative reinforcement"
+    },
+    {
+     "id": "b",
+     "text": "Extinction"
+    },
+    {
+     "id": "c",
+     "text": "Punishment"
+    },
+    {
+     "id": "d",
+     "text": "Positive reinforcement"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Removing an <b>unpleasant</b> condition (close supervision) to <b>strengthen</b> a desired behaviour is <b>negative reinforcement</b>. This is the lecture’s own example."
+  },
+  {
+   "id": "sme-w4-q13",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Direction of Motivation",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q13"
+   },
+   "prompt": "A sales manager says: \"I don’t care how many calls you make. I care whether you close deals.\" Which property of motivation is she emphasizing?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Direction"
+    },
+    {
+     "id": "b",
+     "text": "Effort"
+    },
+    {
+     "id": "c",
+     "text": "Persistence"
+    },
+    {
+     "id": "d",
+     "text": "Goals"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Channelling effort toward the outcomes that matter is <b>direction</b> (\"working smart as well as hard\")."
+  },
+  {
+   "id": "sme-w4-q14",
+   "type": "mc",
+   "unit": 5,
+   "topic": "ERG Frustration-Regression",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q14"
+   },
+   "prompt": "Denied a promotion she wanted for growth, Ana suddenly starts pushing hard for a bigger salary. Which theory best explains this?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Alderfer’s ERG (frustration-regression)"
+    },
+    {
+     "id": "b",
+     "text": "Maslow’s hierarchy"
+    },
+    {
+     "id": "c",
+     "text": "McClelland’s need theory"
+    },
+    {
+     "id": "d",
+     "text": "Goal-setting theory"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "A frustrated higher need (growth) makes a lower need (existence) stronger. That’s <b>frustration-regression</b>, which is unique to ERG."
+  },
+  {
+   "id": "sme-w4-q15",
+   "type": "mc",
+   "unit": 5,
+   "topic": "McClelland Managerial Needs",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q15"
+   },
+   "prompt": "According to McClelland, the most effective managers typically have:",
+   "options": [
+    {
+     "id": "a",
+     "text": "High need for power and low need for affiliation"
+    },
+    {
+     "id": "b",
+     "text": "High need for affiliation and low need for power"
+    },
+    {
+     "id": "c",
+     "text": "High need for achievement only"
+    },
+    {
+     "id": "d",
+     "text": "Equal levels of all three needs"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "<b>High n Pow, low n Aff</b>, with power directed at organizational goals. High affiliation is the intuitive trap."
+  },
+  {
+   "id": "sme-w4-q16",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Low Expectancy",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q16"
+   },
+   "prompt": "An employee believes that no matter how hard she works, she can’t hit the new quota. In expectancy terms, the problem is low:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Expectancy"
+    },
+    {
+     "id": "b",
+     "text": "Instrumentality"
+    },
+    {
+     "id": "c",
+     "text": "Valence"
+    },
+    {
+     "id": "d",
+     "text": "Equity"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The <b>effort → performance</b> link is <b>expectancy</b>. With E ≈ 0, force ≈ 0 no matter the valence."
+  },
+  {
+   "id": "sme-w4-q17",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Damaged Instrumentality",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q17"
+   },
+   "prompt": "Staff hit their targets, but past bonuses were often \"forgotten\" by management. Motivation is falling. Which component is damaged?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Instrumentality"
+    },
+    {
+     "id": "b",
+     "text": "Expectancy"
+    },
+    {
+     "id": "c",
+     "text": "Valence"
+    },
+    {
+     "id": "d",
+     "text": "Growth need strength"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The <b>performance → outcome</b> link is <b>instrumentality</b>. The fix is to make reward contingencies explicit and honour them."
+  },
+  {
+   "id": "sme-w4-q18",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Equity Restoration Tactics",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q18"
+   },
+   "prompt": "A worker learns a peer with the same job and effort earns more. Instead of complaining, she decides the peer \"must have skills I don’t see.\" Which equity-restoring tactic is this?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Distorting the comparison other’s inputs"
+    },
+    {
+     "id": "b",
+     "text": "Altering her own outcomes"
+    },
+    {
+     "id": "c",
+     "text": "Leaving the relationship"
+    },
+    {
+     "id": "d",
+     "text": "Choosing a new comparison other"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "She perceptually inflates the other person’s <b>inputs</b>, which is distorting the comparison other."
+  },
+  {
+   "id": "sme-w4-q19",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Goal-Setting Mechanisms",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q19"
+   },
+   "prompt": "Which is NOT one of goal-setting theory’s four mechanisms?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Guaranteeing extrinsic rewards"
+    },
+    {
+     "id": "b",
+     "text": "Directing attention"
+    },
+    {
+     "id": "c",
+     "text": "Increasing persistence"
+    },
+    {
+     "id": "d",
+     "text": "Prompting task strategies"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The four are attention, effort, persistence and strategies. Goal commitment is largely <b>independent of money</b>."
+  },
+  {
+   "id": "sme-w4-q20",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Goal Orientation",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q20"
+   },
+   "prompt": "Which goal orientation is NOT reliably related to learning or performance?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Performance-prove"
+    },
+    {
+     "id": "b",
+     "text": "Learning"
+    },
+    {
+     "id": "c",
+     "text": "Performance-avoid"
+    },
+    {
+     "id": "d",
+     "text": "None: all three are strongly positive"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Learning orientation is positive, performance-avoid is negative, and <b>performance-prove</b> is the null result."
+  },
+  {
+   "id": "sme-w4-q21",
+   "type": "mc",
+   "unit": 5,
+   "topic": "SDT Three Needs",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q21"
+   },
+   "prompt": "SDT’s three universal needs are:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Competence, autonomy, relatedness"
+    },
+    {
+     "id": "b",
+     "text": "Existence, relatedness, growth"
+    },
+    {
+     "id": "c",
+     "text": "Achievement, affiliation, power"
+    },
+    {
+     "id": "d",
+     "text": "Safety, esteem, self-actualization"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "SDT = <b>CAR</b>. ERG = existence/relatedness/growth. McClelland = achievement/affiliation/power."
+  },
+  {
+   "id": "sme-w4-q22",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Motivating Potential Score",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q22"
+   },
+   "prompt": "In the MPS formula, which change would drop a job’s score to near zero?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Autonomy falls to 1 out of 7 (near zero)"
+    },
+    {
+     "id": "b",
+     "text": "Skill variety falls from 7 to 4"
+    },
+    {
+     "id": "c",
+     "text": "Task identity falls from 6 to 3"
+    },
+    {
+     "id": "d",
+     "text": "Task significance falls from 5 to 3"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Autonomy and feedback are <b>multiplied</b>. Variety, identity and significance are <b>averaged</b>, so they partly compensate for each other."
+  },
+  {
+   "id": "sme-w4-q23",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Job Enrichment Task Identity",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q23"
+   },
+   "prompt": "A furniture plant turns four specialists (cutting, sanding, assembly, finishing) into \"chair makers\" who each build whole chairs. This mainly raises:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Task identity and skill variety"
+    },
+    {
+     "id": "b",
+     "text": "Task significance only"
+    },
+    {
+     "id": "c",
+     "text": "Autonomy only"
+    },
+    {
+     "id": "d",
+     "text": "Feedback only"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "<b>Combining tasks</b> raises variety and identity (a whole, identifiable piece of work)."
+  },
+  {
+   "id": "sme-w4-q24",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Enlargement vs Enrichment",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q24"
+   },
+   "prompt": "A cashier is given more register duties at the same skill level and calls it \"enrichment.\" It is actually:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Job enlargement"
+    },
+    {
+     "id": "b",
+     "text": "Job enrichment"
+    },
+    {
+     "id": "c",
+     "text": "Job crafting"
+    },
+    {
+     "id": "d",
+     "text": "Relational job design"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Adding more same-level tasks (breadth only) is <b>enlargement</b>, which doesn’t raise the core characteristics."
+  },
+  {
+   "id": "sme-w4-q25",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Gainsharing Plans",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q25"
+   },
+   "prompt": "A plant pays a bonus when its own scrap and energy costs fall below a target formula, designed with heavy worker participation. This is:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Gainsharing"
+    },
+    {
+     "id": "b",
+     "text": "Profit sharing"
+    },
+    {
+     "id": "c",
+     "text": "An ESOP"
+    },
+    {
+     "id": "d",
+     "text": "Skill-based pay"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Bonuses for <b>controllable unit-level gains</b> are <b>gainsharing</b> (e.g., the Scanlon Plan). Profit sharing uses company-wide profits."
+  },
+  {
+   "id": "sme-w4-q26",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Piece-Rate Restriction",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q26"
+   },
+   "prompt": "Piece-rate workers informally agree never to produce more than 80 units a day, fearing management will \"cut the rate.\" This problem is:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Restriction of productivity"
+    },
+    {
+     "id": "b",
+     "text": "Differential opportunity"
+    },
+    {
+     "id": "c",
+     "text": "Reduced cooperation"
+    },
+    {
+     "id": "d",
+     "text": "Pay secrecy"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "An informal group output ceiling is <b>restriction of productivity</b>, a social problem on the wage-incentive list."
+  },
+  {
+   "id": "sme-w4-q27",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Work Sharing",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q27"
+   },
+   "prompt": "A firm cuts everyone’s hours by 20% for six months instead of laying people off. This is:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Work sharing"
+    },
+    {
+     "id": "b",
+     "text": "Job sharing"
+    },
+    {
+     "id": "c",
+     "text": "A compressed workweek"
+    },
+    {
+     "id": "d",
+     "text": "Flex-time"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Reducing hours to <b>avoid layoffs</b> is <b>work sharing</b>. Job sharing is two people splitting one role."
+  },
+  {
+   "id": "sme-w4-q28",
+   "type": "mc",
+   "unit": 6,
+   "topic": "MBO Effectiveness",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q28"
+   },
+   "prompt": "According to the research, MBO produces large productivity gains mainly when:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Top management is highly committed to it"
+    },
+    {
+     "id": "b",
+     "text": "Objectives are vague and flexible"
+    },
+    {
+     "id": "c",
+     "text": "Appraisals are punitive"
+    },
+    {
+     "id": "d",
+     "text": "Only quantitative goals are used"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "There was a 56% gain with high top-management commitment vs 6% with low."
+  },
+  {
+   "id": "sme-w4-q29",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Negative Reinforcement",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q29"
+   },
+   "prompt": "A manager stops nagging an employee once the employee files reports on time, and on-time filing increases. This is:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Negative reinforcement"
+    },
+    {
+     "id": "b",
+     "text": "Punishment"
+    },
+    {
+     "id": "c",
+     "text": "Extinction"
+    },
+    {
+     "id": "d",
+     "text": "Positive reinforcement"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "<b>Removing</b> something unpleasant (nagging) to <b>increase</b> a behaviour = negative reinforcement."
+  },
+  {
+   "id": "sme-w4-q30",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Punishment",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q30"
+   },
+   "prompt": "Every time an employee is late, the supervisor assigns the most unpleasant task, and lateness stops. This is:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Punishment"
+    },
+    {
+     "id": "b",
+     "text": "Negative reinforcement"
+    },
+    {
+     "id": "c",
+     "text": "Extinction"
+    },
+    {
+     "id": "d",
+     "text": "Positive reinforcement"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "<b>Adding</b> an aversive stimulus to <b>decrease</b> behaviour = punishment."
+  },
+  {
+   "id": "sme-w4-q31",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Reinforcement Schedules",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q31"
+   },
+   "prompt": "A trainee praised after every correct task learns fast, but her performance drops quickly once praise stops. Why?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Continuous, immediate reinforcement produces fast learning but low persistence"
+    },
+    {
+     "id": "b",
+     "text": "Extinction is impossible under continuous reinforcement"
+    },
+    {
+     "id": "c",
+     "text": "She has low core self-evaluations"
+    },
+    {
+     "id": "d",
+     "text": "The trainer used negative reinforcement"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Continuous reinforcement means <b>fast in, fast out</b>. Partial reinforcement produces more persistent behaviour."
+  },
+  {
+   "id": "sme-w4-q32",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Self-Efficacy Sources",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q32"
+   },
+   "prompt": "Which is NOT a source of self-efficacy beliefs in social cognitive theory?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Job enlargement"
+    },
+    {
+     "id": "b",
+     "text": "Performance mastery"
+    },
+    {
+     "id": "c",
+     "text": "Observation of others"
+    },
+    {
+     "id": "d",
+     "text": "Verbal persuasion"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The four sources are mastery, observation, verbal persuasion and physiological state."
+  },
+  {
+   "id": "sme-w4-q33",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Flexible Work Arrangements",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q33"
+   },
+   "prompt": "Flexible work arrangements are framed in the text as primarily intended to:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Meet diverse workforce needs and aid retention and satisfaction"
+    },
+    {
+     "id": "b",
+     "text": "Maximize individual output"
+    },
+    {
+     "id": "c",
+     "text": "Replace pay-for-performance"
+    },
+    {
+     "id": "d",
+     "text": "Reduce job scope"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Unlike pay and job design, flex arrangements aren’t mainly about effort. They serve <b>diverse needs, work–life balance and retention</b>."
+  },
+  {
+   "id": "sme-w4-q34",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Merit Pay Problems",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 4 · Q34"
+   },
+   "prompt": "Which merit-pay problem mainly damages employees’ equity perceptions?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Pay secrecy"
+    },
+    {
+     "id": "b",
+     "text": "Low discrimination"
+    },
+    {
+     "id": "c",
+     "text": "Small increases"
+    },
+    {
+     "id": "d",
+     "text": "Lowered quality"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Without real information, employees <b>invent</b> salary estimates (overestimating peers’ pay), which damages <b>equity</b>. Low discrimination and small increases mainly hit instrumentality and valence."
+  },
+  {
+   "id": "sme-w5-q01",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Non-Programmed Decisions",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 5 · Q1"
+   },
+   "prompt": "A supermarket manager wants to win back customers who have stopped coming but has no idea why they left. This is best described as:",
+   "options": [
+    {
+     "id": "a",
+     "text": "An ill-structured problem calling for non-programmed decision making"
+    },
+    {
+     "id": "b",
+     "text": "A well-structured problem solved with a reorder rule"
+    },
+    {
+     "id": "c",
+     "text": "A programmed decision, because retail problems are repetitive"
+    },
+    {
+     "id": "d",
+     "text": "A well-structured problem, because the goal (more customers) is clear"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The desired state is clear but the existing state (why?) and the method are not, so it is <b>ill-structured</b>. Part of the job is defining the problem. The reorder example (120 units, 40 on hand, boxes of 10) is the well-structured one."
+  },
+  {
+   "id": "sme-w5-q02",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Well vs Ill-Structured Problems",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 5 · Q2"
+   },
+   "prompt": "In the Phoenix payroll case, the textbook treats “paying people their due salaries” and “putting into place the system to do it” as, respectively:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Well-structured and ill-structured"
+    },
+    {
+     "id": "b",
+     "text": "Ill-structured and well-structured"
+    },
+    {
+     "id": "c",
+     "text": "Both well-structured"
+    },
+    {
+     "id": "d",
+     "text": "Both ill-structured"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": false,
+   "explanation": "A big project can contain both kinds. <b>Classify the specific problem the question asks about.</b>"
+  },
+  {
+   "id": "sme-w5-q03",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Satisficing Bounded Rationality",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 5 · Q3"
+   },
+   "prompt": "You have one week to find an apartment, so you set requirements for rent, commute and space, view listings until one meets all three, and sign. This is:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Satisficing, a response to bounded rationality"
+    },
+    {
+     "id": "b",
+     "text": "Maximizing, because you used explicit criteria"
+    },
+    {
+     "id": "c",
+     "text": "Perfect rationality"
+    },
+    {
+     "id": "d",
+     "text": "The anchoring effect"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Establishing an acceptable level and stopping at the <b>first</b> solution that exceeds it is satisficing. Maximizing would require inspecting every unit and computing the best expected value."
+  },
+  {
+   "id": "sme-w5-q04",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Rational Model Stages",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 5 · Q4"
+   },
+   "prompt": "The textbook’s rational decision-making model has ___ stages, while Dr. Kassaye’s “why bounded rationality occurs” list has ___ items.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Seven; nine"
+    },
+    {
+     "id": "b",
+     "text": "Nine; seven"
+    },
+    {
+     "id": "c",
+     "text": "Seven; seven"
+    },
+    {
+     "id": "d",
+     "text": "Five; nine"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Exhibit 11.1 (and slide 6) = <b>seven</b> steps. Slides 9–18 give <b>nine</b> reasons for bounded rationality (framing, cognitive biases, problem identification, information search, alternatives, risk, implementation, solution evaluation, emotion and mood)."
+  },
+  {
+   "id": "sme-w5-q05",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Representativeness Bias",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 5 · Q5"
+   },
+   "prompt": "A restaurant owner reasons: “This place looks like other successful restaurants, so its service must be excellent.” According to the Week 5A lecture, this is:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Representativeness bias"
+    },
+    {
+     "id": "b",
+     "text": "Availability bias"
+    },
+    {
+     "id": "c",
+     "text": "Anchoring effect"
+    },
+    {
+     "id": "d",
+     "text": "Confirmation bias"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Judging by <b>resemblance to a familiar category</b> is representativeness, a <b>lecture-only</b> term. Availability is about ease of recall (vivid, recent examples)."
+  },
+  {
+   "id": "sme-w5-q06",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Anchoring Effect",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 5 · Q6"
+   },
+   "prompt": "A seller opens at $10,000 for a restaurant oven and “reduces” the price to $8,000. You feel you got a bargain, though comparable ovens sell for about $6,000. This is:",
+   "options": [
+    {
+     "id": "a",
+     "text": "The anchoring effect"
+    },
+    {
+     "id": "b",
+     "text": "Framing"
+    },
+    {
+     "id": "c",
+     "text": "Availability bias"
+    },
+    {
+     "id": "d",
+     "text": "Escalation of commitment"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The first number acted as an <b>anchor</b>, and the estimate of a fair price wasn’t adjusted enough. Defence: get independent price comparisons before negotiating."
+  },
+  {
+   "id": "sme-w5-q07",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Problem Identification Errors",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 5 · Q7"
+   },
+   "prompt": "A hospital administrator sees rising nurse turnover and immediately announces a retention bonus without asking why nurses leave. Which problem-identification error is this?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Problem defined in terms of a solution (the plunging-in bias)"
+    },
+    {
+     "id": "b",
+     "text": "Perceptual defence"
+    },
+    {
+     "id": "c",
+     "text": "Problem defined in terms of functional specialty"
+    },
+    {
+     "id": "d",
+     "text": "Problem diagnosed in terms of symptoms"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The answer was chosen before the problem was diagnosed: <b>Solution</b>. (Symptom would be stopping at “we have a turnover problem.”)"
+  },
+  {
+   "id": "sme-w5-q08",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Framing and Risk",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 5 · Q8"
+   },
+   "prompt": "A company can settle a lawsuit for a sure loss of $25 million or go to court with a 50% chance of losing $50 million. Which is the most likely choice, and why?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Go to court: choices framed as losses encourage risk taking"
+    },
+    {
+     "id": "b",
+     "text": "Settle: people always avoid risk"
+    },
+    {
+     "id": "c",
+     "text": "Settle: the expected values are different"
+    },
+    {
+     "id": "d",
+     "text": "Indifference, because the expected values are equal"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "<b>Losses → Leap.</b> The expected values are equal, but framed as a choice between losses about 80% pick the gamble. Reframed as gains, most pick the sure thing."
+  },
+  {
+   "id": "sme-w5-q09",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Risk Aversion",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 5 · Q9"
+   },
+   "prompt": "According to the lecture’s slide on attitudes toward risk, a risk-averse decision maker:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Prefers a certain outcome to a gamble with the same expected monetary outcome"
+    },
+    {
+     "id": "b",
+     "text": "Prefers the gamble to the certain outcome"
+    },
+    {
+     "id": "c",
+     "text": "Is indifferent between the two"
+    },
+    {
+     "id": "d",
+     "text": "Will never gamble, even to avoid a sure loss"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Risk-averse = prefers certainty; risk-neutral = indifferent; risk-taking = prefers the gamble. A risk-averse person can still gamble when a sure loss is on the table. That is the <b>framing effect</b>, a separate idea."
+  },
+  {
+   "id": "sme-w5-q10",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Sunk Cost Escalation",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 5 · Q10"
+   },
+   "prompt": "A manager says, “We’ve already spent $1 million, so we have to finish.” She is:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Escalating commitment because of sunk costs"
+    },
+    {
+     "id": "b",
+     "text": "Reasoning correctly, because sunk costs should drive the decision"
+    },
+    {
+     "id": "c",
+     "text": "Showing the knew-it-all-along effect"
+    },
+    {
+     "id": "d",
+     "text": "Satisficing"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "<b>Sunk costs are the cause; escalation is the behaviour.</b> Only future costs and benefits should drive the next decision."
+  },
+  {
+   "id": "sme-w5-q11",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Reasons for Escalation",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 5 · Q11"
+   },
+   "prompt": "A newly appointed director inherits a failing project she did not start, yet keeps funding it because “taxpayers would think we squandered their money.” Which reason for escalation best fits?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Motivation not to appear wasteful"
+    },
+    {
+     "id": "b",
+     "text": "Dissonance reduction"
+    },
+    {
+     "id": "c",
+     "text": "A social norm favouring consistency"
+    },
+    {
+     "id": "d",
+     "text": "Personality and mood"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "She didn’t make the original decision, so dissonance and consistency drop out. “Not appearing wasteful” (and framing) explain it, as with BC’s Site C dam."
+  },
+  {
+   "id": "sme-w5-q12",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Preventing Escalation",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 5 · Q12"
+   },
+   "prompt": "Which of the following is NOT a recommended way to prevent escalation of commitment?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Give the continue-or-stop decision to a group that includes the original project team"
+    },
+    {
+     "id": "b",
+     "text": "Set specific goals in advance that must be met before more resources are invested"
+    },
+    {
+     "id": "c",
+     "text": "Separate initial and subsequent decision making"
+    },
+    {
+     "id": "d",
+     "text": "Evaluate managers on how they made decisions more than on outcomes"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The text warns that <b>groups are more prone than individuals to escalate</b>. The other three are on the five-step prevention list."
+  },
+  {
+   "id": "sme-w5-q13",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Mood and Decisions",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 5 · Q13"
+   },
+   "prompt": "In the currency-trading simulation described in the text, which traders did best?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Those in a neutral mood"
+    },
+    {
+     "id": "b",
+     "text": "Those in a good mood"
+    },
+    {
+     "id": "c",
+     "text": "Those in a bad mood"
+    },
+    {
+     "id": "d",
+     "text": "There was no difference"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Good-mood traders lost money; bad-mood traders did better but were conservative; <b>neutral-mood traders did best</b>, tolerating risk without overconfidence."
+  },
+  {
+   "id": "sme-w5-q14",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Communication Process Model",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 5 · Q14"
+   },
+   "prompt": "According to Week 5B slide 4, the correct order of the basic model of communication is:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Thinking, encoding, transmitting, perceiving, decoding, understanding, feedback"
+    },
+    {
+     "id": "b",
+     "text": "Encoding, thinking, transmitting, decoding, perceiving, understanding, feedback"
+    },
+    {
+     "id": "c",
+     "text": "Thinking, transmitting, encoding, perceiving, understanding, decoding, feedback"
+    },
+    {
+     "id": "d",
+     "text": "Encoding, transmitting, decoding, understanding, feedback, thinking, perceiving"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Sender: <b>T</b>hink, <b>E</b>ncode, <b>T</b>ransmit. Receiver: <b>P</b>erceive, <b>D</b>ecode, <b>U</b>nderstand. Then <b>F</b>eedback back to the sender (“The Eager Teacher Prepares Daily Useful Feedback”)."
+  },
+  {
+   "id": "sme-w5-q15",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Horizontal Communication",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 5 · Q15"
+   },
+   "prompt": "A salesperson’s idea must travel up through marketing and down through R&amp;D to reach the R&amp;D staff. This is ___ communication suffering mainly from ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Horizontal; slowness"
+    },
+    {
+     "id": "b",
+     "text": "Upward; filtering"
+    },
+    {
+     "id": "c",
+     "text": "Downward; informal communication ignored"
+    },
+    {
+     "id": "d",
+     "text": "Horizontal; filtering"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Between departments = <b>horizontal</b>; in a strict chain it goes up to a common manager and back down, which is slow. Direction (where) is not deficiency (why it fails)."
+  },
+  {
+   "id": "sme-w5-q16",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Mum Effect Silence",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 5 · Q16"
+   },
+   "prompt": "A junior developer finds a bug that will delay a launch but says nothing because she hopes for a promotion. Which concept best describes her behaviour?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Silence driven by the mum effect"
+    },
+    {
+     "id": "b",
+     "text": "Upward filtering"
+    },
+    {
+     "id": "c",
+     "text": "Voice"
+    },
+    {
+     "id": "d",
+     "text": "Downward communication"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Withholding relevant information = <b>silence</b>; the specific tendency to avoid passing on unfavourable news is the <b>mum effect</b> (stronger when you want to impress). Filtering would be a message softened as it travels."
+  },
+  {
+   "id": "sme-w5-q17",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Rumour Conditions",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 5 · Q17"
+   },
+   "prompt": "Which is NOT one of the conditions under which rumours spread fastest?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The information is clear and routine"
+    },
+    {
+     "id": "b",
+     "text": "The information is ambiguous"
+    },
+    {
+     "id": "c",
+     "text": "The content is important to those involved"
+    },
+    {
+     "id": "d",
+     "text": "The recipient is anxious"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Rumours spread fastest when the information is <b>ambiguous</b>, <b>important</b>, <b>credible</b> and the recipient is <b>anxious</b> (“Always Investigate Crazy Announcements”)."
+  },
+  {
+   "id": "sme-w5-q18",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Grapevine Advantages",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 5 · Q18"
+   },
+   "prompt": "The textbook lists two advantages of the grapevine. Which of these appears as a third “pro” only on the Week 5B slide?",
+   "options": [
+    {
+     "id": "a",
+     "text": "A potential informal recruiting source"
+    },
+    {
+     "id": "b",
+     "text": "Keeping employees informed"
+    },
+    {
+     "id": "c",
+     "text": "Testing employee reactions to proposed changes"
+    },
+    {
+     "id": "d",
+     "text": "A pipeline for rumours"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The slide adds “a potential informal recruiting source.” The textbook’s two are keeping employees informed and testing reactions. The pipeline for rumours is the <b>con</b>."
+  },
+  {
+   "id": "sme-w5-q19",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Tannen Gender Differences",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 5 · Q19"
+   },
+   "prompt": "After a pitch, a manager tells a colleague, “You were great… one small thing on the pricing slide… otherwise fantastic,” and the colleague never fixes the slide. Which Tannen difference is most directly at work?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Feedback (buffering criticism with praise vs bluntness)"
+    },
+    {
+     "id": "b",
+     "text": "Ritual opposition"
+    },
+    {
+     "id": "c",
+     "text": "Getting credit"
+    },
+    {
+     "id": "d",
+     "text": "Managing up and down"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Women tend to <b>buffer</b> criticism with praise; men tend to be blunt and may hear the praise as the main message. Per the lecture, treat these as <b>tendencies, not fixed traits</b>."
+  },
+  {
+   "id": "sme-w5-q20",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Cross-Cultural Politeness",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 5 · Q20"
+   },
+   "prompt": "A British executive calls a proposal “interesting” when she means “it’s rubbish.” Which cross-cultural dimension does the textbook use for this kind of example?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Etiquette and politeness"
+    },
+    {
+     "id": "b",
+     "text": "Social conventions"
+    },
+    {
+     "id": "c",
+     "text": "Language differences"
+    },
+    {
+     "id": "d",
+     "text": "Non-verbal communication"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Saying things you don’t literally mean to be polite is <b>etiquette and politeness</b>. Social conventions are directness, greetings, loudness, punctuality and personal information."
+  },
+  {
+   "id": "sme-w5-q21",
+   "type": "mc",
+   "unit": 10,
+   "topic": "High-Context Cultures",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 5 · Q21"
+   },
+   "prompt": "Which statement is true of high-context cultures?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The message is strongly shaped by context, and lengthy contracts matter less than the relationship"
+    },
+    {
+     "id": "b",
+     "text": "Messages are interpreted literally"
+    },
+    {
+     "id": "c",
+     "text": "People favour getting to the point quickly and very detailed contracts"
+    },
+    {
+     "id": "d",
+     "text": "North America and Scandinavia are typical examples"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "High-context (many East Asian, Latin American, African, Arab cultures): meaning sits in the <b>context</b>, relationships come first and contracts matter less. The other options describe low-context cultures."
+  },
+  {
+   "id": "sme-w5-q22",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Cross-Cultural Precautions",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 5 · Q22"
+   },
+   "prompt": "The textbook’s second cross-cultural precaution is:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Recognize differences within cultures"
+    },
+    {
+     "id": "b",
+     "text": "Recognize differences in cultures"
+    },
+    {
+     "id": "c",
+     "text": "Assume similarities until proven wrong"
+    },
+    {
+     "id": "d",
+     "text": "Avoid humour with foreign colleagues"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Textbook: “recognize differences <b>within</b> cultures” (don’t stereotype). Slide 13 says “in cultures,” apparently dropping “within.” Use the textbook wording."
+  },
+  {
+   "id": "sme-w5-q23",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Information Richness",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 5 · Q23"
+   },
+   "prompt": "A manager must tell an employee that her role is being eliminated. According to the information richness rule of thumb, the best medium is:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Face-to-face, which is highest in synchronization and cues"
+    },
+    {
+     "id": "b",
+     "text": "Email, to keep the message factual"
+    },
+    {
+     "id": "c",
+     "text": "A text message, because it is quick"
+    },
+    {
+     "id": "d",
+     "text": "A memo to all staff"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Less routine, emotional and important messages call for <b>richer media</b>. Email is lean: essentially one-way and without non-verbal or para-verbal cues."
+  },
+  {
+   "id": "sme-w5-q24",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Explaining Decisions",
+   "difficulty": 2,
+   "source": {
+    "ref": "Week 5 · Q24"
+   },
+   "prompt": "According to the research reviewed in the text, an inadequate explanation of a controversial decision is seen as:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Less fair than no explanation at all"
+    },
+    {
+     "id": "b",
+     "text": "About as fair as no explanation"
+    },
+    {
+     "id": "c",
+     "text": "Fairer than no explanation, because at least something was said"
+    },
+    {
+     "id": "d",
+     "text": "Unrelated to perceived fairness"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "An adequate explanation cut retaliation by 43%, but an <b>inadequate explanation is seen as less fair than none</b>."
+  }
+ ]
+}

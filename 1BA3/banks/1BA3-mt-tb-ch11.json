@@ -1,0 +1,3792 @@
+{
+ "schema": "practice-bank/v1",
+ "id": "1BA3-mt-tb-ch11",
+ "course": "COMM 1BA3",
+ "title": "Test Bank · Ch. 11",
+ "description": "Johns & Saks chapter test bank, Ch. 11 (Decision Making): multiple-choice and true/false items, each key re-checked against the 12th-edition text.",
+ "defaultSource": {
+  "label": "Textbook Test Bank",
+  "kind": "textbook"
+ },
+ "defaultUnit": 11,
+ "scenarios": {},
+ "questions": [
+  {
+   "id": "tb11-q001",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Well-Structured Problems",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q1"
+   },
+   "prompt": "The well-structured problem does not exhibit which of the following characteristics?",
+   "tags": [
+    "§11.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "existing state is clear"
+    },
+    {
+     "id": "b",
+     "text": "uncertainty about what to do"
+    },
+    {
+     "id": "c",
+     "text": "certainty about what to do"
+    },
+    {
+     "id": "d",
+     "text": "desired state is clear"
+    },
+    {
+     "id": "e",
+     "text": "problem is repetitive and familiar"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "A **well-structured problem** has a clear existing state, a clear desired state and an obvious route between them. It is repetitive and familiar, so there is little uncertainty about what to do; uncertainty marks ill-structured problems."
+  },
+  {
+   "id": "tb11-q002",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Programmed Decision Techniques",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q2"
+   },
+   "prompt": "Which of the following is another name for a programmed problem solution technique?",
+   "tags": [
+    "§11.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "rules of thumb"
+    },
+    {
+     "id": "b",
+     "text": "routines"
+    },
+    {
+     "id": "c",
+     "text": "rules"
+    },
+    {
+     "id": "d",
+     "text": "standard operating procedures"
+    },
+    {
+     "id": "e",
+     "text": "All of the above"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": false,
+   "explanation": "A **program** is a standardized way of solving a problem. The text lists rules, routines, standard operating procedures and rules of thumb as the usual labels, so all of them qualify."
+  },
+  {
+   "id": "tb11-q003",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Programmed Decisions",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q3"
+   },
+   "prompt": "One is most likely to see a program used to make a(n) __________ decision.",
+   "tags": [
+    "§11.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "important"
+    },
+    {
+     "id": "b",
+     "text": "executive-level"
+    },
+    {
+     "id": "c",
+     "text": "routine"
+    },
+    {
+     "id": "d",
+     "text": "ill-structured"
+    },
+    {
+     "id": "e",
+     "text": "unique"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "**Programs** suit **routine**, repetitive decisions because they let the decision maker go straight from problem identification to solution. Unique or ill-structured decisions need non-programmed decision making."
+  },
+  {
+   "id": "tb11-q004",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Programmed Decisions",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q4"
+   },
+   "prompt": "Which of the following most clearly involves a decision program?",
+   "tags": [
+    "§11.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A task force to improve company image"
+    },
+    {
+     "id": "b",
+     "text": "A corporate merger"
+    },
+    {
+     "id": "c",
+     "text": "A standing order to a supplier"
+    },
+    {
+     "id": "d",
+     "text": "A medical ethics committee"
+    },
+    {
+     "id": "e",
+     "text": "A billion dollar investment decision"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "A standing order to a supplier is a standardized, repetitive response, which is what a **program** is. Mergers, task forces, ethics committees and huge investments are unique, ill-structured problems."
+  },
+  {
+   "id": "tb11-q005",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Ill-Structured Problems",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q5"
+   },
+   "prompt": "The ill-structured problem is one where the",
+   "tags": [
+    "§11.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "existing state is unclear, desired state is clear."
+    },
+    {
+     "id": "b",
+     "text": "existing state is clear, desired state is clear."
+    },
+    {
+     "id": "c",
+     "text": "existing state is unclear, desired state is unclear."
+    },
+    {
+     "id": "d",
+     "text": "existing state is clear, desired state is unclear."
+    },
+    {
+     "id": "e",
+     "text": "existing state is clear but the method of getting to the desired state is unknown."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "In an **ill-structured problem** the existing state and the desired state are both unclear, and the method of reaching the desired state is unknown. Having one state clear (or only the method unknown) makes a problem less ill-structured."
+  },
+  {
+   "id": "tb11-q006",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Problem Structure",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q6"
+   },
+   "prompt": "At what part of an organization would an ill-structured problem most likely be encountered?",
+   "tags": [
+    "§11.1",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The top of the hierarchy"
+    },
+    {
+     "id": "b",
+     "text": "The bottom of the hierarchy"
+    },
+    {
+     "id": "c",
+     "text": "Ill-structured problems are equally likely throughout the organizational hierarchy"
+    },
+    {
+     "id": "d",
+     "text": "Where the bottom of the hierarchy meets the middle"
+    },
+    {
+     "id": "e",
+     "text": "The middle of the hierarchy"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Ill-structured problems are unique, complex and uncertain, but the 12th edition never ties problem structure to a level of the organizational hierarchy. The older key (top of the hierarchy) is not supported by the current text.",
+   "scopeNote": "Written for an older edition: The 12th edition does not link problem structure to a level of the organizational hierarchy."
+  },
+  {
+   "id": "tb11-q007",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Programmed Decisions",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q7"
+   },
+   "prompt": "Which of the following problems would most likely be solved with a program (that is, using programmed decision-making) ?",
+   "tags": [
+    "§11.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "In which part of the country should we locate our new business?"
+    },
+    {
+     "id": "b",
+     "text": "Which candidate should we choose to be vice-president of marketing?"
+    },
+    {
+     "id": "c",
+     "text": "How many workers should we call out to staff the assembly line next week?"
+    },
+    {
+     "id": "d",
+     "text": "Should this convict be granted parole?"
+    },
+    {
+     "id": "e",
+     "text": "Should we merge with this company or not?"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Staffing next week's assembly line is a repetitive, familiar decision, so a **program** (rule or routine) can handle it. Choosing a location, a vice-president, a merger or a parole decision is unique or high-stakes."
+  },
+  {
+   "id": "tb11-q008",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Well-Structured Problems",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q8"
+   },
+   "prompt": "Which of the following is characteristic of well-structured problems?",
+   "tags": [
+    "§11.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "They often entail high risk."
+    },
+    {
+     "id": "b",
+     "text": "They frequently arouse controversy and conflict among those interested in the problem."
+    },
+    {
+     "id": "c",
+     "text": "They are unusual and have not been encountered before."
+    },
+    {
+     "id": "d",
+     "text": "The existing state and the desired state are understood."
+    },
+    {
+     "id": "e",
+     "text": "They tend to be complex and involve a high degree of uncertainty."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "**Well-structured problems** have clear existing and desired states. High risk, controversy, uniqueness, complexity and uncertainty all describe **ill-structured** problems."
+  },
+  {
+   "id": "tb11-q009",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Programmed Decisions",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q9"
+   },
+   "prompt": "A program would most likely be used",
+   "tags": [
+    "§11.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "to solve a risky problem."
+    },
+    {
+     "id": "b",
+     "text": "to solve problems dealt with by top management."
+    },
+    {
+     "id": "c",
+     "text": "to justify group decision-making."
+    },
+    {
+     "id": "d",
+     "text": "to solve an ill-structured problem."
+    },
+    {
+     "id": "e",
+     "text": "to solve a well-structured problem."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "A **program** is a standardized way of solving a problem, so it fits **well-structured** problems. Risky, top-management or ill-structured problems call for non-programmed decision making."
+  },
+  {
+   "id": "tb11-q010",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Ill-Structured Problems",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q10"
+   },
+   "prompt": "Which of the following is an example of an ill-structured problem?",
+   "tags": [
+    "§11.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The sales manager must decide what to do about sales that seem sluggish."
+    },
+    {
+     "id": "b",
+     "text": "The production manager must decide how many workers to schedule on the line next week."
+    },
+    {
+     "id": "c",
+     "text": "The assistant bank manager must decide which automobile loan applications to approve."
+    },
+    {
+     "id": "d",
+     "text": "The retailer must decide whether to reorder lawn chairs."
+    },
+    {
+     "id": "e",
+     "text": "The welfare officer must decide how much assistance a particular client should receive."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Sluggish sales with no known cause is **ill-structured**: the existing state, the desired state and the fix are all vague. Loan approvals, staffing, reorders and standard assistance amounts are repetitive, well-structured decisions."
+  },
+  {
+   "id": "tb11-q011",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Economic Person",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q11"
+   },
+   "prompt": "Economic Person does not",
+   "tags": [
+    "§11.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "have adequate information to make good decisions."
+    },
+    {
+     "id": "b",
+     "text": "use logic in making decisions."
+    },
+    {
+     "id": "c",
+     "text": "use economic gain to evaluate the correctness of decisions."
+    },
+    {
+     "id": "d",
+     "text": "make rational decisions."
+    },
+    {
+     "id": "e",
+     "text": "make decisions like the average consumer or manager."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "**Economic Person** is the perfectly rational ideal: completely informed, perfectly logical and focused on economic gain. Such a person does not exist in real decision makers, so real managers do not decide this way."
+  },
+  {
+   "id": "tb11-q012",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Non-Programmed Decisions",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q12"
+   },
+   "prompt": "Nonprogrammed decision-making",
+   "tags": [
+    "§11.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "is most likely to be required at lower levels of the organizational hierarchy."
+    },
+    {
+     "id": "b",
+     "text": "is used to solve well-structured problems."
+    },
+    {
+     "id": "c",
+     "text": "may stimulate strong political considerations."
+    },
+    {
+     "id": "d",
+     "text": "tends to involve much certainty."
+    },
+    {
+     "id": "e",
+     "text": "is used to solve repetitive problems."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "**Non-programmed decision making** is used for ill-structured problems, which can entail high risk and stimulate strong **political considerations** (as in the Phoenix case). Well-structured, repetitive problems get programs instead."
+  },
+  {
+   "id": "tb11-q013",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Bounded Rationality",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q13"
+   },
+   "prompt": "Managers who exhibit bounded rationality",
+   "tags": [
+    "§11.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "might be operating under time constraints."
+    },
+    {
+     "id": "b",
+     "text": "might be factoring political considerations into decisions."
+    },
+    {
+     "id": "c",
+     "text": "might be subject to cognitive biases."
+    },
+    {
+     "id": "d",
+     "text": "might be limited in their capacity to acquire and process information."
+    },
+    {
+     "id": "e",
+     "text": "all of the above."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": false,
+   "explanation": "**Bounded rationality** has several sources: limited capacity to acquire and process information, time constraints, political considerations and cognitive biases. Every listed condition applies."
+  },
+  {
+   "id": "tb11-q014",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Bounded Rationality",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q14"
+   },
+   "prompt": "In evaluating alternative solutions, decision-makers with bounded rationality",
+   "tags": [
+    "§11.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "tend to exhibit maximization."
+    },
+    {
+     "id": "b",
+     "text": "often consider the political acceptability of the solution to other organizational members."
+    },
+    {
+     "id": "c",
+     "text": "rarely engage in satisficing."
+    },
+    {
+     "id": "d",
+     "text": "know the ultimate value of each alternative."
+    },
+    {
+     "id": "e",
+     "text": "know the probability that each alternative will work."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Under **bounded rationality** decision makers weigh extra criteria such as political acceptability (will the boss like it?). Knowing every alternative's value and probability, and maximizing, describe perfect rationality; bounded decision makers usually **satisfice**."
+  },
+  {
+   "id": "tb11-q015",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Problem Identification Errors",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q15"
+   },
+   "prompt": "When he heard that turnover was increasing, the human resource manager immediately told the president that salaries would have to be raised. Unfortunately, low pay wasn't the cause of the turnover. Which decision-making error did the manager commit?",
+   "tags": [
+    "§11.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "He treated sunk costs improperly."
+    },
+    {
+     "id": "b",
+     "text": "He defined the problem in terms of a solution."
+    },
+    {
+     "id": "c",
+     "text": "He exhibited the knew-it-all-along effect."
+    },
+    {
+     "id": "d",
+     "text": "He revealed a confirmation bias."
+    },
+    {
+     "id": "e",
+     "text": "He escalated commitment."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Jumping straight to a fix (raise salaries) before diagnosing the cause is **defining the problem in terms of a solution**, the \"plunging-in bias\". Sunk costs, escalation and confirmation bias involve different situations."
+  },
+  {
+   "id": "tb11-q016",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Information Overload",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q16"
+   },
+   "prompt": "Information overload is likely to lead to",
+   "tags": [
+    "§11.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "lower satisfaction with the ultimate decision."
+    },
+    {
+     "id": "b",
+     "text": "only relevant information influencing decision-making."
+    },
+    {
+     "id": "c",
+     "text": "higher quality decisions."
+    },
+    {
+     "id": "d",
+     "text": "fast decision-making."
+    },
+    {
+     "id": "e",
+     "text": "greater confidence by managers in their decisions."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Managers keep seeking more information because, even when decisions do not improve, their **confidence** in the decisions rises. Overload actually leads to errors, omissions, delays and stress, not higher quality or speed."
+  },
+  {
+   "id": "tb11-q017",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Expected Value",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 11 · Q17"
+   },
+   "prompt": "Mark has two alternatives. There is a 50 percent chance that he will earn $120,000 if he accepts a government contract. If he decides not to accept the contract and instead continues on his present project he has an 80 percent chance of earning $100,000. If Mark is a perfectly rational decision-maker which of the following statements is true?",
+   "tags": [
+    "§11.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "He will accept the government contract."
+    },
+    {
+     "id": "b",
+     "text": "His expected value of continuing on the present project is $80,000."
+    },
+    {
+     "id": "c",
+     "text": "He will revise his earnings estimate on the government contract to make it more attractive."
+    },
+    {
+     "id": "d",
+     "text": "He will ignore economic criteria in making his decision."
+    },
+    {
+     "id": "e",
+     "text": "He will attempt to satisfice."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "A **perfectly rational** decision maker **maximizes expected value**. Continuing: 0.8 x $100,000 = $80,000, which beats 0.5 x $120,000 = $60,000, so he would not take the government contract. Satisficing belongs to bounded rationality."
+  },
+  {
+   "id": "tb11-q018",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Information Overload",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q18"
+   },
+   "prompt": "At which stage of the rational decision-making model is information overload a particular problem?",
+   "tags": [
+    "§11.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Problem identification"
+    },
+    {
+     "id": "b",
+     "text": "Implement chosen solution"
+    },
+    {
+     "id": "c",
+     "text": "Monitor and evaluate chosen solution"
+    },
+    {
+     "id": "d",
+     "text": "Evaluate alternative solutions"
+    },
+    {
+     "id": "e",
+     "text": "Search for relevant information"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "The text discusses **information overload** under the **information search** stage: receiving more information than needed causes errors, omissions and delays, and lets irrelevant information influence the decision."
+  },
+  {
+   "id": "tb11-q019",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Faulty Hindsight",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q19"
+   },
+   "prompt": "Which of the following is an example of faulty hindsight?",
+   "tags": [
+    "§11.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The small business owner who had been let down by a supplier gave the supplier another large order."
+    },
+    {
+     "id": "b",
+     "text": "Suki decided to spend more money upgrading her old computer instead of buying a new one."
+    },
+    {
+     "id": "c",
+     "text": "Alan erroneously predicted that his superiors would favour the reorganization plan."
+    },
+    {
+     "id": "d",
+     "text": "The small business owner could never forget how she had been let down by a particular supplier."
+    },
+    {
+     "id": "e",
+     "text": "When it became clear that the investment was a poor one, Pierre realized that he had known it was bad all along."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "**Faulty hindsight** includes the **knew-it-all-along effect**: after the outcome is known we claim we saw it coming. Holding a grudge or spending more on an old computer involves other ideas."
+  },
+  {
+   "id": "tb11-q020",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Diffusion of Responsibility",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q20"
+   },
+   "prompt": "Which of the following is an example of diffusion of responsibility?",
+   "tags": [
+    "§11.6",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The surgery team decided on a more conservative operating technique when they discussed the operation face-to-face."
+    },
+    {
+     "id": "b",
+     "text": "A firing squad of ten soldiers was used to execute the prisoner."
+    },
+    {
+     "id": "c",
+     "text": "After her boss's decision turned out to be wrong, Sally said she knew all along that it was wrong."
+    },
+    {
+     "id": "d",
+     "text": "Paul allows his secretary to make certain decisions without consulting him."
+    },
+    {
+     "id": "e",
+     "text": "As Douglas accepted the award on behalf of his department he made a point of acknowledging the contributions of his colleagues."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "**Diffusion of responsibility** means group members share the burden of a poor decision, so no single person is blamed; a ten-man firing squad spreads responsibility. Saying \"I knew all along\" is biased hindsight, not diffusion.",
+   "scopeNote": "§11.6–11.7 (group decision making and contemporary issues) is on the final exam, not the midterm."
+  },
+  {
+   "id": "tb11-q021",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Escalation of Commitment",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q21"
+   },
+   "prompt": "Escalation of commitment",
+   "tags": [
+    "§11.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "is the most common outcome of information overload."
+    },
+    {
+     "id": "b",
+     "text": "runs counter to the general tendency for decision-makers to try to justify their actions."
+    },
+    {
+     "id": "c",
+     "text": "only occurs when the decision-maker is responsible for beginning a course of action."
+    },
+    {
+     "id": "d",
+     "text": "involves committing more and more resources to a failing course of action."
+    },
+    {
+     "id": "e",
+     "text": "illustrates how decision-makers often ignore sunk costs."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "**Escalation of commitment** is the tendency to invest more and more resources in an apparently failing course of action. It stems from justifying past decisions and trying to recoup sunk costs, so it does not ignore them."
+  },
+  {
+   "id": "tb11-q022",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Escalation and Sunk Costs",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q22"
+   },
+   "prompt": "Escalation of commitment to a failing course of action",
+   "tags": [
+    "§11.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "only occurs if the decision-maker was personally responsible for the initial loss."
+    },
+    {
+     "id": "b",
+     "text": "is the most common outcome of information overload."
+    },
+    {
+     "id": "c",
+     "text": "only occurs in highly competitive situations."
+    },
+    {
+     "id": "d",
+     "text": "is what defines the occurrence of a risky shift."
+    },
+    {
+     "id": "e",
+     "text": "shows how people may treat sunk costs improperly."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Escalation reflects the **irrational treatment of sunk costs**: people act as if they could recoup resources already lost. It can occur without personal responsibility and in non-competitive settings, and it is not the same as a risky shift."
+  },
+  {
+   "id": "tb11-q023",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Solution Implementation",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q23"
+   },
+   "prompt": "Managers must often rely upon others when making decisions and solving problems. At what stage of the rational decision-making process does reliance upon others often cause special problems?",
+   "tags": [
+    "§11.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Evaluation of alternative solutions"
+    },
+    {
+     "id": "b",
+     "text": "Development of alternative solutions"
+    },
+    {
+     "id": "c",
+     "text": "Solution implementation"
+    },
+    {
+     "id": "d",
+     "text": "Solution choice"
+    },
+    {
+     "id": "e",
+     "text": "Information search"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "**Solution implementation** is hard for bounded decision makers because they depend on others to carry out their decisions, and it is difficult to anticipate those people's ability or motivation."
+  },
+  {
+   "id": "tb11-q024",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Escalation and Sunk Costs",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q24"
+   },
+   "prompt": "Who failed to treat sunk costs properly?",
+   "tags": [
+    "§11.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The manager who escalated commitment"
+    },
+    {
+     "id": "b",
+     "text": "The leader of the group that exhibited groupthink"
+    },
+    {
+     "id": "c",
+     "text": "The devil's advocate in the meeting"
+    },
+    {
+     "id": "d",
+     "text": "The politician who cancelled the public works project"
+    },
+    {
+     "id": "e",
+     "text": "The salesperson who acted unethically"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "**Escalation of commitment** is the textbook example of treating **sunk costs** improperly: the manager keeps investing to recoup what is already lost. Cancelling a project is the rational response."
+  },
+  {
+   "id": "tb11-q025",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Sunk Costs",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 11 · Q25"
+   },
+   "prompt": "Which of the following is probably an example of the irrational treatment of sunk costs?",
+   "tags": [
+    "§11.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The company president decided to cancel the expansion project even though construction work had already begun."
+    },
+    {
+     "id": "b",
+     "text": "Jim studied the computer output for two hours before the big meeting, but he couldn't use the information. Before the next meeting he studied the output for four hours."
+    },
+    {
+     "id": "c",
+     "text": "The pilot feared landing on the remote airstrip because there had been an accident there the day before."
+    },
+    {
+     "id": "d",
+     "text": "Mary obtained much more information than she needed in order to make a decision on the leasing arrangement."
+    },
+    {
+     "id": "e",
+     "text": "Janine had her travel agent book two flights for her to New York so that she was certain not to miss the big meeting."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Spending four hours on output that already proved useless after two is throwing good resources after bad, an improper treatment of **sunk costs**. Cancelling a project already begun is the rational choice, since sunk resources should not affect future decisions."
+  },
+  {
+   "id": "tb11-q026",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Satisficing",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q26"
+   },
+   "prompt": "Decision-makers who establish an adequate level of acceptability for a solution and then screen solutions until one that exceeds this level is found are",
+   "tags": [
+    "§11.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "diffusers."
+    },
+    {
+     "id": "b",
+     "text": "optimizers."
+    },
+    {
+     "id": "c",
+     "text": "satisficers."
+    },
+    {
+     "id": "d",
+     "text": "rationalizers."
+    },
+    {
+     "id": "e",
+     "text": "maximizers."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "**Satisficers** set an adequate level of acceptability and take the first solution that exceeds it. Maximizers (optimizers) search for the single best alternative."
+  },
+  {
+   "id": "tb11-q027",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Satisficing",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q27"
+   },
+   "prompt": "Satisficing is a concept that is most associated with",
+   "tags": [
+    "§11.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "implementing a solution."
+    },
+    {
+     "id": "b",
+     "text": "searching for information."
+    },
+    {
+     "id": "c",
+     "text": "choosing a solution."
+    },
+    {
+     "id": "d",
+     "text": "monitoring a solution."
+    },
+    {
+     "id": "e",
+     "text": "identifying a problem."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "**Satisficing** happens when **choosing a solution**: evaluation of alternatives stops as soon as one exceeds the acceptable level. It is part of the alternative development, evaluation and choice stage."
+  },
+  {
+   "id": "tb11-q028",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Anchoring Effect",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q28"
+   },
+   "prompt": "According to the anchoring effect, people",
+   "tags": [
+    "§11.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "don't adjust successive estimates enough in the face of new information."
+    },
+    {
+     "id": "b",
+     "text": "rely too much on the most recent information received."
+    },
+    {
+     "id": "c",
+     "text": "depend too much on problem solutions developed by others."
+    },
+    {
+     "id": "d",
+     "text": "resist problem solutions developed by others."
+    },
+    {
+     "id": "e",
+     "text": "tend to invest additional resources in an apparently failing course of action."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The **anchoring effect** is inadequate adjustment of estimates away from an initial anchor as new information arrives. Over-weighting recent information is availability bias; investing more in a failure is escalation."
+  },
+  {
+   "id": "tb11-q029",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Framing",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q29"
+   },
+   "prompt": "Which of the following is a problem frame?",
+   "tags": [
+    "§11.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "How the decision-makers are rewarded"
+    },
+    {
+     "id": "b",
+     "text": "How the solution is evaluated"
+    },
+    {
+     "id": "c",
+     "text": "How the solution is implemented"
+    },
+    {
+     "id": "d",
+     "text": "How the problem is solved"
+    },
+    {
+     "id": "e",
+     "text": "How the problem is stated"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "A **frame** is how information about a problem is presented, including how the problem is stated and what reference points are used. Rewards, evaluation and implementation methods are different parts of the process."
+  },
+  {
+   "id": "tb11-q030",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Framing and Risk",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q30"
+   },
+   "prompt": "Sharon framed the problem as a choice between two losses. What is she likely to do now?",
+   "tags": [
+    "§11.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Ignore economic considerations"
+    },
+    {
+     "id": "b",
+     "text": "Make a risky decision"
+    },
+    {
+     "id": "c",
+     "text": "Make a conservative decision"
+    },
+    {
+     "id": "d",
+     "text": "Ignore sunk costs"
+    },
+    {
+     "id": "e",
+     "text": "Ignore sample sizes"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Framing alternatives as a choice between **losses** leads people to take risky decisions, \"rolling the dice\" in the face of a sure loss. Framing them as gains leads to conservative choices."
+  },
+  {
+   "id": "tb11-q031",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Group Polarization",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q31"
+   },
+   "prompt": "After group discussion, group members tend to make decisions that are __________ the positions of individual members before discussion.",
+   "tags": [
+    "§11.6",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "more risky or more conservative than"
+    },
+    {
+     "id": "b",
+     "text": "equal to the average risk of"
+    },
+    {
+     "id": "c",
+     "text": "more risky than"
+    },
+    {
+     "id": "d",
+     "text": "less risky or less conservative than"
+    },
+    {
+     "id": "e",
+     "text": "more conservative than"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Group discussion tends to **polarize** members' initial positions, so groups can shift in either direction (**risky** or **conservative**). The group outcome is neither simply the average nor always riskier.",
+   "scopeNote": "§11.6–11.7 (group decision making and contemporary issues) is on the final exam, not the midterm."
+  },
+  {
+   "id": "tb11-q032",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Diffusion and Risky Shift",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q32"
+   },
+   "prompt": "Diffusion of responsibility might contribute to",
+   "tags": [
+    "§11.6",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "conservative shifts."
+    },
+    {
+     "id": "b",
+     "text": "information overload."
+    },
+    {
+     "id": "c",
+     "text": "confirmation bias."
+    },
+    {
+     "id": "d",
+     "text": "risky shifts."
+    },
+    {
+     "id": "e",
+     "text": "hindsight."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "The text notes the argument that **diffusion of responsibility** (\"security in numbers\") encourages groups to take greater chances, which is the **risky shift**. Conservative shifts follow cautious initial positions instead.",
+   "scopeNote": "§11.6–11.7 (group decision making and contemporary issues) is on the final exam, not the midterm."
+  },
+  {
+   "id": "tb11-q033",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Groupthink Symptoms",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q33"
+   },
+   "prompt": "Which of the following is not a characteristic of groupthink?",
+   "tags": [
+    "§11.6",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Group members censor themselves from bringing up issues which are contrary to the group consensus."
+    },
+    {
+     "id": "b",
+     "text": "The group constructs unfavourable stereotypes of outsiders."
+    },
+    {
+     "id": "c",
+     "text": "Much conformity occurs in the group."
+    },
+    {
+     "id": "d",
+     "text": "The group experiences much dissension and argument."
+    },
+    {
+     "id": "e",
+     "text": "The group sees itself as morally correct."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "**Groupthink** involves pressure for conformity, self-censorship, illusions of unanimity and morality, and stereotyping outsiders. Open dissension and argument are the opposite: unanimity is stressed over quality.",
+   "scopeNote": "§11.6–11.7 (group decision making and contemporary issues) is on the final exam, not the midterm."
+  },
+  {
+   "id": "tb11-q034",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Diffusion of Responsibility",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q34"
+   },
+   "prompt": "The manager who wishes to diffuse responsibility for a potentially incorrect decision should",
+   "tags": [
+    "§11.6",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "use nonprogrammed decision-making."
+    },
+    {
+     "id": "b",
+     "text": "make the decision herself."
+    },
+    {
+     "id": "c",
+     "text": "be prepared to accept the sunk costs associated with the decision."
+    },
+    {
+     "id": "d",
+     "text": "use a group to make the decision."
+    },
+    {
+     "id": "e",
+     "text": "disregard the rational decision-making model."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Using a group lets members share the burden of a bad outcome so no one person is punished. This is the less admirable reason for using groups: **diffusion of responsibility**.",
+   "scopeNote": "§11.6–11.7 (group decision making and contemporary issues) is on the final exam, not the midterm."
+  },
+  {
+   "id": "tb11-q035",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Devil's Advocate",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q35"
+   },
+   "prompt": "A devil's advocate is",
+   "tags": [
+    "§11.6",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "a group member that everyone dislikes."
+    },
+    {
+     "id": "b",
+     "text": "a group member who bullies other members into accepting the group consensus."
+    },
+    {
+     "id": "c",
+     "text": "a genuinely evil person."
+    },
+    {
+     "id": "d",
+     "text": "a person who intentionally stimulates controversy."
+    },
+    {
+     "id": "e",
+     "text": "a person who smoothes over conflict."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "A **devil's advocate** is a person appointed to identify and challenge the weaknesses of a proposed plan, deliberately stimulating **controversy** to improve decision quality. The role is not bullying or smoothing over conflict.",
+   "scopeNote": "§11.6–11.7 (group decision making and contemporary issues) is on the final exam, not the midterm."
+  },
+  {
+   "id": "tb11-q036",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Groupthink Symptoms",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q36"
+   },
+   "prompt": "According to the groupthink theory, group members who are overconfident and willing to assume great risks are suffering from",
+   "tags": [
+    "§11.6",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "the knew-it-all-along effect."
+    },
+    {
+     "id": "b",
+     "text": "an illusion of unanimity."
+    },
+    {
+     "id": "c",
+     "text": "the conservative shift phenomenon."
+    },
+    {
+     "id": "d",
+     "text": "an illusion of invulnerability."
+    },
+    {
+     "id": "e",
+     "text": "an escalation of commitment."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "**Illusion of invulnerability** means members are overconfident, willing to assume great risks and ready to ignore obvious danger signals. Illusion of unanimity is about believing everyone agrees.",
+   "scopeNote": "§11.6–11.7 (group decision making and contemporary issues) is on the final exam, not the midterm."
+  },
+  {
+   "id": "tb11-q037",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Causes of Groupthink",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q37"
+   },
+   "prompt": "What is a strong cause of groupthink?",
+   "tags": [
+    "§11.6",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Conflict exists within the group."
+    },
+    {
+     "id": "b",
+     "text": "The group contains a devil's advocate."
+    },
+    {
+     "id": "c",
+     "text": "The group leader favours a particular decision."
+    },
+    {
+     "id": "d",
+     "text": "The absence of mindguards."
+    },
+    {
+     "id": "e",
+     "text": "Group members feel too free to speak their minds."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "The strongest cause of **groupthink** is the group leader promoting a particular decision. Janis blamed cohesiveness, but identification with the group, concern for approval and isolation now matter more; free dissent and devil's advocates help prevent it.",
+   "scopeNote": "§11.6–11.7 (group decision making and contemporary issues) is on the final exam, not the midterm."
+  },
+  {
+   "id": "tb11-q038",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Conservative Shift",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 11 · Q38"
+   },
+   "prompt": "After meeting together, the members of the venture capital group decided not to fund any more projects for the year. Before the meeting, some members had been cautiously in favour of funding. What happened?",
+   "tags": [
+    "§11.6",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Hindsight"
+    },
+    {
+     "id": "b",
+     "text": "Groupthink"
+    },
+    {
+     "id": "c",
+     "text": "Diffusion of responsibility"
+    },
+    {
+     "id": "d",
+     "text": "Risky shift"
+    },
+    {
+     "id": "e",
+     "text": "Conservative shift"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Members who start somewhat **conservative** tend to end up even more conservative after discussion: a **conservative shift**. Groupthink would involve conformity pressure and suppressed doubts, not a polarized initial lean.",
+   "scopeNote": "§11.6–11.7 (group decision making and contemporary issues) is on the final exam, not the midterm."
+  },
+  {
+   "id": "tb11-q039",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Groupthink Symptoms",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q39"
+   },
+   "prompt": "Illusion of invulnerability, illusion of morality, and illusion of unanimity are all characteristics of",
+   "tags": [
+    "§11.6",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "risky shift."
+    },
+    {
+     "id": "b",
+     "text": "maximization."
+    },
+    {
+     "id": "c",
+     "text": "hindsight."
+    },
+    {
+     "id": "d",
+     "text": "confirmation bias."
+    },
+    {
+     "id": "e",
+     "text": "groupthink."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Illusions of invulnerability, morality and unanimity are three of Janis's eight symptoms of **groupthink**; others include rationalization, stereotypes of outsiders, pressure for conformity, self-censorship and mindguards.",
+   "scopeNote": "§11.6–11.7 (group decision making and contemporary issues) is on the final exam, not the midterm."
+  },
+  {
+   "id": "tb11-q040",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Risky Shift",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 11 · Q40"
+   },
+   "prompt": "Which of the following is a potential example of the risky shift?",
+   "tags": [
+    "§11.6",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Steve decided to take an elective course in statistics even though he wasn't very good at quantitative subjects."
+    },
+    {
+     "id": "b",
+     "text": "A manager quit her secure job in a large company to start her own business even though she had to mortgage her house."
+    },
+    {
+     "id": "c",
+     "text": "The board of directors voted to proceed with the expansion even though it would cost $10 million more than originally planned."
+    },
+    {
+     "id": "d",
+     "text": "Three partners were uncertain about expanding their business. After discussing the matter, they decided to expand even though the economy was bad."
+    },
+    {
+     "id": "e",
+     "text": "A drug company put a new drug on the market even though it was possible that the drug would provoke bad side effects."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Partners who were uncertain moved to a bolder choice after group discussion: a **risky shift**, where the group is riskier than members' initial positions. The other examples are individual or one-off choices with no before-and-after group comparison.",
+   "scopeNote": "§11.6–11.7 (group decision making and contemporary issues) is on the final exam, not the midterm."
+  },
+  {
+   "id": "tb11-q041",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Conservative Shift",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 11 · Q41"
+   },
+   "prompt": "Which is an example of a conservative shift?",
+   "tags": [
+    "§11.6",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The individual city councilors were moderately opposed to the expensive bond issue. During the council meeting, so many negative points were raised that the bond issue was soundly defeated."
+    },
+    {
+     "id": "b",
+     "text": "After reading an article about the economy inBusiness Week Frank decided not to expand his small business."
+    },
+    {
+     "id": "c",
+     "text": "Because of the recession, the construction firm lowered its profit margin to get more of its bids accepted."
+    },
+    {
+     "id": "d",
+     "text": "Coach Smith decided to play it safe and kick a field goal rather than having the injured quarterback try a pass."
+    },
+    {
+     "id": "e",
+     "text": "Several board members were cautiously optimistic about the merger proposal before the meeting. During the board meeting, so many problems were cited that the proposal was unanimously defeated."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Council members who were moderately opposed ended up soundly rejecting the bond after discussion: a **conservative shift** (an initially cautious position exaggerated). Individual choices do not count, and the board members started from optimism, not caution.",
+   "scopeNote": "§11.6–11.7 (group decision making and contemporary issues) is on the final exam, not the midterm."
+  },
+  {
+   "id": "tb11-q042",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Electronic Brainstorming",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q42"
+   },
+   "prompt": "When people can brainstorm electronically, entering their ideas at computer terminals,",
+   "tags": [
+    "§11.7",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "group brainstorming is superior to individual brainstorming."
+    },
+    {
+     "id": "b",
+     "text": "brainstorming is superior to the nominal group technique."
+    },
+    {
+     "id": "c",
+     "text": "less flaming is likely to occur."
+    },
+    {
+     "id": "d",
+     "text": "individual brainstorming is superior to group brainstorming."
+    },
+    {
+     "id": "e",
+     "text": "group brainstorming works as well as individual brainstorming."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Older editions report that **electronic brainstorming** groups performed about as well as individuals working alone, avoiding face-to-face production losses. This technique is not covered in the 12th edition chapter.",
+   "scopeNote": "Written for an older edition: The 12th edition chapter no longer covers brainstorming, the nominal group technique, the Delphi technique or electronic brainstorming."
+  },
+  {
+   "id": "tb11-q043",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Electronic Brainstorming",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q43"
+   },
+   "prompt": "A key advantage of the use of electronic brainstorming groups is that",
+   "tags": [
+    "§11.7",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "as group size increases, so does flaming."
+    },
+    {
+     "id": "b",
+     "text": "as group size increases, so does the idea generation."
+    },
+    {
+     "id": "c",
+     "text": "as group size increases, so do individual inhibitions."
+    },
+    {
+     "id": "d",
+     "text": "as group size increases, so does social loafing."
+    },
+    {
+     "id": "e",
+     "text": "None of the above."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": false,
+   "explanation": "Older editions say idea generation in **electronic brainstorming** groups rises as group size grows, which makes the publisher key look inconsistent with its own chapter. Either way, the technique is not covered in the 12th edition.",
+   "scopeNote": "Written for an older edition: The 12th edition chapter no longer covers brainstorming, the nominal group technique, the Delphi technique or electronic brainstorming."
+  },
+  {
+   "id": "tb11-q044",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Brainstorming",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q44"
+   },
+   "prompt": "Conventional (i.e. nonelectronic) brainstorming",
+   "tags": [
+    "§11.7",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "is a decision-making technique in which the decision-makers do not meet face-to-face."
+    },
+    {
+     "id": "b",
+     "text": "is not a very effective technique for generating ideas."
+    },
+    {
+     "id": "c",
+     "text": "is more effective at generating ideas than the nominal group technique."
+    },
+    {
+     "id": "d",
+     "text": "is a method of training discussion leaders to help groups make more effective decisions."
+    },
+    {
+     "id": "e",
+     "text": "is a technique for evaluating solutions to problems."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Older editions describe conventional face-to-face **brainstorming** as a weak idea generator compared with individuals working alone. Brainstorming is not covered in the 12th edition chapter.",
+   "scopeNote": "Written for an older edition: The 12th edition chapter no longer covers brainstorming, the nominal group technique, the Delphi technique or electronic brainstorming."
+  },
+  {
+   "id": "tb11-q045",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Delphi Technique",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q45"
+   },
+   "prompt": "If we employ __________ to improve decisions, the participants never meet face-to-face.",
+   "tags": [
+    "§11.7",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "a devil's advocate"
+    },
+    {
+     "id": "b",
+     "text": "the nominal group technique"
+    },
+    {
+     "id": "c",
+     "text": "brainstorming"
+    },
+    {
+     "id": "d",
+     "text": "group discussion"
+    },
+    {
+     "id": "e",
+     "text": "the Delphi technique"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "The **Delphi technique** collects judgments through waves of questionnaires, so participants never meet face-to-face. It is not covered in the 12th edition chapter.",
+   "scopeNote": "Written for an older edition: The 12th edition chapter no longer covers brainstorming, the nominal group technique, the Delphi technique or electronic brainstorming."
+  },
+  {
+   "id": "tb11-q046",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Delphi Technique",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q46"
+   },
+   "prompt": "Which technique of improving decision-making involves the use of several waves of questionnaires and requires a lot of time?",
+   "tags": [
+    "§11.7",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The nominal group technique"
+    },
+    {
+     "id": "b",
+     "text": "Brainstorming"
+    },
+    {
+     "id": "c",
+     "text": "Group discussion"
+    },
+    {
+     "id": "d",
+     "text": "The Delphi technique"
+    },
+    {
+     "id": "e",
+     "text": "Electronic brainstorming"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "The **Delphi technique** uses several waves of questionnaires and is slow as a result. It is not covered in the 12th edition chapter.",
+   "scopeNote": "Written for an older edition: The 12th edition chapter no longer covers brainstorming, the nominal group technique, the Delphi technique or electronic brainstorming."
+  },
+  {
+   "id": "tb11-q047",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Electronic Brainstorming",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q47"
+   },
+   "prompt": "Which of the following is a benefit of using electronic brainstorming systems?",
+   "tags": [
+    "§11.7",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Less risky decisions than face-to-face groups."
+    },
+    {
+     "id": "b",
+     "text": "The ability to \"flame\" someone anonymously."
+    },
+    {
+     "id": "c",
+     "text": "Impulsive communication."
+    },
+    {
+     "id": "d",
+     "text": "People feel more accountable for electronic decisions."
+    },
+    {
+     "id": "e",
+     "text": "Participation is more equally distributed among members."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Older editions credit **electronic brainstorming** with more equal participation, since ideas are entered anonymously at terminals. It is not covered in the 12th edition chapter.",
+   "scopeNote": "Written for an older edition: The 12th edition chapter no longer covers brainstorming, the nominal group technique, the Delphi technique or electronic brainstorming."
+  },
+  {
+   "id": "tb11-q048",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Mood and Decisions",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q48"
+   },
+   "prompt": "In what kind of decisions does mood have its greatest impact?",
+   "tags": [
+    "§11.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Certain and well-structured."
+    },
+    {
+     "id": "b",
+     "text": "Uncertain and ambiguous."
+    },
+    {
+     "id": "c",
+     "text": "Well-structured and unambiguous."
+    },
+    {
+     "id": "d",
+     "text": "Uncertain and ill-structured."
+    },
+    {
+     "id": "e",
+     "text": "Certain and unambiguous."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "**Mood** has its greatest impact on uncertain, ambiguous decisions, the kind most crucial to organizations, rather than on mundane, structured ones."
+  },
+  {
+   "id": "tb11-q049",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Mood and Decisions",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q49"
+   },
+   "prompt": "Which of the following accurately describes the effect of moods on decision making?",
+   "tags": [
+    "§11.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Mood affects what but not how people think when making decisions."
+    },
+    {
+     "id": "b",
+     "text": "Mood affects what and how people think when making decisions."
+    },
+    {
+     "id": "c",
+     "text": "Only a positive mood has an affect on how people think when making decisions."
+    },
+    {
+     "id": "d",
+     "text": "Mood does not affect what or how people think when making decisions."
+    },
+    {
+     "id": "e",
+     "text": "Mood affects how but not what people think when making decisions."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Research shows **mood** affects both **what** people think (for instance what they remember and how they evaluate things) and **how** they think (shortcut versus systematic strategies)."
+  },
+  {
+   "id": "tb11-q050",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Mood and Decisions",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q50"
+   },
+   "prompt": "What is most likely to lead one to adopt a simplified, short-cut decision-making strategy that is likely to violate the rational model?",
+   "tags": [
+    "§11.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A positive emotion."
+    },
+    {
+     "id": "b",
+     "text": "A negative emotion."
+    },
+    {
+     "id": "c",
+     "text": "A positive mood."
+    },
+    {
+     "id": "d",
+     "text": "The lack of emotion."
+    },
+    {
+     "id": "e",
+     "text": "A negative mood."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "People in a good **mood** adopt simplified, shortcut strategies that more likely violate the rational model. Those in a negative mood tend to be more deliberate and systematic; the text makes this point about mood, not strong emotion."
+  },
+  {
+   "id": "tb11-q051",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Decision Making Definition",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q51"
+   },
+   "prompt": "What three things are noteworthy about the definition of decision making?",
+   "tags": [
+    "§11.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "choice, problem, and resources"
+    },
+    {
+     "id": "b",
+     "text": "choice, problem, and program"
+    },
+    {
+     "id": "c",
+     "text": "choice, problem, and process"
+    },
+    {
+     "id": "d",
+     "text": "problem, process, and resources"
+    },
+    {
+     "id": "e",
+     "text": "choice, process, and resources"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "The definition of **decision making** stresses a **choice** among alternatives, a **process** (not just the final choice) and **commitment** of resources such as time, money or personnel. \"Problem\" and \"program\" are not among the three."
+  },
+  {
+   "id": "tb11-q053",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Herbert Simon",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q53"
+   },
+   "prompt": "What did Nobel Prize winner Herbert Simon recognize?",
+   "tags": [
+    "§11.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "the perfectly rational characteristics of Economic Person do not exist in real decision makers"
+    },
+    {
+     "id": "b",
+     "text": "the existence of groupthink"
+    },
+    {
+     "id": "c",
+     "text": "the characteristics of Economic Person"
+    },
+    {
+     "id": "d",
+     "text": "the usefulness of programmed decision making"
+    },
+    {
+     "id": "e",
+     "text": "the usefulness of nonprogrammed decision making"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "**Herbert Simon** recognized that the perfectly rational traits of Economic Person do not exist in real decision makers, and proposed **bounded rationality** as the realistic alternative."
+  },
+  {
+   "id": "tb11-q054",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Bounded Rationality",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q54"
+   },
+   "prompt": "The following illustrate the operation of bounded rationality except",
+   "tags": [
+    "§11.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "political considerations"
+    },
+    {
+     "id": "b",
+     "text": "emotions and moods"
+    },
+    {
+     "id": "c",
+     "text": "framing"
+    },
+    {
+     "id": "d",
+     "text": "cognitive biases"
+    },
+    {
+     "id": "e",
+     "text": "maximization"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "**Maximization** is what perfectly rational decision makers do. Political considerations, emotions and mood, framing and cognitive biases all illustrate bounded rationality."
+  },
+  {
+   "id": "tb11-q055",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Programmed Decision Problems",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 11 · Q55"
+   },
+   "prompt": "You have just applied for a job and when completing the application form you were surprised to see questions about your age and marital status. Such questions would seem to violate equal employment and human rights legislation and not likely to be related to the job. It made you wonder why a company would ask these questions. What is a good explanation for this?",
+   "tags": [
+    "§11.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "cognitive biases"
+    },
+    {
+     "id": "b",
+     "text": "difficulties of programmed decision making"
+    },
+    {
+     "id": "c",
+     "text": "difficulties of nonprogrammed decision making"
+    },
+    {
+     "id": "d",
+     "text": "bounded rationality"
+    },
+    {
+     "id": "e",
+     "text": "information overload"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "A **program** is only as good as the process that created it (\"garbage in, garbage out\"). A standardized form with questionable questions illustrates a difficulty of **programmed decision making**, not a bias in a single decision."
+  },
+  {
+   "id": "tb11-q056",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Ill-Structured Problems",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q56"
+   },
+   "prompt": "Which of the following is an example of an ill-structured problem?",
+   "tags": [
+    "§11.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Which of these 10 car loan applications should I approve?"
+    },
+    {
+     "id": "b",
+     "text": "How much weight should I carry?"
+    },
+    {
+     "id": "c",
+     "text": "In which part of the country should we build a new plant?"
+    },
+    {
+     "id": "d",
+     "text": "How much assistance should this client receive?"
+    },
+    {
+     "id": "e",
+     "text": "all of the above"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": false,
+   "explanation": "Choosing where to build a new plant is unique, complex and uncertain, so it is an **ill-structured problem**. Loan approvals and standard assistance amounts are routine and well structured."
+  },
+  {
+   "id": "tb11-q057",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Problem Identification Errors",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q57"
+   },
+   "prompt": "The following are difficulties that can result from bounded rationality in problem identification except",
+   "tags": [
+    "§11.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "problem diagnosed in terms of symptoms"
+    },
+    {
+     "id": "b",
+     "text": "perceptual defence"
+    },
+    {
+     "id": "c",
+     "text": "problem defined as ill-structured"
+    },
+    {
+     "id": "d",
+     "text": "problem defined in terms of solution"
+    },
+    {
+     "id": "e",
+     "text": "problem defined in terms of functional specialty"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "The text lists four problem-identification difficulties: perceptual defence, defining the problem by functional specialty, defining it by solution, and diagnosing it by symptoms. \"Defined as ill-structured\" is not one of them."
+  },
+  {
+   "id": "tb11-q058",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Problem Identification Errors",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 11 · Q58"
+   },
+   "prompt": "Sales at the Smelly Cheese Company had been down all year. Management met to try and identify the problem. The marketing manager which convinced that the problem was poor marketing. The manager of human resources believed the problem was employee motivation. What is the difficulty they are having?",
+   "tags": [
+    "§11.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "too little information"
+    },
+    {
+     "id": "b",
+     "text": "perceptual defence"
+    },
+    {
+     "id": "c",
+     "text": "problem defined in terms of solution"
+    },
+    {
+     "id": "d",
+     "text": "problem defined in terms of functional specialty"
+    },
+    {
+     "id": "e",
+     "text": "problem diagnosed in terms of symptoms"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Each manager sees the sales problem through their own specialty (marketing versus human resources): **problem defined in terms of functional specialty**. Diagnosing by symptoms would mean stopping at a surface label like \"low morale\"."
+  },
+  {
+   "id": "tb11-q059",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Problem Identification Errors",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q59"
+   },
+   "prompt": "When Thelma's boss said, \"What we have here is a morale problem\" what was she doing?",
+   "tags": [
+    "§11.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "confirmation bias"
+    },
+    {
+     "id": "b",
+     "text": "hindsight"
+    },
+    {
+     "id": "c",
+     "text": "defining a problem in terms of solution"
+    },
+    {
+     "id": "d",
+     "text": "defining a problem in terms of functional specialty"
+    },
+    {
+     "id": "e",
+     "text": "diagnosing a problem in terms of symptoms"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "\"We have a morale problem\" names a surface symptom without addressing its cause: **problem diagnosed in terms of symptoms**. Low morale from poor pay and from boring work call for different solutions."
+  },
+  {
+   "id": "tb11-q060",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Confirmation Bias",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q60"
+   },
+   "prompt": "Which of the following is a cognitive bias that contributes to decision makers failure to acquire enough information to make a good decision?",
+   "tags": [
+    "§11.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "perceptual defence"
+    },
+    {
+     "id": "b",
+     "text": "anchoring effect"
+    },
+    {
+     "id": "c",
+     "text": "satisficing"
+    },
+    {
+     "id": "d",
+     "text": "confirmation bias"
+    },
+    {
+     "id": "e",
+     "text": "hindsight"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "**Confirmation bias** (seeking only information that fits your own view) leads to too little information, along with availability, overconfidence and not-invented-here bias. Anchoring and satisficing arise later, when evaluating alternatives."
+  },
+  {
+   "id": "tb11-q061",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Statistical Biases",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q61"
+   },
+   "prompt": "Decision makers violate statistical principles at what stage of the decision making process?",
+   "tags": [
+    "§11.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "solution evaluation"
+    },
+    {
+     "id": "b",
+     "text": "alternative development, evaluation, and choice"
+    },
+    {
+     "id": "c",
+     "text": "information search"
+    },
+    {
+     "id": "d",
+     "text": "solution implementation"
+    },
+    {
+     "id": "e",
+     "text": "problem identification"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "People violate statistical principles (ignoring base rates and sample size, anchoring) during **alternative development, evaluation and choice**, because they are weak intuitive statisticians."
+  },
+  {
+   "id": "tb11-q062",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Base Rates",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 11 · Q62",
+    "note": "Typo fixed."
+   },
+   "prompt": "After graduating from university you are planning to get a job as an accountant. Your best friend Jay is planning on opening his own restaurant. He says he has thought a great deal about this and believes he will be very successful and that it is a good decision. You explain to him that most new restaurants fail, but this fact does not factor into Jay's decision. What does this demonstrate?",
+   "tags": [
+    "§11.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "perceptual defence"
+    },
+    {
+     "id": "b",
+     "text": "sunk costs"
+    },
+    {
+     "id": "c",
+     "text": "hindsight"
+    },
+    {
+     "id": "d",
+     "text": "anchoring effect"
+    },
+    {
+     "id": "e",
+     "text": "base rates"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Ignoring the known high failure rate of new restaurants is the **base-rate** bias: people avoid incorporating existing data about how likely events are. Jay's overconfidence also helps explain his stance."
+  },
+  {
+   "id": "tb11-q063",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Satisficing",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 11 · Q63"
+   },
+   "prompt": "Absenteeism has become a problem at the Smelly Cheese Company so the human resource manager has decided to do something about it. He has decided to choose the first solution he comes across that will get the level to what it was in the previous year. What is this an example of?",
+   "tags": [
+    "§11.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "anchoring effect"
+    },
+    {
+     "id": "b",
+     "text": "framing"
+    },
+    {
+     "id": "c",
+     "text": "confirmation bias"
+    },
+    {
+     "id": "d",
+     "text": "satisficing"
+    },
+    {
+     "id": "e",
+     "text": "sunk costs"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Taking the first solution that reaches an acceptable level (last year's absenteeism rate) is **satisficing**, not maximizing. Anchoring would be adjusting too little from an initial estimate."
+  },
+  {
+   "id": "tb11-q064",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Framing and Risk",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q64",
+    "note": "Updated to the 12th edition: it presents this framing result as general research (Bazerman's lawsuit example) without crediting Kahneman and Tversky."
+   },
+   "prompt": "Research shows that",
+   "tags": [
+    "§11.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "when people view a problem as a choice between gains, they tend to make risky decisions"
+    },
+    {
+     "id": "b",
+     "text": "when people view a problem as a choice between losses, they tend to make poor decisions"
+    },
+    {
+     "id": "c",
+     "text": "when people view a problem as a choice between losses, they tend to make better decisions"
+    },
+    {
+     "id": "d",
+     "text": "when people view a problem as a choice between losses, they tend to make risky decisions"
+    },
+    {
+     "id": "e",
+     "text": "when people view a problem as a choice between losses, they tend to make conservative decisions"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Framing a problem as a choice between **losses** makes people take risky decisions, \"rolling the dice\" to avoid a sure loss. Framing alternatives as gains makes them conservative."
+  },
+  {
+   "id": "tb11-q065",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Personality and Escalation",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q65"
+   },
+   "prompt": "Which of the following accurately depicts the relationship between personality and escalation?",
+   "tags": [
+    "§11.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "people high on neuroticism and low on negative affectivity are less likely to escalate"
+    },
+    {
+     "id": "b",
+     "text": "people low on neuroticism and high on negative affectivity are more likely to escalate"
+    },
+    {
+     "id": "c",
+     "text": "people high on neuroticism and high on negative affectivity are more likely to escalate"
+    },
+    {
+     "id": "d",
+     "text": "people high on neuroticism and high on negative affectivity are less likely to escalate"
+    },
+    {
+     "id": "e",
+     "text": "people high on neuroticism and low on negative affectivity are more likely to escalate"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "People high on **neuroticism** and **negative affectivity** are *less* likely to escalate, because they try to avoid stressful predicaments."
+  },
+  {
+   "id": "tb11-q066",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Faulty Hindsight",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 11 · Q66"
+   },
+   "prompt": "You and a friend have decided to study for your final exams together. However, time to study for your organizational behaviour exam is running out. Your friend persuades you to only study only the first five of the ten chapters to be covered on the exam. When you get to the exam you quickly read through all of the questions and are surprised to see that in fact the majority of the questions are from the first five chapters you studied. You and your friend both receive very good grades on the exam. Your friend never misses an opportunity to remind you how smart it was to only study the first five chapters. What is this an example of?",
+   "tags": [
+    "§11.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "anchoring effect"
+    },
+    {
+     "id": "b",
+     "text": "hindsight"
+    },
+    {
+     "id": "c",
+     "text": "framing"
+    },
+    {
+     "id": "d",
+     "text": "confirmation bias"
+    },
+    {
+     "id": "e",
+     "text": "escalation of commitment"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Your friend takes credit for a successful outcome and acts as if it had been obvious all along: **faulty hindsight**. Confirmation bias would be seeking out only information that supports your plan."
+  },
+  {
+   "id": "tb11-q067",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Decision Failure Rate",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q67"
+   },
+   "prompt": "A study of 356 decisions in medium and large organizations in the United States and Canada found that __________ of the decisions made in organizations fail.",
+   "tags": [
+    "§11.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "one third"
+    },
+    {
+     "id": "b",
+     "text": "over 50 percent"
+    },
+    {
+     "id": "c",
+     "text": "one quarter"
+    },
+    {
+     "id": "d",
+     "text": "10 percent"
+    },
+    {
+     "id": "e",
+     "text": "half"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "A study of 356 decisions in medium to large organizations found that **half** failed, mainly because managers imposed solutions, limited the search for alternatives and used power to implement their plans."
+  },
+  {
+   "id": "tb11-q068",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Brainstorming",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q68"
+   },
+   "prompt": "What does brainstorming focus on?",
+   "tags": [
+    "§11.7",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "the generation of ideas by individuals and evaluation of the ideas by groups"
+    },
+    {
+     "id": "b",
+     "text": "the generation of ideas rather than the evaluation of ideas"
+    },
+    {
+     "id": "c",
+     "text": "the generation and evaluation of ideas"
+    },
+    {
+     "id": "d",
+     "text": "the evaluation of ideas rather than the generation of ideas"
+    },
+    {
+     "id": "e",
+     "text": "the generation of ideas by groups and the evaluation of the ideas by individuals"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Older editions define **brainstorming** as a technique focused on generating ideas while withholding evaluation. It is not covered in the 12th edition chapter.",
+   "scopeNote": "Written for an older edition: The 12th edition chapter no longer covers brainstorming, the nominal group technique, the Delphi technique or electronic brainstorming."
+  },
+  {
+   "id": "tb11-q069",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Brainstorming and NGT",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q69"
+   },
+   "prompt": "What does brainstorming and the nominal group technique (NGT) focus on?",
+   "tags": [
+    "§11.7",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "brainstorming and NGT focus on the evaluation of ideas"
+    },
+    {
+     "id": "b",
+     "text": "brainstorming focuses on the generation of ideas; NGT focuses on the evaluation of ideas"
+    },
+    {
+     "id": "c",
+     "text": "brainstorming focuses on the generation of ideas; NGT focuses on the generation and evaluation of ideas"
+    },
+    {
+     "id": "d",
+     "text": "brainstorming and NGT focus on the generation of ideas"
+    },
+    {
+     "id": "e",
+     "text": "brainstorming and NGT focus on the generation and evaluation of ideas"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Older editions say **brainstorming** is for idea generation only, while the **nominal group technique** covers generation and evaluation. Neither is covered in the 12th edition chapter.",
+   "scopeNote": "Written for an older edition: The 12th edition chapter no longer covers brainstorming, the nominal group technique, the Delphi technique or electronic brainstorming."
+  },
+  {
+   "id": "tb11-q070",
+   "type": "mc",
+   "unit": 11,
+   "topic": "NGT and Delphi",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q70"
+   },
+   "prompt": "Which of the following best describes the nominal group technique (NGT) and the Delphi technique?",
+   "tags": [
+    "§11.7",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "participants engage in face-to-face interaction in both"
+    },
+    {
+     "id": "b",
+     "text": "participants do not engage in face-to-face interaction in both"
+    },
+    {
+     "id": "c",
+     "text": "participants engage in face-to-face interaction in the Delphi technique but not the NGT"
+    },
+    {
+     "id": "d",
+     "text": "participants engage in face-to-face interaction for idea generation but not evaluation in both"
+    },
+    {
+     "id": "e",
+     "text": "participants engage in face-to-face interaction in the NGT but not the Delphi technique"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Older editions say the **nominal group technique** has members meet face-to-face, whereas the **Delphi technique** does not. Neither is covered in the 12th edition chapter.",
+   "scopeNote": "Written for an older edition: The 12th edition chapter no longer covers brainstorming, the nominal group technique, the Delphi technique or electronic brainstorming."
+  },
+  {
+   "id": "tb11-q071",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Electronic Brainstorming",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q71"
+   },
+   "prompt": "Which of the following represents the effectiveness of electronic brainstorming groups?",
+   "tags": [
+    "§11.7",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "once over the size of two members, electronic brainstorming groups perform better than face-to-face groups in terms of quantity but not quality of ideas"
+    },
+    {
+     "id": "b",
+     "text": "once over the size of two members, electronic brainstorming groups perform worse than face-to-face groups in terms of quantity but not quality of ideas"
+    },
+    {
+     "id": "c",
+     "text": "once over the size of two members, electronic brainstorming groups perform better than face-to-face groups in terms of both quantity and quality of ideas"
+    },
+    {
+     "id": "d",
+     "text": "once over the size of two members, electronic brainstorming groups perform the same as face-to-face groups in terms of both the quantity and quality of ideas"
+    },
+    {
+     "id": "e",
+     "text": "once over the size of two members, electronic brainstorming groups perform better than face-to-face groups in terms of quality but not quantity of ideas"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": false,
+   "explanation": "Older editions report electronic brainstorming groups beating face-to-face groups on both quantity and quality of ideas once past a small size. It is not covered in the 12th edition chapter.",
+   "scopeNote": "Written for an older edition: The 12th edition chapter no longer covers brainstorming, the nominal group technique, the Delphi technique or electronic brainstorming."
+  },
+  {
+   "id": "tb11-q072",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Electronic Brainstorming",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q72"
+   },
+   "prompt": "Which of the following is most accurate about electronic brainstorming groups?",
+   "tags": [
+    "§11.7",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "as they get larger, they tend to produce more ideas, but the ideas-per-person remains stable"
+    },
+    {
+     "id": "b",
+     "text": "as they get larger, they tend to produce less ideas and the ideas-per-person remains stable"
+    },
+    {
+     "id": "c",
+     "text": "as they get larger, they tend to produce more ideas, and the ideas-per-person increases"
+    },
+    {
+     "id": "d",
+     "text": "as they get larger, they tend to produce more ideas, but the ideas-per-person decreases"
+    },
+    {
+     "id": "e",
+     "text": "as they get larger, they tend to produce less ideas, and the ideas-per-person decreases"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Older editions say larger electronic brainstorming groups produce more ideas in total while ideas per person stay stable. It is not covered in the 12th edition chapter.",
+   "scopeNote": "Written for an older edition: The 12th edition chapter no longer covers brainstorming, the nominal group technique, the Delphi technique or electronic brainstorming."
+  },
+  {
+   "id": "tb11-q073",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Faulty Hindsight",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q73"
+   },
+   "prompt": "The knew-it-all-along effect is an example of faulty hindsight.",
+   "tags": [
+    "§11.4"
+   ],
+   "answer": true,
+   "explanation": "The **knew-it-all-along effect** is the tendency to assume after the fact that we knew the outcome all along, which is a form of faulty **hindsight**."
+  },
+  {
+   "id": "tb11-q074",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Perfect Rationality",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q74"
+   },
+   "prompt": "The perfectly rational decision-maker tends to satisfice.",
+   "tags": [
+    "§11.2"
+   ],
+   "answer": false,
+   "explanation": "Perfectly rational decision makers **maximize**; it is decision makers under **bounded rationality** who satisfice. Corrected: the perfectly rational decision maker maximizes."
+  },
+  {
+   "id": "tb11-q075",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Escalation and Sunk Costs",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q75"
+   },
+   "prompt": "Escalation of commitment to a losing course of action could be an example of the improper treatment of sunk costs.",
+   "tags": [
+    "§11.4"
+   ],
+   "answer": true,
+   "explanation": "Escalation of commitment is the irrational handling of **sunk costs**: people keep investing in a failing course of action as though they could recoup what is already lost."
+  },
+  {
+   "id": "tb11-q076",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Group Decision Quality",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q76"
+   },
+   "prompt": "Individual decision making generally results in higher quality decisions than group decision-making.",
+   "tags": [
+    "§11.6",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "Groups usually produce more and better solutions than individuals working alone, given an appropriate problem. Corrected: group decision making generally yields higher-quality decisions, though it is slower.",
+   "scopeNote": "§11.6–11.7 (group decision making and contemporary issues) is on the final exam, not the midterm."
+  },
+  {
+   "id": "tb11-q077",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Devil's Advocate",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q77"
+   },
+   "prompt": "Devil's advocates are people who have a difficult time making a decision and sticking to it.",
+   "tags": [
+    "§11.6",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "A **devil's advocate** is appointed to identify and challenge the weaknesses of a proposed plan. It is not someone who cannot make up their mind.",
+   "scopeNote": "§11.6–11.7 (group decision making and contemporary issues) is on the final exam, not the midterm."
+  },
+  {
+   "id": "tb11-q078",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Delphi Technique",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q78"
+   },
+   "prompt": "The Delphi technique is a form of face-to-face group decision-making.",
+   "tags": [
+    "§11.7",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "The **Delphi technique** is not face-to-face: participants answer waves of questionnaires without meeting. It is not covered in the 12th edition chapter.",
+   "scopeNote": "Written for an older edition: The 12th edition chapter no longer covers brainstorming, the nominal group technique, the Delphi technique or electronic brainstorming."
+  },
+  {
+   "id": "tb11-q079",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Information Overload",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q79"
+   },
+   "prompt": "Although information overload damages decisions, decision-makers are usually eager to collect a large amount of information.",
+   "tags": [
+    "§11.2"
+   ],
+   "answer": true,
+   "explanation": "**Information overload** harms decisions, yet managers still tend to think more is better: more information raises confidence, and they fear being kept in the dark and associate information with power."
+  },
+  {
+   "id": "tb11-q080",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Programmed Decisions",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q80"
+   },
+   "prompt": "Programs should be used to solve ill-structured problems.",
+   "tags": [
+    "§11.1"
+   ],
+   "answer": false,
+   "explanation": "**Programs** are for well-structured, repetitive problems. Ill-structured problems are unique and call for non-programmed decision making. Corrected: programs should be used for well-structured problems."
+  },
+  {
+   "id": "tb11-q081",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Group Polarization",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q81"
+   },
+   "prompt": "Individuals who prefer a conservative solution to a problem will probably make an even more conservative decision when they meet as a group.",
+   "tags": [
+    "§11.6",
+    "out-of-scope"
+   ],
+   "answer": true,
+   "explanation": "Group discussion **polarizes** the initial position: members who lean conservative tend to end up even more conservative (a **conservative shift**), and risk-leaning members become more risky.",
+   "scopeNote": "§11.6–11.7 (group decision making and contemporary issues) is on the final exam, not the midterm."
+  },
+  {
+   "id": "tb11-q082",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Brainstorming",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q82"
+   },
+   "prompt": "Brainstorming groups are very effective in generating ideas compared to people working alone.",
+   "tags": [
+    "§11.7",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "Older editions report that face-to-face **brainstorming** groups generate fewer ideas than the same people working alone. It is not covered in the 12th edition chapter.",
+   "scopeNote": "Written for an older edition: The 12th edition chapter no longer covers brainstorming, the nominal group technique, the Delphi technique or electronic brainstorming."
+  },
+  {
+   "id": "tb11-q083",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Nominal Group Technique",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q83"
+   },
+   "prompt": "Participants in nominal decision-making groups actually meet face-to-face.",
+   "tags": [
+    "§11.7",
+    "out-of-scope"
+   ],
+   "answer": true,
+   "explanation": "In the **nominal group technique** members do meet face-to-face, though they first write ideas independently. It is not covered in the 12th edition chapter.",
+   "scopeNote": "Written for an older edition: The 12th edition chapter no longer covers brainstorming, the nominal group technique, the Delphi technique or electronic brainstorming."
+  },
+  {
+   "id": "tb11-q084",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Group Risk Taking",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q84"
+   },
+   "prompt": "Groups almost always make riskier decisions than individuals.",
+   "tags": [
+    "§11.6",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "Groups do not almost always take bigger risks: both **risky shifts** and **conservative shifts** occur, depending on members' initial positions. Corrected: groups can make riskier or more conservative decisions than individuals.",
+   "scopeNote": "§11.6–11.7 (group decision making and contemporary issues) is on the final exam, not the midterm."
+  },
+  {
+   "id": "tb11-q085",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Programs",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q85"
+   },
+   "prompt": "A rule is an example of a program for making a decision.",
+   "tags": [
+    "§11.1"
+   ],
+   "answer": true,
+   "explanation": "A **program** is a standardized way of solving a problem, and rules, routines and standard operating procedures are examples of programs."
+  },
+  {
+   "id": "tb11-q086",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Well-Structured Problems",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q86"
+   },
+   "prompt": "A characteristic of a well-structured problem is uncertainty.",
+   "tags": [
+    "§11.1"
+   ],
+   "answer": false,
+   "explanation": "**Well-structured problems** are repetitive and familiar, with clear existing and desired states and an obvious route between them. Uncertainty is a feature of ill-structured problems."
+  },
+  {
+   "id": "tb11-q087",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Ill-Structured Problems",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q87"
+   },
+   "prompt": "An ill-structured problem is one where the existing state is unclear and the desired state is clear.",
+   "tags": [
+    "§11.1"
+   ],
+   "answer": false,
+   "explanation": "In an **ill-structured problem** both the existing state and the desired state are unclear. Corrected: an ill-structured problem is one where the existing state and the desired state are unclear."
+  },
+  {
+   "id": "tb11-q088",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Groupthink",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q88"
+   },
+   "prompt": "Groupthink is a common phenomenon when groups are riddled with conflict and dissension.",
+   "tags": [
+    "§11.6",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "**Groupthink** stresses unanimity over quality, so it flourishes when there is a lack of controversy, not when a group is riddled with conflict. Corrected: groupthink is a danger when dissent is suppressed.",
+   "scopeNote": "§11.6–11.7 (group decision making and contemporary issues) is on the final exam, not the midterm."
+  },
+  {
+   "id": "tb11-q089",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Well-Structured Problems",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q89"
+   },
+   "prompt": "The existing and desired states of a well-structured problem are clear.",
+   "tags": [
+    "§11.1"
+   ],
+   "answer": true,
+   "explanation": "In a **well-structured problem** the existing state and the desired state are both clear, and how to get from one to the other is fairly obvious."
+  },
+  {
+   "id": "tb11-q090",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Programs",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q90"
+   },
+   "prompt": "Rules, routines, and rules of thumb are programmed solution techniques.",
+   "tags": [
+    "§11.1"
+   ],
+   "answer": true,
+   "explanation": "Rules, routines, standard operating procedures and rules of thumb are all labels for **programs**, the standardized solutions used for well-structured problems."
+  },
+  {
+   "id": "tb11-q091",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Risky Shift",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 11 · Q91"
+   },
+   "prompt": "As individuals, the five partners who own a business tend to favour a risky investment. When they meet as a group to discuss the investment, we can expect a less risky course of action to be adopted.",
+   "tags": [
+    "§11.6",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "Members who initially favour a risky investment will likely end up even riskier after discussion (a **risky shift**), not less risky. Discussion polarizes the initial position.",
+   "scopeNote": "§11.6–11.7 (group decision making and contemporary issues) is on the final exam, not the midterm."
+  },
+  {
+   "id": "tb11-q092",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Brainstorming",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q92"
+   },
+   "prompt": "Participation is equally distributed with regular brainstorming techniques.",
+   "tags": [
+    "§11.7",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "Older editions say participation is **unequal** in regular face-to-face brainstorming (some members dominate), while electronic systems even it out. It is not covered in the 12th edition chapter.",
+   "scopeNote": "Written for an older edition: The 12th edition chapter no longer covers brainstorming, the nominal group technique, the Delphi technique or electronic brainstorming."
+  },
+  {
+   "id": "tb11-q093",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Electronic Brainstorming",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q93"
+   },
+   "prompt": "Electronic brainstorming increases the number of ideas generated as group size increases.",
+   "tags": [
+    "§11.7",
+    "out-of-scope"
+   ],
+   "answer": true,
+   "explanation": "Older editions say **electronic brainstorming** produces more ideas as group size increases, because members do not block or inhibit one another. It is not covered in the 12th edition chapter.",
+   "scopeNote": "Written for an older edition: The 12th edition chapter no longer covers brainstorming, the nominal group technique, the Delphi technique or electronic brainstorming."
+  },
+  {
+   "id": "tb11-q094",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Groupthink Definition",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q94"
+   },
+   "prompt": "Groupthink is defined as the tendency for a group to reach a unanimous decision.",
+   "tags": [
+    "§11.6",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "**Groupthink** is the capacity of group pressure to damage a decision-making group's mental efficiency, reality testing and moral judgment. Unanimity is stressed over quality, but reaching unanimity is not the definition.",
+   "scopeNote": "§11.6–11.7 (group decision making and contemporary issues) is on the final exam, not the midterm."
+  },
+  {
+   "id": "tb11-q095",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Escalation of Commitment",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q95"
+   },
+   "prompt": "Escalation of commitment refers to committing more and more resources to a failing course of action.",
+   "tags": [
+    "§11.4"
+   ],
+   "answer": true,
+   "explanation": "**Escalation of commitment** is the tendency to invest additional resources in an apparently failing course of action."
+  },
+  {
+   "id": "tb11-q096",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Sunk Costs",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q96"
+   },
+   "prompt": "Sunk costs refer to resources that were knowingly committed to a failing course of action.",
+   "tags": [
+    "§11.4"
+   ],
+   "answer": false,
+   "explanation": "**Sunk costs** are permanent losses of resources incurred as the result of a decision. They are not defined by knowingly pursuing a failing course of action."
+  },
+  {
+   "id": "tb11-q097",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Risky Shift",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 11 · Q97"
+   },
+   "prompt": "Sally tended to make a more risky decision about investing in her small business after reading an article in Fortune. This is an example of the risky shift phenomenon.",
+   "tags": [
+    "§11.6",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "A **risky shift** is a *group* deciding on a riskier option than members' average initial position after discussing it. One person becoming bolder after reading an article is an individual change, not a shift.",
+   "scopeNote": "§11.6–11.7 (group decision making and contemporary issues) is on the final exam, not the midterm."
+  },
+  {
+   "id": "tb11-q098",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Programmed Decisions",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q98"
+   },
+   "prompt": "Both ill-structured and well-structured problems can be solved with programmed problem solving methods.",
+   "tags": [
+    "§11.1"
+   ],
+   "answer": false,
+   "explanation": "Only **well-structured** problems can be handled with programs. Ill-structured problems are unique and need non-programmed decision making."
+  },
+  {
+   "id": "tb11-q099",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Satisficing",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q99"
+   },
+   "prompt": "Satisficing refers to making the best possible decision that can be made.",
+   "tags": [
+    "§11.2"
+   ],
+   "answer": false,
+   "explanation": "**Satisficing** means setting an adequate level of acceptability and taking the first solution that exceeds it, not finding the best possible one (that is maximizing)."
+  },
+  {
+   "id": "tb11-q100",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Diffusion of Responsibility",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q100"
+   },
+   "prompt": "Tom excused his poor judgment in choosing the wording for the contract by saying that he was under medication for an ulcer at the time. This is an example of diffusion of responsibility.",
+   "tags": [
+    "§11.6",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "Blaming his medication is an individual excuse. **Diffusion of responsibility** means group members share the burden of a poor decision so no one person is singled out.",
+   "scopeNote": "§11.6–11.7 (group decision making and contemporary issues) is on the final exam, not the midterm."
+  },
+  {
+   "id": "tb11-q101",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Delphi and NGT",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q101"
+   },
+   "prompt": "The decision process using the Delphi technique will normally require more time than using the nominal group technique (NGT).",
+   "tags": [
+    "§11.7",
+    "out-of-scope"
+   ],
+   "answer": true,
+   "explanation": "Older editions say the **Delphi technique** takes longer than the **nominal group technique** because of its several rounds of questionnaires. Neither is covered in the 12th edition chapter.",
+   "scopeNote": "Written for an older edition: The 12th edition chapter no longer covers brainstorming, the nominal group technique, the Delphi technique or electronic brainstorming."
+  },
+  {
+   "id": "tb11-q102",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Devil's Advocate",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q102"
+   },
+   "prompt": "Appointing a devil's advocate might be a way to prevent groupthink from occurring in a decision-making group.",
+   "tags": [
+    "§11.6",
+    "out-of-scope"
+   ],
+   "answer": true,
+   "explanation": "A **devil's advocate** stimulates controversy by challenging the plan's weaknesses. Lack of controversy partly causes **groupthink**, so the role can help prevent it, alongside rewarding dissent and consulting outside experts.",
+   "scopeNote": "§11.6–11.7 (group decision making and contemporary issues) is on the final exam, not the midterm."
+  },
+  {
+   "id": "tb11-q103",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Mood and Decisions",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q103"
+   },
+   "prompt": "Mood affects what and how people think when making decisions.",
+   "tags": [
+    "§11.5"
+   ],
+   "answer": true,
+   "explanation": "Research shows **mood** affects both what people think and how they think when making decisions."
+  },
+  {
+   "id": "tb11-q104",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Mood and Memory",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q104"
+   },
+   "prompt": "People in a positive and negative mood tend to remember positive information.",
+   "tags": [
+    "§11.5"
+   ],
+   "answer": false,
+   "explanation": "Mood-congruent memory: people in a positive mood remember positive information, whereas those in a negative mood remember negative information. Corrected: positive mood goes with positive recall, negative with negative."
+  },
+  {
+   "id": "tb11-q105",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Mood and Evaluation",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q105"
+   },
+   "prompt": "People in a positive mood tend to evaluate objects, people, and events more positively.",
+   "tags": [
+    "§11.5"
+   ],
+   "answer": true,
+   "explanation": "People in a positive **mood** evaluate objects, people and events more positively, while those in a negative mood evaluate them more negatively."
+  },
+  {
+   "id": "tb11-q106",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Mood and Optimism",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q106"
+   },
+   "prompt": "People in a good mood tend to overestimate the likelihood that good events will occur and underestimate the occurrence of bad events.",
+   "tags": [
+    "§11.5"
+   ],
+   "answer": true,
+   "explanation": "People in a good **mood** overestimate the likelihood of good events and underestimate bad ones; people in a bad mood do the opposite."
+  },
+  {
+   "id": "tb11-q107",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Mood and Decision Style",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q107"
+   },
+   "prompt": "People in a good mood approach decisions in a deliberate, systematic, detailed way.",
+   "tags": [
+    "§11.5"
+   ],
+   "answer": false,
+   "explanation": "People in a good **mood** adopt simplified, shortcut strategies; it is those in a negative mood who approach decisions in a more deliberate, systematic, detailed way."
+  },
+  {
+   "id": "tb11-q108",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Mood and Creativity",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q108"
+   },
+   "prompt": "A negative mood promotes more creative, intuitive decision making.",
+   "tags": [
+    "§11.5"
+   ],
+   "answer": false,
+   "explanation": "It is a **positive** mood that promotes more creative, intuitive decision making. Corrected: a positive mood promotes creative, intuitive decisions."
+  },
+  {
+   "id": "tb11-q109",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Mood and Decisions",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q109"
+   },
+   "prompt": "The impact of mood on decision making is usually dysfunctional.",
+   "tags": [
+    "§11.5"
+   ],
+   "answer": false,
+   "explanation": "The impact of **mood** is not necessarily dysfunctional: a good mood can foster creative decisions and a bad mood more careful processing, provided the excesses of optimism or pessimism are controlled."
+  },
+  {
+   "id": "tb11-q110",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Well-Structured Problems",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q110"
+   },
+   "prompt": "Many of the problems encountered in organizations are well structured.",
+   "tags": [
+    "§11.1"
+   ],
+   "answer": true,
+   "explanation": "Organizations face many routine, repetitive, **well-structured** problems, which is why they develop programs for them. The chapter concentrates on ill-structured problems because they are harder."
+  },
+  {
+   "id": "tb11-q111",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Ill-Structured Problems",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q111"
+   },
+   "prompt": "Ill-structured problems can entail high risk and stimulate political considerations.",
+   "tags": [
+    "§11.1"
+   ],
+   "answer": true,
+   "explanation": "**Ill-structured problems** can entail high risk and stimulate strong political considerations, as seen in the Phoenix payroll case."
+  },
+  {
+   "id": "tb11-q112",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Economic Person",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q112"
+   },
+   "prompt": "The perfectly rational characteristics embodied in Economic Persons exist in very few decision makers.",
+   "tags": [
+    "§11.2"
+   ],
+   "answer": false,
+   "explanation": "The perfectly rational traits of **Economic Person** do not exist in real decision makers at all, not just in \"very few\". That is why managers work under **bounded rationality**."
+  },
+  {
+   "id": "tb11-q113",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Confirmation Bias",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q113"
+   },
+   "prompt": "Confirmation bias occurs during problem identification.",
+   "tags": [
+    "§11.3"
+   ],
+   "answer": false,
+   "explanation": "**Confirmation bias** (seeking information that fits your own view) appears at the **information search** stage. Problem-identification difficulties include perceptual defence and defining the problem by specialty or solution."
+  },
+  {
+   "id": "tb11-q114",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Information Overload",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q114"
+   },
+   "prompt": "Too little information can damage the quality of decisions but you can never have too much information for making a decision.",
+   "tags": [
+    "§11.2"
+   ],
+   "answer": false,
+   "explanation": "Too little information hurts decisions, but so does too much: **information overload** leads to errors, omissions, delays and cutting corners. Corrected: you can have too much information."
+  },
+  {
+   "id": "tb11-q115",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Information Overload",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q115"
+   },
+   "prompt": "Decision makers know that more information is not always better.",
+   "tags": [
+    "§11.2"
+   ],
+   "answer": false,
+   "explanation": "Decision makers tend to think more information is better, even when it is not. Corrected: decision makers often believe more information is always better, though **information overload** damages quality."
+  },
+  {
+   "id": "tb11-q116",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Framing and Risk",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q116"
+   },
+   "prompt": "When people view a problem as a choice between losses, they tend to make conservative decisions.",
+   "tags": [
+    "§11.3"
+   ],
+   "answer": false,
+   "explanation": "When people view a problem as a choice between **losses**, they tend to make *risky* decisions. Corrected: loss framing leads to risk taking; gain framing leads to conservative choices."
+  },
+  {
+   "id": "tb11-q117",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Framing and Risk",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q117"
+   },
+   "prompt": "When people frame the alternatives as a choice between gains, they tend to make conservative decisions.",
+   "tags": [
+    "§11.3"
+   ],
+   "answer": true,
+   "explanation": "When alternatives are framed as a choice between **gains**, people protect the sure win and make conservative decisions."
+  },
+  {
+   "id": "tb11-q118",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Escalation of Commitment",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q118"
+   },
+   "prompt": "Escalation of commitment only happens when the current decision maker is responsible for the previous sunk costs.",
+   "tags": [
+    "§11.4"
+   ],
+   "answer": false,
+   "explanation": "**Escalation** can occur even when the current decision maker is not responsible for the previous sunk costs (for example a politician continuing a predecessor's project). Corrected: it can also happen when someone else began the course of action."
+  },
+  {
+   "id": "tb11-q119",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Escalation of Commitment",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q119"
+   },
+   "prompt": "Escalation can occur in both competitive and noncompetitive situations.",
+   "tags": [
+    "§11.4"
+   ],
+   "answer": true,
+   "explanation": "**Escalation** can occur in both competitive situations (auction-like bidding, wars) and non-competitive ones (such as overvalued stocks before a market crash)."
+  },
+  {
+   "id": "tb11-q120",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Personality and Escalation",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q120"
+   },
+   "prompt": "People high on neuroticism and negative affectivity are more likely to escalate.",
+   "tags": [
+    "§11.4"
+   ],
+   "answer": false,
+   "explanation": "People high on **neuroticism** and negative affectivity are *less* likely to escalate because they try to avoid stressful predicaments. Corrected: they are less likely to escalate."
+  },
+  {
+   "id": "tb11-q121",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Escalation in Groups",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q121"
+   },
+   "prompt": "Individuals are more prone than groups to escalate commitment.",
+   "tags": [
+    "§11.4"
+   ],
+   "answer": false,
+   "explanation": "Groups are *more* prone than individuals to **escalate commitment**, so using a group does not cure the tendency. Corrected: groups are more prone to escalate than individuals."
+  },
+  {
+   "id": "tb11-q122",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Decision Failure Rate",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q122"
+   },
+   "prompt": "A study of 356 decisions in medium to large organizations in the United States and Canada found that half the decisions made in organizations fail.",
+   "tags": [
+    "§11.5"
+   ],
+   "answer": true,
+   "explanation": "A study of 356 decisions in medium to large organizations found that **half** of them failed, mainly due to poor tactics such as imposing solutions and limiting the search for alternatives."
+  },
+  {
+   "id": "tb11-q123",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Brainstorming",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q123"
+   },
+   "prompt": "Brainstorming was originally conceived as a group technique.",
+   "tags": [
+    "§11.7",
+    "out-of-scope"
+   ],
+   "answer": true,
+   "explanation": "Older editions note that **brainstorming** was originally conceived as a group technique. It is not covered in the 12th edition chapter.",
+   "scopeNote": "Written for an older edition: The 12th edition chapter no longer covers brainstorming, the nominal group technique, the Delphi technique or electronic brainstorming."
+  },
+  {
+   "id": "tb11-q124",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Brainstorming",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q124"
+   },
+   "prompt": "Individuals working alone generate more ideas than when in groups.",
+   "tags": [
+    "§11.7",
+    "out-of-scope"
+   ],
+   "answer": true,
+   "explanation": "Older editions report that individuals working alone generate more ideas than the same people in face-to-face groups. It is not covered in the 12th edition chapter.",
+   "scopeNote": "Written for an older edition: The 12th edition chapter no longer covers brainstorming, the nominal group technique, the Delphi technique or electronic brainstorming."
+  },
+  {
+   "id": "tb11-q125",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Brainstorming",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q125"
+   },
+   "prompt": "Four people working independently will usually generate less ideas than the same people working as a team.",
+   "tags": [
+    "§11.7",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "Older editions report that individuals working independently generate *more* ideas than the same people working as a team. It is not covered in the 12th edition chapter.",
+   "scopeNote": "Written for an older edition: The 12th edition chapter no longer covers brainstorming, the nominal group technique, the Delphi technique or electronic brainstorming."
+  },
+  {
+   "id": "tb11-q126",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Brainstorming",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q126"
+   },
+   "prompt": "Face-to-face interaction usually reduces individual brainstorming performance.",
+   "tags": [
+    "§11.7",
+    "out-of-scope"
+   ],
+   "answer": true,
+   "explanation": "Older editions say face-to-face interaction hurts brainstorming performance (production blocking, evaluation apprehension). It is not covered in the 12th edition chapter.",
+   "scopeNote": "Written for an older edition: The 12th edition chapter no longer covers brainstorming, the nominal group technique, the Delphi technique or electronic brainstorming."
+  },
+  {
+   "id": "tb11-q127",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Brainstorming",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 11 · Q127"
+   },
+   "prompt": "As face-to-face brainstorming groups get bigger, fewer and fewer ideas per person are generated.",
+   "tags": [
+    "§11.7",
+    "out-of-scope"
+   ],
+   "answer": true,
+   "explanation": "Older editions say bigger face-to-face brainstorming groups produce fewer ideas per person. It is not covered in the 12th edition chapter.",
+   "scopeNote": "Written for an older edition: The 12th edition chapter no longer covers brainstorming, the nominal group technique, the Delphi technique or electronic brainstorming."
+  },
+  {
+   "id": "tb11-q128",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Electronic Brainstorming",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q128"
+   },
+   "prompt": "Some organizations have done electronic brainstorming with up to 50-member groups.",
+   "tags": [
+    "§11.7",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "Older editions cite electronic brainstorming sessions with large groups. The 12th edition does not cover electronic brainstorming at all.",
+   "scopeNote": "Written for an older edition: The 12th edition chapter no longer covers brainstorming, the nominal group technique, the Delphi technique or electronic brainstorming."
+  },
+  {
+   "id": "tb11-q129",
+   "type": "tf",
+   "unit": 11,
+   "topic": "Nominal Group Technique",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 11 · Q129"
+   },
+   "prompt": "The nominal group technique is concerned with the generation and evaluation of ideas.",
+   "tags": [
+    "§11.7",
+    "out-of-scope"
+   ],
+   "answer": true,
+   "explanation": "Older editions say the **nominal group technique** handles both generating and evaluating ideas. It is not covered in the 12th edition chapter.",
+   "scopeNote": "Written for an older edition: The 12th edition chapter no longer covers brainstorming, the nominal group technique, the Delphi technique or electronic brainstorming."
+  }
+ ]
+}

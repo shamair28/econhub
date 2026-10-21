@@ -71,6 +71,12 @@ window.HUB_SITE = {
       ],
       tools: [
         {
+          href: '/1BA3/midterm', icon: '✎', kind: 'Practice test',
+          title: 'Midterm Practice',
+          desc: 'Ch. 1–6, 10, 11.1–11.5 · chapter test-bank questions re-checked against the 12th edition + SME self-quiz · timed exam mode',
+          chapters: [1, 2, 3, 4, 5, 6, 10, 11]
+        },
+        {
           href: '/1BA3/sme', icon: '★', kind: 'Assignment prep',
           title: 'Group Assignment SME Prep',
           short: 'SME Prep',
@@ -108,7 +114,7 @@ window.HUB_SITE = {
   events: [
     { course: '1BB3', title: 'Term Test 1', start: '2026-09-26T09:00', end: '2026-09-26T10:00', scope: 'Ch. 1–3', tool: '/1BB3/test1' },
     { course: '1B03', title: 'Midterm Test 1', start: '2026-10-03T12:30', scope: 'Units 1–4 (Ch. 1–4)', tool: '/1B03/midterm1' },
-    { course: '1BA3', title: 'Midterm', start: '2026-10-29T19:30', end: '2026-10-29T21:30', scope: 'Ch. 1–6, 10, 11.1–11.5' },
+    { course: '1BA3', title: 'Midterm', start: '2026-10-29T19:30', end: '2026-10-29T21:30', scope: 'Ch. 1–6, 10, 11.1–11.5', tool: '/1BA3/midterm' },
     { course: '1BB3', title: 'Term Test 2', start: '2026-11-07T09:00', end: '2026-11-07T10:20', scope: 'Ch. 4–8' },
     { course: '1B03', title: 'Midterm Test 2', start: '2026-11-07T12:30', scope: 'Units 5–8' }
   ]

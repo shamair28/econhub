@@ -1,0 +1,4113 @@
+{
+ "schema": "practice-bank/v1",
+ "id": "1BA3-mt-tb-ch5",
+ "course": "COMM 1BA3",
+ "title": "Test Bank · Ch. 5",
+ "description": "Johns & Saks chapter test bank, Ch. 5 (Theories of Work Motivation): multiple-choice and true/false items, each key re-checked against the 12th-edition text.",
+ "defaultSource": {
+  "label": "Textbook Test Bank",
+  "kind": "textbook"
+ },
+ "defaultUnit": 5,
+ "scenarios": {},
+ "questions": [
+  {
+   "id": "tb5-q001",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Defining Motivation",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q1"
+   },
+   "prompt": "Effort, persistence, and direction are basic components of",
+   "tags": [
+    "§5.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "attitude."
+    },
+    {
+     "id": "b",
+     "text": "equity"
+    },
+    {
+     "id": "c",
+     "text": "expectancy."
+    },
+    {
+     "id": "d",
+     "text": "performance."
+    },
+    {
+     "id": "e",
+     "text": "motivation."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "**Motivation** is the extent to which persistent effort is directed toward a goal, so it is made up of effort, persistence, and direction. Performance is an outcome that motivation helps produce, not a component of it."
+  },
+  {
+   "id": "tb5-q002",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Components of Motivation",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q2"
+   },
+   "prompt": "According to the text, which of the following is not a basic characteristic or component of motivation?",
+   "tags": [
+    "§5.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Effort"
+    },
+    {
+     "id": "b",
+     "text": "Direction"
+    },
+    {
+     "id": "c",
+     "text": "Performance"
+    },
+    {
+     "id": "d",
+     "text": "Persistence"
+    },
+    {
+     "id": "e",
+     "text": "Goals"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Motivation is **effort, persistence, and direction** aimed at a goal. **Performance** is what the organization gets from a person's contribution, and motivation is only one of its determinants, so it is not a component of motivation."
+  },
+  {
+   "id": "tb5-q003",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Intrinsic Motivators",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q3"
+   },
+   "prompt": "Which of the following is most likely to stimulate intrinsic motivation?",
+   "tags": [
+    "§5.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Company policies"
+    },
+    {
+     "id": "b",
+     "text": "Challenging job"
+    },
+    {
+     "id": "c",
+     "text": "High pay"
+    },
+    {
+     "id": "d",
+     "text": "Generous fringe benefits"
+    },
+    {
+     "id": "e",
+     "text": "Close supervision"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "**Intrinsic motivation** comes from the worker's direct relationship with the task, such as challenge, achievement, and competence. Pay, benefits, policies, and supervision are applied by others, so they are extrinsic."
+  },
+  {
+   "id": "tb5-q004",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Defining Performance",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q4"
+   },
+   "prompt": "The extent to which an organizational member contributes to achieving the objectives of the organization is called",
+   "tags": [
+    "§5.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "performance."
+    },
+    {
+     "id": "b",
+     "text": "expectancy."
+    },
+    {
+     "id": "c",
+     "text": "intrinsic motivation."
+    },
+    {
+     "id": "d",
+     "text": "extrinsic motivation."
+    },
+    {
+     "id": "e",
+     "text": "effort."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "**Performance** is the extent to which a member contributes to achieving organizational objectives. Effort is only one input to it, and expectancy is a theory component, not the definition."
+  },
+  {
+   "id": "tb5-q005",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Intrinsic Motivation",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q5"
+   },
+   "prompt": "Al told his friends that \"the job makes me feel good about myself. I feel a real sense of accomplishment at the end of the day.\" Al is probably",
+   "tags": [
+    "§5.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "intrinsically motivated."
+    },
+    {
+     "id": "b",
+     "text": "extrinsically motivated."
+    },
+    {
+     "id": "c",
+     "text": "self-actualized."
+    },
+    {
+     "id": "d",
+     "text": "fulfilling his relatedness needs on the job."
+    },
+    {
+     "id": "e",
+     "text": "experiencing inequity."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Feelings of accomplishment from the job itself are **intrinsic** motivators. Extrinsic motivators such as pay or supervision come from the environment and are applied by others, not from the task."
+  },
+  {
+   "id": "tb5-q006",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Intrinsic and Extrinsic Mix",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q6"
+   },
+   "prompt": "\"An interesting job that pays well\" suggests that the job",
+   "tags": [
+    "§5.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "is high in extrinsic motivation."
+    },
+    {
+     "id": "b",
+     "text": "meets the motivational requirements of equity theory."
+    },
+    {
+     "id": "c",
+     "text": "is high in extrinsic but low in intrinsic motivation."
+    },
+    {
+     "id": "d",
+     "text": "is high in intrinsic and extrinsic motivation."
+    },
+    {
+     "id": "e",
+     "text": "is high in intrinsic motivation."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Interesting work is an **intrinsic** motivator and good pay is an **extrinsic** one, so the job has both. The text notes that some motivators even have both qualities at once."
+  },
+  {
+   "id": "tb5-q007",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Extrinsic Reward Effects",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q7"
+   },
+   "prompt": "Some researchers have argued that intrinsic and extrinsic motivation are incompatible. By this, they mean that",
+   "tags": [
+    "§5.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "intrinsic rewards may decrease extrinsic motivation."
+    },
+    {
+     "id": "b",
+     "text": "when used in combination, they result in lower levels of performance."
+    },
+    {
+     "id": "c",
+     "text": "extrinsic rewards usually lead to better performance than intrinsic rewards."
+    },
+    {
+     "id": "d",
+     "text": "intrinsic rewards usually lead to better performance than extrinsic rewards."
+    },
+    {
+     "id": "e",
+     "text": "extrinsic rewards may decrease intrinsic motivation."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Some researchers argue that contingent **extrinsic rewards can reduce intrinsic motivation**, because people feel less in control and credit the reward. The text adds that this effect occurs only under limited conditions. Intrinsic rewards are not said to lower extrinsic motivation."
+  },
+  {
+   "id": "tb5-q008",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Motivation vs. Performance",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q8"
+   },
+   "prompt": "Which of the following statements about motivation and performance is FALSE?",
+   "tags": [
+    "§5.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A person could be highly motivated and yet perform poorly."
+    },
+    {
+     "id": "b",
+     "text": "General cognitive ability and emotional intelligence are important for motivation to be converted into performance."
+    },
+    {
+     "id": "c",
+     "text": "A person could perform fairly well despite low motivation."
+    },
+    {
+     "id": "d",
+     "text": "Motivation is defined as the extent to which workers contribute to achieving organizational objectives."
+    },
+    {
+     "id": "e",
+     "text": "Task understanding is important for motivation to be converted into performance."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "The false statement defines **motivation** as contributing to organizational objectives, which is actually the definition of *performance*. Motivation is persistent effort directed toward a goal, and ability, task understanding, and chance also shape performance."
+  },
+  {
+   "id": "tb5-q009",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Process Theories",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q9"
+   },
+   "prompt": "Two process theories of motivation include",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Maslow's Need Hierarchy and Expectancy."
+    },
+    {
+     "id": "b",
+     "text": "Maslow's Need Hierarchy and ERG."
+    },
+    {
+     "id": "c",
+     "text": "Equity and Expectancy."
+    },
+    {
+     "id": "d",
+     "text": "Equity and ERG."
+    },
+    {
+     "id": "e",
+     "text": "Maslow's Need Hierarchy and McClelland's theory of needs."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "**Process theories** explain how motivation occurs: expectancy, equity, and goal-setting. Maslow, ERG, and McClelland are need theories, which explain what motivates people."
+  },
+  {
+   "id": "tb5-q010",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Maslow's Hierarchy",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q10"
+   },
+   "prompt": "According to Maslow, once an individual has fulfilled his or her belongingness needs, the __________ needs become motivating.",
+   "tags": [
+    "§5.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "relatedness"
+    },
+    {
+     "id": "b",
+     "text": "esteem"
+    },
+    {
+     "id": "c",
+     "text": "affiliation"
+    },
+    {
+     "id": "d",
+     "text": "physiological"
+    },
+    {
+     "id": "e",
+     "text": "safety"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "In Maslow's hierarchy the order is physiological, safety, belongingness, **esteem**, then self-actualization. Once belongingness is satisfied, attention moves to esteem. Relatedness and affiliation are Alderfer's and McClelland's labels, not Maslow's."
+  },
+  {
+   "id": "tb5-q011",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Maslow's Hierarchy",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q11"
+   },
+   "prompt": "Which of the following theories proposes that individuals have basic needs, which are associated with extrinsic motivation, and higher-order needs, which are associated with intrinsic motivation?",
+   "tags": [
+    "§5.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Expectancy theory"
+    },
+    {
+     "id": "b",
+     "text": "Goal setting theory"
+    },
+    {
+     "id": "c",
+     "text": "Equity theory"
+    },
+    {
+     "id": "d",
+     "text": "Maslow's Hierarchy of Needs"
+    },
+    {
+     "id": "e",
+     "text": "Valence theory"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "**Maslow's hierarchy** splits into basic needs (linked to extrinsic motivation) and higher-order needs (linked to intrinsic motivation), as in the text's exhibit. Expectancy, goal-setting, and equity are process theories and do not classify needs."
+  },
+  {
+   "id": "tb5-q012",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Maslow's Motivational Premise",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q12"
+   },
+   "prompt": "According to Maslow's Hierarchy of Needs, a given worker at a given point in time is most motivated by",
+   "tags": [
+    "§5.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "the highest level unsatisfied need."
+    },
+    {
+     "id": "b",
+     "text": "the lowest level unsatisfied need."
+    },
+    {
+     "id": "c",
+     "text": "physiological needs, because these are most basic and important."
+    },
+    {
+     "id": "d",
+     "text": "belongingness needs, because everyone needs some form of social interaction."
+    },
+    {
+     "id": "e",
+     "text": "self-actualization, because all persons seek to fulfill their highest potential."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Maslow's premise is that the **lowest-level unsatisfied need** has the greatest motivating potential. No need level is the single best motivator; it depends on where the person sits in the hierarchy."
+  },
+  {
+   "id": "tb5-q013",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Maslow's Motivational Premise",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q13"
+   },
+   "prompt": "According to Maslow, the __________ level __________ need is most motivational.",
+   "tags": [
+    "§5.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "highest; satisfied"
+    },
+    {
+     "id": "b",
+     "text": "lowest; unsatisfied"
+    },
+    {
+     "id": "c",
+     "text": "highest; unsatisfied"
+    },
+    {
+     "id": "d",
+     "text": "highest; emotional"
+    },
+    {
+     "id": "e",
+     "text": "lowest; satisfied"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "According to Maslow, the **lowest-level unsatisfied need** is the most motivational. A satisfied need is no longer an effective motivator, and higher needs only matter once lower ones are met."
+  },
+  {
+   "id": "tb5-q014",
+   "type": "mc",
+   "unit": 5,
+   "topic": "ERG vs. Maslow",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q14"
+   },
+   "prompt": "Alderfer's existence needs correspond closely to Maslow's",
+   "tags": [
+    "§5.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "esteem needs."
+    },
+    {
+     "id": "b",
+     "text": "physiological needs."
+    },
+    {
+     "id": "c",
+     "text": "belongingness needs."
+    },
+    {
+     "id": "d",
+     "text": "self-actualization needs."
+    },
+    {
+     "id": "e",
+     "text": "growth needs."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Alderfer's **existence** needs correspond closely to Maslow's physiological needs, plus the safety needs met by material conditions. Relatedness maps to belongingness and growth maps to self-actualization."
+  },
+  {
+   "id": "tb5-q015",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Needs Across Cultures",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q15"
+   },
+   "prompt": "Other things equal, which ERG theory need should be of particular interest in a highly collective culture?",
+   "tags": [
+    "§5.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Resistance"
+    },
+    {
+     "id": "b",
+     "text": "Safety"
+    },
+    {
+     "id": "c",
+     "text": "Relatedness"
+    },
+    {
+     "id": "d",
+     "text": "Existence"
+    },
+    {
+     "id": "e",
+     "text": "Growth"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "In collective cultures, tight in-group bonds and loyalty make **relatedness** (Maslow's belongingness) especially motivating. The text notes that self-actualization may be no more important than belonging in these cultures."
+  },
+  {
+   "id": "tb5-q016",
+   "type": "mc",
+   "unit": 5,
+   "topic": "ERG vs. Maslow",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 5 · Q16"
+   },
+   "prompt": "Alderfer differs from Maslow in that his ERG theory assumes",
+   "tags": [
+    "§5.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "the least concrete needs become more desired as they are fulfilled."
+    },
+    {
+     "id": "b",
+     "text": "growth needs can be completely satisfied just as existence and relatedness needs can be."
+    },
+    {
+     "id": "c",
+     "text": "a lower level need must be gratified before a less concrete need becomes operative."
+    },
+    {
+     "id": "d",
+     "text": "if higher level needs are strong but ungratified, individuals will increase their desire for the gratification of lower level needs."
+    },
+    {
+     "id": "e",
+     "text": "a rigid hierarchy of needs exists."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "ERG's key difference is **frustration-regression**: if higher-level needs stay ungratified, desire for lower-level needs increases. A rigid ladder where a lower need must be gratified first is Maslow's view, not Alderfer's."
+  },
+  {
+   "id": "tb5-q017",
+   "type": "mc",
+   "unit": 5,
+   "topic": "ERG Relatedness Needs",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q17"
+   },
+   "prompt": "If Steve desires friendly and supportive supervision, he is trying to fulfill",
+   "tags": [
+    "§5.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "any one of his needs, depending on which is operative."
+    },
+    {
+     "id": "b",
+     "text": "his relatedness needs."
+    },
+    {
+     "id": "c",
+     "text": "his safety needs."
+    },
+    {
+     "id": "d",
+     "text": "his existence needs."
+    },
+    {
+     "id": "e",
+     "text": "his growth needs."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Friendly, supportive supervision meets **relatedness** needs (Maslow's belongingness). Existence needs are material, such as pay and safe conditions, and growth needs involve using and developing skills."
+  },
+  {
+   "id": "tb5-q018",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Frustration-Regression",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 5 · Q18"
+   },
+   "prompt": "Paul has a secure, well-paying, but boring job. He gets along well with his boss and his coworkers. Recently, he has put in a bid for several more interesting jobs that have opened up, but each time the job has been given to someone with more seniority. According to Alderfer's ERG theory Paul will probably",
+   "tags": [
+    "§5.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "continue to pursue a more interesting job indefinitely."
+    },
+    {
+     "id": "b",
+     "text": "quit his job and leave the company."
+    },
+    {
+     "id": "c",
+     "text": "exhibit frequent absenteeism."
+    },
+    {
+     "id": "d",
+     "text": "press for higher pay."
+    },
+    {
+     "id": "e",
+     "text": "seek support and additional attention from his boss and co-workers."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Paul's growth needs are frustrated, so under ERG's **frustration-regression** principle he turns to a more concrete need he can pursue, here relatedness, seeking more support from his boss and co-workers. Indefinite pursuit of the job ignores regression."
+  },
+  {
+   "id": "tb5-q019",
+   "type": "mc",
+   "unit": 5,
+   "topic": "ERG Theory",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q19"
+   },
+   "prompt": "Which theory proposes a weak or flexible hierarchy of needs?",
+   "tags": [
+    "§5.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Equity"
+    },
+    {
+     "id": "b",
+     "text": "ERG"
+    },
+    {
+     "id": "c",
+     "text": "Expectancy"
+    },
+    {
+     "id": "d",
+     "text": "Adams"
+    },
+    {
+     "id": "e",
+     "text": "Maslow"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "**ERG theory** does not assume a rigid hierarchy: people may seek relatedness or growth even if existence needs are ungratified. Maslow's hierarchy is the rigid one. Equity and expectancy are process theories."
+  },
+  {
+   "id": "tb5-q020",
+   "type": "mc",
+   "unit": 5,
+   "topic": "McClelland's Needs",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q20"
+   },
+   "prompt": "In McClelland's theory of needs sales jobs are attractive to those high in need for __________, and management jobs are attractive to those high in need for __________.",
+   "tags": [
+    "§5.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "affiliation; power"
+    },
+    {
+     "id": "b",
+     "text": "achievement; affiliation"
+    },
+    {
+     "id": "c",
+     "text": "power; achievement"
+    },
+    {
+     "id": "d",
+     "text": "achievement; power"
+    },
+    {
+     "id": "e",
+     "text": "achievement; achievement"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "McClelland predicts sales and entrepreneurial jobs suit high **need for achievement** (feedback, responsibility, goal setting) and management jobs suit high **need for power**. High affiliation suits jobs like social work and customer relations."
+  },
+  {
+   "id": "tb5-q021",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Need for Achievement",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q21"
+   },
+   "prompt": "A person who is high in need for achievement will tend to favour __________ goals.",
+   "tags": [
+    "§5.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "fairly easy"
+    },
+    {
+     "id": "b",
+     "text": "moderately difficult"
+    },
+    {
+     "id": "c",
+     "text": "moderately easy"
+    },
+    {
+     "id": "d",
+     "text": "fairly easy or very difficult"
+    },
+    {
+     "id": "e",
+     "text": "very difficult"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "High-**nAch** people prefer **moderately difficult** goals with calculated risk. Easy goals give little sense of achievement, and extremely hard goals may never be reached."
+  },
+  {
+   "id": "tb5-q022",
+   "type": "mc",
+   "unit": 5,
+   "topic": "McClelland vs. Alderfer",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q22"
+   },
+   "prompt": "McClelland's need for affiliation is most closely related to Alderfer's __________ need.",
+   "tags": [
+    "§5.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "growth"
+    },
+    {
+     "id": "b",
+     "text": "relatedness"
+    },
+    {
+     "id": "c",
+     "text": "existence"
+    },
+    {
+     "id": "d",
+     "text": "esteem"
+    },
+    {
+     "id": "e",
+     "text": "resistance"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "McClelland's **need for affiliation** is a belongingness or **relatedness** need, since it is about establishing and maintaining friendly relationships. Growth better matches nAch, and existence is material needs."
+  },
+  {
+   "id": "tb5-q023",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Effective Managers",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q23"
+   },
+   "prompt": "According to McClelland, which need profile characterizes the most effective managers?",
+   "tags": [
+    "§5.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "High power, high affiliation"
+    },
+    {
+     "id": "b",
+     "text": "High power, low affiliation"
+    },
+    {
+     "id": "c",
+     "text": "High achievement, high affiliation"
+    },
+    {
+     "id": "d",
+     "text": "High achievement, low power"
+    },
+    {
+     "id": "e",
+     "text": "Low affiliation, high achievement"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "McClelland found the most effective managers have **high need for power and low need for affiliation**, and can direct power toward organizational goals. High affiliation pulls managers toward being liked rather than influencing."
+  },
+  {
+   "id": "tb5-q024",
+   "type": "mc",
+   "unit": 5,
+   "topic": "McClelland vs. Maslow",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q24"
+   },
+   "prompt": "McClelland's need for affiliation is most closely related to (or an example of) Maslow's __________ needs.",
+   "tags": [
+    "§5.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "esteem"
+    },
+    {
+     "id": "b",
+     "text": "belongingness"
+    },
+    {
+     "id": "c",
+     "text": "safety"
+    },
+    {
+     "id": "d",
+     "text": "physiological"
+    },
+    {
+     "id": "e",
+     "text": "self-actualization"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "The text describes **nAff** as an example of a **belongingness** (or relatedness) need. Maslow's esteem need corresponds more closely to the need for power."
+  },
+  {
+   "id": "tb5-q025",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Need for Achievement",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q25"
+   },
+   "prompt": "Which of the following statements about persons with high need for achievement is least accurate?",
+   "tags": [
+    "§5.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "High need achievers tend to seek out performance feedback."
+    },
+    {
+     "id": "b",
+     "text": "High need achievers tend to excel in sales jobs."
+    },
+    {
+     "id": "c",
+     "text": "High need achievers tend to set extremely difficult goals for themselves."
+    },
+    {
+     "id": "d",
+     "text": "High need achievers prefer situations in which they can take personal responsibility for outcomes."
+    },
+    {
+     "id": "e",
+     "text": "High need for achievement can be acquired through training."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "High nAch people set **moderately difficult**, not extremely difficult, goals, so that is the inaccurate statement. They do seek feedback, want personal responsibility, and suit sales jobs."
+  },
+  {
+   "id": "tb5-q026",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Expectancy",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q26"
+   },
+   "prompt": "Maurice sees his organization's performance evaluation system as arbitrary, capricious, and unreliable. In motivational terms, this performance evaluation system has reduced",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "expectancy."
+    },
+    {
+     "id": "b",
+     "text": "instrumentality."
+    },
+    {
+     "id": "c",
+     "text": "the valence of second-level outcomes."
+    },
+    {
+     "id": "d",
+     "text": "the valence of first-level outcomes."
+    },
+    {
+     "id": "e",
+     "text": "both levels of valence."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": false,
+   "explanation": "If the evaluation process looks arbitrary, employees don't see how effort leads to a good rating, which lowers **expectancy** (the effort to performance link). Instrumentality is about performance leading to outcomes, which is a different link."
+  },
+  {
+   "id": "tb5-q027",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Instrumentality",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q27"
+   },
+   "prompt": "The manager who tells an employee, \"I'll recommend you for a promotion if you implement the new system by January\" is attempting to strengthen which expectancy theory component?",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Valence of second-level outcomes"
+    },
+    {
+     "id": "b",
+     "text": "Expectancy"
+    },
+    {
+     "id": "c",
+     "text": "Relatedness"
+    },
+    {
+     "id": "d",
+     "text": "Instrumentality"
+    },
+    {
+     "id": "e",
+     "text": "Needs"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Promising a promotion if the system is implemented clarifies that performance leads to a reward, which strengthens **instrumentality** (performance to outcome). It does not change how attractive promotion is, which would be valence."
+  },
+  {
+   "id": "tb5-q028",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Valence in Expectancy Theory",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q28"
+   },
+   "prompt": "In expectancy theory, the valence of first-level outcomes is the sum of the product of",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "force and instrumentalities."
+    },
+    {
+     "id": "b",
+     "text": "expectancies and instrumentalities."
+    },
+    {
+     "id": "c",
+     "text": "second-level valences and instrumentalities."
+    },
+    {
+     "id": "d",
+     "text": "second-level valences and expectancies."
+    },
+    {
+     "id": "e",
+     "text": "second-level instrumentalities and expectancies."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "The valence of a first-level outcome is the **sum of the products of the second-level valences and their instrumentalities**. Force, in contrast, is first-level valence times expectancy."
+  },
+  {
+   "id": "tb5-q029",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Expectancy",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q29"
+   },
+   "prompt": "According to the expectancy theory of motivation, if we find that workers feel that they are unable to perform at a high level, we are dealing with a problem of",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "valence."
+    },
+    {
+     "id": "b",
+     "text": "relatedness."
+    },
+    {
+     "id": "c",
+     "text": "second-level outcomes."
+    },
+    {
+     "id": "d",
+     "text": "expectancy."
+    },
+    {
+     "id": "e",
+     "text": "instrumentality."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Feeling unable to perform at a high level is a problem of **expectancy**, the probability that effort will achieve a first-level outcome. Instrumentality concerns whether performance is rewarded."
+  },
+  {
+   "id": "tb5-q030",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Force Calculation",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 5 · Q30"
+   },
+   "prompt": "Mike, a production worker, reports on a research questionnaire that high performance has a valence of 10, average performance a valence of 5, and low performance a valence of 1. Also, he reports that he is certain that he can perform at low or average levels but only 40 percent sure that he can perform at a high level. According to expectancy theory, at which level should Mike perform?",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Average"
+    },
+    {
+     "id": "b",
+     "text": "Low"
+    },
+    {
+     "id": "c",
+     "text": "Instrumentalities are also needed to answer this question"
+    },
+    {
+     "id": "d",
+     "text": "High if task complexity is low to moderate"
+    },
+    {
+     "id": "e",
+     "text": "High"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "**Force = first-level valence x expectancy**. High is 10 x 0.4 = 4, average is 5 x 1.0 = 5, and low is 1 x 1.0 = 1, so effort goes to **average**. High performance has the biggest valence, but its low expectancy cuts its force."
+  },
+  {
+   "id": "tb5-q031",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Expectancy",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q31"
+   },
+   "prompt": "Cassandra's boss has not had time to clearly explain her new job to her. According to expectancy theory, this should have a direct impact on",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "relatedness."
+    },
+    {
+     "id": "b",
+     "text": "instrumentality."
+    },
+    {
+     "id": "c",
+     "text": "first-level valence."
+    },
+    {
+     "id": "d",
+     "text": "second-level valence."
+    },
+    {
+     "id": "e",
+     "text": "expectancy."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Not understanding the job means she doesn't see how to achieve good performance, which lowers **expectancy** (effort to performance). Clarifying the task and how performance is evaluated is how managers boost expectancies."
+  },
+  {
+   "id": "tb5-q032",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Second-Level Outcomes",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q32"
+   },
+   "prompt": "According to the expectancy theory of motivation, if we find that employees don't like the rewards the firm offers, we are dealing with a problem of",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "first-level outcomes"
+    },
+    {
+     "id": "b",
+     "text": "inputs."
+    },
+    {
+     "id": "c",
+     "text": "second-level outcomes."
+    },
+    {
+     "id": "d",
+     "text": "expectancy."
+    },
+    {
+     "id": "e",
+     "text": "instrumentality."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Disliking the rewards is a problem with **second-level outcomes** (their valence), which are the personally relevant consequences like pay or recognition. Expectancy is about whether the person can achieve the performance."
+  },
+  {
+   "id": "tb5-q033",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Instrumentality and Valence",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 5 · Q33"
+   },
+   "prompt": "The consultant said to a client company \"Look, you people offer the highest pay in the industry! If you tied it to performance you'd get some motivational punch.\" The consultant is saying that",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "expectancy is low."
+    },
+    {
+     "id": "b",
+     "text": "expectancy is high."
+    },
+    {
+     "id": "c",
+     "text": "instrumentality is low and second-level valence is high."
+    },
+    {
+     "id": "d",
+     "text": "second-level valence is low and instrumentality is low."
+    },
+    {
+     "id": "e",
+     "text": "second-level valence is low and instrumentality is high."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Pay is highly valued (high second-level valence), but if it is not tied to performance, **instrumentality is low**. The consultant's advice to link pay to performance is aimed at instrumentality, not expectancy."
+  },
+  {
+   "id": "tb5-q034",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Equity Theory",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q34"
+   },
+   "prompt": "Which theory suggests that a social comparison process which affects perceived fairness can have an impact on motivation?",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Maslow's hierarchy of needs"
+    },
+    {
+     "id": "b",
+     "text": "ERG theory"
+    },
+    {
+     "id": "c",
+     "text": "McClelland's need theory"
+    },
+    {
+     "id": "d",
+     "text": "Equity theory"
+    },
+    {
+     "id": "e",
+     "text": "Need hierarchy theory"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "**Equity theory** says people compare their input/outcome ratio with that of another person or group, and perceived unfairness affects motivation. Maslow, ERG, and McClelland concern needs, not social comparison."
+  },
+  {
+   "id": "tb5-q035",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Equity Theory",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q35"
+   },
+   "prompt": "Which theory of work motivation most explicitly involves a comparison with others?",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Maslow"
+    },
+    {
+     "id": "b",
+     "text": "ERG"
+    },
+    {
+     "id": "c",
+     "text": "Expectancy"
+    },
+    {
+     "id": "d",
+     "text": "Alderfer"
+    },
+    {
+     "id": "e",
+     "text": "Equity"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "**Equity theory** involves an explicit comparison of your input/outcome ratio with someone else's. Need theories and expectancy theory focus on the individual's own needs and perceptions."
+  },
+  {
+   "id": "tb5-q036",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Reducing Inequity",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 5 · Q36"
+   },
+   "prompt": "According to equity theory, an underpaid individual would not __________ to achieve equity.",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "reduce his or her outcomes"
+    },
+    {
+     "id": "b",
+     "text": "reduce his or her inputs"
+    },
+    {
+     "id": "c",
+     "text": "perceptually distort the inputs or outcomes of a comparison person"
+    },
+    {
+     "id": "d",
+     "text": "perceptually distort his or her inputs or outcomes"
+    },
+    {
+     "id": "e",
+     "text": "accept a job in another organization"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "An underpaid person tries to raise outcomes or cut inputs, distort perceptions, change the comparison person, or leave. **Reducing one's own outcomes** would make the inequity worse, so it is the one tactic not used."
+  },
+  {
+   "id": "tb5-q037",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Overpayment Inequity",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 5 · Q37"
+   },
+   "prompt": "According to equity theory, the overpaid worker",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "may reduce inputs and increase outcomes to achieve equity."
+    },
+    {
+     "id": "b",
+     "text": "may increase inputs to achieve equity."
+    },
+    {
+     "id": "c",
+     "text": "may increase outcomes to achieve equity."
+    },
+    {
+     "id": "d",
+     "text": "should not experience inequity."
+    },
+    {
+     "id": "e",
+     "text": "may reduce inputs to achieve equity."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "An overpaid worker can restore equity behaviourally by **increasing inputs** (or by reducing outcomes). Reducing inputs or increasing outcomes would deepen the overpayment. Overpaid people do experience inequity, though support for these predictions is weaker."
+  },
+  {
+   "id": "tb5-q038",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Gender and Equity",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q38"
+   },
+   "prompt": "According to equity theory, individuals compare themselves with others when determining if the company is treating them fairly. Which of the following comparisons is likely to happen?",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "men tend to make equity comparisons with women."
+    },
+    {
+     "id": "b",
+     "text": "men tend to make equity comparisons with both men and women."
+    },
+    {
+     "id": "c",
+     "text": "women tend to make equity comparisons with men."
+    },
+    {
+     "id": "d",
+     "text": "men tend to make equity comparisons with men."
+    },
+    {
+     "id": "e",
+     "text": "none of the above."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": false,
+   "explanation": "Both women and men tend to choose **same-sex comparison persons**, so men compare themselves with other men. This may help explain why women's pay inequities are not corrected."
+  },
+  {
+   "id": "tb5-q039",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Equity and Theft",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q39"
+   },
+   "prompt": "How might equity theory explain employee theft?",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "High work instrumentalities"
+    },
+    {
+     "id": "b",
+     "text": "Low work outcomes"
+    },
+    {
+     "id": "c",
+     "text": "High work expectancies"
+    },
+    {
+     "id": "d",
+     "text": "Low work inputs"
+    },
+    {
+     "id": "e",
+     "text": "Low need for achievement"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Perceived underpayment (**low outcomes relative to inputs**) can lead to low productivity, low quality, theft, or turnover as ways to restore equity. Low inputs would make a person feel overpaid, not underpaid."
+  },
+  {
+   "id": "tb5-q040",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Theories Across Cultures",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q40"
+   },
+   "prompt": "Which motivation theory seems to translate across cultures best?",
+   "tags": [
+    "§5.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "McClelland's theory of needs"
+    },
+    {
+     "id": "b",
+     "text": "Equity theory"
+    },
+    {
+     "id": "c",
+     "text": "Expectancy theory"
+    },
+    {
+     "id": "d",
+     "text": "Maslow's need hierarchy"
+    },
+    {
+     "id": "e",
+     "text": "ERG theory"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Because of its flexibility, **expectancy theory** applies cross-culturally: expectancies and valences can differ across cultures. Need theories and equity theory run into cultural limits. (The text also finds SDT largely cross-culturally valid.)"
+  },
+  {
+   "id": "tb5-q041",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Expectancy Across Cultures",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q41"
+   },
+   "prompt": "Expectancy theory",
+   "tags": [
+    "§5.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "applies across cultures because it was formulated to be explicitly cross-cultural."
+    },
+    {
+     "id": "b",
+     "text": "applies to nearly as many cultures as Maslow's need hierarchy."
+    },
+    {
+     "id": "c",
+     "text": "is most relevant to the Western cultures because of its need-based philosophy."
+    },
+    {
+     "id": "d",
+     "text": "is most relevant to North America because of its rigid hierarchy."
+    },
+    {
+     "id": "e",
+     "text": "applies across cultures because of its flexibility."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Expectancy theory travels well because of its **flexibility**: it allows differing expectancies and different valences for outcomes across cultures. It is a process theory, not need-based, and has no rigid hierarchy."
+  },
+  {
+   "id": "tb5-q042",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Equity vs. Equality",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 5 · Q42"
+   },
+   "prompt": "In collective cultures it is often observed that groups favour an equality norm for reward allocation. Which theory's motivational premises does this norm most clearly contradict?",
+   "tags": [
+    "§5.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "ERG theory"
+    },
+    {
+     "id": "b",
+     "text": "Expectancy theory"
+    },
+    {
+     "id": "c",
+     "text": "Equity theory"
+    },
+    {
+     "id": "d",
+     "text": "McClelland's theory of needs"
+    },
+    {
+     "id": "e",
+     "text": "Maslow's need hierarchy"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "**Equity theory** assumes rewards match inputs, while collective cultures often favour **equality**, where everyone gets the same outcome regardless of productivity. That directly contradicts the equity premise."
+  },
+  {
+   "id": "tb5-q043",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Cognitive Ability",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q43"
+   },
+   "prompt": "A person's overall capacity and efficiency for processing information is called",
+   "tags": [
+    "§5.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "motivation."
+    },
+    {
+     "id": "b",
+     "text": "emotional intelligence."
+    },
+    {
+     "id": "c",
+     "text": "general cognitive ability."
+    },
+    {
+     "id": "d",
+     "text": "intelligence."
+    },
+    {
+     "id": "e",
+     "text": "performance."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "**General cognitive ability** is a person's overall capacity and efficiency to process, understand, and learn information. Emotional intelligence concerns feelings and emotions, and motivation concerns effort."
+  },
+  {
+   "id": "tb5-q044",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Cognitive Ability",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q44"
+   },
+   "prompt": "Which of the following is most accurate about the relationship between general cognitive ability and performance?",
+   "tags": [
+    "§5.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "General cognitive ability is a better predictor of performance for more complex tasks."
+    },
+    {
+     "id": "b",
+     "text": "General cognitive ability predicts performance to the same degree on all tasks."
+    },
+    {
+     "id": "c",
+     "text": "General cognitive ability predicts performance only on manual tasks."
+    },
+    {
+     "id": "d",
+     "text": "General cognitive ability does not predict performance."
+    },
+    {
+     "id": "e",
+     "text": "General cognitive ability predicts performance only on mental tasks."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "General cognitive ability predicts performance in all kinds of jobs, and is an **even better predictor for complex, higher-level jobs** that involve more information processing. It is not limited to manual or to mental tasks."
+  },
+  {
+   "id": "tb5-q045",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Cognitive Ability and Career Success",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q45"
+   },
+   "prompt": "A study on the career success of MBA graduates found that",
+   "tags": [
+    "§5.2",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "students with high emotional intelligence and high motivation were most successful."
+    },
+    {
+     "id": "b",
+     "text": "students with high motivation were most successful."
+    },
+    {
+     "id": "c",
+     "text": "students with high general cognitive ability and high emotional intelligence were most successful."
+    },
+    {
+     "id": "d",
+     "text": "students with high general cognitive ability and high motivation were most successful."
+    },
+    {
+     "id": "e",
+     "text": "students with high general cognitive ability were most successful."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "The 12th edition does not discuss a study of MBA graduates' career success. It says cognitive ability measured in high school predicts later career success, and that both cognitive ability and motivation matter for performance.",
+   "scopeNote": "Written for an older edition: The 12th-edition chapter no longer includes the MBA-graduate career success study this item is about."
+  },
+  {
+   "id": "tb5-q046",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Four-Branch EI Model",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q46"
+   },
+   "prompt": "From bottom to top, what is the correct order of Salovey and Mayer's model of emotional intelligence?",
+   "tags": [
+    "§5.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Management of emotions; knowledge and understanding of emotions; integration and assimilation of emotions; perception of emotions."
+    },
+    {
+     "id": "b",
+     "text": "Knowledge and understanding of emotions; perception of emotions; integration and assimilation of emotions; management of emotions."
+    },
+    {
+     "id": "c",
+     "text": "Perception of emotions; knowledge and understanding of emotions; integration and assimilation of emotions; management of emotions."
+    },
+    {
+     "id": "d",
+     "text": "Perception of emotions; integration and assimilation of emotions; knowledge and understanding of emotions; management of emotions."
+    },
+    {
+     "id": "e",
+     "text": "Perception of emotions; management of emotions; knowledge and understanding of emotions; integration and assimilation of emotions."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Salovey and Mayer's EI hierarchy runs from the bottom: **perceiving** emotions, **using/assimilating** emotions to facilitate thinking, **understanding** emotions, and **managing** emotions at the top. Managing is highest because it requires mastery of the earlier steps."
+  },
+  {
+   "id": "tb5-q047",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Four-Branch EI Model",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q47"
+   },
+   "prompt": "What step is the most basic level of emotional intelligence?",
+   "tags": [
+    "§5.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "It depends on the situation."
+    },
+    {
+     "id": "b",
+     "text": "Integration and assimilation of emotions."
+    },
+    {
+     "id": "c",
+     "text": "Perception of emotions."
+    },
+    {
+     "id": "d",
+     "text": "Knowledge and understanding of emotions."
+    },
+    {
+     "id": "e",
+     "text": "Management of emotions."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "**Perceiving emotions** accurately in oneself and others is the most basic level of EI, and is needed for the other steps. Managing emotions sits at the top."
+  },
+  {
+   "id": "tb5-q048",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Managing Emotions",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q48"
+   },
+   "prompt": "Being able to calm oneself when angry or lower the anxiety of another person is an example of",
+   "tags": [
+    "§5.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "perception of emotions."
+    },
+    {
+     "id": "b",
+     "text": "knowledge and understanding of emotions."
+    },
+    {
+     "id": "c",
+     "text": "management of emotions."
+    },
+    {
+     "id": "d",
+     "text": "general cognitive ability."
+    },
+    {
+     "id": "e",
+     "text": "integration and assimilation of emotions."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Staying calm when angry or lowering another person's anger is **managing emotions**, the highest EI branch. Perception is only identifying emotions, and understanding is knowing what causes them."
+  },
+  {
+   "id": "tb5-q049",
+   "type": "mc",
+   "unit": 5,
+   "topic": "EI and Job Performance",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q49"
+   },
+   "prompt": "Emotional intelligence is especially important in jobs",
+   "tags": [
+    "§5.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "that involve manual tasks."
+    },
+    {
+     "id": "b",
+     "text": "that are complex."
+    },
+    {
+     "id": "c",
+     "text": "at higher organizational levels."
+    },
+    {
+     "id": "d",
+     "text": "that involve mental tasks."
+    },
+    {
+     "id": "e",
+     "text": "that involve social interaction."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "EI is most strongly related to performance in jobs with high **emotional labour** and social interaction, such as police officers and customer service reps. Cognitive ability, not EI, is the stronger predictor in complex jobs."
+  },
+  {
+   "id": "tb5-q050",
+   "type": "mc",
+   "unit": 5,
+   "topic": "EI and Performance",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q50"
+   },
+   "prompt": "Research has found that emotional intelligence",
+   "tags": [
+    "§5.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "predicts job performance and academic performance."
+    },
+    {
+     "id": "b",
+     "text": "predicts job performance but not academic performance."
+    },
+    {
+     "id": "c",
+     "text": "does not predict job performance."
+    },
+    {
+     "id": "d",
+     "text": "does not predict academic performance."
+    },
+    {
+     "id": "e",
+     "text": "predicts academic performance but not job performance."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Research finds **EI predicts both job performance and academic performance**, even beyond cognitive ability and the Big Five. Students' EI at the start of a year predicted their end-of-year GPA."
+  },
+  {
+   "id": "tb5-q051",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Cognitive Ability and Performance",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q51"
+   },
+   "prompt": "Research has found that general cognitive ability",
+   "tags": [
+    "§5.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "predicts learning, training success, and job performance."
+    },
+    {
+     "id": "b",
+     "text": "predicts learning and job performance but not training success."
+    },
+    {
+     "id": "c",
+     "text": "predicts learning and training success but not job performance."
+    },
+    {
+     "id": "d",
+     "text": "does not predict learning, training success, or job performance."
+    },
+    {
+     "id": "e",
+     "text": "predicts training success and job performance but not learning."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "**General cognitive ability predicts learning, training, and job performance** in all kinds of jobs. All three are covered, so no partial option is correct."
+  },
+  {
+   "id": "tb5-q052",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Perceiving Emotions",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q52"
+   },
+   "prompt": "The ability to accurately identify emotions in people's faces and nonverbal behaviour is an example of the",
+   "tags": [
+    "§5.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "diagnosis of emotions."
+    },
+    {
+     "id": "b",
+     "text": "knowledge and understanding of emotions."
+    },
+    {
+     "id": "c",
+     "text": "management of emotions."
+    },
+    {
+     "id": "d",
+     "text": "perception of emotions."
+    },
+    {
+     "id": "e",
+     "text": "integration and assimilation of emotions."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Accurately identifying emotions in faces and non-verbal behaviour is **perceiving emotions**, the first EI branch. It is not managing, which is regulating emotions."
+  },
+  {
+   "id": "tb5-q053",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Goal Challenge",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q53"
+   },
+   "prompt": "Which of the following is a good practical example of goal challenge?",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Encourage a D student to set a goal of achieving Ds in the coming semester."
+    },
+    {
+     "id": "b",
+     "text": "Encourage a D student to set a goal of achieving Bs in the coming semester."
+    },
+    {
+     "id": "c",
+     "text": "Encourage a D student to set a goal of achieving Cs in the coming semester."
+    },
+    {
+     "id": "d",
+     "text": "Encourage a D student to set a goal of achieving As in the coming semester."
+    },
+    {
+     "id": "e",
+     "text": "It depends on the student."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Goal challenge should be pegged to ability, using **past performance** as the base: a D student aims for Cs. Another D is too easy, and Bs or As may be seen as impossible, so they lose motivating power."
+  },
+  {
+   "id": "tb5-q054",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Participation in Goal Setting",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q54"
+   },
+   "prompt": "Which of the following is most accurate concerning participation in goal setting?",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Participation should never be used for goal setting in a climate of distrust between employees and management."
+    },
+    {
+     "id": "b",
+     "text": "Participation in goal setting never increases performance."
+    },
+    {
+     "id": "c",
+     "text": "Participation in goal setting always increases performance."
+    },
+    {
+     "id": "d",
+     "text": "Participation in goal setting almost always results in the setting of less difficult goals."
+    },
+    {
+     "id": "e",
+     "text": "Participation in goal setting sometimes increases performance and sometimes it does not."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Research on participation in goal setting is **mixed**: it sometimes improves performance and sometimes does not. It can help when distrust exists or when it yields information for fair goals, so never-or-always claims are wrong."
+  },
+  {
+   "id": "tb5-q055",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Participation in Goal Setting",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q55"
+   },
+   "prompt": "Research shows that participation in goal setting",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "can reduce performance by lowering the difficulty of goals that employees adopt."
+    },
+    {
+     "id": "b",
+     "text": "can improve performance by lowering the difficulty of goals that employees adopt."
+    },
+    {
+     "id": "c",
+     "text": "can reduce performance by increasing the difficulty of goals that employees adopt."
+    },
+    {
+     "id": "d",
+     "text": "has no effect at all on performance or goal difficulty."
+    },
+    {
+     "id": "e",
+     "text": "can improve performance by increasing the difficulty of goals that employees adopt."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Participation can improve performance by **increasing the difficulty of the goals** employees adopt, perhaps through competition or team spirit. It is not described as lowering goal difficulty."
+  },
+  {
+   "id": "tb5-q056",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Goal Setting and Rewards",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q56"
+   },
+   "prompt": "What is the relationship between monetary incentives in goal setting and performance?",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Goal setting has led to performance decreases when monetary incentives are not provided for goal accomplishment."
+    },
+    {
+     "id": "b",
+     "text": "It depends on the employees and the incentive."
+    },
+    {
+     "id": "c",
+     "text": "Goal setting has led to performance increases without monetary incentives for goal accomplishment."
+    },
+    {
+     "id": "d",
+     "text": "Goal setting has led to performance decreases with monetary incentives for goal accomplishment."
+    },
+    {
+     "id": "e",
+     "text": "Goal setting only leads to performance increases when monetary incentives for goal accomplishment are provided."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Goal setting has produced performance increases **without** monetary incentives, as in the Weyerhaeuser study. Money may help commitment, but it is not required."
+  },
+  {
+   "id": "tb5-q057",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Performance Goals",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q57"
+   },
+   "prompt": "Goals that focus attention on the achievement of specific performance outcomes are called",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "specific goals."
+    },
+    {
+     "id": "b",
+     "text": "outcome goals."
+    },
+    {
+     "id": "c",
+     "text": "learning goals."
+    },
+    {
+     "id": "d",
+     "text": "performance goals."
+    },
+    {
+     "id": "e",
+     "text": "challenging goals."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "A goal focused on achieving a specific level of performance is a **performance goal**. It is contrasted with a learning goal, which focuses on acquiring knowledge and skills."
+  },
+  {
+   "id": "tb5-q058",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Learning Goals",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q58"
+   },
+   "prompt": "Process-oriented goals that enhance understanding of a task and the use of task strategies are called",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "performance goals."
+    },
+    {
+     "id": "b",
+     "text": "strategy-oriented goals."
+    },
+    {
+     "id": "c",
+     "text": "task goals."
+    },
+    {
+     "id": "d",
+     "text": "learning goals."
+    },
+    {
+     "id": "e",
+     "text": "process goals."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "A goal that focuses on acquiring knowledge and skills for a novel or complex task is a **learning goal**. Performance goals focus on achieving a specific level of results."
+  },
+  {
+   "id": "tb5-q059",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Performance vs. Learning Goals",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q59"
+   },
+   "prompt": "If your goal in this course is to achieve a particular grade, what kind of goal have you set?",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A performance goal."
+    },
+    {
+     "id": "b",
+     "text": "A learning goal."
+    },
+    {
+     "id": "c",
+     "text": "A proximal goal."
+    },
+    {
+     "id": "d",
+     "text": "A challenging goal."
+    },
+    {
+     "id": "e",
+     "text": "An outcome goal."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Aiming at a **particular grade** is a performance goal, since it targets an outcome. A learning goal would focus on mastering the material and acquiring skills."
+  },
+  {
+   "id": "tb5-q060",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Mechanisms of Goal Setting",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q60"
+   },
+   "prompt": "What are the mechanisms of goal setting?",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Goal specificity, challenge, commitment, and feedback."
+    },
+    {
+     "id": "b",
+     "text": "Goal specificity, participation, rewards, supportiveness."
+    },
+    {
+     "id": "c",
+     "text": "Direction, effort, persistence, feedback."
+    },
+    {
+     "id": "d",
+     "text": "Direction, effort, persistence, and task strategies."
+    },
+    {
+     "id": "e",
+     "text": "Goal specificity, challenge, effort, persistence."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "The four mechanisms through which goals work are **direction, effort, persistence, and task strategies**. Specificity, challenge, commitment, and feedback are the characteristics of effective goals, not the mechanisms."
+  },
+  {
+   "id": "tb5-q061",
+   "type": "mc",
+   "unit": 5,
+   "topic": "McClelland's Needs",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q61"
+   },
+   "prompt": "You have two good friends who are about to graduate and begin working full-time. Omar wants to open his own small business and Jason wants to be a social worker. According to McClelland's theory of needs, what are the needs of your friends?",
+   "tags": [
+    "§5.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Omar has a high need for power and Jason has a high need for affiliation"
+    },
+    {
+     "id": "b",
+     "text": "Omar has a high need for achievement and Jason has a high need for affiliation"
+    },
+    {
+     "id": "c",
+     "text": "Omar has a high need for affiliation and Jason has a high need for power"
+    },
+    {
+     "id": "d",
+     "text": "Omar has a high need for achievement and Jason has a high need for achievement"
+    },
+    {
+     "id": "e",
+     "text": "Omar has a high need for power and Jason has a high need for achievement"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Running a small business suits high **need for achievement**, and social work suits high **need for affiliation**, since it centres on building good relationships with others."
+  },
+  {
+   "id": "tb5-q062",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Employee Engagement",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q62"
+   },
+   "prompt": "What is employee engagement?",
+   "tags": [
+    "§5.1",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "the extent to which an organizational member contributes to achieving the objectives of the organization"
+    },
+    {
+     "id": "b",
+     "text": "the extent to which persistent effort is directed toward a goal"
+    },
+    {
+     "id": "c",
+     "text": "the extent to which an individual immerses his or her true self into his or her work roles"
+    },
+    {
+     "id": "d",
+     "text": "motivation that stems from the direct relationship between the worker and the task"
+    },
+    {
+     "id": "e",
+     "text": "the ability to understand and manage one's own and other's feelings and emotions"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "**Engagement** is the extent to which a person immerses their true self in their work role. The other options describe performance, motivation, intrinsic motivation, and EI. The 12th-edition chapter does not cover engagement.",
+   "scopeNote": "Written for an older edition: Employee engagement is not covered in the 12th-edition Chapter 5."
+  },
+  {
+   "id": "tb5-q063",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Employee Engagement",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q63"
+   },
+   "prompt": "When people are engaged, how do they express themselves in the performance of their role?",
+   "tags": [
+    "§5.1",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "physically, cognitively, and socially"
+    },
+    {
+     "id": "b",
+     "text": "physically, cognitively, and emotionally"
+    },
+    {
+     "id": "c",
+     "text": "physically, socially, and emotionally"
+    },
+    {
+     "id": "d",
+     "text": "emotionally, cognitively, and socially"
+    },
+    {
+     "id": "e",
+     "text": "socially, politically, and emotionally"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Engaged people express themselves **physically, cognitively, and emotionally** in role performance (Kahn). The 12th-edition chapter no longer covers this.",
+   "scopeNote": "Written for an older edition: Employee engagement is not covered in the 12th-edition Chapter 5."
+  },
+  {
+   "id": "tb5-q064",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Engagement vs. Intrinsic Motivation",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 5 · Q64"
+   },
+   "prompt": "You have two friends who just started jobs after graduating. Tory says she spends a lot of time thinking about her job and she is engrossed in it. Rory says that his new job gives him feelings of achievement and accomplishment. What can you say about your two friends?",
+   "tags": [
+    "§5.1",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Tory is engaged and Rory is engaged"
+    },
+    {
+     "id": "b",
+     "text": "Tory has intrinsic motivation and Rory has instrinsic motivation"
+    },
+    {
+     "id": "c",
+     "text": "Tory has intrinsic motivation and Rory is engaged"
+    },
+    {
+     "id": "d",
+     "text": "Tory is engaged and Rory has intrinsic motivation"
+    },
+    {
+     "id": "e",
+     "text": "Tory has extrinsic motivation and Rory has intrinsic motivation"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Being engrossed and thinking about the job is **engagement**, while feelings of achievement from the work itself are **intrinsic motivation**. The 12th-edition chapter does not cover engagement.",
+   "scopeNote": "Written for an older edition: Employee engagement is not covered in the 12th-edition Chapter 5."
+  },
+  {
+   "id": "tb5-q065",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Extrinsic vs. Intrinsic Motivation",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q65"
+   },
+   "prompt": "You have two coworkers who you like to work with because they are hard workers. Sal says he works hard because of the pay and benefits. Trisha says she works hard because the job gives her feelings of achievement and accomplishment. What can you say about your two coworkers?",
+   "tags": [
+    "§5.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Sal has extrinsic motivation and Trisha is engaged"
+    },
+    {
+     "id": "b",
+     "text": "Sal has extrinsic motivation and Trisha has intrinsic motivation"
+    },
+    {
+     "id": "c",
+     "text": "Sal has intrinsic motivation and Trisha is engaged"
+    },
+    {
+     "id": "d",
+     "text": "Sal is engaged and Trisha is engaged"
+    },
+    {
+     "id": "e",
+     "text": "Sal has extrinsic motivation and Trisha has extrinsic motivation"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Working for pay and benefits is **extrinsic** motivation, and feelings of achievement from the job are **intrinsic**. Trisha is not described as absorbed or psychologically present, so engagement is not the right label for her."
+  },
+  {
+   "id": "tb5-q066",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Engagement Components",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q66"
+   },
+   "prompt": "What are two important components of employee engagement?",
+   "tags": [
+    "§5.1",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "absorption and availability"
+    },
+    {
+     "id": "b",
+     "text": "attention and meaningfulness"
+    },
+    {
+     "id": "c",
+     "text": "attention and absorption"
+    },
+    {
+     "id": "d",
+     "text": "meaningfulness and safety"
+    },
+    {
+     "id": "e",
+     "text": "attention and availability"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "The two components of engagement are **attention** (time spent thinking about work) and **absorption** (being engrossed in it). The 12th-edition chapter no longer covers engagement.",
+   "scopeNote": "Written for an older edition: Employee engagement is not covered in the 12th-edition Chapter 5."
+  },
+  {
+   "id": "tb5-q067",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Attention and Absorption",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q67"
+   },
+   "prompt": "As a manager, you need to evaluate the performance of your employees. Stan seems to always be engrossed in his work and focused on what he is doing. Sue seems to spend a great deal of time thinking about her work. What can you say about each of these employees?",
+   "tags": [
+    "§5.1",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Stan is motivated and Sue is attentive"
+    },
+    {
+     "id": "b",
+     "text": "Sue is attentive and Stan is motivated"
+    },
+    {
+     "id": "c",
+     "text": "Stan is engaged and Sue is motivated"
+    },
+    {
+     "id": "d",
+     "text": "Stan is absorbed and Sue is attentive"
+    },
+    {
+     "id": "e",
+     "text": "Sue is absorbed and Stan is attentive"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Being engrossed and focused on the work is **absorption**; spending a lot of time thinking about work is **attention**. The 12th-edition chapter does not cover these.",
+   "scopeNote": "Written for an older edition: Employee engagement is not covered in the 12th-edition Chapter 5."
+  },
+  {
+   "id": "tb5-q068",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Employee Engagement",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q68"
+   },
+   "prompt": "After several months on your new job, you ask your manager how you are doing. She says, \"You are always psychologically present\" at work. What does she mean?",
+   "tags": [
+    "§5.1",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "you are motivated"
+    },
+    {
+     "id": "b",
+     "text": "you are high on general cognitive ability"
+    },
+    {
+     "id": "c",
+     "text": "you are engaged"
+    },
+    {
+     "id": "d",
+     "text": "you are emotionally intelligent"
+    },
+    {
+     "id": "e",
+     "text": "you are high on intrinsic motivation"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Being **psychologically present** at work is how engagement is described: someone who is engaged is fully present. This idea is not in the 12th-edition chapter.",
+   "scopeNote": "Written for an older edition: Employee engagement is not covered in the 12th-edition Chapter 5."
+  },
+  {
+   "id": "tb5-q069",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Conditions for Engagement",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q69"
+   },
+   "prompt": "What factors contribute to people's engagement at work?",
+   "tags": [
+    "§5.1",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "meaningfulness, safety, attention"
+    },
+    {
+     "id": "b",
+     "text": "safety, attention, absorption"
+    },
+    {
+     "id": "c",
+     "text": "availability, attention, absorption"
+    },
+    {
+     "id": "d",
+     "text": "meaningfulness, attention, absorption"
+    },
+    {
+     "id": "e",
+     "text": "meaningfulness, safety, availability"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Kahn's three psychological conditions for engagement are **meaningfulness, safety, and availability**. Attention and absorption are components of engagement, not conditions for it. The 12th-edition chapter does not cover this.",
+   "scopeNote": "Written for an older edition: Kahn's psychological conditions for engagement are not in the 12th-edition Chapter 5."
+  },
+  {
+   "id": "tb5-q070",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Psychological Meaningfulness",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q70"
+   },
+   "prompt": "If your job provides you with incentives and you feel worwhile, useful, valuable, and not taken for granted, then you will experience:",
+   "tags": [
+    "§5.1",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "psychological safety"
+    },
+    {
+     "id": "b",
+     "text": "psychological rewards"
+    },
+    {
+     "id": "c",
+     "text": "intrinsic motivation"
+    },
+    {
+     "id": "d",
+     "text": "psychological availability"
+    },
+    {
+     "id": "e",
+     "text": "psychological meaningfulness"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Feeling worthwhile, useful, and valuable is **psychological meaningfulness**, one of Kahn's conditions for engagement. The 12th-edition chapter does not cover this.",
+   "scopeNote": "Written for an older edition: Kahn's psychological conditions for engagement are not in the 12th-edition Chapter 5."
+  },
+  {
+   "id": "tb5-q071",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Psychological Safety",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q71"
+   },
+   "prompt": "If you have job in which you can employ and express yourself without fear of negative consequences to your self-image, status, or career, then you have:",
+   "tags": [
+    "§5.1",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "psychological meaningfulness"
+    },
+    {
+     "id": "b",
+     "text": "psychological safety"
+    },
+    {
+     "id": "c",
+     "text": "job security"
+    },
+    {
+     "id": "d",
+     "text": "psychological security"
+    },
+    {
+     "id": "e",
+     "text": "psychological availability"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Being able to express yourself without fear of negative consequences to self-image, status, or career is **psychological safety**. The 12th-edition chapter does not cover this.",
+   "scopeNote": "Written for an older edition: Kahn's psychological conditions for engagement are not in the 12th-edition Chapter 5."
+  },
+  {
+   "id": "tb5-q072",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Psychological Availability",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q72"
+   },
+   "prompt": "If you have the physical, emotional, and cognitive resources required to engage yourself in your job then you have:",
+   "tags": [
+    "§5.1",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "physiological safety"
+    },
+    {
+     "id": "b",
+     "text": "psychological availability"
+    },
+    {
+     "id": "c",
+     "text": "psychological meaningfulness"
+    },
+    {
+     "id": "d",
+     "text": "psychological safety"
+    },
+    {
+     "id": "e",
+     "text": "psychological security"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Having the physical, emotional, and cognitive resources needed to engage yourself in your job is **psychological availability**. The 12th-edition chapter does not cover this.",
+   "scopeNote": "Written for an older edition: Kahn's psychological conditions for engagement are not in the 12th-edition Chapter 5."
+  },
+  {
+   "id": "tb5-q073",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Kahn's Engagement Study",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q73"
+   },
+   "prompt": "Where did William Kahn study employee engagement?",
+   "tags": [
+    "§5.1",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "accounting firm and summer camp"
+    },
+    {
+     "id": "b",
+     "text": "architectural firm and summer camp"
+    },
+    {
+     "id": "c",
+     "text": "law firm and summer camp"
+    },
+    {
+     "id": "d",
+     "text": "accounting firm and law firm"
+    },
+    {
+     "id": "e",
+     "text": "accounting firm and architectural firm"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Kahn's engagement study was conducted in an **architectural firm and a summer camp**. The 12th-edition chapter does not mention the study.",
+   "scopeNote": "Written for an older edition: Kahn's engagement study is not in the 12th-edition Chapter 5."
+  },
+  {
+   "id": "tb5-q074",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Learning vs. Performance Goals",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q74"
+   },
+   "prompt": "If you are learning a complex task and you do not have the required knowledge and skills, what kind of goal will be most effective for you?",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "specific high learning goal"
+    },
+    {
+     "id": "b",
+     "text": "specific high performance goal"
+    },
+    {
+     "id": "c",
+     "text": "specific and challenging performance goal"
+    },
+    {
+     "id": "d",
+     "text": "specific performance goal"
+    },
+    {
+     "id": "e",
+     "text": "do your best goal"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "For a complex task where you lack the knowledge and skills, a **specific high learning goal** works best because it focuses attention on learning. A specific challenging performance goal can decrease performance here."
+  },
+  {
+   "id": "tb5-q075",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Goals and Job Complexity",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q75"
+   },
+   "prompt": "What is the performance impact of specific, challenging goals?",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "weaker for simple jobs"
+    },
+    {
+     "id": "b",
+     "text": "stronger for complex jobs"
+    },
+    {
+     "id": "c",
+     "text": "the same for all kinds of jobs"
+    },
+    {
+     "id": "d",
+     "text": "stronger for simple jobs"
+    },
+    {
+     "id": "e",
+     "text": "weaker for complex jobs"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "The performance impact of specific, challenging goals is **stronger for simpler jobs** than for complex ones such as scientific and engineering work. Complex work requires new knowledge and skills, which a learning goal addresses."
+  },
+  {
+   "id": "tb5-q076",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Learning vs. Performance Goals",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q76"
+   },
+   "prompt": "When a task is novel or complex and individuals need to acquire new knowledge and skills for good performance, which of the following is most accurate?",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "setting a specific learning goal will be most effective"
+    },
+    {
+     "id": "b",
+     "text": "setting a do your best goal will be most effective"
+    },
+    {
+     "id": "c",
+     "text": "setting a high performance goal and a low learning goal will be most effective"
+    },
+    {
+     "id": "d",
+     "text": "setting a high performance goal and a high learning goal will be most effective"
+    },
+    {
+     "id": "e",
+     "text": "setting a high performance goal will be most effective"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "For a novel or complex task, a **specific learning goal** is more effective than a high performance goal or a do-your-best goal. A learning goal focuses attention on acquiring the needed knowledge and skills."
+  },
+  {
+   "id": "tb5-q077",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Performance Goals",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q77"
+   },
+   "prompt": "You have just been hired to perform a job that you have done before and have the ability to perform effectively. What kind of goal should your boss set for you?",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "a high learning goal and a low performance goal"
+    },
+    {
+     "id": "b",
+     "text": "a specific learning goal"
+    },
+    {
+     "id": "c",
+     "text": "a do your best goal"
+    },
+    {
+     "id": "d",
+     "text": "a high performance goal"
+    },
+    {
+     "id": "e",
+     "text": "a high performance goal and a high learning goal"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "When people already have the ability to do the task, a **high performance goal** is most effective. A learning goal is for tasks where knowledge and skills still have to be acquired, and a do-your-best goal is weaker than a specific one."
+  },
+  {
+   "id": "tb5-q078",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Goals and Task Complexity",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 5 · Q78"
+   },
+   "prompt": "Which of the following about the relationship between goals and performance is most accurate?",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "when a task is straightforward, a specific learning goal will increase performance"
+    },
+    {
+     "id": "b",
+     "text": "when a task is complex, a specific challenging performance goal can decrease performance"
+    },
+    {
+     "id": "c",
+     "text": "when a task is novel, a specific challenging performance goal will increase performance"
+    },
+    {
+     "id": "d",
+     "text": "when a task is straightforward, a specific learning goal can decrease performance"
+    },
+    {
+     "id": "e",
+     "text": "when a task is complex, a specific learning goal can decrease performance"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "When people lack the knowledge or skill for a novel or complex task, a **specific challenging performance goal can decrease performance** relative to a do-your-best goal. Learning goals are what help in that case."
+  },
+  {
+   "id": "tb5-q079",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Weyerhaeuser Study",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q79"
+   },
+   "prompt": "Which of the following is true about the classic goal setting study conducted at Weyerhaeuser Company?",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "drivers were assigned a specific learning goal"
+    },
+    {
+     "id": "b",
+     "text": "the results were achieved with driver participation"
+    },
+    {
+     "id": "c",
+     "text": "drivers were assigned a specific challenging performance goal"
+    },
+    {
+     "id": "d",
+     "text": "the effects were short-lived"
+    },
+    {
+     "id": "e",
+     "text": "the results were achieved with monetary incentives"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "At Weyerhaeuser, truck drivers were assigned a **specific, challenging performance goal** (94 percent of legal weight capacity). Results came without driver participation or monetary incentives, and lasted seven years, so they were not short-lived."
+  },
+  {
+   "id": "tb5-q080",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Learning vs. Performance Goals",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q80"
+   },
+   "prompt": "When will setting a specific learning goal be more effective than setting a high performance goal?",
+   "tags": [
+    "§5.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "when the job is simple"
+    },
+    {
+     "id": "b",
+     "text": "when the task is straightforward"
+    },
+    {
+     "id": "c",
+     "text": "when the task is complex"
+    },
+    {
+     "id": "d",
+     "text": "when individuals have the knowledge and skills to perform the task effectively"
+    },
+    {
+     "id": "e",
+     "text": "when the task is instrinsically motivating"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "A specific learning goal beats a high performance goal when the task is **novel or complex** and skills must be acquired. For simple or straightforward tasks, or when people already have the skills, a high performance goal works better."
+  },
+  {
+   "id": "tb5-q081",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Equity and Piece-Rate Pay",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q81"
+   },
+   "prompt": "Equity theory predicts that someone who is underpaid on a piece rate basis will produce a high volume of low quality output.",
+   "tags": [
+    "§5.4"
+   ],
+   "answer": true,
+   "explanation": "**True.** Underpaid piece-rate workers raise their outcomes by producing a **high volume of low-quality work**, which restores equity. Underpaid hourly workers instead lower their inputs."
+  },
+  {
+   "id": "tb5-q082",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Canadian Employee Engagement",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q82"
+   },
+   "prompt": "The majority of Canadian workers are disengaged.",
+   "tags": [
+    "§5.1",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "This item depends on engagement survey statistics from an older edition. The 12th-edition Chapter 5 does not cover employee engagement or report these figures.",
+   "scopeNote": "Written for an older edition: Employee engagement statistics are not in the 12th-edition Chapter 5."
+  },
+  {
+   "id": "tb5-q083",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Canadian Employee Engagement",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q83"
+   },
+   "prompt": "Most Canadian workers are highly engaged at work.",
+   "tags": [
+    "§5.1",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "This item depends on engagement survey statistics from an older edition. The 12th-edition Chapter 5 does not cover employee engagement or report these figures.",
+   "scopeNote": "Written for an older edition: Employee engagement statistics are not in the 12th-edition Chapter 5."
+  },
+  {
+   "id": "tb5-q084",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Motivation vs. Engagement",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q84"
+   },
+   "prompt": "Motivation and engagement are pretty much the same thing.",
+   "tags": [
+    "§5.1",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "**False.** Engagement and motivation are related but distinct: motivation is persistent effort directed toward a goal, while engagement is immersing one's true self in a work role. The 12th-edition chapter does not cover engagement.",
+   "scopeNote": "Written for an older edition: Employee engagement is not covered in the 12th-edition Chapter 5."
+  },
+  {
+   "id": "tb5-q085",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Engagement vs. Effort",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q85"
+   },
+   "prompt": "Employee engagement has more to do with employee persistence than effort.",
+   "tags": [
+    "§5.1",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "**False.** Engagement is not mainly about persistence or effort; it is about how fully a person immerses their true self in the role. The 12th-edition chapter does not cover engagement.",
+   "scopeNote": "Written for an older edition: Employee engagement is not covered in the 12th-edition Chapter 5."
+  },
+  {
+   "id": "tb5-q086",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Motivation vs. Engagement",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q86"
+   },
+   "prompt": "Employees who are motivated are also engaged.",
+   "tags": [
+    "§5.1",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "**False.** Someone can work hard toward a goal without being engaged. Motivation and engagement are separate concepts, and the 12th-edition chapter does not cover engagement.",
+   "scopeNote": "Written for an older edition: Employee engagement is not covered in the 12th-edition Chapter 5."
+  },
+  {
+   "id": "tb5-q087",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Defining Engagement",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q87"
+   },
+   "prompt": "Engagement involves the extent to which an individual immerses his or her true self into his or her work roles.",
+   "tags": [
+    "§5.1",
+    "out-of-scope"
+   ],
+   "answer": true,
+   "explanation": "**True.** Engagement is the extent to which a person immerses their true self into their work role. The 12th-edition chapter does not cover engagement.",
+   "scopeNote": "Written for an older edition: Employee engagement is not covered in the 12th-edition Chapter 5."
+  },
+  {
+   "id": "tb5-q088",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Engagement Components",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q88"
+   },
+   "prompt": "Two important components of employee engagement are attention and availability.",
+   "tags": [
+    "§5.1",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "**False.** The two components of engagement are attention and **absorption**, not attention and availability. Availability is one of Kahn's psychological conditions. The 12th-edition chapter does not cover this.",
+   "scopeNote": "Written for an older edition: Employee engagement is not covered in the 12th-edition Chapter 5."
+  },
+  {
+   "id": "tb5-q089",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Psychological Presence",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q89"
+   },
+   "prompt": "If you have a friend who is psychologically present at work, he or she is highly engaged.",
+   "tags": [
+    "§5.1",
+    "out-of-scope"
+   ],
+   "answer": true,
+   "explanation": "**True.** Being psychologically present at work is a way of describing engagement. The 12th-edition chapter does not cover this idea.",
+   "scopeNote": "Written for an older edition: Employee engagement is not covered in the 12th-edition Chapter 5."
+  },
+  {
+   "id": "tb5-q090",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Psychological Presence",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q90"
+   },
+   "prompt": "If you have a friend who is psychologically present at work, he or she has high intrinsic motivation.",
+   "tags": [
+    "§5.1",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "**False.** Psychological presence describes engagement, not intrinsic motivation. Intrinsic motivation comes from the task itself, like achievement. The 12th-edition chapter does not cover engagement.",
+   "scopeNote": "Written for an older edition: Employee engagement is not covered in the 12th-edition Chapter 5."
+  },
+  {
+   "id": "tb5-q091",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Kahn's Engagement Study",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q91"
+   },
+   "prompt": "Research on engagement involved interviews and observations of members of an accounting firm.",
+   "tags": [
+    "§5.1",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "**False.** Kahn's research was in an architectural firm and a summer camp, not an accounting firm. The 12th-edition chapter does not mention it.",
+   "scopeNote": "Written for an older edition: Kahn's engagement study is not in the 12th-edition Chapter 5."
+  },
+  {
+   "id": "tb5-q092",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Weyerhaeuser Study",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q92"
+   },
+   "prompt": "The goal setting study conducted at Weyerhaeuser Company involved driver participating in goal setting.",
+   "tags": [
+    "§5.4"
+   ],
+   "answer": false,
+   "explanation": "**False.** The Weyerhaeuser drivers were assigned the goal **without participating** in setting it, and without monetary incentives. They found the 94 percent goal motivating in itself."
+  },
+  {
+   "id": "tb5-q093",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Weyerhaeuser Study",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q93"
+   },
+   "prompt": "In the goal setting study conducted at Weyerhaeuser Company, the drivers did not receive monetary incentives.",
+   "tags": [
+    "§5.4"
+   ],
+   "answer": true,
+   "explanation": "**True.** The Weyerhaeuser results were achieved **without monetary incentives** for goal accomplishment, and without driver participation. The drivers even recorded their weights in informal competition."
+  },
+  {
+   "id": "tb5-q094",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Weyerhaeuser Study",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q94"
+   },
+   "prompt": "In the goal setting study conducted at Weyerhaeuser Company, the drivers were assigned a specific high learning goal.",
+   "tags": [
+    "§5.4"
+   ],
+   "answer": false,
+   "explanation": "**False.** The drivers were assigned a specific, challenging **performance** goal (loading to 94 percent of legal weight capacity), not a learning goal."
+  },
+  {
+   "id": "tb5-q095",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Goals and Task Knowledge",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q95"
+   },
+   "prompt": "When individuals lack the knowledge or skill to perform a task, a specific challenging goal can decrease performance.",
+   "tags": [
+    "§5.4"
+   ],
+   "answer": true,
+   "explanation": "**True.** When people lack the knowledge or skill for a novel or complex task, a specific challenging performance goal can **decrease** performance relative to a do-your-best goal. A specific learning goal helps instead."
+  },
+  {
+   "id": "tb5-q096",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Learning vs. Performance Goals",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q96"
+   },
+   "prompt": "If you are learning to perform a new task, your boss should set a specific challenging goal for you.",
+   "tags": [
+    "§5.4"
+   ],
+   "answer": false,
+   "explanation": "**False.** When learning a new task, a specific high **learning** goal is more effective than a specific challenging performance goal, which can even decrease performance. Performance goals work once the skills are in place."
+  },
+  {
+   "id": "tb5-q097",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Learning vs. Performance Goals",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q97"
+   },
+   "prompt": "If you are performing a task that is straightforward, your boss should set a specific high learning goal for you.",
+   "tags": [
+    "§5.4"
+   ],
+   "answer": false,
+   "explanation": "**False.** For a straightforward task, a specific high **performance** goal is best. Learning goals are most useful for novel or complex tasks where skills must be acquired."
+  },
+  {
+   "id": "tb5-q098",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Performance Goals",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q98"
+   },
+   "prompt": "When a task is straightforward, a specific high performance goal results in higher performance than a do-your-best goal.",
+   "tags": [
+    "§5.4"
+   ],
+   "answer": true,
+   "explanation": "**True.** On a straightforward task, a specific high-performance goal yields higher performance than a do-your-best goal. Specific, difficult goals work best when people already have the ability."
+  },
+  {
+   "id": "tb5-q099",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Learning vs. Performance Goals",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q99"
+   },
+   "prompt": "A specific high learning goal is more effective than a specific high performance goal and a do your best goal when individuals are learning to perform a simple task.",
+   "tags": [
+    "§5.4"
+   ],
+   "answer": false,
+   "explanation": "**False.** A specific high learning goal is more effective than a high-performance or do-your-best goal when learning a **novel or complex** task, not a simple one. For simple tasks, a high-performance goal works better."
+  },
+  {
+   "id": "tb5-q100",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Needs Across Cultures",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q100"
+   },
+   "prompt": "The need theories of motivation are particularly universal in their applicability across cultures.",
+   "tags": [
+    "§5.5"
+   ],
+   "answer": false,
+   "explanation": "**False.** Need theories are likely to run into **cultural limitations**, since they rest on values like individualism that differ across societies. Maslow's and Alderfer's social-then-growth order may not hold in collective cultures."
+  },
+  {
+   "id": "tb5-q101",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Maslow's Hierarchy",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q101"
+   },
+   "prompt": "According to Maslow, self-actualization is the most potent motivator.",
+   "tags": [
+    "§5.3"
+   ],
+   "answer": false,
+   "explanation": "**False.** According to Maslow, the **lowest-level unsatisfied need** is the most motivating, and no need is the best motivator in general. Self-actualization matters only after lower needs are satisfied, though it grows stronger as it is gratified."
+  },
+  {
+   "id": "tb5-q102",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Maslow's Hierarchy",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q102"
+   },
+   "prompt": "According to Maslow, physiological needs are the strongest motivators.",
+   "tags": [
+    "§5.3"
+   ],
+   "answer": false,
+   "explanation": "**False.** No need is always the strongest motivator. The **lowest-level unsatisfied need** has the greatest motivating potential, so physiological needs dominate only until they are satisfied."
+  },
+  {
+   "id": "tb5-q103",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Equity vs. Equality",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q103"
+   },
+   "prompt": "In more collective cultures, there is a tendency to favour reward allocation based on equality rather than equity.",
+   "tags": [
+    "§5.5"
+   ],
+   "answer": true,
+   "explanation": "**True.** In collective cultures there is a tendency to favour reward allocation based on **equality** rather than equity, so everyone gets the same outcomes and group solidarity is the dominant motive."
+  },
+  {
+   "id": "tb5-q104",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Theories Across Cultures",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q104"
+   },
+   "prompt": "Of all the motivation theories studied in the chapter, expectancy theory handles cross-cultural differences best.",
+   "tags": [
+    "§5.5"
+   ],
+   "answer": true,
+   "explanation": "**True** as keyed: because of its flexibility, **expectancy theory** is very effective cross-culturally, since expectancies and valences can differ by culture. (The text also says SDT has been found cross-culturally valid.)"
+  },
+  {
+   "id": "tb5-q105",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Frustration-Regression",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q105"
+   },
+   "prompt": "Natasha wants a promotion to a more interesting and challenging job but doesn't get it. According to Alderfer's ERG theory and its frustration-regression hypothesis, she may now seek more social support from her boss.",
+   "tags": [
+    "§5.3"
+   ],
+   "answer": true,
+   "explanation": "**True.** Under ERG's **frustration-regression** hypothesis, frustrated growth needs lead people to seek more of a lower-level need such as relatedness, here social support from the boss. Maslow's theory would not predict this."
+  },
+  {
+   "id": "tb5-q106",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Managerial Need Profile",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q106"
+   },
+   "prompt": "High need for achievement is the need profile most consistently predictive of success as a manager.",
+   "tags": [
+    "§5.3"
+   ],
+   "answer": false,
+   "explanation": "**False.** McClelland found the most effective managers have **high need for power, low need for affiliation**, and the ability to direct power toward organizational goals. High nAch suits sales and entrepreneurial jobs."
+  },
+  {
+   "id": "tb5-q107",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Defining Performance",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q107"
+   },
+   "prompt": "The text defines performance as the extent to which persistent effort is directed toward a goal.",
+   "tags": [
+    "§5.2"
+   ],
+   "answer": false,
+   "explanation": "**False.** That is the definition of **motivation**. Performance is the extent to which a member contributes to achieving the organization's objectives."
+  },
+  {
+   "id": "tb5-q108",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Equity Theory",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 5 · Q108"
+   },
+   "prompt": "Gina sees herself as having identical job outcomes to Rob but having fewer inputs than Rob. According to equity theory, Gina should feel a sense of inequity.",
+   "tags": [
+    "§5.4"
+   ],
+   "answer": true,
+   "explanation": "**True.** Gina has the same outcomes but fewer inputs, so her ratio is higher than Rob's: she is relatively **overpaid**. Equity theory says any unequal ratio creates inequity, including overpayment."
+  },
+  {
+   "id": "tb5-q109",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Equity Tactics vs. nAch",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q109"
+   },
+   "prompt": "\"Choosing another comparison person or group\" is a reaction that is associated with McClelland's theory of need for achievement.",
+   "tags": [
+    "§5.4"
+   ],
+   "answer": false,
+   "explanation": "**False.** Choosing another comparison person is one of the tactics for reducing inequity in **equity theory**. It has nothing to do with McClelland's need for achievement."
+  },
+  {
+   "id": "tb5-q110",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Instrumentality",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q110"
+   },
+   "prompt": "In expectancy theory, the variable that links first and second level outcomes is instrumentality.",
+   "tags": [
+    "§5.4"
+   ],
+   "answer": true,
+   "explanation": "**True.** **Instrumentality** is the probability that a first-level outcome leads to a second-level outcome (performance to outcome). Expectancy links effort to the first-level outcome."
+  },
+  {
+   "id": "tb5-q111",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Expectancy",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q111"
+   },
+   "prompt": "Ray's boss and mentor showed him in great detail how to write a marketing plan. In expectancy theory terminology, the boss increased Ray's expectancy.",
+   "tags": [
+    "§5.4"
+   ],
+   "answer": true,
+   "explanation": "**True.** Showing Ray how to write a marketing plan makes him more sure he can achieve good performance, which boosts **expectancy** (effort to performance). It does not change what rewards follow."
+  },
+  {
+   "id": "tb5-q112",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Needs and Equity Across Cultures",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q112"
+   },
+   "prompt": "Need for achievement and equity concepts are more applicable in collective societies than in individualistic societies.",
+   "tags": [
+    "§5.5"
+   ],
+   "answer": false,
+   "explanation": "**False.** The need for achievement and equity-based rewards are most likely to be endorsed in **individualistic** societies. Collective cultures tend to favour group-oriented achievement and equality."
+  },
+  {
+   "id": "tb5-q113",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Intrinsic and Extrinsic Motivators",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q113"
+   },
+   "prompt": "Some potential motivators might have both extrinsic and intrinsic qualities.",
+   "tags": [
+    "§5.1"
+   ],
+   "answer": true,
+   "explanation": "**True.** Some motivators have both qualities. A promotion or compliment from the boss is applied externally but also signals achievement and competence."
+  },
+  {
+   "id": "tb5-q114",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Need for Achievement",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q114"
+   },
+   "prompt": "People high in need for achievement tend to set remarkably difficult performance goals.",
+   "tags": [
+    "§5.3"
+   ],
+   "answer": false,
+   "explanation": "**False.** High-nAch people set **moderately difficult** goals involving calculated risk, not remarkably difficult ones that might never be reached."
+  },
+  {
+   "id": "tb5-q115",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Maslow's Hierarchy",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q115"
+   },
+   "prompt": "According to Maslow, once a person has experienced self-actualization, he or she will no longer be motivated by needs.",
+   "tags": [
+    "§5.3"
+   ],
+   "answer": false,
+   "explanation": "**False.** Self-actualization is the exception to the rule that satisfied needs stop motivating: these **growth needs get stronger as they are gratified**."
+  },
+  {
+   "id": "tb5-q116",
+   "type": "tf",
+   "unit": 5,
+   "topic": "ERG Theory",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q116"
+   },
+   "prompt": "According to Alderfer's ERG theory, a satisfied need is no longer a motivator.",
+   "tags": [
+    "§5.3"
+   ],
+   "answer": false,
+   "explanation": "**False.** That claim is Maslow's. In ERG theory, an apparently satisfied need can still act as a motivator by **substituting** for a frustrated higher-level need."
+  },
+  {
+   "id": "tb5-q117",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Extrinsic vs. Intrinsic Motivation",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q117"
+   },
+   "prompt": "Researchers have argued that making intrinsic rewards contingent upon performance can reduce extrinsic motivation.",
+   "tags": [
+    "§5.1"
+   ],
+   "answer": false,
+   "explanation": "**False.** The claim is reversed. Some researchers argued that making **extrinsic** rewards contingent on performance can reduce **intrinsic** motivation. The text adds that this occurs only under limited conditions."
+  },
+  {
+   "id": "tb5-q118",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Expectancy Theory",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q118"
+   },
+   "prompt": "Expectancy theory is concerned with specifying how an employee might attempt to choose one first level outcome instead of another.",
+   "tags": [
+    "§5.4"
+   ],
+   "answer": true,
+   "explanation": "**True.** Expectancy theory is concerned with specifying how an employee chooses one **first-level outcome** (such as high productivity) over another, using force = valence x expectancy."
+  },
+  {
+   "id": "tb5-q119",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Valence",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q119"
+   },
+   "prompt": "Valence is the expected value of outcomes.",
+   "tags": [
+    "§5.4"
+   ],
+   "answer": true,
+   "explanation": "**True.** **Valence** is the expected value of outcomes, that is, how attractive or unattractive they are to the individual."
+  },
+  {
+   "id": "tb5-q120",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Equity and Underpayment",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q120"
+   },
+   "prompt": "Equity theory predicts that a person who is underpaid on an hourly basis will reduce inputs and perform at a low level.",
+   "tags": [
+    "§5.4"
+   ],
+   "answer": true,
+   "explanation": "**True.** Workers underpaid on an hourly basis tend to **lower their inputs** and produce less. That brings inputs in line with their low outcomes."
+  },
+  {
+   "id": "tb5-q121",
+   "type": "tf",
+   "unit": 5,
+   "topic": "McClelland's Needs",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q121"
+   },
+   "prompt": "People with high achievement needs are consistently better performers than people with high affiliation needs.",
+   "tags": [
+    "§5.3"
+   ],
+   "answer": false,
+   "explanation": "**False.** McClelland predicts people perform well in jobs that **match their needs**, not that one need beats another. High-nAff people do well in jobs like social work and customer relations."
+  },
+  {
+   "id": "tb5-q122",
+   "type": "tf",
+   "unit": 5,
+   "topic": "McClelland vs. Maslow",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q122"
+   },
+   "prompt": "McClelland's affiliation need is essentially equivalent to Maslow's belongingness need.",
+   "tags": [
+    "§5.3"
+   ],
+   "answer": true,
+   "explanation": "**True.** The text describes **nAff** as an example of a belongingness (or relatedness) need, so it corresponds closely to Maslow's belongingness."
+  },
+  {
+   "id": "tb5-q123",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Motivation and Performance",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q123"
+   },
+   "prompt": "High performance could occur despite fairly low motivation.",
+   "tags": [
+    "§5.2"
+   ],
+   "answer": true,
+   "explanation": "**True.** Performance can be high with weak motivation when a person has high ability, understands the task well, or gets some **luck or chance**. Motivation is only one factor in performance."
+  },
+  {
+   "id": "tb5-q124",
+   "type": "tf",
+   "unit": 5,
+   "topic": "McClelland's Needs",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q124"
+   },
+   "prompt": "According to McClelland, people with high needs for affiliation are likely to be good salespersons.",
+   "tags": [
+    "§5.3"
+   ],
+   "answer": false,
+   "explanation": "**False.** Sales jobs suit people high in **need for achievement**. High-nAff people are better matched to jobs like social work and customer relations where building relationships is the main task."
+  },
+  {
+   "id": "tb5-q125",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Frustration-Regression",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 5 · Q125"
+   },
+   "prompt": "According to ERG theory, a person whose existence needs are frustrated is likely to regress to a concern with growth needs.",
+   "tags": [
+    "§5.3"
+   ],
+   "answer": false,
+   "explanation": "**False.** Frustration leads people to regress to a more **concrete, lower-level** need. Existence is already the most concrete level, so it cannot regress to growth."
+  },
+  {
+   "id": "tb5-q126",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Cognitive Ability",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q126"
+   },
+   "prompt": "General cognitive ability is only related to performance on complex tasks.",
+   "tags": [
+    "§5.2"
+   ],
+   "answer": false,
+   "explanation": "**False.** General cognitive ability predicts performance in **all kinds of jobs**, manual and mental. It is an even better predictor in complex jobs, but not only there."
+  },
+  {
+   "id": "tb5-q127",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Four-Branch EI Model",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q127"
+   },
+   "prompt": "The most basic step in emotional intelligence is knowledge and understanding of emotions.",
+   "tags": [
+    "§5.2"
+   ],
+   "answer": false,
+   "explanation": "**False.** The most basic step is **perceiving emotions**. Understanding emotions is the third step, above using emotions to facilitate thinking."
+  },
+  {
+   "id": "tb5-q128",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Four-Branch EI Model",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q128"
+   },
+   "prompt": "The highest level of emotional intelligence is perception of emotions.",
+   "tags": [
+    "§5.2"
+   ],
+   "answer": false,
+   "explanation": "**False.** Perception is the **lowest** level. The highest level is **managing emotions**, which requires mastery of the earlier steps."
+  },
+  {
+   "id": "tb5-q129",
+   "type": "tf",
+   "unit": 5,
+   "topic": "EI and Performance",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q129"
+   },
+   "prompt": "Emotional intelligence predicts academic performance.",
+   "tags": [
+    "§5.2"
+   ],
+   "answer": true,
+   "explanation": "**True.** EI predicts **academic performance** as well as job performance. College students' EI at the start of the year predicted their end-of-year GPAs."
+  },
+  {
+   "id": "tb5-q130",
+   "type": "tf",
+   "unit": 5,
+   "topic": "EI and Job Performance",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q130"
+   },
+   "prompt": "Emotional intelligence is most important for complex and higher-level jobs.",
+   "tags": [
+    "§5.2"
+   ],
+   "answer": false,
+   "explanation": "**False.** **General cognitive ability** is the better predictor for complex, higher-level jobs. EI is most strongly related to performance in jobs with high emotional labour, and matters most for employees with lower cognitive ability."
+  },
+  {
+   "id": "tb5-q131",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Goal Challenge",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q131"
+   },
+   "prompt": "To make goals challenging, they should be based on past performance.",
+   "tags": [
+    "§5.4"
+   ],
+   "answer": true,
+   "explanation": "**True.** Challenge is best when pegged to each worker's competence, and one practical way is to base initial goals on **past performance**, then raise them as the task is mastered."
+  },
+  {
+   "id": "tb5-q132",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Goal Commitment",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q132"
+   },
+   "prompt": "The effect of goals on performance is strongest when individuals have high goal commitment.",
+   "tags": [
+    "§5.4"
+   ],
+   "answer": true,
+   "explanation": "**True.** Goals only improve performance when people accept them, so the effect is strongest when **goal commitment** is high, especially for challenging goals."
+  },
+  {
+   "id": "tb5-q133",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Participation in Goal Setting",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q133"
+   },
+   "prompt": "Participation in goal setting is necessary for goals to improve performance.",
+   "tags": [
+    "§5.4"
+   ],
+   "answer": false,
+   "explanation": "**False.** Goals can improve performance without participation, as in the Weyerhaeuser study. Participation is **helpful in some circumstances** but not necessary, for example when employees trust the boss."
+  },
+  {
+   "id": "tb5-q134",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Participation in Goal Setting",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q134"
+   },
+   "prompt": "Participation can improve performance by increasing the difficulty of the goal that employees adopt.",
+   "tags": [
+    "§5.4"
+   ],
+   "answer": true,
+   "explanation": "**True.** Research shows participation can improve performance by **increasing the difficulty** of the goals employees adopt, perhaps through competition or team spirit."
+  },
+  {
+   "id": "tb5-q135",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Goal Orientation",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q135"
+   },
+   "prompt": "Individuals with a learning goal orientation are most concerned about demonstrating their competence in performing a task.",
+   "tags": [
+    "§5.4"
+   ],
+   "answer": false,
+   "explanation": "**False.** A **learning** goal orientation is about learning new things and developing competence. Wanting to demonstrate competence and gain favourable judgments is a **performance-prove** orientation."
+  },
+  {
+   "id": "tb5-q136",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Psychological Meaningfulness",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Q136"
+   },
+   "prompt": "If you have a job that provides with you feelings of achievement and accomplishment, then you have psychological meaningfulness.",
+   "tags": [
+    "§5.1",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "**False.** Feelings of achievement and accomplishment from the job are **intrinsic motivation**. Psychological meaningfulness (Kahn) is feeling worthwhile, useful, and valuable. The 12th-edition chapter does not cover it.",
+   "scopeNote": "Written for an older edition: Kahn's psychological conditions for engagement are not in the 12th-edition Chapter 5."
+  },
+  {
+   "id": "tb5-q137",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Psychological Safety",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q137"
+   },
+   "prompt": "If you have a job that in which you can express yourself without fear of negative consequences to your self-image, status, or career then you have psychological availability.",
+   "tags": [
+    "§5.1",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "**False.** Expressing yourself without fear of negative consequences to your self-image, status, or career is psychological **safety**, not availability. The 12th-edition chapter does not cover this.",
+   "scopeNote": "Written for an older edition: Kahn's psychological conditions for engagement are not in the 12th-edition Chapter 5."
+  },
+  {
+   "id": "tb5-q138",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Psychological Availability",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Q138"
+   },
+   "prompt": "If your new job provides you with the physical, emotional, and cognitive resources required to engage yourself, then you have psychological safety.",
+   "tags": [
+    "§5.1",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "**False.** Having the physical, emotional, and cognitive resources to engage yourself is psychological **availability**, not safety. The 12th-edition chapter does not cover this.",
+   "scopeNote": "Written for an older edition: Kahn's psychological conditions for engagement are not in the 12th-edition Chapter 5."
+  }
+ ]
+}

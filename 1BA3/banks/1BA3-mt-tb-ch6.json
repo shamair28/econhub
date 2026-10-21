@@ -1,0 +1,3120 @@
+{
+ "schema": "practice-bank/v1",
+ "id": "1BA3-mt-tb-ch6",
+ "course": "COMM 1BA3",
+ "title": "Test Bank · Ch. 6",
+ "description": "Johns & Saks chapter test bank, Ch. 6 (Motivation in Practice): multiple-choice and true/false items, each key re-checked against the 12th-edition text.",
+ "defaultSource": {
+  "label": "Textbook Test Bank",
+  "kind": "textbook"
+ },
+ "defaultUnit": 6,
+ "scenarios": {},
+ "questions": [
+  {
+   "id": "tb6-q001",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Piece-Rate Pay",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q1"
+   },
+   "prompt": "Piece rate pay systems",
+   "tags": [
+    "§6.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "are most effective when applied to white-collar jobs."
+    },
+    {
+     "id": "b",
+     "text": "usually increase cooperation among workers on peripheral, nonproduction tasks (for example, keeping the shop clean) ."
+    },
+    {
+     "id": "c",
+     "text": "are especially useful when few objective performance criteria exist."
+    },
+    {
+     "id": "d",
+     "text": "generally lead to increased productivity unless restriction occurs."
+    },
+    {
+     "id": "e",
+     "text": "have generally been supported by unions."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Wage incentives like **piece-rate** usually raise productivity substantially (median gain about 30 percent) unless workers **restrict productivity**. They tend to reduce, not increase, cooperation on peripheral tasks, and they suit production jobs with objective output, not white-collar jobs."
+  },
+  {
+   "id": "tb6-q002",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Restriction of Productivity",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q2"
+   },
+   "prompt": "Restriction of productivity is a phenomenon associated with",
+   "tags": [
+    "§6.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "MBO."
+    },
+    {
+     "id": "b",
+     "text": "piece rate pay."
+    },
+    {
+     "id": "c",
+     "text": "merit pay."
+    },
+    {
+     "id": "d",
+     "text": "hourly pay."
+    },
+    {
+     "id": "e",
+     "text": "job enrichment."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "**Restriction of productivity** is the chief psychological impediment to wage incentives such as **piece-rate pay**: workers informally cap output, often fearing the employer will cut the pay rate."
+  },
+  {
+   "id": "tb6-q003",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Pay Estimation Errors",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q3"
+   },
+   "prompt": "Managers have a tendency to __________ the pay of their boss and __________ the pay of their employees.",
+   "tags": [
+    "§6.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "underestimate; underestimate"
+    },
+    {
+     "id": "b",
+     "text": "correctly estimate; underestimate"
+    },
+    {
+     "id": "c",
+     "text": "overestimate; overestimate"
+    },
+    {
+     "id": "d",
+     "text": "underestimate; overestimate"
+    },
+    {
+     "id": "e",
+     "text": "overestimate; underestimate"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Managers **underestimate** their boss's pay and **overestimate** the pay of their employees and peers. Secrecy leads people to invent salaries, and the inventions reduce satisfaction."
+  },
+  {
+   "id": "tb6-q004",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Pay Secrecy",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q4"
+   },
+   "prompt": "As discussed in the book, the rationale for removing the secrecy surrounding salaries is that",
+   "tags": [
+    "§6.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "they know salaries anyway, via the grapevine, but secrecy reduces confidence in the company."
+    },
+    {
+     "id": "b",
+     "text": "positive motivational consequences may occur if the pay system is well designed."
+    },
+    {
+     "id": "c",
+     "text": "we should be honest with employees, and this is a good place to start."
+    },
+    {
+     "id": "d",
+     "text": "a more open pay policy will expose the inadequacy of the merit system."
+    },
+    {
+     "id": "e",
+     "text": "consumers should understand that labour costs contribute greatly to retail prices."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Open pay can have **positive motivational consequences** if the merit system is well designed (in the pay-disclosure study, performance and pay satisfaction rose). The caution that openness exposes a weak merit system is a risk, not the rationale."
+  },
+  {
+   "id": "tb6-q005",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Pay Estimation Errors",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 6 · Q5"
+   },
+   "prompt": "The systematic mis-estimates that managers make of the pay of others in their firm suggests that they will often",
+   "tags": [
+    "§6.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "experience equity with regard to employees."
+    },
+    {
+     "id": "b",
+     "text": "experience equity with regard to peers."
+    },
+    {
+     "id": "c",
+     "text": "underestimate the value of a promotion."
+    },
+    {
+     "id": "d",
+     "text": "underestimate the pay of employees."
+    },
+    {
+     "id": "e",
+     "text": "overestimate the value of a promotion."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Because managers **underestimate** their boss's pay, they also underestimate what a promotion is worth, which lowers its valence. They overestimate, not underestimate, employees' pay, so they are more likely to feel underpaid than equitably paid."
+  },
+  {
+   "id": "tb6-q006",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Scanlon Plan",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q6"
+   },
+   "prompt": "The Scanlon Plan is a type of __________ system.",
+   "tags": [
+    "§6.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "piece rate pay"
+    },
+    {
+     "id": "b",
+     "text": "job enrichment"
+    },
+    {
+     "id": "c",
+     "text": "gain-sharing"
+    },
+    {
+     "id": "d",
+     "text": "MBO"
+    },
+    {
+     "id": "e",
+     "text": "skill-based"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "The **Scanlon Plan** is the most common **gainsharing** plan: a group incentive based on cost savings, with participative problem solving."
+  },
+  {
+   "id": "tb6-q007",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Pay Estimation Errors",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 6 · Q7"
+   },
+   "prompt": "Alice, a middle manager in an oil company, makes $35,000 a year. Her boss makes $41,000, her peers average $33,000, and her employees average $29,000. Alice doesn't know the pay of these coworkers, but we ask her to guess. Research suggests that she will say",
+   "tags": [
+    "§6.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "the peers average $30,000."
+    },
+    {
+     "id": "b",
+     "text": "the employees average $28,000."
+    },
+    {
+     "id": "c",
+     "text": "the peers average $34,000."
+    },
+    {
+     "id": "d",
+     "text": "the boss makes $43,000."
+    },
+    {
+     "id": "e",
+     "text": "the boss makes $45,000."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Managers **overestimate** peers' and employees' pay and **underestimate** the boss's. Alice's peers actually average $33,000, so a guess of $34,000 fits; her boss earns $41,000, so she would guess below that, not above."
+  },
+  {
+   "id": "tb6-q008",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Piece-Rate Pay",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q8"
+   },
+   "prompt": "Joe, Margaret, and Denise are coworkers. Joe produces five widgets and is paid $5. Margaret produces twenty widgets and is paid $20. Denise produces fifty widgets and is paid $50. These workers are being paid according to a(n) __________ pay plan.",
+   "tags": [
+    "§6.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "hourly"
+    },
+    {
+     "id": "b",
+     "text": "Scanlon"
+    },
+    {
+     "id": "c",
+     "text": "piece rate"
+    },
+    {
+     "id": "d",
+     "text": "lump sum"
+    },
+    {
+     "id": "e",
+     "text": "merit"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Each worker is paid a fixed amount ($1) per unit produced, which is the pure **piece-rate** system, the prototype of wage incentive plans."
+  },
+  {
+   "id": "tb6-q009",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Merit Pay Support",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q9"
+   },
+   "prompt": "One reason why merit pay plans are employed with a much greater frequency than wage incentive plans is that",
+   "tags": [
+    "§6.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "white-collar workers particularly believe that performance should be an important determinant of pay."
+    },
+    {
+     "id": "b",
+     "text": "substantial evidence indicates that pay is directly related to performance under merit plans."
+    },
+    {
+     "id": "c",
+     "text": "blue-collar jobs more often offer objective performance criteria with which pay can be linked."
+    },
+    {
+     "id": "d",
+     "text": "merit pay plans that are actually in use are very effective."
+    },
+    {
+     "id": "e",
+     "text": "blue-collar workers tend to perceive a strong link between rewards and performance."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "**White-collar workers**, especially managers, strongly support the idea that performance should determine pay, which helps explain why merit pay is more common than wage incentives. Evidence that merit plans really link pay to performance is weak."
+  },
+  {
+   "id": "tb6-q010",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Scanlon Plan",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q10"
+   },
+   "prompt": "The owner of Acme Manufacturing Company is thinking about introducing the Scanlon Plan. This plan will most likely have the greatest impact on his employees'",
+   "tags": [
+    "§6.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "working hours."
+    },
+    {
+     "id": "b",
+     "text": "pay."
+    },
+    {
+     "id": "c",
+     "text": "skill level."
+    },
+    {
+     "id": "d",
+     "text": "autonomy."
+    },
+    {
+     "id": "e",
+     "text": "job design."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "The **Scanlon Plan** is a gainsharing plan that shares cost-reduction gains through a bonus formula, so its most direct impact is on employees' **pay**. It also stresses participation, but it does not redesign jobs."
+  },
+  {
+   "id": "tb6-q011",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Gainsharing",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q11"
+   },
+   "prompt": "Which system is specifically based on cost reduction?",
+   "tags": [
+    "§6.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "MBO"
+    },
+    {
+     "id": "b",
+     "text": "Skill-based pay"
+    },
+    {
+     "id": "c",
+     "text": "Goal setting"
+    },
+    {
+     "id": "d",
+     "text": "Gain sharing"
+    },
+    {
+     "id": "e",
+     "text": "Merit pay"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "**Gainsharing** pays a bonus, by formula, when measured costs (labour, materials, supplies) fall. Skill-based pay rewards skills acquired, and merit pay rewards rated performance."
+  },
+  {
+   "id": "tb6-q012",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Skill-Based Pay",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q12"
+   },
+   "prompt": "Under a skill-based pay plan, people are paid according to",
+   "tags": [
+    "§6.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "how skillfully they can perform their main job function."
+    },
+    {
+     "id": "b",
+     "text": "their contribution to product or service quality."
+    },
+    {
+     "id": "c",
+     "text": "the number of tasks they know how to perform."
+    },
+    {
+     "id": "d",
+     "text": "their personal productivity."
+    },
+    {
+     "id": "e",
+     "text": "the goals which have been established through MBO."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "**Skill-based pay** (pay-for-knowledge) rewards the number of job skills acquired, not how well a person does one task. More skills means higher pay."
+  },
+  {
+   "id": "tb6-q013",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Gainsharing",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 6 · Q13"
+   },
+   "prompt": "An organization wishes to base pay on objective, measurable performance data, but the performance of individual workers cannot be isolated and measured. Which system should it adopt?",
+   "tags": [
+    "§6.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Hourly pay"
+    },
+    {
+     "id": "b",
+     "text": "Piece rate"
+    },
+    {
+     "id": "c",
+     "text": "Gain sharing"
+    },
+    {
+     "id": "d",
+     "text": "Merit pay"
+    },
+    {
+     "id": "e",
+     "text": "Skill-based pay"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "When individual output cannot be isolated, a **group** plan such as **gainsharing** ties pay to measurable group results. Piece-rate and merit pay both need individual performance data."
+  },
+  {
+   "id": "tb6-q014",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Gainsharing",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q14"
+   },
+   "prompt": "Which pay system is intentionally designed to motivate groups of employees rather than individual employees?",
+   "tags": [
+    "§6.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Piece rate pay"
+    },
+    {
+     "id": "b",
+     "text": "Gain sharing"
+    },
+    {
+     "id": "c",
+     "text": "Goal setting"
+    },
+    {
+     "id": "d",
+     "text": "Skill-based pay"
+    },
+    {
+     "id": "e",
+     "text": "Merit pay"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "**Gainsharing** is a group incentive, designed to encourage cooperation and teamwork. Piece-rate and merit pay reward individuals, and skill-based pay rewards each person's own skills."
+  },
+  {
+   "id": "tb6-q015",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Scientific Management",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q15"
+   },
+   "prompt": "The practices of Scientific Management seem LEAST compatible with",
+   "tags": [
+    "§6.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "piece rate pay."
+    },
+    {
+     "id": "b",
+     "text": "job enrichment."
+    },
+    {
+     "id": "c",
+     "text": "goal setting."
+    },
+    {
+     "id": "d",
+     "text": "high specialization."
+    },
+    {
+     "id": "e",
+     "text": "close supervision."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Scientific management favoured job simplification, specialization, close supervision and piece-rate pay, so it is least compatible with **job enrichment**, which gives workers more variety and control."
+  },
+  {
+   "id": "tb6-q016",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Job Scope",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q16"
+   },
+   "prompt": "In general, we would not expect a high scope job to __________ than a low scope job.",
+   "tags": [
+    "§6.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "pay more"
+    },
+    {
+     "id": "b",
+     "text": "involve more task variety"
+    },
+    {
+     "id": "c",
+     "text": "have higher \"motivating potential\""
+    },
+    {
+     "id": "d",
+     "text": "have more job depth"
+    },
+    {
+     "id": "e",
+     "text": "conform more closely to the principles of Scientific Management"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "**High-scope** jobs have more breadth and depth, so they offer more task variety and higher motivating potential. Scientific management aimed at **low-scope**, simplified jobs, so a high-scope job would conform less closely to it."
+  },
+  {
+   "id": "tb6-q017",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Job Scope",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q17"
+   },
+   "prompt": "Debbie's job is very broad, but it has almost no depth. She is most likely a(n)",
+   "tags": [
+    "§6.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "assembly line utility worker."
+    },
+    {
+     "id": "b",
+     "text": "quality control inspector."
+    },
+    {
+     "id": "c",
+     "text": "physician."
+    },
+    {
+     "id": "d",
+     "text": "manager."
+    },
+    {
+     "id": "e",
+     "text": "professor."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "A job with great **breadth** but little **depth** is like the assembly-line utility worker, who does many tasks with little discretion. Professors, managers and physicians have discretion; quality control inspectors have depth but not breadth."
+  },
+  {
+   "id": "tb6-q018",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Job Scope",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q18"
+   },
+   "prompt": "Al's job is very broad, but it has almost no depth. Al has a(n) __________ job.",
+   "tags": [
+    "§6.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "enriched"
+    },
+    {
+     "id": "b",
+     "text": "high-scope"
+    },
+    {
+     "id": "c",
+     "text": "high autonomy"
+    },
+    {
+     "id": "d",
+     "text": "high MPS"
+    },
+    {
+     "id": "e",
+     "text": "low-scope"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "**Job scope** is breadth plus depth, so broad but shallow means relatively **low scope**. Enriched, high-autonomy and high-MPS jobs need depth."
+  },
+  {
+   "id": "tb6-q019",
+   "type": "mc",
+   "unit": 6,
+   "topic": "MBO and Goal Setting",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q19"
+   },
+   "prompt": "Which motivational technique is most closely associated with goal setting?",
+   "tags": [
+    "§6.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Wage incentives"
+    },
+    {
+     "id": "b",
+     "text": "Job sharing"
+    },
+    {
+     "id": "c",
+     "text": "Flextime"
+    },
+    {
+     "id": "d",
+     "text": "MBO"
+    },
+    {
+     "id": "e",
+     "text": "Job enrichment"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "**Management by Objectives (MBO)** is the systematic management program built on goal-setting theory. Job enrichment and wage incentives are separate strategies."
+  },
+  {
+   "id": "tb6-q020",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Job Enrichment Techniques",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 6 · Q20"
+   },
+   "prompt": "Which job enrichment technique would prove most threatening to workers with poor social skills?",
+   "tags": [
+    "§6.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Combining tasks"
+    },
+    {
+     "id": "b",
+     "text": "Making feedback more direct"
+    },
+    {
+     "id": "c",
+     "text": "Reducing supervision"
+    },
+    {
+     "id": "d",
+     "text": "Establishing client relationships"
+    },
+    {
+     "id": "e",
+     "text": "Reducing reliance on others"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Establishing **client relationships** puts workers in touch with the people who use their work and may require new interpersonal skills, which is hard for workers weak in social skills. Combining tasks or cutting supervision does not demand that."
+  },
+  {
+   "id": "tb6-q021",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Job Enrichment Problems",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q21"
+   },
+   "prompt": "Very strict union rules about who does what work are most likely to pose a problem for installing which system?",
+   "tags": [
+    "§6.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Scanlon plan"
+    },
+    {
+     "id": "b",
+     "text": "Merit pay"
+    },
+    {
+     "id": "c",
+     "text": "Flextime"
+    },
+    {
+     "id": "d",
+     "text": "Job enrichment"
+    },
+    {
+     "id": "e",
+     "text": "Gainsharing"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "**Union resistance** is a problem for **job enrichment**, because narrow job classifications and strict rules on who does what block combining tasks and forming teams. Pay plans and flextime do not depend on redefining jobs."
+  },
+  {
+   "id": "tb6-q022",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Motivating Potential Score",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 6 · Q22"
+   },
+   "prompt": "What is the motivating potential score (MPS) for this job profile? Variety = 1; identity = 2; significance = 3; autonomy = 3; feedback = 5.",
+   "tags": [
+    "§6.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "90"
+    },
+    {
+     "id": "b",
+     "text": "28"
+    },
+    {
+     "id": "c",
+     "text": "30"
+    },
+    {
+     "id": "d",
+     "text": "45"
+    },
+    {
+     "id": "e",
+     "text": "14"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "MPS = (variety + identity + significance) / 3 x autonomy x feedback = (6 / 3) x 3 x 5 = **30**. Averaging the first three is the common slip; the other two multiply in."
+  },
+  {
+   "id": "tb6-q023",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Job Characteristics Moderators",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q23"
+   },
+   "prompt": "According to Hackman and Oldham's Job Characteristic Model, employees should respond most favourably to job enrichment when growth need strength is __________ and satisfaction with job context factors is __________.",
+   "tags": [
+    "§6.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "moderate; low"
+    },
+    {
+     "id": "b",
+     "text": "low; high"
+    },
+    {
+     "id": "c",
+     "text": "low; low"
+    },
+    {
+     "id": "d",
+     "text": "high; low"
+    },
+    {
+     "id": "e",
+     "text": "high; high"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "The model predicts people respond best to enriched jobs when **growth need strength** is high and satisfaction with **context factors** (pay, supervision, policy) is high. (Research support for both moderators is weak.)"
+  },
+  {
+   "id": "tb6-q024",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Job Characteristics Moderators",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q24"
+   },
+   "prompt": "In terms of job design, satisfaction with __________ would not be an example of context satisfaction.",
+   "tags": [
+    "§6.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "pay"
+    },
+    {
+     "id": "b",
+     "text": "workplace safety"
+    },
+    {
+     "id": "c",
+     "text": "autonomy"
+    },
+    {
+     "id": "d",
+     "text": "supervision"
+    },
+    {
+     "id": "e",
+     "text": "company policy"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "**Context satisfaction** covers factors surrounding the job, such as pay, supervision and company policy. **Autonomy** is a core job characteristic, not a context factor."
+  },
+  {
+   "id": "tb6-q025",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Feedback",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q25"
+   },
+   "prompt": "Which of the following is both a core job characteristic and a necessary condition for goals to motivate performance?",
+   "tags": [
+    "§6.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Feedback"
+    },
+    {
+     "id": "b",
+     "text": "Context satisfaction"
+    },
+    {
+     "id": "c",
+     "text": "Pay"
+    },
+    {
+     "id": "d",
+     "text": "Identity"
+    },
+    {
+     "id": "e",
+     "text": "Growth need strength"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "**Feedback** is one of the five core job characteristics and is also a condition for goal setting to work (alongside specific, challenging goals and commitment). Growth need strength and context satisfaction are moderators, not core characteristics."
+  },
+  {
+   "id": "tb6-q026",
+   "type": "mc",
+   "unit": 6,
+   "topic": "When to Enrich Jobs",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 6 · Q26"
+   },
+   "prompt": "A company is thinking about enriching a certain job. Which of the following factors would suggest that this strategy is incorrect?",
+   "tags": [
+    "§6.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The current job has a very high Motivating Potential Score (MPS)."
+    },
+    {
+     "id": "b",
+     "text": "The job knowledge and skills of the workers are very high."
+    },
+    {
+     "id": "c",
+     "text": "Context satisfaction among the workers is very high."
+    },
+    {
+     "id": "d",
+     "text": "Task significance is low."
+    },
+    {
+     "id": "e",
+     "text": "The workers have very high growth need strength."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Enrichment is meant for jobs with **low** motivating potential. If the current MPS is already very high, enrichment risks over-enriching the job (\"engorgement\"). High skills, context satisfaction and growth need all favour enrichment."
+  },
+  {
+   "id": "tb6-q027",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Task Significance",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q27"
+   },
+   "prompt": "The degree to which a job has a substantial impact on the lives of other people, whether those people are in the immediate organization or in the world at large is called",
+   "tags": [
+    "§6.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "skill variety."
+    },
+    {
+     "id": "b",
+     "text": "task significance."
+    },
+    {
+     "id": "c",
+     "text": "feedback."
+    },
+    {
+     "id": "d",
+     "text": "autonomy."
+    },
+    {
+     "id": "e",
+     "text": "task identity."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "**Task significance** is the impact a job has on other people, inside or outside the organization. Task identity is about doing a complete piece of work."
+  },
+  {
+   "id": "tb6-q028",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Critical Psychological States",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q28"
+   },
+   "prompt": "In Hackman and Oldham's Job Characteristics Model, which of the following is not a psychological state?",
+   "tags": [
+    "§6.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Responsibility for outcomes"
+    },
+    {
+     "id": "b",
+     "text": "Knowledge of results"
+    },
+    {
+     "id": "c",
+     "text": "Significance of task"
+    },
+    {
+     "id": "d",
+     "text": "Meaningfulness of work"
+    },
+    {
+     "id": "e",
+     "text": "None of the above"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": false,
+   "explanation": "The three **critical psychological states** are experienced meaningfulness, experienced responsibility and knowledge of results. **Task significance** is a core job characteristic that feeds meaningfulness, not a state."
+  },
+  {
+   "id": "tb6-q029",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Core Job Characteristics",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q29"
+   },
+   "prompt": "Veronica doesn't feel responsible for the outcomes of her work. According to Hackman and Oldham's Job Characteristics Model, which core job characteristic is low?",
+   "tags": [
+    "§6.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Task significance"
+    },
+    {
+     "id": "b",
+     "text": "Skill variety"
+    },
+    {
+     "id": "c",
+     "text": "Feedback"
+    },
+    {
+     "id": "d",
+     "text": "Task identity"
+    },
+    {
+     "id": "e",
+     "text": "Autonomy"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "**Autonomy** (freedom to schedule work and choose procedures) produces felt responsibility for outcomes. Feedback produces knowledge of results, and variety, identity and significance produce meaningfulness."
+  },
+  {
+   "id": "tb6-q030",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Motivating Potential Score",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q30"
+   },
+   "prompt": "What is the motivating potential score (MPS) for a job in which all five core characteristics are scored \"4\" on the Job Diagnostic Survey?",
+   "tags": [
+    "§6.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "48"
+    },
+    {
+     "id": "b",
+     "text": "64"
+    },
+    {
+     "id": "c",
+     "text": "96"
+    },
+    {
+     "id": "d",
+     "text": "80"
+    },
+    {
+     "id": "e",
+     "text": "20"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "MPS = (4 + 4 + 4) / 3 x 4 x 4 = 4 x 4 x 4 = **64**. Don't just add or multiply all five scores."
+  },
+  {
+   "id": "tb6-q031",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Core Job Characteristics",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q31"
+   },
+   "prompt": "According to the Job Characteristics Model, what should be done to increase experienced responsibility for work outcomes?",
+   "tags": [
+    "§6.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Increase skill variety"
+    },
+    {
+     "id": "b",
+     "text": "Increase autonomy"
+    },
+    {
+     "id": "c",
+     "text": "Reduce feedback"
+    },
+    {
+     "id": "d",
+     "text": "Increase task significance"
+    },
+    {
+     "id": "e",
+     "text": "Reduce task identity"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Raising **autonomy** increases experienced responsibility for outcomes. Skill variety and task significance work on meaningfulness, and reducing feedback would hurt knowledge of results."
+  },
+  {
+   "id": "tb6-q032",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Critical Psychological States",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q32"
+   },
+   "prompt": "Ross's job is very low in feedback. According to Hackman and Oldham's Job Characteristics Model, which psychological state will be most affected by this low feedback?",
+   "tags": [
+    "§6.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Experienced meaningfulness of the work"
+    },
+    {
+     "id": "b",
+     "text": "Experienced autonomy"
+    },
+    {
+     "id": "c",
+     "text": "Experienced identity of the work"
+    },
+    {
+     "id": "d",
+     "text": "Experienced responsibility for work outcomes"
+    },
+    {
+     "id": "e",
+     "text": "Knowledge of results of the work"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Job **feedback** produces **knowledge of results**. Meaningfulness comes from variety, identity and significance, and responsibility from autonomy."
+  },
+  {
+   "id": "tb6-q033",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Job Enrichment Techniques",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q33"
+   },
+   "prompt": "Establishing client relationships is an example of which motivational strategy?",
+   "tags": [
+    "§6.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Goal setting"
+    },
+    {
+     "id": "b",
+     "text": "Gain sharing"
+    },
+    {
+     "id": "c",
+     "text": "Job sharing"
+    },
+    {
+     "id": "d",
+     "text": "Flextime"
+    },
+    {
+     "id": "e",
+     "text": "Job enrichment"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Establishing client relationships is one of the **job enrichment** techniques, alongside combining tasks, reducing supervision, forming work teams and making feedback more direct."
+  },
+  {
+   "id": "tb6-q034",
+   "type": "mc",
+   "unit": 6,
+   "topic": "MBO Paperwork",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q34"
+   },
+   "prompt": "Which motivational strategy is most clearly associated with written agreements and paperwork?",
+   "tags": [
+    "§6.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Compressed workweek"
+    },
+    {
+     "id": "b",
+     "text": "Job enrichment"
+    },
+    {
+     "id": "c",
+     "text": "Job sharing"
+    },
+    {
+     "id": "d",
+     "text": "Management by Objectives"
+    },
+    {
+     "id": "e",
+     "text": "Flextime"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "**MBO** puts objectives, time frames and priorities in writing, so when top management is not committed it degenerates into \"just a bunch of paperwork\". Flextime, compressed weeks and job sharing involve schedules, not written agreements."
+  },
+  {
+   "id": "tb6-q035",
+   "type": "mc",
+   "unit": 6,
+   "topic": "MBO Problems",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q35"
+   },
+   "prompt": "One problem that may cause MBO to fail is that",
+   "tags": [
+    "§6.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "workers may become fatigued because of longer working days."
+    },
+    {
+     "id": "b",
+     "text": "the objectives are too specific."
+    },
+    {
+     "id": "c",
+     "text": "MBO may lead to problems in achieving adequate supervisory coverage."
+    },
+    {
+     "id": "d",
+     "text": "top management gets too involved in the MBO program."
+    },
+    {
+     "id": "e",
+     "text": "performance reviews may become an exercise in punishing employees."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "MBO can fail when the performance review becomes **an exercise in punishing** employees for missed objectives. Specific objectives are the point of MBO; the real risk is overemphasizing measurable objectives."
+  },
+  {
+   "id": "tb6-q036",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Flex Time",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q36"
+   },
+   "prompt": "\"Core time\" is",
+   "tags": [
+    "§6.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "a term associated with the compressed workweek."
+    },
+    {
+     "id": "b",
+     "text": "the overlap in shifts between two workers who are job sharing."
+    },
+    {
+     "id": "c",
+     "text": "the time frame over which goals are set in a Management by Objectives program."
+    },
+    {
+     "id": "d",
+     "text": "the time under which pay is calculated at a base rate rather than an overtime rate."
+    },
+    {
+     "id": "e",
+     "text": "the time when employees working under flex-time are all in the office."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "**Core time** is when all employees on **flex time** must be present. Employees choose arrival and departure times in the flexbands around it."
+  },
+  {
+   "id": "tb6-q037",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Flex Time",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q37"
+   },
+   "prompt": "In a flex-time system, the period when all employees must be present at work is called",
+   "tags": [
+    "§6.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "flexband."
+    },
+    {
+     "id": "b",
+     "text": "compressed time."
+    },
+    {
+     "id": "c",
+     "text": "nonflex."
+    },
+    {
+     "id": "d",
+     "text": "core time."
+    },
+    {
+     "id": "e",
+     "text": "full force."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "In flex time, the period when everyone must be present is **core time**. The flexible periods around it are flexbands."
+  },
+  {
+   "id": "tb6-q038",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Flex Time",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q38"
+   },
+   "prompt": "In a flex-time system, core time is",
+   "tags": [
+    "§6.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "the amount of time an employee must work to acquire flextime privileges."
+    },
+    {
+     "id": "b",
+     "text": "the total amount of time per week that each employee must work."
+    },
+    {
+     "id": "c",
+     "text": "the time in excess of a normal work shift."
+    },
+    {
+     "id": "d",
+     "text": "the time of the day when all employees must be present at work."
+    },
+    {
+     "id": "e",
+     "text": "the time period within which employees are free to exercise flextime privileges."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "**Core time** is the part of the day when all employees must be at work. The flexible arrival and departure periods are the flexbands."
+  },
+  {
+   "id": "tb6-q039",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Flexible Work Outcomes",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 6 · Q39"
+   },
+   "prompt": "Which of the following consequences is least likely to occur as a result of flex-time or a compressed workweek?",
+   "tags": [
+    "§6.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Increased performance"
+    },
+    {
+     "id": "b",
+     "text": "Worker acceptance of the system"
+    },
+    {
+     "id": "c",
+     "text": "Increased satisfaction"
+    },
+    {
+     "id": "d",
+     "text": "More time with family"
+    },
+    {
+     "id": "e",
+     "text": "Decreased absenteeism"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Flexible arrangements aim to meet diverse needs and improve satisfaction and work-life balance, not to motivate harder work. For a compressed workweek, reviews find no lasting effect on job performance or productivity, so **increased performance** is the least likely result."
+  },
+  {
+   "id": "tb6-q040",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Compressed Workweek",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q40"
+   },
+   "prompt": "In its most simple form, people who work under a compressed workweek work",
+   "tags": [
+    "§6.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "fewer days per week than normal."
+    },
+    {
+     "id": "b",
+     "text": "fewer hours per month than normal."
+    },
+    {
+     "id": "c",
+     "text": "less hours per day than normal."
+    },
+    {
+     "id": "d",
+     "text": "fewer hours per week than normal."
+    },
+    {
+     "id": "e",
+     "text": "less weeks per year than normal."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "A **compressed workweek** squeezes the usual weekly hours into **fewer days** (most commonly four 10-hour days), not fewer total hours."
+  },
+  {
+   "id": "tb6-q041",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Pay and Performance",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q41"
+   },
+   "prompt": "Research on financial incentives and pay-for-performance plans have found that they",
+   "tags": [
+    "§6.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "increase performance and lower turnover."
+    },
+    {
+     "id": "b",
+     "text": "lower performance and lower turnover."
+    },
+    {
+     "id": "c",
+     "text": "lower performance and increase turnover."
+    },
+    {
+     "id": "d",
+     "text": "increase performance but have no effect on turnover."
+    },
+    {
+     "id": "e",
+     "text": "have no effect on performance or turnover."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Research finds **financial incentives and pay-for-performance** plans both increase performance and lower turnover. The text even suggests pay may be the most effective performance motivator."
+  },
+  {
+   "id": "tb6-q042",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Job Sharing",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q42"
+   },
+   "prompt": "What is job sharing?",
+   "tags": [
+    "§6.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Two jobs are combined into one and shared by two people"
+    },
+    {
+     "id": "b",
+     "text": "Two people help each other do their separate jobs"
+    },
+    {
+     "id": "c",
+     "text": "Two people do the work of three people"
+    },
+    {
+     "id": "d",
+     "text": "Two jobs are given to one individual"
+    },
+    {
+     "id": "e",
+     "text": "Two people do one job"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "**Job sharing** is two part-time employees dividing the work of one full-time job. Two people helping with separate jobs is not job sharing."
+  },
+  {
+   "id": "tb6-q043",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Job Involvement",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q43"
+   },
+   "prompt": "The extent to which an individual identifies psychologically with his/her work and the importance of work to one's total self-image is known as",
+   "tags": [
+    "§6.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "job involvement."
+    },
+    {
+     "id": "b",
+     "text": "job enrichment."
+    },
+    {
+     "id": "c",
+     "text": "experienced meaningfulness."
+    },
+    {
+     "id": "d",
+     "text": "experienced responsibility for outcomes of the work."
+    },
+    {
+     "id": "e",
+     "text": "task significance."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "**Job involvement** is psychological identification with one's job and the importance of work to one's self-image. Enriched, challenging jobs raise it."
+  },
+  {
+   "id": "tb6-q044",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Lump-Sum Bonus",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q44"
+   },
+   "prompt": "A lump sum bonus is",
+   "tags": [
+    "§6.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "a wage incentive that is awarded in a single payment and not built into base pay."
+    },
+    {
+     "id": "b",
+     "text": "merit pay that is awarded in a single payment and built into base pay."
+    },
+    {
+     "id": "c",
+     "text": "a wage incentive that is awarded in a single payment and built into base pay."
+    },
+    {
+     "id": "d",
+     "text": "is a payment that employees receive as part of the Scanlon plan."
+    },
+    {
+     "id": "e",
+     "text": "merit pay that is awarded in a single payment and not built into base pay."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "A **lump-sum bonus** is merit pay awarded in a single payment and not built into base pay, which makes it more visible than small raises. A wage incentive is the production-job counterpart."
+  },
+  {
+   "id": "tb6-q045",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Task Identity",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q45"
+   },
+   "prompt": "What is task identity?",
+   "tags": [
+    "§6.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The extent to which a job involves doing a complete piece of work, from beginning to end."
+    },
+    {
+     "id": "b",
+     "text": "The extent to which an individual can identify the core tasks of a job."
+    },
+    {
+     "id": "c",
+     "text": "The opportunity to do a variety of job activities using various skills and talents."
+    },
+    {
+     "id": "d",
+     "text": "The extent to which an individual identifies psychologically with his/her job."
+    },
+    {
+     "id": "e",
+     "text": "The impact that a job has on other people."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "**Task identity** is doing a complete piece of work from beginning to end. Variety, psychological identification and impact on others are different concepts."
+  },
+  {
+   "id": "tb6-q046",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Importance of Pay",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q46"
+   },
+   "prompt": "Which of the following is most accurate about the importance of pay as a motivator?",
+   "tags": [
+    "§6.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "employees and managers underestimate the importance of pay as a motivator"
+    },
+    {
+     "id": "b",
+     "text": "employees overestimate and managers underestimate the importance of pay as a motivator"
+    },
+    {
+     "id": "c",
+     "text": "employees underestimate and managers overestimate the importance of pay as a motivator"
+    },
+    {
+     "id": "d",
+     "text": "employees and managers overestimate the importance of pay as a motivator"
+    },
+    {
+     "id": "e",
+     "text": "employees overestimate the importance of pay as a motivator"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Employees and managers both **underestimate** how important pay is as a motivator, even though need and expectancy theories suggest it is very motivating."
+  },
+  {
+   "id": "tb6-q047",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Team Size and Incentives",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 6 · Q47"
+   },
+   "prompt": "As the size of the team __________, the relationship between any individual's productivity and his or her pay __________.",
+   "tags": [
+    "§6.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "increases; increases"
+    },
+    {
+     "id": "b",
+     "text": "increases; becomes stable"
+    },
+    {
+     "id": "c",
+     "text": "decreases; will approach zero"
+    },
+    {
+     "id": "d",
+     "text": "decreases; decreases;"
+    },
+    {
+     "id": "e",
+     "text": "increases; decreases"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "As **team size increases**, the link between an individual's productivity and pay **decreases**, because one person's effort matters less to the team result. In a team of two your contribution matters far more than in a team of ten."
+  },
+  {
+   "id": "tb6-q048",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Scanlon Plan Evidence",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q48"
+   },
+   "prompt": "In a recent study in a unionized auto parts manufacturing plant, a Scanlon gainsharing program had a positive effect on",
+   "tags": [
+    "§6.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "scrap and waste reduction"
+    },
+    {
+     "id": "b",
+     "text": "labour required"
+    },
+    {
+     "id": "c",
+     "text": "number of errors made by employees"
+    },
+    {
+     "id": "d",
+     "text": "quality and quantity of parts"
+    },
+    {
+     "id": "e",
+     "text": "number of suggestions provided by employees"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "In the unionized auto parts study, the Scanlon plan had a positive effect on the **number of suggestions** employees provided, and implemented suggestions were linked to lower production costs. The text does not report effects on scrap or errors."
+  },
+  {
+   "id": "tb6-q049",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Stretch Assignments",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q49"
+   },
+   "prompt": "If your boss has given you a stretch assignment, what does this mean?",
+   "tags": [
+    "§6.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "you will have to get more accomplished in a shorter period of time"
+    },
+    {
+     "id": "b",
+     "text": "you will have to share your job with another employee"
+    },
+    {
+     "id": "c",
+     "text": "you will be working on a variety of tasks with new responsibilities"
+    },
+    {
+     "id": "d",
+     "text": "you will be working on a new task for an extended period of time"
+    },
+    {
+     "id": "e",
+     "text": "you have many more tasks to perform as part of your job"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "**Stretch assignments** are challenging projects larger in scope than the current job, with new tasks and more responsibility. More of the same tasks at the same level would be job enlargement."
+  },
+  {
+   "id": "tb6-q050",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Job Characteristics Moderators",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 6 · Q50",
+    "note": "One option reworded so it cannot also be read as a correct description of the model."
+   },
+   "prompt": "Where do the moderator variables in the Job Characteristics Model intervene?",
+   "tags": [
+    "§6.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "between job characteristics and the critical psychological states"
+    },
+    {
+     "id": "b",
+     "text": "between job characteristics and growth need strength"
+    },
+    {
+     "id": "c",
+     "text": "only between job characteristics and outcomes, skipping the critical psychological states"
+    },
+    {
+     "id": "d",
+     "text": "between the critical psychological states and outcomes"
+    },
+    {
+     "id": "e",
+     "text": "between job characteristics and the critical psychological states and between the critical psychological states and outcomes"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "The moderators (knowledge and skill, growth need strength, context satisfaction) work on both links of the model: characteristics to psychological states, and states to outcomes. The text words it loosely as intervening between characteristics and outcomes, so the answer is the one covering both links."
+  },
+  {
+   "id": "tb6-q051",
+   "type": "mc",
+   "unit": 6,
+   "topic": "JCM Research Evidence",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q51"
+   },
+   "prompt": "Of the five core job characteristics, which ones have been found to be negatively and consistently related to absenteeism?",
+   "tags": [
+    "§6.5",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "task identity, task significance, and feedback"
+    },
+    {
+     "id": "b",
+     "text": "skill variety, task identity, and autonomy"
+    },
+    {
+     "id": "c",
+     "text": "skill variety, feedback, and autonomy"
+    },
+    {
+     "id": "d",
+     "text": "skill variety, task significance, and autonomy"
+    },
+    {
+     "id": "e",
+     "text": "skill variety, task identity, and task significance"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "The 12th edition says autonomy and feedback from the job were the core characteristics related to behavioural outcomes such as absenteeism, so this item's key no longer matches any option.",
+   "scopeNote": "Written for an older edition: The 12th edition names autonomy and feedback as the characteristics related to absenteeism, so none of the listed combinations matches."
+  },
+  {
+   "id": "tb6-q052",
+   "type": "mc",
+   "unit": 6,
+   "topic": "JCM Research Evidence",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q52"
+   },
+   "prompt": "Where does the Job Characteristics Model falter in its predictions?",
+   "tags": [
+    "§6.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "task identity and the critical psychological states"
+    },
+    {
+     "id": "b",
+     "text": "growth need strength and knowledge and skill"
+    },
+    {
+     "id": "c",
+     "text": "feedback and knowledge of results"
+    },
+    {
+     "id": "d",
+     "text": "growth need strength and context satisfaction"
+    },
+    {
+     "id": "e",
+     "text": "knowledge and skills and context satisfaction"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Research support for the model is strong except for its predictions about **growth need strength** and **context satisfaction**, where evidence is weak or contradictory."
+  },
+  {
+   "id": "tb6-q053",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Job Enlargement",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q53"
+   },
+   "prompt": "If your boss has decided to redesign your job using job enlargement, what does this mean?",
+   "tags": [
+    "§6.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "you will have more job breadth"
+    },
+    {
+     "id": "b",
+     "text": "your will have more job scope"
+    },
+    {
+     "id": "c",
+     "text": "you will have more job depth"
+    },
+    {
+     "id": "d",
+     "text": "you will have more job breadth and less job depth"
+    },
+    {
+     "id": "e",
+     "text": "you will have less job breadth and more job depth"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "**Job enlargement** increases job **breadth** by adding more tasks at the same level, leaving depth (autonomy) unchanged. Adding breadth and depth together is job enrichment."
+  },
+  {
+   "id": "tb6-q054",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Job Enlargement",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q54"
+   },
+   "prompt": "If your job has been redesigned so that you are given more boring, fragmented, routine tasks to do, what has happened?",
+   "tags": [
+    "§6.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "job shrinkage"
+    },
+    {
+     "id": "b",
+     "text": "job enrichment"
+    },
+    {
+     "id": "c",
+     "text": "job enlargement"
+    },
+    {
+     "id": "d",
+     "text": "job derichment"
+    },
+    {
+     "id": "e",
+     "text": "job engorgement"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Giving workers **more boring, fragmented, routine tasks** is **job enlargement**: breadth rises but the other core characteristics are unchanged. Job engorgement means over-enriching a job."
+  },
+  {
+   "id": "tb6-q055",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Telework Centre",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q55"
+   },
+   "prompt": "If your organization has just offered you the opportunity to work at a telework centre, what does this mean?",
+   "tags": [
+    "§6.7",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "you can spend part of the week working anywhere you want"
+    },
+    {
+     "id": "b",
+     "text": "you can work at home and telecommute"
+    },
+    {
+     "id": "c",
+     "text": "you can work anywhere you want all the time"
+    },
+    {
+     "id": "d",
+     "text": "you can work out of an office located near your home"
+    },
+    {
+     "id": "e",
+     "text": "you will no longer be able to have your own office"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "The 12th edition covers **telecommuting** (working remotely via technology), hybrid models and **distant staffing**, but not this older arrangement.",
+   "scopeNote": "Written for an older edition: The 12th edition no longer covers telework centres."
+  },
+  {
+   "id": "tb6-q056",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Distributed Work",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q56"
+   },
+   "prompt": "If you work for a company that has a distributed work program, what does this mean?",
+   "tags": [
+    "§6.7",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "your can arrive and leave work when you want within certain time periods"
+    },
+    {
+     "id": "b",
+     "text": "you can work at a satellite office near your home"
+    },
+    {
+     "id": "c",
+     "text": "you must work at home and telecommute"
+    },
+    {
+     "id": "d",
+     "text": "you can either work at home and telecommute or work at the company's offices"
+    },
+    {
+     "id": "e",
+     "text": "you can work at home, at a satellite office, or at the company's offices"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "The 12th edition covers **telecommuting** (working remotely via technology), hybrid models and **distant staffing**, but not this older arrangement.",
+   "scopeNote": "Written for an older edition: The 12th edition no longer covers distributed work programs."
+  },
+  {
+   "id": "tb6-q057",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Distributed Work",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q57"
+   },
+   "prompt": "If your company allows employees to work at their business office, a satellite office, and/or a home office, what kind of program do they have?",
+   "tags": [
+    "§6.7",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "telework centre program"
+    },
+    {
+     "id": "b",
+     "text": "distributed work program"
+    },
+    {
+     "id": "c",
+     "text": "alternative work office program"
+    },
+    {
+     "id": "d",
+     "text": "telecommuting program"
+    },
+    {
+     "id": "e",
+     "text": "flexible work program"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "The 12th edition covers **telecommuting** (working remotely via technology), hybrid models and **distant staffing**, but not this older arrangement.",
+   "scopeNote": "Written for an older edition: The 12th edition no longer covers distributed work programs."
+  },
+  {
+   "id": "tb6-q058",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Bell Canada Telework",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q58"
+   },
+   "prompt": "At Bell Canada, employees are eligible to participate in the company's __________ program.",
+   "tags": [
+    "§6.7",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "telework centre"
+    },
+    {
+     "id": "b",
+     "text": "job sharing"
+    },
+    {
+     "id": "c",
+     "text": "distributed work"
+    },
+    {
+     "id": "d",
+     "text": "compressed workweek"
+    },
+    {
+     "id": "e",
+     "text": "distant staffing"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "The 12th edition covers **telecommuting** (working remotely via technology), hybrid models and **distant staffing**, but not this older arrangement. Bell Canada appears only as a job rotation example.",
+   "scopeNote": "Written for an older edition: The 12th edition does not mention Bell Canada's distributed work program."
+  },
+  {
+   "id": "tb6-q059",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Compressed Workweek",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q59"
+   },
+   "prompt": "What is the most common compressed workweek system?",
+   "tags": [
+    "§6.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "the 4-50 system"
+    },
+    {
+     "id": "b",
+     "text": "the 5-50 system"
+    },
+    {
+     "id": "c",
+     "text": "the 4-40 system"
+    },
+    {
+     "id": "d",
+     "text": "the 3-40 system"
+    },
+    {
+     "id": "e",
+     "text": "the 5-40 system"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "The most common **compressed workweek** is the **4-40** system: four 10-hour days instead of five 8-hour days."
+  },
+  {
+   "id": "tb6-q060",
+   "type": "mc",
+   "unit": 6,
+   "topic": "Compressed Workweek Evidence",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q60"
+   },
+   "prompt": "A review of research on the compressed workweek concluded that",
+   "tags": [
+    "§6.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "there is a positive effect on productivity"
+    },
+    {
+     "id": "b",
+     "text": "there is a positive effect on absenteeism"
+    },
+    {
+     "id": "c",
+     "text": "there is a positive effect on job satisfaction"
+    },
+    {
+     "id": "d",
+     "text": "there is a positive effect on satisfaction with one's boss"
+    },
+    {
+     "id": "e",
+     "text": "there is a positive effect on life satisfaction"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "A review found the compressed workweek has a positive effect on **job satisfaction** (and satisfaction with the work schedule), but no effect on absenteeism, performance or productivity."
+  },
+  {
+   "id": "tb6-q061",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Scientific Management",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q61"
+   },
+   "prompt": "The Scientific Management movement strongly supported job enrichment.",
+   "tags": [
+    "§6.5"
+   ],
+   "answer": false,
+   "explanation": "False. Scientific management favoured **job simplification**, specialization and close supervision, the opposite of job enrichment."
+  },
+  {
+   "id": "tb6-q062",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Job Enrichment Techniques",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q62"
+   },
+   "prompt": "\"Establishing internal client relationships\" is a motivational strategy advocated by Management by Objectives.",
+   "tags": [
+    "§6.5"
+   ],
+   "answer": false,
+   "explanation": "False. Establishing internal and external **client relationships** is a **job enrichment** technique. MBO is a goal-setting program."
+  },
+  {
+   "id": "tb6-q063",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Scanlon Plan",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q63"
+   },
+   "prompt": "The Scanlon Plan is a group-oriented rather than individual-oriented pay plan.",
+   "tags": [
+    "§6.4"
+   ],
+   "answer": true,
+   "explanation": "True. The **Scanlon Plan** is a group incentive (gainsharing) that rewards cooperative cost savings."
+  },
+  {
+   "id": "tb6-q064",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Compressed Workweek",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q64"
+   },
+   "prompt": "June works a compressed workweek. This means that she works fewer total hours a week than normal.",
+   "tags": [
+    "§6.7"
+   ],
+   "answer": false,
+   "explanation": "False. A **compressed workweek** keeps the normal total weekly hours but squeezes them into fewer days."
+  },
+  {
+   "id": "tb6-q065",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Pay Estimation Errors",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q65"
+   },
+   "prompt": "Managers habitually underestimate the pay that their bosses receive.",
+   "tags": [
+    "§6.3"
+   ],
+   "answer": true,
+   "explanation": "True. Managers **underestimate** their superiors' pay and overestimate the pay of employees and peers."
+  },
+  {
+   "id": "tb6-q066",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Gainsharing",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q66"
+   },
+   "prompt": "Sydney works under a gain-sharing plan. In other words, he is paid according to individual piece rate.",
+   "tags": [
+    "§6.4"
+   ],
+   "answer": false,
+   "explanation": "False. **Gainsharing** is a *group* plan paying bonuses for cost savings. Individual pay per unit is piece-rate."
+  },
+  {
+   "id": "tb6-q067",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Core Job Characteristics",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q67"
+   },
+   "prompt": "In the Job Characteristics Model, autonomy is the core job characteristic that leads to the critical psychological state experienced responsibility for outcomes of work.",
+   "tags": [
+    "§6.5"
+   ],
+   "answer": true,
+   "explanation": "True. **Autonomy** leads to the critical psychological state of experienced responsibility for outcomes."
+  },
+  {
+   "id": "tb6-q068",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Restriction of Productivity",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q68"
+   },
+   "prompt": "Tanya's work group restricts its productivity. According to the text, this is a pretty good sign that the group members are paid an hourly wage.",
+   "tags": [
+    "§6.2"
+   ],
+   "answer": false,
+   "explanation": "False. Restriction of productivity is a problem of **wage incentive plans** such as piece-rate, where workers cap output; it is not a sign of straight hourly pay."
+  },
+  {
+   "id": "tb6-q069",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Skill-Based Pay",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q69"
+   },
+   "prompt": "Skill-based pay is a motivation system whereby people are paid on the basis of how many skills they have mastered.",
+   "tags": [
+    "§6.4"
+   ],
+   "answer": true,
+   "explanation": "True. **Skill-based pay** (pay-for-knowledge) pays according to the number of job skills acquired."
+  },
+  {
+   "id": "tb6-q070",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Job Characteristics Moderators",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q70"
+   },
+   "prompt": "According to the Job Characteristics Model, people with low growth need strength should respond best to enriched jobs.",
+   "tags": [
+    "§6.5"
+   ],
+   "answer": false,
+   "explanation": "False. The model predicts people with **high** growth need strength respond best to enriched jobs. (Research support for this moderator is weak.)"
+  },
+  {
+   "id": "tb6-q071",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Feedback",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q71"
+   },
+   "prompt": "Both job enrichment and goal setting theory stress the value of performance feedback to employees.",
+   "tags": [
+    "§6.5"
+   ],
+   "answer": true,
+   "explanation": "True. Job enrichment (feedback is a core characteristic) and goal-setting theory both stress feedback about performance."
+  },
+  {
+   "id": "tb6-q072",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Job Enrichment",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q72"
+   },
+   "prompt": "Job enrichment is said to improve job context satisfaction.",
+   "tags": [
+    "§6.5"
+   ],
+   "answer": false,
+   "explanation": "False. Job enrichment targets intrinsic motivation, quality of working life and job involvement. **Context satisfaction** is a moderator, not an outcome of enrichment."
+  },
+  {
+   "id": "tb6-q073",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Merit Pay Support",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q73"
+   },
+   "prompt": "Managers are more supportive than blue-collar employees of the idea that pay should be closely tied to performance.",
+   "tags": [
+    "§6.3"
+   ],
+   "answer": true,
+   "explanation": "True. White-collar workers, especially **managers**, particularly support the idea that performance should be an important determinant of pay."
+  },
+  {
+   "id": "tb6-q074",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Pay and Performance",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q74"
+   },
+   "prompt": "Financial incentives and pay-for-performance have no effect on turnover.",
+   "tags": [
+    "§6.1"
+   ],
+   "answer": false,
+   "explanation": "False. Financial incentives and pay-for-performance plans **increase performance and lower turnover**."
+  },
+  {
+   "id": "tb6-q075",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Merit Pay",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q75"
+   },
+   "prompt": "Merit pay plans attempt to link pay to performance on blue-collar jobs.",
+   "tags": [
+    "§6.3"
+   ],
+   "answer": false,
+   "explanation": "False. **Merit pay** plans link pay to performance on **white-collar** jobs; wage incentives are for production jobs."
+  },
+  {
+   "id": "tb6-q076",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Pay Estimation Errors",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q76"
+   },
+   "prompt": "Generally, managers underestimate the pay of their employees and peers and overestimate the pay of their superiors.",
+   "tags": [
+    "§6.3"
+   ],
+   "answer": false,
+   "explanation": "False. Managers **overestimate** the pay of employees and peers and **underestimate** the pay of superiors."
+  },
+  {
+   "id": "tb6-q077",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Traditional Job Design",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q77"
+   },
+   "prompt": "The traditional view of job design stressed job simplification.",
+   "tags": [
+    "§6.5"
+   ],
+   "answer": true,
+   "explanation": "True. The traditional view, up to the 1960s, was **job simplification** (specialization)."
+  },
+  {
+   "id": "tb6-q078",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Job Breadth",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q78"
+   },
+   "prompt": "Job breadth refers to the number of different activities performed in a job.",
+   "tags": [
+    "§6.5"
+   ],
+   "answer": true,
+   "explanation": "True. **Breadth** is the number of different activities performed on a job; depth is the discretion a worker has."
+  },
+  {
+   "id": "tb6-q079",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Job Depth",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q79"
+   },
+   "prompt": "The notion of job depth corresponds very closely to what Hackman and Oldham call skill variety.",
+   "tags": [
+    "§6.5"
+   ],
+   "answer": false,
+   "explanation": "False. Job **depth** (discretion) corresponds to **autonomy**. **Skill variety** corresponds to job breadth."
+  },
+  {
+   "id": "tb6-q080",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Job Characteristics Moderators",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q80"
+   },
+   "prompt": "According to the job characteristics model,context satisfactions is a moderator variable.",
+   "tags": [
+    "§6.5"
+   ],
+   "answer": true,
+   "explanation": "True. The moderators are knowledge and skill, growth need strength and **context satisfactions**."
+  },
+  {
+   "id": "tb6-q081",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Compressed Workweek",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q81"
+   },
+   "prompt": "The compressed workweek holds the number of days worked constant but reduces the number of hours worked each day.",
+   "tags": [
+    "§6.7"
+   ],
+   "answer": false,
+   "explanation": "False. A compressed workweek keeps total hours but uses **fewer days**, with longer days."
+  },
+  {
+   "id": "tb6-q082",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Flexible Work Purpose",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q82"
+   },
+   "prompt": "The primary purpose of alternative working schedules is to motivate employees to work harder.",
+   "tags": [
+    "§6.7"
+   ],
+   "answer": false,
+   "explanation": "False. Flexible arrangements aim to meet diverse workforce needs, improve satisfaction and work-life balance, and aid recruitment and retention, not to make people work harder."
+  },
+  {
+   "id": "tb6-q083",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Team Size and Incentives",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 6 · Q83"
+   },
+   "prompt": "When workers are paid according to the performance of their work group, the relationship between individual pay and productivity decreases as the group gets bigger.",
+   "tags": [
+    "§6.2"
+   ],
+   "answer": true,
+   "explanation": "True. As a group gets bigger, one person's contribution matters less to the group's pay, so the **individual pay-productivity link weakens**."
+  },
+  {
+   "id": "tb6-q084",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Flex Time",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q84"
+   },
+   "prompt": "Core time is the period when employees working under flex-time are all in the office.",
+   "tags": [
+    "§6.7"
+   ],
+   "answer": true,
+   "explanation": "True. **Core time** is when everyone on flex time must be present."
+  },
+  {
+   "id": "tb6-q085",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Job Scope and MPS",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q85"
+   },
+   "prompt": "A low scope job would have a low MPS.",
+   "tags": [
+    "§6.5"
+   ],
+   "answer": true,
+   "explanation": "True. **Low-scope** jobs score low on the core characteristics, so they have a low **motivating potential score**."
+  },
+  {
+   "id": "tb6-q086",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Job Enrichment Problems",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q86"
+   },
+   "prompt": "Unions have traditionally been very active in demanding job enrichment.",
+   "tags": [
+    "§6.5"
+   ],
+   "answer": false,
+   "explanation": "False. North American unions have traditionally been **unenthusiastic** about job enrichment, favouring money and a narrow division of labour."
+  },
+  {
+   "id": "tb6-q087",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Restriction of Productivity",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q87"
+   },
+   "prompt": "Restriction of productivity has been a problem with wage incentive plans.",
+   "tags": [
+    "§6.2"
+   ],
+   "answer": true,
+   "explanation": "True. **Restriction of productivity** is a chief psychological impediment to wage incentive plans."
+  },
+  {
+   "id": "tb6-q088",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Importance of Pay",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q88"
+   },
+   "prompt": "Employees but not managers underestimate the importance of pay as a motivator.",
+   "tags": [
+    "§6.1"
+   ],
+   "answer": false,
+   "explanation": "False. Both employees and **managers** underestimate the importance of pay as a motivator."
+  },
+  {
+   "id": "tb6-q089",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Pay and Performance",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q89"
+   },
+   "prompt": "Pay is one of the most important and effective motivators of performance.",
+   "tags": [
+    "§6.1"
+   ],
+   "answer": true,
+   "explanation": "True. The text says pay might well be the **most important and effective motivator** of performance."
+  },
+  {
+   "id": "tb6-q090",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Merit Pay",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q90"
+   },
+   "prompt": "Wage incentive plans are employed with much greater frequency than merit pay plans.",
+   "tags": [
+    "§6.3"
+   ],
+   "answer": false,
+   "explanation": "False. **Merit pay** plans are used far more often than wage incentive plans."
+  },
+  {
+   "id": "tb6-q091",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Merit Pay",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q91"
+   },
+   "prompt": "Merit pay plans have become one of the most common forms of motivation in Canadian organizations.",
+   "tags": [
+    "§6.3"
+   ],
+   "answer": true,
+   "explanation": "True. **Merit pay** is one of the most common forms of motivation in Canadian organizations."
+  },
+  {
+   "id": "tb6-q092",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Wage Incentive Use",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q92"
+   },
+   "prompt": "Wage incentive plans have become one of the most common forms of motivation in Canadian organizations.",
+   "tags": [
+    "§6.2"
+   ],
+   "answer": false,
+   "explanation": "False. **Wage incentives** are used less widely than expected; merit pay is the common one."
+  },
+  {
+   "id": "tb6-q093",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Profit Sharing",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q93"
+   },
+   "prompt": "Profit sharing seems to work best in larger firms that regularly turn a handsome profit.",
+   "tags": [
+    "§6.4"
+   ],
+   "answer": false,
+   "explanation": "False. **Profit sharing** works best in **smaller** firms that regularly turn a profit; in large firms it is hard to see one's impact on profits."
+  },
+  {
+   "id": "tb6-q094",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Stretch Assignments",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q94"
+   },
+   "prompt": "Stretch assignments give employees more tasks at the same level to perform but leave other core characteristics unchanged.",
+   "tags": [
+    "§6.5"
+   ],
+   "answer": false,
+   "explanation": "False. **Stretch assignments** are challenging projects larger in scope, with new tasks and more responsibility. More tasks at the same level with other characteristics unchanged is job enlargement."
+  },
+  {
+   "id": "tb6-q095",
+   "type": "tf",
+   "unit": 6,
+   "topic": "JCM Research Evidence",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 6 · Q95"
+   },
+   "prompt": "Among the five core job characteristics, skill variety, task identity, and task significance have been found to be negatively related to absenteeism.",
+   "tags": [
+    "§6.5"
+   ],
+   "answer": false,
+   "explanation": "False. **Autonomy** and **feedback** (not variety, identity and significance) were the characteristics related to behavioural outcomes such as absenteeism."
+  },
+  {
+   "id": "tb6-q096",
+   "type": "tf",
+   "unit": 6,
+   "topic": "JCM Research Evidence",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q96"
+   },
+   "prompt": "Reserach on the Job Characteristics Model supports the role of growth need strength as a moderating variable.",
+   "tags": [
+    "§6.5"
+   ],
+   "answer": false,
+   "explanation": "False. Evidence that **growth need strength** (and context satisfaction) influences reactions to job design is **weak or contradictory**."
+  },
+  {
+   "id": "tb6-q097",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Job Enrichment",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q97"
+   },
+   "prompt": "In general, job enrichment involves increasing the motivating potential of jobs via the arrangement of the critical psychological states.",
+   "tags": [
+    "§6.5"
+   ],
+   "answer": false,
+   "explanation": "False. Job enrichment raises motivating potential by arranging the **core job characteristics**. The critical psychological states are the results, not the levers."
+  },
+  {
+   "id": "tb6-q098",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Job Involvement",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q98"
+   },
+   "prompt": "Employees who have challenging and enriched jobs tend to have higher levels of job involvement.",
+   "tags": [
+    "§6.5"
+   ],
+   "answer": true,
+   "explanation": "True. Employees with challenging, **enriched** jobs tend to have higher **job involvement**."
+  },
+  {
+   "id": "tb6-q099",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Enlargement vs. Enrichment",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q99"
+   },
+   "prompt": "Job enrichment and job enlargement both involve increasing the depth of a job.",
+   "tags": [
+    "§6.5"
+   ],
+   "answer": false,
+   "explanation": "False. **Job enrichment** increases depth; **job enlargement** adds breadth only."
+  },
+  {
+   "id": "tb6-q100",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Enlargement vs. Enrichment",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q100"
+   },
+   "prompt": "If your boss gives you more tasks to perform along with more responsibility and autonomy, then you are experiencing job enlargement.",
+   "tags": [
+    "§6.5"
+   ],
+   "answer": false,
+   "explanation": "False. More tasks plus more responsibility and autonomy is **job enrichment** (breadth and depth). Enlargement adds only more tasks at the same level."
+  },
+  {
+   "id": "tb6-q101",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Enlargement vs. Enrichment",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q101"
+   },
+   "prompt": "Job enlargement involves increasing the breadth and depth of a job.",
+   "tags": [
+    "§6.5"
+   ],
+   "answer": false,
+   "explanation": "False. **Job enlargement** increases breadth only; adding breadth and depth is job enrichment."
+  },
+  {
+   "id": "tb6-q102",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Job Enlargement",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q102"
+   },
+   "prompt": "A good example of job enlargement would be to give workers more boring, fragmented, routine tasks to perform.",
+   "tags": [
+    "§6.5"
+   ],
+   "answer": true,
+   "explanation": "True. Giving workers **more boring, fragmented, routine tasks** is the text's example of **job enlargement**."
+  },
+  {
+   "id": "tb6-q103",
+   "type": "tf",
+   "unit": 6,
+   "topic": "MBO Evidence",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q103"
+   },
+   "prompt": "Research evidence on management by objectives shows that MBO programs rarely result in productivity gains.",
+   "tags": [
+    "§6.6"
+   ],
+   "answer": false,
+   "explanation": "False. Research shows **MBO** programs produce **clear productivity gains**, especially with strong top-management commitment."
+  },
+  {
+   "id": "tb6-q104",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Compressed Workweek",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q104"
+   },
+   "prompt": "The most common compressed workweek is the 4-50 system.",
+   "tags": [
+    "§6.7"
+   ],
+   "answer": false,
+   "explanation": "False. The most common compressed workweek is the **4-40** system (four 10-hour days), not 4-50."
+  },
+  {
+   "id": "tb6-q105",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Compressed Workweek Evidence",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q105"
+   },
+   "prompt": "Research on the compressed workweek has found that there is a positive effect on absenteeism.",
+   "tags": [
+    "§6.7"
+   ],
+   "answer": false,
+   "explanation": "False. A review found **no effect on absenteeism**; the positive effects were on job satisfaction and satisfaction with the work schedule."
+  },
+  {
+   "id": "tb6-q106",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Telework Centre",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 6 · Q106"
+   },
+   "prompt": "A telework centre refers to the office in an individual's home used by employees who telecommute.",
+   "tags": [
+    "§6.7",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "The 12th edition covers **telecommuting** (working remotely via technology), hybrid models and **distant staffing**, but not this older arrangement.",
+   "scopeNote": "Written for an older edition: The 12th edition no longer covers telework centres."
+  },
+  {
+   "id": "tb6-q107",
+   "type": "tf",
+   "unit": 6,
+   "topic": "Distant Staffing",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 6 · Q107"
+   },
+   "prompt": "Employees who can work at their company's office, a satellite office, or a home office participate in a distant staffing program.",
+   "tags": [
+    "§6.7"
+   ],
+   "answer": false,
+   "explanation": "False. **Distant staffing** means hiring workers regardless of where they live, so they may never come to the office; the described office/satellite/home mix is not distant staffing."
+  }
+ ]
+}

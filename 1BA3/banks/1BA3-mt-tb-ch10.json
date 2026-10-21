@@ -1,0 +1,3236 @@
+{
+ "schema": "practice-bank/v1",
+ "id": "1BA3-mt-tb-ch10",
+ "course": "COMM 1BA3",
+ "title": "Test Bank · Ch. 10",
+ "description": "Johns & Saks chapter test bank, Ch. 10 (Communication): multiple-choice and true/false items, each key re-checked against the 12th-edition text.",
+ "defaultSource": {
+  "label": "Textbook Test Bank",
+  "kind": "textbook"
+ },
+ "defaultUnit": 10,
+ "scenarios": {},
+ "questions": [
+  {
+   "id": "tb10-q001",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Defining Communication",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q1"
+   },
+   "prompt": "Communication is defined as",
+   "tags": [
+    "§10.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "understanding between people."
+    },
+    {
+     "id": "b",
+     "text": "a method of persuasion."
+    },
+    {
+     "id": "c",
+     "text": "the exchange of information."
+    },
+    {
+     "id": "d",
+     "text": "the encoding of information."
+    },
+    {
+     "id": "e",
+     "text": "the flow of information down an organizational hierarchy."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "**Communication** is the process by which information is exchanged between a sender and a receiver. Understanding is the goal, but it is not the definition, since a message can be exchanged without being understood."
+  },
+  {
+   "id": "tb10-q002",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Encoding and Decoding",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q2"
+   },
+   "prompt": "In order for a receiver to understand a communicated message, he or she must first __________ the message.",
+   "tags": [
+    "§10.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "filter"
+    },
+    {
+     "id": "b",
+     "text": "decode"
+    },
+    {
+     "id": "c",
+     "text": "transmit"
+    },
+    {
+     "id": "d",
+     "text": "encode"
+    },
+    {
+     "id": "e",
+     "text": "integrate"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "The receiver must perceive the message and **decode** it to reach accurate understanding. Encoding is the sender's job of turning thoughts into a transmittable form."
+  },
+  {
+   "id": "tb10-q003",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Encoding and Decoding",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q3"
+   },
+   "prompt": "Who is encoding messages?",
+   "tags": [
+    "§10.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Alexis, who is trying to figure out what her boss's memo means"
+    },
+    {
+     "id": "b",
+     "text": "Bob, who is writing a technical report"
+    },
+    {
+     "id": "c",
+     "text": "Aaron, who is hearing a rumour on the grapevine"
+    },
+    {
+     "id": "d",
+     "text": "Victor, who is trying to decipher some legal jargon in a contract"
+    },
+    {
+     "id": "e",
+     "text": "Sharon, who is the target of upward communication"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "**Encoding** is putting thoughts into a form that can be transmitted, such as writing a report. The other people are all on the receiving side, interpreting or hearing a message."
+  },
+  {
+   "id": "tb10-q004",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Encoding and Decoding",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q4"
+   },
+   "prompt": "Who is decoding a message?",
+   "tags": [
+    "§10.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Sal, who is preparing a financial statement"
+    },
+    {
+     "id": "b",
+     "text": "Olive, who is making a speech"
+    },
+    {
+     "id": "c",
+     "text": "William, who is studying blueprints"
+    },
+    {
+     "id": "d",
+     "text": "Robin, who is initiating downward communication"
+    },
+    {
+     "id": "e",
+     "text": "Sylvia, who is passing along a bit of gossip about a coworker"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "**Decoding** is the receiver's interpretation of a message, as when studying blueprints. Preparing a statement or giving a speech is encoding and transmitting."
+  },
+  {
+   "id": "tb10-q005",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Effective Communication",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q5"
+   },
+   "prompt": "Effective communication occurs when the right people receive the right information in a __________ manner.",
+   "tags": [
+    "§10.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "filtered"
+    },
+    {
+     "id": "b",
+     "text": "timely"
+    },
+    {
+     "id": "c",
+     "text": "friendly"
+    },
+    {
+     "id": "d",
+     "text": "formal"
+    },
+    {
+     "id": "e",
+     "text": "proper"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "**Effective communication** gets the right people the right information in a **timely** manner. Break any of the three conditions and the episode is ineffective."
+  },
+  {
+   "id": "tb10-q006",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Encoding and Decoding",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q6"
+   },
+   "prompt": "Which of the following is an example of encoding?",
+   "tags": [
+    "§10.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Writing a letter"
+    },
+    {
+     "id": "b",
+     "text": "Reading a novel"
+    },
+    {
+     "id": "c",
+     "text": "Thinking"
+    },
+    {
+     "id": "d",
+     "text": "Watching television"
+    },
+    {
+     "id": "e",
+     "text": "Reading a memo"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Writing a letter is **encoding**, since the sender puts thoughts into a transmittable form. Reading, watching and interpreting a memo are all decoding on the receiving side."
+  },
+  {
+   "id": "tb10-q007",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Communication Directions",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q7"
+   },
+   "prompt": "Which of the following is an example of horizontal communication?",
+   "tags": [
+    "§10.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The vice-president of marketing sends a memo to the vice-president of manufacturing."
+    },
+    {
+     "id": "b",
+     "text": "An employee explains to her boss why her performance has not been up to par recently."
+    },
+    {
+     "id": "c",
+     "text": "The president of a college calls a meeting to explain the college's financial situation to the faculty."
+    },
+    {
+     "id": "d",
+     "text": "A purchasing agent leaves a voicemail message for a new supplier."
+    },
+    {
+     "id": "e",
+     "text": "A supervisor tells an employee that he has been performing poorly."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "**Horizontal communication** runs between departments or functional units, such as one vice-president writing to another. Messages between boss and employee are upward or downward."
+  },
+  {
+   "id": "tb10-q008",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Mum Effect",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q8"
+   },
+   "prompt": "Research suggests that",
+   "tags": [
+    "§10.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "employees with good performance ratings are more likely to be informed of those ratings than employees with bad ratings."
+    },
+    {
+     "id": "b",
+     "text": "employees are seldom informed about their performance regardless of how they have performed."
+    },
+    {
+     "id": "c",
+     "text": "employees with good and bad performance ratings are just as likely to be informed of these ratings."
+    },
+    {
+     "id": "d",
+     "text": "employees with good and bad performance ratings are just as unlikely to be informed of these ratings."
+    },
+    {
+     "id": "e",
+     "text": "employees with good performance ratings are less likely to be informed of those ratings than employees with bad ratings."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Employees with good ratings were more likely to know their ratings than those with bad ratings, because managers avoid passing on bad news they are partly responsible for. This is the **mum effect** working downward."
+  },
+  {
+   "id": "tb10-q009",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Chain of Command Limits",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q9"
+   },
+   "prompt": "The chain of command does not reflect the number of communication channels that exist in organizations because",
+   "tags": [
+    "§10.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "it ignores downward communication."
+    },
+    {
+     "id": "b",
+     "text": "managers may not encode communication."
+    },
+    {
+     "id": "c",
+     "text": "it ignores horizontal communication."
+    },
+    {
+     "id": "d",
+     "text": "it ignores informal communication."
+    },
+    {
+     "id": "e",
+     "text": "it ignores upward communication."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "The chain of command ignores **informal communication**, and good ideas do not respect organizational boundaries. It does cover downward, upward and horizontal flows, though horizontal flow is slow."
+  },
+  {
+   "id": "tb10-q010",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Mum Effect",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 10 · Q10"
+   },
+   "prompt": "The toy market has fallen off, and the Zippy Toy Company has to lay off workers. The plant manager must inform all the workers, but he is so upset about his task that he writes a vague, contradictory letter which no one understands. What happened?",
+   "tags": [
+    "§10.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The mum effect caused the workers to have decoding problems"
+    },
+    {
+     "id": "b",
+     "text": "Jargon caused the manager to produce nonverbal communication"
+    },
+    {
+     "id": "c",
+     "text": "All-channel communication was used when exit interviews would have been better"
+    },
+    {
+     "id": "d",
+     "text": "Rumour has caused confusion"
+    },
+    {
+     "id": "e",
+     "text": "Status differences have resulted in ineffective communication"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Upset about delivering bad news, the manager obscures it. This is closest to the **mum effect**, the tendency to avoid communicating unfavourable news, and the muddled message then produces decoding problems. Jargon, rumour and status are not at work here."
+  },
+  {
+   "id": "tb10-q011",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Jargon",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q11"
+   },
+   "prompt": "Jargon",
+   "tags": [
+    "§10.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "often leads to ineffective communication."
+    },
+    {
+     "id": "b",
+     "text": "often leads to effective communication."
+    },
+    {
+     "id": "c",
+     "text": "is usually characteristic of particular jobs or occupations."
+    },
+    {
+     "id": "d",
+     "text": "can be very intimidating to new organizational members."
+    },
+    {
+     "id": "e",
+     "text": "all of the above."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": false,
+   "explanation": "**Jargon** is efficient among peers and marks job or occupational membership, but it confuses newcomers and outsiders. Every statement is true, so all of the above is correct."
+  },
+  {
+   "id": "tb10-q012",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Filtering",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q12"
+   },
+   "prompt": "Which of the following is an example of filtering?",
+   "tags": [
+    "§10.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Ralph sent an email directly to the vice president to explain the sudden decrease in sales."
+    },
+    {
+     "id": "b",
+     "text": "Bob didn't tell his employees about their impending layoffs."
+    },
+    {
+     "id": "c",
+     "text": "Sarah misunderstood her boss's memo."
+    },
+    {
+     "id": "d",
+     "text": "The manager confused her secretary."
+    },
+    {
+     "id": "e",
+     "text": "All of the above."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": false,
+   "explanation": "**Filtering** is a message being watered down or stopped altogether during transmission. Withholding news of layoffs is filtering; misunderstanding a memo is a decoding problem, and going directly to the VP bypasses the chain."
+  },
+  {
+   "id": "tb10-q013",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Chain of Command Limits",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q13"
+   },
+   "prompt": "Sticking with the strict chain of command is most likely to impede __________ communication.",
+   "tags": [
+    "§10.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "horizontal"
+    },
+    {
+     "id": "b",
+     "text": "formal"
+    },
+    {
+     "id": "c",
+     "text": "downward"
+    },
+    {
+     "id": "d",
+     "text": "upward"
+    },
+    {
+     "id": "e",
+     "text": "backwards"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Under a strict chain of command, a **horizontal** message has to go up to a common manager and back down, which makes it slow. Upward and downward messages follow the chain naturally."
+  },
+  {
+   "id": "tb10-q014",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Mum Effect",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q14"
+   },
+   "prompt": "Which of the following is an example of the mum effect?",
+   "tags": [
+    "§10.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The young lawyer who lost the court case delayed telling the senior partner of the law firm."
+    },
+    {
+     "id": "b",
+     "text": "The sales manager decided to postpone announcing the good news about the Christmas bonuses until the company party at the end of the month."
+    },
+    {
+     "id": "c",
+     "text": "The manager would only communicate with workers through their supervisor."
+    },
+    {
+     "id": "d",
+     "text": "The president of a firm would not tell a newspaper reporter what the firm's market share was."
+    },
+    {
+     "id": "e",
+     "text": "The secretary did not care to participate in the office grapevine."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The **mum effect** is avoiding or delaying unfavourable news, especially when the sender is responsible for it, as with the lawyer who lost the case. Postponing good news or refusing to share information with a reporter is not the mum effect."
+  },
+  {
+   "id": "tb10-q015",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Open Door Policy",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q15"
+   },
+   "prompt": "The opportunity for employees to communicate directly with a manager without going through the chain of command is known as",
+   "tags": [
+    "§10.1",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "upward communication."
+    },
+    {
+     "id": "b",
+     "text": "an open door policy."
+    },
+    {
+     "id": "c",
+     "text": "the mum effect."
+    },
+    {
+     "id": "d",
+     "text": "the grapevine."
+    },
+    {
+     "id": "e",
+     "text": "filtering."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "The 12th-edition chapter does not discuss open door policies, so this item is not supported by the current text.",
+   "scopeNote": "Written for an older edition: Not covered in the 12th edition: the chapter no longer mentions open door policies."
+  },
+  {
+   "id": "tb10-q016",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Office Decor",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q16"
+   },
+   "prompt": "You want your employees to feel comfortable in your office. Research suggests",
+   "tags": [
+    "§10.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "dressing in designer fashions."
+    },
+    {
+     "id": "b",
+     "text": "placing your credentials and awards in a prominent location."
+    },
+    {
+     "id": "c",
+     "text": "placing your desk between them and you."
+    },
+    {
+     "id": "d",
+     "text": "decorating with plants and posters."
+    },
+    {
+     "id": "e",
+     "text": "not being so tidy that it scares people away."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Students felt most welcome in an office that was tidy, had posters and plants, and had the desk against the wall. **Decor** with plants and posters signals \"I'm human\", while a desk in between acts as a barrier."
+  },
+  {
+   "id": "tb10-q017",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Mum Effect and Filtering",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q17"
+   },
+   "prompt": "The mum effect is a good example of",
+   "tags": [
+    "§10.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "filtering."
+    },
+    {
+     "id": "b",
+     "text": "moderately high information richness."
+    },
+    {
+     "id": "c",
+     "text": "poor cross-cultural communication."
+    },
+    {
+     "id": "d",
+     "text": "ineffective decoding."
+    },
+    {
+     "id": "e",
+     "text": "information overload."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The **mum effect** is a form of filtering, since unfavourable news gets stopped before it reaches the receiver. It is not a decoding problem or a matter of information richness."
+  },
+  {
+   "id": "tb10-q018",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Jargon",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q18"
+   },
+   "prompt": "Jargon is a form of",
+   "tags": [
+    "§10.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "decoding."
+    },
+    {
+     "id": "b",
+     "text": "body language."
+    },
+    {
+     "id": "c",
+     "text": "communication media."
+    },
+    {
+     "id": "d",
+     "text": "nonverbal communication."
+    },
+    {
+     "id": "e",
+     "text": "verbal communication."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "**Jargon** is specialized language, so it is a form of verbal communication. Non-verbal communication is any message sent by a medium other than speech or writing."
+  },
+  {
+   "id": "tb10-q019",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Grapevine Accuracy",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q19"
+   },
+   "prompt": "Which of the following best represents the accuracy of the grapevine?",
+   "tags": [
+    "§10.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "At least 75 percent of the controversial and noncontroversial organizationally related information carried by the grapevine is incorrect."
+    },
+    {
+     "id": "b",
+     "text": "At least 75 percent of the noncontroversial organizationally related information carried by the grapevine is correct."
+    },
+    {
+     "id": "c",
+     "text": "At least 75 percent of the noncontroversial organizationally related information carried by the grapevine is incorrect."
+    },
+    {
+     "id": "d",
+     "text": "At least 75 percent of the controversial organizationally related information carried by the grapevine is correct."
+    },
+    {
+     "id": "e",
+     "text": "At least 75 percent of the controversial organizationally related information carried by the grapevine is incorrect."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "One expert concludes that at least 75 percent of the **non-controversial**, organization-related information on the grapevine is correct. Personal and emotionally charged information is most likely to be distorted."
+  },
+  {
+   "id": "tb10-q020",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Jargon",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q20"
+   },
+   "prompt": "Which of the following is an example of jargon?",
+   "tags": [
+    "§10.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The manager used video to address the department."
+    },
+    {
+     "id": "b",
+     "text": "The secretary started a rumour that the company was bankrupt."
+    },
+    {
+     "id": "c",
+     "text": "Any incident of nonverbal communication."
+    },
+    {
+     "id": "d",
+     "text": "The manager was reluctant to inform her boss that the report was going to be late."
+    },
+    {
+     "id": "e",
+     "text": "The MBA used the word downsizing."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "**Jargon** is specialized language used by members of an occupation, such as an MBA saying \"downsizing\". A rumour, video or reluctance to deliver bad news is something else."
+  },
+  {
+   "id": "tb10-q021",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Grapevine Spread",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q21"
+   },
+   "prompt": "How does information spread through an organizational grapevine?",
+   "tags": [
+    "§10.3",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Only a proportion of those who hear the information tell others."
+    },
+    {
+     "id": "b",
+     "text": "Only through face-to-face verbal interaction."
+    },
+    {
+     "id": "c",
+     "text": "A tells only B who tells only C, and so on."
+    },
+    {
+     "id": "d",
+     "text": "The information follows formal channels of communication."
+    },
+    {
+     "id": "e",
+     "text": "Through the singular grapevine system which exists in most large organizations."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The 12th-edition chapter does not describe how information spreads through the grapevine or what share of recipients pass it on. It says only that organizations have several loosely coordinated grapevines.",
+   "scopeNote": "Written for an older edition: Not covered in the 12th edition: the chapter no longer describes the pattern of how grapevine information spreads."
+  },
+  {
+   "id": "tb10-q022",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Filtering",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q22"
+   },
+   "prompt": "The filtering of information in organizations",
+   "tags": [
+    "§10.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "occurs for downward communication but not upward communication."
+    },
+    {
+     "id": "b",
+     "text": "can be completely eliminated by adopting an open door policy."
+    },
+    {
+     "id": "c",
+     "text": "increases with the number of links in a communication chain."
+    },
+    {
+     "id": "d",
+     "text": "occurs for upward communication but not downward communication."
+    },
+    {
+     "id": "e",
+     "text": "always leads to ineffective communication."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Each link in a chain is a chance for a message to be watered down or stopped, so **filtering** grows with the number of links. It occurs both upward and downward, and an open door cannot eliminate it."
+  },
+  {
+   "id": "tb10-q023",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Non-Verbal Communication",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 10 · Q23"
+   },
+   "prompt": "Which of the following statements about organizational communication is false?",
+   "tags": [
+    "§10.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Organizational grapevines can communicate accurate information."
+    },
+    {
+     "id": "b",
+     "text": "Managers have difficulties balancing task and socio-emotional role demands."
+    },
+    {
+     "id": "c",
+     "text": "Research shows that communication between managers and employees is often poor."
+    },
+    {
+     "id": "d",
+     "text": "Supervisors can be trained to communicate more effectively."
+    },
+    {
+     "id": "e",
+     "text": "It is more difficult to regulate nonverbal communication when the sender has low emotional involvement."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "This is false: it is difficult to regulate **non-verbal** behaviour when we feel very strong emotions, which means high emotional involvement, not low. The other statements are consistent with the chapter."
+  },
+  {
+   "id": "tb10-q024",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Principles of Communication",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q24"
+   },
+   "prompt": "Which of the following is not a basic principle of effective communication?",
+   "tags": [
+    "§10.8"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Feedback"
+    },
+    {
+     "id": "b",
+     "text": "Take the time"
+    },
+    {
+     "id": "c",
+     "text": "Listen"
+    },
+    {
+     "id": "d",
+     "text": "Congruence"
+    },
+    {
+     "id": "e",
+     "text": "Jargon"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "The principles are take the time, be accepting, separate person from problem, say what you feel (**congruence**), listen actively, and give timely feedback. **Jargon** is a barrier to communication, not a principle."
+  },
+  {
+   "id": "tb10-q025",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Mum Effect",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q25"
+   },
+   "prompt": "The mum effect means that people",
+   "tags": [
+    "§10.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "prefer to communicate bad news rather than to receive it."
+    },
+    {
+     "id": "b",
+     "text": "refuse to pass on a rumour."
+    },
+    {
+     "id": "c",
+     "text": "refuse to filter information."
+    },
+    {
+     "id": "d",
+     "text": "fail to decode bad news."
+    },
+    {
+     "id": "e",
+     "text": "fail to encode bad news."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "The **mum effect** is the tendency to avoid communicating unfavourable news, so the sender fails to encode and send it. People do not prefer to deliver bad news; they would rather keep mum."
+  },
+  {
+   "id": "tb10-q026",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Open Door Policy",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q26"
+   },
+   "prompt": "An open door policy is usually meant to encourage __________ communication.",
+   "tags": [
+    "§10.1",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "filtered"
+    },
+    {
+     "id": "b",
+     "text": "downward"
+    },
+    {
+     "id": "c",
+     "text": "horizontal"
+    },
+    {
+     "id": "d",
+     "text": "formal"
+    },
+    {
+     "id": "e",
+     "text": "upward"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "The 12th-edition chapter does not discuss open door policies, so this item is not supported by the current text.",
+   "scopeNote": "Written for an older edition: Not covered in the 12th edition: the chapter no longer mentions open door policies."
+  },
+  {
+   "id": "tb10-q027",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Rumours",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q27"
+   },
+   "prompt": "Rumours are",
+   "tags": [
+    "§10.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "examples of filtering."
+    },
+    {
+     "id": "b",
+     "text": "always false."
+    },
+    {
+     "id": "c",
+     "text": "examples of jargon."
+    },
+    {
+     "id": "d",
+     "text": "unverified beliefs."
+    },
+    {
+     "id": "e",
+     "text": "examples of nonverbal communication."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "A **rumour** is an unverified belief in general circulation. It can be true, but it is unlikely to stay true as it passes along the grapevine, so it is not always false."
+  },
+  {
+   "id": "tb10-q028",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Non-Verbal Communication",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q28"
+   },
+   "prompt": "Nonverbal communication does not include",
+   "tags": [
+    "§10.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "one's body language."
+    },
+    {
+     "id": "b",
+     "text": "props and artifacts."
+    },
+    {
+     "id": "c",
+     "text": "the clothing one wears."
+    },
+    {
+     "id": "d",
+     "text": "one's use of jargon."
+    },
+    {
+     "id": "e",
+     "text": "the way one decorates and arranges one's office."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "**Non-verbal communication** covers body language, props, artifacts and costumes, including clothing and office decor. Jargon is specialized language, so it is verbal."
+  },
+  {
+   "id": "tb10-q029",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Mum Effect and Filtering",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q29"
+   },
+   "prompt": "The mum effect is one example of",
+   "tags": [
+    "§10.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "how the grapevine works."
+    },
+    {
+     "id": "b",
+     "text": "how rumours get transmitted."
+    },
+    {
+     "id": "c",
+     "text": "how the clothing we wear transmits information."
+    },
+    {
+     "id": "d",
+     "text": "how status can lead to problems in informal communication."
+    },
+    {
+     "id": "e",
+     "text": "how information filtering occurs."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "The **mum effect** is an example of information filtering, because bad news is withheld rather than passed on. It is not mainly about status in informal channels or about the grapevine."
+  },
+  {
+   "id": "tb10-q030",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Office Decor",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q30"
+   },
+   "prompt": "Which of the following statements about the decor and arrangement of offices is true?",
+   "tags": [
+    "§10.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Although visitors read things into office decor and arrangement, decor and arrangement are unrelated to the personality of the occupant."
+    },
+    {
+     "id": "b",
+     "text": "Office decor and arrangement neither convey the personality of the occupant nor evoke attributions in visitors about the occupant."
+    },
+    {
+     "id": "c",
+     "text": "Employees feel more comfortable when there is a desk between them and their manager."
+    },
+    {
+     "id": "d",
+     "text": "Although office decor and arrangement are related to the personality of the occupant, visitors do not make attributions about the occupant from decor and arrangement."
+    },
+    {
+     "id": "e",
+     "text": "An office which is tidy may be seen as more welcoming than one which is messy."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": false,
+   "explanation": "A neat office signalled that the occupant was organized and had time to talk, so a tidy office can seem more **welcoming**. Decor also conveys personality, and a desk between people is a barrier."
+  },
+  {
+   "id": "tb10-q031",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Non-Verbal Across Cultures",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q31"
+   },
+   "prompt": "In which of the following cases is cross-cultural communication very good?",
+   "tags": [
+    "§10.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Physical proximity and contact"
+    },
+    {
+     "id": "b",
+     "text": "Interpreting basic emotions in facial expressions"
+    },
+    {
+     "id": "c",
+     "text": "Agreeing on what constitutes punctuality"
+    },
+    {
+     "id": "d",
+     "text": "Understanding symbolic gestures"
+    },
+    {
+     "id": "e",
+     "text": "Conveying etiquette and politeness"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "People are very good at decoding **basic emotions in facial expressions**, even across cultures. Gestures, punctuality and politeness conventions vary widely."
+  },
+  {
+   "id": "tb10-q032",
+   "type": "mc",
+   "unit": 10,
+   "topic": "High-Context Negotiation",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 10 · Q32"
+   },
+   "prompt": "You are a member of a Canadian company trying to negotiate with a Chinese firm. Which of the following instructions should you be sure to follow?",
+   "tags": [
+    "§10.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Ensure that all members of your team are able to jump into the discussion at any time."
+    },
+    {
+     "id": "b",
+     "text": "Provide the Chinese with knowledge of yourself and your culture."
+    },
+    {
+     "id": "c",
+     "text": "Provide the Chinese firm with long detailed contracts."
+    },
+    {
+     "id": "d",
+     "text": "Ignore differences in age and rank when dealing with the Chinese."
+    },
+    {
+     "id": "e",
+     "text": "Keep meetings with the Chinese brief and to the point."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "People from **high-context** cultures such as China want to know about you and your company in detail. Expect longer meetings, attention to age and rank, and less emphasis on lengthy contracts."
+  },
+  {
+   "id": "tb10-q033",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Cultural Context",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q33"
+   },
+   "prompt": "Which of the following is an example of a high-context culture?",
+   "tags": [
+    "§10.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Scandinavia"
+    },
+    {
+     "id": "b",
+     "text": "Australia"
+    },
+    {
+     "id": "c",
+     "text": "Canada"
+    },
+    {
+     "id": "d",
+     "text": "Northern Europe"
+    },
+    {
+     "id": "e",
+     "text": "Japan"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "**High-context** cultures include many East Asian (Japanese), Latin American, African and Arab cultures. Scandinavia, Australia, Canada and Northern Europe are low-context."
+  },
+  {
+   "id": "tb10-q034",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Arab Business Customs",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q34"
+   },
+   "prompt": "When doing business with people from Arab countries it is wise to avoid",
+   "tags": [
+    "§10.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "touching."
+    },
+    {
+     "id": "b",
+     "text": "sitting or standing close together."
+    },
+    {
+     "id": "c",
+     "text": "discussions about your family or personal life."
+    },
+    {
+     "id": "d",
+     "text": "extended gaze."
+    },
+    {
+     "id": "e",
+     "text": "getting down to business very quickly."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Arab business meetings begin with a rather long period of informal chat, so **getting down to business quickly** is unwise. Arab cultures favour touch, close distance and extended gaze."
+  },
+  {
+   "id": "tb10-q035",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Non-Verbal Across Cultures",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q35"
+   },
+   "prompt": "__________ are one of the few forms of communication that have similar meanings across cultures.",
+   "tags": [
+    "§10.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Social conventions"
+    },
+    {
+     "id": "b",
+     "text": "Greetings"
+    },
+    {
+     "id": "c",
+     "text": "Lubricant expressions"
+    },
+    {
+     "id": "d",
+     "text": "Facial expressions of basic emotions"
+    },
+    {
+     "id": "e",
+     "text": "Physical gestures"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Basic emotions shown in **facial expressions** are decoded accurately across cultures. Gestures carry symbolism that is not shared, and greetings and conventions differ."
+  },
+  {
+   "id": "tb10-q036",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Punctuality Across Cultures",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q36"
+   },
+   "prompt": "Showing up late for a meeting is a sign of success in",
+   "tags": [
+    "§10.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "United States."
+    },
+    {
+     "id": "b",
+     "text": "Japan."
+    },
+    {
+     "id": "c",
+     "text": "Canada."
+    },
+    {
+     "id": "d",
+     "text": "Germany"
+    },
+    {
+     "id": "e",
+     "text": "Brazil."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "One study found that being late connoted success in **Brazil**, while being on time connoted success in the United States. In Japan and North America, punctuality is expected."
+  },
+  {
+   "id": "tb10-q037",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Clothing as Communication",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q37"
+   },
+   "prompt": "Which of the following is true?",
+   "tags": [
+    "§10.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "In Latin America, an extended gaze is considered rude."
+    },
+    {
+     "id": "b",
+     "text": "Interpretation of emotions in basic facial expressions varies widely across cultures."
+    },
+    {
+     "id": "c",
+     "text": "What is considered polite behaviour is similar across cultures."
+    },
+    {
+     "id": "d",
+     "text": "Exit interviews conducted by managers provide a wealth of accurate information."
+    },
+    {
+     "id": "e",
+     "text": "The clothing people wear communicates interpretable messages."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "The **clothing** people wear sends interpretable messages about competence, status and authority. Extended gaze is favoured in Latin America, and basic facial expressions are decoded similarly across cultures."
+  },
+  {
+   "id": "tb10-q038",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Low-Context Negotiation",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 10 · Q38"
+   },
+   "prompt": "You are a member of a Canadian company trying to negotiate with a German firm. Which of the following instructions should you be sure to follow?",
+   "tags": [
+    "§10.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Provide the German firm with short non-detailed contracts."
+    },
+    {
+     "id": "b",
+     "text": "Ensure all members of your team speak privately to you and you convey their message."
+    },
+    {
+     "id": "c",
+     "text": "Keep meetings with the Germans brief and to the point."
+    },
+    {
+     "id": "d",
+     "text": "Provide the Germans with knowledge of yourself and your culture."
+    },
+    {
+     "id": "e",
+     "text": "Use lubricant expressions to soften rejection."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Germany is a **low-context** culture, so messages are interpreted literally and brief, to-the-point meetings suit. Low-context cultures also favour very detailed contracts, and explaining yourself at length is the high-context approach."
+  },
+  {
+   "id": "tb10-q039",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Cultural Context",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q39"
+   },
+   "prompt": "Which area has the highest context culture?",
+   "tags": [
+    "§10.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Australia"
+    },
+    {
+     "id": "b",
+     "text": "Scandinavia"
+    },
+    {
+     "id": "c",
+     "text": "Germany"
+    },
+    {
+     "id": "d",
+     "text": "Latin America"
+    },
+    {
+     "id": "e",
+     "text": "North America"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Latin America is a **high-context** culture, where meaning relies heavily on the surroundings. Australia, Scandinavia, Germany and North America are low-context."
+  },
+  {
+   "id": "tb10-q040",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Cultural Context",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q40"
+   },
+   "prompt": "Which group has the lowest context culture?",
+   "tags": [
+    "§10.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Japanese"
+    },
+    {
+     "id": "b",
+     "text": "Australian"
+    },
+    {
+     "id": "c",
+     "text": "Egyptian"
+    },
+    {
+     "id": "d",
+     "text": "Swiss"
+    },
+    {
+     "id": "e",
+     "text": "Chinese"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "On the context continuum in the chapter, the **Swiss** sit at the lowest-context end, with Germans and Scandinavians next. Japanese, Egyptian (Arab) and Chinese cultures are high-context."
+  },
+  {
+   "id": "tb10-q041",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Non-Verbal Across Cultures",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q41"
+   },
+   "prompt": "Which message translates best across cultures?",
+   "tags": [
+    "§10.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "A lubricant expression"
+    },
+    {
+     "id": "b",
+     "text": "Arriving late for a meeting"
+    },
+    {
+     "id": "c",
+     "text": "A \"thumbs up\" signal"
+    },
+    {
+     "id": "d",
+     "text": "A look of anger"
+    },
+    {
+     "id": "e",
+     "text": "A touch while speaking"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "A look of anger is a **basic facial expression**, which people decode accurately across cultures. Gestures such as thumbs-up, lateness and touch carry different meanings in different cultures."
+  },
+  {
+   "id": "tb10-q042",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Gender Differences",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q42"
+   },
+   "prompt": "Which of the following is not cited as a distinguishing factor in the differences between male and female communication styles?",
+   "tags": [
+    "§10.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Getting credit"
+    },
+    {
+     "id": "b",
+     "text": "Gossiping"
+    },
+    {
+     "id": "c",
+     "text": "Giving compliments"
+    },
+    {
+     "id": "d",
+     "text": "Asking questions"
+    },
+    {
+     "id": "e",
+     "text": "Boasting"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Tannen's list covers getting credit, boasting, asking questions, apologies, feedback, compliments, ritual opposition, managing up and indirectness. **Gossiping** is not on it."
+  },
+  {
+   "id": "tb10-q043",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Active Listening",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q43"
+   },
+   "prompt": "Which of the following is not an appropriate active listening technique?",
+   "tags": [
+    "§10.8"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Responding as soon as possible."
+    },
+    {
+     "id": "b",
+     "text": "Ask questions."
+    },
+    {
+     "id": "c",
+     "text": "Show empathy."
+    },
+    {
+     "id": "d",
+     "text": "Awareness of body language."
+    },
+    {
+     "id": "e",
+     "text": "Paraphrase what the speaker means."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Active listening means watching body language, paraphrasing, showing empathy, asking questions and **waiting out pauses**. Responding right away pressures the speaker and discourages elaboration."
+  },
+  {
+   "id": "tb10-q044",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Information Richness",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q44"
+   },
+   "prompt": "According to the text, which medium can transmit the richest information?",
+   "tags": [
+    "§10.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Face-to-face interaction"
+    },
+    {
+     "id": "b",
+     "text": "Computer"
+    },
+    {
+     "id": "c",
+     "text": "Telephone"
+    },
+    {
+     "id": "d",
+     "text": "Video"
+    },
+    {
+     "id": "e",
+     "text": "Written memos"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "**Face-to-face** interaction is the richest medium: synchronous, with body language, verbal language and immediate feedback. Phone, video and text media are progressively poorer."
+  },
+  {
+   "id": "tb10-q045",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Media Choice",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q45"
+   },
+   "prompt": "Which statement about media choice and communication is true?",
+   "tags": [
+    "§10.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Routine messages require richer media."
+    },
+    {
+     "id": "b",
+     "text": "Nonroutine messages require richer media."
+    },
+    {
+     "id": "c",
+     "text": "Richer media consistently lead to better communication."
+    },
+    {
+     "id": "d",
+     "text": "It is best to always choose the medium that is capable of transmitting the richest information."
+    },
+    {
+     "id": "e",
+     "text": "Richer media lead to lower levels of censorship."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "A good rule is that **less routine** (non-routine) messages need richer media. Routine, impersonal messages can go by report or email, and the richest medium is not always best."
+  },
+  {
+   "id": "tb10-q046",
+   "type": "mc",
+   "unit": 10,
+   "topic": "360-Degree Feedback",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q46"
+   },
+   "prompt": "Which of the following provides information in a 360 degree feedback system?",
+   "tags": [
+    "§10.8"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "employees"
+    },
+    {
+     "id": "b",
+     "text": "peers"
+    },
+    {
+     "id": "c",
+     "text": "clients"
+    },
+    {
+     "id": "d",
+     "text": "superiors"
+    },
+    {
+     "id": "e",
+     "text": "All of the above."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": false,
+   "explanation": "**360-degree feedback** includes ratings from superiors, subordinates, peers and clients or customers, as well as self-ratings. Every source listed contributes."
+  },
+  {
+   "id": "tb10-q047",
+   "type": "mc",
+   "unit": 10,
+   "topic": "360-Degree Feedback",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q47"
+   },
+   "prompt": "The performance appraisal system that has been adopted by several companies to enhance communication is called",
+   "tags": [
+    "§10.8"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "peer review."
+    },
+    {
+     "id": "b",
+     "text": "query system."
+    },
+    {
+     "id": "c",
+     "text": "180 degree feedback."
+    },
+    {
+     "id": "d",
+     "text": "360 degree feedback."
+    },
+    {
+     "id": "e",
+     "text": "employee-manager process review."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Using superiors, self, subordinates, peers and clients as raters is **multisource or 360-degree feedback**. Calling it 180-degree feedback or peer review misses most of the sources."
+  },
+  {
+   "id": "tb10-q048",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Telephone Hotlines",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q48"
+   },
+   "prompt": "An employee hotline generally",
+   "tags": [
+    "§10.8"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "uses the richest communication medium available."
+    },
+    {
+     "id": "b",
+     "text": "replaces the 360 degree feedback system."
+    },
+    {
+     "id": "c",
+     "text": "is a means of downward communication."
+    },
+    {
+     "id": "d",
+     "text": "replaces an employee suggestion system."
+    },
+    {
+     "id": "e",
+     "text": "is a form of nonverbal communication."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Some hotlines use a news format to give company information, which is **downward communication**. Others answer questions or allow anonymous reporting of wrongdoing; they are not nonverbal and do not replace the other systems."
+  },
+  {
+   "id": "tb10-q049",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Information Richness",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q49"
+   },
+   "prompt": "Two important dimensions of information richness are",
+   "tags": [
+    "§10.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "the degree to which information is asynchronous and the extent to which both parties can receive paraverbal cues."
+    },
+    {
+     "id": "b",
+     "text": "the degree to which information is synchronous and the extent to which both parties can receive nonverbal and paraverbal cues."
+    },
+    {
+     "id": "c",
+     "text": "the degree to which information is asynchronous and the extent to which both parties can receive nonverbal and paraverbal cues."
+    },
+    {
+     "id": "d",
+     "text": "the degree to which information is synchronous and the extent to which both parties can receive paraverbal cues."
+    },
+    {
+     "id": "e",
+     "text": "the degree to which information is synchronous and the extent to which both parties can receive nonverbal cues."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": false,
+   "explanation": "The two dimensions of **information richness** are synchronicity (two-way, in real time) and the extent to which both parties get non-verbal and para-verbal cues. Asynchronous media are lower in richness."
+  },
+  {
+   "id": "tb10-q050",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Information Richness",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q50"
+   },
+   "prompt": "Which of the following is an example of high synchronous communication?",
+   "tags": [
+    "§10.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Face-to-face"
+    },
+    {
+     "id": "b",
+     "text": "Memos"
+    },
+    {
+     "id": "c",
+     "text": "Chat"
+    },
+    {
+     "id": "d",
+     "text": "E-mail"
+    },
+    {
+     "id": "e",
+     "text": "Letters"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "A **face-to-face** conversation is highly synchronous, with immediate feedback. Memos, letters and email are essentially one-way messages with delayed response."
+  },
+  {
+   "id": "tb10-q051",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Information Richness",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q51"
+   },
+   "prompt": "Which of the following are high on nonverbal and paraverbal cues?",
+   "tags": [
+    "§10.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Face-to-face interaction and videoconferencing"
+    },
+    {
+     "id": "b",
+     "text": "Letters and memos"
+    },
+    {
+     "id": "c",
+     "text": "Face-to-face interaction and email"
+    },
+    {
+     "id": "d",
+     "text": "Computer-mediated groups and face-to-face interactions"
+    },
+    {
+     "id": "e",
+     "text": "Face-to-face interaction and memos"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Face-to-face interaction and videoconferencing carry **non-verbal and para-verbal cues**. Memos, letters and email lack those cues."
+  },
+  {
+   "id": "tb10-q052",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Information Richness",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q52"
+   },
+   "prompt": "The most information rich media are",
+   "tags": [
+    "§10.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "highly asynchronous and high in nonverbal and paraverbal cues."
+    },
+    {
+     "id": "b",
+     "text": "highly asynchronous and high in paraverbal cues."
+    },
+    {
+     "id": "c",
+     "text": "highly synchronous and high in paraverbal cues."
+    },
+    {
+     "id": "d",
+     "text": "highly synchronous and high in nonverbal cues."
+    },
+    {
+     "id": "e",
+     "text": "highly synchronous and high in nonverbal and paraverbal cues."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "The richest media are highly **synchronous** and carry both non-verbal and para-verbal cues. A medium with only one of those features is less rich."
+  },
+  {
+   "id": "tb10-q053",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Computer-Mediated Groups",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q53"
+   },
+   "prompt": "Computer-mediated groups have been found to",
+   "tags": [
+    "§10.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "enhance the speed with which ideas are generated."
+    },
+    {
+     "id": "b",
+     "text": "enhance the richness of communication."
+    },
+    {
+     "id": "c",
+     "text": "enhance the quality of ideas generated."
+    },
+    {
+     "id": "d",
+     "text": "enhance the number of ideas generated."
+    },
+    {
+     "id": "e",
+     "text": "enhance the number and quality of ideas generated."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Chat-type systems enhance the **number of ideas** generated, partly because people can \"talk\" at the same time. The text does not say they improve idea quality or richness."
+  },
+  {
+   "id": "tb10-q054",
+   "type": "mc",
+   "unit": 10,
+   "topic": "360-Degree Feedback",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q54"
+   },
+   "prompt": "Traditionally, employee performance appraisal has been viewed as an exercise in",
+   "tags": [
+    "§10.8"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "upward communication"
+    },
+    {
+     "id": "b",
+     "text": "ineffective communication"
+    },
+    {
+     "id": "c",
+     "text": "downward communication"
+    },
+    {
+     "id": "d",
+     "text": "horizontal communication"
+    },
+    {
+     "id": "e",
+     "text": "informal communication"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Traditionally, performance appraisal was **downward communication**, with the boss telling employees how they are doing. It is more recently two-way and multisource."
+  },
+  {
+   "id": "tb10-q055",
+   "type": "mc",
+   "unit": 10,
+   "topic": "360-Degree Feedback",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q55"
+   },
+   "prompt": "360-degree feedback is also known as",
+   "tags": [
+    "§10.8"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "multiple feedback"
+    },
+    {
+     "id": "b",
+     "text": "full circle feedback"
+    },
+    {
+     "id": "c",
+     "text": "multisource feedback"
+    },
+    {
+     "id": "d",
+     "text": "circular feedback"
+    },
+    {
+     "id": "e",
+     "text": "multipurpose feedback"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "**360-degree feedback** is also called multisource feedback, because it uses several sources of rating. The other names are not used in the chapter."
+  },
+  {
+   "id": "tb10-q056",
+   "type": "mc",
+   "unit": 10,
+   "topic": "360-Degree Feedback",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q56"
+   },
+   "prompt": "What do these organizations have in common: Honeywell, Sprint, and Burger King",
+   "tags": [
+    "§10.8",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "TV networks"
+    },
+    {
+     "id": "b",
+     "text": "suggestion systems"
+    },
+    {
+     "id": "c",
+     "text": "employee surveys and survey feedback"
+    },
+    {
+     "id": "d",
+     "text": "360-degree feedback"
+    },
+    {
+     "id": "e",
+     "text": "telephone hotlines"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "The 12th-edition chapter names Air Canada and Bell Canada as users of 360-degree feedback, not Honeywell, Sprint and Burger King.",
+   "scopeNote": "Written for an older edition: Not covered in the 12th edition: the example companies were changed, and these three firms are no longer mentioned."
+  },
+  {
+   "id": "tb10-q057",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Grapevine",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q57"
+   },
+   "prompt": "What does the following refer to: More \"know\" than \"tell\"?",
+   "tags": [
+    "§10.3",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "jargon"
+    },
+    {
+     "id": "b",
+     "text": "the mum effect"
+    },
+    {
+     "id": "c",
+     "text": "congruence"
+    },
+    {
+     "id": "d",
+     "text": "the grapevine"
+    },
+    {
+     "id": "e",
+     "text": "filtering"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "The 12th-edition chapter does not use this \"more know than tell\" characterization of the grapevine.",
+   "scopeNote": "Written for an older edition: Not covered in the 12th edition: the chapter no longer uses this phrase for the grapevine."
+  },
+  {
+   "id": "tb10-q058",
+   "type": "mc",
+   "unit": 10,
+   "topic": "360-Degree Feedback",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q58"
+   },
+   "prompt": "360-degree feedback systems usually focus on",
+   "tags": [
+    "§10.8"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "behavioural competencies"
+    },
+    {
+     "id": "b",
+     "text": "bottom-line performance"
+    },
+    {
+     "id": "c",
+     "text": "individual performance"
+    },
+    {
+     "id": "d",
+     "text": "group performance"
+    },
+    {
+     "id": "e",
+     "text": "all aspects of performance"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The 360-degree system usually focuses on required **behavioural competencies** rather than bottom-line performance. It is usually used for employee development."
+  },
+  {
+   "id": "tb10-q059",
+   "type": "mc",
+   "unit": 10,
+   "topic": "360-Degree Feedback",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q59"
+   },
+   "prompt": "360-degree feedback is usually used for",
+   "tags": [
+    "§10.8"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "salary determination"
+    },
+    {
+     "id": "b",
+     "text": "employee development and salary determination"
+    },
+    {
+     "id": "c",
+     "text": "employee development"
+    },
+    {
+     "id": "d",
+     "text": "employee development and advancement potential"
+    },
+    {
+     "id": "e",
+     "text": "advancement potential"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "**360-degree feedback** is usually used for employee development, not salary determination. Several sources may contradict one another, so ratees may need help in combining them."
+  },
+  {
+   "id": "tb10-q060",
+   "type": "mc",
+   "unit": 10,
+   "topic": "360-Degree Feedback",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 10 · Q60"
+   },
+   "prompt": "After six months on your new job, you were expecting your boss to provide you with a review of your performance. However, to your surprise your coworkers and clients are also providing information on your performance. What is this an example of?",
+   "tags": [
+    "§10.8"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "congruence"
+    },
+    {
+     "id": "b",
+     "text": "open door policy"
+    },
+    {
+     "id": "c",
+     "text": "information richness"
+    },
+    {
+     "id": "d",
+     "text": "360-degree feedback"
+    },
+    {
+     "id": "e",
+     "text": "grapevine"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Ratings from coworkers and clients as well as the boss make up **360-degree (multisource) feedback**. An open door policy or the grapevine does not formally collect performance ratings."
+  },
+  {
+   "id": "tb10-q061",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Upward Feedback",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q61"
+   },
+   "prompt": "Research on upward feedback found that managers who were initially rated as poor or moderate showed significant improvements in feedback ratings especially when",
+   "tags": [
+    "§10.8",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "managers met with their bosses to discuss the feedback"
+    },
+    {
+     "id": "b",
+     "text": "managers met with their clients to discuss the feedback"
+    },
+    {
+     "id": "c",
+     "text": "managers met with their peers to discuss the feedback"
+    },
+    {
+     "id": "d",
+     "text": "managers met with their employees to discuss the feedback"
+    },
+    {
+     "id": "e",
+     "text": "managers met with the CEO to discuss the feedback"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "The 12th-edition chapter no longer cites this study of upward feedback and manager improvement.",
+   "scopeNote": "Written for an older edition: Not covered in the 12th edition: the upward-feedback study is no longer in the chapter."
+  },
+  {
+   "id": "tb10-q062",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Query Systems",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q62"
+   },
+   "prompt": "When are query systems most effective?",
+   "tags": [
+    "§10.8",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "when verbal and nonverbal communication is used to disseminate the questions and answers"
+    },
+    {
+     "id": "b",
+     "text": "when nonverbal communication is used to disseminate the questions and answers"
+    },
+    {
+     "id": "c",
+     "text": "when the questions and answers are widely disseminated"
+    },
+    {
+     "id": "d",
+     "text": "when verbal communication is used to disseminate the questions and answers"
+    },
+    {
+     "id": "e",
+     "text": "when they are used with a suggestion system"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "The 12th-edition chapter mentions query systems only as a type of telephone hotline and does not discuss when they are most effective.",
+   "scopeNote": "Written for an older edition: Not covered in the 12th edition: the chapter no longer discusses what makes query systems effective."
+  },
+  {
+   "id": "tb10-q063",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Query Systems",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 10 · Q63"
+   },
+   "prompt": "Jake has described something to you that you have never heard about. All employees in his organization are allowed to ask management questions about the organization that are then answered for them and printed in the company newsletter. What is this called?",
+   "tags": [
+    "§10.8"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "employee survey and survey feedback"
+    },
+    {
+     "id": "b",
+     "text": "query system"
+    },
+    {
+     "id": "c",
+     "text": "suggestion system"
+    },
+    {
+     "id": "d",
+     "text": "360-degree feedback"
+    },
+    {
+     "id": "e",
+     "text": "open door policy"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "A **query system** lets employees ask questions and get answers, here through the newsletter. A suggestion system collects ideas for improvement, and a survey collects attitudes."
+  },
+  {
+   "id": "tb10-q064",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Employee Communication Programs",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q64"
+   },
+   "prompt": "What do these companies have in common: IBM, Federal Express, and J.C. Penny?",
+   "tags": [
+    "§10.8",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "TV networks"
+    },
+    {
+     "id": "b",
+     "text": "query systems"
+    },
+    {
+     "id": "c",
+     "text": "employee surveys and survey feedback"
+    },
+    {
+     "id": "d",
+     "text": "suggestion systems"
+    },
+    {
+     "id": "e",
+     "text": "telephone hotlines"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The 12th-edition chapter does not mention these companies in this context.",
+   "scopeNote": "Written for an older edition: Not covered in the 12th edition: the chapter no longer mentions IBM, Federal Express or J.C. Penney."
+  },
+  {
+   "id": "tb10-q065",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Office Decor",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q65"
+   },
+   "prompt": "What did middle managers working in the California information technology sector use to \"profile\" the identity and status of office occupants?",
+   "tags": [
+    "§10.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "office decor"
+    },
+    {
+     "id": "b",
+     "text": "Intranets"
+    },
+    {
+     "id": "c",
+     "text": "computer-mediated communication"
+    },
+    {
+     "id": "d",
+     "text": "TV networks"
+    },
+    {
+     "id": "e",
+     "text": "clothing"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Elsbach found that middle managers in the California IT sector used **office decor** to profile the identity and status of occupants."
+  },
+  {
+   "id": "tb10-q066",
+   "type": "mc",
+   "unit": 10,
+   "topic": "CMC Limitations",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q66"
+   },
+   "prompt": "People strongly overestimate their skill in both communicating and interpreting sarcasm, humour, and emotions via",
+   "tags": [
+    "§10.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "teleconference"
+    },
+    {
+     "id": "b",
+     "text": "e-mail"
+    },
+    {
+     "id": "c",
+     "text": "videoconference"
+    },
+    {
+     "id": "d",
+     "text": "face-to-face"
+    },
+    {
+     "id": "e",
+     "text": "chat formats"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "People strongly overestimate their skill in communicating and interpreting sarcasm, humour and emotions by **email**, which is egocentric and low in synchronicity. Email is more prone to miscommunication than chat."
+  },
+  {
+   "id": "tb10-q067",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Filtering",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q67"
+   },
+   "prompt": "Filtering is the tendency for a message to be watered down or stopped altogether at some point during transmission.",
+   "tags": [
+    "§10.1"
+   ],
+   "answer": true,
+   "explanation": "**Filtering** is the tendency for a message to be watered down or stopped altogether during transmission, so the statement is true."
+  },
+  {
+   "id": "tb10-q068",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Mum Effect",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q68"
+   },
+   "prompt": "The mum effect is even more likely when the sender is responsible for bad news.",
+   "tags": [
+    "§10.2"
+   ],
+   "answer": true,
+   "explanation": "The **mum effect** occurs even when the sender is not responsible for the bad news, but it is even more likely when the sender is responsible."
+  },
+  {
+   "id": "tb10-q069",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Chain of Command Limits",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q69"
+   },
+   "prompt": "The chain of command is the fastest communication system.",
+   "tags": [
+    "§10.1"
+   ],
+   "answer": false,
+   "explanation": "The chain of command is **slow**, particularly between departments, and it ignores informal channels. The grapevine and cross-functional teams short-circuit it."
+  },
+  {
+   "id": "tb10-q070",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Mum Effect",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q70"
+   },
+   "prompt": "The tendency to avoid communicating unfavourable news to others is called nonverbal communication.",
+   "tags": [
+    "§10.2"
+   ],
+   "answer": false,
+   "explanation": "False: the tendency to avoid communicating unfavourable news is the **mum effect**. Non-verbal communication is the transmission of messages by a medium other than speech or writing."
+  },
+  {
+   "id": "tb10-q071",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Grapevine",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q71"
+   },
+   "prompt": "The grapevine can transmit information relevant to the performance of an organization as well as personal gossip.",
+   "tags": [
+    "§10.3"
+   ],
+   "answer": true,
+   "explanation": "The **grapevine** can carry information relevant to organizational performance as well as personal gossip, and the two are often hard to tell apart."
+  },
+  {
+   "id": "tb10-q072",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Jargon vs. Rumour",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q72"
+   },
+   "prompt": "Jargon is an unverified belief that is in general circulation.",
+   "tags": [
+    "§10.4"
+   ],
+   "answer": false,
+   "explanation": "False: an unverified belief in general circulation is a **rumour**. Jargon is specialized language used by members of a job, occupation or organization."
+  },
+  {
+   "id": "tb10-q073",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Body Language and Status",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q73"
+   },
+   "prompt": "The smaller the difference in physical relaxation between two parties, the more they communicate a status differential to each other.",
+   "tags": [
+    "§10.4"
+   ],
+   "answer": false,
+   "explanation": "False: the **greater** the difference in relaxation between two parties, the more they communicate a status differential. Higher-status senders act more relaxed."
+  },
+  {
+   "id": "tb10-q074",
+   "type": "tf",
+   "unit": 10,
+   "topic": "360-Degree Feedback",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q74"
+   },
+   "prompt": "A performance appraisal system that has been adopted by several companies to enhance communication is called 360 degree feedback.",
+   "tags": [
+    "§10.8"
+   ],
+   "answer": true,
+   "explanation": "**360-degree feedback** is a performance appraisal approach that draws on superiors, subordinates, peers and clients, and it is used by firms such as Air Canada and Bell Canada."
+  },
+  {
+   "id": "tb10-q075",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Principles of Communication",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q75"
+   },
+   "prompt": "Feedback is not a basic principle of effective communication.",
+   "tags": [
+    "§10.8"
+   ],
+   "answer": false,
+   "explanation": "False: giving timely and specific **feedback** is one of the basic principles of effective communication. Speed maximizes reinforcement and explicitness maximizes usefulness."
+  },
+  {
+   "id": "tb10-q076",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Telephone Hotlines",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q76"
+   },
+   "prompt": "Telephone hotlines are developed to improve horizontal communication.",
+   "tags": [
+    "§10.8"
+   ],
+   "answer": false,
+   "explanation": "False: hotlines deliver company news downward, answer employee questions, or allow reporting of unethical or illegal behaviour. They are not designed for **horizontal** communication."
+  },
+  {
+   "id": "tb10-q077",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Mum Effect and Filtering",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q77"
+   },
+   "prompt": "The mum effect is an example of filtering.",
+   "tags": [
+    "§10.2"
+   ],
+   "answer": true,
+   "explanation": "The **mum effect** is a form of filtering, because unfavourable news is withheld or stopped before it reaches the intended receiver."
+  },
+  {
+   "id": "tb10-q078",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Grapevine",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q78"
+   },
+   "prompt": "Due to their similar appearance, the grapevine is an informal term for the chain of command.",
+   "tags": [
+    "§10.3"
+   ],
+   "answer": false,
+   "explanation": "False: the **grapevine** is the informal communication network that often cuts across the formal lines of communication, while the chain of command is the formal reporting structure."
+  },
+  {
+   "id": "tb10-q079",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Open Door Policy",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q79"
+   },
+   "prompt": "An open door policy means that the manager with the open door initiates a high degree of communication.",
+   "tags": [
+    "§10.1",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "The 12th-edition chapter does not discuss open door policies, so this item is not supported by the current text.",
+   "scopeNote": "Written for an older edition: Not covered in the 12th edition: the chapter no longer mentions open door policies."
+  },
+  {
+   "id": "tb10-q080",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Chain of Command Limits",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q80"
+   },
+   "prompt": "The chain of command is fastest for communication between departments.",
+   "tags": [
+    "§10.1"
+   ],
+   "answer": false,
+   "explanation": "False: the chain of command is **slowest** for horizontal communication between departments, because messages must go up to a common manager and back down."
+  },
+  {
+   "id": "tb10-q081",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Grapevine Spread",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q81"
+   },
+   "prompt": "Most people who receive grapevine information pass it on.",
+   "tags": [
+    "§10.3",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "The 12th-edition chapter does not say what proportion of grapevine recipients pass information on.",
+   "scopeNote": "Written for an older edition: Not covered in the 12th edition: the chapter no longer describes how many recipients pass grapevine information along."
+  },
+  {
+   "id": "tb10-q082",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Active Listening",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q82"
+   },
+   "prompt": "When listening to another person, good communication techniques recommend expressing your opinion as soon as possible.",
+   "tags": [
+    "§10.8"
+   ],
+   "answer": false,
+   "explanation": "False: good **active listening** means asking questions, paraphrasing, showing empathy and waiting out pauses, not rushing in with your own opinion."
+  },
+  {
+   "id": "tb10-q083",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Non-Verbal Across Cultures",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q83"
+   },
+   "prompt": "People are good at interpreting simple, basic emotions in facial expressions, even when the target person is from another culture.",
+   "tags": [
+    "§10.6"
+   ],
+   "answer": true,
+   "explanation": "People are very good at decoding basic, simple emotions in **facial expressions**, even across cultures. Anger, surprise, fear and sadness are recognized by Americans, Japanese and New Guineans alike."
+  },
+  {
+   "id": "tb10-q084",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Non-Verbal Across Cultures",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q84"
+   },
+   "prompt": "Physical gestures are one of the few means of communication that have similar meanings across cultures.",
+   "tags": [
+    "§10.6"
+   ],
+   "answer": false,
+   "explanation": "False: except for literal mimicry, **gestures** do not translate well across cultures, because they rely on unshared symbolism. Basic facial expressions of emotion are the exception."
+  },
+  {
+   "id": "tb10-q085",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Gender Differences",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q85"
+   },
+   "prompt": "Gender differences in communication develop during adulthood.",
+   "tags": [
+    "§10.5"
+   ],
+   "answer": false,
+   "explanation": "False: gender differences in communication styles have their origin in **childhood** and persist in the workplace. Girls tend to build connection, and boys status and independence."
+  },
+  {
+   "id": "tb10-q086",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Gender Differences",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q86"
+   },
+   "prompt": "Men are more likely to blow their horn about something good they have done.",
+   "tags": [
+    "§10.5"
+   ],
+   "answer": true,
+   "explanation": "Per Tannen, men are more likely than women to **blow their own horn** about something good they have done, so men are more likely to get credit."
+  },
+  {
+   "id": "tb10-q087",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Jargon",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q87"
+   },
+   "prompt": "Jargon can both facilitate and damage the effectiveness of communication.",
+   "tags": [
+    "§10.4"
+   ],
+   "answer": true,
+   "explanation": "**Jargon** is efficient among peers and confers status, but it can be a barrier for outsiders and newcomers. It both facilitates and damages communication."
+  },
+  {
+   "id": "tb10-q088",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Verbal vs. Non-Verbal",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q88"
+   },
+   "prompt": "Writing is classified as verbal communication rather than nonverbal communication.",
+   "tags": [
+    "§10.4"
+   ],
+   "answer": true,
+   "explanation": "**Non-verbal** communication is the transmission of messages by some medium other than speech or writing, so writing counts as verbal."
+  },
+  {
+   "id": "tb10-q089",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Clothing as Communication",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q89"
+   },
+   "prompt": "Research shows that the clothing people wear communicates messages to others.",
+   "tags": [
+    "§10.4"
+   ],
+   "answer": true,
+   "explanation": "Clothing sends signals about competence, seriousness and status, because receivers attach stereotyped meanings to it. Thus **clothing** communicates messages to others."
+  },
+  {
+   "id": "tb10-q090",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Non-Verbal Across Cultures",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q90"
+   },
+   "prompt": "While Europeans favour an extended gaze, most Latin Americans avoid this form of communication.",
+   "tags": [
+    "§10.6"
+   ],
+   "answer": false,
+   "explanation": "False: Latin Americans and Arabs favour an extended **gaze**, while Europeans do not. The statement reverses this."
+  },
+  {
+   "id": "tb10-q091",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Non-Verbal Across Cultures",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q91"
+   },
+   "prompt": "As a form of communication, Arabs are more likely than Canadians to favour touch.",
+   "tags": [
+    "§10.6"
+   ],
+   "answer": true,
+   "explanation": "Touching as an adjunct to conversation is common in Arab, Latin American and Southern European countries, while North Americans prefer to keep their distance. So **touch** is favoured more by Arabs than Canadians."
+  },
+  {
+   "id": "tb10-q092",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Media Choice",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q92"
+   },
+   "prompt": "One should consistently try to use the communication medium that is richest in information.",
+   "tags": [
+    "§10.7"
+   ],
+   "answer": false,
+   "explanation": "False: the richest medium is not always best. Routine, impersonal messages can use leaner media, and **richer** media are saved for non-routine, emotional or controversial messages."
+  },
+  {
+   "id": "tb10-q093",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Media Choice",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q93"
+   },
+   "prompt": "As the routineness of the message to be sent increases, a richer communication medium should be chosen.",
+   "tags": [
+    "§10.7"
+   ],
+   "answer": false,
+   "explanation": "False: as messages become more routine, **leaner** media are fine. It is non-routine messages that call for richer media."
+  },
+  {
+   "id": "tb10-q094",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Non-Verbal Across Cultures",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q94"
+   },
+   "prompt": "While Arabs favour an extended gaze, most Europeans avoid this form of communication.",
+   "tags": [
+    "§10.6"
+   ],
+   "answer": true,
+   "explanation": "Arabs and Latin Americans favour an extended **gaze**, while Europeans do not. In many parts of East Asia, avoiding eye contact shows respect."
+  },
+  {
+   "id": "tb10-q095",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Punctuality Across Cultures",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q95"
+   },
+   "prompt": "In Brazil, being late to a meeting is considered the sign of a successful person.",
+   "tags": [
+    "§10.6"
+   ],
+   "answer": true,
+   "explanation": "One study found that being late connoted success in **Brazil**, while being on time connoted success in the United States."
+  },
+  {
+   "id": "tb10-q096",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Lubricant Expressions",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q96"
+   },
+   "prompt": "The Japanese have various set phrases for expressing sympathy, rejection, or apology that are designed to maintain harmony. These phrases are called \"lubricant expressions.\"",
+   "tags": [
+    "§10.6"
+   ],
+   "answer": true,
+   "explanation": "The Japanese use many set phrases called **lubricant expressions** to express sympathy, soften rejection, say no indirectly or facilitate apology, to maintain harmony."
+  },
+  {
+   "id": "tb10-q097",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Computer-Mediated Groups",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q97"
+   },
+   "prompt": "Computer-mediated groups enhance the quality of ideas generated.",
+   "tags": [
+    "§10.7"
+   ],
+   "answer": false,
+   "explanation": "False: computer-mediated groups enhance the **number** of ideas generated, not their quality. Anonymity and simultaneous \"talking\" help volume."
+  },
+  {
+   "id": "tb10-q098",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Computer-Mediated Groups",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q98",
+    "note": "Clarified to the 12th edition: the weaker performance is for single-session groups, which improve with repeated sessions."
+   },
+   "prompt": "In a single meeting, computer-mediated groups that must make a decision perform more poorly than face-to-face groups.",
+   "tags": [
+    "§10.7"
+   ],
+   "answer": true,
+   "explanation": "In a single session, computer-mediated groups take more time, make less effective decisions and have less satisfied members than face-to-face groups. Over repeated sessions, they gradually develop more **trust** and cooperation."
+  },
+  {
+   "id": "tb10-q099",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Information Richness",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 10 · Q99"
+   },
+   "prompt": "Face-to-face communication is an example of highly synchronous communication.",
+   "tags": [
+    "§10.7"
+   ],
+   "answer": true,
+   "explanation": "**Face-to-face** communication is highly synchronous, because the sender is present, the channels operate in real time and feedback is immediate."
+  },
+  {
+   "id": "tb10-q100",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Computer-Mediated Groups",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q100"
+   },
+   "prompt": "In an electronic meeting, men are more likely to offer the first idea.",
+   "tags": [
+    "§10.7"
+   ],
+   "answer": false,
+   "explanation": "False: in a face-to-face meeting men were five times more likely to offer the first idea, but in an electronic meeting men and women were **equally likely** to do so, because anonymity erases status differences."
+  },
+  {
+   "id": "tb10-q101",
+   "type": "tf",
+   "unit": 10,
+   "topic": "360-Degree Feedback",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q101"
+   },
+   "prompt": "When supervisors receive performance ratings from multiple employees, it is called multisource feedback.",
+   "tags": [
+    "§10.8"
+   ],
+   "answer": false,
+   "explanation": "False: **multisource (360-degree) feedback** draws on superiors, self, subordinates, peers and clients or customers, not just ratings from the supervisor's employees."
+  },
+  {
+   "id": "tb10-q102",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Upward Feedback",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q102"
+   },
+   "prompt": "Research on upward feedback found that managers who were initially rated as poor or moderate showed significant improvements in feedback ratings especially when they met with their clients to discuss the feedback.",
+   "tags": [
+    "§10.8",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "The 12th-edition chapter no longer cites this study of upward feedback and manager improvement.",
+   "scopeNote": "Written for an older edition: Not covered in the 12th edition: the upward-feedback study is no longer in the chapter."
+  },
+  {
+   "id": "tb10-q103",
+   "type": "tf",
+   "unit": 10,
+   "topic": "Suggestion Systems",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q103"
+   },
+   "prompt": "Suggestion systems are designed to enhance upward and downward communication.",
+   "tags": [
+    "§10.8"
+   ],
+   "answer": false,
+   "explanation": "False: **suggestion systems** are designed to enhance upward communication by soliciting ideas. Downward communication improves only as a by-product, when adopted suggestions are publicized."
+  },
+  {
+   "id": "tb10-q104",
+   "type": "tf",
+   "unit": 10,
+   "topic": "CMC Limitations",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q104"
+   },
+   "prompt": "E-mail is less prone to miscommunication than chat formats.",
+   "tags": [
+    "§10.7"
+   ],
+   "answer": false,
+   "explanation": "False: **email** is even more prone to miscommunication than chat formats and texting, because it is less synchronous."
+  },
+  {
+   "id": "tb10-q105",
+   "type": "tf",
+   "unit": 10,
+   "topic": "CMC and Gender",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 10 · Q105"
+   },
+   "prompt": "People are not very accurate in deducing whether a message has been sent by a man or a woman.",
+   "tags": [
+    "§10.7"
+   ],
+   "answer": false,
+   "explanation": "False: despite anonymity, people still show some degree of **accuracy** in deducing whether a text-based message was sent by a man or a woman."
+  }
+ ]
+}

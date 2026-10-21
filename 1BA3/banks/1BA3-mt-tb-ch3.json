@@ -1,0 +1,3218 @@
+{
+ "schema": "practice-bank/v1",
+ "id": "1BA3-mt-tb-ch3",
+ "course": "COMM 1BA3",
+ "title": "Test Bank · Ch. 3",
+ "description": "Johns & Saks chapter test bank, Ch. 3 (Perception, Attribution & Diversity): multiple-choice and true/false items, each key re-checked against the 12th-edition text.",
+ "defaultSource": {
+  "label": "Textbook Test Bank",
+  "kind": "textbook"
+ },
+ "defaultUnit": 3,
+ "scenarios": {},
+ "questions": [
+  {
+   "id": "tb3-q001",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Defining Perception",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q1"
+   },
+   "prompt": "Which of the following statements most accurately defines \"perception\"?",
+   "tags": [
+    "§3.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Perception is the tendency to generalize about people and ignore variations between individuals."
+    },
+    {
+     "id": "b",
+     "text": "Perception is reality."
+    },
+    {
+     "id": "c",
+     "text": "Perception is the process by which motives are assigned to explain people's behaviour."
+    },
+    {
+     "id": "d",
+     "text": "Perception is the tendency to attribute one's own thoughts and feelings to others."
+    },
+    {
+     "id": "e",
+     "text": "Perception is the process of interpreting messages of our senses to provide meaning."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "**Perception** is the process of interpreting the messages of our senses to provide order and meaning to the environment. The key word is *interpreting*; the other definitions describe stereotyping, attribution and projection."
+  },
+  {
+   "id": "tb3-q002",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Components of Perception",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q2"
+   },
+   "prompt": "The three main components of perception are",
+   "tags": [
+    "§3.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "perceiver, target, and attribution."
+    },
+    {
+     "id": "b",
+     "text": "primacy, recency, and projection."
+    },
+    {
+     "id": "c",
+     "text": "selectivity, constancy, and primacy."
+    },
+    {
+     "id": "d",
+     "text": "perceiver, situation, and projection."
+    },
+    {
+     "id": "e",
+     "text": "perceiver, situation, and target."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Perception has three components: a **perceiver**, a **target**, and the **situation** in which perceiving occurs. Attribution and projection are things perceivers do, not components."
+  },
+  {
+   "id": "tb3-q003",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Perceptual Defence",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q3"
+   },
+   "prompt": "Perceptual defence is",
+   "tags": [
+    "§3.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "the tendency to attribute one's own thoughts and feelings to others."
+    },
+    {
+     "id": "b",
+     "text": "the process of interpreting messages of our senses to provide meaning."
+    },
+    {
+     "id": "c",
+     "text": "the tendency to generalize about people and ignore variations between individuals."
+    },
+    {
+     "id": "d",
+     "text": "the process by which motives are assigned to explain people's behaviour."
+    },
+    {
+     "id": "e",
+     "text": "the tendency for the perceptual system to defend the perceiver against unpleasant emotions."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "**Perceptual defence** is the tendency of the perceptual system to defend the perceiver against unpleasant emotions, so we \"see what we want to see\". Projecting your own feelings onto others is a different tendency."
+  },
+  {
+   "id": "tb3-q004",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Projection",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q4"
+   },
+   "prompt": "Which of the following statements may indicate projection by the speaker?",
+   "tags": [
+    "§3.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "\"I didn't land the contract because the competition was just too good.\""
+    },
+    {
+     "id": "b",
+     "text": "\"I would never assign a woman to that sales territory.\""
+    },
+    {
+     "id": "c",
+     "text": "\"I don't steal from the company but I'm sure that others do.\""
+    },
+    {
+     "id": "d",
+     "text": "\"Telling a white lie to clinch a sale is perfectly ethical.\""
+    },
+    {
+     "id": "e",
+     "text": "\"Most of my sales staff think like I think.\""
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "**Projection** is assuming others think and feel as you do, so \"most of my staff think like I think\" fits. Saying others steal while you do not is the opposite assumption, and a blanket rule about women is a stereotype."
+  },
+  {
+   "id": "tb3-q005",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Implicit Personality Theories",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q5"
+   },
+   "prompt": "Which of the following statements is indicative of an implicit personality theory on the part of the speaker?",
+   "tags": [
+    "§3.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "\"Introverts are honest.\""
+    },
+    {
+     "id": "b",
+     "text": "\"Roger is aggressive.\""
+    },
+    {
+     "id": "c",
+     "text": "\"Teenagers drive more recklessly than seniors.\""
+    },
+    {
+     "id": "d",
+     "text": "\"Women make bad managers.\""
+    },
+    {
+     "id": "e",
+     "text": "\"Accountants are intelligent.\""
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "An **implicit personality theory** is a personal theory about which personality characteristics go together, such as \"introverts are honest\". Statements about a whole social group (women, teenagers, accountants) are stereotypes instead."
+  },
+  {
+   "id": "tb3-q006",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Central Traits",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q6"
+   },
+   "prompt": "My perceptions of people are strongly influenced by how kind they are to others. Which concept explains my reaction?",
+   "tags": [
+    "§3.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Central tendency"
+    },
+    {
+     "id": "b",
+     "text": "Projection"
+    },
+    {
+     "id": "c",
+     "text": "Similar-to-me effect"
+    },
+    {
+     "id": "d",
+     "text": "Primacy effect"
+    },
+    {
+     "id": "e",
+     "text": "Central trait"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "A **central trait** is a characteristic of special interest to the perceiver that organizes the whole impression, such as kindness here. Projection and primacy do not describe one trait colouring everything else."
+  },
+  {
+   "id": "tb3-q007",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Projection",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q7"
+   },
+   "prompt": "\"You're just like me. I despise you.\" Which perceptual tendency might the speaker be revealing?",
+   "tags": [
+    "§3.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Actor-observer effect"
+    },
+    {
+     "id": "b",
+     "text": "Central Trait"
+    },
+    {
+     "id": "c",
+     "text": "Self-serving bias"
+    },
+    {
+     "id": "d",
+     "text": "Projection"
+    },
+    {
+     "id": "e",
+     "text": "Similar-to-me effect"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "**Projection** assumes the other person is like you. The similar-to-me effect makes raters *favour* people like themselves, so it cannot fit a speaker who despises the other person."
+  },
+  {
+   "id": "tb3-q008",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Bruner's Perceptual Model",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q8"
+   },
+   "prompt": "According to Bruner's model of the perceptual process, when an unfamiliar target is encountered, we are likely to be __________ to target cues. Once the target has been categorized, however, we become __________ selective in our cue search.",
+   "tags": [
+    "§3.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "open; less"
+    },
+    {
+     "id": "b",
+     "text": "selective; consistent"
+    },
+    {
+     "id": "c",
+     "text": "closed; less"
+    },
+    {
+     "id": "d",
+     "text": "closed; more"
+    },
+    {
+     "id": "e",
+     "text": "open; more"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "In **Bruner's model** we are very open to cues from an unfamiliar target. Once it is categorized, the cue search becomes *more* selective and we look for cues that confirm the category."
+  },
+  {
+   "id": "tb3-q009",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Projection",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q9"
+   },
+   "prompt": "The chairperson opened the meeting by saying \"I'm sure you all agree with me that . . .\" What perceptual phenomenon might the speaker be exhibiting?",
+   "tags": [
+    "§3.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Similar-to-me effect"
+    },
+    {
+     "id": "b",
+     "text": "Projection"
+    },
+    {
+     "id": "c",
+     "text": "Implicit personality theory"
+    },
+    {
+     "id": "d",
+     "text": "Stereotyping"
+    },
+    {
+     "id": "e",
+     "text": "Fundamental attribution error"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "**Projection** is assuming others feel as you do, as when the chairperson assumes everyone agrees. It is not stereotyping, because no social category is involved."
+  },
+  {
+   "id": "tb3-q010",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Stereotyping",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q10"
+   },
+   "prompt": "Knowing that a person falls into some social category, we might assume that he or she possesses certain traits, and that everyone in this category possesses these traits. This is an example of",
+   "tags": [
+    "§3.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "a situational attribution."
+    },
+    {
+     "id": "b",
+     "text": "a stereotype."
+    },
+    {
+     "id": "c",
+     "text": "projection."
+    },
+    {
+     "id": "d",
+     "text": "reliance on central traits."
+    },
+    {
+     "id": "e",
+     "text": "consensus cues."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "A **stereotype** assumes people in a social category share certain traits and that everyone in the category has them. Projection assumes others are like *you*, not like a category."
+  },
+  {
+   "id": "tb3-q011",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Consistency Cues",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 3 · Q11"
+   },
+   "prompt": "Driving home from an auto repair shop, you find that the repair you just paid for wasn't done properly. Which of the following would increase your tendency to blame the mechanic's error on dispositional factors?",
+   "tags": [
+    "§3.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "This mechanic has done poor repairs on your car twice before."
+    },
+    {
+     "id": "b",
+     "text": "Several friends told you that this mechanic was excellent."
+    },
+    {
+     "id": "c",
+     "text": "When you picked up the car, the shop manager said that the mechanic had gone home early because he was injured on the job."
+    },
+    {
+     "id": "d",
+     "text": "You had authorized the mechanic to use reconditioned parts instead of new ones."
+    },
+    {
+     "id": "e",
+     "text": "You have never had a car repair done right the first time by any mechanic."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Repeated poor repairs by this mechanic are **high consistency**, which points to a dispositional cause. A friend's praise, an injury, or authorized parts point to the situation. Every mechanic doing badly is high consensus, which points to a situational cause."
+  },
+  {
+   "id": "tb3-q012",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Consensus Cues",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q12"
+   },
+   "prompt": "\"Geraldo acts differently from everyone else.\" The speaker in the statement is invoking a __________ cue.",
+   "tags": [
+    "§3.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "consensus"
+    },
+    {
+     "id": "b",
+     "text": "consistency"
+    },
+    {
+     "id": "c",
+     "text": "distinctiveness"
+    },
+    {
+     "id": "d",
+     "text": "situational"
+    },
+    {
+     "id": "e",
+     "text": "recency"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Acting differently from everyone else is **low consensus** (how the person compares with others). Distinctiveness is about behaviour across different situations, not comparison with other people."
+  },
+  {
+   "id": "tb3-q013",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Fundamental Attribution Error",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 3 · Q13"
+   },
+   "prompt": "Which is a potential example of the fundamental attribution error?",
+   "tags": [
+    "§3.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Rodney defended his boss's embezzlement by pointing out that he was under severe marital stress at the time of the incident."
+    },
+    {
+     "id": "b",
+     "text": "Tom realized that most of his crew failed to get to work because of the big snowstorm."
+    },
+    {
+     "id": "c",
+     "text": "Nancy explained her department's success by describing her boss as brilliant."
+    },
+    {
+     "id": "d",
+     "text": "John explained his failure to land the big account by saying that the competing firm had a better product."
+    },
+    {
+     "id": "e",
+     "text": "Susan acknowledged that her company's sales growth was largely due to the booming economy."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "The **fundamental attribution error** is overemphasizing dispositional explanations for *others'* behaviour, as when success is credited to a brilliant boss. Blaming stress, snow or a better competitor product are situational explanations."
+  },
+  {
+   "id": "tb3-q014",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Recency Effect",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q14"
+   },
+   "prompt": "For many months, Sam performed his job excellently. However, just before his performance evaluation, Sam's boss saw him insult a client. In the performance evaluation, the boss gave Sam a very low rating. What happened?",
+   "tags": [
+    "§3.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Harshness"
+    },
+    {
+     "id": "b",
+     "text": "Primacy effect"
+    },
+    {
+     "id": "c",
+     "text": "Self-serving bias"
+    },
+    {
+     "id": "d",
+     "text": "Recency effect"
+    },
+    {
+     "id": "e",
+     "text": "Contrast effect"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "The **recency effect** gives undue weight to the most recent cues, so the insult just before the review outweighed months of excellent work. Primacy would have favoured the early excellent impression."
+  },
+  {
+   "id": "tb3-q015",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Primacy Effect",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q15"
+   },
+   "prompt": "If primacy is operating within a selection interview, the job candidate would be well advised to",
+   "tags": [
+    "§3.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "ask for a different interviewer."
+    },
+    {
+     "id": "b",
+     "text": "get an early appointment to see the interviewer."
+    },
+    {
+     "id": "c",
+     "text": "see the interviewer early in the morning."
+    },
+    {
+     "id": "d",
+     "text": "engage the interviewer in small talk before getting down to business."
+    },
+    {
+     "id": "e",
+     "text": "be sure her good qualities come out early in the interview."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "With **primacy**, early information has undue impact on the final decision, so a candidate should make their good qualities come out early. Seeing the interviewer early in the day or making small talk does not guarantee early good information."
+  },
+  {
+   "id": "tb3-q016",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Recency Effect",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q16"
+   },
+   "prompt": "If recency is operating within a selection interview, the job candidate would be well advised to",
+   "tags": [
+    "§3.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "list one's most recent jobs first on one's resume."
+    },
+    {
+     "id": "b",
+     "text": "hold off revealing some good qualities until the end of the interview."
+    },
+    {
+     "id": "c",
+     "text": "ask for a different interviewer."
+    },
+    {
+     "id": "d",
+     "text": "see the interviewer late in the day."
+    },
+    {
+     "id": "e",
+     "text": "try to be the last applicant interviewed."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "With **recency**, the last impressions count most, so a candidate benefits by saving some good qualities for the end of the interview. Putting recent jobs first on a resumé is not the same as ending strongly."
+  },
+  {
+   "id": "tb3-q017",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Consensus Cues",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q17"
+   },
+   "prompt": "\"Kevin acts the same as everyone else.\" The speaker here is invoking a __________ cue.",
+   "tags": [
+    "§3.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "distinctiveness"
+    },
+    {
+     "id": "b",
+     "text": "stereotype"
+    },
+    {
+     "id": "c",
+     "text": "consensus"
+    },
+    {
+     "id": "d",
+     "text": "consistency"
+    },
+    {
+     "id": "e",
+     "text": "recency"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Acting the same as everyone else is **high consensus**. Consistency concerns the same person over time, and distinctiveness concerns behaviour across situations."
+  },
+  {
+   "id": "tb3-q018",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Fundamental Attribution Error",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q18"
+   },
+   "prompt": "We may rely on dispositional explanations when making judgments about the behaviour of other people because",
+   "tags": [
+    "§3.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "we have a tendency to give others the benefit of doubt when they offend us."
+    },
+    {
+     "id": "b",
+     "text": "we don't appreciate how their behaviour can vary in other situations."
+    },
+    {
+     "id": "c",
+     "text": "we are making excuses for our own behaviour."
+    },
+    {
+     "id": "d",
+     "text": "we have a tendency to project our own thoughts and feelings on others."
+    },
+    {
+     "id": "e",
+     "text": "we realize that circumstances beyond their control can cause them to act the way they do."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "We often see others in rather constrained, constant situations, so we do not appreciate how their behaviour would vary elsewhere. This is why we overuse **dispositional** explanations (the fundamental attribution error). Recognizing circumstances beyond their control would lead to situational explanations."
+  },
+  {
+   "id": "tb3-q019",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Dispositional vs Situational",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q19"
+   },
+   "prompt": "When we explain a behaviour by referring to some internal personality characteristic we are not offering",
+   "tags": [
+    "§3.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "an attribution."
+    },
+    {
+     "id": "b",
+     "text": "a rational explanation."
+    },
+    {
+     "id": "c",
+     "text": "a dispositional explanation."
+    },
+    {
+     "id": "d",
+     "text": "an inference about the cause of the behaviour."
+    },
+    {
+     "id": "e",
+     "text": "a situational explanation."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Explaining behaviour by an internal personality characteristic is a **dispositional** attribution, not a **situational** one. It is still an attribution and an inference about the cause."
+  },
+  {
+   "id": "tb3-q020",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Dispositional Attributions",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q20"
+   },
+   "prompt": "Bob resigns from a job that most of his friends consider to be a very good job. Which of the following is a dispositional attribution of the reason for Bob's resignation?",
+   "tags": [
+    "§3.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Bob found a super job somewhere else."
+    },
+    {
+     "id": "b",
+     "text": "Bob is irresponsible and doesn't know a good thing when he sees it."
+    },
+    {
+     "id": "c",
+     "text": "The job that he resigned from was scheduled to be eliminated in an upcoming restructuring."
+    },
+    {
+     "id": "d",
+     "text": "The job that he resigned from was actually very bad."
+    },
+    {
+     "id": "e",
+     "text": "Bob was forced to move to another city where medical care for his ill daughter is available."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "A **dispositional attribution** blames the person's own characteristics, such as being irresponsible. A better job elsewhere, restructuring, a bad job, or a family move are all situational causes."
+  },
+  {
+   "id": "tb3-q021",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Actor-Observer Effect",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q21"
+   },
+   "prompt": "The actor-observer effect suggests that",
+   "tags": [
+    "§3.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "actors and observers tend to view the actor's behaviour in a different way."
+    },
+    {
+     "id": "b",
+     "text": "observers tend to make situational attributions about the actor's behaviour."
+    },
+    {
+     "id": "c",
+     "text": "actors tend to make dispositional attributions about their own behaviour."
+    },
+    {
+     "id": "d",
+     "text": "actors tend to take credit for successful outcomes and blame failures on observers."
+    },
+    {
+     "id": "e",
+     "text": "actors and observers tend to view the actor's behaviour in an identical way."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The **actor-observer effect** is the tendency for actors and observers to view the causes of the actor's behaviour *differently*: actors stress the situation, observers stress disposition. Taking credit for success and blaming failure on others is self-serving bias."
+  },
+  {
+   "id": "tb3-q022",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Situational Attributions",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q22"
+   },
+   "prompt": "On a construction site, Ray drops a wrench and it almost hits Cecil on the head. If Cecil develops a situational (as opposed to dispositional) explanation of Ray's behaviour he might assume that",
+   "tags": [
+    "§3.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Ray has a poor aim."
+    },
+    {
+     "id": "b",
+     "text": "the wrench was oily and it slipped."
+    },
+    {
+     "id": "c",
+     "text": "he was the target of a murder attempt."
+    },
+    {
+     "id": "d",
+     "text": "Ray is stupid."
+    },
+    {
+     "id": "e",
+     "text": "Ray is a careless person."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "A **situational attribution** blames the external environment, such as an oily wrench. Poor aim, stupidity and carelessness are all dispositional, and a murder attempt would be an unrelated, far-fetched explanation."
+  },
+  {
+   "id": "tb3-q023",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Actor-Observer Effect",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 3 · Q23"
+   },
+   "prompt": "A reporter covering a price fixing trial felt that the alleged price fixer was a crook. The alleged price fixer testified that his boss pressured him to engage in illegal activities. The alleged price fixer felt that the reporter's stories about the trial were the product of a vindictive and nasty mind. The price fixer explained his own behaviour __________ and that of the reporter __________.",
+   "tags": [
+    "§3.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "dispositionally, dispositionally"
+    },
+    {
+     "id": "b",
+     "text": "situationally; situationally"
+    },
+    {
+     "id": "c",
+     "text": "situationally; dispositionally"
+    },
+    {
+     "id": "d",
+     "text": "desperately, consistently"
+    },
+    {
+     "id": "e",
+     "text": "dispositionally; situationally"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "The price fixer blames management pressure for his own behaviour (**situational**) but sees the reporter's stories as the product of a vindictive mind (**dispositional**). This is the actor-observer effect."
+  },
+  {
+   "id": "tb3-q024",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Workplace Stereotypes",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q24"
+   },
+   "prompt": "Common workplace stereotypes include stereotypes based on",
+   "tags": [
+    "§3.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "gender."
+    },
+    {
+     "id": "b",
+     "text": "age."
+    },
+    {
+     "id": "c",
+     "text": "ethnicity."
+    },
+    {
+     "id": "d",
+     "text": "race."
+    },
+    {
+     "id": "e",
+     "text": "All of the above."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": false,
+   "explanation": "Common workplace stereotypes are based on gender, age, race, religion, ethnicity and sexual orientation, so **all of the above** applies."
+  },
+  {
+   "id": "tb3-q025",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Workforce Diversity",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q25"
+   },
+   "prompt": "Workforce diversity can be defined in terms of which characteristics?",
+   "tags": [
+    "§3.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Religion"
+    },
+    {
+     "id": "b",
+     "text": "Age"
+    },
+    {
+     "id": "c",
+     "text": "Gender"
+    },
+    {
+     "id": "d",
+     "text": "Ethnicity"
+    },
+    {
+     "id": "e",
+     "text": "All of the above"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": false,
+   "explanation": "**Workforce diversity** means differences in gender, race, age, religion, cultural background, physical ability or sexual orientation, so all the listed characteristics count."
+  },
+  {
+   "id": "tb3-q026",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Gender Stereotypes",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q26"
+   },
+   "prompt": "Gender stereotypes are least likely to have a negative impact on women",
+   "tags": [
+    "§3.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "when they are applying for a job."
+    },
+    {
+     "id": "b",
+     "text": "when they are seeking a promotion."
+    },
+    {
+     "id": "c",
+     "text": "when they ask to attend a professional development conference."
+    },
+    {
+     "id": "d",
+     "text": "when their performance is being evaluated by their boss."
+    },
+    {
+     "id": "e",
+     "text": "when a rater or evaluator has little information about their qualifications."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Women generally do *not* suffer from gender stereotypes in **performance evaluations** by supervisors, because day-to-day performance is observable. Stereotypes hurt more in hiring, promotion and development, especially when information is limited."
+  },
+  {
+   "id": "tb3-q027",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Managing Diversity",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q27"
+   },
+   "prompt": "Encouraging teamwork between minority and majority members should",
+   "tags": [
+    "§3.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "increase workplace stereotypes by requiring different individuals to work with people different than themselves."
+    },
+    {
+     "id": "b",
+     "text": "maintain workplace stereotypes by requiring different individuals to work with people different than themselves."
+    },
+    {
+     "id": "c",
+     "text": "have no effect on workplace stereotypes."
+    },
+    {
+     "id": "d",
+     "text": "reduce workplace stereotypes by requiring different individuals to work with people different than themselves."
+    },
+    {
+     "id": "e",
+     "text": "result in increased employee turnover."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Encouraging **teamwork** that brings minority and majority members together helps reduce stereotypes, because people see individual variation. It does not increase or maintain them."
+  },
+  {
+   "id": "tb3-q028",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Bruner's Perceptual Model",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 3 · Q28"
+   },
+   "prompt": "Paul met a salesperson for the first time. His first impression was that she was pushy, as were most people in sales that Paul had encountered in the past. According to Bruner's model of the perceptual process, Paul is most likely to",
+   "tags": [
+    "§3.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "select cues that confirm his first impression."
+    },
+    {
+     "id": "b",
+     "text": "form a stereotype about the salesperson."
+    },
+    {
+     "id": "c",
+     "text": "recategorize the target."
+    },
+    {
+     "id": "d",
+     "text": "change his perception as soon as new cues become evident."
+    },
+    {
+     "id": "e",
+     "text": "seek out cues that contradict his first impression."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Once Paul has categorized the salesperson, his cue search becomes **selective** and he looks for cues that confirm his first impression. Many contradictory cues are needed before he re-categorizes her."
+  },
+  {
+   "id": "tb3-q029",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Self-Serving Bias",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q29"
+   },
+   "prompt": "The self-serving attributional bias",
+   "tags": [
+    "§3.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "suggests that we will provide dispositional reasons for our failures."
+    },
+    {
+     "id": "b",
+     "text": "suggests that we will provide situational reasons for our successes."
+    },
+    {
+     "id": "c",
+     "text": "may lead one to attribute their own thoughts and feelings to others."
+    },
+    {
+     "id": "d",
+     "text": "may lead one to provide phony compliments when things go well for others."
+    },
+    {
+     "id": "e",
+     "text": "may involve providing excuses for one's own behaviour."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "**Self-serving bias** can reflect excuse making: taking credit for success and denying responsibility for failure. It is the reverse of options that give dispositional reasons for failure or situational reasons for success."
+  },
+  {
+   "id": "tb3-q030",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Halo Effect",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q30"
+   },
+   "prompt": "\"I don't really like you very much, and this causes me to overlook a number of your good qualities.\" This is an example of",
+   "tags": [
+    "§3.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "central tendency."
+    },
+    {
+     "id": "b",
+     "text": "implicit personality theory."
+    },
+    {
+     "id": "c",
+     "text": "stereotyping."
+    },
+    {
+     "id": "d",
+     "text": "the halo effect."
+    },
+    {
+     "id": "e",
+     "text": "harshness."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "The **halo effect** is when one trait (here, disliking someone) colours ratings of their other traits. Central tendency means rating everyone in the middle."
+  },
+  {
+   "id": "tb3-q031",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Bruner's Perceptual Model",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q31"
+   },
+   "prompt": "According to Bruner's model of perception, we are most open to cues about a target",
+   "tags": [
+    "§3.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "once the categorization has been strengthened."
+    },
+    {
+     "id": "b",
+     "text": "when the target is very familiar to us."
+    },
+    {
+     "id": "c",
+     "text": "when we already have a lot of information about the target."
+    },
+    {
+     "id": "d",
+     "text": "when the target has been categorized."
+    },
+    {
+     "id": "e",
+     "text": "when the target is first encountered."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "In **Bruner's model** we are most open to cues when the target is first encountered and unfamiliar. After categorization, the search becomes selective."
+  },
+  {
+   "id": "tb3-q032",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Attribution Cues",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 3 · Q32"
+   },
+   "prompt": "Samantha engages in a low consensus behaviour. What other combination of cues will ensure that an observer makes a dispositional attribution about the behaviour?",
+   "tags": [
+    "§3.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The behaviour is also low in distinctiveness and low in consistency."
+    },
+    {
+     "id": "b",
+     "text": "The behaviour is also high in distinctiveness and high in consistency."
+    },
+    {
+     "id": "c",
+     "text": "The behaviour is also low in distinctiveness and high in consistency."
+    },
+    {
+     "id": "d",
+     "text": "The behaviour is also low in distinctiveness and high in contrast."
+    },
+    {
+     "id": "e",
+     "text": "The behaviour is also high in distinctiveness and low in consistency."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Low consensus (unusual behaviour), **high consistency** and **low distinctiveness** (shown across situations) together point to a **dispositional** attribution. High distinctiveness or low consistency would push toward the situation. High contrast is not an attribution cue."
+  },
+  {
+   "id": "tb3-q033",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Projection",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q33"
+   },
+   "prompt": "Heloise was happy that the systems manager was fired. She incorrectly assumed that everyone else in the company was also happy. What perceptual tendency is at work here?",
+   "tags": [
+    "§3.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Consensus cues"
+    },
+    {
+     "id": "b",
+     "text": "Fundamental attribution error"
+    },
+    {
+     "id": "c",
+     "text": "Similar-to-me effect"
+    },
+    {
+     "id": "d",
+     "text": "Projection"
+    },
+    {
+     "id": "e",
+     "text": "Occupational stereotyping"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "**Projection** is assuming others feel the way you do. Heloise assumed everyone else shared her happiness."
+  },
+  {
+   "id": "tb3-q034",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Consensus Cues",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q34"
+   },
+   "prompt": "\"Karen acts differently from everyone else, but Byron acts the same as everyone else.\" The speaker here is invoking a __________ cue to describe Karen's behaviour and a __________ cue to describe Byron's behaviour.",
+   "tags": [
+    "§3.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "consensus; consensus"
+    },
+    {
+     "id": "b",
+     "text": "consensus; consistency"
+    },
+    {
+     "id": "c",
+     "text": "distinctiveness; consistency"
+    },
+    {
+     "id": "d",
+     "text": "consistency; consistency"
+    },
+    {
+     "id": "e",
+     "text": "distinctiveness; consensus"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Both statements compare each person's behaviour with others', so both are **consensus** cues: low for Karen, high for Byron. Consistency is about the same person over time."
+  },
+  {
+   "id": "tb3-q035",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Contrast Effects",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q35"
+   },
+   "prompt": "The contrast effect means that the perceiver",
+   "tags": [
+    "§3.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "compares target people with her own qualities."
+    },
+    {
+     "id": "b",
+     "text": "favours target people who are different from herself."
+    },
+    {
+     "id": "c",
+     "text": "will generalize about people in a given social category and ignore variations among them."
+    },
+    {
+     "id": "d",
+     "text": "rejects target people who are different from herself."
+    },
+    {
+     "id": "e",
+     "text": "exaggerates differences among target people."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "The **contrast effect** is when previously interviewed applicants affect the rating of the current one, exaggerating differences. Similar-to-me is the separate tendency to favour people like yourself."
+  },
+  {
+   "id": "tb3-q036",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Rater Errors",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q36"
+   },
+   "prompt": "The professor who gives all C's to his class is committing",
+   "tags": [
+    "§3.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "harshness."
+    },
+    {
+     "id": "b",
+     "text": "central tendency."
+    },
+    {
+     "id": "c",
+     "text": "central trait bias."
+    },
+    {
+     "id": "d",
+     "text": "halo."
+    },
+    {
+     "id": "e",
+     "text": "self-serving bias."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "**Central tendency** assigns most ratees to a middle-range category, as when nearly everyone gets a C. Harshness would give mostly poor grades."
+  },
+  {
+   "id": "tb3-q037",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Employment Interview Validity",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q37"
+   },
+   "prompt": "Research shows that the employment interview",
+   "tags": [
+    "§3.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "is a totally invalid selection technique."
+    },
+    {
+     "id": "b",
+     "text": "is most effective when the interviewer does not ask personal questions."
+    },
+    {
+     "id": "c",
+     "text": "overweights positive information."
+    },
+    {
+     "id": "d",
+     "text": "is free of perceptual biases."
+    },
+    {
+     "id": "e",
+     "text": "is most valid when the interviewer conducts it in an unstructured format."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Interviews are *valid* but not perfect, and more structured interviews are more valid. One dimension of structure is not asking personal questions unrelated to the job. Interviewers *underweight* positive information."
+  },
+  {
+   "id": "tb3-q038",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Fundamental Attribution Error",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 3 · Q38"
+   },
+   "prompt": "Which is a potential example of the fundamental attribution error?",
+   "tags": [
+    "§3.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Shawn thought that her secretary was the kindest person she had ever met."
+    },
+    {
+     "id": "b",
+     "text": "Pam explained that late report by noting that she wasn't familiar with the new software."
+    },
+    {
+     "id": "c",
+     "text": "Rich figured that the team was late because of congested air traffic over Atlanta."
+    },
+    {
+     "id": "d",
+     "text": "Joe attributed the car accident to slippery pavement."
+    },
+    {
+     "id": "e",
+     "text": "Cleo mistook the female vice-president for a secretary."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Calling the secretary the kindest person ever met explains behaviour by disposition, a potential **fundamental attribution error**. Unfamiliar software, air traffic and slippery pavement are situational, and mistaking the vice-president for a secretary is a stereotype."
+  },
+  {
+   "id": "tb3-q039",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Attribution Cues",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 3 · Q39"
+   },
+   "prompt": "\"He does it everywhere, he does it all the time, and no one else does it.\" Which cue combination is the speaker invoking?",
+   "tags": [
+    "§3.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Low consensus, low consistency, low distinctiveness"
+    },
+    {
+     "id": "b",
+     "text": "High consensus, high consistency, high distinctiveness"
+    },
+    {
+     "id": "c",
+     "text": "Low consensus, low consistency, high distinctiveness"
+    },
+    {
+     "id": "d",
+     "text": "High consensus, low consistency, low distinctiveness"
+    },
+    {
+     "id": "e",
+     "text": "Low consensus, high consistency, low distinctiveness"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "\"Everywhere\" is **low distinctiveness**, \"all the time\" is **high consistency**, and \"no one else does it\" is **low consensus**. In Exhibit 3.4 that is the dispositional pattern (Roshani)."
+  },
+  {
+   "id": "tb3-q040",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Attribution Cues",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 3 · Q40"
+   },
+   "prompt": "\"He does it everywhere, he does it all the time, and no one else does it.\" Which attribution is the speaker likely to make?",
+   "tags": [
+    "§3.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Dispositional"
+    },
+    {
+     "id": "b",
+     "text": "Situational"
+    },
+    {
+     "id": "c",
+     "text": "Self-serving"
+    },
+    {
+     "id": "d",
+     "text": "Actor-observer effect"
+    },
+    {
+     "id": "e",
+     "text": "Temporary situation"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Low consensus, high consistency and low distinctiveness predict a **dispositional** attribution. The situational pattern is the opposite on consensus and distinctiveness: high consistency, high consensus and high distinctiveness (Mika)."
+  },
+  {
+   "id": "tb3-q041",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Stereotyping",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q41"
+   },
+   "prompt": "When we invoke __________ we tend not to perceive differences between people.",
+   "tags": [
+    "§3.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "the halo effect"
+    },
+    {
+     "id": "b",
+     "text": "a stereotype"
+    },
+    {
+     "id": "c",
+     "text": "the recency effect"
+    },
+    {
+     "id": "d",
+     "text": "consistency cues"
+    },
+    {
+     "id": "e",
+     "text": "projection"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "A **stereotype** ignores differences *between* people in a category. The halo effect, by contrast, ignores differences within one person."
+  },
+  {
+   "id": "tb3-q042",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Halo Effect",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q42"
+   },
+   "prompt": "When we invoke __________ we tend not to perceive different qualities within people.",
+   "tags": [
+    "§3.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "the halo effect"
+    },
+    {
+     "id": "b",
+     "text": "consensus cues"
+    },
+    {
+     "id": "c",
+     "text": "projection"
+    },
+    {
+     "id": "d",
+     "text": "the recency effect"
+    },
+    {
+     "id": "e",
+     "text": "the primacy effect"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "With the **halo effect**, one trait colours ratings on other traits, so the rater fails to see different qualities within the same person. Stereotyping ignores differences between people."
+  },
+  {
+   "id": "tb3-q043",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Interview Biases",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q43"
+   },
+   "prompt": "Employment interviewers tend to",
+   "tags": [
+    "§3.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "avoid making comparisons between the current candidate and those previously interviewed."
+    },
+    {
+     "id": "b",
+     "text": "underweight positive information about the applicant."
+    },
+    {
+     "id": "c",
+     "text": "predict applicant success better with an unstructured interview than with a guided interview."
+    },
+    {
+     "id": "d",
+     "text": "underweight negative information about the applicant."
+    },
+    {
+     "id": "e",
+     "text": "have an easy perceptual task."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Interviewers tend to give *less* weight to **positive** information, so negative information has undue impact. They also compare applicants with earlier ones (contrast effects), and interviews are hard perceptual tasks."
+  },
+  {
+   "id": "tb3-q044",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Subjective Performance Measures",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q44"
+   },
+   "prompt": "Subjective performance measures are called \"subjective\" because",
+   "tags": [
+    "§3.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "they are a product of the perceptions of an observer."
+    },
+    {
+     "id": "b",
+     "text": "they focus attention directly on the interview subject."
+    },
+    {
+     "id": "c",
+     "text": "all performance measures are subjective."
+    },
+    {
+     "id": "d",
+     "text": "bosses and employees frequently disagree on the ratings."
+    },
+    {
+     "id": "e",
+     "text": "it is impossible to measure performance objectively."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "**Subjective measures** involve substantial human judgment, so they reflect the observer's perceptions. Objective measures do not rely on judgment, so not all measures are subjective."
+  },
+  {
+   "id": "tb3-q045",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Contrast Effects",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 3 · Q45"
+   },
+   "prompt": "The Devious Employment Agency uses a trick to get companies to hire its candidates. If it only has a marginal candidate, it sends over two real duds before sending over this marginal person. Which perceptual reaction is the Devious manager relying on to get the marginal candidate hired?",
+   "tags": [
+    "§3.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Actor-observer effect"
+    },
+    {
+     "id": "b",
+     "text": "Contrast effect"
+    },
+    {
+     "id": "c",
+     "text": "Halo effect"
+    },
+    {
+     "id": "d",
+     "text": "Leniency"
+    },
+    {
+     "id": "e",
+     "text": "Central trait"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Sending two real duds first exploits the **contrast effect**: previous applicants exaggerate the difference to the current one, so the marginal candidate looks better. The halo effect concerns one trait colouring others."
+  },
+  {
+   "id": "tb3-q046",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Contrast Effects",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 3 · Q46"
+   },
+   "prompt": "Ellen is an employment interviewer. One day she interviews three job applicants and rates the third applicant very negatively. If the contrast effect is responsible for this negative rating, we can be sure that the first two applicants were",
+   "tags": [
+    "§3.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "seen by Ellen to be very different from herself."
+    },
+    {
+     "id": "b",
+     "text": "seen by Ellen to be very similar to herself."
+    },
+    {
+     "id": "c",
+     "text": "perceived as totally unqualified for the job."
+    },
+    {
+     "id": "d",
+     "text": "given unstructured interviews."
+    },
+    {
+     "id": "e",
+     "text": "perceived as well qualified for the job."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "A **contrast effect** makes an average applicant look worse after strong ones, so the first two must have been seen as well qualified. Similarity to the interviewer is the similar-to-me effect."
+  },
+  {
+   "id": "tb3-q047",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Halo Effect",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q47"
+   },
+   "prompt": "A manager is completing performance evaluations of his employees. Unwittingly, he allows his perceptions of their attendance to colour his ratings of many specific characteristics, including their quality and quantity of work. Thus, those with poor attendance invariably get poor ratings. What's happened?",
+   "tags": [
+    "§3.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Contrast effects"
+    },
+    {
+     "id": "b",
+     "text": "Knowledge-of-predictor bias"
+    },
+    {
+     "id": "c",
+     "text": "Similar-to-me effect"
+    },
+    {
+     "id": "d",
+     "text": "Harshness"
+    },
+    {
+     "id": "e",
+     "text": "Halo effect"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Letting one trait (attendance) colour ratings on many other characteristics is the **halo effect**. It can work for or against the ratee. Contrast effects involve comparison with other ratees."
+  },
+  {
+   "id": "tb3-q048",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Trust Perceptions",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q48"
+   },
+   "prompt": "Trust perceptions toward management are based on perceptions of",
+   "tags": [
+    "§3.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "ability, honesty, and support"
+    },
+    {
+     "id": "b",
+     "text": "ability, fairness, and support"
+    },
+    {
+     "id": "c",
+     "text": "ability, benevolence, and support"
+    },
+    {
+     "id": "d",
+     "text": "benevolence, integrity, and support"
+    },
+    {
+     "id": "e",
+     "text": "ability, benevolence, and integrity"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Trust perceptions toward management rest on **ability, benevolence and integrity**. Honesty, support and fairness are not the three components, though perceived fairness is associated with trust."
+  },
+  {
+   "id": "tb3-q049",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Building Trust",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 3 · Q49"
+   },
+   "prompt": "If a manager wants to improve employees' trust perceptions toward management, one thing he or she might do is",
+   "tags": [
+    "§3.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "make sure that organizational procedures are fair."
+    },
+    {
+     "id": "b",
+     "text": "adhere to and behave according to a set of values that employees find acceptable."
+    },
+    {
+     "id": "c",
+     "text": "avoid making rater errors when evaluating performance."
+    },
+    {
+     "id": "d",
+     "text": "improve rewards and job conditions."
+    },
+    {
+     "id": "e",
+     "text": "all of the above."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": false,
+   "explanation": "**Integrity** means management adheres to values and principles employees find acceptable, so behaving consistently with such values builds trust. The text also links supervisor fairness to trust, but only as \"some evidence\". Avoiding rater errors is unrelated."
+  },
+  {
+   "id": "tb3-q050",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Organizational Support",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q50"
+   },
+   "prompt": "Which of the following factors contribute to perceived organizational support?",
+   "tags": [
+    "§3.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "supervisor support, fairness, rewards, opportunities for advancement"
+    },
+    {
+     "id": "b",
+     "text": "fairness, rewards, pay, job security"
+    },
+    {
+     "id": "c",
+     "text": "supervisor support, job security, recognition, job conditions"
+    },
+    {
+     "id": "d",
+     "text": "fairness, rewards, pay, job conditions"
+    },
+    {
+     "id": "e",
+     "text": "supervisor support, fairness, rewards, job conditions"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "The antecedents of **perceived organizational support** in Exhibit 3.10 include supervisor support, fairness, organizational rewards and job conditions. Pay and job security are not listed as separate antecedents."
+  },
+  {
+   "id": "tb3-q051",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Social Identity Theory",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q51"
+   },
+   "prompt": "According to social identity theory, our sense of self is composed of a",
+   "tags": [
+    "§3.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "self identity and social identity"
+    },
+    {
+     "id": "b",
+     "text": "personal identity and social identity"
+    },
+    {
+     "id": "c",
+     "text": "personal identity and relational identity"
+    },
+    {
+     "id": "d",
+     "text": "social identity and relational identity"
+    },
+    {
+     "id": "e",
+     "text": "social identity and normative identity"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Our sense of self comprises a **personal identity** and a **social identity**. Self identity, relational identity and normative identity are not the theory's terms."
+  },
+  {
+   "id": "tb3-q052",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Prototypes",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q52"
+   },
+   "prompt": "Prototypes refer to",
+   "tags": [
+    "§3.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "the most typical attributes embodied by members that belong to a social category"
+    },
+    {
+     "id": "b",
+     "text": "our unique personal characteristics, such as our interests, abilities, and traits"
+    },
+    {
+     "id": "c",
+     "text": "members of a social category who best represent the attributes of that category"
+    },
+    {
+     "id": "d",
+     "text": "social categories that we use to categorize people such as gender, religion, and so on."
+    },
+    {
+     "id": "e",
+     "text": "our perception that we belong to various social groups, such as our gender, nationality, and so on"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "**Prototypes** are the most typical attributes of a social category. They are attributes, not the members who best represent the category."
+  },
+  {
+   "id": "tb3-q053",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Signalling Theory",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q53"
+   },
+   "prompt": "Joan was poorly treated in an employment interview and perceived the organizations as lacking respect for its employees. What is this an example of?",
+   "tags": [
+    "§3.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "contrast effects"
+    },
+    {
+     "id": "b",
+     "text": "halo effect"
+    },
+    {
+     "id": "c",
+     "text": "social identity theory"
+    },
+    {
+     "id": "d",
+     "text": "fundamental attribution error"
+    },
+    {
+     "id": "e",
+     "text": "signalling theory"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "**Signalling theory** says applicants read treatment during recruitment and selection as signals about what the organization is like, such as lack of respect for employees. Social identity theory concerns self-perception through group memberships."
+  },
+  {
+   "id": "tb3-q054",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Perceptions of Selection Tests",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q54"
+   },
+   "prompt": "Among various selection procedures, which ones are perceived most favourably?",
+   "tags": [
+    "§3.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "employment interviews and work samples"
+    },
+    {
+     "id": "b",
+     "text": "work samples and honesty tests"
+    },
+    {
+     "id": "c",
+     "text": "employment interviews and personality tests"
+    },
+    {
+     "id": "d",
+     "text": "personality tests and honesty tests"
+    },
+    {
+     "id": "e",
+     "text": "personality tests and work samples"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Applicants view **employment interviews and work samples** most favourably, then cognitive ability tests, then personality and honesty tests (least favourable)."
+  },
+  {
+   "id": "tb3-q055",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Women in Management",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q55"
+   },
+   "prompt": "Women have made the most significant progress moving into senior management and executive positions in the",
+   "tags": [
+    "§3.5",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "motor vehicles industry"
+    },
+    {
+     "id": "b",
+     "text": "financial services industry"
+    },
+    {
+     "id": "c",
+     "text": "paper and forest products industry"
+    },
+    {
+     "id": "d",
+     "text": "steel production industry"
+    },
+    {
+     "id": "e",
+     "text": "general manufacturing"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "The 12th edition no longer mentions which industries women have progressed furthest in, so this older-edition industry comparison cannot be checked.",
+   "scopeNote": "Written for an older edition: Not in the 12th edition: the text no longer compares women's progress by industry."
+  },
+  {
+   "id": "tb3-q056",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Effects of Trust",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q56"
+   },
+   "prompt": "Trust results in positive employee attitudes and behaviours because it",
+   "tags": [
+    "§3.6",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "improves employee motivation"
+    },
+    {
+     "id": "b",
+     "text": "improves employees' perceived organizational support"
+    },
+    {
+     "id": "c",
+     "text": "lowers employee stress"
+    },
+    {
+     "id": "d",
+     "text": "improves employees' perceived supervisor support"
+    },
+    {
+     "id": "e",
+     "text": "improves employees' ability to focus"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "The 12th-edition text links trust to higher job satisfaction, commitment, performance and citizenship behaviour. It does not explain these effects through improved ability to focus.",
+   "scopeNote": "Written for an older edition: Not in the 12th edition: the text no longer explains trust's effects through employees' ability to focus."
+  },
+  {
+   "id": "tb3-q057",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Structured Interviews",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q57"
+   },
+   "prompt": "Interviews are more likely to be structured when",
+   "tags": [
+    "§3.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "the interviewer focuses on selection rather than recruitment"
+    },
+    {
+     "id": "b",
+     "text": "the interviewer has worked for the same company for many years"
+    },
+    {
+     "id": "c",
+     "text": "the interviewer focuses on recruitment and selection"
+    },
+    {
+     "id": "d",
+     "text": "the interviewer has a great deal of experience interviewing"
+    },
+    {
+     "id": "e",
+     "text": "the interviewer focuses on recruitment rather than selection"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Interviews are more likely to be **structured** when the interviewer has formal interview training and focuses on *selection* rather than recruitment. Experience alone does not make an interview structured."
+  },
+  {
+   "id": "tb3-q058",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Age Diversity",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q58"
+   },
+   "prompt": "What do the following companies have in common (Royal Bank, Merck Forsst, Home Depot, Avis Rent A Car) ?",
+   "tags": [
+    "§3.5",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "They won awards for how they treat visible minorities"
+    },
+    {
+     "id": "b",
+     "text": "They won awards for their diversity programs"
+    },
+    {
+     "id": "c",
+     "text": "They won awards for how they treat older workers"
+    },
+    {
+     "id": "d",
+     "text": "They won awards for how they treat aboriginal people"
+    },
+    {
+     "id": "e",
+     "text": "They won awards for how they treat women"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "The 12th edition recognizes Walmart Canada and Home Depot for hiring older workers but does not mention Merck Frosst or Avis, and Royal Bank appears for other diversity programs.",
+   "scopeNote": "Written for an older edition: Not in the 12th edition: the list of award winners for older-worker programs has changed."
+  },
+  {
+   "id": "tb3-q059",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Perceived Organizational Support",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q59"
+   },
+   "prompt": "ACME Insurance Company wants to improve employee perceptions of organizational support. They hired a new director of human resources to implement supportive human resource practices. What practices are likely to be most effective for developing more positive perceptions of organizational support?",
+   "tags": [
+    "§3.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "participation in decision making and opportunities for advancement"
+    },
+    {
+     "id": "b",
+     "text": "a fair reward and recognition system and better compensation"
+    },
+    {
+     "id": "c",
+     "text": "a fair reward and recognition system and opportunities for advancement"
+    },
+    {
+     "id": "d",
+     "text": "participation in decision making and opportunities for growth and development"
+    },
+    {
+     "id": "e",
+     "text": "participation in decision making and opportunities for training"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Supportive HR practices that most improve **POS** include participation in decision making, opportunities for growth and development, and a fair reward and recognition system. Better pay alone is not the practice named."
+  },
+  {
+   "id": "tb3-q060",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Social Identity Theory",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 3 · Q60"
+   },
+   "prompt": "Which of the following best represents the notion that social identities are relational and comparative?",
+   "tags": [
+    "§3.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "medical students are perceived as doctors by patients in the hospital but as students by themselves"
+    },
+    {
+     "id": "b",
+     "text": "medical students are perceived as doctors by patients in the hospital but as children by their parents"
+    },
+    {
+     "id": "c",
+     "text": "medical students are perceived as students by patients in the hospital before they graduate but as doctors by the same patients after they have graduated"
+    },
+    {
+     "id": "d",
+     "text": "medical students are perceived as doctors by patients in the hospital but as students by their professors in the classroom"
+    },
+    {
+     "id": "e",
+     "text": "medical students are perceived as students by patients in the hospital and as students by their professors in the classroom"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Social identities are **relational and comparative**: the same person is categorized differently depending on the comparison category. Medical students are doctors to patients but students to their professors in the classroom."
+  },
+  {
+   "id": "tb3-q061",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Projection",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q61"
+   },
+   "prompt": "Projection is the tendency to act differently from the way we feel; to put on a false face, so to speak.",
+   "tags": [
+    "§3.3"
+   ],
+   "answer": false,
+   "explanation": "False. **Projection** is attributing one's own thoughts and feelings to others. Putting on a false face is not what the text means by projection."
+  },
+  {
+   "id": "tb3-q062",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Contrast Effects",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q62"
+   },
+   "prompt": "The contrast effect is the tendency for interviewers to select candidates who are very different from themselves.",
+   "tags": [
+    "§3.7"
+   ],
+   "answer": false,
+   "explanation": "False. A **contrast effect** is when previously interviewed applicants affect the rating of the current applicant, exaggerating differences. It is not a preference for people different from the interviewer."
+  },
+  {
+   "id": "tb3-q063",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Structured Interviews",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q63"
+   },
+   "prompt": "Employment interviews that focus on selection are more valid than those that focus on recruitment.",
+   "tags": [
+    "§3.7"
+   ],
+   "answer": true,
+   "explanation": "True. Structure raises interview validity, and interviews that focus on **selection** rather than recruitment are more likely to be structured."
+  },
+  {
+   "id": "tb3-q064",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Consensus Cues",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q64"
+   },
+   "prompt": "Other things equal, high consensus behaviour on the part of an employee will lead a manager to make a dispositional attribution about the behaviour.",
+   "tags": [
+    "§3.4"
+   ],
+   "answer": false,
+   "explanation": "False. **Low** consensus (unusual behaviour) leads to dispositional attributions. High-consensus behaviour, typical of others, leads to situational attributions."
+  },
+  {
+   "id": "tb3-q065",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Fundamental Attribution Error",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 3 · Q65"
+   },
+   "prompt": "Rita inaccurately attributed Tommy's failure to show up at work to car problems. This is a potential example of the fundamental attribution error.",
+   "tags": [
+    "§3.4"
+   ],
+   "answer": false,
+   "explanation": "False. Blaming car problems is a **situational** attribution. The **fundamental attribution error** is overemphasizing dispositional explanations for others' behaviour."
+  },
+  {
+   "id": "tb3-q066",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Fundamental Attribution Error",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 3 · Q66"
+   },
+   "prompt": "Wes inaccurately attributed Nina's failure to show up at work to her poor work ethic. This is a potential example of the fundamental attribution error.",
+   "tags": [
+    "§3.4"
+   ],
+   "answer": true,
+   "explanation": "True. Blaming Nina's poor work ethic (a disposition) when the cause may be situational is the **fundamental attribution error**."
+  },
+  {
+   "id": "tb3-q067",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Halo Effect",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q67"
+   },
+   "prompt": "One implication of the halo effect is that we fail to appreciate that a target person could have both strengths and weaknesses.",
+   "tags": [
+    "§3.7"
+   ],
+   "answer": true,
+   "explanation": "True. With the **halo effect** the rater fails to perceive differences within a person, so they miss that someone can have both strengths and weaknesses."
+  },
+  {
+   "id": "tb3-q068",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Workplace Stereotypes",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q68"
+   },
+   "prompt": "Workplace stereotypes are not harmful in any way.",
+   "tags": [
+    "§3.5"
+   ],
+   "answer": false,
+   "explanation": "False. Stereotypes can lead to discriminatory HR decisions and are a major barrier to **valuing diversity**."
+  },
+  {
+   "id": "tb3-q069",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Recency Effect",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q69"
+   },
+   "prompt": "A recency effect means that the most recently acquired information we have about a target person has the least effect on our impression of the target.",
+   "tags": [
+    "§3.3"
+   ],
+   "answer": false,
+   "explanation": "False. The **recency effect** is giving *undue weight* to the most recent information, so last impressions count most."
+  },
+  {
+   "id": "tb3-q070",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Rater Errors",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q70",
+    "note": "Reworded to match the text's definitions: harshness means rating performance as especially ineffective."
+   },
+   "prompt": "According to the text, a performance rater who tends to see employees' performance as especially good is engaging in harshness.",
+   "tags": [
+    "§3.7"
+   ],
+   "answer": false,
+   "explanation": "False. **Harshness** is the tendency to perceive ratees' performance as especially ineffective. Being unfair and vindictive is not the text's definition."
+  },
+  {
+   "id": "tb3-q071",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Stereotyping",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q71"
+   },
+   "prompt": "A stereotype suggests that we fail to perceive important distinctions within a class or category of people.",
+   "tags": [
+    "§3.3"
+   ],
+   "answer": true,
+   "explanation": "True. **Stereotyping** generalizes about everyone in a category and ignores variations among them."
+  },
+  {
+   "id": "tb3-q072",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Consensus Cues",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q72"
+   },
+   "prompt": "\"Laurie acts just like her coworker.\" In attribution theory terms, this statement invokes a \"low distinctiveness\" cue.",
+   "tags": [
+    "§3.4"
+   ],
+   "answer": false,
+   "explanation": "False. Acting just like a coworker compares behaviour with others, so it is a **consensus** cue (high consensus), not distinctiveness."
+  },
+  {
+   "id": "tb3-q073",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Rater Errors",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q73"
+   },
+   "prompt": "When doing her performance evaluations, Rick's boss engaged in central tendency. This means that Rick probably received an average performance rating.",
+   "tags": [
+    "§3.7"
+   ],
+   "answer": true,
+   "explanation": "True. **Central tendency** assigns most ratees to a middle-range performance category, so Rick probably received an average rating."
+  },
+  {
+   "id": "tb3-q074",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Attribution and Rewards",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 3 · Q74"
+   },
+   "prompt": "If I make a situational attribution about your behaviour, I am more likely to reward you or punish you than if I make a dispositional attribution.",
+   "tags": [
+    "§3.4"
+   ],
+   "answer": false,
+   "explanation": "False. Rewards and punishments depend on judgments of cause. A **dispositional** attribution says the person controlled the behaviour; a situational one suggests little control, so reward or punishment is less likely."
+  },
+  {
+   "id": "tb3-q075",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Actor-Observer Effect",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q75"
+   },
+   "prompt": "The actor-observer effect refers to the remarkable similarity in the attributions that the actor and an observer make about the actor's behaviour.",
+   "tags": [
+    "§3.4"
+   ],
+   "answer": false,
+   "explanation": "False. The **actor-observer effect** is that actors and observers tend to view the causes of the actor's behaviour *differently*."
+  },
+  {
+   "id": "tb3-q076",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Objective vs Subjective Measures",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q76"
+   },
+   "prompt": "Company attendance records are an example of a subjective performance measure.",
+   "tags": [
+    "§3.7"
+   ],
+   "answer": false,
+   "explanation": "False. Attendance records need little human judgment, so they are an **objective** measure."
+  },
+  {
+   "id": "tb3-q077",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Attribution and Rewards",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 3 · Q77"
+   },
+   "prompt": "If I make a dispositional attribution about your behaviour, I am more likely to reward you or punish you than if I make a situational attribution.",
+   "tags": [
+    "§3.4"
+   ],
+   "answer": true,
+   "explanation": "True. **Dispositional** attributions treat the person as responsible, so reward or punishment is more likely. A situational attribution suggests the person had little control."
+  },
+  {
+   "id": "tb3-q078",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Consistency Cues",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q78"
+   },
+   "prompt": "In attributional terms, highly consistent behaviours are those that most people engage in.",
+   "tags": [
+    "§3.4"
+   ],
+   "answer": false,
+   "explanation": "False. Behaviour most people engage in is **high consensus**. **Consistency** is how regularly the same person engages in the behaviour over time."
+  },
+  {
+   "id": "tb3-q079",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Stereotyping",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q79"
+   },
+   "prompt": "The more information you have about Bob, the more likely a stereotype will influence your perceptions of him.",
+   "tags": [
+    "§3.3"
+   ],
+   "answer": false,
+   "explanation": "False. Stereotypes help us process information when it is ambiguous. With **more** information about Bob, a stereotype is less likely to influence your perception."
+  },
+  {
+   "id": "tb3-q080",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Interview Biases",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q80"
+   },
+   "prompt": "Employment interviewers tend to underweight positive information about job applicants.",
+   "tags": [
+    "§3.7"
+   ],
+   "answer": true,
+   "explanation": "True. Interviewers give **less** importance to positive information, so negative information has undue impact on the decision."
+  },
+  {
+   "id": "tb3-q081",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Fundamental Attribution Error",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q81"
+   },
+   "prompt": "The fundamental attribution error occurs when we blame others for our failures and take credit for our successes.",
+   "tags": [
+    "§3.4"
+   ],
+   "answer": false,
+   "explanation": "False. That is **self-serving bias**. The **fundamental attribution error** is overemphasizing dispositional explanations for others' behaviour."
+  },
+  {
+   "id": "tb3-q082",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Fundamental Attribution Error",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q82"
+   },
+   "prompt": "People tend to overemphasize the role that disposition plays in causing the behaviour of others.",
+   "tags": [
+    "§3.4"
+   ],
+   "answer": true,
+   "explanation": "True. This is the **fundamental attribution error**: overemphasizing dispositional explanations for others' behaviour at the expense of situational ones."
+  },
+  {
+   "id": "tb3-q083",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Central Traits",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q83"
+   },
+   "prompt": "Central tendency is our propensity to organize perceptions of others around certain key traits.",
+   "tags": [
+    "§3.3"
+   ],
+   "answer": false,
+   "explanation": "False. Organizing perceptions around key traits is **reliance on central traits**. **Central tendency** is a rater error: assigning most ratees to the middle."
+  },
+  {
+   "id": "tb3-q084",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Similar-to-Me Effect",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q84"
+   },
+   "prompt": "The similar-to-me effect means that we often attribute our own feelings, attitudes, and ideas to others.",
+   "tags": [
+    "§3.7"
+   ],
+   "answer": false,
+   "explanation": "False. That describes **projection**. The **similar-to-me effect** is giving more favourable evaluations to people similar to the rater."
+  },
+  {
+   "id": "tb3-q085",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Actor-Observer Effect",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q85"
+   },
+   "prompt": "The actor-observer effect suggests that actors and observers will view an actor's behaviour differently.",
+   "tags": [
+    "§3.4"
+   ],
+   "answer": true,
+   "explanation": "True. The **actor-observer effect** is that actors and observers view the causes of the actor's behaviour differently."
+  },
+  {
+   "id": "tb3-q086",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Gender Stereotypes",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q86"
+   },
+   "prompt": "Gender stereotypes have less negative effects when an observer has accurate knowledge about the woman in question.",
+   "tags": [
+    "§3.5"
+   ],
+   "answer": true,
+   "explanation": "True. Stereotypes matter less when decision makers have good job-related information about a particular woman's qualifications and performance."
+  },
+  {
+   "id": "tb3-q087",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Projection",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q87"
+   },
+   "prompt": "I say you are angry when, truly, I am angry. This is an example of projection.",
+   "tags": [
+    "§3.3"
+   ],
+   "answer": true,
+   "explanation": "True. Seeing your own anger in someone else is **projection**, attributing your own feelings to others."
+  },
+  {
+   "id": "tb3-q088",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Rater Errors",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q88",
+    "note": "Reworded to match the text's definitions: leniency means rating performance as especially good, while ineffective ratings are harshness."
+   },
+   "prompt": "According to the text, a performance rater who tends to see employees' performance as especially ineffective is engaging in leniency.",
+   "tags": [
+    "§3.7"
+   ],
+   "answer": false,
+   "explanation": "False. **Leniency** is the tendency to see ratees' performance as especially good; it is not defined in terms of overlooking gross errors."
+  },
+  {
+   "id": "tb3-q089",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Dispositional vs Situational",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q89"
+   },
+   "prompt": "Tom attributes Lou's behaviour to immorality. This is a situational attribution.",
+   "tags": [
+    "§3.4"
+   ],
+   "answer": false,
+   "explanation": "False. Attributing behaviour to immorality is a **dispositional** attribution because it blames the person's character."
+  },
+  {
+   "id": "tb3-q090",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Gender Stereotypes",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q90"
+   },
+   "prompt": "Male managers today hold the same dysfunctional stereotypes about women and management that they held in the early 1970s.",
+   "tags": [
+    "§3.5"
+   ],
+   "answer": true,
+   "explanation": "True. Male managers still hold the same dysfunctional stereotypes about women and management that they held in the early 1970s."
+  },
+  {
+   "id": "tb3-q091",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Gender Stereotypes",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q91"
+   },
+   "prompt": "Recent research indicates that both men and women of varying age, education, and work experience still describe a good manager as possessing predominantly masculine characteristics.",
+   "tags": [
+    "§3.5"
+   ],
+   "answer": true,
+   "explanation": "True. Men and women of varying age, education and work experience still describe a good manager as having predominantly **masculine** characteristics."
+  },
+  {
+   "id": "tb3-q092",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Age Stereotypes",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q92"
+   },
+   "prompt": "Discrimination on the basis of age is experienced by people as young as 40 to 45.",
+   "tags": [
+    "§3.5",
+    "out-of-scope"
+   ],
+   "answer": true,
+   "explanation": "The 12th edition says younger workers (18-30) report the most age discrimination, followed by workers 50 or older. It no longer mentions the 40 to 45 age range.",
+   "scopeNote": "Written for an older edition: Not in the 12th edition: the text now reports age discrimination for workers aged 18-30 and 50 or older, not 40 to 45."
+  },
+  {
+   "id": "tb3-q093",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Halo Effect",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q93"
+   },
+   "prompt": "Halo effect can cause a person to receive a bad performance evaluation.",
+   "tags": [
+    "§3.7"
+   ],
+   "answer": true,
+   "explanation": "True. **Halo** can work for or against the ratee, so one negative trait such as lateness can lower ratings on other traits."
+  },
+  {
+   "id": "tb3-q094",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Social Identity Theory",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q94"
+   },
+   "prompt": "Our sense of self is composed of a self-identity and a social identity.",
+   "tags": [
+    "§3.2"
+   ],
+   "answer": false,
+   "explanation": "False. The sense of self is composed of a **personal identity** and a **social identity**."
+  },
+  {
+   "id": "tb3-q095",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Social Identity Theory",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q95"
+   },
+   "prompt": "Personal identity is based on our unique characteristics, such as our interests, abilities, and traits.",
+   "tags": [
+    "§3.2"
+   ],
+   "answer": true,
+   "explanation": "True. **Personal identity** is based on unique personal characteristics such as interests, abilities and traits."
+  },
+  {
+   "id": "tb3-q096",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Social Identity Theory",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q96"
+   },
+   "prompt": "Social identity is based on our perception that we are similar to many other individuals.",
+   "tags": [
+    "§3.2"
+   ],
+   "answer": false,
+   "explanation": "False. **Social identity** is based on our perception that we *belong* to social groups such as gender, nationality, religion and occupation, not on similarity to many individuals."
+  },
+  {
+   "id": "tb3-q097",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Social Identity Theory",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q97"
+   },
+   "prompt": "Your interest in music and your musical talents can contribute to your personal identity.",
+   "tags": [
+    "§3.2"
+   ],
+   "answer": true,
+   "explanation": "True. Interests and abilities are unique personal characteristics, so they contribute to **personal identity**."
+  },
+  {
+   "id": "tb3-q098",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Social Identity Theory",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q98"
+   },
+   "prompt": "Your gender, religion, and occupation are important in the formation of your personal identity.",
+   "tags": [
+    "§3.2"
+   ],
+   "answer": false,
+   "explanation": "False. Gender, religion and occupation are social-group memberships, so they form **social identity**, not personal identity."
+  },
+  {
+   "id": "tb3-q099",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Prototypes",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q99"
+   },
+   "prompt": "A prototype is a member of a social category who is easy to identify and categorize.",
+   "tags": [
+    "§3.2"
+   ],
+   "answer": false,
+   "explanation": "False. A **prototype** is the set of most typical attributes of a social category, not a member who is easy to identify."
+  },
+  {
+   "id": "tb3-q100",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Women in Management",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q100"
+   },
+   "prompt": "Women have made the most significant progress moving into senior management and executive positions in the paper and forest products industry.",
+   "tags": [
+    "§3.5",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "The 12th edition no longer compares women's progress across industries, so this item about the paper and forest products industry cannot be checked.",
+   "scopeNote": "Written for an older edition: Not in the 12th edition: the text no longer compares women's progress by industry."
+  },
+  {
+   "id": "tb3-q101",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Benefits of Diversity",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q101"
+   },
+   "prompt": "Companies with the highest representation of women in senior management positions have a higher return on equity and a greater return to shareholders than firms with the fewest women in senior positions.",
+   "tags": [
+    "§3.5"
+   ],
+   "answer": true,
+   "explanation": "True. Organizations with more gender-diverse management teams have superior financial performance. The text gives no specific return-on-equity figures."
+  },
+  {
+   "id": "tb3-q102",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Gender Stereotypes",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q102"
+   },
+   "prompt": "Gender stereotypes tend to favour women when they are being considered for \"women's\" jobs.",
+   "tags": [
+    "§3.5"
+   ],
+   "answer": true,
+   "explanation": "True. Gender stereotypes tend to favour women for \"women's\" jobs or tasks, but not for traditional male jobs."
+  },
+  {
+   "id": "tb3-q103",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Managing Diversity",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 3 · Q103"
+   },
+   "prompt": "When women make up a large proportion of an employee group, they tend to suffer a \"tokenism\" effect that exaggerates the effect of stereotypes.",
+   "tags": [
+    "§3.5"
+   ],
+   "answer": false,
+   "explanation": "False. Organizations are advised to hire enough minority members to get beyond **token** status. Once they are not token, the majority looks at individual accomplishments rather than group membership."
+  },
+  {
+   "id": "tb3-q104",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Effects of Trust",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q104"
+   },
+   "prompt": "If an organization wants to improve employees' ability to focus, they should first improve perceived organizational support.",
+   "tags": [
+    "§3.6",
+    "out-of-scope"
+   ],
+   "answer": false,
+   "explanation": "The 12th-edition text never discusses employees' ability to focus or links it to perceived organizational support.",
+   "scopeNote": "Written for an older edition: Not in the 12th edition: the text no longer discusses ability to focus as an outcome of trust or support."
+  },
+  {
+   "id": "tb3-q105",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Perceived Organizational Support",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q105"
+   },
+   "prompt": "If an organization wants to improve perceptions of organizational support, they should make sure that employee compensation is above the industry average.",
+   "tags": [
+    "§3.6"
+   ],
+   "answer": false,
+   "explanation": "False. The text names supportive HR practices: participation in decision making, growth and development, and a **fair** reward and recognition system. It does not require pay above the industry average."
+  },
+  {
+   "id": "tb3-q106",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Perceived Organizational Support",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q106"
+   },
+   "prompt": "If an organization wants to improve perceptions of organizational support, they should make sure that employees have opportunities for growth and development.",
+   "tags": [
+    "§3.6"
+   ],
+   "answer": true,
+   "explanation": "True. Opportunities for **growth and development** are a supportive HR practice that signals the organization values its employees."
+  },
+  {
+   "id": "tb3-q107",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Structured Interviews",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q107"
+   },
+   "prompt": "If an interviewer wants to improve the validity of the employment interview, he/she should focus on selection rather than recruitment.",
+   "tags": [
+    "§3.7"
+   ],
+   "answer": true,
+   "explanation": "True. Interviews that focus on **selection** rather than recruitment are more likely to be structured, and structure improves validity."
+  },
+  {
+   "id": "tb3-q108",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Structured Interviews",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q108"
+   },
+   "prompt": "If an interviewer wants to improve the validity of the employment interview, he/she should focus on recruitment and selection.",
+   "tags": [
+    "§3.7"
+   ],
+   "answer": false,
+   "explanation": "False. Structure is more likely when the interviewer focuses on **selection** rather than recruitment, not on both together."
+  },
+  {
+   "id": "tb3-q109",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Perceptions of Selection Tests",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 3 · Q109"
+   },
+   "prompt": "Among various selection procedures, employment interviews and cognitive ability tests are perceived most favourably.",
+   "tags": [
+    "§3.7"
+   ],
+   "answer": false,
+   "explanation": "False. Interviews and **work samples** are viewed most favourably, followed by cognitive ability tests, then personality and honesty tests."
+  },
+  {
+   "id": "tb3-q111",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Signalling Theory",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q111"
+   },
+   "prompt": "If you are treated poorly during the recruitment process, you will probably not let it affect your perceptions toward the organization.",
+   "tags": [
+    "§3.7"
+   ],
+   "answer": false,
+   "explanation": "False. By **signalling theory**, poor treatment during recruitment signals what the organization is like and so affects your perceptions of it and your likelihood of accepting an offer."
+  },
+  {
+   "id": "tb3-q112",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Perceptions of Selection Tests",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q112",
+    "note": "Key corrected: the text says perceived unfairness in selection leads to negative perceptions of the organization."
+   },
+   "prompt": "If you are asked to take a selection test that you perceive to be unfair, you will probably form a negative perception of the organization.",
+   "tags": [
+    "§3.7"
+   ],
+   "answer": true,
+   "explanation": "True. Applicants form more positive perceptions when selection procedures are seen as **fair**, so an unfair test leads to a less favourable view of the organization."
+  },
+  {
+   "id": "tb3-q113",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Perceptions of Selection Tests",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q113"
+   },
+   "prompt": "If an organization wants job applicants for form positive perceptions of selection fairness, they should have them take an honesty test.",
+   "tags": [
+    "§3.7"
+   ],
+   "answer": false,
+   "explanation": "False. **Honesty tests** are viewed least favourably of the selection procedures, so they would not build perceptions of fairness. Interviews and work samples are viewed most favourably."
+  },
+  {
+   "id": "tb3-q114",
+   "type": "tf",
+   "unit": 3,
+   "topic": "Gender Stereotypes",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 3 · Q114"
+   },
+   "prompt": "When women are successful in traditional male jobs, they are more liked.",
+   "tags": [
+    "§3.5"
+   ],
+   "answer": false,
+   "explanation": "False. Women who succeed in traditional male jobs are **less** liked, which hurts their evaluations and recommendations for rewards."
+  }
+ ]
+}

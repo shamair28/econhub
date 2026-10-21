@@ -1,0 +1,4100 @@
+{
+ "schema": "practice-bank/v1",
+ "id": "1BA3-mt-tb-ch2",
+ "course": "COMM 1BA3",
+ "title": "Test Bank · Ch. 2",
+ "description": "Johns & Saks chapter test bank, Ch. 2 (Personality and Learning): multiple-choice and true/false items, each key re-checked against the 12th-edition text.",
+ "defaultSource": {
+  "label": "Textbook Test Bank",
+  "kind": "textbook"
+ },
+ "defaultUnit": 2,
+ "scenarios": {},
+ "questions": [
+  {
+   "id": "tb2-q001",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Defining Personality",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q1"
+   },
+   "prompt": "An individual's personality encompasses",
+   "tags": [
+    "§2.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "all aspects of the individual's physical and emotional response to their environment."
+    },
+    {
+     "id": "b",
+     "text": "behaviours which are mostly learned through childhood experience."
+    },
+    {
+     "id": "c",
+     "text": "a relatively stable set of psychological characteristics."
+    },
+    {
+     "id": "d",
+     "text": "a constantly shifting set of personal characteristics."
+    },
+    {
+     "id": "e",
+     "text": "all aspects of the individual's consciousness."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "**Personality** is the relatively stable set of psychological characteristics that influences how a person interacts with their environment. It is not constantly shifting, and it is narrower than all of a person's responses or consciousness."
+  },
+  {
+   "id": "tb2-q002",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Weak vs Strong Situations",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q2"
+   },
+   "prompt": "Personality will have the most impact in which situation?",
+   "tags": [
+    "§2.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "situations of medium strength."
+    },
+    {
+     "id": "b",
+     "text": "strong situations with well defined roles, rules, and contingencies."
+    },
+    {
+     "id": "c",
+     "text": "weak situations with well defined roles, rules, and contingencies."
+    },
+    {
+     "id": "d",
+     "text": "both weak and strong situations."
+    },
+    {
+     "id": "e",
+     "text": "weak situations of loosely defined roles with few rules."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": false,
+   "explanation": "Personality has the most impact in **weak situations**, where roles are loosely defined and rules are few. In strong situations with clear roles and rules, behaviour is guided by the situation, so personality matters less."
+  },
+  {
+   "id": "tb2-q003",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Big Five Count",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q3"
+   },
+   "prompt": "Personality is most commonly thought to consist of __________ dimensions.",
+   "tags": [
+    "§2.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "five"
+    },
+    {
+     "id": "b",
+     "text": "six"
+    },
+    {
+     "id": "c",
+     "text": "three"
+    },
+    {
+     "id": "d",
+     "text": "seven"
+    },
+    {
+     "id": "e",
+     "text": "four"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The **Five-Factor Model** (Big Five) describes personality with five general dimensions. Six or seven are not part of the model."
+  },
+  {
+   "id": "tb2-q004",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Extraversion",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q4"
+   },
+   "prompt": "The personality dimension ofextraversion is defined as",
+   "tags": [
+    "§2.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "the degree to which a person thinks flexibly and is receptive to new ideas."
+    },
+    {
+     "id": "b",
+     "text": "the degree to which a person has appropriate emotional control."
+    },
+    {
+     "id": "c",
+     "text": "the extent to which a person is outgoing and enjoys social situations."
+    },
+    {
+     "id": "d",
+     "text": "the extent to which a person is friendly and approachable."
+    },
+    {
+     "id": "e",
+     "text": "the degree to which a person is responsible and achievement oriented."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "**Extraversion** is the extent to which a person is outgoing versus shy and enjoys social situations. Agreeableness, by contrast, is about being friendly and approachable."
+  },
+  {
+   "id": "tb2-q005",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Emotional Stability",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q5"
+   },
+   "prompt": "The personality dimension ofemotional stability is defined as",
+   "tags": [
+    "§2.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "the degree to which a person has appropriate emotional control."
+    },
+    {
+     "id": "b",
+     "text": "the degree to which a person thinks flexibly and is receptive to new ideas."
+    },
+    {
+     "id": "c",
+     "text": "the extent to which a person is outgoing and enjoys social situations."
+    },
+    {
+     "id": "d",
+     "text": "the degree to which a person is responsible and achievement oriented."
+    },
+    {
+     "id": "e",
+     "text": "the extent to which a person is friendly and approachable."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "**Emotional stability** (the opposite of neuroticism) is the degree to which a person has appropriate emotional control. Openness is about flexible thinking, not emotional control."
+  },
+  {
+   "id": "tb2-q006",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Agreeableness",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q6"
+   },
+   "prompt": "The personality dimension of agreeableness is defined as",
+   "tags": [
+    "§2.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "the extent to which a person is friendly and approachable."
+    },
+    {
+     "id": "b",
+     "text": "the degree to which a person thinks flexibly and is receptive to new ideas."
+    },
+    {
+     "id": "c",
+     "text": "the degree to which a person has appropriate emotional control."
+    },
+    {
+     "id": "d",
+     "text": "the extent to which a person is outgoing and enjoys social situations."
+    },
+    {
+     "id": "e",
+     "text": "the degree to which a person is responsible and achievement oriented."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "**Agreeableness** is the extent to which a person is friendly and approachable (warm, cooperative, considerate). Extraversion is the outgoing, social-situation trait, so it is easy to confuse the two."
+  },
+  {
+   "id": "tb2-q007",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Conscientiousness",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q7"
+   },
+   "prompt": "The personality dimension ofconscientiousness is defined as",
+   "tags": [
+    "§2.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "the degree to which a person thinks flexibly and is receptive to new ideas."
+    },
+    {
+     "id": "b",
+     "text": "the extent to which a person is outgoing and enjoys social situations."
+    },
+    {
+     "id": "c",
+     "text": "the degree to which a person is responsible and achievement oriented."
+    },
+    {
+     "id": "d",
+     "text": "the degree to which a person has appropriate emotional control."
+    },
+    {
+     "id": "e",
+     "text": "the extent to which a person is friendly and approachable."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "**Conscientiousness** is the degree to which a person is responsible and achievement oriented (dependable, self-disciplined, hard working). It is not about emotional control, which is emotional stability."
+  },
+  {
+   "id": "tb2-q008",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Openness to Experience",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q8"
+   },
+   "prompt": "The personality dimension ofopenness to experience is defined as",
+   "tags": [
+    "§2.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "the degree to which a person has appropriate emotional control."
+    },
+    {
+     "id": "b",
+     "text": "the degree to which a person is responsible and achievement oriented."
+    },
+    {
+     "id": "c",
+     "text": "the degree to which a person thinks flexibly and is receptive to new ideas."
+    },
+    {
+     "id": "d",
+     "text": "the extent to which a person is friendly and approachable."
+    },
+    {
+     "id": "e",
+     "text": "the extent to which a person is outgoing and enjoys social situations."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "**Openness to experience** is the extent to which a person thinks flexibly and is receptive to new ideas, which supports creativity and innovation. Conscientiousness is about responsibility and achievement instead."
+  },
+  {
+   "id": "tb2-q009",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Extraversion and Absenteeism",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q9"
+   },
+   "prompt": "Recent studies suggest that extraversion is related to absenteeism in a positive direction. This means that",
+   "tags": [
+    "§2.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "the more extraverted a person is, the less absent they are."
+    },
+    {
+     "id": "b",
+     "text": "extraverts tend to be absent more often than introverts."
+    },
+    {
+     "id": "c",
+     "text": "extraverts tend to be absent less often than introverts."
+    },
+    {
+     "id": "d",
+     "text": "the more introverted a person is, the more absent they are."
+    },
+    {
+     "id": "e",
+     "text": "people become more extraverted through higher absenteeism."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "A positive relationship means both variables rise together: more extraverted goes with more absence. The text notes **extraverts tend to be absent more often** than introverts, so the opposite readings are wrong."
+  },
+  {
+   "id": "tb2-q010",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Locus of Control",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q10"
+   },
+   "prompt": "Gary Reynolds is the CEO of Reynolds Software Limited. He attributes his success to careful planning, hard work, and a good business education. In terms of locus of control, Gary is most likely a(n)",
+   "tags": [
+    "§2.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "internal."
+    },
+    {
+     "id": "b",
+     "text": "external."
+    },
+    {
+     "id": "c",
+     "text": "extravert."
+    },
+    {
+     "id": "d",
+     "text": "introvert."
+    },
+    {
+     "id": "e",
+     "text": "high self-monitor."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Gary credits his own planning and effort for his success, which marks an **internal locus of control**. Externals credit luck, fate, or powerful people. Extraversion and self-monitoring are different dimensions."
+  },
+  {
+   "id": "tb2-q011",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Self-Monitoring",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q11"
+   },
+   "prompt": "A person who is a high self-monitor will",
+   "tags": [
+    "§2.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "have difficulty regulating their behaviour in social situations."
+    },
+    {
+     "id": "b",
+     "text": "ignore the situation when determining how to behave."
+    },
+    {
+     "id": "c",
+     "text": "be rather rigid in his or her leadership style."
+    },
+    {
+     "id": "d",
+     "text": "be prone to uncontrollable emotional outbursts."
+    },
+    {
+     "id": "e",
+     "text": "observe the situation when determining how to behave."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "A **high self-monitor** observes the thoughts, actions, and feelings of those around them and regulates their behaviour to fit the situation. A low self-monitor is the one who acts the way they feel regardless of surroundings."
+  },
+  {
+   "id": "tb2-q012",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Low Self-Esteem",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q12"
+   },
+   "prompt": "A person with low self-esteem will likely",
+   "tags": [
+    "§2.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "be less pliable than someone with high self-esteem."
+    },
+    {
+     "id": "b",
+     "text": "be less susceptible to external and social influences."
+    },
+    {
+     "id": "c",
+     "text": "respond well to mentoring."
+    },
+    {
+     "id": "d",
+     "text": "be able to deal with negative feedback."
+    },
+    {
+     "id": "e",
+     "text": "react well to ambiguous stressful situations."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "People with **low self-esteem** are more pliable and look to others for guidance, so they respond well to mentoring and credible models. They are more, not less, susceptible to influence and handle negative feedback and ambiguity poorly."
+  },
+  {
+   "id": "tb2-q013",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Defining Learning",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q13"
+   },
+   "prompt": "Learning is",
+   "tags": [
+    "§2.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "not directly related to behaviour or experience."
+    },
+    {
+     "id": "b",
+     "text": "concerned with both permanent and temporary changes."
+    },
+    {
+     "id": "c",
+     "text": "a relatively permanent change in behaviour potential due to experience."
+    },
+    {
+     "id": "d",
+     "text": "a relatively temporary change in behaviour potential due to experience."
+    },
+    {
+     "id": "e",
+     "text": "related to behaviour more than experience."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": false,
+   "explanation": "**Learning** is a relatively permanent change in behaviour potential due to practice or experience. Temporary changes (such as from drugs) do not count, and learning is tied directly to experience and behaviour."
+  },
+  {
+   "id": "tb2-q014",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Learning Content",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q14"
+   },
+   "prompt": "Which of the following is not one of the four primary categories of learning content in organizations?",
+   "tags": [
+    "§2.4"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "cultural awareness"
+    },
+    {
+     "id": "b",
+     "text": "financial management"
+    },
+    {
+     "id": "c",
+     "text": "practical skills"
+    },
+    {
+     "id": "d",
+     "text": "intrapersonal skills"
+    },
+    {
+     "id": "e",
+     "text": "interpersonal skills"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "The four categories of learning content are **practical skills, intrapersonal skills, interpersonal skills, and cultural awareness**. Financial management is not a category (it would be a kind of practical skill)."
+  },
+  {
+   "id": "tb2-q015",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Social Cognitive Theory",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q15"
+   },
+   "prompt": "Social cognitive theory is most strongly associated with which of the following concepts?",
+   "tags": [
+    "§2.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "punishment"
+    },
+    {
+     "id": "b",
+     "text": "modelling"
+    },
+    {
+     "id": "c",
+     "text": "partial reinforcement"
+    },
+    {
+     "id": "d",
+     "text": "extinction"
+    },
+    {
+     "id": "e",
+     "text": "delayed reinforcement"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "**Social cognitive theory** stresses observational learning, so **modelling** (observing and imitating others) is its signature concept. Punishment, partial reinforcement, extinction, and delayed reinforcement belong to operant learning."
+  },
+  {
+   "id": "tb2-q016",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Reinforcement Strategies",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 2 · Q16"
+   },
+   "prompt": "To obtain the best compromise between the speed of acquisition of a desired response and resistance to its extinction, which reinforcement strategy should be used in training? (In other words, how do we get the fastest learning combined with the strongest resistance to extinction?)",
+   "tags": [
+    "§2.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Begin with self-management and then go to modeling."
+    },
+    {
+     "id": "b",
+     "text": "Begin with delayed and partial reinforcement and gradually go to immediate and continuous reinforcement."
+    },
+    {
+     "id": "c",
+     "text": "Begin with negative reinforcement and gradually change to continuous positive reinforcement."
+    },
+    {
+     "id": "d",
+     "text": "Begin with immediate and continuous reinforcement and gradually go to delayed and partial reinforcement."
+    },
+    {
+     "id": "e",
+     "text": "Continuous reinforcement."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Continuous, immediate reinforcement gives the **fastest learning** but weak persistence; delayed, partial reinforcement gives persistence. Since you cannot maximize both, start continuous and immediate, then gradually thin and delay it."
+  },
+  {
+   "id": "tb2-q017",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Negative Reinforcement",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q17"
+   },
+   "prompt": "Ron is a sensitive person, and he works very hard so that his boss doesn't criticize him. Criticism is a(n) __________ of Ron's work.",
+   "tags": [
+    "§2.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "negative reinforcer"
+    },
+    {
+     "id": "b",
+     "text": "punisher"
+    },
+    {
+     "id": "c",
+     "text": "extinguisher"
+    },
+    {
+     "id": "d",
+     "text": "positive reinforcer"
+    },
+    {
+     "id": "e",
+     "text": "continuous reinforcer"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Ron works hard to avoid criticism, so criticism is removed or prevented by his good work. A stimulus whose **removal** increases a behaviour is a **negative reinforcer**; a punisher would decrease the behaviour."
+  },
+  {
+   "id": "tb2-q018",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Extinction in Practice",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 2 · Q18"
+   },
+   "prompt": "A company converted its machine operators from piece rate pay to hourly pay and found that accidents involving the machines were reduced to almost zero from a previously high level. What can we conclude?",
+   "tags": [
+    "§2.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Unsafe working practices were punished."
+    },
+    {
+     "id": "b",
+     "text": "Hourly pay resulted in bigger paycheques for the machine operators."
+    },
+    {
+     "id": "c",
+     "text": "Safe working practices were positively reinforced."
+    },
+    {
+     "id": "d",
+     "text": "Safe working practices were negatively reinforced."
+    },
+    {
+     "id": "e",
+     "text": "Unsafe working practices were extinguished."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Under piece rate, unsafe shortcuts were reinforced by faster output and higher pay. Moving to hourly pay ended that payoff, so the unsafe behaviour was **extinguished** (reinforcement terminated), not punished."
+  },
+  {
+   "id": "tb2-q019",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Continuous Reinforcement",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 2 · Q19"
+   },
+   "prompt": "A supervisor complimented each of his workers as he or she arrived promptly to work every morning. Due to time constraints, the supervisor had to stop this practice, resulting in a much higher rate of tardiness among his workers. Which of the following statements best explains this situation in operant terms?",
+   "tags": [
+    "§2.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The supervisor's negative reinforcement strategy was stopped, thus extinguishing the behaviour of arriving promptly."
+    },
+    {
+     "id": "b",
+     "text": "The supervisor was using a continuous, immediate reinforcement strategy, and behaviour learned under such conditions is easily extinguishable."
+    },
+    {
+     "id": "c",
+     "text": "The supervisor was using a delayed reinforcement strategy, and behaviour learned under such conditions is easily extinguishable."
+    },
+    {
+     "id": "d",
+     "text": "The supervisor was using a partial reinforcement strategy, and behaviour learned under such conditions is easily extinguishable."
+    },
+    {
+     "id": "e",
+     "text": "The supervisor was inadvertently punishing his workers by not complimenting them, so the workers didn't arrive on time any more."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Compliments after every arrival are **continuous, immediate reinforcement**, which produces fast learning but behaviour that disappears quickly once reinforcement stops. Compliments are a positive, not negative, reinforcer."
+  },
+  {
+   "id": "tb2-q020",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Extinction vs Punishment",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q20"
+   },
+   "prompt": "Which of the following statements concerning extinction is false?",
+   "tags": [
+    "§2.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Extinction works best when coupled with the reinforcement of a desired substitute behaviour."
+    },
+    {
+     "id": "b",
+     "text": "Using the application of an unpleasant stimulus after an unwanted behaviour, extinction can reduce the probability of that behaviour occurring again."
+    },
+    {
+     "id": "c",
+     "text": "Extinction can be successful in reducing an unwanted behaviour by removing the reinforcer of that behaviour."
+    },
+    {
+     "id": "d",
+     "text": "Behaviours learned under delayed or partial reinforcement schedules are more difficult to extinguish than those learned under continuous, immediate reinforcement."
+    },
+    {
+     "id": "e",
+     "text": "Behaviours which are eliminated through extinction may reappear if they become positively reinforced again."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "This false statement describes **punishment** (applying an unpleasant stimulus). **Extinction** works by removing the reinforcer that maintains the behaviour, not by adding anything aversive."
+  },
+  {
+   "id": "tb2-q021",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Reinforcement Strategies",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q21"
+   },
+   "prompt": "Which of the following represents the least effective reinforcement strategy?",
+   "tags": [
+    "§2.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Immediate reinforcement"
+    },
+    {
+     "id": "b",
+     "text": "Negative reinforcement"
+    },
+    {
+     "id": "c",
+     "text": "Continuous reinforcement"
+    },
+    {
+     "id": "d",
+     "text": "Delayed reinforcement"
+    },
+    {
+     "id": "e",
+     "text": "This question cannot be answered accurately as stated."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "No reinforcement strategy is simply the least effective: **continuous and immediate** is best for fast learning, **partial and delayed** is best for persistence. Effectiveness depends on the goal, so the question cannot be answered as stated."
+  },
+  {
+   "id": "tb2-q022",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Models",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q22"
+   },
+   "prompt": "In learning terms, a model is a person who",
+   "tags": [
+    "§2.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "imitates the behaviour of others."
+    },
+    {
+     "id": "b",
+     "text": "has his or her behaviour imitated."
+    },
+    {
+     "id": "c",
+     "text": "seeks a mentor."
+    },
+    {
+     "id": "d",
+     "text": "administers a high degree of positive reinforcement."
+    },
+    {
+     "id": "e",
+     "text": "engages in self-management."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "A **model** is the person whose behaviour is observed and imitated. The learner, not the model, does the imitating."
+  },
+  {
+   "id": "tb2-q023",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Reading Behaviour Change",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q23"
+   },
+   "prompt": "If a behaviour is increasing in probability, we can be certain that it is not being",
+   "tags": [
+    "§2.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "negatively reinforced."
+    },
+    {
+     "id": "b",
+     "text": "extinguished."
+    },
+    {
+     "id": "c",
+     "text": "modeled."
+    },
+    {
+     "id": "d",
+     "text": "positively reinforced."
+    },
+    {
+     "id": "e",
+     "text": "learned."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "If a behaviour is increasing, it is being reinforced (or learned or modelled), so it cannot be undergoing **extinction**, which reduces behaviour. Rising behaviour could be positively or negatively reinforced."
+  },
+  {
+   "id": "tb2-q024",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Rewards vs Reinforcers",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q24"
+   },
+   "prompt": "When we say that organizations sometimes confuse rewards with reinforcers, we mean that",
+   "tags": [
+    "§2.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "the reinforcers are not backed up with attractive rewards."
+    },
+    {
+     "id": "b",
+     "text": "only monetary rewards work as effective reinforcers."
+    },
+    {
+     "id": "c",
+     "text": "people differ as to which rewards are reinforcing."
+    },
+    {
+     "id": "d",
+     "text": "rewards cannot serve as reinforcers."
+    },
+    {
+     "id": "e",
+     "text": "the rewards are not made contingent on a desired behaviour."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Organizations confuse rewards with reinforcers when rewards are **not contingent on the desired behaviour** (for example, overtime assigned by seniority). Rewards can be reinforcers; they just must depend on the behaviour."
+  },
+  {
+   "id": "tb2-q025",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Positive Reinforcers",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q25"
+   },
+   "prompt": "A positive reinforcer is",
+   "tags": [
+    "§2.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "pay."
+    },
+    {
+     "id": "b",
+     "text": "a company car."
+    },
+    {
+     "id": "c",
+     "text": "interesting work."
+    },
+    {
+     "id": "d",
+     "text": "a holiday."
+    },
+    {
+     "id": "e",
+     "text": "There is insufficient information to accurately answer this question."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Whether something is a **positive reinforcer** depends only on whether adding it increases or maintains a behaviour, not on what it is. Pay, holidays, or interesting work might not reinforce anything for a given person."
+  },
+  {
+   "id": "tb2-q026",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Self-Reinforcement",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q26"
+   },
+   "prompt": "The concepts of modelling and self-regulation both assume",
+   "tags": [
+    "§2.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "that extinction is superior to punishment."
+    },
+    {
+     "id": "b",
+     "text": "that all workers prefer the same reinforcers."
+    },
+    {
+     "id": "c",
+     "text": "that learning can occur without reinforcement."
+    },
+    {
+     "id": "d",
+     "text": "that people can reinforce themselves."
+    },
+    {
+     "id": "e",
+     "text": "that cognitive learning cannot occur."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Observational learning and self-regulation both rely on **self-reinforcement**: people can reward themselves, so external control becomes less necessary. Self-reinforcement and cognition are central to social cognitive theory."
+  },
+  {
+   "id": "tb2-q027",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Punishment",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q27"
+   },
+   "prompt": "__________ decreases the probability of a behaviour by the application of a negative stimulus after that behaviour occurs.",
+   "tags": [
+    "§2.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Positive reinforcement"
+    },
+    {
+     "id": "b",
+     "text": "Punishment"
+    },
+    {
+     "id": "c",
+     "text": "Modeling"
+    },
+    {
+     "id": "d",
+     "text": "Extinction"
+    },
+    {
+     "id": "e",
+     "text": "Negative reinforcement"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "**Punishment** decreases the probability of a behaviour by applying an aversive stimulus after it. Negative reinforcement is the opposite: it increases behaviour by removing a nasty stimulus."
+  },
+  {
+   "id": "tb2-q028",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Negative Reinforcement",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q28"
+   },
+   "prompt": "__________ increases the probability of a behaviour by the removal of a negative stimulus after that behaviour occurs.",
+   "tags": [
+    "§2.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Extinction"
+    },
+    {
+     "id": "b",
+     "text": "Positive reinforcement"
+    },
+    {
+     "id": "c",
+     "text": "Punishment"
+    },
+    {
+     "id": "d",
+     "text": "Modeling"
+    },
+    {
+     "id": "e",
+     "text": "Negative reinforcement"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "**Negative reinforcement** increases a behaviour by removing (or preventing) an unpleasant stimulus. Punishment applies an aversive stimulus and decreases behaviour."
+  },
+  {
+   "id": "tb2-q029",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Reducing Behaviour",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q29"
+   },
+   "prompt": "To reduce the probability of some unwanted behaviour we can use",
+   "tags": [
+    "§2.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "positive reinforcement."
+    },
+    {
+     "id": "b",
+     "text": "immediate reinforcement."
+    },
+    {
+     "id": "c",
+     "text": "negative reinforcement."
+    },
+    {
+     "id": "d",
+     "text": "continuous reinforcement."
+    },
+    {
+     "id": "e",
+     "text": "extinction."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "The two ways to reduce a learned behaviour are **extinction** and punishment. Positive and negative reinforcement both increase behaviour, and immediate or continuous describe schedules, not strategies."
+  },
+  {
+   "id": "tb2-q030",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Positive Reinforcement",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q30"
+   },
+   "prompt": "Positive reinforcement __________ the probability of a behaviour by applying a __________ stimulus after that behaviour occurs.",
+   "tags": [
+    "§2.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "increases; pleasant"
+    },
+    {
+     "id": "b",
+     "text": "decreases; pleasant"
+    },
+    {
+     "id": "c",
+     "text": "decreases; nasty"
+    },
+    {
+     "id": "d",
+     "text": "increases; nasty"
+    },
+    {
+     "id": "e",
+     "text": "increases; neutral"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "**Positive reinforcement** increases or maintains a behaviour by applying or adding a pleasant stimulus after it. Decreasing a behaviour is the job of punishment or extinction."
+  },
+  {
+   "id": "tb2-q031",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Punishment Limits",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q31"
+   },
+   "prompt": "Which of the following statements concerning punishment is generally true?",
+   "tags": [
+    "§2.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Managers should punish subordinates in front of other employees to set an example."
+    },
+    {
+     "id": "b",
+     "text": "Punishment differs from negative reinforcement in that punishment removes a nasty stimulus following some behaviour."
+    },
+    {
+     "id": "c",
+     "text": "Managers seldom use punishment to control organizational behaviour."
+    },
+    {
+     "id": "d",
+     "text": "While punishment signals which behaviours are inappropriate, it fails to illustrate correct behaviour."
+    },
+    {
+     "id": "e",
+     "text": "Punishment involves the same process as extinction."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "**Punishment** signals what is inappropriate but does not show the correct behaviour, so alternatives should be provided. Managers should avoid punishing in front of others, and punishment applies (not removes) a nasty stimulus, unlike negative reinforcement."
+  },
+  {
+   "id": "tb2-q032",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Punishment",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q32"
+   },
+   "prompt": "A manager who scolds her employees for being late with the hope that this will stop them from being late is using",
+   "tags": [
+    "§2.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "negative reinforcement."
+    },
+    {
+     "id": "b",
+     "text": "punishment."
+    },
+    {
+     "id": "c",
+     "text": "extinction."
+    },
+    {
+     "id": "d",
+     "text": "modeling."
+    },
+    {
+     "id": "e",
+     "text": "positive reinforcement."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Scolding employees to stop lateness applies an aversive stimulus to **decrease** a behaviour, which is **punishment**. Negative reinforcement would increase a behaviour."
+  },
+  {
+   "id": "tb2-q033",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Persistent Learning",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q33"
+   },
+   "prompt": "Persistent learning is best achieved through",
+   "tags": [
+    "§2.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "partial, immediate reinforcement."
+    },
+    {
+     "id": "b",
+     "text": "punishment."
+    },
+    {
+     "id": "c",
+     "text": "continuous, immediate reinforcement."
+    },
+    {
+     "id": "d",
+     "text": "partial, delayed reinforcement."
+    },
+    {
+     "id": "e",
+     "text": "continuous, delayed reinforcement."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Behaviour is most persistent when learned under **partial and delayed reinforcement**. Continuous, immediate reinforcement produces fast learning but quick extinction. Punishment is not a reinforcement strategy."
+  },
+  {
+   "id": "tb2-q034",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Positive Reinforcers",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q34"
+   },
+   "prompt": "__________ increase or maintain the probability of some response by their __________ the situation in question.",
+   "tags": [
+    "§2.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Negative reinforcers; modeling of"
+    },
+    {
+     "id": "b",
+     "text": "Rewards; removal from"
+    },
+    {
+     "id": "c",
+     "text": "Positive reinforcers; removal from"
+    },
+    {
+     "id": "d",
+     "text": "Positive reinforcers; application or addition to"
+    },
+    {
+     "id": "e",
+     "text": "Negative reinforcers; application or addition to"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "**Positive reinforcers** increase or maintain behaviour by being applied or added to the situation. Negative reinforcers work by their removal."
+  },
+  {
+   "id": "tb2-q035",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Fast Acquisition",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q35"
+   },
+   "prompt": "In order to obtain the fastest acquisition of some response, it should be reinforced",
+   "tags": [
+    "§2.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "after a long delay and continuously."
+    },
+    {
+     "id": "b",
+     "text": "after a long delay and partially."
+    },
+    {
+     "id": "c",
+     "text": "intermittently and cautiously."
+    },
+    {
+     "id": "d",
+     "text": "immediately and partially."
+    },
+    {
+     "id": "e",
+     "text": "immediately and continuously."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "The fastest acquisition of a response comes from **immediate and continuous** reinforcement, applied every time and without delay. Partial or delayed reinforcement slows learning."
+  },
+  {
+   "id": "tb2-q036",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Punishment Risks",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q36"
+   },
+   "prompt": "Managers should be especially careful in administering punishment because",
+   "tags": [
+    "§2.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "over a long period of time, repeated punishment becomes positively reinforcing."
+    },
+    {
+     "id": "b",
+     "text": "punishment must be administered in front of other employees, and this often results in lowered morale."
+    },
+    {
+     "id": "c",
+     "text": "punishment will always lead to the emergence of other undesirable behaviours."
+    },
+    {
+     "id": "d",
+     "text": "punishment has a tendency to provoke a strong emotional reaction on the part of the punished individual."
+    },
+    {
+     "id": "e",
+     "text": "punishment usually has no impact on the behaviour they are trying to eliminate."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Punishment tends to provoke a **strong emotional reaction**, especially when delivered in anger or seen as unfair. It does not always cause other bad behaviour, and it is not usually without effect."
+  },
+  {
+   "id": "tb2-q037",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Punishment Guidelines",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 2 · Q37"
+   },
+   "prompt": "Which of the following statements represents bad advice on administering punishment?",
+   "tags": [
+    "§2.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Punishment should start off with a very mild warning, gradually proceeding to stronger punishment if the offense continues."
+    },
+    {
+     "id": "b",
+     "text": "The chosen punishment should be truly aversive to the individual being punished."
+    },
+    {
+     "id": "c",
+     "text": "Do not reward unwanted behaviours before or after punishment."
+    },
+    {
+     "id": "d",
+     "text": "Do not inadvertently punish desirable behaviour."
+    },
+    {
+     "id": "e",
+     "text": "Punishment should be coupled with an indication of the correct behaviour in the situation."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Effective punishment should be **truly aversive** and **immediate**. Starting with a very mild warning and escalating gradually is bad advice, because it lets the behaviour keep gaining strength through repetition."
+  },
+  {
+   "id": "tb2-q038",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Extinction",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q38"
+   },
+   "prompt": "A manager realizes that her complaints about employee horseplay seem to encourage more horseplay. She resolves to ignore their horseplay in the future. In operant terms, what has she decided to do?",
+   "tags": [
+    "§2.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Negatively reinforce horseplay"
+    },
+    {
+     "id": "b",
+     "text": "Extinguish horseplay"
+    },
+    {
+     "id": "c",
+     "text": "Punish horseplay"
+    },
+    {
+     "id": "d",
+     "text": "Model horseplay"
+    },
+    {
+     "id": "e",
+     "text": "Positively reinforce proper work behaviour"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Her complaints were actually reinforcing the horseplay by giving attention. Ignoring it removes the reinforcer, which is **extinction**; punishment would mean applying an aversive stimulus."
+  },
+  {
+   "id": "tb2-q039",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Reducing Behaviour",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q39"
+   },
+   "prompt": "There are two strategies that can be used to reduce the probability of learned behaviour. They are",
+   "tags": [
+    "§2.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "organizational behaviour modification and reinforcement."
+    },
+    {
+     "id": "b",
+     "text": "modeling and positive reinforcement."
+    },
+    {
+     "id": "c",
+     "text": "negative reinforcement and extinction."
+    },
+    {
+     "id": "d",
+     "text": "extinction and punishment."
+    },
+    {
+     "id": "e",
+     "text": "negative reinforcement and punishment."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "The two strategies for reducing learned behaviour are **extinction and punishment**. Negative reinforcement increases behaviour, so it cannot be part of the pair."
+  },
+  {
+   "id": "tb2-q040",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Punishment Strategy",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q40"
+   },
+   "prompt": "What is the most sensible strategy for administering punishment, as long as conditions permit?",
+   "tags": [
+    "§2.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Intermittently and cautiously"
+    },
+    {
+     "id": "b",
+     "text": "Partially with delay"
+    },
+    {
+     "id": "c",
+     "text": "Continuously and immediately"
+    },
+    {
+     "id": "d",
+     "text": "Partially and immediately"
+    },
+    {
+     "id": "e",
+     "text": "Continuously with delay"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "The text advises punishing **immediately**, because delay lets unwanted behaviour gain strength. Delaying is only a fallback when immediate punishment is impractical (then reinstate the circumstances)."
+  },
+  {
+   "id": "tb2-q041",
+   "type": "mc",
+   "unit": 2,
+   "topic": "O.B. Mod Safety Study",
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 2 · Q41"
+   },
+   "prompt": "The book described a company that posted a feedback chart in the workplace to indicate the percentage of safe behaviours observers noted every three days. Which of the following is not true about this practice?",
+   "tags": [
+    "§2.8"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The scheme was designed to improve safe working practices."
+    },
+    {
+     "id": "b",
+     "text": "It was an example of positive reinforcement."
+    },
+    {
+     "id": "c",
+     "text": "The posting of safe behaviours every three days is essentially a delayed, continuous reinforcement strategy."
+    },
+    {
+     "id": "d",
+     "text": "It was an example of organizational behaviour modification."
+    },
+    {
+     "id": "e",
+     "text": "It was an example of self-regulation."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "The feedback chart and supervisor praise were **O.B. Mod**, with positive reinforcement from outside the workers. It was not **self-regulation**, where employees themselves observe, evaluate, and reinforce their own behaviour."
+  },
+  {
+   "id": "tb2-q042",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Extinction",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q42"
+   },
+   "prompt": "Stop reinforcement to __________ a behaviour.",
+   "tags": [
+    "§2.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "model"
+    },
+    {
+     "id": "b",
+     "text": "punish"
+    },
+    {
+     "id": "c",
+     "text": "learn"
+    },
+    {
+     "id": "d",
+     "text": "extinguish"
+    },
+    {
+     "id": "e",
+     "text": "strengthen"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "To **extinguish** a behaviour, stop the reinforcement that maintains it. Strengthening a behaviour requires reinforcement."
+  },
+  {
+   "id": "tb2-q043",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Punishment Difficulty",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q43"
+   },
+   "prompt": "The most difficult tactic for a manager to use effectively is",
+   "tags": [
+    "§2.6"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "modeling."
+    },
+    {
+     "id": "b",
+     "text": "positive reinforcement."
+    },
+    {
+     "id": "c",
+     "text": "extinction."
+    },
+    {
+     "id": "d",
+     "text": "negative reinforcement."
+    },
+    {
+     "id": "e",
+     "text": "punishment."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "**Punishment** is the hardest tactic to use well: it should be limited in emotion, immediate, truly aversive, and paired with a correct alternative. The text calls reinforcement and extinction safer strategies."
+  },
+  {
+   "id": "tb2-q044",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Self-Regulation Techniques",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q44"
+   },
+   "prompt": "The process of self-regulation can include",
+   "tags": [
+    "§2.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "rehearsal."
+    },
+    {
+     "id": "b",
+     "text": "collection of self-observation data."
+    },
+    {
+     "id": "c",
+     "text": "observation of models."
+    },
+    {
+     "id": "d",
+     "text": "goal setting."
+    },
+    {
+     "id": "e",
+     "text": "all of the above."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": false,
+   "explanation": "Self-regulation can include **collecting self-observation data, observing models, setting goals, rehearsing, and reinforcing oneself**. All of the listed items qualify."
+  },
+  {
+   "id": "tb2-q045",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Punishment Schedule",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q45"
+   },
+   "prompt": "Which of the following represents the most effective punishment strategy?",
+   "tags": [
+    "§2.6",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "Partial"
+    },
+    {
+     "id": "b",
+     "text": "Delayed"
+    },
+    {
+     "id": "c",
+     "text": "Continuous"
+    },
+    {
+     "id": "d",
+     "text": "Intermittent"
+    },
+    {
+     "id": "e",
+     "text": "This question cannot be answered accurately as stated."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "The 12th edition says to punish **immediately** so unwanted behaviour does not gain strength; it does not discuss continuous versus partial punishment. Partial or delayed punishment was traditionally less effective.",
+   "scopeNote": "Written for an older edition: The 12th edition only says to punish immediately and no longer discusses continuous versus partial punishment."
+  },
+  {
+   "id": "tb2-q046",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Resistance to Extinction",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q46"
+   },
+   "prompt": "To make behaviour most resistant to extinction, it should be learned under __________ reinforcement.",
+   "tags": [
+    "§2.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "continuous and immediate"
+    },
+    {
+     "id": "b",
+     "text": "partial and immediate"
+    },
+    {
+     "id": "c",
+     "text": "negative"
+    },
+    {
+     "id": "d",
+     "text": "continuous and delayed"
+    },
+    {
+     "id": "e",
+     "text": "partial and delayed"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Behaviour is most resistant to extinction when learned under **partial and delayed reinforcement**. Continuous, immediate learning disappears fast once reinforcement stops."
+  },
+  {
+   "id": "tb2-q047",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Modelling",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q47"
+   },
+   "prompt": "In the text, modelling is described as a process of",
+   "tags": [
+    "§2.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "reinforcing others."
+    },
+    {
+     "id": "b",
+     "text": "punishing others."
+    },
+    {
+     "id": "c",
+     "text": "showing others."
+    },
+    {
+     "id": "d",
+     "text": "managing others."
+    },
+    {
+     "id": "e",
+     "text": "imitating others."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "In the text, **modelling** (observational learning) is the process of observing and **imitating** the behaviour of others."
+  },
+  {
+   "id": "tb2-q048",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Interactionist Approach",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q48"
+   },
+   "prompt": "According to the __________ approach, organizational behaviour is a function of both dispositions and the situation.",
+   "tags": [
+    "§2.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "operant learning"
+    },
+    {
+     "id": "b",
+     "text": "contingency"
+    },
+    {
+     "id": "c",
+     "text": "interactionist"
+    },
+    {
+     "id": "d",
+     "text": "social cognitive"
+    },
+    {
+     "id": "e",
+     "text": "personality"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "The **interactionist approach** says behaviour is a function of both dispositions and the situation. It is now the most widely accepted perspective in OB."
+  },
+  {
+   "id": "tb2-q049",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Situational Approach",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q49"
+   },
+   "prompt": "If an organization decides to change the characteristics of work tasks in order to improve employee satisfaction and performance, what approach to organizational behaviour are they following?",
+   "tags": [
+    "§2.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "personality approach"
+    },
+    {
+     "id": "b",
+     "text": "dispositional approach"
+    },
+    {
+     "id": "c",
+     "text": "situational approach"
+    },
+    {
+     "id": "d",
+     "text": "interactionist approach"
+    },
+    {
+     "id": "e",
+     "text": "operant learning approach"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Changing the characteristics of work tasks targets the work setting, so this is the **situational approach**. The dispositional approach focuses on individual traits, and interactionism combines both."
+  },
+  {
+   "id": "tb2-q050",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Dispositional Approach",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q50"
+   },
+   "prompt": "If an organization decides to use personality tests in the hiring of employees in order to improve employee satisfaction and performance, what approach to organizational behaviour are they following?",
+   "tags": [
+    "§2.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "situational approach"
+    },
+    {
+     "id": "b",
+     "text": "dispositional approach"
+    },
+    {
+     "id": "c",
+     "text": "military approach"
+    },
+    {
+     "id": "d",
+     "text": "testing approach"
+    },
+    {
+     "id": "e",
+     "text": "interactionist approach"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Using personality tests to hire people relies on stable individual traits, which is the **dispositional approach**. Interactionism would consider the situation as well."
+  },
+  {
+   "id": "tb2-q051",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Interactionist Approach",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q51"
+   },
+   "prompt": "Which of the following is the most widely accepted perspective within organizational behaviour?",
+   "tags": [
+    "§2.1"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "the five-factor approach"
+    },
+    {
+     "id": "b",
+     "text": "the situational approach"
+    },
+    {
+     "id": "c",
+     "text": "the dispositional approach"
+    },
+    {
+     "id": "d",
+     "text": "the personality approach"
+    },
+    {
+     "id": "e",
+     "text": "the interactionist approach"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "The **interactionist approach** is now the most widely accepted perspective, because both dispositions and the situation help explain organizational behaviour."
+  },
+  {
+   "id": "tb2-q052",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Big Five and Employment",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q52"
+   },
+   "prompt": "Which of the following is related to the probability of obtaining employment?",
+   "tags": [
+    "§2.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "extraversion"
+    },
+    {
+     "id": "b",
+     "text": "conscientiousness"
+    },
+    {
+     "id": "c",
+     "text": "emotional stability"
+    },
+    {
+     "id": "d",
+     "text": "openness to experience"
+    },
+    {
+     "id": "e",
+     "text": "agreeableness"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "High **conscientiousness** in adolescence is related to lower unemployment throughout adulthood, so it is linked to the probability of being employed. Other traits are tied to income or satisfaction instead."
+  },
+  {
+   "id": "tb2-q053",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Behavioural Plasticity",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q53"
+   },
+   "prompt": "According to behavioural plasticity theory,",
+   "tags": [
+    "§2.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "people's self-esteem can easily be changed in response to external and social influences."
+    },
+    {
+     "id": "b",
+     "text": "people's behaviour will only change when their self-esteem is threatened."
+    },
+    {
+     "id": "c",
+     "text": "the best way to change people's behaviour is to use external and social influence."
+    },
+    {
+     "id": "d",
+     "text": "people with high self-esteem are more likely to benefit from external and social influences."
+    },
+    {
+     "id": "e",
+     "text": "people with low self-esteem are more susceptible to external and social influences."
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "**Behavioural plasticity theory** says people with low self-esteem are more susceptible to external and social influences (more pliable). High self-esteem people are less swayed, and the theory is not about changing self-esteem itself."
+  },
+  {
+   "id": "tb2-q054",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Affective Dispositions",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q54"
+   },
+   "prompt": "Which of the following is an emotional disposition that predicts people's general emotional tendencies?",
+   "tags": [
+    "§2.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "locus of control"
+    },
+    {
+     "id": "b",
+     "text": "general self-efficacy"
+    },
+    {
+     "id": "c",
+     "text": "proactive personality"
+    },
+    {
+     "id": "d",
+     "text": "positive affectivity"
+    },
+    {
+     "id": "e",
+     "text": "self-esteem"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "**Positive affectivity** is an emotional disposition that predicts general emotional tendencies and moods. Locus of control, GSE, and self-esteem are not affective dispositions."
+  },
+  {
+   "id": "tb2-q055",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Proactive Personality",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q55"
+   },
+   "prompt": "A person who is relatively unconstrained by situational forces and acts to change and influence the environment has what kind of personality?",
+   "tags": [
+    "§2.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "internal locus of control"
+    },
+    {
+     "id": "b",
+     "text": "high self-esteem"
+    },
+    {
+     "id": "c",
+     "text": "proactive personality"
+    },
+    {
+     "id": "d",
+     "text": "positive affect"
+    },
+    {
+     "id": "e",
+     "text": "general self-efficacy"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "A **proactive personality** is relatively unconstrained by situational forces and acts to change and influence the environment. General self-efficacy concerns belief in one's ability, not changing the environment."
+  },
+  {
+   "id": "tb2-q056",
+   "type": "mc",
+   "unit": 2,
+   "topic": "General Self-Efficacy",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q56"
+   },
+   "prompt": "Which of the following is an example of a motivational trait?",
+   "tags": [
+    "§2.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "general self-efficacy"
+    },
+    {
+     "id": "b",
+     "text": "self-esteem"
+    },
+    {
+     "id": "c",
+     "text": "core self-evaluations"
+    },
+    {
+     "id": "d",
+     "text": "emotional stability"
+    },
+    {
+     "id": "e",
+     "text": "positive affectivity"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "**General self-efficacy** is a motivational trait because it reflects belief that one can succeed at many tasks. Positive affectivity, by contrast, is an affective (emotional) trait."
+  },
+  {
+   "id": "tb2-q057",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Core Self-Evaluations",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q57"
+   },
+   "prompt": "Which one of the dimensions of the five-factor model of personality is also one of the traits of core self-evaluations?",
+   "tags": [
+    "§2.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "openness to experience"
+    },
+    {
+     "id": "b",
+     "text": "extraversion"
+    },
+    {
+     "id": "c",
+     "text": "conscientiousness"
+    },
+    {
+     "id": "d",
+     "text": "agreeableness"
+    },
+    {
+     "id": "e",
+     "text": "emotional stability"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "The four CSE traits are self-esteem, general self-efficacy, locus of control, and **neuroticism (emotional stability)**. Emotional stability is the only Big Five dimension among them."
+  },
+  {
+   "id": "tb2-q058",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Core Self-Evaluations",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q58"
+   },
+   "prompt": "Which of the following is not one of the traits of core self-evaluations?",
+   "tags": [
+    "§2.3"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "locus of control"
+    },
+    {
+     "id": "b",
+     "text": "self-esteem"
+    },
+    {
+     "id": "c",
+     "text": "general self-efficacy"
+    },
+    {
+     "id": "d",
+     "text": "negative affectivity"
+    },
+    {
+     "id": "e",
+     "text": "neuroticism"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "**Negative affectivity** is not a core self-evaluation trait. The four CSE traits are self-esteem, general self-efficacy, locus of control, and neuroticism."
+  },
+  {
+   "id": "tb2-q059",
+   "type": "mc",
+   "unit": 2,
+   "topic": "O.B. Mod Effects",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q59"
+   },
+   "prompt": "Which of the following best describes the effects of organizational behaviour modification on task performance?",
+   "tags": [
+    "§2.8"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "The effects are the same in all organizations."
+    },
+    {
+     "id": "b",
+     "text": "The effects are strongest in service organizations."
+    },
+    {
+     "id": "c",
+     "text": "The effects are strongest in military organizations."
+    },
+    {
+     "id": "d",
+     "text": "The effects are strongest in manufacturing organizations."
+    },
+    {
+     "id": "e",
+     "text": "It depends on the type of positive reinforcement used."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "The effects of **O.B. Mod** on task performance tend to be stronger in manufacturing than in service organizations. They are not the same everywhere."
+  },
+  {
+   "id": "tb2-q060",
+   "type": "mc",
+   "unit": 2,
+   "topic": "O.B. Mod Reinforcers",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q60"
+   },
+   "prompt": "Which of the following most accurately indicates the forms of positive reinforcement that have been found to be effective for organizational behaviour modification?",
+   "tags": [
+    "§2.8"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "only money"
+    },
+    {
+     "id": "b",
+     "text": "money and social recognition but not feedback"
+    },
+    {
+     "id": "c",
+     "text": "money and feedback but not social recognition"
+    },
+    {
+     "id": "d",
+     "text": "social recognition and feedback but not money"
+    },
+    {
+     "id": "e",
+     "text": "money, feedback, and social recognition"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "**Money, feedback, and social recognition** have all been found to be effective positive reinforcers in O.B. Mod. Feedback and recognition work as well as pay."
+  },
+  {
+   "id": "tb2-q061",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Employee Recognition Programs",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q61"
+   },
+   "prompt": "Which of the following is a key part of an employee recognition program?",
+   "tags": [
+    "§2.8"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "the type of recognition"
+    },
+    {
+     "id": "b",
+     "text": "the type of award"
+    },
+    {
+     "id": "c",
+     "text": "the fairness of the program"
+    },
+    {
+     "id": "d",
+     "text": "the amount of financial reward"
+    },
+    {
+     "id": "e",
+     "text": "public acknowledgement"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "A key part of an **employee recognition program** is public acknowledgment. A financial reward without public praise would not qualify as a recognition program."
+  },
+  {
+   "id": "tb2-q062",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Career Development",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q62"
+   },
+   "prompt": "What are the components of career development?",
+   "tags": [
+    "§2.8",
+    "out-of-scope"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "career management and career advancement"
+    },
+    {
+     "id": "b",
+     "text": "career planning and career management"
+    },
+    {
+     "id": "c",
+     "text": "career decision making and career management"
+    },
+    {
+     "id": "d",
+     "text": "career choice and career planning"
+    },
+    {
+     "id": "e",
+     "text": "career planning and career decision making"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "In older editions, career development was made up of **career planning and career management**. The 12th edition no longer covers career development, so this item cannot be checked against it.",
+   "scopeNote": "Written for an older edition: The 12th edition no longer covers career development, career planning, or career management."
+  },
+  {
+   "id": "tb2-q063",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Behaviour Modelling Training",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q63"
+   },
+   "prompt": "One of the most widely used and effective methods of training is",
+   "tags": [
+    "§2.8"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "behaviour modelling training"
+    },
+    {
+     "id": "b",
+     "text": "organizational behaviour modification"
+    },
+    {
+     "id": "c",
+     "text": "self-efficacy training"
+    },
+    {
+     "id": "d",
+     "text": "social cognitive training"
+    },
+    {
+     "id": "e",
+     "text": "self-regulation training"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "**Behaviour modelling training** is one of the most widely used and effective training methods. O.B. Mod is a different learning practice, based on operant principles."
+  },
+  {
+   "id": "tb2-q064",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Behaviour Modelling Training",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q64"
+   },
+   "prompt": "Research on behaviour modelling training has concluded that it has a positive effect on",
+   "tags": [
+    "§2.8"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "learning and behaviour"
+    },
+    {
+     "id": "b",
+     "text": "learning, skills, and behaviour"
+    },
+    {
+     "id": "c",
+     "text": "learning only"
+    },
+    {
+     "id": "d",
+     "text": "learning and behaviour"
+    },
+    {
+     "id": "e",
+     "text": "learning and skills"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Research concluded that BMT has a positive effect on **learning, skills, and job behaviour**. The options that omit skills are incomplete."
+  },
+  {
+   "id": "tb2-q065",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Behaviour Modelling Training",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q65"
+   },
+   "prompt": "The effects of behaviour modelling training are greatest when",
+   "tags": [
+    "§2.8"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "trainees are instructed to set goals and rewards are used in the work environment"
+    },
+    {
+     "id": "b",
+     "text": "trainees are instructed to set goals"
+    },
+    {
+     "id": "c",
+     "text": "rewards and sanctions are used in the work environment"
+    },
+    {
+     "id": "d",
+     "text": "trainees are instructed to set goals and rewards and sanctions are used in the work environment"
+    },
+    {
+     "id": "e",
+     "text": "trainees are instructed to set goals and sanctions are used in the work environment"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "BMT effects on behaviour were greatest when trainees were told to **set goals** and when **rewards and sanctions** were used in the work environment. Both conditions together, not either alone."
+  },
+  {
+   "id": "tb2-q066",
+   "type": "mc",
+   "unit": 2,
+   "topic": "High Self-Monitors",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q66"
+   },
+   "prompt": "Which of the following is true about high self-monitors?",
+   "tags": [
+    "§2.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "they experience more role stress and less commitment to their organization"
+    },
+    {
+     "id": "b",
+     "text": "they experience less role stress and show higher commitment to their organization"
+    },
+    {
+     "id": "c",
+     "text": "they experience more role stress and show higher commitment to their organization"
+    },
+    {
+     "id": "d",
+     "text": "they experience no role stress and show less commitment to their organization"
+    },
+    {
+     "id": "e",
+     "text": "they experience less role stress and show less commitment to their organization"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "**High self-monitors** tend to be more involved, perform better, and emerge as leaders, but they also experience **more role stress and less commitment** to the organization."
+  },
+  {
+   "id": "tb2-q067",
+   "type": "mc",
+   "unit": 2,
+   "topic": "High Self-Monitors",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q67"
+   },
+   "prompt": "Which of the following is true about high self-monitors?",
+   "tags": [
+    "§2.2"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "they tend to more involved in their jobs and show more commitment to their organization"
+    },
+    {
+     "id": "b",
+     "text": "they tend to be less involved in their jobs and show more commitment to their organization"
+    },
+    {
+     "id": "c",
+     "text": "they tend to be more involved in their jobs and to experience more role stress"
+    },
+    {
+     "id": "d",
+     "text": "they tend to be less involved in their jobs and more likely to emerge as leaders"
+    },
+    {
+     "id": "e",
+     "text": "they tend to be less involved in their jobs and experience more role stress"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "**High self-monitors** are more involved in their jobs but experience more role stress. They also show less (not more) organizational commitment and are more likely, not less, to emerge as leaders."
+  },
+  {
+   "id": "tb2-q068",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Behaviour Modelling Training",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q68"
+   },
+   "prompt": "Luke has just described a set of well-defined behaviours to be learned. What is he doing?",
+   "tags": [
+    "§2.8"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "organizational behaviour modification"
+    },
+    {
+     "id": "b",
+     "text": "self-regulation"
+    },
+    {
+     "id": "c",
+     "text": "career planning"
+    },
+    {
+     "id": "d",
+     "text": "career development"
+    },
+    {
+     "id": "e",
+     "text": "behaviour modelling training"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Describing a set of well-defined behaviours to learn is the first step of **behaviour modelling training** (BMT). O.B. Mod and self-regulation do not follow this step sequence."
+  },
+  {
+   "id": "tb2-q069",
+   "type": "mc",
+   "unit": 2,
+   "topic": "BMT Steps",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q69"
+   },
+   "prompt": "Luke has just described to trainees a set of well-defined behaviours to be learned. What does he need to do next?",
+   "tags": [
+    "§2.8"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "provide a model or models displaying the effective use of those behaviours"
+    },
+    {
+     "id": "b",
+     "text": "provide feedback and social reinforcement to trainees"
+    },
+    {
+     "id": "c",
+     "text": "take necessary steps that are required to achieve an individual's goals and career plans"
+    },
+    {
+     "id": "d",
+     "text": "take steps to maximize the transfer of those behaviours to the job"
+    },
+    {
+     "id": "e",
+     "text": "provide opportunities for trainees to practise using those behaviours"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "After describing the behaviours, the next BMT step is to provide **a model or models** displaying them. Practice, feedback, and transfer come later."
+  },
+  {
+   "id": "tb2-q070",
+   "type": "mc",
+   "unit": 2,
+   "topic": "BMT Steps",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q70"
+   },
+   "prompt": "Luke has just provided opportunities for trainees to practise using newly learned behaviours What does he need to do next?",
+   "tags": [
+    "§2.8"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "provide a model or models displaying the effective use of those behaviours"
+    },
+    {
+     "id": "b",
+     "text": "collect self-observation data"
+    },
+    {
+     "id": "c",
+     "text": "describe to trainees a set of well-defined behaviours to be learned"
+    },
+    {
+     "id": "d",
+     "text": "provide feedback and social reinforcement to trainees"
+    },
+    {
+     "id": "e",
+     "text": "take steps to maximize the transfer of those behaviours to the job"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "After trainees practise, the next BMT step is to provide **feedback and social reinforcement**. Maximizing transfer to the job is the final step."
+  },
+  {
+   "id": "tb2-q071",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Performance Feedback",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q71"
+   },
+   "prompt": "A manager has just provided an employee with information on past performance for the purpose of changing or maintaining performance in specific ways. What is this called?",
+   "tags": [
+    "§2.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "social recognition"
+    },
+    {
+     "id": "b",
+     "text": "modelling"
+    },
+    {
+     "id": "c",
+     "text": "self-regulation"
+    },
+    {
+     "id": "d",
+     "text": "behaviour modelling training"
+    },
+    {
+     "id": "e",
+     "text": "performance feedback"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "**Performance feedback** is quantitative or qualitative information on past performance, given to change or maintain performance. Social recognition is informal praise and appreciation instead."
+  },
+  {
+   "id": "tb2-q072",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Performance Feedback",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q72"
+   },
+   "prompt": "Performance feedback is most effective when it is",
+   "tags": [
+    "§2.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "represented verbally, such as a written description"
+    },
+    {
+     "id": "b",
+     "text": "delivered only after everyone has had a chance to think about the performance"
+    },
+    {
+     "id": "c",
+     "text": "delivered by several observers"
+    },
+    {
+     "id": "d",
+     "text": "delivered immediately after observing performance"
+    },
+    {
+     "id": "e",
+     "text": "conveyed in a negative manner"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Feedback works best when positive, **delivered immediately**, shown visually (graph or chart), and specific. Verbal or written-only, delayed, or negative delivery is less effective."
+  },
+  {
+   "id": "tb2-q073",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Social Recognition",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q73"
+   },
+   "prompt": "When one individual provides informal acknowledgement, attention, praise, approval, or genuine appreciation for work well done to another individual, he/she is is providing",
+   "tags": [
+    "§2.5"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "peer recognition"
+    },
+    {
+     "id": "b",
+     "text": "a good example of a model"
+    },
+    {
+     "id": "c",
+     "text": "performance feedback"
+    },
+    {
+     "id": "d",
+     "text": "continuous and immediate reinforcement"
+    },
+    {
+     "id": "e",
+     "text": "social recognition"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "**Social recognition** is informal acknowledgment, attention, praise, approval, or genuine appreciation for work well done. Performance feedback is information about past performance."
+  },
+  {
+   "id": "tb2-q074",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Triadic Reciprocal Causation",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q74"
+   },
+   "prompt": "The idea of triadic reciprocal causation has its basis in",
+   "tags": [
+    "§2.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "organizational behaviour modification"
+    },
+    {
+     "id": "b",
+     "text": "social cognitive theory"
+    },
+    {
+     "id": "c",
+     "text": "behaviour modelling training"
+    },
+    {
+     "id": "d",
+     "text": "operant learning theory"
+    },
+    {
+     "id": "e",
+     "text": "employee recognition programs"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "**Triadic reciprocal causation** (personal and environmental factors interacting with behaviour) comes from **social cognitive theory**, not operant learning theory."
+  },
+  {
+   "id": "tb2-q075",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Discrepancy Reduction",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q75"
+   },
+   "prompt": "When there exists a discrepancy between one's goals and performance, this is known as",
+   "tags": [
+    "§2.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "discrepancy seduction"
+    },
+    {
+     "id": "b",
+     "text": "discrepancy reduction"
+    },
+    {
+     "id": "c",
+     "text": "discrepancy induction"
+    },
+    {
+     "id": "d",
+     "text": "discrepancy function"
+    },
+    {
+     "id": "e",
+     "text": "discrepancy production"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "When a gap exists between goals and performance, people are motivated to close it, called **discrepancy reduction**. Discrepancy production is about raising goals after attaining them."
+  },
+  {
+   "id": "tb2-q076",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Discrepancy Production",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q76"
+   },
+   "prompt": "When individuals attain their goals, they are likely to set even higher and more challenging goals, a process known as",
+   "tags": [
+    "§2.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "discrepancy induction"
+    },
+    {
+     "id": "b",
+     "text": "discrepancy production"
+    },
+    {
+     "id": "c",
+     "text": "discrepancy seduction"
+    },
+    {
+     "id": "d",
+     "text": "discrepancy function"
+    },
+    {
+     "id": "e",
+     "text": "discrepancy reduction"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Setting higher, more challenging goals after attaining current ones is **discrepancy production**. Discrepancy reduction means closing the gap between goal and performance."
+  },
+  {
+   "id": "tb2-q077",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Discrepancy Production",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q77"
+   },
+   "prompt": "A new manager wants her employees to learn the principles of self-regulation. She has them set a goal so that there is a discrepancy between their goal and their performance. When employees attain their goals, they are likely to",
+   "tags": [
+    "§2.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "stop setting goals"
+    },
+    {
+     "id": "b",
+     "text": "set even higher and more challenging goals"
+    },
+    {
+     "id": "c",
+     "text": "set lower goals"
+    },
+    {
+     "id": "d",
+     "text": "set the same goal"
+    },
+    {
+     "id": "e",
+     "text": "ask the manager to set a new goal"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Employees who attain their goals tend to **set higher and more challenging goals** (discrepancy production). They do not stop, lower, or repeat goals."
+  },
+  {
+   "id": "tb2-q078",
+   "type": "mc",
+   "unit": 2,
+   "topic": "O.B. Mod Findings",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q78"
+   },
+   "prompt": "Which of the following represents the findings of research on organizational behaviour modification?",
+   "tags": [
+    "§2.8"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "performance feedback has stronger effects on performance than money and social recognition"
+    },
+    {
+     "id": "b",
+     "text": "money and social recognition have stronger effects on performance than performance feedback"
+    },
+    {
+     "id": "c",
+     "text": "money has stronger effects on performance than social recognition and performance feedback"
+    },
+    {
+     "id": "d",
+     "text": "social recognition has stronger effects on performance than money and performance feedback"
+    },
+    {
+     "id": "e",
+     "text": "social recognition and performance feedback have the same effects on performance as money"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "In O.B. Mod research, **money** had a stronger effect on performance than social recognition or feedback alone. The three used together had the strongest effect."
+  },
+  {
+   "id": "tb2-q079",
+   "type": "mc",
+   "unit": 2,
+   "topic": "O.B. Mod Findings",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q79"
+   },
+   "prompt": "According to research on organizational behaviour modification, which combination of factors has the strongest effect on task performance?",
+   "tags": [
+    "§2.8"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "money, peer recognition, performance feedback"
+    },
+    {
+     "id": "b",
+     "text": "money, social recognition, formal recognition"
+    },
+    {
+     "id": "c",
+     "text": "money, formal recognition, performance feedback"
+    },
+    {
+     "id": "d",
+     "text": "formal recognition, social recognition, performance feedback"
+    },
+    {
+     "id": "e",
+     "text": "money, social recognition, and performance feedback"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": true,
+   "explanation": "Using **money, social recognition, and performance feedback** together has the strongest effect on task performance. The other combinations swap in formal or peer recognition, which the text does not name as the best combination."
+  },
+  {
+   "id": "tb2-q080",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Triadic Reciprocal Causation",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q80"
+   },
+   "prompt": "According to social cognitive theory, human behaviour can best be explained through a system of",
+   "tags": [
+    "§2.7"
+   ],
+   "options": [
+    {
+     "id": "a",
+     "text": "cognitive reciprocal causation"
+    },
+    {
+     "id": "b",
+     "text": "triadic reciprocal causation"
+    },
+    {
+     "id": "c",
+     "text": "triadic cognitive causation"
+    },
+    {
+     "id": "d",
+     "text": "bidirectional reciprocal causation"
+    },
+    {
+     "id": "e",
+     "text": "triadic bidirectional causation"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Social cognitive theory explains behaviour with **triadic reciprocal causation**, in which personal and environmental factors interact and influence each other and behaviour."
+  },
+  {
+   "id": "tb2-q081",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Defining Personality",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q81"
+   },
+   "prompt": "Personality is the unstable set psychological characteristics that influences the way an individual interacts with the environment.",
+   "tags": [
+    "§2.1"
+   ],
+   "answer": false,
+   "explanation": "False. **Personality** is the *relatively stable* set of psychological characteristics that influences how an individual interacts with the environment, not an unstable set."
+  },
+  {
+   "id": "tb2-q082",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Dispositional Approach",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q82"
+   },
+   "prompt": "According to the dispositional approach, individuals possess stable traits or characteristics that influence their attitudes and behaviours.",
+   "tags": [
+    "§2.1"
+   ],
+   "answer": true,
+   "explanation": "True. The **dispositional approach** holds that individuals possess stable traits or characteristics that influence their attitudes and behaviours."
+  },
+  {
+   "id": "tb2-q083",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Interactionist Approach",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q83"
+   },
+   "prompt": "The dispositional approach is the most widely accepted perspective within organizational behaviour.",
+   "tags": [
+    "§2.1"
+   ],
+   "answer": false,
+   "explanation": "False. The **interactionist approach** (dispositions and situation together) is the most widely accepted perspective. The dispositional approach was set back by mixed research findings."
+  },
+  {
+   "id": "tb2-q084",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Trait Activation",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q84"
+   },
+   "prompt": "An important implication of the situational approach is that some personality characteristics are useful in certain organizational situations.",
+   "tags": [
+    "§2.1"
+   ],
+   "answer": false,
+   "explanation": "False. That implication belongs to the **interactionist approach** (trait activation: some traits are useful in certain situations). The situational approach focuses on the work setting."
+  },
+  {
+   "id": "tb2-q085",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Behavioural Plasticity",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q85"
+   },
+   "prompt": "Behavioural plasticity has to do with how external and social influences can change people's self-esteem.",
+   "tags": [
+    "§2.2"
+   ],
+   "answer": false,
+   "explanation": "False. **Behavioural plasticity theory** says people with low self-esteem are more susceptible to external and social influences on their beliefs and actions. It is not about changing self-esteem itself."
+  },
+  {
+   "id": "tb2-q086",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Negative Affectivity",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q86"
+   },
+   "prompt": "People who have high negative affectivity experience more stressful conditions at work and report higher levels of workplace stress.",
+   "tags": [
+    "§2.3"
+   ],
+   "answer": true,
+   "explanation": "True. High **negative affectivity** is associated with more stressful work conditions and higher reported workplace stress and strain."
+  },
+  {
+   "id": "tb2-q087",
+   "type": "tf",
+   "unit": 2,
+   "topic": "General Self-Efficacy",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q87"
+   },
+   "prompt": "General self-efficacy is a stable personal disposition that reflects a tendency to effect positive change in one's environment.",
+   "tags": [
+    "§2.3"
+   ],
+   "answer": false,
+   "explanation": "False. That describes **proactive personality**. **General self-efficacy** is belief in one's ability to perform successfully in a variety of challenging situations."
+  },
+  {
+   "id": "tb2-q088",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Core Self-Evaluations",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q88"
+   },
+   "prompt": "Core self-evaluations are related to job satisfaction but not life satisfaction.",
+   "tags": [
+    "§2.3"
+   ],
+   "answer": false,
+   "explanation": "False. **Core self-evaluations** are positively related to both job satisfaction and life (and career) satisfaction."
+  },
+  {
+   "id": "tb2-q089",
+   "type": "tf",
+   "unit": 2,
+   "topic": "General Self-Efficacy",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q89"
+   },
+   "prompt": "A good indication of whether or not an individual believes he or she can succeed at a variety of tasks is their general self-efficacy.",
+   "tags": [
+    "§2.3"
+   ],
+   "answer": true,
+   "explanation": "True. **General self-efficacy** reflects belief that one can succeed at a variety of tasks."
+  },
+  {
+   "id": "tb2-q090",
+   "type": "tf",
+   "unit": 2,
+   "topic": "O.B. Mod Findings",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q90"
+   },
+   "prompt": "Money, feedback, and social recognition together have the strongest effect on task performance.",
+   "tags": [
+    "§2.8"
+   ],
+   "answer": true,
+   "explanation": "True. In O.B. Mod, using **money, feedback, and social recognition** together has the strongest effect on task performance."
+  },
+  {
+   "id": "tb2-q091",
+   "type": "tf",
+   "unit": 2,
+   "topic": "O.B. Mod Effects",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q91"
+   },
+   "prompt": "The effects of organizational behaviour modification on task performance tend to be strongest in service organizations.",
+   "tags": [
+    "§2.8"
+   ],
+   "answer": false,
+   "explanation": "False. The effects of **O.B. Mod** on task performance tend to be stronger in manufacturing than in service organizations."
+  },
+  {
+   "id": "tb2-q092",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Personality in OB",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q92"
+   },
+   "prompt": "Personality is a relatively new idea in organizational behaviour research.",
+   "tags": [
+    "§2.1"
+   ],
+   "answer": false,
+   "explanation": "False. Personality has a **long history** in OB, including use of personality tests in military selection after WWII and in business in the 1950s and 1960s."
+  },
+  {
+   "id": "tb2-q093",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Big Five",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q93"
+   },
+   "prompt": "The \"Big 5\" refers to five distinct dimensions of personality.",
+   "tags": [
+    "§2.2"
+   ],
+   "answer": true,
+   "explanation": "True. The **Big Five** (Five-Factor Model) are five general dimensions of personality."
+  },
+  {
+   "id": "tb2-q094",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Big Five Dimensions",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q94"
+   },
+   "prompt": "Altruism is one of the \"Big 5\" personality dimensions.",
+   "tags": [
+    "§2.2"
+   ],
+   "answer": false,
+   "explanation": "False. **Altruism** is not a Big Five dimension. It is a trait associated with agreeableness. The five are extraversion, emotional stability, agreeableness, conscientiousness, and openness."
+  },
+  {
+   "id": "tb2-q095",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Agreeableness",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q95"
+   },
+   "prompt": "Agreeableness means that a person tends to be friendly and approachable.",
+   "tags": [
+    "§2.2"
+   ],
+   "answer": true,
+   "explanation": "True. **Agreeableness** is the extent to which a person is friendly and approachable."
+  },
+  {
+   "id": "tb2-q096",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Locus of Control",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q96"
+   },
+   "prompt": "If you believe that you are being controlled by internal forces, you are an external locus of control person.",
+   "tags": [
+    "§2.2"
+   ],
+   "answer": false,
+   "explanation": "False. Believing you are controlled by internal forces means an **internal** locus of control. Externals believe fate, luck, or powerful people determine their behaviour."
+  },
+  {
+   "id": "tb2-q097",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Locus of Control",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q97"
+   },
+   "prompt": "Locus of control is not a personality dimension.",
+   "tags": [
+    "§2.2"
+   ],
+   "answer": false,
+   "explanation": "False. **Locus of control** is a personality dimension, referring to beliefs about whether behaviour is controlled by internal or external forces."
+  },
+  {
+   "id": "tb2-q098",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Self-Monitoring",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q98"
+   },
+   "prompt": "Being a high self-monitor means that you observe only yourself and no one else.",
+   "tags": [
+    "§2.2"
+   ],
+   "answer": false,
+   "explanation": "False. A **high self-monitor** carefully observes the thoughts, actions, and feelings of *others* and adjusts their own behaviour accordingly, not just themselves."
+  },
+  {
+   "id": "tb2-q099",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Self-Esteem",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q99"
+   },
+   "prompt": "Having high self-esteem means that you have a negative self-evaluation.",
+   "tags": [
+    "§2.2"
+   ],
+   "answer": false,
+   "explanation": "False. **High self-esteem** means a *positive* self-evaluation (favourable self-image)."
+  },
+  {
+   "id": "tb2-q100",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Personality Dimensions",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q100"
+   },
+   "prompt": "Self-esteem, self-monitoring, locus of control, agreeableness, conscientiousness, and emotional stability are all examples of personality characteristics or dimensions.",
+   "tags": [
+    "§2.2"
+   ],
+   "answer": true,
+   "explanation": "True. Self-esteem, self-monitoring, locus of control, and three Big Five dimensions (agreeableness, conscientiousness, emotional stability) are all **personality characteristics** discussed in the chapter."
+  },
+  {
+   "id": "tb2-q101",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Negative Reinforcement vs Punishment",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q101"
+   },
+   "prompt": "Negative reinforcement is a technical term for punishment. In fact, they both mean the same thing.",
+   "tags": [
+    "§2.6"
+   ],
+   "answer": false,
+   "explanation": "False. **Negative reinforcement** removes an unpleasant stimulus and increases behaviour; **punishment** applies an aversive stimulus and decreases behaviour. They are not the same."
+  },
+  {
+   "id": "tb2-q102",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Extinction",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q102"
+   },
+   "prompt": "In technical terms, to extinguish some behaviour, just stop reinforcement.",
+   "tags": [
+    "§2.6"
+   ],
+   "answer": true,
+   "explanation": "True. **Extinction** is accomplished by terminating the reinforcement that maintains the behaviour."
+  },
+  {
+   "id": "tb2-q103",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Continuous Reinforcement",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q103"
+   },
+   "prompt": "Bobby praises every good report his employee produces. This is an example of a partial reinforcement strategy.",
+   "tags": [
+    "§2.5"
+   ],
+   "answer": false,
+   "explanation": "False. Praising *every* good report is **continuous reinforcement**. Partial reinforcement reinforces only some instances."
+  },
+  {
+   "id": "tb2-q104",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Punishment Schedule",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q104"
+   },
+   "prompt": "Punishment is most effective when it is delivered according to a partial and delayed schedule.",
+   "tags": [
+    "§2.6"
+   ],
+   "answer": false,
+   "explanation": "False. Punishment should be applied **immediately**. Delay allows the unwanted behaviour to gain strength through repetition."
+  },
+  {
+   "id": "tb2-q105",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Self-Regulation",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q105"
+   },
+   "prompt": "Self-regulation is closely related to the concept of social cognition.",
+   "tags": [
+    "§2.7"
+   ],
+   "answer": true,
+   "explanation": "True. **Self-regulation** is a component of social cognitive theory, which emphasizes cognitive processes in regulating behaviour."
+  },
+  {
+   "id": "tb2-q106",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Self-Regulation",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q106"
+   },
+   "prompt": "Under self-regulation, employees in effect reinforce themselves.",
+   "tags": [
+    "§2.7"
+   ],
+   "answer": true,
+   "explanation": "True. In **self-regulation**, people observe their own behaviour, compare it to a standard, and reward themselves (self-reinforcement)."
+  },
+  {
+   "id": "tb2-q107",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Models",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q107"
+   },
+   "prompt": "In social cognitive theory, a model is a person who imitates another person's behaviour.",
+   "tags": [
+    "§2.7"
+   ],
+   "answer": false,
+   "explanation": "False. A **model** is the person whose behaviour is observed and imitated, not the person who imitates."
+  },
+  {
+   "id": "tb2-q108",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Rewards vs Reinforcers",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q108"
+   },
+   "prompt": "By definition, all rewards that organizations provide for employees are reinforcers.",
+   "tags": [
+    "§2.5"
+   ],
+   "answer": false,
+   "explanation": "False. Rewards are **reinforcers** only if they increase or maintain a behaviour on which they are contingent. Many organizational rewards are not contingent on specific behaviour."
+  },
+  {
+   "id": "tb2-q109",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Fast Acquisition",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q109"
+   },
+   "prompt": "The very fastest acquisition of behaviour will occur under continuous and delayed reinforcement.",
+   "tags": [
+    "§2.5"
+   ],
+   "answer": false,
+   "explanation": "False. The fastest acquisition occurs under **continuous and immediate** reinforcement. Delay slows learning."
+  },
+  {
+   "id": "tb2-q110",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Observational Learning",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q110"
+   },
+   "prompt": "The imitation of a prominent model (such as a successful and respected CEO) is an example of social cognitive theory.",
+   "tags": [
+    "§2.7"
+   ],
+   "answer": true,
+   "explanation": "True. Imitating a prominent, credible model is **observational learning**, a key component of social cognitive theory."
+  },
+  {
+   "id": "tb2-q111",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Using Punishment",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q111"
+   },
+   "prompt": "It is probably easier for managers to learn to use positive reinforcement effectively than to use punishment effectively.",
+   "tags": [
+    "§2.6"
+   ],
+   "answer": true,
+   "explanation": "True. Reinforcement is a safer strategy; **punishment** has to be applied carefully (control emotions, be immediate, give alternatives), so it is harder to use effectively."
+  },
+  {
+   "id": "tb2-q112",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Punishment vs Extinction",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q112"
+   },
+   "prompt": "In theory, both punishment and extinction should have a similar impact on the probability of behaviour occurring.",
+   "tags": [
+    "§2.6"
+   ],
+   "answer": true,
+   "explanation": "True. Both **punishment and extinction** are the two strategies for reducing the probability of learned behaviour."
+  },
+  {
+   "id": "tb2-q113",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Modelling",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q113"
+   },
+   "prompt": "The modeling process is an example of social cognitive theory.",
+   "tags": [
+    "§2.7"
+   ],
+   "answer": true,
+   "explanation": "True. **Modelling** (observational learning) is a key component of social cognitive theory."
+  },
+  {
+   "id": "tb2-q114",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Effective Models",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q114"
+   },
+   "prompt": "Ironically, the best models in learning terms behave in a subtle and forgettable manner.",
+   "tags": [
+    "§2.7"
+   ],
+   "answer": false,
+   "explanation": "False. Good models are attractive, credible, competent, high-status, and their behaviour is **vivid and memorable**. The text says bores do not make good models."
+  },
+  {
+   "id": "tb2-q115",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Self-Regulation",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q115"
+   },
+   "prompt": "Under the concept of self-regulation, an employee reinforces his or her own behaviour.",
+   "tags": [
+    "§2.7"
+   ],
+   "answer": true,
+   "explanation": "True. Under **self-regulation**, employees use learning principles, including self-reinforcement, to manage their own behaviour."
+  },
+  {
+   "id": "tb2-q116",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Delayed Reinforcement",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q116"
+   },
+   "prompt": "Delayed reinforcement results in slowly learned but persistent behaviour.",
+   "tags": [
+    "§2.5"
+   ],
+   "answer": true,
+   "explanation": "True. **Delayed (and partial) reinforcement** produces slower learning but behaviour that persists when reinforcement is reduced or stopped."
+  },
+  {
+   "id": "tb2-q117",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Negative Reinforcement vs Punishment",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q117"
+   },
+   "prompt": "Negative reinforcement and punishment produce similar results but through different processes.",
+   "tags": [
+    "§2.6"
+   ],
+   "answer": false,
+   "explanation": "False. They produce **opposite** results: negative reinforcement increases behaviour by removing a stimulus; punishment decreases behaviour by applying one."
+  },
+  {
+   "id": "tb2-q118",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Negative Reinforcers",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q118"
+   },
+   "prompt": "Negative reinforcers increase the probability of a behaviour occurring.",
+   "tags": [
+    "§2.5"
+   ],
+   "answer": true,
+   "explanation": "True. **Negative reinforcers** increase the probability of behaviour by their removal. The text stresses this because it confuses many students."
+  },
+  {
+   "id": "tb2-q119",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Punishment Guidelines",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q119"
+   },
+   "prompt": "Punishment stops unwanted behaviours most effectively when it is mild and accompanied by presents or rewards.",
+   "tags": [
+    "§2.6"
+   ],
+   "answer": false,
+   "explanation": "False. Punishment should be **truly aversive** and not accompanied by rewards, since rewarding unwanted behaviour before or after punishment sends confusing signals."
+  },
+  {
+   "id": "tb2-q120",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Effective Models",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q120"
+   },
+   "prompt": "In learning terms, attractive, high status people are often effective models.",
+   "tags": [
+    "§2.7"
+   ],
+   "answer": true,
+   "explanation": "True. Attractive, credible, competent, **high-status** people are most likely to be imitated as models."
+  },
+  {
+   "id": "tb2-q121",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Using Punishment",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q121"
+   },
+   "prompt": "Punishment is the easiest operant technique to use effectively.",
+   "tags": [
+    "§2.6"
+   ],
+   "answer": false,
+   "explanation": "False. **Punishment** is difficult to use effectively, because it provokes emotional reactions and does not show the correct behaviour. Reinforcement and extinction are safer."
+  },
+  {
+   "id": "tb2-q122",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Negative Reinforcement vs Punishment",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q122"
+   },
+   "prompt": "Negative reinforcement is more effective than punishment in stopping unwanted behaviours.",
+   "tags": [
+    "§2.6"
+   ],
+   "answer": false,
+   "explanation": "False. **Negative reinforcement** increases behaviour, so it does not stop unwanted behaviour. Punishment and extinction are the strategies for reducing it."
+  },
+  {
+   "id": "tb2-q123",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Extinction",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q123"
+   },
+   "prompt": "Extinction is accomplished by terminating reinforcement.",
+   "tags": [
+    "§2.6"
+   ],
+   "answer": true,
+   "explanation": "True. **Extinction** involves terminating the reinforcement that maintains unwanted behaviour."
+  },
+  {
+   "id": "tb2-q124",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Conscientiousness and Performance",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q124"
+   },
+   "prompt": "Conscientiousness is the strongest predictor of all of the \"Big Five\" dimensions of overall job performance.",
+   "tags": [
+    "§2.2"
+   ],
+   "answer": true,
+   "explanation": "True. **Conscientiousness** predicts performance in all jobs and is the strongest predictor of overall job performance among the Big Five."
+  },
+  {
+   "id": "tb2-q125",
+   "type": "tf",
+   "unit": 2,
+   "topic": "High Self-Monitors",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q125"
+   },
+   "prompt": "High self-monitors experience less role stress.",
+   "tags": [
+    "§2.2"
+   ],
+   "answer": false,
+   "explanation": "False. **High self-monitors** experience *more* role stress (and less organizational commitment)."
+  },
+  {
+   "id": "tb2-q126",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Affectivity and Creativity",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q126"
+   },
+   "prompt": "Employees who have higher negative affectivity have been found to be more creative at work.",
+   "tags": [
+    "§2.3"
+   ],
+   "answer": false,
+   "explanation": "False. It is employees high in **positive affectivity** who are more creative at work. High negative affectivity goes with poorer performance and engagement."
+  },
+  {
+   "id": "tb2-q127",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Positive Affectivity",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q127"
+   },
+   "prompt": "Positive affect is a key factor that links happiness to success in life and at work.",
+   "tags": [
+    "§2.3"
+   ],
+   "answer": true,
+   "explanation": "True. **Positive affect** is a key factor linking happiness to success at work and in life."
+  },
+  {
+   "id": "tb2-q128",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Performance Feedback",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q128"
+   },
+   "prompt": "A manager who wants to use performance feedback should provide quantitative but not qualitative information on past performance.",
+   "tags": [
+    "§2.5"
+   ],
+   "answer": false,
+   "explanation": "False. **Performance feedback** can be quantitative *or* qualitative information on past performance."
+  },
+  {
+   "id": "tb2-q129",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Performance Feedback",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q129"
+   },
+   "prompt": "Performance feedback is most effective when it is represented visually in a graph or chart form.",
+   "tags": [
+    "§2.5"
+   ],
+   "answer": true,
+   "explanation": "True. Feedback is most effective when **represented visually**, such as in a graph or chart, along with being positive, immediate, and specific."
+  },
+  {
+   "id": "tb2-q130",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Performance Feedback",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q130"
+   },
+   "prompt": "If a manager wants to use performance feedback to change employee behaviour, he/she should convey it after the employee has had some time to think about the performance in question.",
+   "tags": [
+    "§2.5"
+   ],
+   "answer": false,
+   "explanation": "False. Feedback is most effective when **delivered immediately** after the performance is observed, not after a delay."
+  },
+  {
+   "id": "tb2-q131",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Feedback vs Recognition",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q131"
+   },
+   "prompt": "Social recognition and performance feedback are the same thing.",
+   "tags": [
+    "§2.5"
+   ],
+   "answer": false,
+   "explanation": "False. **Performance feedback** is information about past performance; **social recognition** is informal acknowledgment, praise, and appreciation. They are different sources of reinforcement."
+  },
+  {
+   "id": "tb2-q132",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Performance Feedback",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q132"
+   },
+   "prompt": "Performance feedback is most effective when it is represented verbally in written form.",
+   "tags": [
+    "§2.5"
+   ],
+   "answer": false,
+   "explanation": "False. Feedback is most effective when represented **visually** (graph or chart), not verbally or in written form."
+  },
+  {
+   "id": "tb2-q133",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Feedback vs Recognition",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q133"
+   },
+   "prompt": "In order to provide effective performance feedback, a manager should provide employees with informal acknowledgement, attention, praise, approval, and genuine appreciation for work well done.",
+   "tags": [
+    "§2.5"
+   ],
+   "answer": false,
+   "explanation": "False. That describes **social recognition**. Performance feedback is quantitative or qualitative information about past performance."
+  },
+  {
+   "id": "tb2-q134",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Triadic Reciprocal Causation",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q134"
+   },
+   "prompt": "According to operant learning theory, human behaviour can best be explained through a system of triadic reciprocal causation.",
+   "tags": [
+    "§2.7"
+   ],
+   "answer": false,
+   "explanation": "False. **Triadic reciprocal causation** comes from **social cognitive theory**. Operant learning theory explains behaviour by its consequences."
+  },
+  {
+   "id": "tb2-q135",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Discrepancy Production",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q135"
+   },
+   "prompt": "When individuals attain their goals, they are likely to set even higher and more challenging goals.",
+   "tags": [
+    "§2.7"
+   ],
+   "answer": true,
+   "explanation": "True. People who attain goals tend to set higher, more challenging goals (**discrepancy production**)."
+  },
+  {
+   "id": "tb2-q136",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Self-Regulation",
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 2 · Q136"
+   },
+   "prompt": "Self-regulation involves both discrepancy reduction and discrepancy production.",
+   "tags": [
+    "§2.7"
+   ],
+   "answer": true,
+   "explanation": "True. **Discrepancy reduction and discrepancy production** both lie at the heart of the self-regulatory process."
+  },
+  {
+   "id": "tb2-q137",
+   "type": "tf",
+   "unit": 2,
+   "topic": "O.B. Mod Findings",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q137"
+   },
+   "prompt": "Money has been found to have stronger effects than social recognition and performance feedback in organizational behaviour modification.",
+   "tags": [
+    "§2.8"
+   ],
+   "answer": true,
+   "explanation": "True. In O.B. Mod research, **money** had stronger effects on performance than social recognition or performance feedback individually."
+  },
+  {
+   "id": "tb2-q138",
+   "type": "tf",
+   "unit": 2,
+   "topic": "O.B. Mod and Money",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q138"
+   },
+   "prompt": "The effect of money on performance is greater when it is part of a pay-for-performance program than organizational behaviour modification.",
+   "tags": [
+    "§2.8"
+   ],
+   "answer": false,
+   "explanation": "False. The effect of money on performance is greater when provided systematically through **O.B. Mod** than through a routine pay-for-performance program."
+  },
+  {
+   "id": "tb2-q139",
+   "type": "tf",
+   "unit": 2,
+   "topic": "BMT Steps",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q139",
+    "note": "Corrected to the 12th edition: the first step is to describe the behaviours; providing a model is the second step."
+   },
+   "prompt": "The first step of behaviour modelling training is to provide a model or models displaying the effective use of behaviours to be learned.",
+   "tags": [
+    "§2.8"
+   ],
+   "answer": false,
+   "explanation": "False. The first step of **BMT** is to describe the well-defined behaviours to be learned. Providing a model is the second step."
+  },
+  {
+   "id": "tb2-q140",
+   "type": "tf",
+   "unit": 2,
+   "topic": "Behaviour Modelling Training",
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 2 · Q140"
+   },
+   "prompt": "Behaviour modelling training is based on organizational behaviour modification.",
+   "tags": [
+    "§2.8"
+   ],
+   "answer": false,
+   "explanation": "False. **BMT** is based on the observational learning component of social cognitive theory, not on O.B. Mod (operant learning)."
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>COMM 1BA3 — Midterm Practice</title>
+<link rel="stylesheet" href="../practice/graph.css?v=3">
+<link rel="stylesheet" href="../practice/engine.css?v=3">
+<style>
+  html, body { margin: 0; padding: 0; }
+  /* course accent: COMM 1BA3 pink (matches --c-1BA3 in site/site.css) */
+  .pe { --pe-accent: #DB2777; --pe-accent-2: #EC4899; --pe-accent-soft: #FDF2F8; }
+  @media (prefers-color-scheme: dark) { .pe:not([data-theme="light"]) { --pe-accent: #F472B6; --pe-accent-2: #F9A8D4; --pe-accent-soft: #500724; } }
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script src="../practice/graph.js?v=3"></script>
+<script src="../practice/engine.js?v=3"></script>
+<script>
+PracticeEngine.mount(document.getElementById('app'), {
+  id: '1BA3-midterm',
+  course: 'COMM 1BA3',
+  courseTitle: 'Organizational Behaviour',
+  title: 'Midterm Practice',
+  subtitle: 'Ch. 1–6, 10, 11.1–11.5 · Fall 2026 (Dr. Kassaye) · Midterm: Thursday October 29, 2026, 7:30–9:30pm',
+  homeHref: '/',
+  banks: [
+    'banks/1BA3-mt-tb-ch1.json',
+    'banks/1BA3-mt-tb-ch2.json',
+    'banks/1BA3-mt-tb-ch3.json',
+    'banks/1BA3-mt-tb-ch4.json',
+    'banks/1BA3-mt-tb-ch5.json',
+    'banks/1BA3-mt-tb-ch6.json',
+    'banks/1BA3-mt-tb-ch10.json',
+    'banks/1BA3-mt-tb-ch11.json',
+    'banks/1BA3-mt-sme.json'
+  ],
+  scope: {
+    id: 'f26-mt',
+    label: 'Fall 2026 Midterm',
+    units: [1, 2, 3, 4, 5, 6, 10, 11],
+    note: 'The midterm (35%) is **multiple choice** on **Ch. 1–6, Ch. 10 and §11.1–11.5**. Ch. 7–9 and §11.6–11.7 (group decision making) were taught before it but are **final-exam only**. The number of questions hasn\'t been announced; exam mode defaults to 60 in 90 minutes.\n\nMost questions come from the publisher\'s chapter **test bank**. It was written for an older edition, so every key was re-checked against the 12th-edition text: corrected items say so under the explanation, and items on content the current text dropped are hidden with the final-only ones. True/false items are drill only (the midterm is all MC); switch them off under *Question types* for MC only. The **SME Self-Quiz** questions are the ones from the group-assignment prep hub.'
+  },
+  unitWord: 'Ch.',
+  unitNoun: 'chapter',
+  unitNames: {
+    1: 'OB and Management',
+    2: 'Personality and Learning',
+    3: 'Perception, Attribution & Diversity',
+    4: 'Values, Attitudes & Work Behaviour',
+    5: 'Theories of Work Motivation',
+    6: 'Motivation in Practice',
+    10: 'Communication',
+    11: 'Decision Making'
+  },
+  exam: { questions: 60, minutes: 90 }
+});
+</script>
+</body>
+</html>
