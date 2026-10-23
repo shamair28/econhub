@@ -43,6 +43,7 @@ window.HUB_SITE = {
         { n: 2, title: 'Trade-offs, Comparative Advantage, and the Market System' },
         { n: 3, title: 'Where Prices Come From: The Interaction of Supply and Demand' },
         { n: 4, title: 'GDP: Measuring Total Production and Income' },
+        { n: 6, title: 'Economic Growth, the Financial System, and Business Cycles' },
         { n: 7, title: 'Long-Run Economic Growth: Sources and Policies' }
       ],
       tools: [
