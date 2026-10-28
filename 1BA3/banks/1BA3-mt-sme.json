@@ -40,7 +40,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "She is sending information to people <b>inside</b> the organization. Spokesperson sends it <i>outside</i>. Monitor was the act of gathering it at the conference, which already happened. Liaison is about keeping horizontal contacts."
+   "explanation": "She is sending information to people <b>inside</b> the organization. Spokesperson sends it <i>outside</i>. Monitor was the act of gathering it at the conference, which already happened. Liaison is about keeping horizontal contacts.",
+   "tags": [
+    "wk1"
+   ]
   },
   {
    "id": "sme-w1-q02",
@@ -72,7 +75,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "<b>Monitor</b>: scanning the environment for information and trends. Disseminating would be sharing it internally afterwards."
+   "explanation": "<b>Monitor</b>: scanning the environment for information and trends. Disseminating would be sharing it internally afterwards.",
+   "tags": [
+    "wk1"
+   ]
   },
   {
    "id": "sme-w1-q03",
@@ -104,7 +110,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "<b>Spokesperson</b> sends information into the <i>external</i> environment (media, shareholders). Figurehead is symbolic duty, not information transmission."
+   "explanation": "<b>Spokesperson</b> sends information into the <i>external</i> environment (media, shareholders). Figurehead is symbolic duty, not information transmission.",
+   "tags": [
+    "wk1"
+   ]
   },
   {
    "id": "sme-w1-q04",
@@ -136,7 +145,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Handling conflict = <b>disturbance handler</b>. Deploying a scarce resource (overtime) = <b>resource allocator</b>. Both are decisional roles."
+   "explanation": "Handling conflict = <b>disturbance handler</b>. Deploying a scarce resource (overtime) = <b>resource allocator</b>. Both are decisional roles.",
+   "tags": [
+    "wk1"
+   ]
   },
   {
    "id": "sme-w1-q05",
@@ -168,7 +180,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Weber called for <b>centralization</b> of power at the top. Decentralization is the opposite, and it’s what the human relations critics wanted."
+   "explanation": "Weber called for <b>centralization</b> of power at the top. Decentralization is the opposite, and it’s what the human relations critics wanted.",
+   "tags": [
+    "wk1"
+   ]
   },
   {
    "id": "sme-w1-q06",
@@ -200,7 +215,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Hawthorne showed that social and psychological factors affect productivity, and that launched the <b>human relations movement</b>."
+   "explanation": "Hawthorne showed that social and psychological factors affect productivity, and that launched the <b>human relations movement</b>.",
+   "tags": [
+    "wk1"
+   ]
   },
   {
    "id": "sme-w1-q07",
@@ -232,7 +250,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Anticipating behaviour without knowing the cause is <b>predicting</b>. \"Contingency planning\" isn’t one of the three goals."
+   "explanation": "Anticipating behaviour without knowing the cause is <b>predicting</b>. \"Contingency planning\" isn’t one of the three goals.",
+   "tags": [
+    "wk1"
+   ]
   },
   {
    "id": "sme-w1-q08",
@@ -264,7 +285,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Matching the style to the demands of each unit’s situation is the <b>contingency approach</b>, and this is the textbook’s own example."
+   "explanation": "Matching the style to the demands of each unit’s situation is the <b>contingency approach</b>, and this is the textbook’s own example.",
+   "tags": [
+    "wk1"
+   ]
   },
   {
    "id": "sme-w1-q09",
@@ -296,7 +320,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "<b>Functional foremanship</b> is Taylor’s idea (supervisors specialize by function)."
+   "explanation": "<b>Functional foremanship</b> is Taylor’s idea (supervisors specialize by function).",
+   "tags": [
+    "wk1"
+   ]
   },
   {
    "id": "sme-w1-q10",
@@ -328,7 +355,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Networking brings the <b>fastest promotion</b>. Time on <b>HRM</b> brings the most effective units and the most satisfied employees. It’s a trade-off."
+   "explanation": "Networking brings the <b>fastest promotion</b>. Time on <b>HRM</b> brings the most effective units and the most satisfied employees. It’s a trade-off.",
+   "tags": [
+    "wk1"
+   ]
   },
   {
    "id": "sme-w1-q11",
@@ -360,7 +390,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "PsyCap (hope, efficacy, resilience, optimism) is the basis of <b>positive OB</b>, which sits under <b>employee health and well-being</b>."
+   "explanation": "PsyCap (hope, efficacy, resilience, optimism) is the basis of <b>positive OB</b>, which sits under <b>employee health and well-being</b>.",
+   "tags": [
+    "wk1"
+   ]
   },
   {
    "id": "sme-w1-q12",
@@ -392,7 +425,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "<b>Precarious work</b>, which falls under <b>alternative work arrangements</b>."
+   "explanation": "<b>Precarious work</b>, which falls under <b>alternative work arrangements</b>.",
+   "tags": [
+    "wk1"
+   ]
   },
   {
    "id": "sme-w1-q13",
@@ -424,7 +460,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Engagement = <b>vigour, dedication, absorption</b>. Hope/efficacy/resilience/optimism is PsyCap. Meaning/purpose/community is spirituality. Vitality + learning is thriving."
+   "explanation": "Engagement = <b>vigour, dedication, absorption</b>. Hope/efficacy/resilience/optimism is PsyCap. Meaning/purpose/community is spirituality. Vitality + learning is thriving.",
+   "tags": [
+    "wk1"
+   ]
   },
   {
    "id": "sme-w1-q14",
@@ -456,7 +495,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Rules set a minimum acceptable level that turns into the <b>ceiling</b>. The other options reverse the critique: centralization <i>wastes</i> ideas, and specialization <i>causes</i> the red-tape mentality."
+   "explanation": "Rules set a minimum acceptable level that turns into the <b>ceiling</b>. The other options reverse the critique: centralization <i>wastes</i> ideas, and specialization <i>causes</i> the red-tape mentality.",
+   "tags": [
+    "wk1"
+   ]
   },
   {
    "id": "sme-w1-q15",
@@ -488,7 +530,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Taylor = <b>job design</b> and standardizing physical work. Chain of command and promotion rules are Weber’s bureaucracy."
+   "explanation": "Taylor = <b>job design</b> and standardizing physical work. Chain of command and promotion rules are Weber’s bureaucracy.",
+   "tags": [
+    "wk1"
+   ]
   },
   {
    "id": "sme-w1-q16",
@@ -520,7 +565,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "<b>Situation + Thinking = Response.</b> People respond to how they interpret a situation, not to the situation itself."
+   "explanation": "<b>Situation + Thinking = Response.</b> People respond to how they interpret a situation, not to the situation itself.",
+   "tags": [
+    "wk1"
+   ]
   },
   {
    "id": "sme-w1-q17",
@@ -552,7 +600,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "<b>Read, Set, Close, Check</b>: step 1 is the <b>current state</b>, diagnosed with <b>SWOT</b>."
+   "explanation": "<b>Read, Set, Close, Check</b>: step 1 is the <b>current state</b>, diagnosed with <b>SWOT</b>.",
+   "tags": [
+    "wk1"
+   ]
   },
   {
    "id": "sme-w1-q18",
@@ -584,7 +635,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "CSR aimed at the <b>workforce</b> is <b>internal CSR</b>. The community and environment work is external CSR."
+   "explanation": "CSR aimed at the <b>workforce</b> is <b>internal CSR</b>. The community and environment work is external CSR.",
+   "tags": [
+    "wk1"
+   ]
   },
   {
    "id": "sme-w2-q01",
@@ -616,7 +670,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "<b>Conscientiousness</b> is the strongest, most universal predictor. Extraversion matters mostly in interpersonal jobs, openness in creative ones, and agreeableness in helping and teamwork jobs."
+   "explanation": "<b>Conscientiousness</b> is the strongest, most universal predictor. Extraversion matters mostly in interpersonal jobs, openness in creative ones, and agreeableness in helping and teamwork jobs.",
+   "tags": [
+    "wk2"
+   ]
   },
   {
    "id": "sme-w2-q02",
@@ -648,7 +705,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Beliefs that outside forces control outcomes = <b>external locus of control</b>. CSE is a four-trait bundle, and the scenario gives no evidence on the other three."
+   "explanation": "Beliefs that outside forces control outcomes = <b>external locus of control</b>. CSE is a four-trait bundle, and the scenario gives no evidence on the other three.",
+   "tags": [
+    "wk2"
+   ]
   },
   {
    "id": "sme-w2-q03",
@@ -680,7 +740,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "CSE = self-esteem, general self-efficacy, locus of control and neuroticism. <b>Extraversion</b> is the classic distractor."
+   "explanation": "CSE = self-esteem, general self-efficacy, locus of control and neuroticism. <b>Extraversion</b> is the classic distractor.",
+   "tags": [
+    "wk2"
+   ]
   },
   {
    "id": "sme-w2-q04",
@@ -712,7 +775,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "PA and NA are <b>independent</b>, not opposites. This is a common true/false trap."
+   "explanation": "PA and NA are <b>independent</b>, not opposites. This is a common true/false trap.",
+   "tags": [
+    "wk2"
+   ]
   },
   {
    "id": "sme-w2-q05",
@@ -744,7 +810,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "<b>Weak situations</b> let personality show. Strong situations constrain it (interactionist view)."
+   "explanation": "<b>Weak situations</b> let personality show. Strong situations constrain it (interactionist view).",
+   "tags": [
+    "wk2"
+   ]
   },
   {
    "id": "sme-w2-q06",
@@ -776,7 +845,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "The outcome was fine (distributive OK). The <b>manner of treatment and explanation</b> was the problem, which is <b>interactional</b>. People who experience it tend to blame the boss personally."
+   "explanation": "The outcome was fine (distributive OK). The <b>manner of treatment and explanation</b> was the problem, which is <b>interactional</b>. People who experience it tend to blame the boss personally.",
+   "tags": [
+    "wk2"
+   ]
   },
   {
    "id": "sme-w2-q07",
@@ -808,7 +880,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "The complaint is about the <b>process</b>: no two-way communication, no appeals. That’s <b>procedural</b> fairness."
+   "explanation": "The complaint is about the <b>process</b>: no two-way communication, no appeals. That’s <b>procedural</b> fairness.",
+   "tags": [
+    "wk2"
+   ]
   },
   {
    "id": "sme-w2-q08",
@@ -840,7 +915,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Staying because of the <b>costs of leaving</b> (\"have to\") is <b>continuance</b>. It’s also the type that’s negatively related to performance."
+   "explanation": "Staying because of the <b>costs of leaving</b> (\"have to\") is <b>continuance</b>. It’s also the type that’s negatively related to performance.",
+   "tags": [
+    "wk2"
+   ]
   },
   {
    "id": "sme-w2-q09",
@@ -872,7 +950,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "<b>Continuance</b> commitment is negatively related to performance. Affective commitment boosts it."
+   "explanation": "<b>Continuance</b> commitment is negatively related to performance. Affective commitment boosts it.",
+   "tags": [
+    "wk2"
+   ]
   },
   {
    "id": "sme-w2-q10",
@@ -904,7 +985,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Both are low power distance, weak uncertainty avoidance, individualist and short-term. The <b>US is more masculine</b> than Canada."
+   "explanation": "Both are low power distance, weak uncertainty avoidance, individualist and short-term. The <b>US is more masculine</b> than Canada.",
+   "tags": [
+    "wk2"
+   ]
   },
   {
    "id": "sme-w2-q11",
@@ -936,7 +1020,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Discomfort with ambiguity and a preference for rules = <b>strong uncertainty avoidance</b> (e.g., Japan, Greece, Portugal)."
+   "explanation": "Discomfort with ambiguity and a preference for rules = <b>strong uncertainty avoidance</b> (e.g., Japan, Greece, Portugal).",
+   "tags": [
+    "wk2"
+   ]
   },
   {
    "id": "sme-w2-q12",
@@ -968,7 +1055,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Conforming to display rules regardless of true feelings is <b>emotional labour</b>. Suppressing negative emotion is the draining form."
+   "explanation": "Conforming to display rules regardless of true feelings is <b>emotional labour</b>. Suppressing negative emotion is the draining form.",
+   "tags": [
+    "wk2"
+   ]
   },
   {
    "id": "sme-w2-q13",
@@ -1000,7 +1090,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Moods spreading between people = <b>emotional contagion</b>."
+   "explanation": "Moods spreading between people = <b>emotional contagion</b>.",
+   "tags": [
+    "wk2"
+   ]
   },
   {
    "id": "sme-w2-q14",
@@ -1032,7 +1125,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "This text lists helping, conscientiousness, being a good sport, and courtesy/cooperation. <b>Civic virtue</b> isn’t in it."
+   "explanation": "This text lists helping, conscientiousness, being a good sport, and courtesy/cooperation. <b>Civic virtue</b> isn’t in it.",
+   "tags": [
+    "wk2"
+   ]
   },
   {
    "id": "sme-w2-q15",
@@ -1064,7 +1160,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Perceive → Use → Understand → <b>Manage</b> (PUUM), lowest to highest."
+   "explanation": "Perceive → Use → Understand → <b>Manage</b> (PUUM), lowest to highest.",
+   "tags": [
+    "wk2"
+   ]
   },
   {
    "id": "sme-w2-q16",
@@ -1096,7 +1195,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Those three are <b>social awareness</b>. Relationship management is influence, conflict management, teamwork and the rest."
+   "explanation": "Those three are <b>social awareness</b>. Relationship management is influence, conflict management, teamwork and the rest.",
+   "tags": [
+    "wk2"
+   ]
   },
   {
    "id": "sme-w2-q17",
@@ -1128,7 +1230,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "The text lists knowledge, motivation and behaviour. The lecture adds <b>Strategy</b> (metacognitive)."
+   "explanation": "The text lists knowledge, motivation and behaviour. The lecture adds <b>Strategy</b> (metacognitive).",
+   "tags": [
+    "wk2"
+   ]
   },
   {
    "id": "sme-w2-q18",
@@ -1160,7 +1265,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "The evidence supports an <b>additive</b> model, not the popular multiplicative one."
+   "explanation": "The evidence supports an <b>additive</b> model, not the popular multiplicative one.",
+   "tags": [
+    "wk2"
+   ]
   },
   {
    "id": "sme-w2-q19",
@@ -1192,7 +1300,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "<b>Facet</b> satisfactions can differ while the <b>overall</b> summary is the same."
+   "explanation": "<b>Facet</b> satisfactions can differ while the <b>overall</b> summary is the same.",
+   "tags": [
+    "wk2"
+   ]
   },
   {
    "id": "sme-w2-q20",
@@ -1224,7 +1335,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Satisfaction rises after a job change (honeymoon), then falls as the new job’s flaws show (<b>hangover</b>)."
+   "explanation": "Satisfaction rises after a job change (honeymoon), then falls as the new job’s flaws show (<b>hangover</b>).",
+   "tags": [
+    "wk2"
+   ]
   },
   {
    "id": "sme-w2-q21",
@@ -1256,7 +1370,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "T/F is the <b>deciding</b> preference. E/I = energy, S/N = information, J/P = handling the world."
+   "explanation": "T/F is the <b>deciding</b> preference. E/I = energy, S/N = information, J/P = handling the world.",
+   "tags": [
+    "wk2"
+   ]
   },
   {
    "id": "sme-w3-q01",
@@ -1288,7 +1405,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "High consistency (every week) + low consensus (teammates don’t) + low distinctiveness (the last job too) = <b>dispositional</b>. If workload were the cause, teammates would miss deadlines too."
+   "explanation": "High consistency (every week) + low consensus (teammates don’t) + low distinctiveness (the last job too) = <b>dispositional</b>. If workload were the cause, teammates would miss deadlines too.",
+   "tags": [
+    "wk3"
+   ]
   },
   {
    "id": "sme-w3-q02",
@@ -1320,7 +1440,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Actor = situational, observer = dispositional, for the <b>same</b> behaviour. That’s the <b>actor–observer effect</b>."
+   "explanation": "Actor = situational, observer = dispositional, for the <b>same</b> behaviour. That’s the <b>actor–observer effect</b>.",
+   "tags": [
+    "wk3"
+   ]
   },
   {
    "id": "sme-w3-q03",
@@ -1352,7 +1475,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Clustering ratings in the <b>middle</b> is <b>central tendency</b>. Leniency clusters at the high end."
+   "explanation": "Clustering ratings in the <b>middle</b> is <b>central tendency</b>. Leniency clusters at the high end.",
+   "tags": [
+    "wk3"
+   ]
   },
   {
    "id": "sme-w3-q04",
@@ -1384,7 +1510,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "The earlier candidates distorted the perception of the current one. That’s a <b>contrast effect</b>."
+   "explanation": "The earlier candidates distorted the perception of the current one. That’s a <b>contrast effect</b>.",
+   "tags": [
+    "wk3"
+   ]
   },
   {
    "id": "sme-w3-q05",
@@ -1416,7 +1545,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "The text says <i>most</i>, not all, are inaccurate. Favourable ones exist, and stereotyping thrives when the perceiver <i>lacks</i> information."
+   "explanation": "The text says <i>most</i>, not all, are inaccurate. Favourable ones exist, and stereotyping thrives when the perceiver <i>lacks</i> information.",
+   "tags": [
+    "wk3"
+   ]
   },
   {
    "id": "sme-w3-q06",
@@ -1448,7 +1580,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Success → disposition, failure → situation, for <b>one’s own</b> outcomes. That’s <b>self-serving bias</b>."
+   "explanation": "Success → disposition, failure → situation, for <b>one’s own</b> outcomes. That’s <b>self-serving bias</b>.",
+   "tags": [
+    "wk3"
+   ]
   },
   {
    "id": "sme-w3-q07",
@@ -1480,7 +1615,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Categorization, then <b>cue selectivity</b>, then categorization strengthened is <b>Bruner’s model</b>. This is the textbook’s own example."
+   "explanation": "Categorization, then <b>cue selectivity</b>, then categorization strengthened is <b>Bruner’s model</b>. This is the textbook’s own example.",
+   "tags": [
+    "wk3"
+   ]
   },
   {
    "id": "sme-w3-q08",
@@ -1512,7 +1650,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Too many stimuli to process is a <b>selection</b> problem (stage 3). Remember \"SOS, Oh I see.\""
+   "explanation": "Too many stimuli to process is a <b>selection</b> problem (stage 3). Remember \"SOS, Oh I see.\"",
+   "tags": [
+    "wk3"
+   ]
   },
   {
    "id": "sme-w3-q09",
@@ -1544,7 +1685,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Expectations led the person to behave <b>consistently with them</b>. That’s a <b>self-fulfilling prophecy</b> (on the lecture’s list)."
+   "explanation": "Expectations led the person to behave <b>consistently with them</b>. That’s a <b>self-fulfilling prophecy</b> (on the lecture’s list).",
+   "tags": [
+    "wk3"
+   ]
   },
   {
    "id": "sme-w3-q10",
@@ -1576,7 +1720,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Attributing <b>your own</b> thoughts and feelings to others is <b>projection</b>, and here it may also work as perceptual defence."
+   "explanation": "Attributing <b>your own</b> thoughts and feelings to others is <b>projection</b>, and here it may also work as perceptual defence.",
+   "tags": [
+    "wk3"
+   ]
   },
   {
    "id": "sme-w3-q11",
@@ -1608,7 +1755,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "One trait shaping the general impression is the <b>halo effect</b>."
+   "explanation": "One trait shaping the general impression is the <b>halo effect</b>.",
+   "tags": [
+    "wk3"
+   ]
   },
   {
    "id": "sme-w3-q12",
@@ -1640,7 +1790,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Fear of confirming a stereotype lowers the <b>target’s own</b> performance. That’s <b>stereotype threat</b>."
+   "explanation": "Fear of confirming a stereotype lowers the <b>target’s own</b> performance. That’s <b>stereotype threat</b>.",
+   "tags": [
+    "wk3"
+   ]
   },
   {
    "id": "sme-w3-q13",
@@ -1672,7 +1825,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Ability + benevolence + integrity = <b>trust</b> (\"ABI\")."
+   "explanation": "Ability + benevolence + integrity = <b>trust</b> (\"ABI\").",
+   "tags": [
+    "wk3"
+   ]
   },
   {
    "id": "sme-w3-q14",
@@ -1704,7 +1860,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Strong <b>perceived organizational support</b> creates a felt obligation to reciprocate (organizational support theory)."
+   "explanation": "Strong <b>perceived organizational support</b> creates a felt obligation to reciprocate (organizational support theory).",
+   "tags": [
+    "wk3"
+   ]
   },
   {
    "id": "sme-w3-q15",
@@ -1736,7 +1895,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Applicants read the selection experience as <b>signals</b> of what the organization is really like."
+   "explanation": "Applicants read the selection experience as <b>signals</b> of what the organization is really like.",
+   "tags": [
+    "wk3"
+   ]
   },
   {
    "id": "sme-w3-q16",
@@ -1768,7 +1930,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Mika: <b>High/High/High → situational</b>. High/Low/Low is Roshani (dispositional). Low/High/Low is Sam (temporary situational)."
+   "explanation": "Mika: <b>High/High/High → situational</b>. High/Low/Low is Roshani (dispositional). Low/High/Low is Sam (temporary situational).",
+   "tags": [
+    "wk3"
+   ]
   },
   {
    "id": "sme-w3-q17",
@@ -1800,7 +1965,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "<b>FOR training</b> and <b>behaviourally anchored rating scales</b> are the textbook’s fixes."
+   "explanation": "<b>FOR training</b> and <b>behaviourally anchored rating scales</b> are the textbook’s fixes.",
+   "tags": [
+    "wk3"
+   ]
   },
   {
    "id": "sme-w3-q18",
@@ -1832,7 +2000,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "That’s the definition of the <b>fundamental attribution error</b>."
+   "explanation": "That’s the definition of the <b>fundamental attribution error</b>.",
+   "tags": [
+    "wk3"
+   ]
   },
   {
    "id": "sme-w3-q19",
@@ -1864,7 +2035,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "<b>Perceptual defence</b> is part of the perceiver component."
+   "explanation": "<b>Perceptual defence</b> is part of the perceiver component.",
+   "tags": [
+    "wk3"
+   ]
   },
   {
    "id": "sme-w4-q01",
@@ -1896,7 +2070,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "<b>Externalities</b> are conditions outside the employee’s control (equipment, customer demand, supply) that affect performance and consequences."
+   "explanation": "<b>Externalities</b> are conditions outside the employee’s control (equipment, customer demand, supply) that affect performance and consequences.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q02",
@@ -1928,7 +2105,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Expectancies = beliefs about <b>performance capabilities</b>; instrumentalities = beliefs about <b>outcome contingencies</b>; valences = beliefs about <b>outcome desirabilities</b>."
+   "explanation": "Expectancies = beliefs about <b>performance capabilities</b>; instrumentalities = beliefs about <b>outcome contingencies</b>; valences = beliefs about <b>outcome desirabilities</b>.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q03",
@@ -1960,7 +2140,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Equity theory explains why people can be demotivated <b>even after a substantial reward</b>: what matters is the comparison with others."
+   "explanation": "Equity theory explains why people can be demotivated <b>even after a substantial reward</b>: what matters is the comparison with others.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q04",
@@ -1992,7 +2175,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Autonomy = choice and volition. Dr. Kassaye stresses it does <b>not</b> mean doing whatever you want or working without rules (and the notes add: not independence)."
+   "explanation": "Autonomy = choice and volition. Dr. Kassaye stresses it does <b>not</b> mean doing whatever you want or working without rules (and the notes add: not independence).",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q05",
@@ -2024,7 +2210,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Setting a goal is only the start. <b>Commitment, work and feedback</b> make it effective."
+   "explanation": "Setting a goal is only the start. <b>Commitment, work and feedback</b> make it effective.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q06",
@@ -2056,7 +2245,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Salary is a <b>hygiene factor</b>: it prevents dissatisfaction but doesn’t create lasting motivation. Recognition, responsibility and advancement are <b>motivators</b>."
+   "explanation": "Salary is a <b>hygiene factor</b>: it prevents dissatisfaction but doesn’t create lasting motivation. Recognition, responsibility and advancement are <b>motivators</b>.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q07",
@@ -2088,7 +2280,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Fixing <b>hygiene factors</b> gets people to “not dissatisfied.” To motivate, Herzberg says to add <b>motivators</b>: achievement, recognition, responsibility, growth, the work itself."
+   "explanation": "Fixing <b>hygiene factors</b> gets people to “not dissatisfied.” To motivate, Herzberg says to add <b>motivators</b>: achievement, recognition, responsibility, growth, the work itself.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q08",
@@ -2120,7 +2315,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Content = <b>need</b> theories (Maslow, Herzberg, Alderfer, McClelland). “Cognitive/information-processing” = the textbook’s <b>process</b> theories."
+   "explanation": "Content = <b>need</b> theories (Maslow, Herzberg, Alderfer, McClelland). “Cognitive/information-processing” = the textbook’s <b>process</b> theories.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q09",
@@ -2152,7 +2350,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Herzberg is a <b>content</b> (need) theory. Expectancy, equity and goal setting are the cognitive approaches."
+   "explanation": "Herzberg is a <b>content</b> (need) theory. Expectancy, equity and goal setting are the cognitive approaches.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q10",
@@ -2184,7 +2385,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "High expectancy, <b>low</b> instrumentality, high valence = <b>Moderate</b>. Any row with low expectancy is Low or Very low."
+   "explanation": "High expectancy, <b>low</b> instrumentality, high valence = <b>Moderate</b>. Any row with low expectancy is Low or Very low.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q11",
@@ -2216,7 +2420,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "<b>Define, Set, Measure, Monitor, Reward.</b> Measure first establishes the baseline."
+   "explanation": "<b>Define, Set, Measure, Monitor, Reward.</b> Measure first establishes the baseline.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q12",
@@ -2248,7 +2455,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Removing an <b>unpleasant</b> condition (close supervision) to <b>strengthen</b> a desired behaviour is <b>negative reinforcement</b>. This is the lecture’s own example."
+   "explanation": "Removing an <b>unpleasant</b> condition (close supervision) to <b>strengthen</b> a desired behaviour is <b>negative reinforcement</b>. This is the lecture’s own example.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q13",
@@ -2280,7 +2490,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Channelling effort toward the outcomes that matter is <b>direction</b> (\"working smart as well as hard\")."
+   "explanation": "Channelling effort toward the outcomes that matter is <b>direction</b> (\"working smart as well as hard\").",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q14",
@@ -2312,7 +2525,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "A frustrated higher need (growth) makes a lower need (existence) stronger. That’s <b>frustration-regression</b>, which is unique to ERG."
+   "explanation": "A frustrated higher need (growth) makes a lower need (existence) stronger. That’s <b>frustration-regression</b>, which is unique to ERG.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q15",
@@ -2344,7 +2560,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "<b>High n Pow, low n Aff</b>, with power directed at organizational goals. High affiliation is the intuitive trap."
+   "explanation": "<b>High n Pow, low n Aff</b>, with power directed at organizational goals. High affiliation is the intuitive trap.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q16",
@@ -2376,7 +2595,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "The <b>effort → performance</b> link is <b>expectancy</b>. With E ≈ 0, force ≈ 0 no matter the valence."
+   "explanation": "The <b>effort → performance</b> link is <b>expectancy</b>. With E ≈ 0, force ≈ 0 no matter the valence.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q17",
@@ -2408,7 +2630,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "The <b>performance → outcome</b> link is <b>instrumentality</b>. The fix is to make reward contingencies explicit and honour them."
+   "explanation": "The <b>performance → outcome</b> link is <b>instrumentality</b>. The fix is to make reward contingencies explicit and honour them.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q18",
@@ -2440,7 +2665,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "She perceptually inflates the other person’s <b>inputs</b>, which is distorting the comparison other."
+   "explanation": "She perceptually inflates the other person’s <b>inputs</b>, which is distorting the comparison other.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q19",
@@ -2472,7 +2700,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "The four are attention, effort, persistence and strategies. Goal commitment is largely <b>independent of money</b>."
+   "explanation": "The four are attention, effort, persistence and strategies. Goal commitment is largely <b>independent of money</b>.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q20",
@@ -2504,7 +2735,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Learning orientation is positive, performance-avoid is negative, and <b>performance-prove</b> is the null result."
+   "explanation": "Learning orientation is positive, performance-avoid is negative, and <b>performance-prove</b> is the null result.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q21",
@@ -2536,7 +2770,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "SDT = <b>CAR</b>. ERG = existence/relatedness/growth. McClelland = achievement/affiliation/power."
+   "explanation": "SDT = <b>CAR</b>. ERG = existence/relatedness/growth. McClelland = achievement/affiliation/power.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q22",
@@ -2568,7 +2805,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Autonomy and feedback are <b>multiplied</b>. Variety, identity and significance are <b>averaged</b>, so they partly compensate for each other."
+   "explanation": "Autonomy and feedback are <b>multiplied</b>. Variety, identity and significance are <b>averaged</b>, so they partly compensate for each other.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q23",
@@ -2600,7 +2840,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "<b>Combining tasks</b> raises variety and identity (a whole, identifiable piece of work)."
+   "explanation": "<b>Combining tasks</b> raises variety and identity (a whole, identifiable piece of work).",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q24",
@@ -2632,7 +2875,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Adding more same-level tasks (breadth only) is <b>enlargement</b>, which doesn’t raise the core characteristics."
+   "explanation": "Adding more same-level tasks (breadth only) is <b>enlargement</b>, which doesn’t raise the core characteristics.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q25",
@@ -2664,7 +2910,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Bonuses for <b>controllable unit-level gains</b> are <b>gainsharing</b> (e.g., the Scanlon Plan). Profit sharing uses company-wide profits."
+   "explanation": "Bonuses for <b>controllable unit-level gains</b> are <b>gainsharing</b> (e.g., the Scanlon Plan). Profit sharing uses company-wide profits.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q26",
@@ -2696,7 +2945,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "An informal group output ceiling is <b>restriction of productivity</b>, a social problem on the wage-incentive list."
+   "explanation": "An informal group output ceiling is <b>restriction of productivity</b>, a social problem on the wage-incentive list.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q27",
@@ -2728,7 +2980,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Reducing hours to <b>avoid layoffs</b> is <b>work sharing</b>. Job sharing is two people splitting one role."
+   "explanation": "Reducing hours to <b>avoid layoffs</b> is <b>work sharing</b>. Job sharing is two people splitting one role.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q28",
@@ -2760,7 +3015,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "There was a 56% gain with high top-management commitment vs 6% with low."
+   "explanation": "There was a 56% gain with high top-management commitment vs 6% with low.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q29",
@@ -2792,7 +3050,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "<b>Removing</b> something unpleasant (nagging) to <b>increase</b> a behaviour = negative reinforcement."
+   "explanation": "<b>Removing</b> something unpleasant (nagging) to <b>increase</b> a behaviour = negative reinforcement.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q30",
@@ -2824,7 +3085,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "<b>Adding</b> an aversive stimulus to <b>decrease</b> behaviour = punishment."
+   "explanation": "<b>Adding</b> an aversive stimulus to <b>decrease</b> behaviour = punishment.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q31",
@@ -2856,7 +3120,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Continuous reinforcement means <b>fast in, fast out</b>. Partial reinforcement produces more persistent behaviour."
+   "explanation": "Continuous reinforcement means <b>fast in, fast out</b>. Partial reinforcement produces more persistent behaviour.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q32",
@@ -2888,7 +3155,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "The four sources are mastery, observation, verbal persuasion and physiological state."
+   "explanation": "The four sources are mastery, observation, verbal persuasion and physiological state.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q33",
@@ -2920,7 +3190,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Unlike pay and job design, flex arrangements aren’t mainly about effort. They serve <b>diverse needs, work–life balance and retention</b>."
+   "explanation": "Unlike pay and job design, flex arrangements aren’t mainly about effort. They serve <b>diverse needs, work–life balance and retention</b>.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w4-q34",
@@ -2952,7 +3225,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Without real information, employees <b>invent</b> salary estimates (overestimating peers’ pay), which damages <b>equity</b>. Low discrimination and small increases mainly hit instrumentality and valence."
+   "explanation": "Without real information, employees <b>invent</b> salary estimates (overestimating peers’ pay), which damages <b>equity</b>. Low discrimination and small increases mainly hit instrumentality and valence.",
+   "tags": [
+    "wk4"
+   ]
   },
   {
    "id": "sme-w5-q01",
@@ -2984,7 +3260,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "The desired state is clear but the existing state (why?) and the method are not, so it is <b>ill-structured</b>. Part of the job is defining the problem. The reorder example (120 units, 40 on hand, boxes of 10) is the well-structured one."
+   "explanation": "The desired state is clear but the existing state (why?) and the method are not, so it is <b>ill-structured</b>. Part of the job is defining the problem. The reorder example (120 units, 40 on hand, boxes of 10) is the well-structured one.",
+   "tags": [
+    "wk5-dm"
+   ]
   },
   {
    "id": "sme-w5-q02",
@@ -3016,7 +3295,10 @@
    ],
    "answer": "a",
    "shuffleOptions": false,
-   "explanation": "A big project can contain both kinds. <b>Classify the specific problem the question asks about.</b>"
+   "explanation": "A big project can contain both kinds. <b>Classify the specific problem the question asks about.</b>",
+   "tags": [
+    "wk5-dm"
+   ]
   },
   {
    "id": "sme-w5-q03",
@@ -3048,7 +3330,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Establishing an acceptable level and stopping at the <b>first</b> solution that exceeds it is satisficing. Maximizing would require inspecting every unit and computing the best expected value."
+   "explanation": "Establishing an acceptable level and stopping at the <b>first</b> solution that exceeds it is satisficing. Maximizing would require inspecting every unit and computing the best expected value.",
+   "tags": [
+    "wk5-dm"
+   ]
   },
   {
    "id": "sme-w5-q04",
@@ -3080,7 +3365,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Exhibit 11.1 (and slide 6) = <b>seven</b> steps. Slides 9–18 give <b>nine</b> reasons for bounded rationality (framing, cognitive biases, problem identification, information search, alternatives, risk, implementation, solution evaluation, emotion and mood)."
+   "explanation": "Exhibit 11.1 (and slide 6) = <b>seven</b> steps. Slides 9–18 give <b>nine</b> reasons for bounded rationality (framing, cognitive biases, problem identification, information search, alternatives, risk, implementation, solution evaluation, emotion and mood).",
+   "tags": [
+    "wk5-dm"
+   ]
   },
   {
    "id": "sme-w5-q05",
@@ -3112,7 +3400,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Judging by <b>resemblance to a familiar category</b> is representativeness, a <b>lecture-only</b> term. Availability is about ease of recall (vivid, recent examples)."
+   "explanation": "Judging by <b>resemblance to a familiar category</b> is representativeness, a <b>lecture-only</b> term. Availability is about ease of recall (vivid, recent examples).",
+   "tags": [
+    "wk5-dm"
+   ]
   },
   {
    "id": "sme-w5-q06",
@@ -3144,7 +3435,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "The first number acted as an <b>anchor</b>, and the estimate of a fair price wasn’t adjusted enough. Defence: get independent price comparisons before negotiating."
+   "explanation": "The first number acted as an <b>anchor</b>, and the estimate of a fair price wasn’t adjusted enough. Defence: get independent price comparisons before negotiating.",
+   "tags": [
+    "wk5-dm"
+   ]
   },
   {
    "id": "sme-w5-q07",
@@ -3176,7 +3470,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "The answer was chosen before the problem was diagnosed: <b>Solution</b>. (Symptom would be stopping at “we have a turnover problem.”)"
+   "explanation": "The answer was chosen before the problem was diagnosed: <b>Solution</b>. (Symptom would be stopping at “we have a turnover problem.”)",
+   "tags": [
+    "wk5-dm"
+   ]
   },
   {
    "id": "sme-w5-q08",
@@ -3208,7 +3505,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "<b>Losses → Leap.</b> The expected values are equal, but framed as a choice between losses about 80% pick the gamble. Reframed as gains, most pick the sure thing."
+   "explanation": "<b>Losses → Leap.</b> The expected values are equal, but framed as a choice between losses about 80% pick the gamble. Reframed as gains, most pick the sure thing.",
+   "tags": [
+    "wk5-dm"
+   ]
   },
   {
    "id": "sme-w5-q09",
@@ -3240,7 +3540,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Risk-averse = prefers certainty; risk-neutral = indifferent; risk-taking = prefers the gamble. A risk-averse person can still gamble when a sure loss is on the table. That is the <b>framing effect</b>, a separate idea."
+   "explanation": "Risk-averse = prefers certainty; risk-neutral = indifferent; risk-taking = prefers the gamble. A risk-averse person can still gamble when a sure loss is on the table. That is the <b>framing effect</b>, a separate idea.",
+   "tags": [
+    "wk5-dm"
+   ]
   },
   {
    "id": "sme-w5-q10",
@@ -3272,7 +3575,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "<b>Sunk costs are the cause; escalation is the behaviour.</b> Only future costs and benefits should drive the next decision."
+   "explanation": "<b>Sunk costs are the cause; escalation is the behaviour.</b> Only future costs and benefits should drive the next decision.",
+   "tags": [
+    "wk5-dm"
+   ]
   },
   {
    "id": "sme-w5-q11",
@@ -3304,7 +3610,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "She didn’t make the original decision, so dissonance and consistency drop out. “Not appearing wasteful” (and framing) explain it, as with BC’s Site C dam."
+   "explanation": "She didn’t make the original decision, so dissonance and consistency drop out. “Not appearing wasteful” (and framing) explain it, as with BC’s Site C dam.",
+   "tags": [
+    "wk5-dm"
+   ]
   },
   {
    "id": "sme-w5-q12",
@@ -3336,7 +3645,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "The text warns that <b>groups are more prone than individuals to escalate</b>. The other three are on the five-step prevention list."
+   "explanation": "The text warns that <b>groups are more prone than individuals to escalate</b>. The other three are on the five-step prevention list.",
+   "tags": [
+    "wk5-dm"
+   ]
   },
   {
    "id": "sme-w5-q13",
@@ -3368,7 +3680,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Good-mood traders lost money; bad-mood traders did better but were conservative; <b>neutral-mood traders did best</b>, tolerating risk without overconfidence."
+   "explanation": "Good-mood traders lost money; bad-mood traders did better but were conservative; <b>neutral-mood traders did best</b>, tolerating risk without overconfidence.",
+   "tags": [
+    "wk5-dm"
+   ]
   },
   {
    "id": "sme-w5-q14",
@@ -3400,7 +3715,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Sender: <b>T</b>hink, <b>E</b>ncode, <b>T</b>ransmit. Receiver: <b>P</b>erceive, <b>D</b>ecode, <b>U</b>nderstand. Then <b>F</b>eedback back to the sender (“The Eager Teacher Prepares Daily Useful Feedback”)."
+   "explanation": "Sender: <b>T</b>hink, <b>E</b>ncode, <b>T</b>ransmit. Receiver: <b>P</b>erceive, <b>D</b>ecode, <b>U</b>nderstand. Then <b>F</b>eedback back to the sender (“The Eager Teacher Prepares Daily Useful Feedback”).",
+   "tags": [
+    "wk5-comm"
+   ]
   },
   {
    "id": "sme-w5-q15",
@@ -3432,7 +3750,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Between departments = <b>horizontal</b>; in a strict chain it goes up to a common manager and back down, which is slow. Direction (where) is not deficiency (why it fails)."
+   "explanation": "Between departments = <b>horizontal</b>; in a strict chain it goes up to a common manager and back down, which is slow. Direction (where) is not deficiency (why it fails).",
+   "tags": [
+    "wk5-comm"
+   ]
   },
   {
    "id": "sme-w5-q16",
@@ -3464,7 +3785,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Withholding relevant information = <b>silence</b>; the specific tendency to avoid passing on unfavourable news is the <b>mum effect</b> (stronger when you want to impress). Filtering would be a message softened as it travels."
+   "explanation": "Withholding relevant information = <b>silence</b>; the specific tendency to avoid passing on unfavourable news is the <b>mum effect</b> (stronger when you want to impress). Filtering would be a message softened as it travels.",
+   "tags": [
+    "wk5-comm"
+   ]
   },
   {
    "id": "sme-w5-q17",
@@ -3496,7 +3820,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Rumours spread fastest when the information is <b>ambiguous</b>, <b>important</b>, <b>credible</b> and the recipient is <b>anxious</b> (“Always Investigate Crazy Announcements”)."
+   "explanation": "Rumours spread fastest when the information is <b>ambiguous</b>, <b>important</b>, <b>credible</b> and the recipient is <b>anxious</b> (“Always Investigate Crazy Announcements”).",
+   "tags": [
+    "wk5-comm"
+   ]
   },
   {
    "id": "sme-w5-q18",
@@ -3528,7 +3855,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "The slide adds “a potential informal recruiting source.” The textbook’s two are keeping employees informed and testing reactions. The pipeline for rumours is the <b>con</b>."
+   "explanation": "The slide adds “a potential informal recruiting source.” The textbook’s two are keeping employees informed and testing reactions. The pipeline for rumours is the <b>con</b>.",
+   "tags": [
+    "wk5-comm"
+   ]
   },
   {
    "id": "sme-w5-q19",
@@ -3560,7 +3890,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Women tend to <b>buffer</b> criticism with praise; men tend to be blunt and may hear the praise as the main message. Per the lecture, treat these as <b>tendencies, not fixed traits</b>."
+   "explanation": "Women tend to <b>buffer</b> criticism with praise; men tend to be blunt and may hear the praise as the main message. Per the lecture, treat these as <b>tendencies, not fixed traits</b>.",
+   "tags": [
+    "wk5-comm"
+   ]
   },
   {
    "id": "sme-w5-q20",
@@ -3592,7 +3925,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Saying things you don’t literally mean to be polite is <b>etiquette and politeness</b>. Social conventions are directness, greetings, loudness, punctuality and personal information."
+   "explanation": "Saying things you don’t literally mean to be polite is <b>etiquette and politeness</b>. Social conventions are directness, greetings, loudness, punctuality and personal information.",
+   "tags": [
+    "wk5-comm"
+   ]
   },
   {
    "id": "sme-w5-q21",
@@ -3624,7 +3960,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "High-context (many East Asian, Latin American, African, Arab cultures): meaning sits in the <b>context</b>, relationships come first and contracts matter less. The other options describe low-context cultures."
+   "explanation": "High-context (many East Asian, Latin American, African, Arab cultures): meaning sits in the <b>context</b>, relationships come first and contracts matter less. The other options describe low-context cultures.",
+   "tags": [
+    "wk5-comm"
+   ]
   },
   {
    "id": "sme-w5-q22",
@@ -3656,7 +3995,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Textbook: “recognize differences <b>within</b> cultures” (don’t stereotype). Slide 13 says “in cultures,” apparently dropping “within.” Use the textbook wording."
+   "explanation": "Textbook: “recognize differences <b>within</b> cultures” (don’t stereotype). Slide 13 says “in cultures,” apparently dropping “within.” Use the textbook wording.",
+   "tags": [
+    "wk5-comm"
+   ]
   },
   {
    "id": "sme-w5-q23",
@@ -3688,7 +4030,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "Less routine, emotional and important messages call for <b>richer media</b>. Email is lean: essentially one-way and without non-verbal or para-verbal cues."
+   "explanation": "Less routine, emotional and important messages call for <b>richer media</b>. Email is lean: essentially one-way and without non-verbal or para-verbal cues.",
+   "tags": [
+    "wk5-comm"
+   ]
   },
   {
    "id": "sme-w5-q24",
@@ -3720,7 +4065,10 @@
    ],
    "answer": "a",
    "shuffleOptions": true,
-   "explanation": "An adequate explanation cut retaliation by 43%, but an <b>inadequate explanation is seen as less fair than none</b>."
+   "explanation": "An adequate explanation cut retaliation by 43%, but an <b>inadequate explanation is seen as less fair than none</b>.",
+   "tags": [
+    "wk5-comm"
+   ]
   }
  ]
 }

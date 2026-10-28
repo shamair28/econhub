@@ -74,7 +74,7 @@ window.HUB_SITE = {
         {
           href: '/1BA3/midterm', icon: '✎', kind: 'Practice test',
           title: 'Midterm Practice',
-          desc: 'Ch. 1–6, 10, 11.1–11.5 · chapter test-bank questions re-checked against the 12th edition + SME self-quiz · timed exam mode',
+          desc: 'Ch. 1–6, 10, 11.1–11.5 · Dr. Kassaye’s sample questions + the chapter test bank (re-checked against the 12th ed.) + SME self-quiz · 100-question exam mode weighted like the real midterm',
           chapters: [1, 2, 3, 4, 5, 6, 10, 11]
         },
         {

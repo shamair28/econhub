@@ -343,13 +343,32 @@
         form.types.has(q.kind || q.type));
     }
 
+    // exam.blueprint: [{ label, n, tags: [...] }] — the real test's topic weights. A question belongs to the
+    // first group whose tags it carries. A fixed-size draw takes from each group in proportion to n
+    // (largest remainder), then tops up from whatever is left if a group runs short.
+    get blueprint() { const b = this.cfg.exam && this.cfg.exam.blueprint; return Array.isArray(b) && b.length ? b : null; }
+    blueprintGroup(q) { const b = this.blueprint; if (!b) return null; const i = b.findIndex(g => (g.tags || []).some(t => q.tags.includes(t))); return i < 0 ? null : i; }
+
+    _drawByBlueprint(pool, count, rng, keepShuffled) {
+      const bp = this.blueprint, total = bp.reduce((s, g) => s + g.n, 0);
+      const raw = bp.map(g => g.n * count / total);
+      const want = raw.map(Math.floor);
+      raw.map((r, i) => [r - Math.floor(r), i]).sort((a, b) => b[0] - a[0]).slice(0, count - want.reduce((s, n) => s + n, 0)).forEach(([, i]) => want[i]++);
+      const picked = new Set();
+      bp.forEach((g, i) => { let k = want[i]; for (const q of pool) { if (!k) break; if (this.blueprintGroup(q) === i) { picked.add(q); k--; } } });
+      for (const q of pool) { if (picked.size >= count) break; picked.add(q); }
+      const out = pool.filter(q => picked.has(q));   // keeps the pool's order (shuffled or bank order)
+      return keepShuffled ? this._shuffleKeepingScenarios(out, rng) : out;
+    }
+
     // ── session lifecycle ───────────────────────────────────────────────
     startSession(form, idsOverride) {
       let qs = idsOverride ? idsOverride.map(id => this.byId[id]).filter(Boolean) : this._selectQuestions(form);
       const seed = Date.now() & 0xffffffff;
       const rng = mulberry32(seed);
       if (form.shuffle) qs = this._shuffleKeepingScenarios(qs, rng);
-      if (form.count !== 'all') qs = qs.slice(0, Number(form.count));
+      if (form.count !== 'all' && !idsOverride && this.blueprint) qs = this._drawByBlueprint(qs, Number(form.count), rng, form.shuffle);
+      else if (form.count !== 'all') qs = qs.slice(0, Number(form.count));
       const examM = this.cfg.exam && this.cfg.exam.minutes ? this.cfg.exam.minutes : 80;
       const examN = this.cfg.exam && this.cfg.exam.questions ? this.cfg.exam.questions : 40;
       this.session = {
@@ -818,13 +837,14 @@
       const p = pct(correct, total);
       const missed = s.order.filter(id => !s.answers[id].graded.correct);
 
-      const byUnit = {}, bySource = {}, byType = {};
+      const byUnit = {}, bySource = {}, byType = {}, byGroup = {};
       for (const id of s.order) {
         const q = this.byId[id], ok = s.answers[id].graded.correct;
         const bump = (m, k) => { m[k] = m[k] || { n: 0, ok: 0 }; m[k].n++; if (ok) m[k].ok++; };
         bump(byUnit, q.unit != null ? q.unit : 'none');
         bump(bySource, q.source.label);
         bump(byType, q.kind || q.type);
+        if (this.blueprint) bump(byGroup, this.blueprintGroup(q) ?? 'none');
       }
       const breakdown = (title, map, labelFn) => h('div', { class: 'pe-breakdown' },
         h('h3', { text: title }),
@@ -874,6 +894,7 @@
               missed.length ? h('button', { type: 'button', class: 'pe-btn', onClick: () => this.startSession({ mode: 'practice', shuffle: true, count: 'all' }, missed) }, 'Retry missed questions') : null,
               h('button', { type: 'button', class: 'pe-btn pe-btn-ghost', onClick: () => this.renderStart() }, 'New session')),
             h('div', { class: 'pe-breakdowns' },
+              this.blueprint ? breakdown(this.cfg.exam.blueprintTitle || 'By exam topic', byGroup, k => k === 'none' ? 'Other' : `${this.blueprint[k].label} (${this.blueprint[k].n} on the exam)`) : null,
               breakdown(`By ${this.unitNoun}`, byUnit, k => k === 'none' ? 'General' : `${this.unitWord} ${k} · ${this.unitName(Number(k))}`),
               breakdown('By source', bySource, k => k),
               breakdown('By question type', byType, k => typeLabel[k] || k)),

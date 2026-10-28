@@ -1,0 +1,628 @@
+{
+ "schema": "practice-bank/v1",
+ "id": "1BA3-mt-kassaye-sample",
+ "course": "COMM 1BA3",
+ "title": "Dr. Kassaye's Sample Review Questions",
+ "description": "The 15 sample review questions Dr. Kassaye posted for the Fall 2026 midterm. No key was given; 14 are word-for-word publisher test-bank items, so their keys and explanations come from the vetted bank.",
+ "defaultSource": {
+  "label": "Prof’s Sample Questions",
+  "kind": "past-test"
+ },
+ "scenarios": {},
+ "questions": [
+  {
+   "id": "kassaye-q01",
+   "type": "mc",
+   "unit": 1,
+   "topic": "Spokesperson Role",
+   "difficulty": 3,
+   "tags": [
+    "§1.6",
+    "wk1"
+   ],
+   "source": {
+    "ref": "Q1",
+    "note": "Also in the publisher test bank (Ch 1 · Q17)."
+   },
+   "prompt": "Robert Rennie, the Chief Operating Officer of Clearwater Industrial Products, is interviewed by TV reporters about recent allegations that the company has been dumping toxic waste into a stream. According to Mintzberg, Robert is performing the managerial role of",
+   "options": [
+    {
+     "id": "a",
+     "text": "Spokesperson"
+    },
+    {
+     "id": "b",
+     "text": "Disturbance handler"
+    },
+    {
+     "id": "c",
+     "text": "Liaison"
+    },
+    {
+     "id": "d",
+     "text": "Negotiator"
+    },
+    {
+     "id": "e",
+     "text": "Disseminator"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": false,
+   "explanation": "Speaking to the press for the organization is the **spokesperson role**, which sends messages into the external environment. A disseminator passes information to people inside the organization."
+  },
+  {
+   "id": "kassaye-q02",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Projection",
+   "difficulty": 2,
+   "tags": [
+    "§3.3",
+    "wk3"
+   ],
+   "source": {
+    "ref": "Q2",
+    "note": "Also in the publisher test bank (Ch 3 · Q9)."
+   },
+   "prompt": "The chairperson opened the meeting by saying “I’m sure you all agree with me that….”. What perceptual phenomenon might the speaker be exhibiting:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Self-fulfilling prophecy"
+    },
+    {
+     "id": "b",
+     "text": "Projection"
+    },
+    {
+     "id": "c",
+     "text": "Recency effect"
+    },
+    {
+     "id": "d",
+     "text": "Halo effect"
+    },
+    {
+     "id": "e",
+     "text": "Stereotyping"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": false,
+   "explanation": "**Projection** is assuming others feel as you do, as when the chairperson assumes everyone agrees. It is not stereotyping, because no social category is involved."
+  },
+  {
+   "id": "kassaye-q03",
+   "type": "mc",
+   "unit": 3,
+   "topic": "Contrast Effects",
+   "difficulty": 3,
+   "tags": [
+    "§3.7",
+    "wk3"
+   ],
+   "source": {
+    "ref": "Q3",
+    "note": "Also in the publisher test bank (Ch 3 · Q45)."
+   },
+   "prompt": "A manager of an employment agency uses a trick question to get companies to hire his candidates. If the agency only has a marginal candidate for a specific position, the manager sends over two obviously unqualified/incompetent candidates to be interviewed before sending over the “acceptable” person. Which perceptual mechanism is the agency manager relying on to get the marginal candidate hired?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Contrast effect"
+    },
+    {
+     "id": "b",
+     "text": "Halo effect"
+    },
+    {
+     "id": "c",
+     "text": "Leniency error"
+    },
+    {
+     "id": "d",
+     "text": "Central trait error"
+    },
+    {
+     "id": "e",
+     "text": "Actor-observer effect"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": false,
+   "explanation": "Sending two real duds first exploits the **contrast effect**: previous applicants exaggerate the difference to the current one, so the marginal candidate looks better. The halo effect concerns one trait colouring others."
+  },
+  {
+   "id": "kassaye-q04",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Locus of Control",
+   "difficulty": 2,
+   "tags": [
+    "§2.2",
+    "wk2"
+   ],
+   "source": {
+    "ref": "Q4",
+    "note": "Also in the publisher test bank (Ch 2 · Q10)."
+   },
+   "prompt": "Gary Reynolds is the CEO of Reynolds Software Ltd. He attributes his success to careful planning, hard work, and a good business education. In terms of locus of control, Gary is most likely a(n)",
+   "options": [
+    {
+     "id": "a",
+     "text": "External"
+    },
+    {
+     "id": "b",
+     "text": "Extravert"
+    },
+    {
+     "id": "c",
+     "text": "Internal"
+    },
+    {
+     "id": "d",
+     "text": "High self-monitor"
+    },
+    {
+     "id": "e",
+     "text": "Introvert"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": false,
+   "explanation": "Gary credits his own planning and effort for his success, which marks an **internal locus of control**. Externals credit luck, fate, or powerful people. Extraversion and self-monitoring are different dimensions."
+  },
+  {
+   "id": "kassaye-q05",
+   "type": "mc",
+   "unit": 2,
+   "topic": "Big Five and Employment",
+   "difficulty": 2,
+   "tags": [
+    "§2.2",
+    "wk2"
+   ],
+   "source": {
+    "ref": "Q5",
+    "note": "Also in the publisher test bank (Ch 2 · Q52)."
+   },
+   "prompt": "Which of the following is related to the probability of obtaining employment?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Agreeableness"
+    },
+    {
+     "id": "b",
+     "text": "Conscientiousness"
+    },
+    {
+     "id": "c",
+     "text": "Openness to experience"
+    },
+    {
+     "id": "d",
+     "text": "Extraversion"
+    },
+    {
+     "id": "e",
+     "text": "Emotional stability"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": false,
+   "explanation": "High **conscientiousness** in adolescence is related to lower unemployment throughout adulthood, so it is linked to the probability of being employed. Other traits are tied to income or satisfaction instead."
+  },
+  {
+   "id": "kassaye-q06",
+   "type": "mc",
+   "unit": 4,
+   "topic": "Defining Attitudes",
+   "difficulty": 1,
+   "tags": [
+    "§4.2",
+    "wk2"
+   ],
+   "source": {
+    "ref": "Q6",
+    "note": "Also in the publisher test bank (Ch 4 · Q14)."
+   },
+   "prompt": "A fairly stable evaluative tendency to respond consistently to some specific object, situation, person, or category of people is called a(n)",
+   "options": [
+    {
+     "id": "a",
+     "text": "Facet"
+    },
+    {
+     "id": "b",
+     "text": "Belief"
+    },
+    {
+     "id": "c",
+     "text": "Attitude"
+    },
+    {
+     "id": "d",
+     "text": "Cognitive dissonance"
+    },
+    {
+     "id": "e",
+     "text": "Value"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": false,
+   "explanation": "An **attitude** is a fairly stable evaluative tendency to respond consistently to a specific object, situation, person or group. A value is broader and about general preferences."
+  },
+  {
+   "id": "kassaye-q07",
+   "type": "mc",
+   "unit": 4,
+   "topic": "Power Distance",
+   "difficulty": 2,
+   "tags": [
+    "§4.1",
+    "wk2"
+   ],
+   "source": {
+    "ref": "Q7",
+    "note": "Also in the publisher test bank (Ch 4 · Q4)."
+   },
+   "prompt": "Which of the following statements about the cultural value of power is false?",
+   "options": [
+    {
+     "id": "a",
+     "text": "In high power distance cultures the unequal distribution of power is acceptable to members of a culture"
+    },
+    {
+     "id": "b",
+     "text": "Japan has higher power distance than Canada"
+    },
+    {
+     "id": "c",
+     "text": "Denmark has lower power distance than Mexico"
+    },
+    {
+     "id": "d",
+     "text": "Superiors tend to be accessible in low power distance cultures"
+    },
+    {
+     "id": "e",
+     "text": "High power distance cultures tend to also be individualistic, rather than collective cultures"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": false,
+   "explanation": "High power distance cultures tend to be **collectivistic**, not individualistic; individualistic cultures downplay power differences. The other statements match the text, including Japan being higher than Canada."
+  },
+  {
+   "id": "kassaye-q08",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Intrinsic and Extrinsic Mix",
+   "difficulty": 2,
+   "tags": [
+    "§5.1",
+    "wk4"
+   ],
+   "source": {
+    "ref": "Q8",
+    "note": "Also in the publisher test bank (Ch 5 · Q6)."
+   },
+   "prompt": "“An interesting job that pays well” suggests that the job:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Is high in intrinsic but low in extrinsic motivation"
+    },
+    {
+     "id": "b",
+     "text": "Is high in intrinsic motivation"
+    },
+    {
+     "id": "c",
+     "text": "Is high in extrinsic motivation"
+    },
+    {
+     "id": "d",
+     "text": "Is low in intrinsic and high in extrinsic motivation"
+    },
+    {
+     "id": "e",
+     "text": "Is high in intrinsic and extrinsic motivation"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": false,
+   "explanation": "Interesting work is an **intrinsic** motivator and good pay is an **extrinsic** one, so the job has both. The text notes that some motivators even have both qualities at once."
+  },
+  {
+   "id": "kassaye-q09",
+   "type": "mc",
+   "unit": 5,
+   "topic": "McClelland vs. Alderfer",
+   "difficulty": 2,
+   "tags": [
+    "§5.3",
+    "wk4"
+   ],
+   "source": {
+    "ref": "Q9",
+    "note": "Also in the publisher test bank (Ch 5 · Q22)."
+   },
+   "prompt": "McClelland’s need for affiliation is most closely related to Alderfer’s ______________ need.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Resistance"
+    },
+    {
+     "id": "b",
+     "text": "Existence"
+    },
+    {
+     "id": "c",
+     "text": "Growth"
+    },
+    {
+     "id": "d",
+     "text": "Relatedness"
+    },
+    {
+     "id": "e",
+     "text": "Esteem"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": false,
+   "explanation": "McClelland's **need for affiliation** is a belongingness or **relatedness** need, since it is about establishing and maintaining friendly relationships. Growth better matches nAch, and existence is material needs."
+  },
+  {
+   "id": "kassaye-q10",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Expectancy",
+   "difficulty": 1,
+   "tags": [
+    "§5.4",
+    "wk4"
+   ],
+   "source": {
+    "ref": "Q10",
+    "note": "Also in the publisher test bank (Ch 5 · Q29)."
+   },
+   "prompt": "According to the expectancy theory of motivation, if we find that workers feel that they are unable to perform at a high level, we are dealing with a problem of:",
+   "options": [
+    {
+     "id": "a",
+     "text": "Second-level outcomes"
+    },
+    {
+     "id": "b",
+     "text": "P → O instrumentality"
+    },
+    {
+     "id": "c",
+     "text": "Valence"
+    },
+    {
+     "id": "d",
+     "text": "Relatedness"
+    },
+    {
+     "id": "e",
+     "text": "E → P expectancy"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": false,
+   "explanation": "Feeling unable to perform at a high level is a problem of **expectancy**, the probability that effort will achieve a first-level outcome. Instrumentality concerns whether performance is rewarded."
+  },
+  {
+   "id": "kassaye-q11",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Goal Challenge",
+   "difficulty": 2,
+   "tags": [
+    "§5.4",
+    "wk4"
+   ],
+   "source": {
+    "ref": "Q11",
+    "note": "Also in the publisher test bank (Ch 5 · Q53)."
+   },
+   "prompt": "Which of the following is a good practical example of goal challenge?",
+   "options": [
+    {
+     "id": "a",
+     "text": "To encourage a D student to set a goal of achieving Cs in the coming semester"
+    },
+    {
+     "id": "b",
+     "text": "To encourage a D student to set a goal of achieving Bs in the coming semester"
+    },
+    {
+     "id": "c",
+     "text": "To encourage a D student to set a goal of achieving As in the coming semester"
+    },
+    {
+     "id": "d",
+     "text": "To encourage a D student to set a goal of achieving Ds in the coming semester"
+    },
+    {
+     "id": "e",
+     "text": "To set no goal as goals are not motivating"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": false,
+   "explanation": "Goal challenge should be pegged to ability, using **past performance** as the base: a D student aims for Cs. Another D is too easy, and Bs or As may be seen as impossible, so they lose motivating power."
+  },
+  {
+   "id": "kassaye-q12",
+   "type": "mc",
+   "unit": 10,
+   "topic": "Chain of Command Limits",
+   "difficulty": 2,
+   "tags": [
+    "§10.1",
+    "wk5-comm"
+   ],
+   "source": {
+    "ref": "Q12",
+    "note": "Also in the publisher test bank (Ch 10 · Q13)."
+   },
+   "prompt": "Sticking with the strict chain of command is most likely to impede ___________ communication.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Formal"
+    },
+    {
+     "id": "b",
+     "text": "Downward"
+    },
+    {
+     "id": "c",
+     "text": "Horizontal"
+    },
+    {
+     "id": "d",
+     "text": "Upward"
+    },
+    {
+     "id": "e",
+     "text": "Backwards"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": false,
+   "explanation": "Under a strict chain of command, a **horizontal** message has to go up to a common manager and back down, which makes it slow. Upward and downward messages follow the chain naturally."
+  },
+  {
+   "id": "kassaye-q13",
+   "type": "mc",
+   "unit": 10,
+   "topic": "360-Degree Feedback",
+   "difficulty": 1,
+   "tags": [
+    "§10.8",
+    "wk5-comm"
+   ],
+   "source": {
+    "ref": "Q13",
+    "note": "Also in the publisher test bank (Ch 10 · Q47)."
+   },
+   "prompt": "The performance appraisal system that has been adopted by several companies to enhance communication is called:",
+   "options": [
+    {
+     "id": "a",
+     "text": "A query system"
+    },
+    {
+     "id": "b",
+     "text": "360 degree feedback"
+    },
+    {
+     "id": "c",
+     "text": "An employee-manager process review"
+    },
+    {
+     "id": "d",
+     "text": "180 degree feedback"
+    },
+    {
+     "id": "e",
+     "text": "A peer review"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": false,
+   "explanation": "Using superiors, self, subordinates, peers and clients as raters is **multisource or 360-degree feedback**. Calling it 180-degree feedback or peer review misses most of the sources."
+  },
+  {
+   "id": "kassaye-q14",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Bounded Rationality",
+   "difficulty": 2,
+   "tags": [
+    "§11.2",
+    "wk5-dm"
+   ],
+   "source": {
+    "ref": "Q14",
+    "note": "Also in the publisher test bank (Ch 11 · Q14)."
+   },
+   "prompt": "In evaluating alternative solutions, decision-makers with bounded rationality",
+   "options": [
+    {
+     "id": "a",
+     "text": "Tend to exhibit maximization"
+    },
+    {
+     "id": "b",
+     "text": "Know the ultimate value of each alternative"
+    },
+    {
+     "id": "c",
+     "text": "Know the probability that each alternative will work"
+    },
+    {
+     "id": "d",
+     "text": "Rarely engage in satisficing"
+    },
+    {
+     "id": "e",
+     "text": "Often consider the political acceptability of the solution to other organizational members"
+    }
+   ],
+   "answer": "e",
+   "shuffleOptions": false,
+   "explanation": "Under **bounded rationality** decision makers weigh extra criteria such as political acceptability (will the boss like it?). Knowing every alternative's value and probability, and maximizing, describe perfect rationality; bounded decision makers usually **satisfice**."
+  },
+  {
+   "id": "kassaye-q15",
+   "type": "mc",
+   "unit": 11,
+   "topic": "Heuristics",
+   "difficulty": 1,
+   "tags": [
+    "§11.3",
+    "wk5-dm"
+   ],
+   "source": {
+    "ref": "Q15"
+   },
+   "prompt": "Individual decision-making can be impacted by use of a judgmental heuristic. Which of the following best defines a heuristic?",
+   "options": [
+    {
+     "id": "a",
+     "text": "An information cue"
+    },
+    {
+     "id": "b",
+     "text": "A judgement shortcut or rule of thumb"
+    },
+    {
+     "id": "c",
+     "text": "A confirmation cue"
+    },
+    {
+     "id": "d",
+     "text": "Hindsight"
+    },
+    {
+     "id": "e",
+     "text": "A diffuser"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": false,
+   "explanation": "A **heuristic** is a judgment shortcut or rule of thumb that saves effort when deciding. The lecture's **availability** and **representativeness** biases are heuristics that can mislead. Hindsight is a separate bias, and the cue options are made-up distractors."
+  }
+ ]
+}

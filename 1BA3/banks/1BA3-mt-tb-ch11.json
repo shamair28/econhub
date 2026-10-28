@@ -22,7 +22,8 @@
    },
    "prompt": "The well-structured problem does not exhibit which of the following characteristics?",
    "tags": [
-    "§11.1"
+    "§11.1",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -61,7 +62,8 @@
    },
    "prompt": "Which of the following is another name for a programmed problem solution technique?",
    "tags": [
-    "§11.1"
+    "§11.1",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -100,7 +102,8 @@
    },
    "prompt": "One is most likely to see a program used to make a(n) __________ decision.",
    "tags": [
-    "§11.1"
+    "§11.1",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -139,7 +142,8 @@
    },
    "prompt": "Which of the following most clearly involves a decision program?",
    "tags": [
-    "§11.1"
+    "§11.1",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -178,7 +182,8 @@
    },
    "prompt": "The ill-structured problem is one where the",
    "tags": [
-    "§11.1"
+    "§11.1",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -218,7 +223,8 @@
    "prompt": "At what part of an organization would an ill-structured problem most likely be encountered?",
    "tags": [
     "§11.1",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -258,7 +264,8 @@
    },
    "prompt": "Which of the following problems would most likely be solved with a program (that is, using programmed decision-making) ?",
    "tags": [
-    "§11.1"
+    "§11.1",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -297,7 +304,8 @@
    },
    "prompt": "Which of the following is characteristic of well-structured problems?",
    "tags": [
-    "§11.1"
+    "§11.1",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -336,7 +344,8 @@
    },
    "prompt": "A program would most likely be used",
    "tags": [
-    "§11.1"
+    "§11.1",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -375,7 +384,8 @@
    },
    "prompt": "Which of the following is an example of an ill-structured problem?",
    "tags": [
-    "§11.1"
+    "§11.1",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -414,7 +424,8 @@
    },
    "prompt": "Economic Person does not",
    "tags": [
-    "§11.2"
+    "§11.2",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -453,7 +464,8 @@
    },
    "prompt": "Nonprogrammed decision-making",
    "tags": [
-    "§11.1"
+    "§11.1",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -492,7 +504,8 @@
    },
    "prompt": "Managers who exhibit bounded rationality",
    "tags": [
-    "§11.2"
+    "§11.2",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -531,7 +544,8 @@
    },
    "prompt": "In evaluating alternative solutions, decision-makers with bounded rationality",
    "tags": [
-    "§11.2"
+    "§11.2",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -570,7 +584,8 @@
    },
    "prompt": "When he heard that turnover was increasing, the human resource manager immediately told the president that salaries would have to be raised. Unfortunately, low pay wasn't the cause of the turnover. Which decision-making error did the manager commit?",
    "tags": [
-    "§11.2"
+    "§11.2",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -609,7 +624,8 @@
    },
    "prompt": "Information overload is likely to lead to",
    "tags": [
-    "§11.2"
+    "§11.2",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -648,7 +664,8 @@
    },
    "prompt": "Mark has two alternatives. There is a 50 percent chance that he will earn $120,000 if he accepts a government contract. If he decides not to accept the contract and instead continues on his present project he has an 80 percent chance of earning $100,000. If Mark is a perfectly rational decision-maker which of the following statements is true?",
    "tags": [
-    "§11.2"
+    "§11.2",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -687,7 +704,8 @@
    },
    "prompt": "At which stage of the rational decision-making model is information overload a particular problem?",
    "tags": [
-    "§11.2"
+    "§11.2",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -726,7 +744,8 @@
    },
    "prompt": "Which of the following is an example of faulty hindsight?",
    "tags": [
-    "§11.4"
+    "§11.4",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -766,7 +785,8 @@
    "prompt": "Which of the following is an example of diffusion of responsibility?",
    "tags": [
     "§11.6",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -806,7 +826,8 @@
    },
    "prompt": "Escalation of commitment",
    "tags": [
-    "§11.4"
+    "§11.4",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -845,7 +866,8 @@
    },
    "prompt": "Escalation of commitment to a failing course of action",
    "tags": [
-    "§11.4"
+    "§11.4",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -884,7 +906,8 @@
    },
    "prompt": "Managers must often rely upon others when making decisions and solving problems. At what stage of the rational decision-making process does reliance upon others often cause special problems?",
    "tags": [
-    "§11.2"
+    "§11.2",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -923,7 +946,8 @@
    },
    "prompt": "Who failed to treat sunk costs properly?",
    "tags": [
-    "§11.4"
+    "§11.4",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -962,7 +986,8 @@
    },
    "prompt": "Which of the following is probably an example of the irrational treatment of sunk costs?",
    "tags": [
-    "§11.4"
+    "§11.4",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -1001,7 +1026,8 @@
    },
    "prompt": "Decision-makers who establish an adequate level of acceptability for a solution and then screen solutions until one that exceeds this level is found are",
    "tags": [
-    "§11.2"
+    "§11.2",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -1040,7 +1066,8 @@
    },
    "prompt": "Satisficing is a concept that is most associated with",
    "tags": [
-    "§11.2"
+    "§11.2",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -1079,7 +1106,8 @@
    },
    "prompt": "According to the anchoring effect, people",
    "tags": [
-    "§11.3"
+    "§11.3",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -1118,7 +1146,8 @@
    },
    "prompt": "Which of the following is a problem frame?",
    "tags": [
-    "§11.3"
+    "§11.3",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -1157,7 +1186,8 @@
    },
    "prompt": "Sharon framed the problem as a choice between two losses. What is she likely to do now?",
    "tags": [
-    "§11.3"
+    "§11.3",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -1197,7 +1227,8 @@
    "prompt": "After group discussion, group members tend to make decisions that are __________ the positions of individual members before discussion.",
    "tags": [
     "§11.6",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -1238,7 +1269,8 @@
    "prompt": "Diffusion of responsibility might contribute to",
    "tags": [
     "§11.6",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -1279,7 +1311,8 @@
    "prompt": "Which of the following is not a characteristic of groupthink?",
    "tags": [
     "§11.6",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -1320,7 +1353,8 @@
    "prompt": "The manager who wishes to diffuse responsibility for a potentially incorrect decision should",
    "tags": [
     "§11.6",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -1361,7 +1395,8 @@
    "prompt": "A devil's advocate is",
    "tags": [
     "§11.6",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -1402,7 +1437,8 @@
    "prompt": "According to the groupthink theory, group members who are overconfident and willing to assume great risks are suffering from",
    "tags": [
     "§11.6",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -1443,7 +1479,8 @@
    "prompt": "What is a strong cause of groupthink?",
    "tags": [
     "§11.6",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -1484,7 +1521,8 @@
    "prompt": "After meeting together, the members of the venture capital group decided not to fund any more projects for the year. Before the meeting, some members had been cautiously in favour of funding. What happened?",
    "tags": [
     "§11.6",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -1525,7 +1563,8 @@
    "prompt": "Illusion of invulnerability, illusion of morality, and illusion of unanimity are all characteristics of",
    "tags": [
     "§11.6",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -1566,7 +1605,8 @@
    "prompt": "Which of the following is a potential example of the risky shift?",
    "tags": [
     "§11.6",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -1607,7 +1647,8 @@
    "prompt": "Which is an example of a conservative shift?",
    "tags": [
     "§11.6",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -1648,7 +1689,8 @@
    "prompt": "When people can brainstorm electronically, entering their ideas at computer terminals,",
    "tags": [
     "§11.7",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -1689,7 +1731,8 @@
    "prompt": "A key advantage of the use of electronic brainstorming groups is that",
    "tags": [
     "§11.7",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -1730,7 +1773,8 @@
    "prompt": "Conventional (i.e. nonelectronic) brainstorming",
    "tags": [
     "§11.7",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -1771,7 +1815,8 @@
    "prompt": "If we employ __________ to improve decisions, the participants never meet face-to-face.",
    "tags": [
     "§11.7",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -1812,7 +1857,8 @@
    "prompt": "Which technique of improving decision-making involves the use of several waves of questionnaires and requires a lot of time?",
    "tags": [
     "§11.7",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -1853,7 +1899,8 @@
    "prompt": "Which of the following is a benefit of using electronic brainstorming systems?",
    "tags": [
     "§11.7",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -1893,7 +1940,8 @@
    },
    "prompt": "In what kind of decisions does mood have its greatest impact?",
    "tags": [
-    "§11.5"
+    "§11.5",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -1932,7 +1980,8 @@
    },
    "prompt": "Which of the following accurately describes the effect of moods on decision making?",
    "tags": [
-    "§11.5"
+    "§11.5",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -1971,7 +2020,8 @@
    },
    "prompt": "What is most likely to lead one to adopt a simplified, short-cut decision-making strategy that is likely to violate the rational model?",
    "tags": [
-    "§11.5"
+    "§11.5",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -2010,7 +2060,8 @@
    },
    "prompt": "What three things are noteworthy about the definition of decision making?",
    "tags": [
-    "§11.1"
+    "§11.1",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -2049,7 +2100,8 @@
    },
    "prompt": "What did Nobel Prize winner Herbert Simon recognize?",
    "tags": [
-    "§11.2"
+    "§11.2",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -2088,7 +2140,8 @@
    },
    "prompt": "The following illustrate the operation of bounded rationality except",
    "tags": [
-    "§11.2"
+    "§11.2",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -2127,7 +2180,8 @@
    },
    "prompt": "You have just applied for a job and when completing the application form you were surprised to see questions about your age and marital status. Such questions would seem to violate equal employment and human rights legislation and not likely to be related to the job. It made you wonder why a company would ask these questions. What is a good explanation for this?",
    "tags": [
-    "§11.1"
+    "§11.1",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -2166,7 +2220,8 @@
    },
    "prompt": "Which of the following is an example of an ill-structured problem?",
    "tags": [
-    "§11.1"
+    "§11.1",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -2205,7 +2260,8 @@
    },
    "prompt": "The following are difficulties that can result from bounded rationality in problem identification except",
    "tags": [
-    "§11.2"
+    "§11.2",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -2244,7 +2300,8 @@
    },
    "prompt": "Sales at the Smelly Cheese Company had been down all year. Management met to try and identify the problem. The marketing manager which convinced that the problem was poor marketing. The manager of human resources believed the problem was employee motivation. What is the difficulty they are having?",
    "tags": [
-    "§11.2"
+    "§11.2",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -2283,7 +2340,8 @@
    },
    "prompt": "When Thelma's boss said, \"What we have here is a morale problem\" what was she doing?",
    "tags": [
-    "§11.2"
+    "§11.2",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -2322,7 +2380,8 @@
    },
    "prompt": "Which of the following is a cognitive bias that contributes to decision makers failure to acquire enough information to make a good decision?",
    "tags": [
-    "§11.3"
+    "§11.3",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -2361,7 +2420,8 @@
    },
    "prompt": "Decision makers violate statistical principles at what stage of the decision making process?",
    "tags": [
-    "§11.3"
+    "§11.3",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -2401,7 +2461,8 @@
    },
    "prompt": "After graduating from university you are planning to get a job as an accountant. Your best friend Jay is planning on opening his own restaurant. He says he has thought a great deal about this and believes he will be very successful and that it is a good decision. You explain to him that most new restaurants fail, but this fact does not factor into Jay's decision. What does this demonstrate?",
    "tags": [
-    "§11.3"
+    "§11.3",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -2440,7 +2501,8 @@
    },
    "prompt": "Absenteeism has become a problem at the Smelly Cheese Company so the human resource manager has decided to do something about it. He has decided to choose the first solution he comes across that will get the level to what it was in the previous year. What is this an example of?",
    "tags": [
-    "§11.2"
+    "§11.2",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -2480,7 +2542,8 @@
    },
    "prompt": "Research shows that",
    "tags": [
-    "§11.3"
+    "§11.3",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -2519,7 +2582,8 @@
    },
    "prompt": "Which of the following accurately depicts the relationship between personality and escalation?",
    "tags": [
-    "§11.4"
+    "§11.4",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -2558,7 +2622,8 @@
    },
    "prompt": "You and a friend have decided to study for your final exams together. However, time to study for your organizational behaviour exam is running out. Your friend persuades you to only study only the first five of the ten chapters to be covered on the exam. When you get to the exam you quickly read through all of the questions and are surprised to see that in fact the majority of the questions are from the first five chapters you studied. You and your friend both receive very good grades on the exam. Your friend never misses an opportunity to remind you how smart it was to only study the first five chapters. What is this an example of?",
    "tags": [
-    "§11.4"
+    "§11.4",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -2597,7 +2662,8 @@
    },
    "prompt": "A study of 356 decisions in medium and large organizations in the United States and Canada found that __________ of the decisions made in organizations fail.",
    "tags": [
-    "§11.5"
+    "§11.5",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -2637,7 +2703,8 @@
    "prompt": "What does brainstorming focus on?",
    "tags": [
     "§11.7",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -2678,7 +2745,8 @@
    "prompt": "What does brainstorming and the nominal group technique (NGT) focus on?",
    "tags": [
     "§11.7",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -2719,7 +2787,8 @@
    "prompt": "Which of the following best describes the nominal group technique (NGT) and the Delphi technique?",
    "tags": [
     "§11.7",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -2760,7 +2829,8 @@
    "prompt": "Which of the following represents the effectiveness of electronic brainstorming groups?",
    "tags": [
     "§11.7",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -2801,7 +2871,8 @@
    "prompt": "Which of the following is most accurate about electronic brainstorming groups?",
    "tags": [
     "§11.7",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "options": [
     {
@@ -2841,7 +2912,8 @@
    },
    "prompt": "The knew-it-all-along effect is an example of faulty hindsight.",
    "tags": [
-    "§11.4"
+    "§11.4",
+    "wk5-dm"
    ],
    "answer": true,
    "explanation": "The **knew-it-all-along effect** is the tendency to assume after the fact that we knew the outcome all along, which is a form of faulty **hindsight**."
@@ -2857,7 +2929,8 @@
    },
    "prompt": "The perfectly rational decision-maker tends to satisfice.",
    "tags": [
-    "§11.2"
+    "§11.2",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "Perfectly rational decision makers **maximize**; it is decision makers under **bounded rationality** who satisfice. Corrected: the perfectly rational decision maker maximizes."
@@ -2873,7 +2946,8 @@
    },
    "prompt": "Escalation of commitment to a losing course of action could be an example of the improper treatment of sunk costs.",
    "tags": [
-    "§11.4"
+    "§11.4",
+    "wk5-dm"
    ],
    "answer": true,
    "explanation": "Escalation of commitment is the irrational handling of **sunk costs**: people keep investing in a failing course of action as though they could recoup what is already lost."
@@ -2890,7 +2964,8 @@
    "prompt": "Individual decision making generally results in higher quality decisions than group decision-making.",
    "tags": [
     "§11.6",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "Groups usually produce more and better solutions than individuals working alone, given an appropriate problem. Corrected: group decision making generally yields higher-quality decisions, though it is slower.",
@@ -2908,7 +2983,8 @@
    "prompt": "Devil's advocates are people who have a difficult time making a decision and sticking to it.",
    "tags": [
     "§11.6",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "A **devil's advocate** is appointed to identify and challenge the weaknesses of a proposed plan. It is not someone who cannot make up their mind.",
@@ -2926,7 +3002,8 @@
    "prompt": "The Delphi technique is a form of face-to-face group decision-making.",
    "tags": [
     "§11.7",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "The **Delphi technique** is not face-to-face: participants answer waves of questionnaires without meeting. It is not covered in the 12th edition chapter.",
@@ -2943,7 +3020,8 @@
    },
    "prompt": "Although information overload damages decisions, decision-makers are usually eager to collect a large amount of information.",
    "tags": [
-    "§11.2"
+    "§11.2",
+    "wk5-dm"
    ],
    "answer": true,
    "explanation": "**Information overload** harms decisions, yet managers still tend to think more is better: more information raises confidence, and they fear being kept in the dark and associate information with power."
@@ -2959,7 +3037,8 @@
    },
    "prompt": "Programs should be used to solve ill-structured problems.",
    "tags": [
-    "§11.1"
+    "§11.1",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "**Programs** are for well-structured, repetitive problems. Ill-structured problems are unique and call for non-programmed decision making. Corrected: programs should be used for well-structured problems."
@@ -2976,7 +3055,8 @@
    "prompt": "Individuals who prefer a conservative solution to a problem will probably make an even more conservative decision when they meet as a group.",
    "tags": [
     "§11.6",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "answer": true,
    "explanation": "Group discussion **polarizes** the initial position: members who lean conservative tend to end up even more conservative (a **conservative shift**), and risk-leaning members become more risky.",
@@ -2994,7 +3074,8 @@
    "prompt": "Brainstorming groups are very effective in generating ideas compared to people working alone.",
    "tags": [
     "§11.7",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "Older editions report that face-to-face **brainstorming** groups generate fewer ideas than the same people working alone. It is not covered in the 12th edition chapter.",
@@ -3012,7 +3093,8 @@
    "prompt": "Participants in nominal decision-making groups actually meet face-to-face.",
    "tags": [
     "§11.7",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "answer": true,
    "explanation": "In the **nominal group technique** members do meet face-to-face, though they first write ideas independently. It is not covered in the 12th edition chapter.",
@@ -3030,7 +3112,8 @@
    "prompt": "Groups almost always make riskier decisions than individuals.",
    "tags": [
     "§11.6",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "Groups do not almost always take bigger risks: both **risky shifts** and **conservative shifts** occur, depending on members' initial positions. Corrected: groups can make riskier or more conservative decisions than individuals.",
@@ -3047,7 +3130,8 @@
    },
    "prompt": "A rule is an example of a program for making a decision.",
    "tags": [
-    "§11.1"
+    "§11.1",
+    "wk5-dm"
    ],
    "answer": true,
    "explanation": "A **program** is a standardized way of solving a problem, and rules, routines and standard operating procedures are examples of programs."
@@ -3063,7 +3147,8 @@
    },
    "prompt": "A characteristic of a well-structured problem is uncertainty.",
    "tags": [
-    "§11.1"
+    "§11.1",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "**Well-structured problems** are repetitive and familiar, with clear existing and desired states and an obvious route between them. Uncertainty is a feature of ill-structured problems."
@@ -3079,7 +3164,8 @@
    },
    "prompt": "An ill-structured problem is one where the existing state is unclear and the desired state is clear.",
    "tags": [
-    "§11.1"
+    "§11.1",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "In an **ill-structured problem** both the existing state and the desired state are unclear. Corrected: an ill-structured problem is one where the existing state and the desired state are unclear."
@@ -3096,7 +3182,8 @@
    "prompt": "Groupthink is a common phenomenon when groups are riddled with conflict and dissension.",
    "tags": [
     "§11.6",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "**Groupthink** stresses unanimity over quality, so it flourishes when there is a lack of controversy, not when a group is riddled with conflict. Corrected: groupthink is a danger when dissent is suppressed.",
@@ -3113,7 +3200,8 @@
    },
    "prompt": "The existing and desired states of a well-structured problem are clear.",
    "tags": [
-    "§11.1"
+    "§11.1",
+    "wk5-dm"
    ],
    "answer": true,
    "explanation": "In a **well-structured problem** the existing state and the desired state are both clear, and how to get from one to the other is fairly obvious."
@@ -3129,7 +3217,8 @@
    },
    "prompt": "Rules, routines, and rules of thumb are programmed solution techniques.",
    "tags": [
-    "§11.1"
+    "§11.1",
+    "wk5-dm"
    ],
    "answer": true,
    "explanation": "Rules, routines, standard operating procedures and rules of thumb are all labels for **programs**, the standardized solutions used for well-structured problems."
@@ -3146,7 +3235,8 @@
    "prompt": "As individuals, the five partners who own a business tend to favour a risky investment. When they meet as a group to discuss the investment, we can expect a less risky course of action to be adopted.",
    "tags": [
     "§11.6",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "Members who initially favour a risky investment will likely end up even riskier after discussion (a **risky shift**), not less risky. Discussion polarizes the initial position.",
@@ -3164,7 +3254,8 @@
    "prompt": "Participation is equally distributed with regular brainstorming techniques.",
    "tags": [
     "§11.7",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "Older editions say participation is **unequal** in regular face-to-face brainstorming (some members dominate), while electronic systems even it out. It is not covered in the 12th edition chapter.",
@@ -3182,7 +3273,8 @@
    "prompt": "Electronic brainstorming increases the number of ideas generated as group size increases.",
    "tags": [
     "§11.7",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "answer": true,
    "explanation": "Older editions say **electronic brainstorming** produces more ideas as group size increases, because members do not block or inhibit one another. It is not covered in the 12th edition chapter.",
@@ -3200,7 +3292,8 @@
    "prompt": "Groupthink is defined as the tendency for a group to reach a unanimous decision.",
    "tags": [
     "§11.6",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "**Groupthink** is the capacity of group pressure to damage a decision-making group's mental efficiency, reality testing and moral judgment. Unanimity is stressed over quality, but reaching unanimity is not the definition.",
@@ -3217,7 +3310,8 @@
    },
    "prompt": "Escalation of commitment refers to committing more and more resources to a failing course of action.",
    "tags": [
-    "§11.4"
+    "§11.4",
+    "wk5-dm"
    ],
    "answer": true,
    "explanation": "**Escalation of commitment** is the tendency to invest additional resources in an apparently failing course of action."
@@ -3233,7 +3327,8 @@
    },
    "prompt": "Sunk costs refer to resources that were knowingly committed to a failing course of action.",
    "tags": [
-    "§11.4"
+    "§11.4",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "**Sunk costs** are permanent losses of resources incurred as the result of a decision. They are not defined by knowingly pursuing a failing course of action."
@@ -3250,7 +3345,8 @@
    "prompt": "Sally tended to make a more risky decision about investing in her small business after reading an article in Fortune. This is an example of the risky shift phenomenon.",
    "tags": [
     "§11.6",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "A **risky shift** is a *group* deciding on a riskier option than members' average initial position after discussing it. One person becoming bolder after reading an article is an individual change, not a shift.",
@@ -3267,7 +3363,8 @@
    },
    "prompt": "Both ill-structured and well-structured problems can be solved with programmed problem solving methods.",
    "tags": [
-    "§11.1"
+    "§11.1",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "Only **well-structured** problems can be handled with programs. Ill-structured problems are unique and need non-programmed decision making."
@@ -3283,7 +3380,8 @@
    },
    "prompt": "Satisficing refers to making the best possible decision that can be made.",
    "tags": [
-    "§11.2"
+    "§11.2",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "**Satisficing** means setting an adequate level of acceptability and taking the first solution that exceeds it, not finding the best possible one (that is maximizing)."
@@ -3300,7 +3398,8 @@
    "prompt": "Tom excused his poor judgment in choosing the wording for the contract by saying that he was under medication for an ulcer at the time. This is an example of diffusion of responsibility.",
    "tags": [
     "§11.6",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "Blaming his medication is an individual excuse. **Diffusion of responsibility** means group members share the burden of a poor decision so no one person is singled out.",
@@ -3318,7 +3417,8 @@
    "prompt": "The decision process using the Delphi technique will normally require more time than using the nominal group technique (NGT).",
    "tags": [
     "§11.7",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "answer": true,
    "explanation": "Older editions say the **Delphi technique** takes longer than the **nominal group technique** because of its several rounds of questionnaires. Neither is covered in the 12th edition chapter.",
@@ -3336,7 +3436,8 @@
    "prompt": "Appointing a devil's advocate might be a way to prevent groupthink from occurring in a decision-making group.",
    "tags": [
     "§11.6",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "answer": true,
    "explanation": "A **devil's advocate** stimulates controversy by challenging the plan's weaknesses. Lack of controversy partly causes **groupthink**, so the role can help prevent it, alongside rewarding dissent and consulting outside experts.",
@@ -3353,7 +3454,8 @@
    },
    "prompt": "Mood affects what and how people think when making decisions.",
    "tags": [
-    "§11.5"
+    "§11.5",
+    "wk5-dm"
    ],
    "answer": true,
    "explanation": "Research shows **mood** affects both what people think and how they think when making decisions."
@@ -3369,7 +3471,8 @@
    },
    "prompt": "People in a positive and negative mood tend to remember positive information.",
    "tags": [
-    "§11.5"
+    "§11.5",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "Mood-congruent memory: people in a positive mood remember positive information, whereas those in a negative mood remember negative information. Corrected: positive mood goes with positive recall, negative with negative."
@@ -3385,7 +3488,8 @@
    },
    "prompt": "People in a positive mood tend to evaluate objects, people, and events more positively.",
    "tags": [
-    "§11.5"
+    "§11.5",
+    "wk5-dm"
    ],
    "answer": true,
    "explanation": "People in a positive **mood** evaluate objects, people and events more positively, while those in a negative mood evaluate them more negatively."
@@ -3401,7 +3505,8 @@
    },
    "prompt": "People in a good mood tend to overestimate the likelihood that good events will occur and underestimate the occurrence of bad events.",
    "tags": [
-    "§11.5"
+    "§11.5",
+    "wk5-dm"
    ],
    "answer": true,
    "explanation": "People in a good **mood** overestimate the likelihood of good events and underestimate bad ones; people in a bad mood do the opposite."
@@ -3417,7 +3522,8 @@
    },
    "prompt": "People in a good mood approach decisions in a deliberate, systematic, detailed way.",
    "tags": [
-    "§11.5"
+    "§11.5",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "People in a good **mood** adopt simplified, shortcut strategies; it is those in a negative mood who approach decisions in a more deliberate, systematic, detailed way."
@@ -3433,7 +3539,8 @@
    },
    "prompt": "A negative mood promotes more creative, intuitive decision making.",
    "tags": [
-    "§11.5"
+    "§11.5",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "It is a **positive** mood that promotes more creative, intuitive decision making. Corrected: a positive mood promotes creative, intuitive decisions."
@@ -3449,7 +3556,8 @@
    },
    "prompt": "The impact of mood on decision making is usually dysfunctional.",
    "tags": [
-    "§11.5"
+    "§11.5",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "The impact of **mood** is not necessarily dysfunctional: a good mood can foster creative decisions and a bad mood more careful processing, provided the excesses of optimism or pessimism are controlled."
@@ -3465,7 +3573,8 @@
    },
    "prompt": "Many of the problems encountered in organizations are well structured.",
    "tags": [
-    "§11.1"
+    "§11.1",
+    "wk5-dm"
    ],
    "answer": true,
    "explanation": "Organizations face many routine, repetitive, **well-structured** problems, which is why they develop programs for them. The chapter concentrates on ill-structured problems because they are harder."
@@ -3481,7 +3590,8 @@
    },
    "prompt": "Ill-structured problems can entail high risk and stimulate political considerations.",
    "tags": [
-    "§11.1"
+    "§11.1",
+    "wk5-dm"
    ],
    "answer": true,
    "explanation": "**Ill-structured problems** can entail high risk and stimulate strong political considerations, as seen in the Phoenix payroll case."
@@ -3497,7 +3607,8 @@
    },
    "prompt": "The perfectly rational characteristics embodied in Economic Persons exist in very few decision makers.",
    "tags": [
-    "§11.2"
+    "§11.2",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "The perfectly rational traits of **Economic Person** do not exist in real decision makers at all, not just in \"very few\". That is why managers work under **bounded rationality**."
@@ -3513,7 +3624,8 @@
    },
    "prompt": "Confirmation bias occurs during problem identification.",
    "tags": [
-    "§11.3"
+    "§11.3",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "**Confirmation bias** (seeking information that fits your own view) appears at the **information search** stage. Problem-identification difficulties include perceptual defence and defining the problem by specialty or solution."
@@ -3529,7 +3641,8 @@
    },
    "prompt": "Too little information can damage the quality of decisions but you can never have too much information for making a decision.",
    "tags": [
-    "§11.2"
+    "§11.2",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "Too little information hurts decisions, but so does too much: **information overload** leads to errors, omissions, delays and cutting corners. Corrected: you can have too much information."
@@ -3545,7 +3658,8 @@
    },
    "prompt": "Decision makers know that more information is not always better.",
    "tags": [
-    "§11.2"
+    "§11.2",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "Decision makers tend to think more information is better, even when it is not. Corrected: decision makers often believe more information is always better, though **information overload** damages quality."
@@ -3561,7 +3675,8 @@
    },
    "prompt": "When people view a problem as a choice between losses, they tend to make conservative decisions.",
    "tags": [
-    "§11.3"
+    "§11.3",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "When people view a problem as a choice between **losses**, they tend to make *risky* decisions. Corrected: loss framing leads to risk taking; gain framing leads to conservative choices."
@@ -3577,7 +3692,8 @@
    },
    "prompt": "When people frame the alternatives as a choice between gains, they tend to make conservative decisions.",
    "tags": [
-    "§11.3"
+    "§11.3",
+    "wk5-dm"
    ],
    "answer": true,
    "explanation": "When alternatives are framed as a choice between **gains**, people protect the sure win and make conservative decisions."
@@ -3593,7 +3709,8 @@
    },
    "prompt": "Escalation of commitment only happens when the current decision maker is responsible for the previous sunk costs.",
    "tags": [
-    "§11.4"
+    "§11.4",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "**Escalation** can occur even when the current decision maker is not responsible for the previous sunk costs (for example a politician continuing a predecessor's project). Corrected: it can also happen when someone else began the course of action."
@@ -3609,7 +3726,8 @@
    },
    "prompt": "Escalation can occur in both competitive and noncompetitive situations.",
    "tags": [
-    "§11.4"
+    "§11.4",
+    "wk5-dm"
    ],
    "answer": true,
    "explanation": "**Escalation** can occur in both competitive situations (auction-like bidding, wars) and non-competitive ones (such as overvalued stocks before a market crash)."
@@ -3625,7 +3743,8 @@
    },
    "prompt": "People high on neuroticism and negative affectivity are more likely to escalate.",
    "tags": [
-    "§11.4"
+    "§11.4",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "People high on **neuroticism** and negative affectivity are *less* likely to escalate because they try to avoid stressful predicaments. Corrected: they are less likely to escalate."
@@ -3641,7 +3760,8 @@
    },
    "prompt": "Individuals are more prone than groups to escalate commitment.",
    "tags": [
-    "§11.4"
+    "§11.4",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "Groups are *more* prone than individuals to **escalate commitment**, so using a group does not cure the tendency. Corrected: groups are more prone to escalate than individuals."
@@ -3657,7 +3777,8 @@
    },
    "prompt": "A study of 356 decisions in medium to large organizations in the United States and Canada found that half the decisions made in organizations fail.",
    "tags": [
-    "§11.5"
+    "§11.5",
+    "wk5-dm"
    ],
    "answer": true,
    "explanation": "A study of 356 decisions in medium to large organizations found that **half** of them failed, mainly due to poor tactics such as imposing solutions and limiting the search for alternatives."
@@ -3674,7 +3795,8 @@
    "prompt": "Brainstorming was originally conceived as a group technique.",
    "tags": [
     "§11.7",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "answer": true,
    "explanation": "Older editions note that **brainstorming** was originally conceived as a group technique. It is not covered in the 12th edition chapter.",
@@ -3692,7 +3814,8 @@
    "prompt": "Individuals working alone generate more ideas than when in groups.",
    "tags": [
     "§11.7",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "answer": true,
    "explanation": "Older editions report that individuals working alone generate more ideas than the same people in face-to-face groups. It is not covered in the 12th edition chapter.",
@@ -3710,7 +3833,8 @@
    "prompt": "Four people working independently will usually generate less ideas than the same people working as a team.",
    "tags": [
     "§11.7",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "Older editions report that individuals working independently generate *more* ideas than the same people working as a team. It is not covered in the 12th edition chapter.",
@@ -3728,7 +3852,8 @@
    "prompt": "Face-to-face interaction usually reduces individual brainstorming performance.",
    "tags": [
     "§11.7",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "answer": true,
    "explanation": "Older editions say face-to-face interaction hurts brainstorming performance (production blocking, evaluation apprehension). It is not covered in the 12th edition chapter.",
@@ -3746,7 +3871,8 @@
    "prompt": "As face-to-face brainstorming groups get bigger, fewer and fewer ideas per person are generated.",
    "tags": [
     "§11.7",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "answer": true,
    "explanation": "Older editions say bigger face-to-face brainstorming groups produce fewer ideas per person. It is not covered in the 12th edition chapter.",
@@ -3764,7 +3890,8 @@
    "prompt": "Some organizations have done electronic brainstorming with up to 50-member groups.",
    "tags": [
     "§11.7",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "answer": false,
    "explanation": "Older editions cite electronic brainstorming sessions with large groups. The 12th edition does not cover electronic brainstorming at all.",
@@ -3782,7 +3909,8 @@
    "prompt": "The nominal group technique is concerned with the generation and evaluation of ideas.",
    "tags": [
     "§11.7",
-    "out-of-scope"
+    "out-of-scope",
+    "wk5-dm"
    ],
    "answer": true,
    "explanation": "Older editions say the **nominal group technique** handles both generating and evaluating ideas. It is not covered in the 12th edition chapter.",
