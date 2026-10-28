@@ -32,7 +32,7 @@
     },
     {
      "id": "b",
-     "text": "equity"
+     "text": "equity."
     },
     {
      "id": "c",
@@ -1268,7 +1268,7 @@
    "options": [
     {
      "id": "a",
-     "text": "first-level outcomes"
+     "text": "first-level outcomes."
     },
     {
      "id": "b",
@@ -2487,7 +2487,7 @@
     },
     {
      "id": "e",
-     "text": "the ability to understand and manage one's own and other's feelings and emotions"
+     "text": "the ability to understand and manage one's own and others' feelings and emotions"
     }
    ],
    "answer": "c",
@@ -2559,7 +2559,7 @@
     },
     {
      "id": "b",
-     "text": "Tory has intrinsic motivation and Rory has instrinsic motivation"
+     "text": "Tory has intrinsic motivation and Rory has intrinsic motivation"
     },
     {
      "id": "c",
@@ -2796,7 +2796,7 @@
    "source": {
     "ref": "Ch 5 · Q70"
    },
-   "prompt": "If your job provides you with incentives and you feel worwhile, useful, valuable, and not taken for granted, then you will experience:",
+   "prompt": "If your job provides you with incentives and you feel worthwhile, useful, valuable, and not taken for granted, then you will experience:",
    "tags": [
     "§5.1",
     "out-of-scope",
@@ -2838,7 +2838,7 @@
    "source": {
     "ref": "Ch 5 · Q71"
    },
-   "prompt": "If you have job in which you can employ and express yourself without fear of negative consequences to your self-image, status, or career, then you have:",
+   "prompt": "If you have a job in which you can employ and express yourself without fear of negative consequences to your self-image, status, or career, then you have:",
    "tags": [
     "§5.1",
     "out-of-scope",
@@ -3228,7 +3228,7 @@
     },
     {
      "id": "e",
-     "text": "when the task is instrinsically motivating"
+     "text": "when the task is intrinsically motivating"
     }
    ],
    "answer": "c",
@@ -3451,7 +3451,7 @@
    "source": {
     "ref": "Ch 5 · Q92"
    },
-   "prompt": "The goal setting study conducted at Weyerhaeuser Company involved driver participating in goal setting.",
+   "prompt": "The goal setting study conducted at Weyerhaeuser Company involved drivers participating in goal setting.",
    "tags": [
     "§5.4",
     "wk4"
@@ -4199,7 +4199,7 @@
    "source": {
     "ref": "Ch 5 · Q136"
    },
-   "prompt": "If you have a job that provides with you feelings of achievement and accomplishment, then you have psychological meaningfulness.",
+   "prompt": "If you have a job that provides you with feelings of achievement and accomplishment, then you have psychological meaningfulness.",
    "tags": [
     "§5.1",
     "out-of-scope",
@@ -4218,7 +4218,7 @@
    "source": {
     "ref": "Ch 5 · Q137"
    },
-   "prompt": "If you have a job that in which you can express yourself without fear of negative consequences to your self-image, status, or career then you have psychological availability.",
+   "prompt": "If you have a job in which you can express yourself without fear of negative consequences to your self-image, status, or career then you have psychological availability.",
    "tags": [
     "§5.1",
     "out-of-scope",

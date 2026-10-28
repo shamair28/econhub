@@ -708,7 +708,7 @@
    "options": [
     {
      "id": "a",
-     "text": "we have a tendency to give others the benefit of doubt when they offend us."
+     "text": "we have a tendency to give others the benefit of the doubt when they offend us."
     },
     {
      "id": "b",
@@ -908,7 +908,7 @@
    "options": [
     {
      "id": "a",
-     "text": "dispositionally, dispositionally"
+     "text": "dispositionally; dispositionally"
     },
     {
      "id": "b",
@@ -920,7 +920,7 @@
     },
     {
      "id": "d",
-     "text": "desperately, consistently"
+     "text": "desperately; consistently"
     },
     {
      "id": "e",
@@ -2100,7 +2100,7 @@
    "source": {
     "ref": "Ch 3 · Q53"
    },
-   "prompt": "Joan was poorly treated in an employment interview and perceived the organizations as lacking respect for its employees. What is this an example of?",
+   "prompt": "Joan was poorly treated in an employment interview and perceived the organization as lacking respect for its employees. What is this an example of?",
    "tags": [
     "§3.7",
     "wk3"
@@ -2304,7 +2304,7 @@
    "source": {
     "ref": "Ch 3 · Q58"
    },
-   "prompt": "What do the following companies have in common (Royal Bank, Merck Forsst, Home Depot, Avis Rent A Car) ?",
+   "prompt": "What do the following companies have in common (Royal Bank, Merck Frosst, Home Depot, Avis Rent A Car)?",
    "tags": [
     "§3.5",
     "out-of-scope",
@@ -3302,7 +3302,7 @@
    "source": {
     "ref": "Ch 3 · Q113"
    },
-   "prompt": "If an organization wants job applicants for form positive perceptions of selection fairness, they should have them take an honesty test.",
+   "prompt": "If an organization wants job applicants to form positive perceptions of selection fairness, they should have them take an honesty test.",
    "tags": [
     "§3.7",
     "wk3"

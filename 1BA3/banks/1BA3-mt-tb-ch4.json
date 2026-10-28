@@ -196,7 +196,7 @@
     },
     {
      "id": "c",
-     "text": "loyalty to one's family or clan are downplayed."
+     "text": "loyalty to one's family or clan is downplayed."
     },
     {
      "id": "d",
@@ -589,23 +589,23 @@
    "options": [
     {
      "id": "a",
-     "text": "Belief+ value = attitude."
+     "text": "Belief + value = attitude."
     },
     {
      "id": "b",
-     "text": "Belief+ behaviour = attitude."
+     "text": "Belief + behaviour = attitude."
     },
     {
      "id": "c",
-     "text": "Attitude+ belief = value."
+     "text": "Attitude + belief = value."
     },
     {
      "id": "d",
-     "text": "Input+ outcome = equity."
+     "text": "Input + outcome = equity."
     },
     {
      "id": "e",
-     "text": "Attitude+ value = belief."
+     "text": "Attitude + value = belief."
     }
    ],
    "answer": "a",
@@ -630,23 +630,23 @@
    "options": [
     {
      "id": "a",
-     "text": "Performance(cid:15) satisfaction(cid:15) rewards"
+     "text": "Performance → satisfaction → rewards"
     },
     {
      "id": "b",
-     "text": "Satisfaction(cid:15) rewards(cid:15) performance"
+     "text": "Satisfaction → rewards → performance"
     },
     {
      "id": "c",
-     "text": "Rewards(cid:15) performance(cid:15) satisfaction"
+     "text": "Rewards → performance → satisfaction"
     },
     {
      "id": "d",
-     "text": "Rewards(cid:15) satisfaction(cid:15) performance"
+     "text": "Rewards → satisfaction → performance"
     },
     {
      "id": "e",
-     "text": "Performance(cid:15) rewards(cid:15) satisfaction"
+     "text": "Performance → rewards → satisfaction"
     }
    ],
    "answer": "e",
@@ -1957,11 +1957,11 @@
    "options": [
     {
      "id": "a",
-     "text": "Tell employees that wearing safety equipment is required by the workers health and safety board."
+     "text": "Tell employees that wearing safety equipment is required by the workers' health and safety board."
     },
     {
      "id": "b",
-     "text": "Tell employees about a dead workers family who are suffering because of unsafe work practices."
+     "text": "Tell employees about a dead worker's family who are suffering because of unsafe work practices."
     },
     {
      "id": "c",
@@ -2041,7 +2041,7 @@
    "options": [
     {
      "id": "a",
-     "text": "Tell employees about a dead workers family who are suffering because of unsafe work practices."
+     "text": "Tell employees about a dead worker's family who are suffering because of unsafe work practices."
     },
     {
      "id": "b",
@@ -2053,7 +2053,7 @@
     },
     {
      "id": "d",
-     "text": "Tell employees about workers who have been injured because of unsafe work practices and are unable to work and support for their families."
+     "text": "Tell employees about workers who have been injured because of unsafe work practices and are unable to work and support their families."
     },
     {
      "id": "e",
@@ -2126,7 +2126,7 @@
     },
     {
      "id": "b",
-     "text": "you will be dissatisifed with your coworkers"
+     "text": "you will be dissatisfied with your coworkers"
     },
     {
      "id": "c",
@@ -2170,7 +2170,7 @@
     },
     {
      "id": "c",
-     "text": "you will be dissatisifed with yourself"
+     "text": "you will be dissatisfied with yourself"
     },
     {
      "id": "d",
@@ -2250,7 +2250,7 @@
     },
     {
      "id": "c",
-     "text": "interational fairness but not procedural fairness can offset the negative effects of distributive unfairness"
+     "text": "interactional fairness but not procedural fairness can offset the negative effects of distributive unfairness"
     },
     {
      "id": "d",
@@ -2258,12 +2258,12 @@
     },
     {
      "id": "e",
-     "text": "neither procedural fairness or interactional fairness can offset the negative effects of distributive unfairness"
+     "text": "neither procedural fairness nor interactional fairness can offset the negative effects of distributive unfairness"
     }
    ],
    "answer": "d",
    "shuffleOptions": false,
-   "explanation": "Both **procedural and interactional fairness** can, to some extent, offset the negative effects of distributive unfairness. Neither alone is the only route."
+   "explanation": "Both **procedural and interactional fairness** can, to some extent, offset the negative effects of distributive unfairness. So the options saying only one type works, or that neither works, are wrong."
   },
   {
    "id": "tb4-q057",

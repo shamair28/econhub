@@ -32,7 +32,7 @@
     },
     {
      "id": "b",
-     "text": "usually increase cooperation among workers on peripheral, nonproduction tasks (for example, keeping the shop clean) ."
+     "text": "usually increase cooperation among workers on peripheral, nonproduction tasks (for example, keeping the shop clean)."
     },
     {
      "id": "c",
@@ -180,7 +180,7 @@
    "source": {
     "ref": "Ch 6 · Q5"
    },
-   "prompt": "The systematic mis-estimates that managers make of the pay of others in their firm suggests that they will often",
+   "prompt": "The systematic mis-estimates that managers make of the pay of others in their firm suggest that they will often",
    "tags": [
     "§6.3",
     "wk4"
@@ -1596,7 +1596,7 @@
     },
     {
      "id": "c",
-     "text": "less hours per day than normal."
+     "text": "fewer hours per day than normal."
     },
     {
      "id": "d",
@@ -1604,7 +1604,7 @@
     },
     {
      "id": "e",
-     "text": "less weeks per year than normal."
+     "text": "fewer weeks per year than normal."
     }
    ],
    "answer": "a",
@@ -1620,7 +1620,7 @@
    "source": {
     "ref": "Ch 6 · Q41"
    },
-   "prompt": "Research on financial incentives and pay-for-performance plans have found that they",
+   "prompt": "Research on financial incentives and pay-for-performance plans has found that they",
    "tags": [
     "§6.1",
     "wk4"
@@ -1760,7 +1760,7 @@
     },
     {
      "id": "d",
-     "text": "is a payment that employees receive as part of the Scanlon plan."
+     "text": "a payment that employees receive as part of the Scanlon plan."
     },
     {
      "id": "e",
@@ -1880,7 +1880,7 @@
     },
     {
      "id": "d",
-     "text": "decreases; decreases;"
+     "text": "decreases; decreases"
     },
     {
      "id": "e",
@@ -2115,7 +2115,7 @@
     },
     {
      "id": "b",
-     "text": "your will have more job scope"
+     "text": "you will have more job scope"
     },
     {
      "id": "c",
@@ -2234,7 +2234,7 @@
    "options": [
     {
      "id": "a",
-     "text": "your can arrive and leave work when you want within certain time periods"
+     "text": "you can arrive and leave work when you want within certain time periods"
     },
     {
      "id": "b",
@@ -2754,7 +2754,7 @@
    "source": {
     "ref": "Ch 6 · Q80"
    },
-   "prompt": "According to the job characteristics model,context satisfactions is a moderator variable.",
+   "prompt": "According to the job characteristics model, context satisfactions are a moderator variable.",
    "tags": [
     "§6.5",
     "wk4"
@@ -3026,7 +3026,7 @@
    "source": {
     "ref": "Ch 6 · Q96"
    },
-   "prompt": "Reserach on the Job Characteristics Model supports the role of growth need strength as a moderating variable.",
+   "prompt": "Research on the Job Characteristics Model supports the role of growth need strength as a moderating variable.",
    "tags": [
     "§6.5",
     "wk4"

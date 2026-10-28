@@ -1446,7 +1446,7 @@
     },
     {
      "id": "d",
-     "text": "Germany"
+     "text": "Germany."
     },
     {
      "id": "e",
@@ -2226,7 +2226,7 @@
    "source": {
     "ref": "Ch 10 · Q56"
    },
-   "prompt": "What do these organizations have in common: Honeywell, Sprint, and Burger King",
+   "prompt": "What do these organizations have in common: Honeywell, Sprint, and Burger King?",
    "tags": [
     "§10.8",
     "out-of-scope",
@@ -2554,7 +2554,7 @@
    "source": {
     "ref": "Ch 10 · Q64"
    },
-   "prompt": "What do these companies have in common: IBM, Federal Express, and J.C. Penny?",
+   "prompt": "What do these companies have in common: IBM, Federal Express, and J.C. Penney?",
    "tags": [
     "§10.8",
     "out-of-scope",
