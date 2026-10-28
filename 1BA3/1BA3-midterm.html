@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
 <title>COMM 1BA3 — Midterm Practice</title>
-<link rel="stylesheet" href="../practice/graph.css?v=4">
-<link rel="stylesheet" href="../practice/engine.css?v=4">
+<link rel="stylesheet" href="../practice/graph.css?v=5">
+<link rel="stylesheet" href="../practice/engine.css?v=5">
 <style>
   html, body { margin: 0; padding: 0; }
   /* course accent: COMM 1BA3 pink (matches --c-1BA3 in site/site.css) */
@@ -16,8 +16,8 @@
 </head>
 <body>
 <div id="app"></div>
-<script src="../practice/graph.js?v=4"></script>
-<script src="../practice/engine.js?v=4"></script>
+<script src="../practice/graph.js?v=5"></script>
+<script src="../practice/engine.js?v=5"></script>
 <script>
 PracticeEngine.mount(document.getElementById('app'), {
   id: '1BA3-midterm',
@@ -42,7 +42,7 @@ PracticeEngine.mount(document.getElementById('app'), {
     id: 'f26-mt',
     label: 'Fall 2026 Midterm',
     units: [1, 2, 3, 4, 5, 6, 10, 11],
-    note: `The midterm (35%) is **100 multiple-choice questions** in 2 hours on **Ch. 1–6, Ch. 10 and §11.1–11.5**. Dr. Kassaye’s breakdown: **Week 1** Intro to OB 13 · **Week 2** abilities, personality, values, attitudes 21 · **Week 3** perception 18 · **Week 4** motivation 19 · **Week 5** decision making 15 + communication 14. **Exam simulation draws in exactly those proportions**, and your results are broken down the same way. Ch. 7–9 and §11.6–11.7 are final-exam only.
+    note: `The midterm (35%) is **100 multiple-choice questions** in 2 hours on **Ch. 1–6, Ch. 10 and §11.1–11.5**. Dr. Kassaye’s breakdown: **Week 1** Intro to OB 13 · **Week 2** abilities, personality, values, attitudes 21 · **Week 3** perception 18 · **Week 4** motivation 19 · **Week 5** decision making 15 + communication 14. **Simulate the real midterm** (below) gives you exactly that: 100 MC questions in 120 minutes in those proportions. Any 10/20/50-question set uses the same mix unless you switch *Topic mix* to even, and your results are broken down by week. Ch. 7–9 and §11.6–11.7 are final-exam only.
 
 His **15 sample review questions** are here too. 14 of them are word-for-word from the publisher’s chapter **test bank**, which is where most of these questions come from. The bank was written for an older edition, so every key was re-checked against the 12th-edition text. Corrected items say so under the explanation, and items on content the current text dropped are hidden. He also recommends the lecture slides, in-class examples and his “Top Twelve Takeaways”. True/false items are drill only; untick them under *Question types* for MC only.`
   },
@@ -62,6 +62,10 @@ His **15 sample review questions** are here too. 14 of them are word-for-word fr
     questions: 100, minutes: 120,
     /* Dr. Kassaye's Oct 24 announcement: questions per weekly topic (tags added by week_tags in the bank build) */
     blueprintTitle: 'By week (exam weighting)',
+    realTitle: 'Simulate the real midterm',
+    realNote: 'multiple choice only · Dr. Kassaye’s topic distribution',
+    realTypes: ['mc'],
+    mixLabel: 'Real midterm distribution',
     blueprint: [
       { label: 'Week 1 · Intro to OB', n: 13, tags: ['wk1'] },
       { label: 'Week 2 · Abilities, Personality, Values, Attitudes', n: 21, tags: ['wk2'] },

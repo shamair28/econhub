@@ -228,14 +228,29 @@
       const outOfScope = this.questions.filter(q => !q.inScope).length;
       const saved = this.store.session && !this.store.session.finished ? this.store.session : null;
       // Preferences store *exclusions* so anything added to the banks later defaults to selected.
-      const prefs = Object.assign({ mode: 'practice', scopeOnly: true, shuffle: true, count: 'all', sourcesOff: [], unitsOff: [], typesOff: [] }, this.store.prefs || {});
+      const prefs = Object.assign({ mode: 'practice', scopeOnly: true, shuffle: true, count: 'all', weighted: true, sourcesOff: [], unitsOff: [], typesOff: [] }, this.store.prefs || {});
       const minus = (all, off) => new Set(all.filter(k => !off.includes(k)));
-      const form = { mode: prefs.mode, scopeOnly: !!cfg.scope && prefs.scopeOnly, shuffle: prefs.shuffle, count: prefs.count,
+      const form = { mode: prefs.mode, scopeOnly: !!cfg.scope && prefs.scopeOnly, shuffle: prefs.shuffle, count: prefs.count, weighted: prefs.weighted !== false,
         sources: minus(Object.keys(sources), prefs.sourcesOff), units: minus(Object.keys(units).map(String), prefs.unitsOff.map(String)), types: minus(Object.keys(types), prefs.typesOff) };
 
       const countEl = h('span', { class: 'pe-count-num' });
+      const mixEl = this.blueprint ? h('div', { class: 'pe-mix' }) : null;
+      const updateMix = (pool) => {
+        if (!mixEl) return;
+        mixEl.innerHTML = '';
+        if (!form.weighted) { mixEl.appendChild(h('p', { class: 'pe-muted pe-small', text: 'Even mix: questions are drawn at random from everything selected, whatever the topic.' })); return; }
+        if (form.count === 'all') { mixEl.appendChild(h('p', { class: 'pe-muted pe-small', text: 'Pick a number under “How many” (or use the real-test button above) to draw in these proportions. “All matching” uses every selected question.' })); }
+        const n = form.count === 'all' ? null : Math.min(Number(form.count), pool.length);
+        const want = n != null ? this.blueprintCounts(n) : this.blueprint.map(g => g.n);
+        const have = this.blueprint.map((_, i) => pool.filter(q => this.blueprintGroup(q) === i).length);
+        mixEl.appendChild(h('ul', { class: 'pe-mix-list' }, ...this.blueprint.map((g, i) => h('li', {},
+          h('b', { text: String(want[i]) }),
+          h('span', { text: g.label }),
+          n != null && have[i] < want[i] ? h('span', { class: 'pe-mix-short', text: `only ${have[i]} selected — topped up from other topics` }) : null))));
+      };
       const updateCount = () => {
-        const n = this._selectQuestions(form).length;
+        const pool = this._selectQuestions(form), n = pool.length;
+        updateMix(pool);
         countEl.textContent = n;
         startBtn.disabled = n === 0;
         startBtn.textContent = n ? (form.mode === 'exam' ? `Start exam simulation` : `Start practising`) : 'No questions match';
@@ -273,11 +288,36 @@
 
       const startBtn = h('button', { type: 'button', class: 'pe-btn pe-btn-primary pe-btn-lg', onClick: () => {
         const off = (all, on) => all.filter(k => !on.has(k));
-        this.store.prefs = { mode: form.mode, scopeOnly: form.scopeOnly, shuffle: form.shuffle, count: form.count,
+        this.store.prefs = { mode: form.mode, scopeOnly: form.scopeOnly, shuffle: form.shuffle, count: form.count, weighted: form.weighted,
           sourcesOff: off(Object.keys(sources), form.sources), unitsOff: off(Object.keys(units).map(String), form.units), typesOff: off(Object.keys(types), form.types) };
         this._saveStore(); this.startSession(form); } });
 
       const hist = (this.store.history || []).slice(-6).reverse();
+
+      /* blueprint pages: a one-click replica of the real test, and a real-vs-even topic-mix choice */
+      const bpCfg = cfg.exam || {};
+      const realBox = this.blueprint ? h('div', { class: 'pe-real' },
+        h('div', {},
+          h('b', { text: bpCfg.realTitle || `Simulate the real ${cfg.scope ? cfg.scope.label : 'test'}` }),
+          h('span', { class: 'pe-muted', text: ` ${examN} questions · ${examM} min · ${bpCfg.realNote || 'real topic mix'}` })),
+        h('button', { type: 'button', class: 'pe-btn pe-btn-primary', onClick: () => {
+          const realTypes = (bpCfg.realTypes || Object.keys(types)).filter(t => types[t]);
+          this.startSession({ mode: 'exam', scopeOnly: !!cfg.scope, shuffle: true, count: String(examN), weighted: true,
+            sources: new Set(Object.keys(sources)), units: new Set(Object.keys(units).map(String)), types: new Set(realTypes) });
+        } }, 'Start')) : null;
+      const mixBtns = [];
+      const mixChip = (val, label) => {
+        const b = h('button', { type: 'button', class: 'pe-chip' + (form.weighted === val ? ' is-on' : ''), 'aria-pressed': form.weighted === val, onClick: () => {
+          form.weighted = val;
+          mixBtns.forEach(x => { const on = x.dataset.v === String(val); x.classList.toggle('is-on', on); x.setAttribute('aria-pressed', on); });
+          updateCount();
+        } }, label);
+        b.dataset.v = String(val); mixBtns.push(b); return b;
+      };
+      const mixField = this.blueprint ? h('div', { class: 'pe-field' },
+        h('span', { class: 'pe-field-label', text: 'Topic mix' }),
+        h('div', { class: 'pe-chips' }, mixChip(true, bpCfg.mixLabel || 'Real test distribution'), mixChip(false, 'Even mix')),
+        mixEl) : null;
 
       root.appendChild(h('div', { class: 'pe-shell pe-start' },
         h('header', { class: 'pe-topbar' },
@@ -302,6 +342,8 @@
                 h('button', { type: 'button', class: 'pe-btn pe-btn-primary', onClick: () => this.resumeSession() }, 'Resume'),
                 h('button', { type: 'button', class: 'pe-btn pe-btn-ghost', onClick: () => { this.clearSession(); this.renderStart(); } }, 'Discard'))) : null,
 
+            realBox,
+
             h('h2', { class: 'pe-h2', text: 'Mode' }),
             modeWrap,
 
@@ -316,10 +358,11 @@
             h('div', { class: 'pe-field pe-field-row' },
               h('label', { class: 'pe-select-wrap' }, h('span', { class: 'pe-field-label', text: 'How many' }),
                 h('select', { class: 'pe-select', onChange: (e) => { form.count = e.target.value; updateCount(); } },
-                  ...['all', '10', '20', String(examN)].filter((v, i, a) => a.indexOf(v) === i).map(v => h('option', { value: v, selected: form.count === v, text: v === 'all' ? 'All matching' : v })))),
+                  ...['all', '10', '20', examN > 60 ? '50' : null, String(examN)].filter((v, i, a) => v && a.indexOf(v) === i).map(v => h('option', { value: v, selected: form.count === v, text: v === 'all' ? 'All matching' : v })))),
               h('label', { class: 'pe-switch' },
                 h('input', { type: 'checkbox', checked: form.shuffle, onChange: (e) => { form.shuffle = e.target.checked; } }),
                 h('span', { class: 'pe-switch-track' }), h('span', { class: 'pe-switch-label', text: 'Shuffle order' }))),
+            mixField,
 
             h('div', { class: 'pe-start-actions' },
               h('span', { class: 'pe-count' }, countEl, ' questions selected'),
@@ -349,11 +392,16 @@
     get blueprint() { const b = this.cfg.exam && this.cfg.exam.blueprint; return Array.isArray(b) && b.length ? b : null; }
     blueprintGroup(q) { const b = this.blueprint; if (!b) return null; const i = b.findIndex(g => (g.tags || []).some(t => q.tags.includes(t))); return i < 0 ? null : i; }
 
-    _drawByBlueprint(pool, count, rng, keepShuffled) {
+    blueprintCounts(count) {   // questions per group for a draw of `count` (largest remainder)
       const bp = this.blueprint, total = bp.reduce((s, g) => s + g.n, 0);
       const raw = bp.map(g => g.n * count / total);
       const want = raw.map(Math.floor);
       raw.map((r, i) => [r - Math.floor(r), i]).sort((a, b) => b[0] - a[0]).slice(0, count - want.reduce((s, n) => s + n, 0)).forEach(([, i]) => want[i]++);
+      return want;
+    }
+
+    _drawByBlueprint(pool, count, rng, keepShuffled) {
+      const bp = this.blueprint, want = this.blueprintCounts(count);
       const picked = new Set();
       bp.forEach((g, i) => { let k = want[i]; for (const q of pool) { if (!k) break; if (this.blueprintGroup(q) === i) { picked.add(q); k--; } } });
       for (const q of pool) { if (picked.size >= count) break; picked.add(q); }
@@ -367,7 +415,7 @@
       const seed = Date.now() & 0xffffffff;
       const rng = mulberry32(seed);
       if (form.shuffle) qs = this._shuffleKeepingScenarios(qs, rng);
-      if (form.count !== 'all' && !idsOverride && this.blueprint) qs = this._drawByBlueprint(qs, Number(form.count), rng, form.shuffle);
+      if (form.count !== 'all' && !idsOverride && this.blueprint && form.weighted !== false) qs = this._drawByBlueprint(qs, Number(form.count), rng, form.shuffle);
       else if (form.count !== 'all') qs = qs.slice(0, Number(form.count));
       const examM = this.cfg.exam && this.cfg.exam.minutes ? this.cfg.exam.minutes : 80;
       const examN = this.cfg.exam && this.cfg.exam.questions ? this.cfg.exam.questions : 40;
