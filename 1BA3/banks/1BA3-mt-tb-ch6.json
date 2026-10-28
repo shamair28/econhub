@@ -68,7 +68,7 @@
    "options": [
     {
      "id": "a",
-     "text": "MBO."
+     "text": "MBO (Management by Objectives)."
     },
     {
      "id": "b",
@@ -240,7 +240,7 @@
     },
     {
      "id": "d",
-     "text": "MBO"
+     "text": "MBO (Management by Objectives)"
     },
     {
      "id": "e",
@@ -428,7 +428,7 @@
    "options": [
     {
      "id": "a",
-     "text": "MBO"
+     "text": "MBO (Management by Objectives)"
     },
     {
      "id": "b",
@@ -484,7 +484,7 @@
     },
     {
      "id": "e",
-     "text": "the goals which have been established through MBO."
+     "text": "the goals which have been established through MBO (Management by Objectives)."
     }
    ],
    "answer": "c",
@@ -760,7 +760,7 @@
     },
     {
      "id": "d",
-     "text": "MBO"
+     "text": "MBO (Management by Objectives)"
     },
     {
      "id": "e",
@@ -900,7 +900,7 @@
    "source": {
     "ref": "Ch 6 · Q23"
    },
-   "prompt": "According to Hackman and Oldham's Job Characteristic Model, employees should respond most favourably to job enrichment when growth need strength is __________ and satisfaction with job context factors is __________.",
+   "prompt": "According to Hackman and Oldham's Job Characteristics Model, employees should respond most favourably to job enrichment when growth need strength is __________ and satisfaction with job context factors is __________.",
    "tags": [
     "§6.5",
     "wk4"
@@ -1369,7 +1369,7 @@
    ],
    "answer": "d",
    "shuffleOptions": true,
-   "explanation": "**MBO** puts objectives, time frames and priorities in writing, so when top management is not committed it degenerates into \"just a bunch of paperwork\". Flextime, compressed weeks and job sharing involve schedules, not written agreements."
+   "explanation": "**MBO** (Management by Objectives) puts objectives, time frames and priorities in writing, so when top management is not committed it degenerates into \"just a bunch of paperwork\". Flextime, compressed weeks and job sharing involve schedules, not written agreements."
   },
   {
    "id": "tb6-q035",
@@ -1380,7 +1380,7 @@
    "source": {
     "ref": "Ch 6 · Q35"
    },
-   "prompt": "One problem that may cause MBO to fail is that",
+   "prompt": "One problem that may cause MBO (Management by Objectives) to fail is that",
    "tags": [
     "§6.6",
     "wk4"
