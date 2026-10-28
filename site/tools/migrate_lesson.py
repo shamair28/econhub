@@ -25,7 +25,7 @@ import pathlib
 import re
 import sys
 
-ASSET_VERSION = 8
+ASSET_VERSION = 9
 
 WEB = pathlib.Path(__file__).resolve().parents[2]
 PAGE_RE = re.compile(r"^(?P<code>[0-9A-Z]{4})-ch(?P<n>\d+)\.html$")
@@ -169,8 +169,9 @@ def main(argv):
             p.write_bytes(html.encode("utf-8"))
             print(f"done {rel}")
         sync_versions(p)
-    for extra in ("index.html", "404.html"):
-        sync_versions(WEB / extra)
+    for extra in ("index.html", "404.html", "1BA3/1BA3-takeaways.html"):  # shell pages that aren't chapters
+        if (WEB / extra).exists():
+            sync_versions(WEB / extra)
     sync_versions(WEB / "1BA3" / "1BA3-sme.html", icons=False)  # loads /site/explain.js; its own UI is untouched
     check_registration([p for p in pages if PAGE_RE.match(p.name)])
 

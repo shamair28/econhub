@@ -78,6 +78,23 @@ window.HUB_SITE = {
           chapters: [1, 2, 3, 4, 5, 6, 10, 11]
         },
         {
+          href: '/1BA3/takeaways', icon: '✓', kind: 'Exam review',
+          title: 'Top Twelve Takeaways',
+          short: 'Takeaways',
+          desc: 'Dr. Kassaye’s 72 midterm review questions (12 per topic) with model answers from his slides and the textbook · exam traps · tick off what you know',
+          /* the takeaways are organized by teaching week, like the SME hub */
+          chapters: {
+            1: [['#w1', 'Week 1']],
+            2: [['#w2', 'Week 2 · §2.1–2.3'], ['#w4', 'Week 4 · §2.4–2.8']],
+            3: [['#w3', 'Week 3']],
+            4: [['#w2', 'Week 2']],
+            5: [['#w2', 'Week 2 · §5.2'], ['#w4', 'Week 4']],
+            6: [['#w4', 'Week 4']],
+            10: [['#w5c', 'Week 5 · Communication']],
+            11: [['#w5dm', 'Week 5 · Decision Making']]
+          }
+        },
+        {
           href: '/1BA3/sme', icon: '★', kind: 'Assignment prep',
           title: 'Group Assignment SME Prep',
           short: 'SME Prep',
