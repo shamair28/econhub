@@ -230,7 +230,7 @@
       // Preferences store *exclusions* so anything added to the banks later defaults to selected.
       const prefs = Object.assign({ mode: 'practice', scopeOnly: true, shuffle: true, count: 'all', weighted: true, sourcesOff: [], unitsOff: [], typesOff: [] }, this.store.prefs || {});
       const minus = (all, off) => new Set(all.filter(k => !off.includes(k)));
-      const form = { mode: prefs.mode, scopeOnly: !!cfg.scope && prefs.scopeOnly, shuffle: prefs.shuffle, count: prefs.count, weighted: prefs.weighted !== false,
+      const form = { mode: prefs.mode, scopeOnly: !!cfg.scope && prefs.scopeOnly, shuffle: prefs.shuffle, grouped: !!prefs.grouped && prefs.shuffle, count: prefs.count, weighted: prefs.weighted !== false,
         sources: minus(Object.keys(sources), prefs.sourcesOff), units: minus(Object.keys(units).map(String), prefs.unitsOff.map(String)), types: minus(Object.keys(types), prefs.typesOff) };
 
       const countEl = h('span', { class: 'pe-count-num' });
@@ -288,7 +288,7 @@
 
       const startBtn = h('button', { type: 'button', class: 'pe-btn pe-btn-primary pe-btn-lg', onClick: () => {
         const off = (all, on) => all.filter(k => !on.has(k));
-        this.store.prefs = { mode: form.mode, scopeOnly: form.scopeOnly, shuffle: form.shuffle, count: form.count, weighted: form.weighted,
+        this.store.prefs = { mode: form.mode, scopeOnly: form.scopeOnly, shuffle: form.shuffle, grouped: form.grouped, count: form.count, weighted: form.weighted,
           sourcesOff: off(Object.keys(sources), form.sources), unitsOff: off(Object.keys(units).map(String), form.units), typesOff: off(Object.keys(types), form.types) };
         this._saveStore(); this.startSession(form); } });
 
@@ -305,6 +305,25 @@
           this.startSession({ mode: 'exam', scopeOnly: !!cfg.scope, shuffle: true, count: String(examN), weighted: true,
             sources: new Set(Object.keys(sources)), units: new Set(Object.keys(units).map(String)), types: new Set(realTypes) });
         } }, 'Start')) : null;
+      /* question order: shuffled · grouped by week/unit (random within each) · bank order */
+      const groupWord = this.blueprint ? 'week' : this.unitNoun;
+      const orderOpts = [['random', 'Shuffled'], ['grouped', `By ${groupWord}`], ['bank', 'Bank order']];
+      const orderOf = () => (!form.shuffle ? 'bank' : form.grouped ? 'grouped' : 'random');
+      const orderHint = { random: 'Random questions in a random mix of topics.',
+        grouped: `Random questions, asked one ${groupWord} at a time in order (shuffled within each ${groupWord}).`,
+        bank: 'The banks’ own order. With a number under “How many”, you get the first questions each time.' };
+      const orderHintEl = h('p', { class: 'pe-muted pe-small', text: orderHint[orderOf()] });
+      const orderBtns = orderOpts.map(([val, label]) => {
+        const b = h('button', { type: 'button', class: 'pe-chip' + (orderOf() === val ? ' is-on' : ''), 'aria-pressed': orderOf() === val, onClick: () => {
+          form.shuffle = val !== 'bank'; form.grouped = val === 'grouped';
+          orderBtns.forEach(x => { const on = x.dataset.v === val; x.classList.toggle('is-on', on); x.setAttribute('aria-pressed', on); });
+          orderHintEl.textContent = orderHint[val];
+        } }, label);
+        b.dataset.v = val; return b;
+      });
+      const orderField = h('div', { class: 'pe-field' },
+        h('span', { class: 'pe-field-label', text: 'Order' }), h('div', { class: 'pe-chips' }, ...orderBtns), orderHintEl);
+
       const mixBtns = [];
       const mixChip = (val, label) => {
         const b = h('button', { type: 'button', class: 'pe-chip' + (form.weighted === val ? ' is-on' : ''), 'aria-pressed': form.weighted === val, onClick: () => {
@@ -358,10 +377,8 @@
             h('div', { class: 'pe-field pe-field-row' },
               h('label', { class: 'pe-select-wrap' }, h('span', { class: 'pe-field-label', text: 'How many' }),
                 h('select', { class: 'pe-select', onChange: (e) => { form.count = e.target.value; updateCount(); } },
-                  ...['all', '10', '20', examN > 60 ? '50' : null, String(examN)].filter((v, i, a) => v && a.indexOf(v) === i).map(v => h('option', { value: v, selected: form.count === v, text: v === 'all' ? 'All matching' : v })))),
-              h('label', { class: 'pe-switch' },
-                h('input', { type: 'checkbox', checked: form.shuffle, onChange: (e) => { form.shuffle = e.target.checked; } }),
-                h('span', { class: 'pe-switch-track' }), h('span', { class: 'pe-switch-label', text: 'Shuffle order' }))),
+                  ...['all', '10', '20', examN > 60 ? '50' : null, String(examN)].filter((v, i, a) => v && a.indexOf(v) === i).map(v => h('option', { value: v, selected: form.count === v, text: v === 'all' ? 'All matching' : v }))))),
+            orderField,
             mixField,
 
             h('div', { class: 'pe-start-actions' },
@@ -417,6 +434,7 @@
       if (form.shuffle) qs = this._shuffleKeepingScenarios(qs, rng);
       if (form.count !== 'all' && !idsOverride && this.blueprint && form.weighted !== false) qs = this._drawByBlueprint(qs, Number(form.count), rng, form.shuffle);
       else if (form.count !== 'all') qs = qs.slice(0, Number(form.count));
+      if (form.grouped) qs = this._groupInOrder(qs);
       const examM = this.cfg.exam && this.cfg.exam.minutes ? this.cfg.exam.minutes : 80;
       const examN = this.cfg.exam && this.cfg.exam.questions ? this.cfg.exam.questions : 40;
       this.session = {
@@ -430,6 +448,15 @@
       this._scenarioCollapsed = {};
       this.saveSession();
       this.renderQuiz();
+    }
+
+    // "By week/unit" order: stable sort by blueprint group (or unit), so each group keeps its shuffled order.
+    _groupInOrder(qs) {
+      const key = (q) => {
+        if (this.blueprint) { const g = this.blueprintGroup(q); return g == null ? Infinity : g; }
+        return q.unit != null && !isNaN(Number(q.unit)) ? Number(q.unit) : Infinity;
+      };
+      return qs.map((q, i) => [key(q), i, q]).sort((a, b) => a[0] - b[0] || a[1] - b[1]).map(x => x[2]);
     }
 
     // Shuffle questions but keep questions that share a scenario adjacent (like the real test).
