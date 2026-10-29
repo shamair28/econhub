@@ -576,7 +576,8 @@
       const locked = this.showsFeedback() && a && a.checked;
       const meta = h('div', { class: 'pe-meta' },
         h('span', { class: 'pe-badge pe-badge-' + (q.source.kind || 'custom'), title: KIND_LABEL[q.source.kind] || '' }, this.sourceText(q)),
-        q.unit != null ? h('span', { class: 'pe-badge pe-badge-unit' }, `${this.unitWord} ${q.unit}${q.topic ? ' · ' + q.topic : ''}`) : (q.topic ? h('span', { class: 'pe-badge pe-badge-unit' }, q.topic) : null),
+        // the topic often gives the answer away, so until feedback shows it the badge names only the unit/chapter
+        q.unit != null || q.topic ? h('span', { class: 'pe-badge pe-badge-unit', text: this._unitBadgeText(q, locked || !!s.review) }) : null,
         !q.inScope && this.cfg.scope ? h('span', { class: 'pe-badge pe-badge-warn', title: q.scopeNote || '' }, `Not on ${this.cfg.scope.label}`) : null,
         h('button', { type: 'button', class: 'pe-flag' + (s.flags[q.id] ? ' is-on' : ''), 'aria-pressed': !!s.flags[q.id], title: 'Flag for review (F)', onClick: (e) => this.toggleFlag(e.currentTarget) }, '⚑', h('span', { class: 'pe-sr', text: 'Flag' })));
 
@@ -788,7 +789,17 @@
       this.progressEl.style.width = pct(answered, s.order.length) + '%';
     }
 
+    _unitBadgeText(q, revealTopic) {
+      if (q.unit == null) return revealTopic ? q.topic : 'General';
+      const unit = `${this.unitWord} ${q.unit}`;
+      if (revealTopic && q.topic) return `${unit} · ${q.topic}`;
+      const name = this.cfg.unitNames && this.cfg.unitNames[q.unit];
+      return name ? `${unit} · ${name}` : unit;
+    }
+
     _showFeedback(card, q, a) {
+      const unitBadge = card.querySelector('.pe-badge-unit');
+      if (unitBadge) unitBadge.textContent = this._unitBadgeText(q, true);
       const fb = card.querySelector('.pe-feedback');
       const g = a.graded || this.grade(q, a.response);
       fb.innerHTML = '';
