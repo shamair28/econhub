@@ -352,7 +352,12 @@
 
             h('div', { class: 'pe-stats' },
               h('div', { class: 'pe-stat' }, h('b', { text: this.questions.length }), h('span', { text: 'questions in the bank' })),
-              ...Object.entries(sources).map(([label, s]) => h('div', { class: 'pe-stat' }, h('b', { text: s.n }), h('span', {}, h('span', { class: 'pe-badge pe-badge-' + (s.kind || 'custom'), text: label })))),
+              ...Object.entries(sources).map(([label, s]) => {
+                const link = (cfg.sourceLinks || {})[label];   // optional: a page listing that source's questions
+                const inner = [h('b', { text: s.n }), h('span', {}, h('span', { class: 'pe-badge pe-badge-' + (s.kind || 'custom'), text: label })),
+                  link ? h('span', { class: 'pe-stat-arrow', 'aria-hidden': 'true', text: '→' }) : null];
+                return link ? h('a', { class: 'pe-stat pe-stat-link', href: link.href || link, title: link.title || '' }, ...inner) : h('div', { class: 'pe-stat' }, ...inner);
+              }),
               types.graph ? h('div', { class: 'pe-stat' }, h('b', { text: types.graph }), h('span', { text: 'graph-drawing drills' })) : null),
 
             saved ? h('div', { class: 'pe-resume' },

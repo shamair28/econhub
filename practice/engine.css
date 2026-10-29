@@ -124,6 +124,10 @@
 .pe-stats { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 26px; }
 .pe-stat { display: flex; align-items: center; gap: 8px; padding: 8px 14px; border-radius: 12px; background: var(--pe-chip); font-size: 0.88rem; color: var(--pe-text-2); }
 .pe-stat b { font-size: 1.15rem; color: var(--pe-text); font-variant-numeric: tabular-nums; }
+.pe-stat-link { text-decoration: none; border: 1px solid transparent; transition: border-color 160ms, transform 160ms var(--pe-ease); }
+.pe-stat-link:hover, .pe-stat-link:focus-visible { border-color: var(--pe-accent); }
+.pe-stat-arrow { font-weight: 800; color: var(--pe-accent); transition: transform 160ms var(--pe-ease); }
+.pe-stat-link:hover .pe-stat-arrow { transform: translateX(3px); }
 .pe-h2 { font-size: 0.8rem; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; color: var(--pe-muted); margin: 26px 0 12px; }
 .pe-modes { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 @media (max-width: 560px) { .pe-modes { grid-template-columns: 1fr; } }

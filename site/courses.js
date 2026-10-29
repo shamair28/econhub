@@ -95,6 +95,16 @@ window.HUB_SITE = {
           }
         },
         {
+          href: '/1BA3/testbank', icon: '☰', kind: 'Answer key',
+          title: 'Test Bank Answer Key',
+          short: 'Answer key',
+          desc: 'Every chapter test-bank question with its answer and explanation · group by chapter or teaching week · search · hide answers to self-test',
+          chapters: {
+            1: [['?by=chapter#ch1', 'Ch. 1']], 2: [['?by=chapter#ch2', 'Ch. 2']], 3: [['?by=chapter#ch3', 'Ch. 3']], 4: [['?by=chapter#ch4', 'Ch. 4']],
+            5: [['?by=chapter#ch5', 'Ch. 5']], 6: [['?by=chapter#ch6', 'Ch. 6']], 10: [['?by=chapter#ch10', 'Ch. 10']], 11: [['?by=chapter#ch11', 'Ch. 11']]
+          }
+        },
+        {
           href: '/1BA3/sme', icon: '★', kind: 'Assignment prep',
           title: 'Group Assignment SME Prep',
           short: 'SME Prep',

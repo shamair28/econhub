@@ -6,7 +6,7 @@
 <meta name="color-scheme" content="light dark">
 <title>COMM 1BA3 — Midterm Practice</title>
 <link rel="stylesheet" href="../practice/graph.css?v=5">
-<link rel="stylesheet" href="../practice/engine.css?v=5">
+<link rel="stylesheet" href="../practice/engine.css?v=7">
 <style>
   html, body { margin: 0; padding: 0; }
   /* course accent: COMM 1BA3 pink (matches --c-1BA3 in site/site.css) */
@@ -17,7 +17,7 @@
 <body>
 <div id="app"></div>
 <script src="../practice/graph.js?v=5"></script>
-<script src="../practice/engine.js?v=6"></script>
+<script src="../practice/engine.js?v=7"></script>
 <script>
 PracticeEngine.mount(document.getElementById('app'), {
   id: '1BA3-midterm',
@@ -46,6 +46,8 @@ PracticeEngine.mount(document.getElementById('app'), {
 
 His **15 sample review questions** are here too. 14 of them are word-for-word from the publisher’s chapter **test bank**, which is where most of these questions come from. The bank was written for an older edition, so every key was re-checked against the 12th-edition text. Corrected items say so under the explanation, and items on content the current text dropped are hidden. He also recommends the lecture slides, in-class examples and his “Top Twelve Takeaways”. True/false items are drill only; untick them under *Question types* for MC only.`
   },
+  /* the stat tile for the test bank links to the full answer-key listing */
+  sourceLinks: { 'Textbook Test Bank': { href: '/1BA3/testbank', title: 'Browse every test-bank question with its answer, by chapter or week' } },
   unitWord: 'Ch.',
   unitNoun: 'chapter',
   unitNames: {
