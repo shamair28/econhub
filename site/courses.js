@@ -23,7 +23,10 @@ window.HUB_SITE = {
         { n: 2, title: 'Trade-offs, Comparative Advantage, and the Market System' },
         { n: 3, title: 'Where Prices Come From: The Interaction of Supply and Demand' },
         { n: 4, title: 'Economic Efficiency, Government Price Setting, and Taxes' },
-        { n: 8, title: 'Consumer Choice and Behavioural Economics' }
+        { n: 6, title: 'Elasticity: The Responsiveness of Demand and Supply' },
+        { n: 8, title: 'Consumer Choice and Behavioural Economics' },
+        { n: 9, title: 'Technology, Production, and Costs' },
+        { n: 10, title: 'Firms in Perfectly Competitive Markets' }
       ],
       tools: [
         {
