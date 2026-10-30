@@ -1,0 +1,6101 @@
+{
+  "schema": "practice-bank/v1",
+  "id": "1B03-mt2-text-ch10",
+  "course": "ECON 1B03",
+  "title": "Textbook Homework · Ch 10",
+  "description": "Assigned Week 8 textbook questions (Hubbard et al., Microeconomics, 4th Canadian ed.), Chapter 10 Perfect Competition.",
+  "defaultSource": {
+    "label": "Textbook Homework",
+    "kind": "textbook"
+  },
+  "defaultUnit": 8,
+  "scenarios": {
+    "ch10-r5.2": {
+      "title": "Review Q 5.2 — The soybean market",
+      "body": "A February 2022 article in the Wall Street Journal reported that prices of soybeans had risen because “abnormally dry weather in South America . . . has affected soybeans there, and U.S. farmers are poised to take advantage by planting more this year.” The US Department of Agriculture had forecast that Brazil and Argentina would produce 134 million and 45 million tons of soybeans, respectively, in 2022.\n\na. Describe the three characteristics of a perfectly competitive market. Based on these characteristics, do you believe the market for soybeans is perfectly competitive? Briefly explain.\n\nb. Assume that Canadian farmers did “take advantage” of higher soybean prices by “planting more” in 2022. Holding everything else constant, how will this have affected the supply of soybeans and the equilibrium price in 2022 and 2023?"
+    },
+    "ch10-r5.4": {
+      "title": "Review Q 5.4 — Long-run supply curve",
+      "body": "Describe the shape of the long-run supply curve in a perfectly competitive market. Suppose that a perfectly competitive market is initially at long-run equilibrium, and then there is a permanent decrease in the demand for the product. Draw a graph showing how the market adjusts in the long run.\n\n*Note: the schedule lists this under Problems; the textbook eText labels it a Review Question, so it carries both tags.*"
+    },
+    "ch10-p1.4": {
+      "title": "Problem 1.4 — Which markets are perfectly competitive?",
+      "body": "Explain whether each of the following is a perfectly competitive market. For each market that is not perfectly competitive, explain why it is not.\n\na. Tomato growing\n\nb. Coffee shops\n\nc. Automobile manufacturing\n\nd. New home construction"
+    },
+    "ch10-p2.5": {
+      "title": "Problem 2.5 — Revenue vs profit",
+      "body": "Why don’t firms maximize revenue rather than profit? Briefly explain whether a firm that maximized revenue would be likely to produce a smaller or larger quantity than if it were maximizing profit."
+    },
+    "ch10-p2.6": {
+      "title": "Problem 2.6 — Farmer Parker (Table 10.3)",
+      "body": "Refer to Table 10.3. Suppose the price of wheat falls to $5.50 per bushel. How many bushels of wheat will Farmer Parker produce, and how much profit will he make? Briefly explain.\n\n*Table 10.3 is reproduced from the textbook data (it was not in the supplied screenshot). At $7.00 Farmer Parker's profit is largest at 7 bushels ($13.50).*",
+      "table": {
+        "caption": "Table 10.3 — Farmer Parker's wheat (price = marginal revenue = $7.00 per bushel)",
+        "headers": [
+          "Bushels (Q)",
+          "Price = MR",
+          "Total cost",
+          "Total revenue",
+          "Profit",
+          "Marginal cost"
+        ],
+        "rows": [
+          [
+            "0",
+            "$7.00",
+            "$10.00",
+            "$0.00",
+            "−$10.00",
+            "—"
+          ],
+          [
+            "1",
+            "$7.00",
+            "$14.00",
+            "$7.00",
+            "−$7.00",
+            "$4.00"
+          ],
+          [
+            "2",
+            "$7.00",
+            "$16.50",
+            "$14.00",
+            "−$2.50",
+            "$2.50"
+          ],
+          [
+            "3",
+            "$7.00",
+            "$18.50",
+            "$21.00",
+            "$2.50",
+            "$2.00"
+          ],
+          [
+            "4",
+            "$7.00",
+            "$21.00",
+            "$28.00",
+            "$7.00",
+            "$2.50"
+          ],
+          [
+            "5",
+            "$7.00",
+            "$24.50",
+            "$35.00",
+            "$10.50",
+            "$3.50"
+          ],
+          [
+            "6",
+            "$7.00",
+            "$29.00",
+            "$42.00",
+            "$13.00",
+            "$4.50"
+          ],
+          [
+            "7",
+            "$7.00",
+            "$35.50",
+            "$49.00",
+            "$13.50",
+            "$6.50"
+          ],
+          [
+            "8",
+            "$7.00",
+            "$44.50",
+            "$56.00",
+            "$11.50",
+            "$9.00"
+          ],
+          [
+            "9",
+            "$7.00",
+            "$56.50",
+            "$63.00",
+            "$6.50",
+            "$12.00"
+          ],
+          [
+            "10",
+            "$7.00",
+            "$72.00",
+            "$70.00",
+            "−$2.00",
+            "$15.50"
+          ]
+        ]
+      }
+    },
+    "ch10-p2.7": {
+      "title": "Problem 2.7 — Farmer Parker (Table 10.3)",
+      "body": "Refer to Table 10.3. Suppose that the marginal cost of wheat is $0.50 higher for every bushel of wheat produced. For example, the marginal cost of producing the eighth bushel of wheat is now $9.50. Assume that the price of wheat remains at $7 per bushel. Will this increase in marginal cost change the profit-maximizing level of production for Farmer Parker? Briefly explain.\n\n*Table 10.3 is reproduced from the textbook data (it was not in the supplied screenshot). At $7.00 Farmer Parker's profit is largest at 7 bushels ($13.50).*",
+      "table": {
+        "caption": "Table 10.3 — Farmer Parker's wheat (price = marginal revenue = $7.00 per bushel)",
+        "headers": [
+          "Bushels (Q)",
+          "Price = MR",
+          "Total cost",
+          "Total revenue",
+          "Profit",
+          "Marginal cost"
+        ],
+        "rows": [
+          [
+            "0",
+            "$7.00",
+            "$10.00",
+            "$0.00",
+            "−$10.00",
+            "—"
+          ],
+          [
+            "1",
+            "$7.00",
+            "$14.00",
+            "$7.00",
+            "−$7.00",
+            "$4.00"
+          ],
+          [
+            "2",
+            "$7.00",
+            "$16.50",
+            "$14.00",
+            "−$2.50",
+            "$2.50"
+          ],
+          [
+            "3",
+            "$7.00",
+            "$18.50",
+            "$21.00",
+            "$2.50",
+            "$2.00"
+          ],
+          [
+            "4",
+            "$7.00",
+            "$21.00",
+            "$28.00",
+            "$7.00",
+            "$2.50"
+          ],
+          [
+            "5",
+            "$7.00",
+            "$24.50",
+            "$35.00",
+            "$10.50",
+            "$3.50"
+          ],
+          [
+            "6",
+            "$7.00",
+            "$29.00",
+            "$42.00",
+            "$13.00",
+            "$4.50"
+          ],
+          [
+            "7",
+            "$7.00",
+            "$35.50",
+            "$49.00",
+            "$13.50",
+            "$6.50"
+          ],
+          [
+            "8",
+            "$7.00",
+            "$44.50",
+            "$56.00",
+            "$11.50",
+            "$9.00"
+          ],
+          [
+            "9",
+            "$7.00",
+            "$56.50",
+            "$63.00",
+            "$6.50",
+            "$12.00"
+          ],
+          [
+            "10",
+            "$7.00",
+            "$72.00",
+            "$70.00",
+            "−$2.00",
+            "$15.50"
+          ]
+        ]
+      }
+    },
+    "ch10-p2.8": {
+      "title": "Problem 2.8 — Farmer Parker (Table 10.3)",
+      "body": "In Table 10.3, what is Farmer Parker’s fixed cost? Suppose that his fixed cost increases by $10. Will this increase change the profit-maximizing level of production for Farmer Parker? Briefly explain. How much profit will he make now?\n\n*Table 10.3 is reproduced from the textbook data (it was not in the supplied screenshot). At $7.00 Farmer Parker's profit is largest at 7 bushels ($13.50).*",
+      "table": {
+        "caption": "Table 10.3 — Farmer Parker's wheat (price = marginal revenue = $7.00 per bushel)",
+        "headers": [
+          "Bushels (Q)",
+          "Price = MR",
+          "Total cost",
+          "Total revenue",
+          "Profit",
+          "Marginal cost"
+        ],
+        "rows": [
+          [
+            "0",
+            "$7.00",
+            "$10.00",
+            "$0.00",
+            "−$10.00",
+            "—"
+          ],
+          [
+            "1",
+            "$7.00",
+            "$14.00",
+            "$7.00",
+            "−$7.00",
+            "$4.00"
+          ],
+          [
+            "2",
+            "$7.00",
+            "$16.50",
+            "$14.00",
+            "−$2.50",
+            "$2.50"
+          ],
+          [
+            "3",
+            "$7.00",
+            "$18.50",
+            "$21.00",
+            "$2.50",
+            "$2.00"
+          ],
+          [
+            "4",
+            "$7.00",
+            "$21.00",
+            "$28.00",
+            "$7.00",
+            "$2.50"
+          ],
+          [
+            "5",
+            "$7.00",
+            "$24.50",
+            "$35.00",
+            "$10.50",
+            "$3.50"
+          ],
+          [
+            "6",
+            "$7.00",
+            "$29.00",
+            "$42.00",
+            "$13.00",
+            "$4.50"
+          ],
+          [
+            "7",
+            "$7.00",
+            "$35.50",
+            "$49.00",
+            "$13.50",
+            "$6.50"
+          ],
+          [
+            "8",
+            "$7.00",
+            "$44.50",
+            "$56.00",
+            "$11.50",
+            "$9.00"
+          ],
+          [
+            "9",
+            "$7.00",
+            "$56.50",
+            "$63.00",
+            "$6.50",
+            "$12.00"
+          ],
+          [
+            "10",
+            "$7.00",
+            "$72.00",
+            "$70.00",
+            "−$2.00",
+            "$15.50"
+          ]
+        ]
+      }
+    },
+    "ch10-p3.3": {
+      "title": "Problem 3.3 — Frances's pencils",
+      "body": "[Related to Solved Problem 10.3] Frances sells pencils in the perfectly competitive pencil market. Her output per day and her total cost are shown in the following table.\n\na. If the current equilibrium price in the pencil market is $1.80, how many pencils will Frances produce, what price will she charge, and what will be her profit (or loss)? Draw a graph to illustrate your answer. Your graph should be clearly labeled and should include Frances’s demand, ATC, AVC, MC, and MR curves; the price she is charging; the quantity she is producing; and the area representing her profit (or loss).\n\nb. Suppose the equilibrium price of pencils falls to $1.00. Now how many pencils will Frances produce, what price will she charge, and what will be her profit (or loss)? Show your work. Draw a graph to illustrate this situation, using the instructions in part (a).\n\nc. Suppose the equilibrium price of pencils falls to $0.25. Now how many pencils will Frances produce, what price will she charge, and what will be her profit (or loss)?",
+      "table": {
+        "caption": "Frances's output and total cost",
+        "headers": [
+          "Output per day",
+          "Total cost"
+        ],
+        "rows": [
+          [
+            "0",
+            "$1.00"
+          ],
+          [
+            "1",
+            "$2.50"
+          ],
+          [
+            "2",
+            "$3.50"
+          ],
+          [
+            "3",
+            "$4.20"
+          ],
+          [
+            "4",
+            "$4.50"
+          ],
+          [
+            "5",
+            "$5.20"
+          ],
+          [
+            "6",
+            "$6.80"
+          ],
+          [
+            "7",
+            "$8.70"
+          ],
+          [
+            "8",
+            "$10.70"
+          ],
+          [
+            "9",
+            "$13.00"
+          ]
+        ]
+      }
+    },
+    "ch10-p4.4": {
+      "title": "Problem 4.4 — Produce or shut down?",
+      "body": "Consider a firm in each of the following three situations. For each situation, carefully explain whether the firm will produce in the short run or shut down in the short run.",
+      "table": {
+        "caption": "Three firms, each with price $10 and output of 1000 units",
+        "headers": [
+          "",
+          "Situation 1",
+          "Situation 2",
+          "Situation 3"
+        ],
+        "rows": [
+          [
+            "Price",
+            "$10",
+            "$10",
+            "$10"
+          ],
+          [
+            "Quantity",
+            "1000",
+            "1000",
+            "1000"
+          ],
+          [
+            "Variable cost",
+            "$5000",
+            "$5000",
+            "$11,000"
+          ],
+          [
+            "Fixed cost",
+            "$5000",
+            "$6000",
+            "$5000"
+          ],
+          [
+            "Marginal cost of 1000th unit",
+            "$10",
+            "$10",
+            "$10"
+          ]
+        ],
+        "rowHeaders": true
+      }
+    },
+    "ch10-p4.5": {
+      "title": "Problem 4.5 — Netflix in 2001",
+      "body": "Marc Randolph founded Netflix with Reed Hastings. In a book about his experiences, Randolph wrote that in early 2001, he came to realize that “there had to be a point where not only were we making money from each customer each month, there were enough customers to cover the fixed costs of running the business.” At that point, before streaming movies had become possible, Netflix’s business consisted of customers renting DVDs by mail.\n\na. Identify one fixed cost of running Netflix in 2001 and explain why that cost was fixed.\n\nb. In 2001, what was the relationship between Netflix’s revenue and its variable cost?\n\nc. Was Netflix earning a profit? If not, why would the firm continue operating?"
+    },
+    "ch10-p4.6": {
+      "title": "Problem 4.6 — Alfredo's desk lamps",
+      "body": "Alfredo produces desk lamps in the perfectly competitive desk lamp market.\n\na. Fill in the missing values in the table below.\n\nb. Suppose the equilibrium price in the desk lamp market is $50. How many desk lamps should Alfredo produce, and how much profit will he make?\n\nc. If next week the equilibrium price of desk lamps drops to $30, should Alfredo shut down? Explain.",
+      "table": {
+        "caption": "Alfredo's weekly output and total cost (part (a) asks you to fill in AFC, AVC, ATC and MC)",
+        "headers": [
+          "Output per week",
+          "Total cost",
+          "AFC",
+          "AVC",
+          "ATC",
+          "MC"
+        ],
+        "rows": [
+          [
+            "0",
+            "$100",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "1",
+            "150",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "2",
+            "175",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "3",
+            "190",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "4",
+            "210",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "5",
+            "240",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "6",
+            "280",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "7",
+            "330",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "8",
+            "390",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "9",
+            "460",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "10",
+            "540",
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    "ch10-p5.7": {
+      "title": "Problem 5.7 — The market for cage-free eggs",
+      "body": "[Related to the Chapter Opener] The following questions are about long-run equilibrium in the market for cage-free eggs.\n\na. According to the chapter opener, in 2023, was the market for cage-free eggs in long-run equilibrium? Briefly explain.\n\nb. What would we expect to happen to the price of cage-free eggs and the quantity of cage-free eggs produced in the long run? Briefly explain.\n\nc. As of 2023, the US Department of Agriculture (USDA) did not have detailed guidelines for egg farmers to follow to claim that the eggs they sell were laid by pasture-raised chickens—beyond requiring that the chickens “have continuous, free access to the outdoors.” Some animal rights activists were pushing for the USDA to enact stricter guidelines. Such guidelines might significantly raise the cost of producing pasture-raised eggs. Suppose that the USDA begins to require stricter guidelines. What effect will this increase in cost have on the long-run price of pasture-raised eggs? In the long run, will the quantity of pasture-raised eggs be larger, smaller, or the same as it would have been without the USDA adopting the guideline? Briefly explain.\n\n*Note: the chapter opener isn't reproduced here, so part (a) is asked generically.*"
+    },
+    "ch10-p3.5": {
+      "title": "Problem 3.5 — Q₁ or Q₂?",
+      "body": "[Related to the Don’t Let This Happen to You “Remember That Firms Maximize Their Total Profit, Not Their Profit per Unit”] A student examines the following graph and argues: “I believe that a firm will want to produce at Q₁, not at Q₂. At Q₁, the distance between price and marginal cost is the greatest. Therefore, at Q₁, the firm will be maximizing its profit.” Briefly explain whether you agree with the student’s argument.",
+      "figure": {
+        "type": "graph",
+        "caption": "Problem 3.5 figure (redrawn)",
+        "spec": {
+          "x": {
+            "label": "Quantity",
+            "min": 0,
+            "max": 100,
+            "hideTicks": true
+          },
+          "y": {
+            "label": "Price and cost",
+            "min": 0,
+            "max": 100,
+            "hideTicks": true
+          },
+          "curves": [
+            {
+              "id": "MR",
+              "label": "D = MR",
+              "color": "blue",
+              "points": [
+                [
+                  0,
+                  60
+                ],
+                [
+                  100,
+                  60
+                ]
+              ]
+            },
+            {
+              "id": "MC",
+              "label": "MC",
+              "color": "red",
+              "smooth": true,
+              "points": [
+                [
+                  6.0,
+                  57.852
+                ],
+                [
+                  8.833,
+                  52.189
+                ],
+                [
+                  11.667,
+                  47.153
+                ],
+                [
+                  14.5,
+                  42.744
+                ],
+                [
+                  17.333,
+                  38.963
+                ],
+                [
+                  20.167,
+                  35.808
+                ],
+                [
+                  23.0,
+                  33.281
+                ],
+                [
+                  25.833,
+                  31.381
+                ],
+                [
+                  28.667,
+                  30.109
+                ],
+                [
+                  31.5,
+                  29.463
+                ],
+                [
+                  34.333,
+                  29.444
+                ],
+                [
+                  37.167,
+                  30.053
+                ],
+                [
+                  40.0,
+                  31.289
+                ],
+                [
+                  42.833,
+                  33.152
+                ],
+                [
+                  45.667,
+                  35.642
+                ],
+                [
+                  48.5,
+                  38.76
+                ],
+                [
+                  51.333,
+                  42.504
+                ],
+                [
+                  54.167,
+                  46.876
+                ],
+                [
+                  57.0,
+                  51.875
+                ],
+                [
+                  59.833,
+                  57.501
+                ],
+                [
+                  62.667,
+                  63.754
+                ],
+                [
+                  65.5,
+                  70.635
+                ],
+                [
+                  68.333,
+                  78.142
+                ],
+                [
+                  71.167,
+                  86.277
+                ],
+                [
+                  74.0,
+                  95.039
+                ]
+              ]
+            },
+            {
+              "id": "ATC",
+              "label": "ATC",
+              "color": "orange",
+              "smooth": true,
+              "points": [
+                [
+                  15.0,
+                  85.945
+                ],
+                [
+                  18.208,
+                  79.323
+                ],
+                [
+                  21.417,
+                  73.285
+                ],
+                [
+                  24.625,
+                  67.83
+                ],
+                [
+                  27.833,
+                  62.959
+                ],
+                [
+                  31.042,
+                  58.672
+                ],
+                [
+                  34.25,
+                  54.969
+                ],
+                [
+                  37.458,
+                  51.849
+                ],
+                [
+                  40.667,
+                  49.313
+                ],
+                [
+                  43.875,
+                  47.361
+                ],
+                [
+                  47.083,
+                  45.993
+                ],
+                [
+                  50.292,
+                  45.208
+                ],
+                [
+                  53.5,
+                  45.007
+                ],
+                [
+                  56.708,
+                  45.39
+                ],
+                [
+                  59.917,
+                  46.357
+                ],
+                [
+                  63.125,
+                  47.907
+                ],
+                [
+                  66.333,
+                  50.041
+                ],
+                [
+                  69.542,
+                  52.759
+                ],
+                [
+                  72.75,
+                  56.06
+                ],
+                [
+                  75.958,
+                  59.946
+                ],
+                [
+                  79.167,
+                  64.415
+                ],
+                [
+                  82.375,
+                  69.468
+                ],
+                [
+                  85.583,
+                  75.104
+                ],
+                [
+                  88.792,
+                  81.324
+                ],
+                [
+                  92.0,
+                  88.129
+                ]
+              ]
+            }
+          ],
+          "guides": [
+            {
+              "axis": "x",
+              "at": 30,
+              "label": "Q₁",
+              "toY": 60
+            },
+            {
+              "axis": "x",
+              "at": 61,
+              "label": "Q₂",
+              "toY": 60
+            },
+            {
+              "axis": "y",
+              "at": 60,
+              "label": "P"
+            }
+          ]
+        }
+      }
+    },
+    "ch10-p3.8": {
+      "title": "Problem 3.8 — Marguerite’s Caps",
+      "body": "The following graph represents the situation of Marguerite’s Caps, a firm selling caps in the perfectly competitive cap industry. In each part of this problem, be sure to show how you calculated your answer.\n\na. How much output should Marguerite produce to maximize her profit?\n\nb. How much profit will she earn?\n\nc. Suppose Marguerite decides to quit the cap industry and shut down. What would her loss be?",
+      "figure": {
+        "type": "graph",
+        "caption": "Problem 3.8 figure (redrawn; horizontal spacing approximate)",
+        "spec": {
+          "x": {
+            "label": "Quantity (caps per day)",
+            "min": 0,
+            "max": 155,
+            "ticks": [
+              50,
+              80,
+              100
+            ]
+          },
+          "y": {
+            "label": "Price and cost (dollars per cap)",
+            "min": 0,
+            "max": 16,
+            "ticks": [
+              {
+                "at": 6,
+                "label": "$6.00"
+              },
+              {
+                "at": 9,
+                "label": "$9.00"
+              },
+              {
+                "at": 11,
+                "label": "$11.00"
+              }
+            ]
+          },
+          "curves": [
+            {
+              "id": "MR",
+              "label": "MR",
+              "color": "blue",
+              "points": [
+                [
+                  0,
+                  11
+                ],
+                [
+                  155,
+                  11
+                ]
+              ]
+            },
+            {
+              "id": "MC",
+              "label": "MC",
+              "color": "red",
+              "smooth": true,
+              "points": [
+                [
+                  15,
+                  4.6
+                ],
+                [
+                  22,
+                  2.5
+                ],
+                [
+                  30,
+                  1.4
+                ],
+                [
+                  38,
+                  1.6
+                ],
+                [
+                  46,
+                  2.8
+                ],
+                [
+                  55,
+                  4.3
+                ],
+                [
+                  65,
+                  6.0
+                ],
+                [
+                  80,
+                  8.6
+                ],
+                [
+                  90,
+                  9.8
+                ],
+                [
+                  100,
+                  11
+                ],
+                [
+                  108,
+                  12.4
+                ],
+                [
+                  114,
+                  13.8
+                ]
+              ]
+            },
+            {
+              "id": "ATC",
+              "label": "ATC",
+              "color": "orange",
+              "smooth": true,
+              "points": [
+                [
+                  20.0,
+                  12.2
+                ],
+                [
+                  25.417,
+                  11.579
+                ],
+                [
+                  30.833,
+                  11.017
+                ],
+                [
+                  36.25,
+                  10.514
+                ],
+                [
+                  41.667,
+                  10.069
+                ],
+                [
+                  47.083,
+                  9.684
+                ],
+                [
+                  52.5,
+                  9.356
+                ],
+                [
+                  57.917,
+                  9.088
+                ],
+                [
+                  63.333,
+                  8.878
+                ],
+                [
+                  68.75,
+                  8.727
+                ],
+                [
+                  74.167,
+                  8.634
+                ],
+                [
+                  79.583,
+                  8.6
+                ],
+                [
+                  85.0,
+                  8.625
+                ],
+                [
+                  90.417,
+                  8.709
+                ],
+                [
+                  95.833,
+                  8.851
+                ],
+                [
+                  101.25,
+                  9.052
+                ],
+                [
+                  106.667,
+                  9.311
+                ],
+                [
+                  112.083,
+                  9.629
+                ],
+                [
+                  117.5,
+                  10.006
+                ],
+                [
+                  122.917,
+                  10.442
+                ],
+                [
+                  128.333,
+                  10.936
+                ],
+                [
+                  133.75,
+                  11.489
+                ],
+                [
+                  139.167,
+                  12.101
+                ],
+                [
+                  144.583,
+                  12.771
+                ],
+                [
+                  150.0,
+                  13.5
+                ]
+              ]
+            },
+            {
+              "id": "AVC",
+              "label": "AVC",
+              "color": "amber",
+              "smooth": true,
+              "points": [
+                [
+                  12.0,
+                  5.852
+                ],
+                [
+                  17.125,
+                  5.504
+                ],
+                [
+                  22.25,
+                  5.2
+                ],
+                [
+                  27.375,
+                  4.941
+                ],
+                [
+                  32.5,
+                  4.725
+                ],
+                [
+                  37.625,
+                  4.553
+                ],
+                [
+                  42.75,
+                  4.426
+                ],
+                [
+                  47.875,
+                  4.343
+                ],
+                [
+                  53.0,
+                  4.303
+                ],
+                [
+                  58.125,
+                  4.308
+                ],
+                [
+                  63.25,
+                  4.357
+                ],
+                [
+                  68.375,
+                  4.45
+                ],
+                [
+                  73.5,
+                  4.587
+                ],
+                [
+                  78.625,
+                  4.769
+                ],
+                [
+                  83.75,
+                  4.994
+                ],
+                [
+                  88.875,
+                  5.263
+                ],
+                [
+                  94.0,
+                  5.577
+                ],
+                [
+                  99.125,
+                  5.935
+                ],
+                [
+                  104.25,
+                  6.336
+                ],
+                [
+                  109.375,
+                  6.782
+                ],
+                [
+                  114.5,
+                  7.272
+                ],
+                [
+                  119.625,
+                  7.806
+                ],
+                [
+                  124.75,
+                  8.384
+                ],
+                [
+                  129.875,
+                  9.006
+                ],
+                [
+                  135.0,
+                  9.673
+                ]
+              ]
+            }
+          ],
+          "guides": [
+            {
+              "axis": "x",
+              "at": 50,
+              "toY": 11
+            },
+            {
+              "axis": "x",
+              "at": 80,
+              "toY": 11
+            },
+            {
+              "axis": "x",
+              "at": 100,
+              "toY": 11
+            },
+            {
+              "axis": "y",
+              "at": 9,
+              "toX": 100
+            },
+            {
+              "axis": "y",
+              "at": 6,
+              "toX": 100
+            }
+          ]
+        }
+      }
+    },
+    "ch10-p6.5": {
+      "title": "Problem 6.5 — Murat’s Kumquats",
+      "body": "The following graph represents the situation of Murat’s Kumquats, a kumquat grower.\n\na. How much profit is Murat’s Kumquats earning?\n\nb. Does the current situation of Murat’s Kumquats illustrate productive efficiency or allocative efficiency? If so, briefly explain how.",
+      "figure": {
+        "type": "graph",
+        "caption": "Problem 6.5 figure (redrawn)",
+        "spec": {
+          "x": {
+            "label": "Quantity",
+            "min": 0,
+            "max": 100,
+            "hideTicks": true
+          },
+          "y": {
+            "label": "Price and cost",
+            "min": 0,
+            "max": 100,
+            "hideTicks": true
+          },
+          "curves": [
+            {
+              "id": "MR",
+              "label": "MR",
+              "color": "blue",
+              "points": [
+                [
+                  0,
+                  60
+                ],
+                [
+                  100,
+                  60
+                ]
+              ]
+            },
+            {
+              "id": "MC",
+              "label": "MC",
+              "color": "red",
+              "smooth": true,
+              "points": [
+                [
+                  2.0,
+                  41.719
+                ],
+                [
+                  4.833,
+                  38.634
+                ],
+                [
+                  7.667,
+                  36.019
+                ],
+                [
+                  10.5,
+                  33.875
+                ],
+                [
+                  13.333,
+                  32.201
+                ],
+                [
+                  16.167,
+                  30.997
+                ],
+                [
+                  19.0,
+                  30.264
+                ],
+                [
+                  21.833,
+                  30.001
+                ],
+                [
+                  24.667,
+                  30.208
+                ],
+                [
+                  27.5,
+                  30.886
+                ],
+                [
+                  30.333,
+                  32.035
+                ],
+                [
+                  33.167,
+                  33.653
+                ],
+                [
+                  36.0,
+                  35.742
+                ],
+                [
+                  38.833,
+                  38.302
+                ],
+                [
+                  41.667,
+                  41.331
+                ],
+                [
+                  44.5,
+                  44.832
+                ],
+                [
+                  47.333,
+                  48.802
+                ],
+                [
+                  50.167,
+                  53.243
+                ],
+                [
+                  53.0,
+                  58.154
+                ],
+                [
+                  55.833,
+                  63.536
+                ],
+                [
+                  58.667,
+                  69.388
+                ],
+                [
+                  61.5,
+                  75.71
+                ],
+                [
+                  64.333,
+                  82.503
+                ],
+                [
+                  67.167,
+                  89.766
+                ],
+                [
+                  70.0,
+                  97.5
+                ]
+              ]
+            },
+            {
+              "id": "ATC",
+              "label": "ATC",
+              "color": "orange",
+              "smooth": true,
+              "points": [
+                [
+                  14.0,
+                  100.0
+                ],
+                [
+                  17.292,
+                  93.688
+                ],
+                [
+                  20.583,
+                  87.917
+                ],
+                [
+                  23.875,
+                  82.688
+                ],
+                [
+                  27.167,
+                  78.001
+                ],
+                [
+                  30.458,
+                  73.855
+                ],
+                [
+                  33.75,
+                  70.252
+                ],
+                [
+                  37.042,
+                  67.19
+                ],
+                [
+                  40.333,
+                  64.669
+                ],
+                [
+                  43.625,
+                  62.691
+                ],
+                [
+                  46.917,
+                  61.254
+                ],
+                [
+                  50.208,
+                  60.359
+                ],
+                [
+                  53.5,
+                  60.006
+                ],
+                [
+                  56.792,
+                  60.195
+                ],
+                [
+                  60.083,
+                  60.925
+                ],
+                [
+                  63.375,
+                  62.197
+                ],
+                [
+                  66.667,
+                  64.011
+                ],
+                [
+                  69.958,
+                  66.367
+                ],
+                [
+                  73.25,
+                  69.264
+                ],
+                [
+                  76.542,
+                  72.703
+                ],
+                [
+                  79.833,
+                  76.684
+                ],
+                [
+                  83.125,
+                  81.207
+                ],
+                [
+                  86.417,
+                  86.271
+                ],
+                [
+                  89.708,
+                  91.877
+                ],
+                [
+                  93.0,
+                  98.025
+                ]
+              ]
+            }
+          ],
+          "points": [
+            {
+              "id": "E",
+              "x": 54,
+              "y": 60
+            }
+          ],
+          "guides": [
+            {
+              "axis": "x",
+              "at": 54,
+              "label": "Q₁",
+              "toY": 60
+            },
+            {
+              "axis": "y",
+              "at": 60,
+              "label": "Market price"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "ch10-r1.1",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Conditions of perfect competition",
+      "tags": [
+        "review-question",
+        "week-8"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 10 · Review Q 1.1"
+      },
+      "prompt": "What are the three conditions for a market to be perfectly competitive?",
+      "explanation": "The textbook lists three conditions: (1) **many buyers and many sellers**, so no single firm can influence the market price; (2) **identical products**, so buyers do not care which seller they use; (3) **no barriers to entry** (or exit), so firms can freely join or leave.\n\nA few big sellers, branded products or entry barriers each break one of these conditions (they describe oligopoly, monopolistic competition and monopoly). *Slides vs text:* Dr. Mang's slides list five conditions (adding that buyers and sellers are well informed and that there are no externalities/price controls); the textbook groups them into the three above.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A few large sellers, identical products, and high barriers to entry"
+        },
+        {
+          "id": "b",
+          "text": "Many buyers and sellers, identical (homogeneous) products, and no barriers to entry or exit"
+        },
+        {
+          "id": "c",
+          "text": "Many buyers and sellers, differentiated (branded) products, and no barriers to entry"
+        },
+        {
+          "id": "d",
+          "text": "Many buyers and sellers, identical products, and a government licence required to enter"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-r2.1",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Price taker: P = MR = AR",
+      "tags": [
+        "review-question",
+        "week-8"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Review Q 2.1"
+      },
+      "prompt": "Explain why it is true that for a firm in a perfectly competitive market, P = MR = AR.",
+      "explanation": "A perfectly competitive firm is so small relative to the market that it can sell as much as it wants at the market price P, and nothing at a higher price. Its demand curve is therefore a **horizontal line at P**.\n\n- Total revenue: TR = P × Q.\n- Average revenue: AR = TR/Q = **P**.\n- Marginal revenue: MR = ΔTR/ΔQ = P × ΔQ/ΔQ = **P**.\n\nSo P = MR = AR = the firm's demand curve. The downward-sloping demand with MR < P describes a firm with market power (monopoly), not a price taker. P = MC is a *result* of profit maximization (see Review Q 2.3), not the reason MR = P.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The firm's demand curve slopes downward, so it must cut the price to sell more; MR is therefore below P but AR equals P"
+        },
+        {
+          "id": "b",
+          "text": "Profit-maximizing firms always set price equal to marginal cost, and marginal cost equals average revenue"
+        },
+        {
+          "id": "c",
+          "text": "The firm sets its own price equal to its average total cost, which is why average and marginal revenue match"
+        },
+        {
+          "id": "d",
+          "text": "A price taker sells every unit at the market price, so each extra unit adds exactly P to total revenue (MR = P) and TR/Q = P × Q/Q = P (AR = P)"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-r2.2",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Why MR = MC maximizes profit",
+      "tags": [
+        "review-question",
+        "week-8"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Review Q 2.2"
+      },
+      "prompt": "Explain why at the level of output where the difference between TR and TC is at its maximum positive value, MR must equal MC.",
+      "explanation": "Profit = TR − TC, so the change in profit from one more unit is **MR − MC**.\n\n- If MR > MC: the unit adds more revenue than cost, profit rises, so produce more.\n- If MR < MC: the unit adds more cost than revenue, profit falls, so produce less.\n- At MR = MC no further adjustment raises profit, so TR − TC is at its maximum.\n\nProfit is *not* where TR is greatest (that ignores cost), not where TR = TC (that is break-even, profit = 0), and not where MC or ATC is lowest.",
+      "options": [
+        {
+          "id": "a",
+          "text": "If MR > MC, one more unit adds more to revenue than to cost, so profit rises; if MR < MC, the last unit lowers profit. The gap TR − TC is largest where neither move helps, i.e. MR = MC"
+        },
+        {
+          "id": "b",
+          "text": "Profit is largest where TR is largest, and TR is largest where marginal revenue equals marginal cost"
+        },
+        {
+          "id": "c",
+          "text": "At maximum profit TR equals TC, and the slopes of the two curves must therefore be equal"
+        },
+        {
+          "id": "d",
+          "text": "Marginal cost is lowest there, and a firm maximizes profit by producing at the lowest cost per unit"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-r2.3",
+      "type": "mc",
+      "unit": 8,
+      "topic": "MR = MC vs P = MC",
+      "tags": [
+        "review-question",
+        "week-8",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Review Q 2.3 ★"
+      },
+      "prompt": "Explain why it is true that for a firm in a perfectly competitive market, the profit-maximizing condition MR = MC is equivalent to the condition P = MC.",
+      "explanation": "The profit-maximizing rule for *any* firm is MR = MC. For a perfectly competitive firm MR = P (Review Q 2.1), so the rule becomes **P = MC**. The two statements are the same condition.\n\nIn a monopoly or other market with market power MR < P, so P = MC does not hold. And MC = ATC only at ATC's minimum point, which is not generally where the firm produces.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Because in every market structure, including monopoly, price always equals marginal cost"
+        },
+        {
+          "id": "b",
+          "text": "Because marginal cost equals average total cost at the quantity where the firm maximizes profit"
+        },
+        {
+          "id": "c",
+          "text": "Because a price taker's marginal revenue equals the market price (MR = P), substituting P for MR turns the condition MR = MC into P = MC"
+        },
+        {
+          "id": "d",
+          "text": "Because a price taker's marginal revenue slopes downward and crosses the demand curve at the same point as marginal cost"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-r3.1",
+      "type": "graph",
+      "unit": 8,
+      "topic": "Graph: firm earning a profit",
+      "tags": [
+        "review-question",
+        "week-8"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Review Q 3.1"
+      },
+      "prompt": "A perfectly competitive firm faces the market price shown by the horizontal line D = MR = P, which lies **above** its ATC curve's minimum. Mark (A) the profit-maximizing point, where MR = MC, and (B) the point on the ATC curve at that same quantity. The profit rectangle is the area between P and ATC, out to that quantity.",
+      "explanation": "The firm produces where **MR = MC (= P)**, point A: the quantity at which the rising MC curve cuts the price line. Dropping straight down to the ATC curve gives point B. Profit per unit is P − ATC (the gap between A's height and B's height) and total profit is **(P − ATC) × Q**, the rectangle with corners at the price line, the ATC curve, the vertical axis and Q*. Because P > ATC at Q*, the firm earns an economic profit. AVC lies below ATC; it matters for the shutdown decision, not for the profit area.",
+      "graph": {
+        "x": {
+          "label": "Quantity",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Price / cost ($)",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "MC",
+            "label": "MC",
+            "color": "red",
+            "points": [
+              [
+                0,
+                40.0
+              ],
+              [
+                1,
+                38.23
+              ],
+              [
+                2,
+                36.52
+              ],
+              [
+                3,
+                34.87
+              ],
+              [
+                4,
+                33.28
+              ],
+              [
+                5,
+                31.75
+              ],
+              [
+                6,
+                30.28
+              ],
+              [
+                7,
+                28.87
+              ],
+              [
+                8,
+                27.52
+              ],
+              [
+                9,
+                26.23
+              ],
+              [
+                10,
+                25.0
+              ],
+              [
+                11,
+                23.83
+              ],
+              [
+                12,
+                22.72
+              ],
+              [
+                13,
+                21.67
+              ],
+              [
+                14,
+                20.68
+              ],
+              [
+                15,
+                19.75
+              ],
+              [
+                16,
+                18.88
+              ],
+              [
+                17,
+                18.07
+              ],
+              [
+                18,
+                17.32
+              ],
+              [
+                19,
+                16.63
+              ],
+              [
+                20,
+                16.0
+              ],
+              [
+                21,
+                15.43
+              ],
+              [
+                22,
+                14.92
+              ],
+              [
+                23,
+                14.47
+              ],
+              [
+                24,
+                14.08
+              ],
+              [
+                25,
+                13.75
+              ],
+              [
+                26,
+                13.48
+              ],
+              [
+                27,
+                13.27
+              ],
+              [
+                28,
+                13.12
+              ],
+              [
+                29,
+                13.03
+              ],
+              [
+                30,
+                13.0
+              ],
+              [
+                31,
+                13.03
+              ],
+              [
+                32,
+                13.12
+              ],
+              [
+                33,
+                13.27
+              ],
+              [
+                34,
+                13.48
+              ],
+              [
+                35,
+                13.75
+              ],
+              [
+                36,
+                14.08
+              ],
+              [
+                37,
+                14.47
+              ],
+              [
+                38,
+                14.92
+              ],
+              [
+                39,
+                15.43
+              ],
+              [
+                40,
+                16.0
+              ],
+              [
+                41,
+                16.63
+              ],
+              [
+                42,
+                17.32
+              ],
+              [
+                43,
+                18.07
+              ],
+              [
+                44,
+                18.88
+              ],
+              [
+                45,
+                19.75
+              ],
+              [
+                46,
+                20.68
+              ],
+              [
+                47,
+                21.67
+              ],
+              [
+                48,
+                22.72
+              ],
+              [
+                49,
+                23.83
+              ],
+              [
+                50,
+                25.0
+              ],
+              [
+                51,
+                26.23
+              ],
+              [
+                52,
+                27.52
+              ],
+              [
+                53,
+                28.87
+              ],
+              [
+                54,
+                30.28
+              ],
+              [
+                55,
+                31.75
+              ],
+              [
+                56,
+                33.28
+              ],
+              [
+                57,
+                34.87
+              ],
+              [
+                58,
+                36.52
+              ],
+              [
+                59,
+                38.23
+              ],
+              [
+                60,
+                40.0
+              ],
+              [
+                61,
+                41.83
+              ],
+              [
+                62,
+                43.72
+              ],
+              [
+                63,
+                45.67
+              ],
+              [
+                64,
+                47.68
+              ],
+              [
+                65,
+                49.75
+              ],
+              [
+                66,
+                51.88
+              ],
+              [
+                67,
+                54.07
+              ],
+              [
+                68,
+                56.32
+              ],
+              [
+                69,
+                58.63
+              ],
+              [
+                70,
+                61.0
+              ],
+              [
+                71,
+                63.43
+              ],
+              [
+                72,
+                65.92
+              ],
+              [
+                73,
+                68.47
+              ],
+              [
+                74,
+                71.08
+              ],
+              [
+                75,
+                73.75
+              ],
+              [
+                76,
+                76.48
+              ],
+              [
+                77,
+                79.27
+              ],
+              [
+                78,
+                82.12
+              ],
+              [
+                79,
+                85.03
+              ],
+              [
+                80,
+                88.0
+              ],
+              [
+                81,
+                91.03
+              ],
+              [
+                82,
+                94.12
+              ]
+            ],
+            "smooth": true
+          },
+          {
+            "id": "ATC",
+            "label": "ATC",
+            "color": "blue",
+            "points": [
+              [
+                14,
+                93.65
+              ],
+              [
+                15,
+                88.75
+              ],
+              [
+                16,
+                84.41
+              ],
+              [
+                17,
+                80.53
+              ],
+              [
+                18,
+                77.04
+              ],
+              [
+                19,
+                73.88
+              ],
+              [
+                20,
+                71.0
+              ],
+              [
+                21,
+                68.37
+              ],
+              [
+                22,
+                65.95
+              ],
+              [
+                23,
+                63.72
+              ],
+              [
+                24,
+                61.66
+              ],
+              [
+                25,
+                59.75
+              ],
+              [
+                26,
+                57.98
+              ],
+              [
+                27,
+                56.32
+              ],
+              [
+                28,
+                54.78
+              ],
+              [
+                29,
+                53.34
+              ],
+              [
+                30,
+                52.0
+              ],
+              [
+                31,
+                50.74
+              ],
+              [
+                32,
+                49.56
+              ],
+              [
+                33,
+                48.46
+              ],
+              [
+                34,
+                47.43
+              ],
+              [
+                35,
+                46.46
+              ],
+              [
+                36,
+                45.56
+              ],
+              [
+                37,
+                44.71
+              ],
+              [
+                38,
+                43.92
+              ],
+              [
+                39,
+                43.19
+              ],
+              [
+                40,
+                42.5
+              ],
+              [
+                41,
+                41.86
+              ],
+              [
+                42,
+                41.27
+              ],
+              [
+                43,
+                40.72
+              ],
+              [
+                44,
+                40.21
+              ],
+              [
+                45,
+                39.75
+              ],
+              [
+                46,
+                39.33
+              ],
+              [
+                47,
+                38.94
+              ],
+              [
+                48,
+                38.59
+              ],
+              [
+                49,
+                38.28
+              ],
+              [
+                50,
+                38.0
+              ],
+              [
+                51,
+                37.76
+              ],
+              [
+                52,
+                37.55
+              ],
+              [
+                53,
+                37.37
+              ],
+              [
+                54,
+                37.23
+              ],
+              [
+                55,
+                37.11
+              ],
+              [
+                56,
+                37.03
+              ],
+              [
+                57,
+                36.98
+              ],
+              [
+                58,
+                36.96
+              ],
+              [
+                59,
+                36.96
+              ],
+              [
+                60,
+                37.0
+              ],
+              [
+                61,
+                37.06
+              ],
+              [
+                62,
+                37.16
+              ],
+              [
+                63,
+                37.28
+              ],
+              [
+                64,
+                37.42
+              ],
+              [
+                65,
+                37.6
+              ],
+              [
+                66,
+                37.8
+              ],
+              [
+                67,
+                38.02
+              ],
+              [
+                68,
+                38.28
+              ],
+              [
+                69,
+                38.55
+              ],
+              [
+                70,
+                38.86
+              ],
+              [
+                71,
+                39.19
+              ],
+              [
+                72,
+                39.54
+              ],
+              [
+                73,
+                39.92
+              ],
+              [
+                74,
+                40.32
+              ],
+              [
+                75,
+                40.75
+              ],
+              [
+                76,
+                41.2
+              ],
+              [
+                77,
+                41.68
+              ],
+              [
+                78,
+                42.18
+              ],
+              [
+                79,
+                42.7
+              ],
+              [
+                80,
+                43.25
+              ],
+              [
+                81,
+                43.82
+              ],
+              [
+                82,
+                44.42
+              ],
+              [
+                83,
+                45.03
+              ],
+              [
+                84,
+                45.67
+              ],
+              [
+                85,
+                46.34
+              ],
+              [
+                86,
+                47.03
+              ],
+              [
+                87,
+                47.73
+              ],
+              [
+                88,
+                48.47
+              ],
+              [
+                89,
+                49.22
+              ],
+              [
+                90,
+                50.0
+              ],
+              [
+                91,
+                50.8
+              ],
+              [
+                92,
+                51.62
+              ],
+              [
+                93,
+                52.47
+              ],
+              [
+                94,
+                53.33
+              ],
+              [
+                95,
+                54.22
+              ],
+              [
+                96,
+                55.13
+              ],
+              [
+                97,
+                56.07
+              ],
+              [
+                98,
+                57.02
+              ],
+              [
+                99,
+                58.0
+              ],
+              [
+                100,
+                59.0
+              ]
+            ],
+            "smooth": true
+          },
+          {
+            "id": "AVC",
+            "label": "AVC",
+            "color": "green",
+            "points": [
+              [
+                1,
+                39.11
+              ],
+              [
+                2,
+                38.24
+              ],
+              [
+                3,
+                37.39
+              ],
+              [
+                4,
+                36.56
+              ],
+              [
+                5,
+                35.75
+              ],
+              [
+                6,
+                34.96
+              ],
+              [
+                7,
+                34.19
+              ],
+              [
+                8,
+                33.44
+              ],
+              [
+                9,
+                32.71
+              ],
+              [
+                10,
+                32.0
+              ],
+              [
+                11,
+                31.31
+              ],
+              [
+                12,
+                30.64
+              ],
+              [
+                13,
+                29.99
+              ],
+              [
+                14,
+                29.36
+              ],
+              [
+                15,
+                28.75
+              ],
+              [
+                16,
+                28.16
+              ],
+              [
+                17,
+                27.59
+              ],
+              [
+                18,
+                27.04
+              ],
+              [
+                19,
+                26.51
+              ],
+              [
+                20,
+                26.0
+              ],
+              [
+                21,
+                25.51
+              ],
+              [
+                22,
+                25.04
+              ],
+              [
+                23,
+                24.59
+              ],
+              [
+                24,
+                24.16
+              ],
+              [
+                25,
+                23.75
+              ],
+              [
+                26,
+                23.36
+              ],
+              [
+                27,
+                22.99
+              ],
+              [
+                28,
+                22.64
+              ],
+              [
+                29,
+                22.31
+              ],
+              [
+                30,
+                22.0
+              ],
+              [
+                31,
+                21.71
+              ],
+              [
+                32,
+                21.44
+              ],
+              [
+                33,
+                21.19
+              ],
+              [
+                34,
+                20.96
+              ],
+              [
+                35,
+                20.75
+              ],
+              [
+                36,
+                20.56
+              ],
+              [
+                37,
+                20.39
+              ],
+              [
+                38,
+                20.24
+              ],
+              [
+                39,
+                20.11
+              ],
+              [
+                40,
+                20.0
+              ],
+              [
+                41,
+                19.91
+              ],
+              [
+                42,
+                19.84
+              ],
+              [
+                43,
+                19.79
+              ],
+              [
+                44,
+                19.76
+              ],
+              [
+                45,
+                19.75
+              ],
+              [
+                46,
+                19.76
+              ],
+              [
+                47,
+                19.79
+              ],
+              [
+                48,
+                19.84
+              ],
+              [
+                49,
+                19.91
+              ],
+              [
+                50,
+                20.0
+              ],
+              [
+                51,
+                20.11
+              ],
+              [
+                52,
+                20.24
+              ],
+              [
+                53,
+                20.39
+              ],
+              [
+                54,
+                20.56
+              ],
+              [
+                55,
+                20.75
+              ],
+              [
+                56,
+                20.96
+              ],
+              [
+                57,
+                21.19
+              ],
+              [
+                58,
+                21.44
+              ],
+              [
+                59,
+                21.71
+              ],
+              [
+                60,
+                22.0
+              ],
+              [
+                61,
+                22.31
+              ],
+              [
+                62,
+                22.64
+              ],
+              [
+                63,
+                22.99
+              ],
+              [
+                64,
+                23.36
+              ],
+              [
+                65,
+                23.75
+              ],
+              [
+                66,
+                24.16
+              ],
+              [
+                67,
+                24.59
+              ],
+              [
+                68,
+                25.04
+              ],
+              [
+                69,
+                25.51
+              ],
+              [
+                70,
+                26.0
+              ],
+              [
+                71,
+                26.51
+              ],
+              [
+                72,
+                27.04
+              ],
+              [
+                73,
+                27.59
+              ],
+              [
+                74,
+                28.16
+              ],
+              [
+                75,
+                28.75
+              ],
+              [
+                76,
+                29.36
+              ],
+              [
+                77,
+                29.99
+              ],
+              [
+                78,
+                30.64
+              ],
+              [
+                79,
+                31.31
+              ],
+              [
+                80,
+                32.0
+              ],
+              [
+                81,
+                32.71
+              ],
+              [
+                82,
+                33.44
+              ],
+              [
+                83,
+                34.19
+              ],
+              [
+                84,
+                34.96
+              ],
+              [
+                85,
+                35.75
+              ],
+              [
+                86,
+                36.56
+              ],
+              [
+                87,
+                37.39
+              ],
+              [
+                88,
+                38.24
+              ],
+              [
+                89,
+                39.11
+              ],
+              [
+                90,
+                40.0
+              ],
+              [
+                91,
+                40.91
+              ],
+              [
+                92,
+                41.84
+              ],
+              [
+                93,
+                42.79
+              ],
+              [
+                94,
+                43.76
+              ],
+              [
+                95,
+                44.75
+              ],
+              [
+                96,
+                45.76
+              ],
+              [
+                97,
+                46.79
+              ],
+              [
+                98,
+                47.84
+              ],
+              [
+                99,
+                48.91
+              ],
+              [
+                100,
+                50.0
+              ]
+            ],
+            "smooth": true
+          },
+          {
+            "id": "MR",
+            "label": "D = MR = P",
+            "color": "purple",
+            "points": [
+              [
+                0,
+                50
+              ],
+              [
+                100,
+                50
+              ]
+            ],
+            "labelPos": "end"
+          }
+        ],
+        "tasks": [
+          {
+            "id": "A",
+            "kind": "point",
+            "label": "A",
+            "prompt": "Mark the profit-maximizing point A, where MR = MC",
+            "expect": {
+              "atIntersection": [
+                "MR",
+                "MC"
+              ]
+            }
+          },
+          {
+            "id": "B",
+            "kind": "point",
+            "label": "B",
+            "prompt": "Mark point B on the ATC curve at that same quantity (the bottom edge of the profit rectangle)",
+            "expect": {
+              "onCurve": "ATC",
+              "atX": 65.12
+            }
+          }
+        ],
+        "caption": "A price-taking firm facing P = $50 (in this sketch)",
+        "alt": "Horizontal price line above the minimum of the U-shaped ATC curve; MC cuts the price line from below to the right of the ATC minimum."
+      }
+    },
+    {
+      "id": "ch10-r3.1b",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Profit area on the graph",
+      "tags": [
+        "review-question",
+        "week-8"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Review Q 3.1"
+      },
+      "prompt": "On the graph of a profitable perfectly competitive firm (P above ATC at the quantity where P = MC), which area measures economic profit?",
+      "explanation": "Profit = TR − TC = P·Q − ATC·Q = **(P − ATC) × Q**. The rectangle with height P and width Q is total *revenue*, not profit. (P − AVC) × Q is revenue minus *variable* cost only, which ignores fixed cost, so it overstates profit. The area under MC out to Q equals total *variable* cost.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The rectangle with height P and width equal to the profit-maximizing quantity"
+        },
+        {
+          "id": "b",
+          "text": "The rectangle with height (P − ATC) and width equal to the profit-maximizing quantity"
+        },
+        {
+          "id": "c",
+          "text": "The rectangle with height (P − AVC) and width equal to the profit-maximizing quantity"
+        },
+        {
+          "id": "d",
+          "text": "The area under the MC curve out to the profit-maximizing quantity"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-r3.2",
+      "type": "graph",
+      "unit": 8,
+      "topic": "Graph: firm operating at a loss",
+      "tags": [
+        "review-question",
+        "week-8"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Review Q 3.2"
+      },
+      "prompt": "The market price has fallen so the line D = MR = P now lies **below** the minimum of ATC but **above** the minimum of AVC. Mark (A) the output where MR = MC on the rising part of the MC curve, and (B) the point on the ATC curve at that quantity. The loss rectangle runs between ATC and P, out to that quantity.",
+      "explanation": "The firm still follows **MR = MC (= P)**: point A is where the rising part of MC meets the price line. (MC also crosses the price line at a very small quantity while it is falling, but that is a profit *minimum*, not a maximum.) Point B is the ATC at the same quantity. Because ATC > P there, the firm earns a loss of **(ATC − P) × Q**, the rectangle between the ATC curve and the price line. The firm keeps producing in the short run because P exceeds AVC: the revenue covers all variable cost and part of fixed cost, so the loss is smaller than the fixed-cost loss from shutting down.",
+      "graph": {
+        "x": {
+          "label": "Quantity",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Price / cost ($)",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "MC",
+            "label": "MC",
+            "color": "red",
+            "points": [
+              [
+                0,
+                40.0
+              ],
+              [
+                1,
+                38.23
+              ],
+              [
+                2,
+                36.52
+              ],
+              [
+                3,
+                34.87
+              ],
+              [
+                4,
+                33.28
+              ],
+              [
+                5,
+                31.75
+              ],
+              [
+                6,
+                30.28
+              ],
+              [
+                7,
+                28.87
+              ],
+              [
+                8,
+                27.52
+              ],
+              [
+                9,
+                26.23
+              ],
+              [
+                10,
+                25.0
+              ],
+              [
+                11,
+                23.83
+              ],
+              [
+                12,
+                22.72
+              ],
+              [
+                13,
+                21.67
+              ],
+              [
+                14,
+                20.68
+              ],
+              [
+                15,
+                19.75
+              ],
+              [
+                16,
+                18.88
+              ],
+              [
+                17,
+                18.07
+              ],
+              [
+                18,
+                17.32
+              ],
+              [
+                19,
+                16.63
+              ],
+              [
+                20,
+                16.0
+              ],
+              [
+                21,
+                15.43
+              ],
+              [
+                22,
+                14.92
+              ],
+              [
+                23,
+                14.47
+              ],
+              [
+                24,
+                14.08
+              ],
+              [
+                25,
+                13.75
+              ],
+              [
+                26,
+                13.48
+              ],
+              [
+                27,
+                13.27
+              ],
+              [
+                28,
+                13.12
+              ],
+              [
+                29,
+                13.03
+              ],
+              [
+                30,
+                13.0
+              ],
+              [
+                31,
+                13.03
+              ],
+              [
+                32,
+                13.12
+              ],
+              [
+                33,
+                13.27
+              ],
+              [
+                34,
+                13.48
+              ],
+              [
+                35,
+                13.75
+              ],
+              [
+                36,
+                14.08
+              ],
+              [
+                37,
+                14.47
+              ],
+              [
+                38,
+                14.92
+              ],
+              [
+                39,
+                15.43
+              ],
+              [
+                40,
+                16.0
+              ],
+              [
+                41,
+                16.63
+              ],
+              [
+                42,
+                17.32
+              ],
+              [
+                43,
+                18.07
+              ],
+              [
+                44,
+                18.88
+              ],
+              [
+                45,
+                19.75
+              ],
+              [
+                46,
+                20.68
+              ],
+              [
+                47,
+                21.67
+              ],
+              [
+                48,
+                22.72
+              ],
+              [
+                49,
+                23.83
+              ],
+              [
+                50,
+                25.0
+              ],
+              [
+                51,
+                26.23
+              ],
+              [
+                52,
+                27.52
+              ],
+              [
+                53,
+                28.87
+              ],
+              [
+                54,
+                30.28
+              ],
+              [
+                55,
+                31.75
+              ],
+              [
+                56,
+                33.28
+              ],
+              [
+                57,
+                34.87
+              ],
+              [
+                58,
+                36.52
+              ],
+              [
+                59,
+                38.23
+              ],
+              [
+                60,
+                40.0
+              ],
+              [
+                61,
+                41.83
+              ],
+              [
+                62,
+                43.72
+              ],
+              [
+                63,
+                45.67
+              ],
+              [
+                64,
+                47.68
+              ],
+              [
+                65,
+                49.75
+              ],
+              [
+                66,
+                51.88
+              ],
+              [
+                67,
+                54.07
+              ],
+              [
+                68,
+                56.32
+              ],
+              [
+                69,
+                58.63
+              ],
+              [
+                70,
+                61.0
+              ],
+              [
+                71,
+                63.43
+              ],
+              [
+                72,
+                65.92
+              ],
+              [
+                73,
+                68.47
+              ],
+              [
+                74,
+                71.08
+              ],
+              [
+                75,
+                73.75
+              ],
+              [
+                76,
+                76.48
+              ],
+              [
+                77,
+                79.27
+              ],
+              [
+                78,
+                82.12
+              ],
+              [
+                79,
+                85.03
+              ],
+              [
+                80,
+                88.0
+              ],
+              [
+                81,
+                91.03
+              ],
+              [
+                82,
+                94.12
+              ]
+            ],
+            "smooth": true
+          },
+          {
+            "id": "ATC",
+            "label": "ATC",
+            "color": "blue",
+            "points": [
+              [
+                14,
+                93.65
+              ],
+              [
+                15,
+                88.75
+              ],
+              [
+                16,
+                84.41
+              ],
+              [
+                17,
+                80.53
+              ],
+              [
+                18,
+                77.04
+              ],
+              [
+                19,
+                73.88
+              ],
+              [
+                20,
+                71.0
+              ],
+              [
+                21,
+                68.37
+              ],
+              [
+                22,
+                65.95
+              ],
+              [
+                23,
+                63.72
+              ],
+              [
+                24,
+                61.66
+              ],
+              [
+                25,
+                59.75
+              ],
+              [
+                26,
+                57.98
+              ],
+              [
+                27,
+                56.32
+              ],
+              [
+                28,
+                54.78
+              ],
+              [
+                29,
+                53.34
+              ],
+              [
+                30,
+                52.0
+              ],
+              [
+                31,
+                50.74
+              ],
+              [
+                32,
+                49.56
+              ],
+              [
+                33,
+                48.46
+              ],
+              [
+                34,
+                47.43
+              ],
+              [
+                35,
+                46.46
+              ],
+              [
+                36,
+                45.56
+              ],
+              [
+                37,
+                44.71
+              ],
+              [
+                38,
+                43.92
+              ],
+              [
+                39,
+                43.19
+              ],
+              [
+                40,
+                42.5
+              ],
+              [
+                41,
+                41.86
+              ],
+              [
+                42,
+                41.27
+              ],
+              [
+                43,
+                40.72
+              ],
+              [
+                44,
+                40.21
+              ],
+              [
+                45,
+                39.75
+              ],
+              [
+                46,
+                39.33
+              ],
+              [
+                47,
+                38.94
+              ],
+              [
+                48,
+                38.59
+              ],
+              [
+                49,
+                38.28
+              ],
+              [
+                50,
+                38.0
+              ],
+              [
+                51,
+                37.76
+              ],
+              [
+                52,
+                37.55
+              ],
+              [
+                53,
+                37.37
+              ],
+              [
+                54,
+                37.23
+              ],
+              [
+                55,
+                37.11
+              ],
+              [
+                56,
+                37.03
+              ],
+              [
+                57,
+                36.98
+              ],
+              [
+                58,
+                36.96
+              ],
+              [
+                59,
+                36.96
+              ],
+              [
+                60,
+                37.0
+              ],
+              [
+                61,
+                37.06
+              ],
+              [
+                62,
+                37.16
+              ],
+              [
+                63,
+                37.28
+              ],
+              [
+                64,
+                37.42
+              ],
+              [
+                65,
+                37.6
+              ],
+              [
+                66,
+                37.8
+              ],
+              [
+                67,
+                38.02
+              ],
+              [
+                68,
+                38.28
+              ],
+              [
+                69,
+                38.55
+              ],
+              [
+                70,
+                38.86
+              ],
+              [
+                71,
+                39.19
+              ],
+              [
+                72,
+                39.54
+              ],
+              [
+                73,
+                39.92
+              ],
+              [
+                74,
+                40.32
+              ],
+              [
+                75,
+                40.75
+              ],
+              [
+                76,
+                41.2
+              ],
+              [
+                77,
+                41.68
+              ],
+              [
+                78,
+                42.18
+              ],
+              [
+                79,
+                42.7
+              ],
+              [
+                80,
+                43.25
+              ],
+              [
+                81,
+                43.82
+              ],
+              [
+                82,
+                44.42
+              ],
+              [
+                83,
+                45.03
+              ],
+              [
+                84,
+                45.67
+              ],
+              [
+                85,
+                46.34
+              ],
+              [
+                86,
+                47.03
+              ],
+              [
+                87,
+                47.73
+              ],
+              [
+                88,
+                48.47
+              ],
+              [
+                89,
+                49.22
+              ],
+              [
+                90,
+                50.0
+              ],
+              [
+                91,
+                50.8
+              ],
+              [
+                92,
+                51.62
+              ],
+              [
+                93,
+                52.47
+              ],
+              [
+                94,
+                53.33
+              ],
+              [
+                95,
+                54.22
+              ],
+              [
+                96,
+                55.13
+              ],
+              [
+                97,
+                56.07
+              ],
+              [
+                98,
+                57.02
+              ],
+              [
+                99,
+                58.0
+              ],
+              [
+                100,
+                59.0
+              ]
+            ],
+            "smooth": true
+          },
+          {
+            "id": "AVC",
+            "label": "AVC",
+            "color": "green",
+            "points": [
+              [
+                1,
+                39.11
+              ],
+              [
+                2,
+                38.24
+              ],
+              [
+                3,
+                37.39
+              ],
+              [
+                4,
+                36.56
+              ],
+              [
+                5,
+                35.75
+              ],
+              [
+                6,
+                34.96
+              ],
+              [
+                7,
+                34.19
+              ],
+              [
+                8,
+                33.44
+              ],
+              [
+                9,
+                32.71
+              ],
+              [
+                10,
+                32.0
+              ],
+              [
+                11,
+                31.31
+              ],
+              [
+                12,
+                30.64
+              ],
+              [
+                13,
+                29.99
+              ],
+              [
+                14,
+                29.36
+              ],
+              [
+                15,
+                28.75
+              ],
+              [
+                16,
+                28.16
+              ],
+              [
+                17,
+                27.59
+              ],
+              [
+                18,
+                27.04
+              ],
+              [
+                19,
+                26.51
+              ],
+              [
+                20,
+                26.0
+              ],
+              [
+                21,
+                25.51
+              ],
+              [
+                22,
+                25.04
+              ],
+              [
+                23,
+                24.59
+              ],
+              [
+                24,
+                24.16
+              ],
+              [
+                25,
+                23.75
+              ],
+              [
+                26,
+                23.36
+              ],
+              [
+                27,
+                22.99
+              ],
+              [
+                28,
+                22.64
+              ],
+              [
+                29,
+                22.31
+              ],
+              [
+                30,
+                22.0
+              ],
+              [
+                31,
+                21.71
+              ],
+              [
+                32,
+                21.44
+              ],
+              [
+                33,
+                21.19
+              ],
+              [
+                34,
+                20.96
+              ],
+              [
+                35,
+                20.75
+              ],
+              [
+                36,
+                20.56
+              ],
+              [
+                37,
+                20.39
+              ],
+              [
+                38,
+                20.24
+              ],
+              [
+                39,
+                20.11
+              ],
+              [
+                40,
+                20.0
+              ],
+              [
+                41,
+                19.91
+              ],
+              [
+                42,
+                19.84
+              ],
+              [
+                43,
+                19.79
+              ],
+              [
+                44,
+                19.76
+              ],
+              [
+                45,
+                19.75
+              ],
+              [
+                46,
+                19.76
+              ],
+              [
+                47,
+                19.79
+              ],
+              [
+                48,
+                19.84
+              ],
+              [
+                49,
+                19.91
+              ],
+              [
+                50,
+                20.0
+              ],
+              [
+                51,
+                20.11
+              ],
+              [
+                52,
+                20.24
+              ],
+              [
+                53,
+                20.39
+              ],
+              [
+                54,
+                20.56
+              ],
+              [
+                55,
+                20.75
+              ],
+              [
+                56,
+                20.96
+              ],
+              [
+                57,
+                21.19
+              ],
+              [
+                58,
+                21.44
+              ],
+              [
+                59,
+                21.71
+              ],
+              [
+                60,
+                22.0
+              ],
+              [
+                61,
+                22.31
+              ],
+              [
+                62,
+                22.64
+              ],
+              [
+                63,
+                22.99
+              ],
+              [
+                64,
+                23.36
+              ],
+              [
+                65,
+                23.75
+              ],
+              [
+                66,
+                24.16
+              ],
+              [
+                67,
+                24.59
+              ],
+              [
+                68,
+                25.04
+              ],
+              [
+                69,
+                25.51
+              ],
+              [
+                70,
+                26.0
+              ],
+              [
+                71,
+                26.51
+              ],
+              [
+                72,
+                27.04
+              ],
+              [
+                73,
+                27.59
+              ],
+              [
+                74,
+                28.16
+              ],
+              [
+                75,
+                28.75
+              ],
+              [
+                76,
+                29.36
+              ],
+              [
+                77,
+                29.99
+              ],
+              [
+                78,
+                30.64
+              ],
+              [
+                79,
+                31.31
+              ],
+              [
+                80,
+                32.0
+              ],
+              [
+                81,
+                32.71
+              ],
+              [
+                82,
+                33.44
+              ],
+              [
+                83,
+                34.19
+              ],
+              [
+                84,
+                34.96
+              ],
+              [
+                85,
+                35.75
+              ],
+              [
+                86,
+                36.56
+              ],
+              [
+                87,
+                37.39
+              ],
+              [
+                88,
+                38.24
+              ],
+              [
+                89,
+                39.11
+              ],
+              [
+                90,
+                40.0
+              ],
+              [
+                91,
+                40.91
+              ],
+              [
+                92,
+                41.84
+              ],
+              [
+                93,
+                42.79
+              ],
+              [
+                94,
+                43.76
+              ],
+              [
+                95,
+                44.75
+              ],
+              [
+                96,
+                45.76
+              ],
+              [
+                97,
+                46.79
+              ],
+              [
+                98,
+                47.84
+              ],
+              [
+                99,
+                48.91
+              ],
+              [
+                100,
+                50.0
+              ]
+            ],
+            "smooth": true
+          },
+          {
+            "id": "MR",
+            "label": "D = MR = P",
+            "color": "purple",
+            "points": [
+              [
+                0,
+                30
+              ],
+              [
+                100,
+                30
+              ]
+            ],
+            "labelPos": "end"
+          }
+        ],
+        "tasks": [
+          {
+            "id": "A",
+            "kind": "point",
+            "label": "A",
+            "prompt": "Mark the loss-minimizing point A, where MR = MC (on the rising part of MC)",
+            "expect": {
+              "near": {
+                "x": 53.8,
+                "y": 30
+              }
+            }
+          },
+          {
+            "id": "B",
+            "kind": "point",
+            "label": "B",
+            "prompt": "Mark point B on the ATC curve at that same quantity (the top edge of the loss rectangle)",
+            "expect": {
+              "onCurve": "ATC",
+              "atX": 53.8
+            }
+          }
+        ],
+        "caption": "A price-taking firm facing P = $30 (in this sketch)",
+        "alt": "Horizontal price line below the minimum of the ATC curve but above the minimum of the AVC curve."
+      }
+    },
+    {
+      "id": "ch10-r3.2b",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Loss area and the short-run decision",
+      "tags": [
+        "review-question",
+        "week-8"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Review Q 3.2"
+      },
+      "prompt": "At the output where P = MC, a perfectly competitive firm's price is below ATC but above AVC. What should it do in the short run, and what is the area of its loss?",
+      "explanation": "With P > AVC, each unit's revenue covers its variable cost and contributes (P − AVC) toward fixed cost, so producing loses *less* than shutting down (which loses all fixed cost). The loss from producing is **(ATC − P) × Q**. Shutting down does not make the loss zero in the short run: fixed costs still have to be paid. (ATC − AVC) × Q is total fixed cost, a different rectangle.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Shut down immediately, because any firm with P < ATC must shut down; the loss would then be zero"
+        },
+        {
+          "id": "b",
+          "text": "Keep producing; the loss is the rectangle (ATC − AVC) × Q"
+        },
+        {
+          "id": "c",
+          "text": "Shut down; the loss is the rectangle (P − AVC) × Q"
+        },
+        {
+          "id": "d",
+          "text": "Keep producing; the loss is the rectangle (ATC − P) × Q, which is smaller than its fixed cost"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-r5.1",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Entry and exit",
+      "tags": [
+        "review-question",
+        "week-8"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 10 · Review Q 5.1"
+      },
+      "prompt": "When are firms likely to enter an industry? When are they likely to exit an industry?",
+      "explanation": "Entry and exit are driven by **economic profit**. Positive economic profit (P > ATC) signals that resources earn more here than in their next-best use, so new firms enter; losses (P < ATC) mean owners do better elsewhere, so firms exit in the long run. Entry shifts market supply right (price falls); exit shifts it left (price rises), until economic profit is zero. P > AVC is the *short-run* shutdown rule, not the entry rule.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Firms enter when existing firms earn economic profits (P > ATC) and exit when they suffer economic losses (P < ATC)"
+        },
+        {
+          "id": "b",
+          "text": "Firms enter when prices are falling and exit when prices are rising"
+        },
+        {
+          "id": "c",
+          "text": "Firms enter when they suffer economic losses (P < ATC) and exit when they earn economic profits (P > ATC)"
+        },
+        {
+          "id": "d",
+          "text": "Firms enter whenever price exceeds AVC and exit only when price falls below zero"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-r5.2a",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Is soybeans perfectly competitive?",
+      "tags": [
+        "review-question",
+        "week-8"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 10 · Review Q 5.2"
+      },
+      "scenario": "ch10-r5.2",
+      "prompt": "(a) The three characteristics of a perfectly competitive market are many buyers and sellers, identical products, and no barriers to entry. Based on these, is the market for soybeans perfectly competitive?",
+      "explanation": "Soybeans are close to the textbook's example of perfect competition: thousands of farmers around the world (no one can move the price), a standardized commodity (buyers don't care whose beans they buy), and few barriers to planting more. Each farmer is a price taker. The number of countries mentioned in the article doesn't change this: each *farm* is tiny relative to the world market. Competition does not require a government-set price.",
+      "options": [
+        {
+          "id": "a",
+          "text": "No: each farm's soybeans are differentiated by brand, so each farmer can set a price"
+        },
+        {
+          "id": "b",
+          "text": "No: a few countries (Brazil, Argentina) control supply, so farmers are price makers"
+        },
+        {
+          "id": "c",
+          "text": "Yes, approximately: there are very many farmers and buyers, soybeans of a given grade are essentially identical, and farmers can freely switch crops or enter"
+        },
+        {
+          "id": "d",
+          "text": "Yes, because the government fixes one price that every farmer must charge"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-r5.2b",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Supply response to a higher price",
+      "tags": [
+        "review-question",
+        "week-8"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Review Q 5.2"
+      },
+      "scenario": "ch10-r5.2",
+      "prompt": "(b) Holding everything else constant, if farmers plant more soybeans in 2022 in response to the higher price, what happens to the supply of soybeans and the equilibrium price?",
+      "explanation": "The premise is that farmers respond to the high prices by **planting more soybeans this year** — more acres, and more farmers switching into soybeans. That raises the quantity offered at every price, so the **market supply curve shifts right**. With demand unchanged, the larger supply **lowers the equilibrium price** and raises the equilibrium quantity in 2022–2023 — the market's way of eroding the drought-driven price spike. (A single price change on its own is a movement along a given supply curve; the shift here comes from the planting decisions — the change in productive capacity — that the higher price prompted.)",
+      "options": [
+        {
+          "id": "a",
+          "text": "Supply decreases (shifts left), so the equilibrium price rises further"
+        },
+        {
+          "id": "b",
+          "text": "Supply increases (shifts right), so the equilibrium price falls and the equilibrium quantity rises"
+        },
+        {
+          "id": "c",
+          "text": "Demand falls, so both the price and the quantity of soybeans fall"
+        },
+        {
+          "id": "d",
+          "text": "Supply is unchanged; farmers just move along the existing supply curve, so the price stays the same"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-r5.4",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Shape of the long-run supply curve",
+      "tags": [
+        "review-question",
+        "week-8",
+        "problem"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Review Q 5.4"
+      },
+      "scenario": "ch10-r5.4",
+      "prompt": "What is the shape of the long-run supply curve in a perfectly competitive (constant-cost) market, and where does it sit?",
+      "explanation": "In long-run equilibrium economic profit is zero, so P = min ATC. If price rose above min ATC, profits would attract entry and push price back; if it fell below, exit would push it back. In a **constant-cost industry** the firms' cost curves don't shift as the industry grows, so the market can supply *any* quantity at the same price: the long-run supply curve is **horizontal at minimum ATC**. (The short-run supply curve slopes upward, but that reflects firms' rising MC with plant fixed.)",
+      "options": [
+        {
+          "id": "a",
+          "text": "Upward sloping, because higher prices are needed to cover rising marginal costs"
+        },
+        {
+          "id": "b",
+          "text": "Vertical, because the quantity supplied is fixed once firms have entered"
+        },
+        {
+          "id": "c",
+          "text": "Downward sloping, because entry steadily lowers each firm's costs"
+        },
+        {
+          "id": "d",
+          "text": "Horizontal, at the minimum point of the firms' ATC curves"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-r5.4g",
+      "type": "graph",
+      "unit": 8,
+      "topic": "Graph: permanent fall in demand",
+      "tags": [
+        "review-question",
+        "week-8",
+        "problem"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 10 · Review Q 5.4"
+      },
+      "scenario": "ch10-r5.4",
+      "prompt": "The market starts in long-run equilibrium at E₁. Demand permanently decreases. Draw the new demand curve D₂, then mark the short-run equilibrium E₂, draw the short-run supply curve S₂ after exit, and mark the long-run equilibrium E₃.",
+      "explanation": "**Short run:** D shifts left to D₂. Supply is still S₁ (firms can't leave at once), so price and quantity both fall (E₂). At the lower price P < ATC, firms suffer **economic losses**. **Long run:** loss-making firms exit, so market supply shifts left (S₂) until price rises back to minimum ATC and economic profit returns to zero (E₃). Because the long-run supply curve is horizontal at min ATC, E₃ has the **same price** as E₁ but a **smaller quantity** and **fewer firms**.",
+      "graph": {
+        "x": {
+          "label": "Quantity of product",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Price",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "D",
+            "label": "D₁",
+            "color": "blue",
+            "points": [
+              [
+                10,
+                90
+              ],
+              [
+                90,
+                10
+              ]
+            ]
+          },
+          {
+            "id": "S",
+            "label": "S₁ (short run)",
+            "color": "red",
+            "points": [
+              [
+                10,
+                22
+              ],
+              [
+                90,
+                78
+              ]
+            ]
+          },
+          {
+            "id": "LRS",
+            "label": "Long-run supply",
+            "color": "green",
+            "points": [
+              [
+                5,
+                50
+              ],
+              [
+                95,
+                50
+              ]
+            ],
+            "labelPos": "end"
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E₁",
+            "x": 50,
+            "y": 50,
+            "drop": "both",
+            "dropLabels": {
+              "x": "Q₁",
+              "y": "P₁"
+            }
+          }
+        ],
+        "tasks": [
+          {
+            "id": "D2",
+            "kind": "line",
+            "label": "D₂",
+            "prompt": "Draw the new, lower demand curve D₂",
+            "expect": {
+              "slope": "negative",
+              "shiftOf": "D",
+              "direction": "left"
+            }
+          },
+          {
+            "id": "SR",
+            "kind": "point",
+            "label": "E₂",
+            "prompt": "Mark the short-run equilibrium E₂ (D₂ meets S₁)",
+            "expect": {
+              "atIntersection": [
+                "user:D2",
+                "S"
+              ],
+              "relativeTo": {
+                "ref": "E",
+                "x": "-",
+                "y": "-"
+              }
+            }
+          },
+          {
+            "id": "S2",
+            "kind": "line",
+            "label": "S₂",
+            "prompt": "Draw the short-run supply curve S₂ after firms exit",
+            "expect": {
+              "slope": "positive",
+              "shiftOf": "S",
+              "direction": "left"
+            }
+          },
+          {
+            "id": "LR",
+            "kind": "point",
+            "label": "E₃",
+            "prompt": "Mark the new long-run equilibrium E₃ (D₂ meets the long-run supply curve)",
+            "expect": {
+              "atIntersection": [
+                "user:D2",
+                "LRS"
+              ],
+              "relativeTo": {
+                "ref": "E",
+                "x": "-",
+                "y": "0"
+              }
+            }
+          }
+        ],
+        "caption": "Constant-cost industry in long-run equilibrium at E₁",
+        "alt": "Downward demand D1 and upward supply S1 meet at E1; a horizontal long-run supply line passes through E1."
+      }
+    },
+    {
+      "id": "ch10-p1.4a",
+      "type": "tf",
+      "unit": 8,
+      "topic": "Perfect competition: tomato growing",
+      "tags": [
+        "problem",
+        "week-8",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 10 · Problem 1.4(a) ★"
+      },
+      "scenario": "ch10-p1.4",
+      "prompt": "(a) The market for tomato growing is a perfectly competitive market.",
+      "explanation": "True. There are very many tomato growers and buyers, tomatoes of a given grade are essentially identical, and it is easy to start or stop growing tomatoes. Each grower is a price taker.",
+      "answer": true
+    },
+    {
+      "id": "ch10-p1.4b",
+      "type": "tf",
+      "unit": 8,
+      "topic": "Perfect competition: coffee shops",
+      "tags": [
+        "problem",
+        "week-8",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 10 · Problem 1.4(b) ★"
+      },
+      "scenario": "ch10-p1.4",
+      "prompt": "(b) The market for coffee shops is a perfectly competitive market.",
+      "explanation": "False. Although there are many coffee shops and entry is easy, the products are **not identical**: shops differ in location, atmosphere, brand and menu, so each has some control over its price. (This is monopolistic competition.)",
+      "answer": false
+    },
+    {
+      "id": "ch10-p1.4c",
+      "type": "tf",
+      "unit": 8,
+      "topic": "Perfect competition: automobile manufacturing",
+      "tags": [
+        "problem",
+        "week-8",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 10 · Problem 1.4(c) ★"
+      },
+      "scenario": "ch10-p1.4",
+      "prompt": "(c) The market for automobile manufacturing is a perfectly competitive market.",
+      "explanation": "False. There are only a **few large firms**, their cars are differentiated (brands, features), and there are very high barriers to entry (huge capital requirements, brand and dealership networks). None of the three conditions is met.",
+      "answer": false
+    },
+    {
+      "id": "ch10-p1.4d",
+      "type": "tf",
+      "unit": 8,
+      "topic": "Perfect competition: new home construction",
+      "tags": [
+        "problem",
+        "week-8",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 10 · Problem 1.4(d) ★"
+      },
+      "scenario": "ch10-p1.4",
+      "prompt": "(d) The market for new home construction is a perfectly competitive market.",
+      "explanation": "False. Homes differ in location, size and design, so the product is **not identical**. Builders also differ in reputation and style, so each has some control over its price.",
+      "answer": false
+    },
+    {
+      "id": "ch10-p2.5a",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Why profit, not revenue",
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 10 · Problem 2.5(a)"
+      },
+      "scenario": "ch10-p2.5",
+      "prompt": "Why don't firms maximize revenue rather than profit?",
+      "explanation": "A firm's owners care about what is left after paying all costs: **profit = TR − TC**. Total revenue ignores costs, so a firm could raise its revenue while its profit falls. The two goals coincide only if cost is zero.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Revenue ignores the cost of producing it; owners keep profit (TR − TC), so a unit that costs more than it brings in lowers what the owners earn"
+        },
+        {
+          "id": "b",
+          "text": "Revenue maximization is illegal in competitive markets"
+        },
+        {
+          "id": "c",
+          "text": "Revenue and profit are always maximized at the same output, so there is no difference"
+        },
+        {
+          "id": "d",
+          "text": "Firms cannot measure their revenue, only their costs"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-p2.5b",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Revenue-maximizing quantity",
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 2.5(b)"
+      },
+      "scenario": "ch10-p2.5",
+      "prompt": "Would a firm that maximized revenue produce a smaller or a larger quantity than if it maximized profit?",
+      "explanation": "The profit-maximizing firm stops at MR = MC. A revenue-maximizer keeps producing as long as MR > 0 (for a price taker, as long as it can sell more at P > 0). It therefore produces beyond the output where MC rises above MR, so each additional unit **adds revenue but costs more than it brings in**, lowering profit. Revenue-maximizing output is **larger** than profit-maximizing output.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A smaller quantity: it would stop as soon as marginal cost starts to rise"
+        },
+        {
+          "id": "b",
+          "text": "The same quantity: both goals are met where MR = MC"
+        },
+        {
+          "id": "c",
+          "text": "A larger quantity: it would keep producing units whose marginal cost exceeds the marginal revenue, since they still add to revenue"
+        },
+        {
+          "id": "d",
+          "text": "No output at all, because revenue is maximized at zero production"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-p2.6a",
+      "type": "numeric",
+      "unit": 8,
+      "topic": "Farmer Parker at P = $5.50: quantity",
+      "tags": [
+        "problem",
+        "week-8",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 2.6(a) ★"
+      },
+      "scenario": "ch10-p2.6",
+      "prompt": "At $5.50 per bushel, how many bushels will Farmer Parker produce?",
+      "explanation": "Produce until the marginal cost of the next unit exceeds the price (P = MR = $5.50). The 6th bushel has MC = $4.50 ≤ $5.50, so it adds to profit; the 7th has MC = $6.50 > $5.50, so it would reduce profit. Parker produces **6 bushels**.",
+      "answer": {
+        "value": 6,
+        "tolerance": 0.01,
+        "display": "6 bushels"
+      }
+    },
+    {
+      "id": "ch10-p2.6b",
+      "type": "numeric",
+      "unit": 8,
+      "topic": "Farmer Parker at P = $5.50: profit",
+      "tags": [
+        "problem",
+        "week-8",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 2.6(b) ★"
+      },
+      "scenario": "ch10-p2.6",
+      "prompt": "At $5.50 per bushel, how much profit will Farmer Parker make? (Enter a loss as a negative number.)",
+      "explanation": "TR = $5.50 × 6 = $33.00. TC at 6 bushels = $29.00 (from Table 10.3). Profit = 33.00 − 29.00 = **$4.00**. Check: at 5 bushels profit is 27.50 − 24.50 = $3.00 and at 7 bushels it is 38.50 − 35.50 = $3.00, both lower.",
+      "answer": {
+        "value": 4.0,
+        "tolerance": 0.01,
+        "display": "$4.00",
+        "prefix": "$"
+      }
+    },
+    {
+      "id": "ch10-p2.7a",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Higher MC: does the optimal quantity change?",
+      "tags": [
+        "problem",
+        "week-8",
+        "starred"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 10 · Problem 2.7(a) ★"
+      },
+      "scenario": "ch10-p2.7",
+      "prompt": "Marginal cost rises by $0.50 on every bushel (e.g. the eighth now costs $9.50 to produce) and the price stays at $7. Does the profit-maximizing level of production change?",
+      "explanation": "New MCs: 6th = 4.50 + 0.50 = $5.00, 7th = 6.50 + 0.50 = **$7.00**, 8th = 9.00 + 0.50 = **$9.50**. Produce while MC ≤ P = $7: the 7th bushel still just pays for itself (MC = P), the 8th does not. The profit-maximizing quantity is therefore still **7 bushels** (profit = 49.00 − 39.00 = $10.00; 6 bushels earns the same $10.00, so Parker is indifferent about the 7th, and the MR = MC rule picks 7). Profit *falls* (from $13.50 to $10.00) but the optimal quantity does not change here.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yes, he should cut back to 3 bushels, where marginal cost is lowest, because every marginal cost is now higher"
+        },
+        {
+          "id": "b",
+          "text": "No, Parker still produces 7 bushels: the 7th bushel's new MC is $7.00 (equal to the price) and the 8th's is $9.50 (above it)"
+        },
+        {
+          "id": "c",
+          "text": "Yes, he should cut production to 5 bushels, because his profit per bushel has fallen"
+        },
+        {
+          "id": "d",
+          "text": "Yes, he should produce more, because the higher cost must be spread over more bushels"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-p2.7b",
+      "type": "numeric",
+      "unit": 8,
+      "topic": "Profit after the MC increase",
+      "tags": [
+        "problem",
+        "week-8",
+        "starred"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 10 · Problem 2.7(b) ★"
+      },
+      "scenario": "ch10-p2.7",
+      "prompt": "With the new, higher marginal costs and a price of $7, how much profit does Parker make at his best output?",
+      "explanation": "New total cost at 7 bushels = 35.50 + 0.50 × 7 = $39.00. TR = 7 × $7 = $49.00. Profit = **$10.00** (down from $13.50).",
+      "answer": {
+        "value": 10.0,
+        "tolerance": 0.01,
+        "display": "$10.00",
+        "prefix": "$"
+      }
+    },
+    {
+      "id": "ch10-p2.8a",
+      "type": "numeric",
+      "unit": 8,
+      "topic": "Farmer Parker's fixed cost",
+      "tags": [
+        "problem",
+        "week-8",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 10 · Problem 2.8(a) ★"
+      },
+      "scenario": "ch10-p2.8",
+      "prompt": "What is Farmer Parker's fixed cost?",
+      "explanation": "Fixed cost is the cost that must be paid even at zero output. Table 10.3 shows total cost of **$10.00** at Q = 0, so FC = $10.00.",
+      "answer": {
+        "value": 10.0,
+        "tolerance": 0.01,
+        "display": "$10.00",
+        "prefix": "$"
+      }
+    },
+    {
+      "id": "ch10-p2.8b",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Higher fixed cost: does the optimal quantity change?",
+      "tags": [
+        "problem",
+        "week-8",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 2.8(b) ★"
+      },
+      "scenario": "ch10-p2.8",
+      "prompt": "Suppose Parker's fixed cost increases by $10. Will the profit-maximizing level of production change?",
+      "explanation": "A fixed cost is paid whatever the output, so adding $10 to FC raises TC by the same $10 at every quantity and leaves **MC unchanged**. The MR = MC rule still gives **7 bushels**. Only the *level* of profit changes. Firms ignore fixed cost when choosing the quantity (it matters only for whether to shut down in the long run). Spreading the fixed cost over more units never helps if the extra units cost more than they earn.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yes, production should fall because total cost is higher at every output"
+        },
+        {
+          "id": "b",
+          "text": "Yes, production should rise to spread the higher fixed cost over more bushels"
+        },
+        {
+          "id": "c",
+          "text": "Yes, production should fall to 6 bushels because profit per bushel is lower"
+        },
+        {
+          "id": "d",
+          "text": "No. Fixed cost doesn't change marginal cost, so MR = MC still occurs at 7 bushels"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-p2.8c",
+      "type": "numeric",
+      "unit": 8,
+      "topic": "Profit after fixed-cost increase",
+      "tags": [
+        "problem",
+        "week-8",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 2.8(c) ★"
+      },
+      "scenario": "ch10-p2.8",
+      "prompt": "How much profit will Parker make now (producing 7 bushels at $7)?",
+      "explanation": "Before the increase profit at 7 bushels was $13.50. The extra $10 fixed cost reduces it one-for-one: 13.50 − 10.00 = **$3.50**. (Check: TR 49.00 − TC (35.50 + 10.00) = $3.50.)",
+      "answer": {
+        "value": 3.5,
+        "tolerance": 0.01,
+        "display": "$3.50",
+        "prefix": "$"
+      }
+    },
+    {
+      "id": "ch10-p3.3a1",
+      "type": "numeric",
+      "unit": 8,
+      "topic": "Frances at P = $1.80: quantity",
+      "tags": [
+        "problem",
+        "week-8",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 3.3(a1) ★"
+      },
+      "scenario": "ch10-p3.3",
+      "prompt": "(a) With the equilibrium price at $1.80, how many pencils per day will Frances produce?",
+      "explanation": "Marginal cost from the table (change in total cost): 1st $1.50, 2nd $1.00, 3rd $0.70, 4th $0.30, 5th $0.70, **6th $1.60**, **7th $1.90**, 8th $2.00, 9th $2.30. She produces while MC ≤ P = $1.80: the 6th pencil costs $1.60 (profitable), the 7th costs $1.90 (not). So **6 pencils**.",
+      "answer": {
+        "value": 6,
+        "tolerance": 0.01,
+        "display": "6 pencils"
+      }
+    },
+    {
+      "id": "ch10-p3.3a2",
+      "type": "numeric",
+      "unit": 8,
+      "topic": "Frances at P = $1.80: profit",
+      "tags": [
+        "problem",
+        "week-8",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 3.3(a2) ★"
+      },
+      "scenario": "ch10-p3.3",
+      "prompt": "(a) What price does Frances charge (she is a price taker), and what is her profit? Enter her **profit** in dollars (a loss would be negative).",
+      "explanation": "As a price taker she charges the market price, **$1.80**. TR = 1.80 × 6 = $10.80; TC at 6 = $6.80. Profit = **$4.00**.",
+      "answer": {
+        "value": 4.0,
+        "tolerance": 0.01,
+        "display": "$4.00",
+        "prefix": "$"
+      }
+    },
+    {
+      "id": "ch10-p3.3a3",
+      "type": "graph",
+      "unit": 8,
+      "topic": "Frances graph at P = $1.80",
+      "tags": [
+        "problem",
+        "week-8",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 3.3(a3) ★"
+      },
+      "scenario": "ch10-p3.3",
+      "prompt": "(a) Graph for P = $1.80. Mark A, where MR = MC (her profit-maximizing output), and B, the point on the ATC curve at that output (bottom of the profit rectangle).",
+      "explanation": "She produces where P = MR = MC, just under 7 pencils (6 whole pencils). At 6 pencils, ATC = 6.80/6 ≈ $1.13, below the $1.80 price. The profit rectangle has height P − ATC = 1.80 − 1.13 = $0.67 and width 6, so profit = 0.67 × 6 ≈ **$4.00**.",
+      "graph": {
+        "x": {
+          "label": "Pencils per day",
+          "min": 0,
+          "max": 10,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Price / cost ($)",
+          "min": 0,
+          "max": 3,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "MC",
+            "label": "MC",
+            "color": "red",
+            "points": [
+              [
+                1,
+                1.5
+              ],
+              [
+                2,
+                1.0
+              ],
+              [
+                3,
+                0.7
+              ],
+              [
+                4,
+                0.3
+              ],
+              [
+                5,
+                0.7
+              ],
+              [
+                6,
+                1.6
+              ],
+              [
+                7,
+                1.9
+              ],
+              [
+                8,
+                2.0
+              ],
+              [
+                9,
+                2.3
+              ]
+            ],
+            "smooth": true
+          },
+          {
+            "id": "ATC",
+            "label": "ATC",
+            "color": "blue",
+            "points": [
+              [
+                1,
+                2.5
+              ],
+              [
+                2,
+                1.75
+              ],
+              [
+                3,
+                1.4
+              ],
+              [
+                4,
+                1.12
+              ],
+              [
+                5,
+                1.04
+              ],
+              [
+                6,
+                1.13
+              ],
+              [
+                7,
+                1.24
+              ],
+              [
+                8,
+                1.34
+              ],
+              [
+                9,
+                1.44
+              ]
+            ],
+            "smooth": true
+          },
+          {
+            "id": "AVC",
+            "label": "AVC",
+            "color": "green",
+            "points": [
+              [
+                1,
+                1.5
+              ],
+              [
+                2,
+                1.25
+              ],
+              [
+                3,
+                1.07
+              ],
+              [
+                4,
+                0.88
+              ],
+              [
+                5,
+                0.84
+              ],
+              [
+                6,
+                0.97
+              ],
+              [
+                7,
+                1.1
+              ],
+              [
+                8,
+                1.21
+              ],
+              [
+                9,
+                1.33
+              ]
+            ],
+            "smooth": true
+          },
+          {
+            "id": "MR",
+            "label": "D = MR = P",
+            "color": "purple",
+            "points": [
+              [
+                0,
+                1.8
+              ],
+              [
+                10,
+                1.8
+              ]
+            ],
+            "labelPos": "end"
+          }
+        ],
+        "tasks": [
+          {
+            "id": "A",
+            "kind": "point",
+            "label": "A",
+            "prompt": "Mark A, the profit-maximizing point where MR = MC",
+            "expect": {
+              "near": {
+                "x": 6.67,
+                "y": 1.8
+              }
+            }
+          },
+          {
+            "id": "B",
+            "kind": "point",
+            "label": "B",
+            "prompt": "Mark B, the ATC at that output",
+            "expect": {
+              "onCurve": "ATC",
+              "atX": 6
+            }
+          }
+        ],
+        "caption": "Frances's cost curves from the table; P = $1.80"
+      }
+    },
+    {
+      "id": "ch10-p3.3b1",
+      "type": "numeric",
+      "unit": 8,
+      "topic": "Frances at P = $1.00: quantity",
+      "tags": [
+        "problem",
+        "week-8",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 3.3(b1) ★"
+      },
+      "scenario": "ch10-p3.3",
+      "prompt": "(b) The price falls to $1.00. How many pencils per day will Frances produce?",
+      "explanation": "MC of the 5th pencil = $0.70 ≤ $1.00 (produce it); MC of the 6th = $1.60 > $1.00 (don't). So **5 pencils**. (MC also equals $1.00 at 2 pencils, but MC is falling there, so profit is at a minimum, not a maximum; the rising-MC crossing is the one that counts.)",
+      "answer": {
+        "value": 5,
+        "tolerance": 0.01,
+        "display": "5 pencils"
+      }
+    },
+    {
+      "id": "ch10-p3.3b2",
+      "type": "numeric",
+      "unit": 8,
+      "topic": "Frances at P = $1.00: profit or loss",
+      "tags": [
+        "problem",
+        "week-8",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 3.3(b2) ★"
+      },
+      "scenario": "ch10-p3.3",
+      "prompt": "(b) What is Frances's profit at P = $1.00? Enter a loss as a negative number.",
+      "explanation": "TR = 1.00 × 5 = $5.00; TC at 5 pencils = $5.20. Profit = 5.00 − 5.20 = **−$0.20** (a loss of 20 cents).",
+      "answer": {
+        "value": -0.2,
+        "tolerance": 0.01,
+        "display": "−$0.20",
+        "prefix": "$"
+      }
+    },
+    {
+      "id": "ch10-p3.3b3",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Frances: produce at a loss?",
+      "tags": [
+        "problem",
+        "week-8",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 3.3(b3) ★"
+      },
+      "scenario": "ch10-p3.3",
+      "prompt": "At P = $1.00 Frances loses money. Why does she still produce rather than shut down?",
+      "explanation": "Short-run shutdown rule: produce if **P ≥ AVC** (at the best output); shut down if P < min AVC. AVC at 5 pencils = (5.20 − 1.00)/5 = $0.84 < $1.00. Producing loses $0.20; shutting down would lose the entire fixed cost, $1.00. The 2-pencil point is where MC = P on a *falling* MC curve, a minimum of profit, not a maximum.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Price ($1.00) exceeds her average variable cost (about $0.84 at 5 pencils), so revenue covers variable cost and part of her $1.00 fixed cost; the $0.20 loss is smaller than the $1.00 loss from shutting down"
+        },
+        {
+          "id": "b",
+          "text": "She should shut down; any loss means a firm should stop producing"
+        },
+        {
+          "id": "c",
+          "text": "She produces because price equals marginal cost at 2 pencils, which is the profit-maximizing point"
+        },
+        {
+          "id": "d",
+          "text": "She produces because her loss per pencil is zero at that price"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-p3.3b4",
+      "type": "graph",
+      "unit": 8,
+      "topic": "Frances graph at P = $1.00",
+      "tags": [
+        "problem",
+        "week-8",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 3.3(b4) ★"
+      },
+      "scenario": "ch10-p3.3",
+      "prompt": "(b) Graph for P = $1.00. Mark the profit-maximizing (loss-minimizing) point where MR = MC on the rising part of MC.",
+      "explanation": "The rising part of MC meets the $1.00 price line between 5 and 6 pencils (5 whole pencils). At that quantity ATC ($1.04) is just above the price, so she incurs a small loss of (ATC − P) × Q = 0.04 × 5 = $0.20, and the price is above AVC ($0.84), so she keeps producing.",
+      "graph": {
+        "x": {
+          "label": "Pencils per day",
+          "min": 0,
+          "max": 10,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Price / cost ($)",
+          "min": 0,
+          "max": 3,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "MC",
+            "label": "MC",
+            "color": "red",
+            "points": [
+              [
+                1,
+                1.5
+              ],
+              [
+                2,
+                1.0
+              ],
+              [
+                3,
+                0.7
+              ],
+              [
+                4,
+                0.3
+              ],
+              [
+                5,
+                0.7
+              ],
+              [
+                6,
+                1.6
+              ],
+              [
+                7,
+                1.9
+              ],
+              [
+                8,
+                2.0
+              ],
+              [
+                9,
+                2.3
+              ]
+            ],
+            "smooth": true
+          },
+          {
+            "id": "ATC",
+            "label": "ATC",
+            "color": "blue",
+            "points": [
+              [
+                1,
+                2.5
+              ],
+              [
+                2,
+                1.75
+              ],
+              [
+                3,
+                1.4
+              ],
+              [
+                4,
+                1.12
+              ],
+              [
+                5,
+                1.04
+              ],
+              [
+                6,
+                1.13
+              ],
+              [
+                7,
+                1.24
+              ],
+              [
+                8,
+                1.34
+              ],
+              [
+                9,
+                1.44
+              ]
+            ],
+            "smooth": true
+          },
+          {
+            "id": "AVC",
+            "label": "AVC",
+            "color": "green",
+            "points": [
+              [
+                1,
+                1.5
+              ],
+              [
+                2,
+                1.25
+              ],
+              [
+                3,
+                1.07
+              ],
+              [
+                4,
+                0.88
+              ],
+              [
+                5,
+                0.84
+              ],
+              [
+                6,
+                0.97
+              ],
+              [
+                7,
+                1.1
+              ],
+              [
+                8,
+                1.21
+              ],
+              [
+                9,
+                1.33
+              ]
+            ],
+            "smooth": true
+          },
+          {
+            "id": "MR",
+            "label": "D = MR = P",
+            "color": "purple",
+            "points": [
+              [
+                0,
+                1.0
+              ],
+              [
+                10,
+                1.0
+              ]
+            ],
+            "labelPos": "end"
+          }
+        ],
+        "tasks": [
+          {
+            "id": "A",
+            "kind": "point",
+            "label": "A",
+            "prompt": "Mark A, where MR = MC on the rising part of MC",
+            "expect": {
+              "near": {
+                "x": 5.33,
+                "y": 1.0
+              }
+            }
+          }
+        ],
+        "caption": "Frances's cost curves from the table; P = $1.00"
+      }
+    },
+    {
+      "id": "ch10-p3.3c",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Frances at P = $0.25",
+      "tags": [
+        "problem",
+        "week-8",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 3.3(c) ★"
+      },
+      "scenario": "ch10-p3.3",
+      "prompt": "(c) The price falls to $0.25. What should Frances do, and what is her profit (loss)?",
+      "explanation": "The lowest AVC she ever reaches is about $0.84 (at 5 pencils), far above $0.25. At any output, revenue would be less than variable cost, so each pencil adds to losses. By **shutting down** she avoids the variable costs and loses only the **fixed cost, $1.00**. A firm that shuts down in the short run still owes its fixed cost, so the loss is not zero. When P < minimum AVC the quantity produced is **0** (her quoted price is irrelevant because she sells nothing).",
+      "options": [
+        {
+          "id": "a",
+          "text": "Produce 4 pencils, where MC is lowest ($0.30), and lose about $0.80"
+        },
+        {
+          "id": "b",
+          "text": "Shut down (produce 0); her loss is zero because she has no revenue and no costs"
+        },
+        {
+          "id": "c",
+          "text": "Shut down (produce 0); she loses her fixed cost of $1.00"
+        },
+        {
+          "id": "d",
+          "text": "Produce 1 pencil, since the price is above zero, and lose $2.25"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-p4.4a",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Situation 1: produce or shut down?",
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 4.4(a)"
+      },
+      "scenario": "ch10-p4.4",
+      "prompt": "Situation 1 (TR = $10,000, VC = $5,000, FC = $5,000, MC of the 1,000th unit = $10 = P). What should the firm do in the short run?",
+      "explanation": "TR = 10 × 1,000 = $10,000; TC = 5,000 + 5,000 = $10,000, so profit = **$0** (P = ATC = $10). Revenue exceeds variable cost by $5,000, enough to cover the fixed cost. Shutting down would produce a $5,000 loss. Zero economic profit is a normal return, so the firm produces. (And since MC = P = $10 at 1,000 units, this is the profit-maximizing output.)",
+      "options": [
+        {
+          "id": "a",
+          "text": "Shut down: the firm only breaks even, so it gains nothing from producing"
+        },
+        {
+          "id": "b",
+          "text": "Produce: revenue covers variable cost and fixed cost, so profit is zero (and shutting down would lose $5,000)"
+        },
+        {
+          "id": "c",
+          "text": "Shut down: price equals ATC, and a firm should operate only when price is above ATC"
+        },
+        {
+          "id": "d",
+          "text": "Produce, and expect an economic profit of $5,000"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-p4.4b",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Situation 2: produce or shut down?",
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 4.4(b)"
+      },
+      "scenario": "ch10-p4.4",
+      "prompt": "Situation 2 (TR = $10,000, VC = $5,000, FC = $6,000). What should the firm do in the short run?",
+      "explanation": "TC = 5,000 + 6,000 = $11,000 vs TR = $10,000, so the firm loses **$1,000** (P = $10 < ATC = $11). But revenue ($10,000) exceeds variable cost ($5,000) by $5,000, which contributes to fixed costs. If it shut down it would lose all $6,000 of fixed cost. Rule: **produce if TR ≥ VC (P ≥ AVC)**, even when P < ATC.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Shut down: it is making a loss, so producing makes no sense"
+        },
+        {
+          "id": "b",
+          "text": "Shut down: price is below average total cost"
+        },
+        {
+          "id": "c",
+          "text": "Produce: the firm is earning an economic profit of $1,000"
+        },
+        {
+          "id": "d",
+          "text": "Produce: it loses $1,000, but shutting down would lose its $6,000 fixed cost"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-p4.4c",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Situation 3: produce or shut down?",
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 10 · Problem 4.4(c)"
+      },
+      "scenario": "ch10-p4.4",
+      "prompt": "Situation 3 (TR = $10,000, VC = $11,000, FC = $5,000). What should the firm do in the short run?",
+      "explanation": "TR = $10,000 < VC = $11,000 (P = $10 < AVC = $11). If it produces: loss = 10,000 − (11,000 + 5,000) = **−$6,000**. If it shuts down: loss = fixed cost = **$5,000**. Shutting down loses $1,000 less. Even though MC = P, that only says that if it produces, 1,000 is the best quantity; the shutdown rule is a separate comparison of P with AVC. A firm that shuts down still pays its fixed cost, so it has a loss, not a profit.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Shut down: revenue doesn't even cover variable cost, so producing loses $6,000 versus only $5,000 (the fixed cost) if it shuts down"
+        },
+        {
+          "id": "b",
+          "text": "Produce: the firm's marginal cost equals the price, so it is maximizing profit"
+        },
+        {
+          "id": "c",
+          "text": "Produce: shutting down would lose the $5,000 fixed cost"
+        },
+        {
+          "id": "d",
+          "text": "Shut down: it would make a profit of $1,000 by not producing"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-p4.5a",
+      "type": "mc",
+      "unit": 8,
+      "topic": "A fixed cost of Netflix in 2001",
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 10 · Problem 4.5(a)"
+      },
+      "scenario": "ch10-p4.5",
+      "prompt": "(a) Which of the following was a fixed cost for Netflix in 2001?",
+      "explanation": "A **fixed cost** doesn't change as output (number of rentals) changes: warehouse leases, software and website costs, headquarters salaries and insurance are paid whether it ships 1 or 1,000,000 DVDs. Postage, envelopes and per-rental fees rise with the number of rentals, so they are variable costs.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The postage paid to mail each DVD to a customer"
+        },
+        {
+          "id": "b",
+          "text": "The cost of the mailing envelope used for each rental"
+        },
+        {
+          "id": "c",
+          "text": "The lease on its distribution warehouses (or the salaries of its headquarters staff), since these didn't change with the number of rentals"
+        },
+        {
+          "id": "d",
+          "text": "Royalty fees paid to a studio for each DVD rental"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-p4.5b",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Revenue vs variable cost",
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 4.5(b)"
+      },
+      "scenario": "ch10-p4.5",
+      "prompt": "(b) In 2001, what was the relationship between Netflix's revenue and its variable cost?",
+      "explanation": "Randolph says that “we were making money from each customer each month”, i.e. revenue per customer exceeded the variable cost of serving them (R > VC). What was missing was enough customers so that the total of these margins would cover the **fixed costs**. So revenue exceeded variable cost but not total cost.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Revenue was less than variable cost"
+        },
+        {
+          "id": "b",
+          "text": "Revenue exceeded variable cost: each customer more than paid for the variable cost of serving them"
+        },
+        {
+          "id": "c",
+          "text": "Revenue equalled fixed cost"
+        },
+        {
+          "id": "d",
+          "text": "Revenue was greater than total cost, so Netflix was earning an economic profit"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-p4.5c",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Netflix: profit or not, and why keep operating?",
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 4.5(c)"
+      },
+      "scenario": "ch10-p4.5",
+      "prompt": "(c) Was Netflix earning a profit in 2001? If not, why did it continue operating?",
+      "explanation": "Total revenue was less than total cost (the fixed costs were not yet covered), so Netflix **was not making an economic profit**. But it paid its fixed costs whether it operated or not; with revenue above variable cost, operating lost less than shutting down (the loss would equal the entire fixed cost), and the firm expected that growth would bring in enough customers to eventually cover all costs. The shutdown rule is P ≥ AVC, not P ≥ ATC.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yes. Because revenue exceeded variable cost, it was profitable"
+        },
+        {
+          "id": "b",
+          "text": "No, and it should have shut down immediately since any loss means a firm should stop"
+        },
+        {
+          "id": "c",
+          "text": "Yes. Fixed costs are sunk and ignored in calculating profit"
+        },
+        {
+          "id": "d",
+          "text": "No. Revenue covered variable costs and contributed toward fixed costs, so its loss was smaller than if it shut down; it also expected profits once it had more customers"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-p4.6a1",
+      "type": "numeric",
+      "unit": 8,
+      "topic": "Alfredo: AVC at 4 lamps",
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 10 · Problem 4.6(a1)"
+      },
+      "scenario": "ch10-p4.6",
+      "prompt": "(a) What is Alfredo's average variable cost (AVC) at 4 lamps per week?",
+      "explanation": "Fixed cost = TC at 0 output = $100. VC at 4 lamps = 210 − 100 = $110. AVC = 110/4 = **$27.50**.",
+      "answer": {
+        "value": 27.5,
+        "tolerance": 0.01,
+        "display": "$27.50",
+        "prefix": "$"
+      }
+    },
+    {
+      "id": "ch10-p4.6a2",
+      "type": "numeric",
+      "unit": 8,
+      "topic": "Alfredo: ATC at 6 lamps",
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 10 · Problem 4.6(a2)"
+      },
+      "scenario": "ch10-p4.6",
+      "prompt": "(a) What is Alfredo's average total cost (ATC) at 6 lamps per week? Round to the nearest cent.",
+      "explanation": "ATC = TC/Q = 280/6 = **$46.67**. (Check: AFC = 100/6 = 16.67 and AVC = 180/6 = 30.00; 16.67 + 30.00 = 46.67.)",
+      "answer": {
+        "value": 46.67,
+        "tolerance": 0.02,
+        "display": "$46.67",
+        "prefix": "$"
+      }
+    },
+    {
+      "id": "ch10-p4.6a3",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Alfredo: output at minimum ATC",
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 4.6(a3)"
+      },
+      "scenario": "ch10-p4.6",
+      "prompt": "(a) At which output is Alfredo's ATC lowest?",
+      "explanation": "ATC = TC/Q: 4 → 52.50, 5 → 48.00, **6 → 46.67**, 7 → 47.14, 8 → 48.75. ATC reaches its minimum at 6 lamps, and the MC at 7 lamps ($50) is above it, which is what pulls ATC up again. (AVC is lowest earlier, at 4 lamps: $27.50.)",
+      "options": [
+        {
+          "id": "a",
+          "text": "6 lamps per week (ATC = $46.67)"
+        },
+        {
+          "id": "b",
+          "text": "5 lamps per week (ATC = $48.00)"
+        },
+        {
+          "id": "c",
+          "text": "7 lamps per week (ATC = $47.14)"
+        },
+        {
+          "id": "d",
+          "text": "4 lamps per week (ATC = $52.50)"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-p4.6b1",
+      "type": "numeric",
+      "unit": 8,
+      "topic": "Alfredo at P = $50: quantity",
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 4.6(b1)"
+      },
+      "scenario": "ch10-p4.6",
+      "prompt": "(b) At a price of $50, how many lamps should Alfredo produce per week?",
+      "explanation": "Marginal costs (change in TC): 1st 50, 2nd 25, 3rd 15, 4th 20, 5th 30, 6th 40, **7th 50**, 8th 60, 9th 70, 10th 80. Produce up to the unit whose MC ≤ P = $50: the 7th lamp has MC = $50 = P, the 8th has MC = $60 > P. So **7 lamps**. (Producing 6 earns the same profit, since the 7th lamp just breaks even.)",
+      "answer": {
+        "value": 7,
+        "tolerance": 0.01,
+        "display": "7 lamps (6 earns the same $20)",
+        "accept": [
+          6
+        ]
+      }
+    },
+    {
+      "id": "ch10-p4.6b2",
+      "type": "numeric",
+      "unit": 8,
+      "topic": "Alfredo at P = $50: profit",
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 4.6(b2)"
+      },
+      "scenario": "ch10-p4.6",
+      "prompt": "(b) How much profit does Alfredo make at P = $50 and his best output?",
+      "explanation": "TR = 50 × 7 = $350; TC at 7 = $330. Profit = 350 − 330 = **$20**.",
+      "answer": {
+        "value": 20,
+        "tolerance": 0.01,
+        "display": "$20",
+        "prefix": "$"
+      }
+    },
+    {
+      "id": "ch10-p4.6c",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Alfredo at P = $30: shut down?",
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 10 · Problem 4.6(c)"
+      },
+      "scenario": "ch10-p4.6",
+      "prompt": "(c) The price falls to $30. Should Alfredo shut down? Explain.",
+      "explanation": "Shutdown rule: produce if P ≥ AVC. AVC's lowest value is $27.50 (4 lamps), and P = $30 > $27.50. Best output is where MC = P: the 5th lamp has MC = $30, so **5 lamps**. TR = 30 × 5 = $150, TC = $240, so profit = **−$90**. If he shut down, he would lose his full fixed cost, **$100**. Producing loses $10 less. P is below ATC at every output (minimum ATC is $46.67), so he loses money, but still shouldn't shut down.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yes. Price is below ATC at every output, so he is making a loss"
+        },
+        {
+          "id": "b",
+          "text": "Yes. The price ($30) is only slightly above MC at 6 lamps"
+        },
+        {
+          "id": "c",
+          "text": "No. $30 exceeds the minimum AVC ($27.50), so he should produce 5 lamps; he loses $90, less than his $100 fixed cost"
+        },
+        {
+          "id": "d",
+          "text": "No. At $30 he makes a positive profit by producing 5 lamps"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-p4.9",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Losses, shutdown and lending",
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 4.9"
+      },
+      "prompt": "[Related to Solved Problem 10.4] An article in the Wall Street Journal about companies drilling in shale oil fields notes that “banks have provided financing when [oil] producers spend more cash than they take in from operations.” If a company spends more to produce oil than it receives in revenue from selling the oil, isn’t it suffering a loss? If so, why does the company remain in business, and why are banks willing to lend it money?",
+      "explanation": "If total spending exceeds revenue the firm *is* suffering a loss. But the relevant short-run question is whether revenue covers **variable cost**. If it does, then the firm's loss from producing is smaller than the loss from shutting down (all fixed cost), so it stays open, and lenders are willing to finance it because, if prices recover, the firm can earn enough to cover all of its costs, including fixed costs and the loan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "No: money spent to produce is an investment, not a cost, so there is no loss"
+        },
+        {
+          "id": "b",
+          "text": "Yes, a loss, but if revenue covers variable (operating) costs the firm loses less by operating than by shutting down; banks lend because they expect prices and profits to recover"
+        },
+        {
+          "id": "c",
+          "text": "Yes, and the firm should shut down at once, because any loss means a firm should stop producing"
+        },
+        {
+          "id": "d",
+          "text": "No: banks lend only to profitable firms, so the article must be wrong"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-p4.11a",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Closing stores below variable cost",
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 4.11(a)"
+      },
+      "prompt": "[Related to Solved Problem 10.4] In early 2023, Bed Bath & Beyond announced that it had lost $396 million during the last three months of 2022. According to an article in the Wall Street Journal, as part of its plan to reduce its losses, the company was “in the process of closing about 150 underperforming stores.” The company had signed leases to rent the buildings those stores were in. Would Bed Bath & Beyond’s losses be reduced if it closed every store that was earning less in revenue than the variable cost of operating the store? Briefly explain.",
+      "explanation": "The lease is a **fixed cost**: it is paid whether the store is open or closed, so it should not affect the decision. The relevant comparison is revenue vs variable cost. If a store's revenue is *less* than its variable cost, it loses money on top of the fixed cost, and closing it removes that extra loss (P < AVC → shut down). The firm would lose just the lease payment, which is better than the lease plus the operating loss.",
+      "options": [
+        {
+          "id": "a",
+          "text": "No. The leases still have to be paid, so closing stores can never reduce losses"
+        },
+        {
+          "id": "b",
+          "text": "No. A store earning less revenue than variable cost still helps pay variable cost, so closing it increases losses"
+        },
+        {
+          "id": "c",
+          "text": "Yes, but only if the company can also cancel the lease at no cost"
+        },
+        {
+          "id": "d",
+          "text": "Yes. A store with revenue below its variable cost loses money on every sale; closing it avoids that loss, while the lease (fixed cost) is owed either way"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-p4.11b",
+      "type": "tf",
+      "unit": 8,
+      "topic": "Closing a store that covers variable cost",
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 4.11(b)"
+      },
+      "prompt": "Closing a store whose revenue exceeds its variable cost, but is less than its total cost (including the lease), would reduce Bed Bath & Beyond's losses in the short run.",
+      "explanation": "False. If revenue exceeds variable cost, the store's contribution covers part of the fixed lease. Closing it removes that contribution while the lease must still be paid, so losses would *increase*. Only stores with revenue below variable cost should be closed in the short run (unless the leases can be exited in the long run).",
+      "answer": false
+    },
+    {
+      "id": "ch10-p5.7a",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Long-run equilibrium and economic profit",
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 5.7(a)"
+      },
+      "scenario": "ch10-p5.7",
+      "prompt": "(a) Suppose that, as the chapter opener describes, cage-free egg producers are earning economic profit. If firms in a perfectly competitive market are earning economic profit, is the market in long-run equilibrium?",
+      "explanation": "Long-run equilibrium requires no tendency for firms to enter or leave, which happens only when **P = ATC (zero economic profit)**. If firms earn positive economic profit, new firms will enter, increasing supply and lowering the price until profit is competed away. So the market is not yet in long-run equilibrium.",
+      "options": [
+        {
+          "id": "a",
+          "text": "No. In long-run equilibrium economic profit is zero; positive profit attracts new firms"
+        },
+        {
+          "id": "b",
+          "text": "Yes. Earning a profit means firms are satisfied and have no reason to change output"
+        },
+        {
+          "id": "c",
+          "text": "Yes. Positive profit is how the market reaches long-run equilibrium"
+        },
+        {
+          "id": "d",
+          "text": "It depends only on whether existing firms exit"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-p5.7b",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Cage-free eggs: long-run price and quantity",
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 5.7(b)"
+      },
+      "scenario": "ch10-p5.7",
+      "prompt": "(b) What would we expect to happen to the price of cage-free eggs and the quantity produced in the long run?",
+      "explanation": "Economic profit attracts entry. Market supply shifts right, **price falls** toward the minimum of ATC, and **quantity rises**. Entry stops when price equals minimum ATC and economic profit is zero.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Price keeps rising because demand is growing, and quantity falls"
+        },
+        {
+          "id": "b",
+          "text": "Price stays above ATC and quantity is unchanged, because firms keep their profit"
+        },
+        {
+          "id": "c",
+          "text": "Entry shifts supply right: price falls toward minimum ATC and quantity rises, until economic profit is zero"
+        },
+        {
+          "id": "d",
+          "text": "Price rises and quantity rises, because firms invest the profits in more capacity"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-p5.7c1",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Pasture-raised eggs: long-run price",
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 5.7(c1)"
+      },
+      "scenario": "ch10-p5.7",
+      "prompt": "(c) Stricter USDA guidelines significantly raise the cost of producing pasture-raised eggs. What happens to the long-run price of pasture-raised eggs?",
+      "explanation": "Higher costs shift the ATC curve up, so min ATC rises. In long-run equilibrium P = min ATC, so the long-run price **rises** to the new, higher min ATC; otherwise firms would not break even. It does not return to the old level, because the old price no longer covers costs.",
+      "options": [
+        {
+          "id": "a",
+          "text": "It falls, because the new rules attract more producers"
+        },
+        {
+          "id": "b",
+          "text": "It rises, because a higher-cost technology raises the minimum ATC, which is where the long-run supply curve sits"
+        },
+        {
+          "id": "c",
+          "text": "It is unchanged, because in the long run price always equals the original minimum ATC"
+        },
+        {
+          "id": "d",
+          "text": "It rises only in the short run and returns to its old level in the long run"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-p5.7c2",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Pasture-raised eggs: long-run quantity",
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 5.7(c2)"
+      },
+      "scenario": "ch10-p5.7",
+      "prompt": "(c) In the long run, will the quantity of pasture-raised eggs be larger, smaller, or the same as without the new guidelines?",
+      "explanation": "The long-run price is higher, and the demand curve is downward-sloping, so consumers buy **less**. With the long-run supply curve horizontal at the new, higher min ATC, the market moves up along the demand curve to a smaller quantity, supported by fewer firms.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Larger: the higher price induces more firms to enter"
+        },
+        {
+          "id": "b",
+          "text": "The same: the long-run supply curve is horizontal, so quantity is fixed"
+        },
+        {
+          "id": "c",
+          "text": "Larger: the higher cost of production raises total spending on eggs"
+        },
+        {
+          "id": "d",
+          "text": "Smaller: the higher price lowers quantity demanded, so fewer firms can be supported in the market"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-p5.9",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Price takers can't charge more",
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 5.9"
+      },
+      "prompt": "In panel (b) of Figure 10.9, Sacha Gillette reduces her output from 40,000 to 25,000 dozen eggs when the price falls to $1.75. At this price and this output level, she is operating at a loss. Why doesn’t she just continue charging the original $2.00 and continue producing 40,000 dozen eggs?",
+      "explanation": "In perfect competition each firm is a price taker facing a horizontal demand curve at the market price ($1.75). Eggs are identical, so any firm charging more than the market price loses all of its customers. She has no choice over price; she can choose only the quantity (where MC = $1.75). (*Figure 10.9 is not shown here; the question only needs the information given.*)",
+      "options": [
+        {
+          "id": "a",
+          "text": "She is a price taker: at $2.00 buyers would simply buy identical eggs from other farms at $1.75, so she would sell nothing"
+        },
+        {
+          "id": "b",
+          "text": "She could, because her eggs are better and consumers would pay a premium"
+        },
+        {
+          "id": "c",
+          "text": "She could, since the extra $0.25 per dozen would raise her profit on the 40,000 dozen she sells"
+        },
+        {
+          "id": "d",
+          "text": "She couldn't, because the government prohibits farms from charging more than the market price"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-p5.12",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Permanent increase in demand: long-run effect",
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 10 · Problem 5.12"
+      },
+      "prompt": "Suppose that currently the market for gluten-free spaghetti is in long-run equilibrium at a price of $3.50 per box and a quantity of 4 million boxes sold per year. If the demand for gluten-free spaghetti permanently increases, which of the following combinations of equilibrium price and equilibrium quantity would you expect to see in the long run? Carefully explain why you chose the answer you did.",
+      "explanation": "The increase in demand raises price in the short run and brings economic profit, which attracts new firms. Entry shifts supply right until price returns to minimum ATC ($3.50) and profit is zero. In a constant-cost industry long-run supply is horizontal at $3.50, so the price returns to $3.50 and quantity is **larger** than 4 million. Quantity unchanged would require no new entry at all; a higher long-run price would require rising costs; a lower price and quantity make no sense when demand has increased.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A price of $3.50 per box and a quantity of 4 million boxes"
+        },
+        {
+          "id": "b",
+          "text": "A price of $3.50 per box and a quantity of more than 4 million boxes"
+        },
+        {
+          "id": "c",
+          "text": "A price of more than $3.50 per box and a quantity of more than 4 million boxes"
+        },
+        {
+          "id": "d",
+          "text": "A price of less than $3.50 per box and a quantity of fewer than 4 million boxes"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false
+    },
+    {
+      "id": "ch10-p3.5a",
+      "type": "mc",
+      "unit": 8,
+      "difficulty": 2,
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "source": {
+        "ref": "Ch 10 · Problem 3.5"
+      },
+      "shuffleOptions": false,
+      "scenario": "ch10-p3.5",
+      "topic": "Profit maximization: MR = MC",
+      "prompt": "Do you agree with the student?",
+      "options": [
+        "Yes — profit per unit is largest where P − MC is largest",
+        "Yes — the firm should stop at Q₁ because ATC equals P there",
+        "No — the firm should produce Q₂, where P = MR = MC; every unit between Q₁ and Q₂ adds P − MC > 0 to total profit",
+        "No — the firm should produce beyond Q₂ until ATC is at its minimum"
+      ],
+      "answer": "c",
+      "explanation": "Firms maximize **total** profit, not the gap on one unit. Between Q₁ and Q₂ each extra unit still has MC < P, so it **adds** to profit; stopping at Q₁ leaves all that profit on the table. Profit stops rising only where MR = MC (Q₂). In fact at Q₁ price just equals ATC, so profit there is **zero**, while at Q₂ price is above ATC. ATC’s minimum is not the profit-maximizing point unless P equals it."
+    },
+    {
+      "id": "ch10-p3.8a",
+      "type": "numeric",
+      "unit": 8,
+      "difficulty": 1,
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "source": {
+        "ref": "Ch 10 · Problem 3.8(a)"
+      },
+      "scenario": "ch10-p3.8",
+      "topic": "MR = MC output",
+      "prompt": "How many caps per day should Marguerite produce to maximize profit?",
+      "answer": {
+        "value": 100,
+        "tolerance": 0,
+        "display": "100 caps"
+      },
+      "explanation": "Produce where **MR = MC**: MC crosses MR = $11 at **100 caps**. 80 caps is where MC crosses ATC (minimum ATC) and 50 is near minimum AVC — neither maximizes profit at a price of $11."
+    },
+    {
+      "id": "ch10-p3.8b",
+      "type": "numeric",
+      "unit": 8,
+      "difficulty": 2,
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "source": {
+        "ref": "Ch 10 · Problem 3.8(b)"
+      },
+      "scenario": "ch10-p3.8",
+      "topic": "Profit = (P − ATC) × Q",
+      "prompt": "How much profit does she earn per day?",
+      "answer": {
+        "value": 200,
+        "tolerance": 0.5,
+        "prefix": "$",
+        "display": "$200"
+      },
+      "explanation": "Profit = (P − ATC) × Q = ($11.00 − $9.00) × 100 = **$200**. Using AVC instead of ATC ($11 − $6 = $5 × 100 = $500) ignores fixed costs."
+    },
+    {
+      "id": "ch10-p3.8c",
+      "type": "numeric",
+      "unit": 8,
+      "difficulty": 3,
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "source": {
+        "ref": "Ch 10 · Problem 3.8(c)"
+      },
+      "scenario": "ch10-p3.8",
+      "topic": "Shutdown loss = fixed cost",
+      "prompt": "If Marguerite shuts down, what is her loss per day? (Enter a positive number.)",
+      "answer": {
+        "value": 300,
+        "tolerance": 0.5,
+        "prefix": "$",
+        "accept": [
+          -300
+        ],
+        "display": "$300"
+      },
+      "explanation": "Shutting down (in the short run) she still pays her **fixed cost**. At 100 caps, AFC = ATC − AVC = $9 − $6 = $3 per cap, so FC = $3 × 100 = **$300** — her loss if she shuts down. Fixed cost is the same at every output, which is why it can be read off at Q = 100."
+    },
+    {
+      "id": "ch10-p6.5a",
+      "type": "mc",
+      "unit": 8,
+      "difficulty": 1,
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "source": {
+        "ref": "Ch 10 · Problem 6.5(a)"
+      },
+      "shuffleOptions": false,
+      "scenario": "ch10-p6.5",
+      "topic": "Zero economic profit",
+      "prompt": "How much profit is Murat’s Kumquats earning?",
+      "options": [
+        "Zero economic profit — at Q₁ price equals ATC",
+        "A positive economic profit equal to price × Q₁",
+        "An economic loss, because MC is rising at Q₁",
+        "It can’t be determined without dollar values"
+      ],
+      "answer": "a",
+      "explanation": "At the profit-maximizing output Q₁ (MR = MC), **price = ATC**, so profit = (P − ATC) × Q₁ = **0**: Murat breaks even and earns a normal return. P × Q₁ is total revenue, not profit, and no dollar values are needed because the P − ATC gap is zero."
+    },
+    {
+      "id": "ch10-p6.5b",
+      "type": "mc",
+      "unit": 8,
+      "difficulty": 2,
+      "tags": [
+        "problem",
+        "week-8"
+      ],
+      "source": {
+        "ref": "Ch 10 · Problem 6.5(b)"
+      },
+      "shuffleOptions": false,
+      "scenario": "ch10-p6.5",
+      "topic": "Productive and allocative efficiency",
+      "prompt": "Which kind of efficiency does Murat’s situation illustrate?",
+      "options": [
+        "Only productive efficiency, because ATC is at its minimum",
+        "Only allocative efficiency, because P = MC",
+        "Neither, because the firm earns zero profit",
+        "Both: P = minimum ATC (productive efficiency) and P = MC (allocative efficiency)"
+      ],
+      "answer": "d",
+      "explanation": "**Productive efficiency**: output is produced at the lowest possible average cost — P equals the **minimum of ATC**. **Allocative efficiency**: P = MC, so the last unit’s value to buyers equals its cost to produce. Both hold at Q₁, as in long-run perfectly competitive equilibrium. Zero economic profit is exactly what long-run efficiency looks like, not a sign of inefficiency."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>ECON 1B03 — Midterm 2 Practice</title>
+<link rel="stylesheet" href="../practice/graph.css?v=5">
+<link rel="stylesheet" href="../practice/engine.css?v=7">
+<style>
+  html, body { margin: 0; padding: 0; }
+  /* course accent: ECON 1B03 uses the hub's blue */
+  .pe { --pe-accent: #2563EB; --pe-accent-2: #3B82F6; --pe-accent-soft: #EFF6FF; }
+  @media (prefers-color-scheme: dark) { .pe:not([data-theme="light"]) { --pe-accent: #60A5FA; --pe-accent-2: #93C5FD; --pe-accent-soft: #172554; } }
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script src="../practice/graph.js?v=5"></script>
+<script src="../practice/engine.js?v=8"></script>
+<script>
+PracticeEngine.mount(document.getElementById('app'), {
+  id: '1B03-midterm2',
+  course: 'ECON 1B03',
+  courseTitle: 'Introductory Microeconomics',
+  title: 'Midterm 2 Practice',
+  subtitle: 'Units 5–8 · Fall 2026 (Dr. Mang) · Test date: Saturday November 7, 2026, 12:30 pm',
+  homeHref: '/',
+  banks: [
+    'banks/1B03-mt2-text-ch6.json',
+    'banks/1B03-mt2-text-ch8.json',
+    'banks/1B03-mt2-text-ch9.json',
+    'banks/1B03-mt2-text-ch10.json',
+    'banks/1B03-mt2-slides-u5.json',
+    'banks/1B03-mt2-slides-u6.json',
+    'banks/1B03-mt2-slides-u7.json',
+    'banks/1B03-mt2-slides-u8.json',
+    'banks/1B03-mt1-f22.json'
+  ],
+  scope: {
+    id: 'f26-mt2',
+    label: 'Fall 2026 Midterm 2',
+    units: [5, 6, 7, 8],
+    note: 'Midterm 2 covers **Units 5–8** (Ch. 6, 8, 9 + 9 Appendix, 10). **Textbook Homework** questions are the problems Dr. Mang assigned for Weeks 5–8 (★ = reviewed in tutorial), turned into auto-graded parts. The Fall 2022 practice midterm’s elasticity questions are included; its Units 1–4 questions are hidden by default.'
+  },
+  unitNames: {
+    1: 'Introduction to Economics',
+    2: 'Trade-offs & Comparative Advantage',
+    3: 'Supply & Demand',
+    4: 'Market Efficiency',
+    5: 'Elasticity',
+    6: 'Consumer Choice',
+    7: 'Production & Costs',
+    8: 'Perfect Competition',
+    12: 'Externalities & Public Goods'
+  },
+  exam: { questions: 40, minutes: 80 }
+});
+</script>
+</body>
+</html>

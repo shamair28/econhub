@@ -1,0 +1,1436 @@
+{
+  "schema": "practice-bank/v1",
+  "id": "1B03-mt2-slides-u6",
+  "course": "ECON 1B03",
+  "title": "Unit 6 Lecture Slides",
+  "description": "Unit 6 (Consumer Choice, Hubbard Ch. 8): utility and the equal-marginal rule, indifference curves and the MRS, the budget constraint and optimum, income and price changes, special preferences, and behavioural economics. Includes the in-class George bowling-vs-movies exercise.",
+  "defaultSource": {
+    "label": "Unit 6 Lecture Slides",
+    "kind": "slides"
+  },
+  "defaultUnit": 6,
+  "scenarios": {
+    "george": {
+      "title": "George's $100 (Unit 6 in-class exercise)",
+      "body": "George has **$100** to spend on movies with friends (**$10** per ticket) or bowling with friends (**$20** per session). His **total utility** from each activity is below. (The bowling column stops at 5 sessions, the most $100 can buy.)",
+      "table": {
+        "headers": [
+          "Units",
+          "Bowling sessions: total utility",
+          "Movie tickets: total utility"
+        ],
+        "rows": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            75,
+            80
+          ],
+          [
+            2,
+            130,
+            130
+          ],
+          [
+            3,
+            170,
+            170
+          ],
+          [
+            4,
+            185,
+            190
+          ],
+          [
+            5,
+            190,
+            200
+          ],
+          [
+            6,
+            "—",
+            205
+          ],
+          [
+            7,
+            "—",
+            207
+          ],
+          [
+            8,
+            "—",
+            207
+          ],
+          [
+            9,
+            "—",
+            207
+          ],
+          [
+            10,
+            "—",
+            207
+          ]
+        ]
+      }
+    },
+    "maya": {
+      "title": "Maya's coffee and muffins",
+      "body": "Maya has **$20**. Coffee costs **$4** per cup and a muffin costs **$2**. Her **total utility** (utils) is shown. (Coffee stops at 5 cups, the most $20 can buy.)",
+      "table": {
+        "headers": [
+          "Units",
+          "Coffee: total utility",
+          "Muffin: total utility"
+        ],
+        "rows": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            40,
+            40
+          ],
+          [
+            2,
+            60,
+            72
+          ],
+          [
+            3,
+            72,
+            98
+          ],
+          [
+            4,
+            80,
+            118
+          ],
+          [
+            5,
+            84,
+            132
+          ],
+          [
+            6,
+            "—",
+            142
+          ],
+          [
+            7,
+            "—",
+            148
+          ],
+          [
+            8,
+            "—",
+            150
+          ]
+        ]
+      }
+    },
+    "budget": {
+      "title": "A consumer's budget",
+      "body": "A consumer has **M = $120** to spend on good X (price **P<sub>X</sub> = $8**) and good Y (price **P<sub>Y</sub> = $5**). Unless a question says otherwise, prices and income are as given."
+    }
+  },
+  "questions": [
+    {
+      "id": "u6-q01",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Willingness vs budget",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 6.1 · slides 5–6"
+      },
+      "tags": [
+        "lesson-6.1"
+      ],
+      "prompt": "According to Dr. Mang's Unit 6 slides, which of the following is **not** one of the three factors that determine a consumer's available **budget**?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Income received from working and from other sources"
+        },
+        {
+          "id": "b",
+          "text": "Their stock of savings"
+        },
+        {
+          "id": "c",
+          "text": "Their natural desire for the product"
+        },
+        {
+          "id": "d",
+          "text": "Their ability to borrow"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "The slides give two separate lists. A consumer's **budget** depends on (1) income from working and other sources, (2) stock of savings and (3) ability to borrow (slide 6). A consumer's **willingness to purchase** depends on (1) their natural desire for the product, (2) how much they value it relative to other goods and (3) how much income they have available to spend (slide 5). Natural desire belongs to the willingness list, so it is the item that is not part of the budget. Savings and borrowing are easy to mix up with willingness, but they are what the consumer can draw on to spend."
+    },
+    {
+      "id": "u6-q02",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Satiation",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 6.1 · slides 9–11"
+      },
+      "tags": [
+        "lesson-6.1"
+      ],
+      "prompt": "A consumer keeps consuming more and more of a good until she reaches her **point of satiation**. At that point:",
+      "options": [
+        {
+          "id": "a",
+          "text": "marginal utility has fallen to zero and total utility is at its maximum"
+        },
+        {
+          "id": "b",
+          "text": "marginal utility is at its maximum and total utility is still rising"
+        },
+        {
+          "id": "c",
+          "text": "total utility is zero because she has had enough"
+        },
+        {
+          "id": "d",
+          "text": "marginal utility is negative for every good, so total utility must fall"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Marginal utility is the slope of the total-utility function u(Q). It falls as consumption rises (diminishing marginal utility) until it reaches **zero**; there the u(Q) curve is flat at its peak U<sub>max</sub> and the consumer has had \"enough\" (slides 4 and 9). Marginal utility is *largest* for the first unit, not at satiation. Beyond satiation, MU **can** turn negative for some goods (the extra slice of pizza that makes you ill), but the slides stress that **not all goods** behave that way (slide 11), so MU is not negative for every good. Total utility is certainly not zero."
+    },
+    {
+      "id": "u6-q03",
+      "type": "tf",
+      "unit": 6,
+      "topic": "Diminishing MU vs total utility",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 6.1 · slides 9–11"
+      },
+      "tags": [
+        "lesson-6.1"
+      ],
+      "prompt": "Diminishing marginal utility means that a consumer's **total utility falls** as she consumes more of a good.",
+      "answer": false,
+      "explanation": "False. Diminishing marginal utility says the **extra** utility from each additional unit gets smaller, not that total utility falls. As long as MU is positive, total utility keeps **rising**, just at a slower rate. For George's movie tickets the marginal utilities are 80, 50, 40, 20, 10, … while total utility climbs 80, 130, 170, 190, 200, … Total utility peaks where MU reaches zero (satiation) and can fall only once MU is **negative**."
+    },
+    {
+      "id": "u6-lec01",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Marginal utility from a table",
+      "difficulty": 1,
+      "source": {
+        "label": "Unit 6 In-Class Lecture",
+        "ref": "slides 7, 11"
+      },
+      "tags": [
+        "lesson-6.1"
+      ],
+      "scenario": "george",
+      "prompt": "Using George's table, what is his **marginal utility** from the **4th movie ticket**?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "20"
+        },
+        {
+          "id": "c",
+          "text": "40"
+        },
+        {
+          "id": "d",
+          "text": "190"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "Marginal utility is the extra utility from one more unit: MU = TU(4) − TU(3) = 190 − 170 = **20** utils. The figure 190 is George's *total* utility from 4 tickets, not the marginal amount. The figure 40 is the marginal utility of the *3rd* ticket (170 − 130). The figure 2 is the marginal utility **per dollar** (20 ÷ $10), which is a different quantity used when comparing goods with different prices."
+    },
+    {
+      "id": "u6-lec02",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Marginal utility per dollar",
+      "difficulty": 2,
+      "source": {
+        "label": "Unit 6 In-Class Lecture",
+        "ref": "slides 11–12"
+      },
+      "tags": [
+        "lesson-6.1"
+      ],
+      "scenario": "george",
+      "prompt": "What is the **marginal utility per dollar spent** on George's **2nd bowling session**? (Round to two decimals.)",
+      "answer": {
+        "value": 2.75,
+        "tolerance": 0.01,
+        "display": "2.75",
+        "hint": "utils per dollar"
+      },
+      "explanation": "MU of the 2nd session = TU(2) − TU(1) = 130 − 75 = **55** utils. A bowling session costs $20, so MU per dollar = 55 ÷ $20 = **2.75**. Common slips: dividing by the *movie* price ($10) gives 5.5, and using *total* utility (130 ÷ $20 = 6.5) instead of the marginal amount also gives a wrong answer. The equal-marginal rule compares MU per dollar across goods, so each good must be divided by its own price."
+    },
+    {
+      "id": "u6-lec03",
+      "type": "mc",
+      "unit": 6,
+      "topic": "George's best bundle",
+      "difficulty": 2,
+      "source": {
+        "label": "Unit 6 In-Class Lecture",
+        "ref": "slides 7–12"
+      },
+      "tags": [
+        "lesson-6.1"
+      ],
+      "scenario": "george",
+      "prompt": "Which bundle of bowling sessions and movie tickets gives George the **most total utility** from his $100?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2 bowling sessions and 6 movie tickets"
+        },
+        {
+          "id": "b",
+          "text": "4 bowling sessions and 2 movie tickets"
+        },
+        {
+          "id": "c",
+          "text": "1 bowling session and 8 movie tickets"
+        },
+        {
+          "id": "d",
+          "text": "3 bowling sessions and 4 movie tickets"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "Every option spends exactly $100 ($20 × bowling + $10 × tickets), so compare total utility: 3 bowling + 4 movies = 170 + 190 = **360**; 2 + 6 = 130 + 205 = 335; 4 + 2 = 185 + 130 = 315; 1 + 8 = 75 + 207 = 282. The winner also satisfies the optimum condition: the 3rd bowling session gives 40 ÷ $20 = 2.0 utils per dollar and the 4th movie ticket gives 20 ÷ $10 = 2.0 utils per dollar, so MU<sub>bowling</sub>/P<sub>bowling</sub> = MU<sub>movies</sub>/P<sub>movies</sub> and the budget is all spent. In the 2-and-6 bundle the last bowling session gives 2.75 per dollar but the last ticket only 0.5 per dollar, so shifting money toward bowling would raise utility."
+    },
+    {
+      "id": "u6-lec04",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Utility at the optimum",
+      "difficulty": 2,
+      "source": {
+        "label": "Unit 6 In-Class Lecture",
+        "ref": "slides 7–12"
+      },
+      "tags": [
+        "lesson-6.1"
+      ],
+      "scenario": "george",
+      "prompt": "What is George's **total utility** at his utility-maximizing bundle?",
+      "answer": {
+        "value": 360,
+        "tolerance": 0.5,
+        "display": "360 utils",
+        "hint": "utils"
+      },
+      "explanation": "The optimum is 3 bowling sessions and 4 movie tickets: it spends 3 × $20 + 4 × $10 = $100, and MU per dollar is 2.0 on both goods. Total utility = bowling (3 sessions) + movies (4 tickets) = 170 + 190 = **360** utils. Total utility is the *sum of the two goods' utilities*; do not use a marginal value (40 or 20) instead."
+    },
+    {
+      "id": "u6-q09",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Equal-marginal rule with a table",
+      "difficulty": 3,
+      "source": {
+        "ref": "Lesson 6.1 · slide 12"
+      },
+      "tags": [
+        "lesson-6.1"
+      ],
+      "scenario": "maya",
+      "prompt": "Using Maya's table, how many **muffins** does she buy at her utility-maximizing bundle?",
+      "answer": {
+        "value": 6,
+        "tolerance": 0.01,
+        "display": "6 muffins",
+        "hint": "muffins"
+      },
+      "explanation": "Work out marginal utility per dollar. Coffee ($4): 40/4 = 10, 20/4 = 5, 12/4 = 3, 8/4 = 2, 4/4 = 1. Muffins ($2): 40/2 = 20, 32/2 = 16, 26/2 = 13, 20/2 = 10, 14/2 = 7, 10/2 = 5, 6/2 = 3, 2/2 = 1. Buying the best remaining dollar each time, Maya reaches a tie at **5 utils per dollar** between the 2nd coffee (20 ÷ $4) and the 6th muffin (10 ÷ $2). That bundle, 2 coffees and 6 muffins, costs 2 × $4 + 6 × $2 = $20 and gives 60 + 142 = **202** utils. The other bundles that spend $20 do worse: 1 coffee + 8 muffins = 190, 3 + 4 = 190, 4 + 2 = 152."
+    },
+    {
+      "id": "u6-q10",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Using MU per dollar to adjust",
+      "difficulty": 3,
+      "source": {
+        "ref": "Lesson 6.1 · slide 12"
+      },
+      "tags": [
+        "lesson-6.1"
+      ],
+      "scenario": "maya",
+      "prompt": "Suppose Maya is at **3 coffees and 4 muffins**, which spends all $20. What should she do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Buy more coffees and fewer muffins, because a coffee costs more and so must be worth more"
+        },
+        {
+          "id": "b",
+          "text": "Stay put, because she has spent her whole $20 and so must already be at the optimum"
+        },
+        {
+          "id": "c",
+          "text": "Buy fewer coffees and more muffins, because the last muffin gives 10 utils per dollar and the last coffee only 3"
+        },
+        {
+          "id": "d",
+          "text": "Buy fewer muffins, because their marginal utility is falling"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "The optimum needs **two** conditions: MU<sub>X</sub>/P<sub>X</sub> = MU<sub>Y</sub>/P<sub>Y</sub> *and* the budget fully spent. Spending all $20 is only one of them. At 3 coffees and 4 muffins, the 3rd coffee gives 12 ÷ $4 = **3** utils per dollar while the 4th muffin gives 20 ÷ $2 = **10**. A dollar does more good on muffins, so she should move spending from coffee to muffins. Doing so takes her to 2 coffees and 6 muffins (202 utils instead of 190), where both ratios equal 5. Price alone says nothing about value, and marginal utility falls for *every* good, so that fact does not tell her which way to move."
+    },
+    {
+      "id": "u6-q11",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Indifference curve definition",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 6.2 · slides 16–18"
+      },
+      "tags": [
+        "lesson-6.2",
+        "slides-vs-text"
+      ],
+      "prompt": "In Dr. Mang's model of consumer preferences, an **indifference curve** shows:",
+      "options": [
+        {
+          "id": "a",
+          "text": "all combinations of X and Y that the consumer can afford with her income"
+        },
+        {
+          "id": "b",
+          "text": "all combinations of goods X and Y that give the consumer the same level of utility"
+        },
+        {
+          "id": "c",
+          "text": "the combination of X and Y that gives the consumer the highest utility"
+        },
+        {
+          "id": "d",
+          "text": "the quantities of X the consumer will buy at each possible price"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "Every bundle of X and Y gives some level of utility, and sometimes two bundles give the **same** utility. The collection of such bundles is an indifference curve: the consumer is *indifferent* when asked to choose between points on it (slide 18). What she can afford is described by the **budget constraint**, not the indifference curve. The single best affordable bundle is where an indifference curve *touches* the budget line (Lesson 6.3), and quantity demanded at each price is a demand curve. Slides-only topic: Hubbard's Chapter 8 text does not use indifference curves."
+    },
+    {
+      "id": "u6-q12",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Properties of indifference curves",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 6.2 · slides 19–21"
+      },
+      "tags": [
+        "lesson-6.2",
+        "slides-vs-text"
+      ],
+      "prompt": "Which statement about a consumer's **indifference curves** is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Two indifference curves of the same consumer may cross, as long as they represent different utility levels"
+        },
+        {
+          "id": "b",
+          "text": "Different points on the same indifference curve give different utility levels"
+        },
+        {
+          "id": "c",
+          "text": "A curve closer to the origin represents a higher level of utility, because the consumer needs fewer goods to be satisfied"
+        },
+        {
+          "id": "d",
+          "text": "A curve farther from the origin represents a higher level of utility, because it contains larger amounts of X and Y"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "The slides give these properties: every point on one curve gives the **same** utility; each utility level has its own curve; the curves never cross (the slides draw them \"parallel\"); and **higher curves, farther from the origin, mean higher utility** because the bundles contain more X and Y (slide 20). Curves cannot cross because of **transitivity**: if bundle a were on both curves, with b on one and c on the other, then a ≡ b and a ≡ c would force b ≡ c, but c has more of a good than b (slide 21). Note that Mang's slides say \"parallel\"; the property you can prove, and the one to rely on, is that they never cross. Slides-only topic: the textbook chapter has no indifference curves."
+    },
+    {
+      "id": "u6-q13",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Marginal rate of substitution",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 6.2 · slide 23"
+      },
+      "tags": [
+        "lesson-6.2",
+        "slides-vs-text"
+      ],
+      "prompt": "At a particular bundle, a consumer's marginal utility of X is 15 utils and her marginal utility of Y is 6 utils. What is her **MRS** (marginal rate of substitution of X for Y)?",
+      "answer": {
+        "value": 2.5,
+        "tolerance": 0.01,
+        "display": "2.5",
+        "hint": "MRS = MU_X ÷ MU_Y"
+      },
+      "explanation": "On the slides, **MRS = MU<sub>X</sub> ÷ MU<sub>Y</sub>** = 15 ÷ 6 = **2.5**: she would give up 2.5 units of Y for one more unit of X and stay equally happy. The indifference curve's slope at that bundle is **−2.5**, because the slope equals −MRS (as one good rises the other falls). Inverting the ratio (6 ÷ 15 = 0.4) is the usual slip: keep the horizontal-axis good, X, on top."
+    },
+    {
+      "id": "u6-q14",
+      "type": "tf",
+      "unit": 6,
+      "topic": "Slope of an indifference curve",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 6.2 · slide 23"
+      },
+      "tags": [
+        "lesson-6.2",
+        "slides-vs-text"
+      ],
+      "prompt": "At any bundle, the **slope** of the consumer's indifference curve equals −MU<sub>X</sub>/MU<sub>Y</sub> (that is, −MRS).",
+      "answer": true,
+      "explanation": "True. The MRS is the ratio of marginal utilities, MRS = MU<sub>X</sub>/MU<sub>Y</sub>, and the slope of the indifference curve equals the MRS \"except it is negative\" because when the consumer has more of one good she must have less of the other to stay on the same curve (slide 23). Where the consumer has a lot of X and little Y the MRS is low (the curve is flat); where she has little X and a lot of Y the MRS is high (the curve is steep)."
+    },
+    {
+      "id": "u6-q15",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Budget line intercept",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 6.3 · slide 32"
+      },
+      "tags": [
+        "lesson-6.3",
+        "slides-vs-text"
+      ],
+      "scenario": "budget",
+      "prompt": "What is the **X-intercept** of the consumer's budget constraint?",
+      "answer": {
+        "value": 15,
+        "tolerance": 0.01,
+        "display": "15 units of X",
+        "hint": "units of X"
+      },
+      "explanation": "If all the money is spent on X, M = P<sub>X</sub>X, so X = M ÷ P<sub>X</sub> = 120 ÷ 8 = **15**. (The Y-intercept is M ÷ P<sub>Y</sub> = 120 ÷ 5 = 24.) Each intercept divides income by *that good's own price*; using P<sub>Y</sub> for the X-intercept gives the wrong 24. Slides-only topic: the budget-line graph is not in Hubbard's Chapter 8 text."
+    },
+    {
+      "id": "u6-q16",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Slope of the budget constraint",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 6.3 · slide 34"
+      },
+      "tags": [
+        "lesson-6.3",
+        "slides-vs-text"
+      ],
+      "scenario": "budget",
+      "prompt": "What is the **slope** of the consumer's budget constraint (with Y on the vertical axis and X on the horizontal axis)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "−1.6"
+        },
+        {
+          "id": "b",
+          "text": "−0.625"
+        },
+        {
+          "id": "c",
+          "text": "+1.6"
+        },
+        {
+          "id": "d",
+          "text": "−8"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Rearranging P<sub>X</sub>X + P<sub>Y</sub>Y = M gives Y = M/P<sub>Y</sub> − (P<sub>X</sub>/P<sub>Y</sub>)X, so the slope is **−P<sub>X</sub>/P<sub>Y</sub>** = −8 ÷ 5 = **−1.6** (slide 34). Check with the intercepts: rise/run = −24 ÷ 15 = −1.6. Inverting the ratio gives −0.625 (the slope would then be −P<sub>Y</sub>/P<sub>X</sub>), the sign cannot be positive because spending more on X means buying less Y, and −8 is just the price of X rather than a ratio."
+    },
+    {
+      "id": "u6-q17",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Affordable and unaffordable bundles",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 6.3 · slides 31–33"
+      },
+      "tags": [
+        "lesson-6.3",
+        "slides-vs-text"
+      ],
+      "scenario": "budget",
+      "prompt": "Which of these bundles (X, Y) is **unaffordable**?",
+      "options": [
+        {
+          "id": "a",
+          "text": "10 units of X and 8 units of Y"
+        },
+        {
+          "id": "b",
+          "text": "6 units of X and 14 units of Y"
+        },
+        {
+          "id": "c",
+          "text": "5 units of X and 16 units of Y"
+        },
+        {
+          "id": "d",
+          "text": "12 units of X and 5 units of Y"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "A bundle is affordable if P<sub>X</sub>X + P<sub>Y</sub>Y ≤ M = $120 (slide 31). Costs: 10X + 8Y = 80 + 40 = $120 (on the line); 6X + 14Y = 48 + 70 = $118 (below the line, $2 left over); 5X + 16Y = 40 + 80 = $120 (on the line); 12X + 5Y = 96 + 25 = **$121**, which is $1 over budget, so it lies outside the budget line and is unaffordable. Bundles on or below the line form the opportunity set."
+    },
+    {
+      "id": "u6-q18",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Consumer's optimum",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 6.3 · slides 35–39"
+      },
+      "tags": [
+        "lesson-6.3",
+        "slides-vs-text"
+      ],
+      "prompt": "At the consumer's **utility-maximizing bundle** on Dr. Mang's graph:",
+      "options": [
+        {
+          "id": "a",
+          "text": "the indifference curve crosses the budget constraint at two points, so MRS is greater than P<sub>X</sub>/P<sub>Y</sub>"
+        },
+        {
+          "id": "b",
+          "text": "the indifference curve is tangent to the budget constraint, so MRS = P<sub>X</sub>/P<sub>Y</sub>"
+        },
+        {
+          "id": "c",
+          "text": "the bundle lies strictly inside the budget constraint, so some income is left over"
+        },
+        {
+          "id": "d",
+          "text": "the budget constraint lies on the lowest indifference curve the consumer can reach"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "The consumer maximizes utility, so she wants the **highest** indifference curve she can afford. A point below the budget line is suboptimal because she could spend more and reach a higher curve (slide 35). A point where a curve *crosses* the line can be improved by sliding along the line. The best point is where the curve just touches the line: the two have the **same slope**, −MU<sub>X</sub>/MU<sub>Y</sub> = −P<sub>X</sub>/P<sub>Y</sub>, so MRS = P<sub>X</sub>/P<sub>Y</sub> (slides 36–38). Cross-multiplying gives MU<sub>X</sub>/P<sub>X</sub> = MU<sub>Y</sub>/P<sub>Y</sub>, the same equal-marginal rule from Lesson 6.1 (slide 39). Slides-only topic: Hubbard's chapter reaches the same rule using utility tables only."
+    },
+    {
+      "id": "u6-q19",
+      "type": "mc",
+      "unit": 6,
+      "topic": "MRS versus the price ratio",
+      "difficulty": 3,
+      "source": {
+        "ref": "Lesson 6.3 · slides 37–39"
+      },
+      "tags": [
+        "lesson-6.3",
+        "slides-vs-text"
+      ],
+      "prompt": "At her current bundle on the budget line, a consumer has MU<sub>X</sub> = 18 and MU<sub>Y</sub> = 9. The prices are P<sub>X</sub> = $3 and P<sub>Y</sub> = $2. What should she do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Stay at this bundle, because MU<sub>X</sub> is greater than MU<sub>Y</sub>"
+        },
+        {
+          "id": "b",
+          "text": "Buy more Y and less X, because Y is the cheaper good"
+        },
+        {
+          "id": "c",
+          "text": "Buy more X and less Y, because her MRS (2.0) is greater than the price ratio (1.5)"
+        },
+        {
+          "id": "d",
+          "text": "Buy less of both goods, because the MRS is greater than 1"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "Compare her trade rate with the market's. MRS = MU<sub>X</sub>/MU<sub>Y</sub> = 18 ÷ 9 = **2.0**; price ratio P<sub>X</sub>/P<sub>Y</sub> = 3 ÷ 2 = **1.5**. She would give up 2 units of Y for one more X, but the market only asks 1.5 units of Y for it, so X is a bargain: buy more X and less Y (slide 38). The same verdict from the equal-marginal rule: MU<sub>X</sub>/P<sub>X</sub> = 18 ÷ 3 = 6 is above MU<sub>Y</sub>/P<sub>Y</sub> = 9 ÷ 2 = 4.5. She moves along the budget line until MRS falls to 1.5. Comparing MU<sub>X</sub> with MU<sub>Y</sub> directly ignores prices, and she should stay on the budget line rather than cut back on both goods."
+    },
+    {
+      "id": "u6-q20",
+      "type": "graph",
+      "unit": 6,
+      "topic": "Optimum on a graph",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 6.3 · slides 35–38"
+      },
+      "tags": [
+        "lesson-6.3",
+        "slides-vs-text"
+      ],
+      "prompt": "The graph shows a consumer's budget constraint and three of her indifference curves. Mark her **utility-maximizing bundle** E.",
+      "graph": {
+        "x": {
+          "label": "Good X",
+          "min": 0,
+          "max": 50,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Good Y",
+          "min": 0,
+          "max": 50,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "BC",
+            "label": "Budget",
+            "points": [
+              [
+                0,
+                40
+              ],
+              [
+                40,
+                0
+              ]
+            ],
+            "color": "slate"
+          },
+          {
+            "id": "u1",
+            "label": "u₁",
+            "points": [
+              [
+                5.0,
+                45.0
+              ],
+              [
+                8.21,
+                27.39
+              ],
+              [
+                11.43,
+                19.69
+              ],
+              [
+                14.64,
+                15.37
+              ],
+              [
+                17.86,
+                12.6
+              ],
+              [
+                21.07,
+                10.68
+              ],
+              [
+                24.29,
+                9.26
+              ],
+              [
+                27.5,
+                8.18
+              ],
+              [
+                30.71,
+                7.33
+              ],
+              [
+                33.93,
+                6.63
+              ],
+              [
+                37.14,
+                6.06
+              ],
+              [
+                40.36,
+                5.58
+              ],
+              [
+                43.57,
+                5.16
+              ],
+              [
+                46.79,
+                4.81
+              ],
+              [
+                50.0,
+                4.5
+              ]
+            ],
+            "color": "blue",
+            "smooth": true,
+            "labelPos": "end"
+          },
+          {
+            "id": "u2",
+            "label": "u₂",
+            "points": [
+              [
+                8.5,
+                47.06
+              ],
+              [
+                11.46,
+                34.89
+              ],
+              [
+                14.43,
+                27.72
+              ],
+              [
+                17.39,
+                23.0
+              ],
+              [
+                20.36,
+                19.65
+              ],
+              [
+                23.32,
+                17.15
+              ],
+              [
+                26.29,
+                15.22
+              ],
+              [
+                29.25,
+                13.68
+              ],
+              [
+                32.21,
+                12.42
+              ],
+              [
+                35.18,
+                11.37
+              ],
+              [
+                38.14,
+                10.49
+              ],
+              [
+                41.11,
+                9.73
+              ],
+              [
+                44.07,
+                9.08
+              ],
+              [
+                47.04,
+                8.5
+              ],
+              [
+                50.0,
+                8.0
+              ]
+            ],
+            "color": "green",
+            "smooth": true,
+            "labelPos": "end"
+          },
+          {
+            "id": "u3",
+            "label": "u₃",
+            "points": [
+              [
+                15.64,
+                39.95
+              ],
+              [
+                18.29,
+                34.18
+              ],
+              [
+                20.93,
+                29.86
+              ],
+              [
+                23.57,
+                26.52
+              ],
+              [
+                26.21,
+                23.84
+              ],
+              [
+                28.86,
+                21.66
+              ],
+              [
+                31.5,
+                19.84
+              ],
+              [
+                34.14,
+                18.31
+              ],
+              [
+                36.79,
+                16.99
+              ],
+              [
+                39.43,
+                15.85
+              ],
+              [
+                42.07,
+                14.86
+              ],
+              [
+                44.71,
+                13.98
+              ],
+              [
+                47.36,
+                13.2
+              ],
+              [
+                50.0,
+                12.5
+              ]
+            ],
+            "color": "purple",
+            "smooth": true,
+            "labelPos": "end"
+          }
+        ],
+        "tasks": [
+          {
+            "id": "E",
+            "kind": "point",
+            "label": "E",
+            "prompt": "Mark the optimal bundle E",
+            "expect": {
+              "near": {
+                "x": 20,
+                "y": 20,
+                "tol": 0.07
+              }
+            },
+            "model": {
+              "x": 20,
+              "y": 20
+            }
+          }
+        ]
+      },
+      "explanation": "The consumer wants the **highest indifference curve she can afford**. u₁ crosses the budget line, so she can slide along the line to something better. u₃ lies entirely above the line, so it is unaffordable. u₂ just **touches** the budget line at a single point, where the curve and the line have the same slope (MRS = P<sub>X</sub>/P<sub>Y</sub>). That tangency, here at 20 units of X and 20 units of Y, is the optimum (slides 36–38). Any point below the line wastes income."
+    },
+    {
+      "id": "u6-q21",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Increase in income",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 6.4 · slides 42–43"
+      },
+      "tags": [
+        "lesson-6.4",
+        "slides-vs-text"
+      ],
+      "prompt": "Income rises from M<sub>1</sub> to M<sub>2</sub> while the prices of X and Y stay the same. If both goods are normal goods, what happens?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The budget constraint shifts outward in parallel, and the consumer buys more of both goods (an income effect)"
+        },
+        {
+          "id": "b",
+          "text": "The budget constraint pivots outward around the Y-intercept, and the consumer buys more of both goods"
+        },
+        {
+          "id": "c",
+          "text": "The budget constraint shifts outward in parallel, but the consumer buys more of only the cheaper good"
+        },
+        {
+          "id": "d",
+          "text": "The budget constraint becomes flatter, and the consumer buys less of the more expensive good"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Higher income raises both intercepts (M<sub>2</sub>/P<sub>X</sub> and M<sub>2</sub>/P<sub>Y</sub>), but the **slope**, −P<sub>X</sub>/P<sub>Y</sub>, depends only on prices and does not change, so the line shifts **in parallel** (slide 42). With two normal goods the new optimum has more of both X and Y; this change caused by income is the **income effect** (slide 43). A pivot happens only when a *price* changes."
+    },
+    {
+      "id": "u6-q22",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Price rise and the new intercept",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 6.4 · slide 46"
+      },
+      "tags": [
+        "lesson-6.4",
+        "slides-vs-text"
+      ],
+      "scenario": "budget",
+      "prompt": "Income stays at $120 and P<sub>Y</sub> stays at $5, but the price of X rises from $8 to $12. What is the new **X-intercept** of the budget constraint?",
+      "answer": {
+        "value": 10,
+        "tolerance": 0.01,
+        "display": "10 units of X",
+        "hint": "units of X"
+      },
+      "explanation": "The X-intercept is M ÷ P<sub>X,2</sub> = 120 ÷ 12 = **10** (it was 15). The Y-intercept, M ÷ P<sub>Y</sub> = 24, does **not** move: a consumer who spends everything on Y and never buys X is unaffected by the price of X (slide 46). The budget line therefore **pivots inward** around the Y-intercept and gets steeper, with new slope −12 ÷ 5 = −2.4 (it was −1.6)."
+    },
+    {
+      "id": "u6-q23",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Substitutes: price rise",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 6.4 · slides 47, 52"
+      },
+      "tags": [
+        "lesson-6.4",
+        "slides-vs-text"
+      ],
+      "prompt": "The price of X rises. The consumer buys **less X and more Y**. What does this tell us about X and Y on Dr. Mang's slides?",
+      "options": [
+        {
+          "id": "a",
+          "text": "X and Y are complements, because the income effect is stronger than the substitution effect"
+        },
+        {
+          "id": "b",
+          "text": "X and Y are substitutes, because the substitution effect is stronger than the income effect"
+        },
+        {
+          "id": "c",
+          "text": "X and Y are substitutes, because the income effect is stronger than the substitution effect"
+        },
+        {
+          "id": "d",
+          "text": "X must be an inferior good, because its price and quantity move in opposite directions"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "A rise in P<sub>X</sub> has two effects. The **income effect**: purchasing power falls, so the consumer buys less of *both* goods. The **substitution effect**: X is relatively dearer, so she switches toward Y and away from X. For Y the effects pull in opposite directions; if Y *rises*, the substitution effect won, and the goods are **substitutes** (slide 47). If Y had fallen, the income effect would have won and they would be complements (slide 48). Less X when P<sub>X</sub> rises is just the normal downward-sloping response; it says nothing about inferiority. Slides vs text: Mang asks what happens to the *other* good (Y), whereas Hubbard asks about the quantity of the good whose price changed."
+    },
+    {
+      "id": "u6-q24",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Complements: price fall",
+      "difficulty": 3,
+      "source": {
+        "ref": "Lesson 6.4 · slides 50–52"
+      },
+      "tags": [
+        "lesson-6.4",
+        "slides-vs-text"
+      ],
+      "prompt": "The price of X **falls**, and the consumer buys **more Y** as well as more X. What does this indicate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "X and Y are substitutes, because the substitution effect is stronger than the income effect"
+        },
+        {
+          "id": "b",
+          "text": "X and Y are complements, because the substitution effect is stronger than the income effect"
+        },
+        {
+          "id": "c",
+          "text": "X and Y are substitutes, because the quantities of both goods rose"
+        },
+        {
+          "id": "d",
+          "text": "X and Y are complements, because the income effect is stronger than the substitution effect"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "When P<sub>X</sub> falls, the income effect says the consumer can afford more of both goods, and the substitution effect says X is now relatively cheaper so she should buy more X and **less** Y. If Y ends up **higher**, the income effect won, and the goods are **complements** (slide 51). If Y had fallen, substitution would have won and the goods would be substitutes (slide 50). Summary on slide 52: with complements, X and Y move together (both up when P<sub>X</sub> falls); with substitutes, they move in opposite directions. Both quantities rising is the signature of complements, not substitutes. *Slides vs text:* this substitutes/complements test (what happens to the **other** good) is Dr. Mang's framing; Hubbard defines substitutes and complements by the sign of the cross-price elasticity."
+    },
+    {
+      "id": "u6-q25",
+      "type": "graph",
+      "unit": 6,
+      "topic": "Income rise shifts the budget line",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 6.4 · slides 42–43"
+      },
+      "tags": [
+        "lesson-6.4",
+        "slides-vs-text"
+      ],
+      "prompt": "A consumer's income **rises** while the prices of X and Y stay the same. Draw the new budget constraint BC₂.",
+      "graph": {
+        "x": {
+          "label": "Good X",
+          "min": 0,
+          "max": 60,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Good Y",
+          "min": 0,
+          "max": 60,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "BC",
+            "label": "BC₁",
+            "points": [
+              [
+                0,
+                24
+              ],
+              [
+                36,
+                0
+              ]
+            ],
+            "color": "blue"
+          }
+        ],
+        "tasks": [
+          {
+            "id": "BC2",
+            "kind": "line",
+            "label": "BC₂",
+            "prompt": "Draw the new budget constraint BC₂",
+            "expect": {
+              "slope": "negative",
+              "shiftOf": "BC",
+              "direction": "right"
+            }
+          }
+        ]
+      },
+      "explanation": "Higher income raises both intercepts, M/P<sub>X</sub> and M/P<sub>Y</sub>, but the slope, −P<sub>X</sub>/P<sub>Y</sub>, depends only on prices, so the budget constraint makes a **parallel shift outward** (to the right and up). A pivot would require a price change."
+    },
+    {
+      "id": "u6-q26",
+      "type": "graph",
+      "unit": 6,
+      "topic": "Price rise pivots the budget line",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 6.4 · slide 46"
+      },
+      "tags": [
+        "lesson-6.4",
+        "slides-vs-text"
+      ],
+      "prompt": "Income and the price of Y stay the same, but the **price of X doubles**. Draw the new budget constraint BC₂.",
+      "graph": {
+        "x": {
+          "label": "Good X",
+          "min": 0,
+          "max": 60,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Good Y",
+          "min": 0,
+          "max": 60,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "BC",
+            "label": "BC₁",
+            "points": [
+              [
+                0,
+                36
+              ],
+              [
+                48,
+                0
+              ]
+            ],
+            "color": "blue"
+          }
+        ],
+        "tasks": [
+          {
+            "id": "BC2",
+            "kind": "line",
+            "label": "BC₂",
+            "prompt": "Draw the new budget constraint BC₂",
+            "expect": {
+              "slope": "negative",
+              "through": [
+                {
+                  "x": 0,
+                  "y": 36,
+                  "tol": 0.09,
+                  "label": "the same Y-intercept"
+                },
+                {
+                  "x": 24,
+                  "y": 0,
+                  "tol": 0.09,
+                  "label": "an X-intercept half as far out"
+                }
+              ]
+            },
+            "model": {
+              "points": [
+                [
+                  0,
+                  36
+                ],
+                [
+                  24,
+                  0
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      "explanation": "The maximum Y the consumer can buy, M/P<sub>Y</sub>, is unchanged, because someone who buys no X is unaffected by P<sub>X</sub>. The maximum X falls to M/P<sub>X,2</sub>, here half of what it was, so the line **pivots inward around the Y-intercept** and becomes steeper (slope −P<sub>X,2</sub>/P<sub>Y</sub>), as on slide 46."
+    },
+    {
+      "id": "u6-q27",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Perfect complements",
+      "difficulty": 3,
+      "source": {
+        "ref": "Lesson 6.4 · slides 53–54"
+      },
+      "tags": [
+        "lesson-6.4",
+        "slides-vs-text"
+      ],
+      "prompt": "Sam always consumes **exactly one donut with each coffee** (perfect complements). He has $60. Coffee costs $2.50 and a donut costs $1.50. If the price of coffee rises to **$3.50**, how many donuts does Sam buy?",
+      "answer": {
+        "value": 12,
+        "tolerance": 0.01,
+        "display": "12 donuts",
+        "hint": "donuts"
+      },
+      "explanation": "Sam buys coffee and donuts in a fixed 1 : 1 ratio, so treat a coffee-plus-donut as one package. Before: $2.50 + $1.50 = $4.00 per package, so $60 ÷ $4 = 15 packages (15 coffees and 15 donuts). After the rise: $3.50 + $1.50 = $5.00 per package, so $60 ÷ $5 = **12** packages, which is 12 coffees and 12 donuts. The ratio does not change: with perfect complements there is **no substitution effect**, only an income effect, so both goods fall by the same amount."
+    },
+    {
+      "id": "u6-q28",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Perfect substitutes",
+      "difficulty": 3,
+      "source": {
+        "ref": "Lesson 6.4 · slides 55–56"
+      },
+      "tags": [
+        "lesson-6.4",
+        "slides-vs-text"
+      ],
+      "prompt": "Two brands of pens, A and B, are **perfect substitutes** for a consumer with $30 to spend. Brand A costs $1.20 and brand B costs $1.50, so she buys only A (25 pens). If the price of A rises to **$1.80**, how many pens of brand B does she buy?",
+      "answer": {
+        "value": 20,
+        "tolerance": 0.01,
+        "display": "20 pens of B",
+        "hint": "pens of brand B"
+      },
+      "explanation": "With perfect substitutes the indifference curves are straight lines (constant MRS), and the consumer buys **only whichever good is cheaper** (slide 56). At $1.20 versus $1.50 she buys only A: $30 ÷ $1.20 = 25. Once A costs $1.80, B ($1.50) is cheaper, so she switches completely: $30 ÷ $1.50 = **20** pens of B and none of A. A small price change causes a total switch, not a gradual one."
+    },
+    {
+      "id": "u6-q29",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Perfect complements: preferences",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 6.4 · slides 53–54"
+      },
+      "tags": [
+        "lesson-6.4",
+        "slides-vs-text"
+      ],
+      "prompt": "Which statement about **perfect complements** (such as left and right shoes) is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Their indifference curves are straight lines, because the MRS is constant"
+        },
+        {
+          "id": "b",
+          "text": "Their indifference curves are right angles, and a price rise makes the consumer switch entirely to the cheaper good"
+        },
+        {
+          "id": "c",
+          "text": "Their indifference curves are right angles, and a change in price leaves the consumption ratio unchanged, so there is no substitution effect"
+        },
+        {
+          "id": "d",
+          "text": "Their indifference curves bow in toward the origin, and the substitution effect is always larger than the income effect"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "Perfect complements are consumed in a constant ratio (often 1 : 1) and extra units of only one good add no utility, so the indifference curve is a **right angle** (slide 53). When income or a price changes, the consumer keeps the same ratio, and a price change has **no substitution effect** because the goods cannot be substituted (slide 54). Straight-line curves and switching to the cheaper good describe **perfect substitutes** (slides 55–56). Bowed-in curves describe ordinary goods."
+    },
+    {
+      "id": "u6-q30",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Neo-classical vs behavioural",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 6.5 · slide 60"
+      },
+      "tags": [
+        "lesson-6.5"
+      ],
+      "prompt": "Which row correctly contrasts neo-classical and behavioural economics (slide 60)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Neo-classical: people can resist temptation and assess future options well. Behavioural: people lack sufficient will power and place greater weight on current options"
+        },
+        {
+          "id": "b",
+          "text": "Neo-classical: preferences are unstable and affected by context. Behavioural: preferences are stable and complete"
+        },
+        {
+          "id": "c",
+          "text": "Neo-classical: people struggle to calculate outcomes. Behavioural: people are good at calculating outcomes"
+        },
+        {
+          "id": "d",
+          "text": "Neo-classical: people can be generous and have an innate sense of fairness. Behavioural: people are purely self-interested"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Neo-classical theory assumes rational people with **stable, complete preferences**, good mental calculation, good assessment of future options, the will power to resist temptation, and self-interest. Behavioural economics relaxes each: preferences are **unstable and context-dependent**, people **struggle to calculate**, put more weight on **current** options, **lack will power**, and can be generous and have a sense of fairness (slide 60). The wrong options each swap the two columns."
+    },
+    {
+      "id": "u6-q31",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Identifying a cognitive bias",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 6.5 · slides 63–64"
+      },
+      "tags": [
+        "lesson-6.5"
+      ],
+      "prompt": "A student expects a lab report to take 2 hours, even though her last three reports each took about 6 hours. This is an example of:",
+      "options": [
+        {
+          "id": "a",
+          "text": "confirmation bias"
+        },
+        {
+          "id": "b",
+          "text": "self-serving bias"
+        },
+        {
+          "id": "c",
+          "text": "the planning fallacy"
+        },
+        {
+          "id": "d",
+          "text": "the framing effect"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "With the **planning fallacy**, people underestimate how long a task will take *even if they have prior experience to draw on* (slide 64); here the student ignores three past reports that each took about 6 hours. Confirmation bias is paying attention only to information that fits a preconceived notion. Self-serving bias is crediting successes to your own effort and failures to outside factors. The framing effect is a change in context altering how the same information is perceived. None of these describes a task-duration forecast that ignores experience."
+    },
+    {
+      "id": "u6-lec05",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Attitudes to risk",
+      "difficulty": 2,
+      "source": {
+        "label": "Unit 6 In-Class Lecture",
+        "ref": "slide 14"
+      },
+      "tags": [
+        "lesson-6.5"
+      ],
+      "prompt": "A game costs **$10** to play and pays **$30** with probability 1/3 and nothing otherwise. Based on the lecture's definitions of risk attitudes, who would play?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only risk-averse consumers"
+        },
+        {
+          "id": "b",
+          "text": "Risk-neutral and risk-loving consumers, but not risk-averse consumers"
+        },
+        {
+          "id": "c",
+          "text": "Only risk-neutral consumers"
+        },
+        {
+          "id": "d",
+          "text": "All three types, since the expected benefit equals the cost"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "Expected benefit = (1/3) × $30 + (2/3) × $0 = **$10**, which equals the $10 cost. A **risk-neutral** person has some tolerance for risk as long as expected benefits are **greater than or equal to** costs, so she plays. A **risk-loving** person has a high tolerance for risk and will even accept situations where costs exceed expected benefits, so she certainly plays when benefits equal costs. A **risk-averse** person has a low tolerance for risk and tries to avoid uncertain outcomes, so she declines even a fair game. That is why the \"all three\" answer fails: equal expected benefit and cost does not remove the uncertainty she dislikes."
+    },
+    {
+      "id": "u6-q33",
+      "type": "tf",
+      "unit": 6,
+      "topic": "Neo-classical and behavioural are complements",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 6.5 · slide 61"
+      },
+      "tags": [
+        "lesson-6.5"
+      ],
+      "prompt": "According to Dr. Mang, neo-classical economics and behavioural economics are **rival** theories: only one of them can describe how people actually behave.",
+      "answer": false,
+      "explanation": "False. Slide 61 says the two are **complementary**: each describes different aspects of individual behaviour. Buying staple goods is well described by the neo-classical (rational, planned) model, while impulse buying fits behavioural economics; likewise, studying hard fits the first and skipping class the second. Behavioural economics tries to address the model's weak spots (incomplete information, cognitive limits, systematic errors, shifting preferences) rather than replace it."
+    }
+  ]
+}

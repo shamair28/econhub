@@ -1,0 +1,1128 @@
+{
+  "schema": "practice-bank/v1",
+  "id": "1B03-mt2-slides-u7",
+  "course": "ECON 1B03",
+  "title": "Unit 7 Lecture Slides",
+  "description": "Production and Costs (Hubbard Ch. 9 + Appendix): business organizations, production function, short-run costs, input choice.",
+  "defaultSource": {
+    "label": "Unit 7 Lecture Slides",
+    "kind": "slides"
+  },
+  "defaultUnit": 7,
+  "scenarios": {
+    "u7-costs": {
+      "title": "Production and cost data",
+      "body": "A firm hires labour in the short run. **Wage = $20 per hour**, **materials cost = $50 per unit of output**, **fixed cost FC = $400**, and the market **price = $55 per unit**. Variable inputs are labour and materials, so **VC = w × L + m × q**. The table gives the output (q) the firm can produce with each number of labour hours.",
+      "table": {
+        "caption": "Output by labour hours",
+        "headers": [
+          "Labour hours (L)",
+          "Output (q)"
+        ],
+        "rows": [
+          [
+            8,
+            104
+          ],
+          [
+            10,
+            160
+          ],
+          [
+            15,
+            204
+          ],
+          [
+            20,
+            234
+          ],
+          [
+            30,
+            270
+          ],
+          [
+            45,
+            315
+          ]
+        ]
+      }
+    },
+    "u7-lecture": {
+      "title": "In-class table (Unit 7 lecture)",
+      "body": "Labour is the only variable input. **Wage w = $30 per labour hour**, **fixed cost FC = $500**, and the **price per unit is $10**. Use AP<sub>L</sub> = q ÷ L, MP<sub>L</sub> = Δq ÷ ΔL, VC = w × L, TC = FC + VC, MC = ΔTC ÷ Δq and π = P × q − TC.",
+      "table": {
+        "caption": "Lecture slide 18",
+        "headers": [
+          "Labour hours (L)",
+          "Wage (w)",
+          "Output (q)"
+        ],
+        "rows": [
+          [
+            10,
+            30,
+            100
+          ],
+          [
+            20,
+            30,
+            240
+          ],
+          [
+            30,
+            30,
+            300
+          ],
+          [
+            40,
+            30,
+            320
+          ]
+        ]
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "u7-q01",
+      "type": "mc",
+      "unit": 7,
+      "topic": "Debt vs equity financing",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 7.1 · slide 4"
+      },
+      "tags": [
+        "lesson-7.1"
+      ],
+      "prompt": "A start-up raises $2 million by selling shares to outside investors. According to the slides, which statement describes this **equity financing**?",
+      "options": [
+        "The money must be repaid in full with interest, but the investors gain no ownership of the business",
+        "The money never has to be repaid, but the investors receive an ownership share and will expect a share of the profits over time",
+        "The money must eventually be repaid, but the investors receive a claim on profits instead of interest",
+        "The money is a loan from a bank, and the business owner remains the only owner"
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "Dr. Mang separates two sources of investment funds. **Debt financing** (loans, mortgages, bonds, lines of credit) requires interest payments and eventual repayment of the principal. **Equity financing** (stock/shares) exchanges money for an **ownership share**: the invested money is never repaid, but investors expect profits over time. The tempting distractors that mention repayment, or a bank loan, describe debt financing, not selling shares."
+    },
+    {
+      "id": "u7-q02",
+      "type": "mc",
+      "unit": 7,
+      "topic": "Types of business organizations",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 7.1 · slides 5–7"
+      },
+      "tags": [
+        "lesson-7.1"
+      ],
+      "prompt": "Which of the following is an **advantage of a corporation** compared with a sole proprietorship or a partnership?",
+      "options": [
+        "Income flows directly to the owners and is taxed only once at their personal income tax rate",
+        "It is easy to establish, with few legal and regulatory requirements",
+        "Equity financing is limited only by what the owner(s) can personally afford to contribute",
+        "Owners have limited liability and are not personally responsible for the business's debts, and a much larger pool of equity financing is available"
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "A corporation is legally distinct from its owners, so owners have **limited liability**, and because shareholders need not be involved in running the business, far more equity can be raised (which also makes borrowing easier). The other three statements are advantages or features of **sole proprietorships/partnerships**: single taxation at the personal rate, few legal requirements, and equity limited to the owners' own contributions. A corporation's disadvantages are the opposite: more complex legal requirements and a separate corporate tax system."
+    },
+    {
+      "id": "u7-q03",
+      "type": "numeric",
+      "unit": 7,
+      "topic": "Economic profit",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 7.1 · slides 9–10"
+      },
+      "tags": [
+        "lesson-7.1"
+      ],
+      "prompt": "A firm has revenue of **$500,000** and input costs of **$380,000**. The owners have **$600,000** of capital invested in the business, and the risk-adjusted expected rate of return on that capital is **12%**. What is the firm's **economic profit**?",
+      "answer": {
+        "value": 48000,
+        "tolerance": 1,
+        "prefix": "$",
+        "display": "$48,000",
+        "hint": "Subtract both input costs and the expected return on the capital invested."
+      },
+      "explanation": "Accounting profit = Revenue − Input costs = $500,000 − $380,000 = **$120,000**. Expected return = rate of return × capital invested = 0.12 × $600,000 = **$72,000**. Economic profit π = Revenue − Input costs − Expected return = $500,000 − $380,000 − $72,000 = **$48,000**. Because it is positive, actual accounting profit exceeds the profit investors expected. The trap is stopping at the $120,000 accounting profit, which ignores the opportunity cost of capital."
+    },
+    {
+      "id": "u7-q04",
+      "type": "mc",
+      "unit": 7,
+      "topic": "Interpreting economic profit",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 7.1 · slide 11"
+      },
+      "tags": [
+        "lesson-7.1"
+      ],
+      "prompt": "A firm earns an accounting profit of **$40,000**, but the risk-adjusted return its owners expected on their capital was **$55,000**. Which statement is correct?",
+      "options": [
+        "Economic profit is −$15,000: the firm's actual accounting profit is positive but less than the expected accounting profit",
+        "Economic profit is +$40,000, because the firm earned a positive accounting profit",
+        "Economic profit is zero, because the firm made some profit and so covered its costs",
+        "Economic profit is +$95,000, because the expected return on capital is added to the accounting profit"
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "π = Accounting profit − Expected return = $40,000 − $55,000 = **−$15,000**. Slide 11 gives two ways π < 0 can happen: (1) revenue is less than input costs, so accounting profit is negative, or (2) accounting profit is positive but **less than** the expected accounting profit. Here the firm is in case (2): revenue covers its input costs (accounting profit is positive), but not by enough to match what the owners could have earned elsewhere. Adding the expected return to profit gets the sign of the opportunity cost backwards — it is a cost, so it is subtracted. The other two ignore the opportunity cost of capital: positive accounting profit does not guarantee a non-negative economic profit."
+    },
+    {
+      "id": "u7-q05",
+      "type": "mc",
+      "unit": 7,
+      "topic": "Fixed vs variable inputs",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 7.2 · slides 16–17"
+      },
+      "tags": [
+        "lesson-7.2"
+      ],
+      "prompt": "Which of the following would Dr. Mang classify as a **fixed input**?",
+      "options": [
+        "Hourly assembly-line workers",
+        "Fuel used by the delivery trucks",
+        "A salaried plant manager",
+        "Supplies and materials used up in production"
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "A **fixed input** is required in a fixed quantity, is not used up by production, and does not change when output changes: factories, offices, equipment, and also **managers and salaried administrative workers**. A **variable input** is consumed during production and rises and falls with output: hourly workers, fuel, supplies and materials. The tempting error is treating all labour as variable; only hourly (output-driven) labour is."
+    },
+    {
+      "id": "u7-q06",
+      "type": "mc",
+      "unit": 7,
+      "topic": "Short run vs long run",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 7.2 · slides 19–20"
+      },
+      "tags": [
+        "lesson-7.2"
+      ],
+      "prompt": "Which statement about the short run and the long run is correct?",
+      "options": [
+        "The long run is a fixed period of one year for every firm",
+        "In the short run both capital and labour are fixed, so output cannot change",
+        "In the long run only labour is variable, while capital stays fixed until a new technology is invented",
+        "The long run is however long it takes the firm to change its capital, which could be a day for a computer but several years for a new factory"
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "In the short run **K is fixed and L is variable**, so output changes only by changing labour. In the long run **both L and K are variable**. How long the long run takes depends on how quickly the firm can change its capital (computer: a day; machine: weeks to months; factory: years). Waiting for new technology is the **very long run**, which is a separate idea."
+    },
+    {
+      "id": "u7-q07",
+      "type": "mc",
+      "unit": 7,
+      "topic": "Diminishing marginal product",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 7.2 · slides 23–24"
+      },
+      "tags": [
+        "lesson-7.2"
+      ],
+      "prompt": "Beyond some number of workers, the marginal product of labour (MP<sub>L</sub>) is positive but **diminishing**. What happens to total product (q)?",
+      "options": [
+        "Total product keeps rising, but at a decreasing rate",
+        "Total product starts to fall",
+        "Total product keeps rising at an increasing rate",
+        "Total product stays constant"
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "MP<sub>L</sub> = Δq ÷ ΔL is the *slope* of the total product curve. If MP<sub>L</sub> is positive, q is still rising; if MP<sub>L</sub> is falling, the curve is getting flatter, so q rises at a decreasing rate (slide 24). Total product only **falls** when MP<sub>L</sub> becomes **negative** (slide 30). It rises at an increasing rate only while MP<sub>L</sub> is still increasing, which happens early on."
+    },
+    {
+      "id": "u7-q08",
+      "type": "numeric",
+      "unit": 7,
+      "topic": "Marginal product of labour",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 7.2 · slides 22, 25–29"
+      },
+      "tags": [
+        "lesson-7.2"
+      ],
+      "scenario": "u7-costs",
+      "prompt": "Refer to the scenario. Using the table, what is the **marginal product of labour** when the firm increases labour from **20 hours to 45 hours**? Round to two decimals.",
+      "answer": {
+        "value": 3.24,
+        "tolerance": 0.02,
+        "display": "3.24",
+        "hint": "Δq ÷ ΔL."
+      },
+      "explanation": "MP<sub>L</sub> = Δq ÷ ΔL = (315 − 234) ÷ (45 − 20) = 81 ÷ 25 = **3.24 units per additional labour hour**. Dividing by the **change in labour** (25 hours), not by the 45 total hours, is what makes it a *marginal* product. Dividing q by L (315 ÷ 45 = 7.0) would give the *average* product instead."
+    },
+    {
+      "id": "u7-q09",
+      "type": "tf",
+      "unit": 7,
+      "topic": "Negative marginal product",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 7.2 · slide 30"
+      },
+      "tags": [
+        "lesson-7.2"
+      ],
+      "prompt": "If hiring one more worker causes a team to get in each other's way so that MP<sub>L</sub> is negative, total product still rises, just at a decreasing rate.",
+      "answer": false,
+      "explanation": "**False.** A negative MP<sub>L</sub> means that the extra worker *reduces* total output (crowding out or a disruptive worker, slide 30), so total product **falls**. Rising-at-a-decreasing-rate describes a *positive but diminishing* MP<sub>L</sub>. Slide 31 adds that MP<sub>L</sub> can also bottom out at zero (e.g. a worker who stops working shortly before the end of their shift)."
+    },
+    {
+      "id": "u7-q10",
+      "type": "numeric",
+      "unit": 7,
+      "topic": "Marginal cost",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 7.3 · slides 48–50"
+      },
+      "tags": [
+        "lesson-7.3"
+      ],
+      "scenario": "u7-costs",
+      "prompt": "Refer to the scenario. Total cost is TC = FC + VC, with VC = w × L + m × q. What is the **marginal cost** per unit when output rises from **q = 204 to q = 234**? Round to the nearest cent.",
+      "answer": {
+        "value": 53.33,
+        "tolerance": 0.02,
+        "prefix": "$",
+        "display": "$53.33"
+      },
+      "explanation": "VC at q = 204 (L = 15): 20(15) + 50(204) = $10,500, so TC = $400 + $10,500 = **$10,900**. VC at q = 234 (L = 20): 20(20) + 50(234) = $12,100, so TC = **$12,500**. MC = ΔTC ÷ Δq = ($12,500 − $10,900) ÷ (234 − 204) = $1,600 ÷ 30 = **$53.33**. Fixed cost drops out of marginal cost because it is the same in both rows."
+    },
+    {
+      "id": "u7-q11",
+      "type": "mc",
+      "unit": 7,
+      "topic": "Profit-maximizing output",
+      "difficulty": 3,
+      "source": {
+        "ref": "Lesson 7.3 · slides 51–52, 55–59"
+      },
+      "tags": [
+        "lesson-7.3"
+      ],
+      "scenario": "u7-costs",
+      "prompt": "Refer to the scenario. Of the six output levels in the table, which gives the firm the **highest profit** at P = $55, and why does the firm not expand further?",
+      "options": [
+        "q = 315, the largest output, because each extra unit sold brings in $55 of revenue",
+        "q = 160, because AVC is lowest there ($51.25), so cost per unit is lowest",
+        "q = 234, where π = $370; the next 36 units cost an extra $55.56 each (MC), which is more than the $55 price",
+        "q = 270, because MC ($55.56) is closest to the price and so profit is largest there"
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "π = P × q − TC at each row: q = 104 → −$40; 160 → $200; 204 → $320; **234 → $370**; 270 → $350; 315 → $275. Profit peaks at q = 234. Going on to q = 270 adds revenue of $55 × 36 = $1,980 but adds cost of $14,500 − $12,500 = $2,000 (MC = $55.56 > $55), so profit falls by $20. Expanding to the maximum output ignores rising marginal cost, and the lowest AVC (q = 160) is where the *variable cost per unit* is smallest, not where *total profit* is greatest. The rule of thumb is to expand while MC < P."
+    },
+    {
+      "id": "u7-q12",
+      "type": "numeric",
+      "unit": 7,
+      "topic": "Profit per unit",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 7.3 · slide 60"
+      },
+      "tags": [
+        "lesson-7.3"
+      ],
+      "scenario": "u7-costs",
+      "prompt": "Refer to the scenario. What is the firm's **profit per unit** when it produces q = 234 units? Round to the nearest cent.",
+      "answer": {
+        "value": 1.58,
+        "tolerance": 0.02,
+        "prefix": "$",
+        "display": "$1.58"
+      },
+      "explanation": "Profit per unit = π ÷ q = P − ATC. TC at q = 234 is $12,500, so ATC = $12,500 ÷ 234 = **$53.42**, and profit per unit = $55 − $53.42 = **$1.58**. Check: π = $55(234) − $12,500 = $370, and $370 ÷ 234 = $1.58. Remember that profit per unit uses *average total* cost, not marginal cost."
+    },
+    {
+      "id": "u7-q13",
+      "type": "mc",
+      "unit": 7,
+      "topic": "ATC minimum and MC",
+      "difficulty": 3,
+      "source": {
+        "ref": "Lesson 7.3 · slides 42, 57–59"
+      },
+      "tags": [
+        "lesson-7.3"
+      ],
+      "scenario": "u7-costs",
+      "prompt": "Refer to the scenario. At which output is **average total cost (ATC) lowest**, and what shows this?",
+      "options": [
+        "q = 160, where AVC is lowest and marginal cost ($50.71 for the step from 104 to 160) is lowest",
+        "q = 234: MC from 204 to 234 ($53.33) is below ATC, so ATC is still falling, but MC from 234 to 270 ($55.56) is above ATC, so ATC rises after that",
+        "q = 315, the highest output, because average fixed cost keeps falling as output grows",
+        "q = 104, because that is the smallest output and therefore has the smallest total cost"
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "ATC = TC ÷ q = $5,760/104 = $55.38; $53.75; $53.43; **$53.42** (q = 234); $53.70; $54.13. The minimum is at q = 234. This follows the rule **MC crosses ATC at its minimum**: ATC falls while MC < ATC and rises when MC > ATC. The AVC minimum is at q = 160, not the ATC minimum, because ATC also contains AFC, which is still falling after q = 160. The largest output has the lowest AFC but not the lowest ATC, because AVC is rising."
+    },
+    {
+      "id": "u7-q14",
+      "type": "mc",
+      "unit": 7,
+      "topic": "AVC and MC",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 7.3 · slide 41"
+      },
+      "tags": [
+        "lesson-7.3"
+      ],
+      "scenario": "u7-costs",
+      "prompt": "Refer to the scenario. AVC at q = 160 is $51.25, and the marginal cost of increasing output from q = 160 to q = 204 is $52.27. What happens to AVC as output rises to q = 204?",
+      "options": [
+        "AVC keeps falling, because fixed cost is now spread over more units",
+        "AVC stays at $51.25, because the wage and the materials price have not changed",
+        "AVC rises to $51.47, because the marginal cost is greater than the current average",
+        "AVC falls, because marginal cost is positive and each unit adds to output"
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "An average rises whenever the marginal value is **above** it and falls when it is below it (slide 41). MC = $52.27 > AVC = $51.25, so AVC rises: AVC at q = 204 is $10,500 ÷ 204 = **$51.47**. Spreading fixed cost over more units lowers **AFC**, not AVC. Input prices are constant, but AVC still rises because the marginal product of labour is diminishing, so each extra unit needs more labour."
+    },
+    {
+      "id": "u7-q15",
+      "type": "mc",
+      "unit": 7,
+      "topic": "ATC = AFC + AVC",
+      "difficulty": 3,
+      "source": {
+        "ref": "Lesson 7.3 · slides 39, 42"
+      },
+      "tags": [
+        "lesson-7.3"
+      ],
+      "scenario": "u7-costs",
+      "prompt": "Refer to the scenario. When output rises from q = 234 to q = 270, AFC falls from $1.71 to $1.48 and AVC rises from $51.71 to $52.22. What happens to ATC, and why?",
+      "options": [
+        "ATC falls, because AFC keeps falling as output expands",
+        "ATC rises (from $53.42 to $53.70), because the fall in AFC (about $0.23) is smaller than the rise in AVC (about $0.51)",
+        "ATC rises, because AFC rises as output expands",
+        "ATC is unchanged, because the fall in AFC always offsets the rise in AVC"
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "ATC = AFC + AVC. When AVC is rising, ATC falls only if the decrease in AFC is **larger** than the increase in AVC, and rises if it is **smaller** (slide 42). Here ΔAFC = −$0.23 and ΔAVC = +$0.51, so ΔATC ≈ +$0.28 ($53.42 → $53.70). AFC = FC ÷ q **only declines** as output rises, so the claim that AFC rises is impossible, and nothing guarantees an exact offset."
+    },
+    {
+      "id": "u7-q16",
+      "type": "mc",
+      "unit": 7,
+      "topic": "Shape of marginal cost",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 7.3 · slide 40"
+      },
+      "tags": [
+        "lesson-7.3"
+      ],
+      "prompt": "In the short run, marginal cost first falls and then rises as output expands. What explains this shape?",
+      "options": [
+        "Fixed cost is spread over more units of output as production expands",
+        "The wage rate rises each time the firm hires another worker",
+        "The firm moves from the short run to the long run as output expands",
+        "At first the marginal product of labour is increasing, so each extra unit needs less labour; later it is diminishing, so each extra unit needs more labour"
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "Marginal cost mirrors marginal product. Early on, learning and teamwork make MP<sub>L</sub> rise, so extra units cost less to make (MC falls). After crowding sets in, MP<sub>L</sub> diminishes, so each extra unit needs more labour and MC rises (slide 40). Spreading the fixed cost explains why **AFC** falls, not why MC falls. The wage is held constant in these examples, and changing capital is the long run, not a reason for MC to rise."
+    },
+    {
+      "id": "u7-q17",
+      "type": "mc",
+      "unit": 7,
+      "topic": "Returns to scale (Mang's usage)",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 7.3 · slides 61–64"
+      },
+      "tags": [
+        "lesson-7.3",
+        "slides-vs-text"
+      ],
+      "prompt": "In Dr. Mang's Unit 7 slides, the region of the ATC curve where each additional unit costs **less** to produce than the one before (ATC is falling) is described as:",
+      "options": [
+        "Increasing returns to scale",
+        "Decreasing returns to scale",
+        "Constant returns to scale",
+        "Diminishing marginal returns to labour"
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Mang labels the **falling** part of ATC *increasing returns to scale* (doubling costs more than doubles output), the **minimum** point *constant returns*, and the **rising** part *decreasing returns* (slides 61–64). **Slides vs textbook:** Hubbard reserves economies and diseconomies of scale for the *long-run* average cost curve, and says short-run ATC falls because of spreading fixed costs and rises because of diminishing marginal returns. Since Mang writes the test, use his labels for short-run ATC. Diminishing marginal returns is a statement about MP<sub>L</sub>, not about ATC."
+    },
+    {
+      "id": "u7-q18",
+      "type": "tf",
+      "unit": 7,
+      "topic": "Decreasing returns and profit per unit",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 7.3 · slide 61"
+      },
+      "tags": [
+        "lesson-7.3",
+        "slides-vs-text"
+      ],
+      "prompt": "In Dr. Mang's slides, if a firm is operating where it has decreasing returns to scale (ATC rising) and the price stays constant, profit per unit falls as output expands.",
+      "answer": true,
+      "explanation": "**True.** Profit per unit = P − ATC. With P constant, a rising ATC means P − ATC shrinks as output expands (slide 61). Under increasing returns, ATC falls so profit per unit rises; under constant returns it stays the same. Note that *total* profit can still increase while profit per unit is shrinking (as long as it is positive), so profit per unit and total profit are different measures. **Slides vs textbook:** the label \"decreasing returns to scale\" for a rising short-run ATC is Mang's; Hubbard would call the cause diminishing marginal returns."
+    },
+    {
+      "id": "u7-q19",
+      "type": "mc",
+      "unit": 7,
+      "topic": "Minimum efficient scale",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 7.3 · slide 42"
+      },
+      "tags": [
+        "lesson-7.3",
+        "slides-vs-text"
+      ],
+      "prompt": "On Dr. Mang's slide showing FC, VC, TC, AFC, AVC, ATC and MC together, which point is labelled the **Minimum Efficient Scale**?",
+      "options": [
+        "The output where MC intersects ATC, at the minimum of ATC",
+        "The output where MC intersects AVC, at the minimum of AVC",
+        "The output where MC is at its lowest point",
+        "The output where AFC reaches zero"
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Mang marks the **minimum of the short-run ATC curve**, where MC crosses ATC, as the Minimum Efficient Scale (q at ATC<sub>min</sub>), the lowest cost per unit the firm can achieve. **Slides vs textbook:** Hubbard defines minimum efficient scale on the *long-run* average cost curve (the smallest output at which LRAC is at its lowest). The AVC minimum is a different point (further left), and AFC never reaches zero because FC ÷ q only approaches zero as q grows."
+    },
+    {
+      "id": "u7-q20",
+      "type": "graph",
+      "unit": 7,
+      "topic": "Minimum efficient scale (graph)",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 7.3 · slide 42"
+      },
+      "tags": [
+        "lesson-7.3",
+        "slides-vs-text"
+      ],
+      "prompt": "The graph shows a firm's short-run ATC and MC curves. Mark the **Minimum Efficient Scale** (the output at which ATC is at its minimum).",
+      "graph": {
+        "x": {
+          "label": "Quantity (q)",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "$ per unit",
+          "min": 0,
+          "max": 50,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "ATC",
+            "label": "ATC",
+            "points": [
+              [
+                8,
+                35.8
+              ],
+              [
+                10,
+                31.0
+              ],
+              [
+                12,
+                27.867
+              ],
+              [
+                14,
+                25.686
+              ],
+              [
+                16,
+                24.1
+              ],
+              [
+                18,
+                22.911
+              ],
+              [
+                20,
+                22.0
+              ],
+              [
+                22,
+                21.291
+              ],
+              [
+                24,
+                20.733
+              ],
+              [
+                26,
+                20.292
+              ],
+              [
+                28,
+                19.943
+              ],
+              [
+                30,
+                19.667
+              ],
+              [
+                32,
+                19.45
+              ],
+              [
+                34,
+                19.282
+              ],
+              [
+                36,
+                19.156
+              ],
+              [
+                38,
+                19.063
+              ],
+              [
+                40,
+                19.0
+              ],
+              [
+                42,
+                18.962
+              ],
+              [
+                44,
+                18.945
+              ],
+              [
+                46,
+                18.948
+              ],
+              [
+                48,
+                18.967
+              ],
+              [
+                50,
+                19.0
+              ],
+              [
+                52,
+                19.046
+              ],
+              [
+                54,
+                19.104
+              ],
+              [
+                56,
+                19.171
+              ],
+              [
+                58,
+                19.248
+              ],
+              [
+                60,
+                19.333
+              ],
+              [
+                62,
+                19.426
+              ],
+              [
+                64,
+                19.525
+              ],
+              [
+                66,
+                19.63
+              ],
+              [
+                68,
+                19.741
+              ],
+              [
+                70,
+                19.857
+              ],
+              [
+                72,
+                19.978
+              ],
+              [
+                74,
+                20.103
+              ],
+              [
+                76,
+                20.232
+              ],
+              [
+                78,
+                20.364
+              ],
+              [
+                80,
+                20.5
+              ],
+              [
+                82,
+                20.639
+              ],
+              [
+                84,
+                20.781
+              ],
+              [
+                86,
+                20.926
+              ],
+              [
+                88,
+                21.073
+              ],
+              [
+                90,
+                21.222
+              ],
+              [
+                92,
+                21.374
+              ],
+              [
+                94,
+                21.528
+              ],
+              [
+                96,
+                21.683
+              ],
+              [
+                98,
+                21.841
+              ],
+              [
+                100,
+                22.0
+              ]
+            ],
+            "color": "blue"
+          },
+          {
+            "id": "MC",
+            "label": "MC",
+            "points": [
+              [
+                0,
+                10
+              ],
+              [
+                100,
+                30
+              ]
+            ],
+            "color": "red"
+          }
+        ],
+        "tasks": [
+          {
+            "id": "MES",
+            "kind": "point",
+            "label": "MES",
+            "prompt": "Mark the Minimum Efficient Scale (the minimum of ATC)",
+            "expect": {
+              "atIntersection": [
+                "MC",
+                "ATC"
+              ]
+            },
+            "hints": {
+              "intersection": "The minimum of ATC is where the MC curve crosses the ATC curve."
+            }
+          }
+        ]
+      },
+      "explanation": "MC cuts ATC from below at ATC's lowest point: while MC < ATC the average is pulled down, and once MC > ATC it is pulled up (slide 42). Mang labels this output q at ATC<sub>min</sub> the *Minimum Efficient Scale*. Do not mark the point where MC is lowest or where a curve meets an axis; the correct point is the **intersection of MC and ATC**."
+    },
+    {
+      "id": "u7-q21",
+      "type": "mc",
+      "unit": 7,
+      "topic": "Long-run vs short-run average cost",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 7.3 · slide 65"
+      },
+      "tags": [
+        "lesson-7.3"
+      ],
+      "prompt": "According to the slides, why should long-run average total cost (LATC) lie at or below short-run average total cost (SATC)?",
+      "options": [
+        "In the long run fixed costs are spread over a larger output, so AFC disappears",
+        "In the long run the firm pays lower input prices because it signs longer contracts",
+        "In the long run only labour can be adjusted, so the firm cannot be hurt by fixed capital",
+        "In the long run all costs are variable, so the firm can adjust its capital to the most productive level and has more production options"
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "The slides say that **in the long run all costs are variable**, so the firm can choose the capital stock that best suits its output. Having more options can never make the best achievable cost higher, so LATC lies at or below SATC. The long run is defined by *capital* becoming variable; it has nothing to do with discounts on input prices, and saying that only labour is adjustable describes the *short* run."
+    },
+    {
+      "id": "u7-q22",
+      "type": "mc",
+      "unit": 7,
+      "topic": "Economies of scope vs learning-by-doing",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 7.3 · slides 66–67"
+      },
+      "tags": [
+        "lesson-7.3"
+      ],
+      "prompt": "A bakery uses the same ovens and staff to produce both bread and cakes, and the cost per unit of each is lower than if two separate bakeries made them. This is an example of:",
+      "options": [
+        "Learning-by-doing productivity gains",
+        "Economies of scope",
+        "Technological change from R&D investment",
+        "Increasing returns to scale from producing more of one good"
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "**Economies of scope** arise when the *simultaneous production of two or more goods* lowers cost per unit (slide 67). **Learning-by-doing** is about workers becoming more productive as they gain experience at particular tasks, **technological change** (slide 66) needs R&D and shifts the whole cost curve over the very long run, and **returns to scale** concerns producing more of the *same* good."
+    },
+    {
+      "id": "u7-q23",
+      "type": "mc",
+      "unit": 7,
+      "topic": "Iso-quant",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 7.4 · slides 70–73"
+      },
+      "tags": [
+        "lesson-7.4"
+      ],
+      "prompt": "Which statement correctly describes an **iso-quant**?",
+      "options": [
+        "It shows all the combinations of capital and labour that cost the same total amount, and its slope is −w/r",
+        "It shows how total product changes as labour rises while capital is held fixed",
+        "It shows all the combinations of capital and labour that can produce the same quantity of output, and its slope is −MRTS",
+        "It shows the combinations of two goods that give a consumer the same satisfaction"
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "Iso-quant means *same quantity*: every point on it is a different technology (capital-intensive to labour-intensive) that produces the same q. Its slope is −MRTS (slide 73). The cost-based description is an **iso-cost** line (slope −w/r), the total-product description is the production function q = f(L) with K fixed, and the last is an indifference curve from the consumer-choice unit. A higher iso-quant means more output."
+    },
+    {
+      "id": "u7-q24",
+      "type": "numeric",
+      "unit": 7,
+      "topic": "Marginal rate of technical substitution",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 7.4 · slides 73–75"
+      },
+      "tags": [
+        "lesson-7.4"
+      ],
+      "prompt": "At a point on a firm's iso-quant, the marginal product of labour is **15 units** and the marginal product of capital is **6 units**. What is the **MRTS**?",
+      "answer": {
+        "value": 2.5,
+        "tolerance": 0.01,
+        "display": "2.5",
+        "accept": [
+          -2.5
+        ]
+      },
+      "explanation": "MRTS = MP<sub>L</sub> ÷ MP<sub>K</sub> = 15 ÷ 6 = **2.5**. The slope of the iso-quant is −MRTS = −2.5: the firm can give up 2.5 units of capital for each extra unit of labour and keep output unchanged. Inverting the ratio (6 ÷ 15 = 0.4) is the usual slip: labour's marginal product goes on top."
+    },
+    {
+      "id": "u7-q25",
+      "type": "numeric",
+      "unit": 7,
+      "topic": "Iso-cost slope",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 7.4 · slide 79"
+      },
+      "tags": [
+        "lesson-7.4"
+      ],
+      "prompt": "A firm pays a wage of **w = $40** per labour hour and a rental rate of capital of **r = $25** per unit of capital. With capital (K) on the vertical axis and labour (L) on the horizontal axis, what is the **slope** of its iso-cost line?",
+      "answer": {
+        "value": -1.6,
+        "tolerance": 0.01,
+        "display": "−1.6",
+        "accept": [
+          1.6
+        ]
+      },
+      "explanation": "Iso-cost slope = −w ÷ r = −40 ÷ 25 = **−1.6**. The firm can swap 1 hour of labour for 1.6 units of capital and keep total cost unchanged. With K on the vertical axis the wage goes on top; the price of the input on the *horizontal* axis is the numerator."
+    },
+    {
+      "id": "u7-q26",
+      "type": "mc",
+      "unit": 7,
+      "topic": "Cost-minimizing input mix",
+      "difficulty": 3,
+      "source": {
+        "ref": "Lesson 7.4 · slides 82–83"
+      },
+      "tags": [
+        "lesson-7.4"
+      ],
+      "prompt": "At the firm's current inputs, MP<sub>L</sub> = 24 units, w = $8 per hour, MP<sub>K</sub> = 30 units and r = $15 per unit of capital. To produce the same output at the **lowest cost**, the firm should:",
+      "options": [
+        "Use more capital and less labour, because the marginal product of capital (30) is larger than that of labour (24)",
+        "Keep the current mix, because both inputs have positive marginal products",
+        "Use more labour and less capital, because labour gives 3 extra units per dollar while capital gives only 2",
+        "Use more capital and less labour, because capital costs more per unit and so must be more productive"
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "Cost is minimized where MP<sub>L</sub> ÷ w = MP<sub>K</sub> ÷ r (equivalently MRTS = w/r, the point where the iso-cost is tangent to the iso-quant). Here MP<sub>L</sub> ÷ w = 24 ÷ 8 = **3** units per dollar, while MP<sub>K</sub> ÷ r = 30 ÷ 15 = **2** units per dollar. Labour gives more output per dollar, so the firm should shift spending toward labour; as it does, MP<sub>L</sub> falls (diminishing returns) and the two ratios converge. Comparing raw marginal products (30 vs 24) ignores input prices."
+    },
+    {
+      "id": "u7-q27",
+      "type": "mc",
+      "unit": 7,
+      "topic": "Wage increase: substitution and scale effects",
+      "difficulty": 3,
+      "source": {
+        "ref": "Lesson 7.4 · slides 84–86"
+      },
+      "tags": [
+        "lesson-7.4"
+      ],
+      "prompt": "The wage rises while the price of capital is unchanged. According to the slides, which pair of effects does this produce?",
+      "options": [
+        "A substitution effect (use more capital in place of labour) and a scale effect (output is cut, so the firm uses fewer inputs and has a lower cost than at the old output)",
+        "A substitution effect (use more labour in place of capital) and a scale effect (output is expanded to cover the higher wage bill)",
+        "A scale effect only, because the iso-quant does not change when input prices change",
+        "A substitution effect only, because the firm must keep producing the same output"
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "A higher wage rotates the iso-cost line **inward** (the maximum capital it can buy is unchanged, but the maximum labour falls; the slope −w/r gets steeper). The new tangency lies on the same iso-quant but with more capital and less labour: the **substitution effect** (slide 85). Producing the same q now costs more, so the firm may cut production to a lower iso-quant (q<sub>2</sub>), using fewer inputs: the **scale effect** (slide 86). Which quantity the firm should choose depends on the revenue side (Units 8–11)."
+    },
+    {
+      "id": "u7-q28",
+      "type": "graph",
+      "unit": 7,
+      "topic": "Iso-cost after a wage increase",
+      "difficulty": 3,
+      "source": {
+        "ref": "Lesson 7.4 · slide 84"
+      },
+      "tags": [
+        "lesson-7.4"
+      ],
+      "prompt": "The graph shows a firm's iso-cost line F₁ at wage w₁. The wage **rises**, while the price of capital and the total cost level stay the same. Draw the new iso-cost line F₁′.",
+      "graph": {
+        "x": {
+          "label": "Labour (L)",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Capital (K)",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "F1",
+            "label": "F₁ (w₁)",
+            "points": [
+              [
+                0,
+                60
+              ],
+              [
+                50,
+                0
+              ]
+            ],
+            "color": "blue"
+          }
+        ],
+        "points": [
+          {
+            "id": "Kmax",
+            "label": "K max",
+            "x": 0,
+            "y": 60,
+            "color": "slate"
+          }
+        ],
+        "tasks": [
+          {
+            "id": "F1p",
+            "kind": "line",
+            "label": "F₁′",
+            "prompt": "Draw the new iso-cost line after the wage rises (same total cost, same price of capital)",
+            "expect": {
+              "slope": "negative",
+              "through": [
+                {
+                  "x": 0,
+                  "y": 60,
+                  "tol": 0.1,
+                  "label": "the same maximum capital K max"
+                },
+                {
+                  "x": 30,
+                  "y": 0,
+                  "tol": 0.1,
+                  "label": "a smaller maximum amount of labour"
+                }
+              ]
+            },
+            "model": {
+              "points": [
+                [
+                  0,
+                  60
+                ],
+                [
+                  30,
+                  0
+                ]
+              ]
+            },
+            "hints": {
+              "through": "After a wage rise the line should still start at the same point on the capital axis (K max) but hit the labour axis closer to the origin."
+            }
+          }
+        ]
+      },
+      "explanation": "With total cost held constant, spending everything on capital still buys the same K<sub>max</sub> (the price of capital hasn't changed), so the vertical intercept is unchanged. Spending everything on labour now buys **less** labour, so the horizontal intercept moves toward the origin. The line **rotates inward** around the K-intercept and becomes steeper, because its slope −w/r is larger in absolute value (slide 84). A parallel shift would wrongly imply that the price of both inputs changed."
+    },
+    {
+      "id": "u7-lec01",
+      "type": "numeric",
+      "unit": 7,
+      "topic": "TC at L = 30 (in-class table)",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lecture slide 18",
+        "label": "Unit 7 In-Class Lecture"
+      },
+      "tags": [
+        "lesson-7.3",
+        "in-class"
+      ],
+      "scenario": "u7-lecture",
+      "prompt": "Refer to the scenario. Using the in-class table, what is the **total cost (TC)** when the firm uses **L = 30** labour hours?",
+      "answer": {
+        "value": 1400,
+        "tolerance": 1,
+        "prefix": "$",
+        "display": "$1,400"
+      },
+      "explanation": "VC = w × L = $30 × 30 = **$900**, so TC = FC + VC = $500 + $900 = **$1,400**. Labour is the only variable input, so there is no materials term."
+    },
+    {
+      "id": "u7-lec02",
+      "type": "numeric",
+      "unit": 7,
+      "topic": "Profit at L = 30 (in-class table)",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lecture slide 18",
+        "label": "Unit 7 In-Class Lecture"
+      },
+      "tags": [
+        "lesson-7.3",
+        "in-class"
+      ],
+      "scenario": "u7-lecture",
+      "prompt": "Refer to the scenario. At the price of $10 per unit, what is the firm's **profit** when it uses L = 30 labour hours (q = 300)?",
+      "answer": {
+        "value": 1600,
+        "tolerance": 1,
+        "prefix": "$",
+        "display": "$1,600"
+      },
+      "explanation": "π = P × q − TC = $10 × 300 − $1,400 = $3,000 − $1,400 = **$1,600**. Check against the other rows: L = 10 → $200, L = 20 → $1,300, L = 30 → **$1,600**, L = 40 → $1,500."
+    },
+    {
+      "id": "u7-lec03",
+      "type": "mc",
+      "unit": 7,
+      "topic": "Profit-maximizing labour (in-class table)",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lecture slide 18",
+        "label": "Unit 7 In-Class Lecture"
+      },
+      "tags": [
+        "lesson-7.3",
+        "in-class"
+      ],
+      "scenario": "u7-lecture",
+      "prompt": "Refer to the scenario. Which number of labour hours maximizes the firm's profit?",
+      "options": [
+        "L = 40, because it yields the greatest output (320 units)",
+        "L = 20, because average product of labour is highest there (12.0)",
+        "L = 10, because total cost is lowest there ($800)",
+        "L = 30, where profit is $1,600 and the next 10 hours would add $15 of cost per extra unit (MC), above the $10 price"
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "Profits are $200 (L = 10), $1,300 (L = 20), **$1,600 (L = 30)** and $1,500 (L = 40). From L = 30 to L = 40, output rises by 20 units and TC rises by $300, so MC = $300 ÷ 20 = **$15**, which is above the $10 price: the added units lose money. Highest output ignores cost, highest AP<sub>L</sub> is a measure of productivity per worker, and the lowest TC occurs with the smallest output, which here earns very little revenue."
+    },
+    {
+      "id": "u7-lec04",
+      "type": "mc",
+      "unit": 7,
+      "topic": "AP and MP (in-class table)",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lecture slides 9, 18",
+        "label": "Unit 7 In-Class Lecture"
+      },
+      "tags": [
+        "lesson-7.2",
+        "in-class"
+      ],
+      "scenario": "u7-lecture",
+      "prompt": "Refer to the scenario. When labour rises from L = 20 to L = 30, what happens to the average product of labour (AP<sub>L</sub>), and why?",
+      "options": [
+        "AP<sub>L</sub> rises, because total output rises from 240 to 300",
+        "AP<sub>L</sub> falls from 12.0 to 10.0, because MP<sub>L</sub> over this step (6.0) is below the current average",
+        "AP<sub>L</sub> rises, because MP<sub>L</sub> is still positive",
+        "AP<sub>L</sub> stays at 12.0, because average product depends only on the wage"
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "AP<sub>L</sub> = q ÷ L: 240 ÷ 20 = **12.0** and 300 ÷ 30 = **10.0**. MP<sub>L</sub> = (300 − 240) ÷ (30 − 20) = **6.0**. Rule from the slides: when MP<sub>L</sub> < AP<sub>L</sub>, AP<sub>L</sub> falls; when MP<sub>L</sub> > AP<sub>L</sub>, it rises. A positive MP<sub>L</sub> only guarantees that *total* output rises, not that the *average* rises. The wage affects cost, not productivity."
+    }
+  ]
+}

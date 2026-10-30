@@ -1,0 +1,2282 @@
+{
+  "schema": "practice-bank/v1",
+  "id": "1B03-mt2-text-ch6",
+  "course": "ECON 1B03",
+  "title": "Textbook Homework · Ch 6",
+  "description": "Dr. Mang's assigned Chapter 6 (Elasticity) review questions and problems, Week 5, made auto-gradable. Problems 1.11, 4.5 and 6.8 (which need figures) are added separately.",
+  "defaultSource": {
+    "label": "Textbook Homework",
+    "kind": "textbook"
+  },
+  "defaultUnit": 5,
+  "scenarios": {
+    "ch6-p1.9": {
+      "title": "Problem 1.9 — Tea Forté",
+      "body": "Tea Forté, Inc. sells tea and tea mugs on Amazon. In December 2017, when Tea Forté cut the price of its loose-leaf tea samplers by 35 percent, it sold 6.5 times as many samplers as it did before the price cut.\n\na. Based just on this information, what is the price elasticity of demand for Tea Forté’s tea samplers?\n\nb. After Tea Forté cut the price of its tea samplers, Amazon included the product as one of its Cyber Monday deals, featuring it in e-mail advertisements. Does this additional information affect your answer to part (a)? Briefly explain."
+    },
+    "ch6-p1.10": {
+      "title": "Problem 1.10 — Rye",
+      "body": "Suppose that the following table gives data on the price of rye and the number of bushels of rye sold in 2023 and 2024.\n\na. Calculate the change in the quantity of rye demanded divided by the change in the price of rye. Measure the quantity of rye in bushels.\n\nb. Calculate the change in the quantity of rye demanded divided by the change in the price of rye but this time measure the quantity of rye in millions of bushels. Compare your answer to the one you computed in (a).\n\nc. Assuming that the demand curve for rye did not shift between 2023 and 2024, use the information in the table to calculate the price elasticity of demand for rye. Use the midpoint formula in your calculation. Compare the value for the price elasticity of demand to the values you calculated in (a) and (b).",
+      "table": {
+        "caption": "Rye, 2023 and 2024",
+        "headers": [
+          "Year",
+          "Price (dollars per bushel)",
+          "Quantity (bushels)"
+        ],
+        "rows": [
+          [
+            "2023",
+            "$3",
+            "8 million"
+          ],
+          [
+            "2024",
+            "$2",
+            "12 million"
+          ]
+        ]
+      }
+    },
+    "ch6-p2.5": {
+      "title": "Problem 2.5 — Soda vs. Coca-Cola",
+      "body": "One study found that the price elasticity of demand for soda is −0.78, while the price elasticity of demand for Coca-Cola is −1.22. Coca-Cola is a type of soda, so why isn’t its price elasticity the same as the price elasticity for soda as a product?"
+    },
+    "ch6-p3.3": {
+      "title": "Problem 3.3 — iPhone sales and revenue",
+      "body": "According to an article in the Wall Street Journal, Apple’s iPhone unit sales had been falling at the same time that its revenue from selling iPhones was increasing.\n\na. How is it possible for Apple to have increased the revenue it earned from iPhone sales if the quantity of iPhones it sold was falling?\n\nb. From this information, can you tell anything about the price elasticity of demand for iPhones? Briefly explain."
+    },
+    "ch6-p3.5": {
+      "title": "Problem 3.5 — Disney theme parks",
+      "body": "In August 2022, an article in the Wall Street Journal discussed the Disney Company increasing the prices it charges for admission to its Disneyland and Walt Disney World theme parks. As a result of the price increases, “for the quarter that ended July 2 [2022], the business unit that includes the theme parks . . . posted record revenue of $5.42 billion and record operating income of $1.65 billion.” The increase in revenue occurred even though “attendance at Disney’s US parks fell by 17% compared with the previous year.” Briefly explain what must be true of the demand for tickets to Disney’s theme parks if its revenue from ticket sales increased even though 17 percent fewer tickets were sold. (For the sake of simplicity, ignore any other sources of revenue Disney earns from its theme parks apart from ticket sales.)"
+    },
+    "ch6-p3.6": {
+      "title": "Problem 3.6 — New car sales and revenue",
+      "body": "In July 2022, an article in the Wall Street Journal noted that “the chip shortage and broader supply constraints have hampered vehicle production. . . . Many major car companies on Friday reported US sales declines of 15% or more for the first half of the year.” But the Wall Street Journal also reported that carmakers were experiencing increases in revenues. For example, Ford Motor Company reported an increase in revenue even though it had sold fewer cars than during the same period in 2021.\n\na. Briefly explain what must be true of the demand for new cars if carmakers can increase their revenue while selling 15 percent fewer cars.\n\nb. Eventually, the chip shortage and other supply problems facing carmakers will end. At that point, would we expect that carmakers will expand production to prepandemic levels or will they continue to produce fewer cars in order to maintain higher levels of profits? Briefly explain."
+    },
+    "ch6-p3.7": {
+      "title": "Problem 3.7 — Procter & Gamble price increases",
+      "body": "An article in the Wall Street Journal used the headline “Procter & Gamble, in a Strategy Shift, Moves to Raise Prices” and the subheadline “Company would seek to push through large price increases on Pampers diapers and Bounty paper towels.”\n\na. The article notes that Pampers and Bounty are two of Procter & Gamble’s (P&G’s) most popular brands. Is that fact relevant to P&G’s decision to raise prices? Briefly explain.\n\nb. The article states, “As the biggest player, P&G tends to drive industrywide pricing moves.” What does the article mean by “industrywide pricing moves?” Would competitors also raising their prices make the demand for Pampers more elastic or less elastic? Briefly explain."
+    },
+    "ch6-p4.3": {
+      "title": "Problem 4.3 — Lettuce and bread",
+      "body": "When lettuce prices doubled, from about $1.50 per head to about $3.00, the reaction of one consumer was quoted in a newspaper article: “I will not buy [lettuce] when it’s $3 a head,” she said, adding that other green vegetables can fill in for lettuce. “If bread were $5 a loaf we’d still have to buy it. But lettuce is not that important in our family.”\n\na. For this consumer’s household, which product has the higher price elasticity of demand: bread or lettuce? Briefly explain.\n\nb. Is the cross-price elasticity of demand between lettuce and other green vegetables positive or negative for this consumer? Briefly explain."
+    },
+    "ch6-p4.6": {
+      "title": "Problem 4.6 — Cross-price elasticities",
+      "body": "Are the cross-price elasticities of demand between the following pairs of products likely to be positive or negative? Briefly explain.\n\na. Iced coffee and iced tea\n\nb. French fries and ketchup\n\nc. Steak and chicken\n\nd. Blu-ray players and Blu-ray discs"
+    },
+    "ch6-p5.3": {
+      "title": "Problem 5.3 — Gasoline excise tax",
+      "body": "[Related to Solved Problem 6.5] Suppose that the long-run price elasticity of demand for gasoline is −0.55. Assume that the price of gasoline is currently $3.00 per gallon, the equilibrium quantity of gasoline is 140 billion gallons per year, and the federal government decides to increase the excise tax on gasoline by $1.00 per gallon. Suppose that in the long run, the price of gasoline increases by $0.70 per gallon after the $1.00 excise tax is imposed.\n\na. What is the new quantity of gasoline demanded after the tax is imposed? How effective would a gas tax be in reducing consumption of gasoline in the long run?\n\nb. How much does the federal government receive from the tax?"
+    },
+    "ch6-p6.6": {
+      "title": "Problem 6.6 — Cocoa and chocolate",
+      "body": "A majority of the world’s chocolate is made from cocoa beans grown in the African countries of Ghana and Côte d’Ivoire. It can take 2 to 4 years for new trees to produce the pods in which the beans are grown. An article on bloomberg.com in late 2022 noted that demand for chocolate “will rebound to pre-pandemic levels during the first festive season in three years without widespread Covid restrictions.” Following a permanent increase in the world demand for chocolate, all else equal, would you expect the price of chocolate to be greater after 1 year or after 4 years? Use a graph to illustrate your answer."
+    },
+    "ch6-p1.11": {
+      "title": "Problem 1.11 — the hot dog stand",
+      "body": "[Related to Solved Problem 6.1] You own a hot dog stand that you set up outside the student union every day at lunchtime. Currently, you are selling hot dogs for a price of $3 each, and you sell 30 hot dogs a day. You are considering cutting the price to $2. The following graph shows two possible increases in the quantity sold as a result of your price cut. Use the information in the graph to calculate the price elasticity of demand between these two prices on each of the demand curves. Use the midpoint formula to calculate the price elasticities.",
+      "figure": {
+        "type": "graph",
+        "caption": "Problem 1.11 figure (redrawn)",
+        "spec": {
+          "x": {
+            "label": "Quantity (hot dogs per day)",
+            "min": 0,
+            "max": 80,
+            "ticks": [
+              30,
+              40,
+              60
+            ]
+          },
+          "y": {
+            "label": "Price (dollars per hot dog)",
+            "min": 0,
+            "max": 5,
+            "ticks": [
+              {
+                "at": 2,
+                "label": "$2"
+              },
+              {
+                "at": 3,
+                "label": "$3"
+              }
+            ]
+          },
+          "curves": [
+            {
+              "id": "D1",
+              "label": "D₁",
+              "color": "blue",
+              "points": [
+                [
+                  15,
+                  3.5
+                ],
+                [
+                  75,
+                  1.5
+                ]
+              ]
+            },
+            {
+              "id": "D2",
+              "label": "D₂",
+              "color": "indigo",
+              "points": [
+                [
+                  15,
+                  4.5
+                ],
+                [
+                  52,
+                  0.8
+                ]
+              ]
+            }
+          ],
+          "points": [
+            {
+              "id": "A",
+              "label": "A",
+              "x": 30,
+              "y": 3,
+              "drop": "both"
+            },
+            {
+              "id": "B",
+              "label": "B",
+              "x": 60,
+              "y": 2,
+              "drop": "both"
+            },
+            {
+              "id": "C",
+              "label": "C",
+              "x": 40,
+              "y": 2,
+              "drop": "x"
+            }
+          ]
+        }
+      }
+    },
+    "ch6-p4.5": {
+      "title": "Problem 4.5 — hot dogs and hot dog buns",
+      "body": "In the following graph, the demand for hot dog buns has shifted to the right because the price of hot dogs has fallen from $2.20 to $1.80 per package. Use the midpoint formula to calculate the cross-price elasticity of demand between hot dogs and hot dog buns.",
+      "figure": {
+        "type": "graph",
+        "caption": "Problem 4.5 figure (redrawn)",
+        "spec": {
+          "x": {
+            "label": "Quantity (packages of buns per week)",
+            "min": 8000,
+            "max": 14000,
+            "ticks": [
+              {
+                "at": 10000,
+                "label": "10,000"
+              },
+              {
+                "at": 11000,
+                "label": "11,000"
+              },
+              {
+                "at": 12000,
+                "label": "12,000"
+              }
+            ]
+          },
+          "y": {
+            "label": "Price (dollars per package)",
+            "min": 0.6,
+            "max": 2.0,
+            "ticks": [
+              {
+                "at": 1.2,
+                "label": "$1.20"
+              },
+              {
+                "at": 1.4,
+                "label": "$1.40"
+              }
+            ]
+          },
+          "curves": [
+            {
+              "id": "S",
+              "label": "S",
+              "color": "red",
+              "points": [
+                [
+                  8500,
+                  0.9
+                ],
+                [
+                  13300,
+                  1.86
+                ]
+              ]
+            },
+            {
+              "id": "D1",
+              "label": "D₁",
+              "color": "blue",
+              "points": [
+                [
+                  8200,
+                  1.56
+                ],
+                [
+                  12500,
+                  0.7
+                ]
+              ]
+            },
+            {
+              "id": "D2",
+              "label": "D₂",
+              "color": "teal",
+              "points": [
+                [
+                  8800,
+                  1.84
+                ],
+                [
+                  13300,
+                  0.94
+                ]
+              ]
+            }
+          ],
+          "points": [
+            {
+              "id": "E1",
+              "x": 10000,
+              "y": 1.2,
+              "drop": "both"
+            },
+            {
+              "id": "E2",
+              "x": 11000,
+              "y": 1.4,
+              "drop": "both"
+            },
+            {
+              "id": "F",
+              "x": 12000,
+              "y": 1.2,
+              "drop": "x"
+            }
+          ]
+        }
+      }
+    },
+    "ch6-p6.8": {
+      "title": "Problem 6.8 — basketball tickets at State University",
+      "body": "Use the following graph of the market for basketball tickets at State University to answer the questions.\n\na. What is the price elasticity of supply in this case?\n\nb. Suppose the basketball team at State University goes undefeated in the first half of the season, and the demand for basketball tickets increases. Show the effects of this increase in demand on the graph. What happens to the equilibrium price and quantity of tickets? Briefly explain.\n\nc. If the State University basketball team continues to do very well in future years, what is likely to happen to the price elasticity of supply of tickets to its games? Briefly explain.",
+      "figure": {
+        "type": "graph",
+        "caption": "Problem 6.8 figure (redrawn)",
+        "spec": {
+          "x": {
+            "label": "Quantity (tickets per game)",
+            "min": 0,
+            "max": 30000,
+            "ticks": [
+              {
+                "at": 15000,
+                "label": "15,000"
+              }
+            ]
+          },
+          "y": {
+            "label": "Price (dollars per ticket)",
+            "min": 0,
+            "max": 32,
+            "ticks": [
+              {
+                "at": 15,
+                "label": "$15"
+              }
+            ]
+          },
+          "curves": [
+            {
+              "id": "S",
+              "label": "S",
+              "color": "red",
+              "points": [
+                [
+                  15000,
+                  1
+                ],
+                [
+                  15000,
+                  31
+                ]
+              ]
+            },
+            {
+              "id": "D",
+              "label": "D",
+              "color": "blue",
+              "points": [
+                [
+                  2000,
+                  28
+                ],
+                [
+                  26000,
+                  4
+                ]
+              ]
+            }
+          ],
+          "points": [
+            {
+              "id": "E",
+              "label": "E₁",
+              "x": 15000,
+              "y": 15
+            }
+          ]
+        }
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "ch6-r1.1a",
+      "unit": 5,
+      "topic": "Price elasticity formula",
+      "tags": [
+        "review-question",
+        "week-5",
+        "elasticity"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Review Q 1.1(a)"
+      },
+      "type": "mc",
+      "prompt": "Review Q 1.1 (part 1): Which expression is the formula for the price elasticity of demand?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The change in quantity demanded divided by the change in price"
+        },
+        {
+          "id": "b",
+          "text": "The percentage change in quantity demanded divided by the percentage change in price"
+        },
+        {
+          "id": "c",
+          "text": "The percentage change in price divided by the percentage change in quantity demanded"
+        },
+        {
+          "id": "d",
+          "text": "The percentage change in quantity supplied divided by the percentage change in price"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "**Price elasticity of demand = %ΔQ<sub>d</sub> ÷ %ΔP.** The version with plain (not percentage) changes is just the slope of the demand curve, which is the very thing elasticity is designed to improve on. Flipping numerator and denominator gives the *inverse* of elasticity, and using quantity supplied would measure the price elasticity of *supply*."
+    },
+    {
+      "id": "ch6-r1.1b",
+      "unit": 5,
+      "topic": "Elasticity vs. slope",
+      "tags": [
+        "review-question",
+        "week-5",
+        "elasticity"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Review Q 1.1(b)"
+      },
+      "type": "mc",
+      "prompt": "Review Q 1.1 (part 2): Why isn't the price elasticity of demand simply measured by the slope of the demand curve?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Demand curves are not straight lines, so a slope cannot be calculated at all"
+        },
+        {
+          "id": "b",
+          "text": "The slope measures how quantity supplied responds to price, not quantity demanded"
+        },
+        {
+          "id": "c",
+          "text": "Every demand curve has the same slope, so the slope carries no information about consumers"
+        },
+        {
+          "id": "d",
+          "text": "The slope depends on the units in which price and quantity are measured, so slopes cannot be compared across goods; elasticity uses percentage changes, which are unit-free"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "The slope is ΔQ/ΔP, so its value changes if we measure quantity in bushels instead of millions of bushels (or price in dollars instead of cents). That makes slopes impossible to compare across goods. Elasticity divides *percentage* changes, so the units cancel and it is comparable across any two goods. (Demand curves do have slopes, they differ across goods, and slope is about demand, so the other reasons are wrong.)"
+    },
+    {
+      "id": "ch6-r1.2a",
+      "unit": 5,
+      "topic": "Calculating elasticity",
+      "tags": [
+        "review-question",
+        "week-5",
+        "elasticity",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Review Q 1.2(a) ★"
+      },
+      "type": "numeric",
+      "prompt": "Review Q 1.2 (part 1): If a 10 percent increase in the price of Cheerios causes a 25 percent reduction in the number of boxes of Cheerios demanded, what is the price elasticity of demand for Cheerios? Enter the price elasticity of demand for Cheerios.",
+      "answer": {
+        "value": -2.5,
+        "tolerance": 0.01,
+        "display": "−2.5",
+        "accept": [
+          2.5
+        ],
+        "hint": "Include the sign (or give the absolute value)"
+      },
+      "explanation": "Elasticity = %ΔQ<sub>d</sub> ÷ %ΔP = (−25%) ÷ (+10%) = **−2.5**. Quantity falls when price rises, so the number is negative; we usually report its absolute value (2.5) when classifying it."
+    },
+    {
+      "id": "ch6-r1.2b",
+      "unit": 5,
+      "topic": "Elastic vs inelastic",
+      "tags": [
+        "review-question",
+        "week-5",
+        "elasticity",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Review Q 1.2(b) ★"
+      },
+      "type": "mc",
+      "prompt": "Review Q 1.2 (part 2): With a price elasticity of demand of −2.5, is the demand for Cheerios elastic or inelastic?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elastic, because the absolute value of the elasticity (2.5) is greater than 1"
+        },
+        {
+          "id": "b",
+          "text": "Inelastic, because the elasticity is negative"
+        },
+        {
+          "id": "c",
+          "text": "Inelastic, because a 10% price increase is a fairly small change"
+        },
+        {
+          "id": "d",
+          "text": "Unit elastic, because quantity demanded fell when price rose"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Demand is **elastic** when |E<sub>d</sub>| > 1 (quantity changes by a larger percentage than price), inelastic when |E<sub>d</sub>| < 1, and unit elastic when |E<sub>d</sub>| = 1. Here 25% > 10%, so |E<sub>d</sub>| = 2.5 > 1. The negative sign only reflects the law of demand and plays no part in the classification, and the *size* of the price change is irrelevant — only the ratio matters."
+    },
+    {
+      "id": "ch6-r2.1a",
+      "unit": 5,
+      "topic": "Determinants of elasticity",
+      "tags": [
+        "review-question",
+        "week-5",
+        "elasticity"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Review Q 2.1(a)"
+      },
+      "type": "mc",
+      "prompt": "Review Q 2.1 (part 1): Which determinant of the price elasticity of demand is the most important?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Whether the good is a luxury rather than a necessity"
+        },
+        {
+          "id": "b",
+          "text": "The share of the consumer's budget spent on the good"
+        },
+        {
+          "id": "c",
+          "text": "The availability of close substitutes"
+        },
+        {
+          "id": "d",
+          "text": "The length of time that has passed since the price change"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "The textbook lists several determinants — availability of substitutes, time, luxury vs. necessity, the definition of the market, and the share of the budget — and calls **the availability of close substitutes the most important**. If a buyer can easily switch to a similar product, a price rise sends quantity demanded down sharply. The other three are real determinants but secondary."
+    },
+    {
+      "id": "ch6-r2.1b",
+      "unit": 5,
+      "topic": "Determinants of elasticity",
+      "tags": [
+        "review-question",
+        "week-5",
+        "elasticity"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Review Q 2.1(b)"
+      },
+      "type": "multi",
+      "prompt": "Review Q 2.1 (part 2): Select **all** of the factors that determine the price elasticity of demand for a product.",
+      "options": [
+        {
+          "id": "a",
+          "text": "The availability of close substitutes"
+        },
+        {
+          "id": "b",
+          "text": "The firm's cost of production"
+        },
+        {
+          "id": "c",
+          "text": "The time that has passed since the price change"
+        },
+        {
+          "id": "d",
+          "text": "The share of the consumer's budget spent on the good"
+        },
+        {
+          "id": "e",
+          "text": "The tax rate the government charges on the good"
+        },
+        {
+          "id": "f",
+          "text": "Whether the good is a luxury or a necessity"
+        }
+      ],
+      "answer": [
+        "a",
+        "c",
+        "d",
+        "f"
+      ],
+      "shuffleOptions": false,
+      "explanation": "Demand elasticity depends on features of **buyers' options and the good itself**: close substitutes, the time period (demand is more elastic the longer buyers have to adjust), the budget share, and luxury vs. necessity (the definition of the market matters too). A firm's production cost and the tax rate affect supply or the price paid, not how responsive buyers are to a price change."
+    },
+    {
+      "id": "ch6-r2.3",
+      "unit": 5,
+      "topic": "Elasticity of farm products",
+      "tags": [
+        "review-question",
+        "week-5",
+        "elasticity"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Review Q 2.3"
+      },
+      "type": "mc",
+      "prompt": "Review Q 2.3: Is the demand for most agricultural products elastic or inelastic?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elastic: consumers can easily stop eating when food prices rise"
+        },
+        {
+          "id": "b",
+          "text": "Elastic: farmers can quickly change how much they grow when the price changes"
+        },
+        {
+          "id": "c",
+          "text": "Inelastic: food is a necessity with few substitutes, so quantity demanded changes little when price changes"
+        },
+        {
+          "id": "d",
+          "text": "Unit elastic: households always spend a constant share of income on food"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "Most agricultural products are necessities with few substitutes, so buyers cut back only a little when prices rise: demand is **inelastic**. (The farmers' flexibility described in one distractor is about *supply*, and expenditure shares do not make demand unit elastic.) This is why bumper crops can lower farmers' total revenue."
+    },
+    {
+      "id": "ch6-r3.1a",
+      "unit": 5,
+      "topic": "Elasticity and total revenue",
+      "tags": [
+        "review-question",
+        "week-5",
+        "elasticity",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Review Q 3.1(a) ★"
+      },
+      "type": "mc",
+      "prompt": "Review Q 3.1: If the demand for orange juice is inelastic, will an increase in the price of orange juice increase or decrease the revenue that orange juice sellers receive?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Increase it: the percentage fall in quantity is smaller than the percentage rise in price"
+        },
+        {
+          "id": "b",
+          "text": "Decrease it: higher prices always reduce the quantity sold, which lowers revenue"
+        },
+        {
+          "id": "c",
+          "text": "Leave it unchanged: price and quantity changes exactly offset"
+        },
+        {
+          "id": "d",
+          "text": "It cannot be determined without knowing the supply curve"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Revenue = P × Q. With **inelastic** demand (|E<sub>d</sub>| < 1), a 1% price rise reduces quantity by *less* than 1%, so P × Q rises. Exact offsetting happens only with unit-elastic demand, and the sign of the revenue change depends only on the demand elasticity, so the supply curve is not needed."
+    },
+    {
+      "id": "ch6-r3.1b",
+      "unit": 5,
+      "topic": "Elasticity and total revenue",
+      "tags": [
+        "review-question",
+        "week-5",
+        "elasticity",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Review Q 3.1(b) ★"
+      },
+      "type": "tf",
+      "prompt": "If the demand for a good is elastic, an increase in its price will increase the sellers' total revenue.",
+      "answer": false,
+      "explanation": "False. With elastic demand (|E<sub>d</sub>| > 1) the percentage fall in quantity is larger than the percentage rise in price, so P × Q **falls**. Only with inelastic demand does a price increase raise revenue."
+    },
+    {
+      "id": "ch6-r4.1a",
+      "unit": 5,
+      "topic": "Cross-price elasticity",
+      "tags": [
+        "review-question",
+        "week-5",
+        "elasticity"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Review Q 4.1(a)"
+      },
+      "type": "mc",
+      "prompt": "Review Q 4.1 (part 1): How is the cross-price elasticity of demand defined?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The percentage change in the quantity demanded of a good divided by the percentage change in its own price"
+        },
+        {
+          "id": "b",
+          "text": "The percentage change in the quantity demanded of a good divided by the percentage change in consumer income"
+        },
+        {
+          "id": "c",
+          "text": "The percentage change in the price of one good divided by the percentage change in the price of another good"
+        },
+        {
+          "id": "d",
+          "text": "The percentage change in the quantity demanded of one good divided by the percentage change in the price of a different good"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "Cross-price elasticity = %ΔQ<sub>d</sub> of good A ÷ %ΔP of good B. Using the good's *own* price gives the ordinary price elasticity, using income gives the income elasticity, and comparing two prices says nothing about quantity demanded."
+    },
+    {
+      "id": "ch6-r4.1b",
+      "unit": 5,
+      "topic": "Cross-price elasticity",
+      "tags": [
+        "review-question",
+        "week-5",
+        "elasticity"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Review Q 4.1(b)"
+      },
+      "type": "mc",
+      "prompt": "Review Q 4.1 (part 2): What does it mean if the cross-price elasticity of demand between two goods is negative, and what if it is positive?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Negative: the goods are substitutes; positive: the goods are complements"
+        },
+        {
+          "id": "b",
+          "text": "Negative: the goods are complements; positive: the goods are substitutes"
+        },
+        {
+          "id": "c",
+          "text": "Negative: one of the goods is inferior; positive: both goods are normal"
+        },
+        {
+          "id": "d",
+          "text": "Negative: demand is inelastic; positive: demand is elastic"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "When the price of good B rises, buyers of *substitutes* switch to A (Q<sub>d</sub> of A rises → **positive**), while buyers of *complements* buy less of A along with B (Q<sub>d</sub> of A falls → **negative**). Whether a good is inferior is an income-elasticity question, and elastic/inelastic is about the own-price elasticity."
+    },
+    {
+      "id": "ch6-r4.2a",
+      "unit": 5,
+      "topic": "Income elasticity",
+      "tags": [
+        "review-question",
+        "week-5",
+        "elasticity"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Review Q 4.2(a)"
+      },
+      "type": "mc",
+      "prompt": "Review Q 4.2 (part 1): Define income elasticity of demand. How does the income elasticity of a normal good differ from that of an inferior good?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It is %ΔQ<sub>d</sub> ÷ %ΔP; it is positive for a normal good and negative for an inferior good"
+        },
+        {
+          "id": "b",
+          "text": "It is %ΔQ<sub>d</sub> ÷ %Δincome; it is positive for a normal good and negative for an inferior good"
+        },
+        {
+          "id": "c",
+          "text": "It is %ΔQ<sub>d</sub> ÷ %Δincome; it is negative for a normal good and positive for an inferior good"
+        },
+        {
+          "id": "d",
+          "text": "It is %Δincome ÷ %ΔQ<sub>d</sub>; it is greater than 1 for a normal good and less than 1 for an inferior good"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "Income elasticity of demand = %ΔQ<sub>d</sub> ÷ %Δ(consumer income). When income rises, buyers purchase more of a **normal** good (E > 0) and less of an **inferior** good (E < 0). Dividing by the price change instead gives the price elasticity, and the 'greater than 1' split distinguishes luxuries from necessities, not normal from inferior."
+    },
+    {
+      "id": "ch6-r4.2b",
+      "unit": 5,
+      "topic": "Income elasticity",
+      "tags": [
+        "review-question",
+        "week-5",
+        "elasticity"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Review Q 4.2(b)"
+      },
+      "type": "mc",
+      "prompt": "Review Q 4.2 (part 2): Is it possible to tell from the income elasticity of demand whether a product is a luxury good or a necessity good?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yes: a luxury good has a negative income elasticity and a necessity has a positive one"
+        },
+        {
+          "id": "b",
+          "text": "No: the income elasticity only tells us whether a good is normal or inferior"
+        },
+        {
+          "id": "c",
+          "text": "No: whether a good is a luxury or a necessity depends only on its price elasticity"
+        },
+        {
+          "id": "d",
+          "text": "Yes: a normal good with income elasticity greater than 1 is a luxury, and one between 0 and 1 is a necessity"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "Among normal goods, quantity demanded rises by a *larger* percentage than income for **luxuries** (E > 1) and by a *smaller* percentage for **necessities** (0 < E < 1). A negative income elasticity marks an inferior good, not a luxury."
+    },
+    {
+      "id": "ch6-r6.1a",
+      "unit": 5,
+      "topic": "Elasticity of supply",
+      "tags": [
+        "review-question",
+        "week-5",
+        "elasticity",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Review Q 6.1(a) ★"
+      },
+      "type": "numeric",
+      "prompt": "Review Q 6.1: If an increase of 10 percent in the price of frozen pizzas results in a 9 percent increase in the quantity of frozen pizzas supplied, what is the price elasticity of supply for frozen pizzas?",
+      "answer": {
+        "value": 0.9,
+        "tolerance": 0.01,
+        "display": "0.9"
+      },
+      "explanation": "Price elasticity of supply = %ΔQ<sub>s</sub> ÷ %ΔP = 9% ÷ 10% = **0.9**."
+    },
+    {
+      "id": "ch6-r6.1b",
+      "unit": 5,
+      "topic": "Elasticity of supply",
+      "tags": [
+        "review-question",
+        "week-5",
+        "elasticity",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Review Q 6.1(b) ★"
+      },
+      "type": "mc",
+      "prompt": "Review Q 6.1 (part 2): Is the supply of frozen pizzas elastic or inelastic?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inelastic, because the elasticity of supply (0.9) is less than 1"
+        },
+        {
+          "id": "b",
+          "text": "Elastic, because the elasticity of supply is positive"
+        },
+        {
+          "id": "c",
+          "text": "Elastic, because quantity supplied increased when price increased"
+        },
+        {
+          "id": "d",
+          "text": "Unit elastic, because the two percentage changes are close in size"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Supply is elastic when E<sub>s</sub> > 1 and inelastic when E<sub>s</sub> < 1. Because 0.9 < 1, the quantity supplied rises by a smaller percentage than price: **inelastic**. A positive sign is the normal case (the law of supply) and does not make supply elastic; only an elasticity of exactly 1 is unit elastic."
+    },
+    {
+      "id": "ch6-p1.9a",
+      "unit": 5,
+      "topic": "Elasticity from % changes",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 1.9(a) ★"
+      },
+      "scenario": "ch6-p1.9",
+      "type": "numeric",
+      "prompt": "Problem 1.9(a): Using the percentage changes stated in the problem (the price fell 35%; quantity became 6.5 times as large, i.e. rose 550%), calculate the price elasticity of demand for the tea samplers. Round to one decimal.",
+      "answer": {
+        "value": -15.7,
+        "tolerance": 0.1,
+        "display": "−15.7 (|E| ≈ 15.7: highly elastic)",
+        "accept": [
+          15.7
+        ],
+        "hint": "Use the stated % changes; sign optional"
+      },
+      "explanation": "Selling 6.5 times as many means quantity rose by (6.5 − 1) × 100 = **550%**. With a 35% price cut, E<sub>d</sub> = 550% ÷ (−35%) ≈ **−15.7**, so demand is extremely elastic. (The midpoint formula would give a smaller value, about −3.46, because it measures a 550% change from the average quantity rather than from the starting quantity — still elastic.)"
+    },
+    {
+      "id": "ch6-p1.9a2",
+      "unit": 5,
+      "topic": "Midpoint elasticity",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity",
+        "starred"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 6 · Problem 1.9(a) ★"
+      },
+      "scenario": "ch6-p1.9",
+      "type": "numeric",
+      "prompt": "Problem 1.9(a), follow-up: Now use the **midpoint formula**. Let the original price be $100 (so the new price is $65) and the original quantity be 1 (new quantity 6.5). What is the price elasticity of demand? Round to two decimals.",
+      "answer": {
+        "value": -3.46,
+        "tolerance": 0.05,
+        "display": "−3.46",
+        "accept": [
+          3.46
+        ]
+      },
+      "explanation": "Midpoint method: %ΔQ = (6.5 − 1) ÷ [(6.5 + 1)/2] = 5.5 ÷ 3.75 = 146.7%; %ΔP = (65 − 100) ÷ [(65 + 100)/2] = −35 ÷ 82.5 = −42.4%. E<sub>d</sub> = 146.7 ÷ (−42.4) ≈ **−3.46**. It is much smaller in magnitude than −15.7 because the large quantity change is measured relative to the midpoint, but demand is still elastic (|E| > 1)."
+    },
+    {
+      "id": "ch6-p1.9b",
+      "unit": 5,
+      "topic": "Interpreting elasticity estimates",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity",
+        "starred"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 6 · Problem 1.9(b) ★"
+      },
+      "scenario": "ch6-p1.9",
+      "type": "mc",
+      "prompt": "Problem 1.9(b): Does the additional information about Amazon's Cyber Monday deal and e-mail advertising affect your answer to part (a)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "No: elasticity depends only on the price and quantity numbers, so extra information about advertising is irrelevant"
+        },
+        {
+          "id": "b",
+          "text": "Yes: the promotion raised the price, so the true elasticity must be smaller than the price cut implies"
+        },
+        {
+          "id": "c",
+          "text": "Yes: the promotion probably shifted demand to the right at the same time, so part of the rise in quantity was not a movement along the demand curve and −15.7 overstates the true elasticity"
+        },
+        {
+          "id": "d",
+          "text": "Yes: the promotion means the true elasticity is even larger in absolute value than −15.7"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "The elasticity formula assumes a movement **along** a demand curve — only the price changed. Featuring the product in Cyber Monday e-mails shifts demand right, so some of the extra quantity sold is due to the promotion, not the lower price. Attributing all of it to the price cut makes demand look more elastic than it is, so −15.7 **overstates** the true elasticity."
+    },
+    {
+      "id": "ch6-p1.10a",
+      "unit": 5,
+      "topic": "Slope (units matter)",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 1.10(a) ★"
+      },
+      "scenario": "ch6-p1.10",
+      "type": "numeric",
+      "prompt": "Problem 1.10(a): Calculate ΔQ ÷ ΔP with quantity measured in **bushels**.",
+      "answer": {
+        "value": -4000000,
+        "tolerance": 1000,
+        "display": "−4,000,000 bushels per dollar",
+        "hint": "Include the sign"
+      },
+      "explanation": "ΔQ = 12,000,000 − 8,000,000 = 4,000,000 bushels; ΔP = $2 − $3 = −$1. ΔQ ÷ ΔP = **−4,000,000** bushels per dollar."
+    },
+    {
+      "id": "ch6-p1.10b",
+      "unit": 5,
+      "topic": "Slope (units matter)",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 1.10(b) ★"
+      },
+      "scenario": "ch6-p1.10",
+      "type": "numeric",
+      "prompt": "Problem 1.10(b): Calculate ΔQ ÷ ΔP again, this time with quantity measured in **millions of bushels**.",
+      "answer": {
+        "value": -4,
+        "tolerance": 0.01,
+        "display": "−4 million bushels per dollar",
+        "hint": "Include the sign"
+      },
+      "explanation": "ΔQ = 12 − 8 = 4 (millions of bushels); ΔP = −$1. ΔQ ÷ ΔP = **−4**. The same demand response gives −4,000,000 in part (a) and −4 here: the slope depends on the units of measurement."
+    },
+    {
+      "id": "ch6-p1.10c",
+      "unit": 5,
+      "topic": "Midpoint elasticity",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 1.10(c) ★"
+      },
+      "scenario": "ch6-p1.10",
+      "type": "numeric",
+      "prompt": "Problem 1.10(c): Use the **midpoint formula** to calculate the price elasticity of demand for rye.",
+      "answer": {
+        "value": -1,
+        "tolerance": 0.02,
+        "display": "−1.0 (unit elastic)",
+        "accept": [
+          1
+        ],
+        "hint": "Include the sign (or give the absolute value)"
+      },
+      "explanation": "Midpoint quantity = (8 + 12)/2 = 10 million, so %ΔQ = 4 ÷ 10 = 40%. Midpoint price = ($3 + $2)/2 = $2.50, so %ΔP = −1 ÷ 2.5 = −40%. E<sub>d</sub> = 40% ÷ (−40%) = **−1.0**: unit-elastic demand."
+    },
+    {
+      "id": "ch6-p1.10c2",
+      "unit": 5,
+      "topic": "Slope vs elasticity",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 1.10(c) ★"
+      },
+      "scenario": "ch6-p1.10",
+      "type": "mc",
+      "prompt": "Problem 1.10(c), comparison: How does the price elasticity you calculated compare with the values in (a) and (b)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "All three give the same number, since each measures how quantity responds to price"
+        },
+        {
+          "id": "b",
+          "text": "The elasticity is larger than the value in (a) because it uses a more precise formula"
+        },
+        {
+          "id": "c",
+          "text": "Elasticity is a unit-free ratio of percentage changes and is the same however quantity is measured; the values in (a) and (b) change with the units"
+        },
+        {
+          "id": "d",
+          "text": "The value in (b) is the true elasticity, since measuring in millions rounds away less detail"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "In (a) and (b) the same data give −4,000,000 and −4 — the slope depends on whether quantity is counted in bushels or millions of bushels. The midpoint elasticity is −1.0 whichever unit is used, because percentage changes carry no units. That is exactly why economists use elasticity rather than slope to compare responsiveness."
+    },
+    {
+      "id": "ch6-p2.5",
+      "unit": 5,
+      "topic": "Market definition",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 2.5"
+      },
+      "scenario": "ch6-p2.5",
+      "type": "mc",
+      "prompt": "Problem 2.5: Coca-Cola is a type of soda, so why isn't its price elasticity the same as the price elasticity for soda as a product?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Soda as a whole has few substitutes, but Coca-Cola has close substitutes (Pepsi and other colas), so demand for Coke is more elastic"
+        },
+        {
+          "id": "b",
+          "text": "Coca-Cola is a luxury while soda is a necessity, so Coke's demand responds more to income"
+        },
+        {
+          "id": "c",
+          "text": "Soda has more close substitutes than Coca-Cola does, so demand for soda is more elastic"
+        },
+        {
+          "id": "d",
+          "text": "The two numbers were estimated with different formulas, so they cannot be compared"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "If Coke's price rises, buyers can switch to Pepsi or another cola; if the price of soda in general rises, there is no equally good substitute for soda as a category (other than water or juice). The **narrower the market definition**, the more close substitutes exist, and the more elastic demand is: −1.22 for Coke vs. −0.78 for all soda."
+    },
+    {
+      "id": "ch6-p2.52",
+      "unit": 5,
+      "topic": "Market definition",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 2.5"
+      },
+      "scenario": "ch6-p2.5",
+      "type": "tf",
+      "prompt": "The more narrowly a market is defined (for example, one brand rather than the whole product category), the more elastic the demand for it is likely to be.",
+      "answer": true,
+      "explanation": "True. A narrow market (one brand) has many close substitutes — the other brands — so a price rise sends buyers elsewhere, making demand more elastic than for the broad category."
+    },
+    {
+      "id": "ch6-p3.3a",
+      "unit": 5,
+      "topic": "Total revenue",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 3.3(a)"
+      },
+      "scenario": "ch6-p3.3",
+      "type": "mc",
+      "prompt": "Problem 3.3(a): How is it possible for Apple to have increased its iPhone revenue while the quantity of iPhones it sold was falling?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Revenue depends only on the price, so the quantity sold does not matter"
+        },
+        {
+          "id": "b",
+          "text": "Apple's costs of production fell, which raised its revenue"
+        },
+        {
+          "id": "c",
+          "text": "Revenue cannot rise when quantity falls, so the quantity must have risen in some other market"
+        },
+        {
+          "id": "d",
+          "text": "Revenue = price × quantity, so the average price must have risen by a larger percentage than the quantity fell"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "Total revenue = P × Q. If Q falls by, say, 5% but P rises by 15%, then P × Q still rises. So the percentage increase in the price of iPhones must have been **larger** than the percentage fall in quantity. Costs do not enter revenue at all."
+    },
+    {
+      "id": "ch6-p3.3b",
+      "unit": 5,
+      "topic": "Elasticity from revenue",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 6 · Problem 3.3(b)"
+      },
+      "scenario": "ch6-p3.3",
+      "type": "mc",
+      "prompt": "Problem 3.3(b): From this information, what (if anything) can you tell about the price elasticity of demand for iPhones?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Demand was elastic, because quantity fell when price rose"
+        },
+        {
+          "id": "b",
+          "text": "If the demand curve did not shift, demand was inelastic: price rose by a larger percentage than quantity fell (though other factors may have shifted demand, so this is only tentative)"
+        },
+        {
+          "id": "c",
+          "text": "Nothing can be said, because revenue is unrelated to elasticity"
+        },
+        {
+          "id": "d",
+          "text": "Demand was elastic, because revenue increased"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "A price rise raises total revenue only if demand is **inelastic** (|E<sub>d</sub>| < 1). But the iPhone's price and quantity may have changed for other reasons (new models, income, competitors), shifting the demand curve, so the conclusion is only a tentative inference. Quantity always falls when price rises along a demand curve, which says nothing about elasticity."
+    },
+    {
+      "id": "ch6-p3.5",
+      "unit": 5,
+      "topic": "Elasticity and revenue",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 3.5"
+      },
+      "scenario": "ch6-p3.5",
+      "type": "mc",
+      "prompt": "Problem 3.5: What must be true of the demand for tickets to Disney's theme parks if revenue from ticket sales increased even though 17 percent fewer tickets were sold?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Demand is price elastic: a 17% drop in attendance is a large response"
+        },
+        {
+          "id": "b",
+          "text": "Demand is price inelastic: the percentage increase in the ticket price must have been greater than 17%"
+        },
+        {
+          "id": "c",
+          "text": "Demand is unit elastic: the 17% fall in tickets was offset one-for-one by the price rise"
+        },
+        {
+          "id": "d",
+          "text": "Demand must have shifted to the left, because fewer tickets were sold"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "Revenue rose while quantity fell 17%, so price rose by *more* than 17% — quantity responded less than proportionally, which is the definition of **inelastic** demand (|E<sub>d</sub>| < 1). Unit elasticity would leave revenue unchanged, and a fall in quantity demanded caused by a price increase is a movement along the demand curve, not a shift."
+    },
+    {
+      "id": "ch6-p3.52",
+      "unit": 5,
+      "topic": "Elasticity and revenue",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 3.5"
+      },
+      "scenario": "ch6-p3.5",
+      "type": "tf",
+      "prompt": "Because Disney's attendance fell 17%, the percentage increase in ticket prices must have been smaller than 17%.",
+      "answer": false,
+      "explanation": "False. For ticket revenue to rise while 17% fewer tickets were sold, the percentage price increase had to be **greater** than 17% (e.g., a 25% price rise with a 17% fall in quantity raises revenue). A smaller price rise would have lowered revenue."
+    },
+    {
+      "id": "ch6-p3.6a",
+      "unit": 5,
+      "topic": "Elasticity and revenue",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 3.6(a)"
+      },
+      "scenario": "ch6-p3.6",
+      "type": "mc",
+      "prompt": "Problem 3.6(a): What must be true of the demand for new cars if carmakers can increase their revenue while selling 15 percent fewer cars?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Demand is elastic: consumers responded strongly by buying 15% fewer cars"
+        },
+        {
+          "id": "b",
+          "text": "Demand is perfectly elastic: carmakers could raise prices without losing any buyers"
+        },
+        {
+          "id": "c",
+          "text": "Nothing; revenue can rise whenever production costs fall"
+        },
+        {
+          "id": "d",
+          "text": "Demand is inelastic: the price increase was larger in percentage terms than the 15% fall in quantity sold"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "Revenue = P × Q rises only if price increased by a greater percentage than the quantity fell, i.e. quantity demanded responded by less than 15% to the price increase: **inelastic** demand (|E<sub>d</sub>| < 1). Perfectly elastic demand would have meant buyers would not accept any price increase, and costs do not determine revenue."
+    },
+    {
+      "id": "ch6-p3.6b",
+      "unit": 5,
+      "topic": "Supply response",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 6 · Problem 3.6(b)"
+      },
+      "scenario": "ch6-p3.6",
+      "type": "mc",
+      "prompt": "Problem 3.6(b): Once the chip shortage and other supply problems end, would carmakers expand production to pre-pandemic levels or keep producing fewer cars to maintain higher profits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "They would expand production back toward pre-pandemic levels: many competing firms each gain by selling more cars at the high price, and they cannot coordinate to hold output down, so prices would fall"
+        },
+        {
+          "id": "b",
+          "text": "They would keep output low: with inelastic demand each firm earns more by restricting output"
+        },
+        {
+          "id": "c",
+          "text": "They would keep output low: carmakers can agree to cut production without losing any sales to rivals"
+        },
+        {
+          "id": "d",
+          "text": "Output cannot change, because carmakers are limited by the quantity demanded"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "The higher prices were caused by a *supply* constraint, not by firms' choice. Once the constraint ends, any single carmaker can earn more by producing and selling extra cars at the elevated price; since the industry has many competing firms that cannot collude to restrict output, supply increases, which pushes the price back down. Inelastic demand explains why restricting output raises revenue, but each firm is better off breaking ranks, so the restraint would not last."
+    },
+    {
+      "id": "ch6-p3.7a",
+      "unit": 5,
+      "topic": "Elasticity and brand loyalty",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 3.7(a)"
+      },
+      "scenario": "ch6-p3.7",
+      "type": "mc",
+      "prompt": "Problem 3.7(a): Is the fact that Pampers and Bounty are two of P&G's most popular brands relevant to P&G's decision to raise prices?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yes: popular brands have very elastic demand, so a price increase attracts many new buyers"
+        },
+        {
+          "id": "b",
+          "text": "No: a firm's decision to raise prices depends only on its costs, not on how popular its brands are"
+        },
+        {
+          "id": "c",
+          "text": "Yes: popular brands with loyal buyers tend to have relatively inelastic demand, so a price increase raises P&G's revenue"
+        },
+        {
+          "id": "d",
+          "text": "No: popular brands always sell the same quantity whatever the price, so the brand's popularity changes nothing"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "Popular brands have loyal customers who are less willing to switch to substitutes, so the quantity demanded falls by a smaller percentage than price rises — **inelastic** demand — and total revenue goes up. Elastic demand would make a price hike reduce revenue. Elasticity is about demand, so the brand's popularity matters directly, but demand is not perfectly inelastic."
+    },
+    {
+      "id": "ch6-p3.7b",
+      "unit": 5,
+      "topic": "Industrywide pricing",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 3.7(b)"
+      },
+      "scenario": "ch6-p3.7",
+      "type": "mc",
+      "prompt": "Problem 3.7(b), part 1: What does the article mean by \"industrywide pricing moves\"?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The government sets one price for all producers in the industry"
+        },
+        {
+          "id": "b",
+          "text": "P&G raises the price on every product in its catalogue at once"
+        },
+        {
+          "id": "c",
+          "text": "When P&G raises (or lowers) its prices, competing firms tend to follow with similar price changes"
+        },
+        {
+          "id": "d",
+          "text": "Competitors raise their prices only on products that do not compete with P&G's"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "As the largest firm, P&G acts as a price leader: when it moves prices, rivals usually follow, so prices change across the whole industry at about the same time."
+    },
+    {
+      "id": "ch6-p3.7b2",
+      "unit": 5,
+      "topic": "Industrywide pricing",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 6 · Problem 3.7(b)"
+      },
+      "scenario": "ch6-p3.7",
+      "type": "mc",
+      "prompt": "Problem 3.7(b), part 2: Would competitors also raising their prices make the demand for Pampers more elastic or less elastic?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Less elastic: if substitute diapers also get more expensive, switching to them is less attractive"
+        },
+        {
+          "id": "b",
+          "text": "More elastic: higher prices everywhere make buyers more sensitive to price changes"
+        },
+        {
+          "id": "c",
+          "text": "More elastic: buyers have more substitutes to choose from"
+        },
+        {
+          "id": "d",
+          "text": "No effect: the elasticity of demand for Pampers depends only on Pampers' own price"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Elasticity depends largely on the availability of *acceptable substitutes*. If rivals raise prices too, the alternatives to Pampers become pricier, so a Pampers price increase causes fewer buyers to switch: demand becomes **less elastic**. Competitors' pricing does matter because it changes the attractiveness of the substitutes."
+    },
+    {
+      "id": "ch6-p4.3a",
+      "unit": 5,
+      "topic": "Price elasticity: lettuce vs bread",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 4.3(a)"
+      },
+      "scenario": "ch6-p4.3",
+      "type": "mc",
+      "prompt": "Problem 4.3(a): For this consumer's household, which product has the higher price elasticity of demand: bread or lettuce?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bread: the household would still buy it at $5, so its demand responds more to price"
+        },
+        {
+          "id": "b",
+          "text": "Bread: it is a necessity, and necessities have more elastic demand than substitutable goods"
+        },
+        {
+          "id": "c",
+          "text": "They are equal, because both goods are bought by the same household"
+        },
+        {
+          "id": "d",
+          "text": "Lettuce: other greens are substitutes and lettuce is not important to the family, so quantity demanded falls a lot if its price rises"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "The household would drop lettuce at $3 (substitutes exist, small budget importance) but would buy bread even at $5 (a necessity with no real substitute). Demand for lettuce is therefore **more elastic**; bread is inelastic. Necessities have *less* elastic demand, not more."
+    },
+    {
+      "id": "ch6-p4.3b",
+      "unit": 5,
+      "topic": "Cross-price elasticity",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 4.3(b)"
+      },
+      "scenario": "ch6-p4.3",
+      "type": "mc",
+      "prompt": "Problem 4.3(b): Is the cross-price elasticity of demand between lettuce and other green vegetables positive or negative for this consumer?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Negative: other green vegetables are complements, so a higher lettuce price lowers the quantity of greens demanded"
+        },
+        {
+          "id": "b",
+          "text": "Positive: other green vegetables are substitutes for lettuce, so a higher lettuce price raises the quantity of greens demanded"
+        },
+        {
+          "id": "c",
+          "text": "Negative: when the price of lettuce rises she buys fewer green vegetables overall"
+        },
+        {
+          "id": "d",
+          "text": "Zero: the two goods are unrelated"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "She says other greens \"can fill in for lettuce\" — they are **substitutes**. When lettuce gets more expensive, she buys more of the other greens, so %ΔQ of greens ÷ %ΔP of lettuce is **positive**. Complements would give a negative value."
+    },
+    {
+      "id": "ch6-p4.6a",
+      "unit": 5,
+      "topic": "Cross-price elasticity sign",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 4.6(a) ★"
+      },
+      "scenario": "ch6-p4.6",
+      "type": "mc",
+      "prompt": "Problem 4.6(a): Iced coffee and iced tea — is the cross-price elasticity of demand positive or negative?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Negative: they are substitutes"
+        },
+        {
+          "id": "b",
+          "text": "Positive: they are substitutes"
+        },
+        {
+          "id": "c",
+          "text": "Positive: they are complements"
+        },
+        {
+          "id": "d",
+          "text": "Negative: they are complements"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "Iced coffee and iced tea are alternatives for the same purpose. If iced tea gets more expensive, some buyers switch to iced coffee, so the quantity of coffee demanded rises: **positive** (substitutes). Substitutes can never give a negative value, and complements never give a positive one."
+    },
+    {
+      "id": "ch6-p4.6b",
+      "unit": 5,
+      "topic": "Cross-price elasticity sign",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 4.6(b) ★"
+      },
+      "scenario": "ch6-p4.6",
+      "type": "mc",
+      "prompt": "Problem 4.6(b): French fries and ketchup — is the cross-price elasticity of demand positive or negative?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Positive: they are substitutes"
+        },
+        {
+          "id": "b",
+          "text": "Positive: they are complements"
+        },
+        {
+          "id": "c",
+          "text": "Negative: they are substitutes"
+        },
+        {
+          "id": "d",
+          "text": "Negative: they are complements"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "Fries and ketchup are consumed together. A rise in the price of fries lowers the quantity of fries bought and with it the quantity of ketchup demanded: **negative** (complements)."
+    },
+    {
+      "id": "ch6-p4.6c",
+      "unit": 5,
+      "topic": "Cross-price elasticity sign",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 4.6(c) ★"
+      },
+      "scenario": "ch6-p4.6",
+      "type": "mc",
+      "prompt": "Problem 4.6(c): Steak and chicken — is the cross-price elasticity of demand positive or negative?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Positive: they are substitutes"
+        },
+        {
+          "id": "b",
+          "text": "Negative: they are complements"
+        },
+        {
+          "id": "c",
+          "text": "Negative: they are substitutes"
+        },
+        {
+          "id": "d",
+          "text": "Zero: neither good affects the demand for the other"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Steak and chicken are alternative sources of protein. A higher steak price shifts some buyers to chicken, raising the quantity of chicken demanded: **positive** (substitutes)."
+    },
+    {
+      "id": "ch6-p4.6d",
+      "unit": 5,
+      "topic": "Cross-price elasticity sign",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 4.6(d) ★"
+      },
+      "scenario": "ch6-p4.6",
+      "type": "mc",
+      "prompt": "Problem 4.6(d): Blu-ray players and Blu-ray discs — is the cross-price elasticity of demand positive or negative?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Positive: they are substitutes"
+        },
+        {
+          "id": "b",
+          "text": "Positive: they are complements"
+        },
+        {
+          "id": "c",
+          "text": "Negative: they are complements"
+        },
+        {
+          "id": "d",
+          "text": "Negative: they are substitutes"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "A Blu-ray disc is only useful with a player. If players become more expensive, fewer are bought and so fewer discs are demanded: **negative** (complements)."
+    },
+    {
+      "id": "ch6-p5.3a0",
+      "unit": 5,
+      "topic": "Midpoint percentage change",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 5.3(a) ★"
+      },
+      "scenario": "ch6-p5.3",
+      "type": "numeric",
+      "prompt": "Problem 5.3(a), step 1: The price rises from $3.00 to $3.70. Using the midpoint formula for the percentage change in price and the long-run elasticity of −0.55, what is the percentage change in the quantity of gasoline demanded? Round to one decimal.",
+      "answer": {
+        "value": -11.5,
+        "tolerance": 0.2,
+        "display": "−11.5%",
+        "hint": "Percent; include the sign"
+      },
+      "explanation": "Midpoint price = ($3.00 + $3.70)/2 = $3.35, so %ΔP = 0.70 ÷ 3.35 = 20.9%. Then %ΔQ<sub>d</sub> = E<sub>d</sub> × %ΔP = −0.55 × 20.9% ≈ **−11.5%**."
+    },
+    {
+      "id": "ch6-p5.3a",
+      "unit": 5,
+      "topic": "New quantity",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity",
+        "starred"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 6 · Problem 5.3(a) ★"
+      },
+      "scenario": "ch6-p5.3",
+      "type": "numeric",
+      "prompt": "Problem 5.3(a): What is the new quantity of gasoline demanded after the tax (in billions of gallons per year)? Use the midpoint formula and round to one decimal.",
+      "answer": {
+        "value": 124.8,
+        "tolerance": 1,
+        "display": "≈ 124.8 billion gallons",
+        "accept": [
+          122.0
+        ]
+      },
+      "explanation": "With %ΔQ = −11.49%: (Q₂ − 140) ÷ [(Q₂ + 140)/2] = −0.1149. Solving: 2(Q₂ − 140) = −0.1149(Q₂ + 140) → 2.1149 Q₂ = 280 − 16.09 = 263.9 → **Q₂ ≈ 124.8 billion gallons**. (Applying −0.55 × 23.3% = −12.8% to 140 with the simple percentage method gives about 122 billion; both are close and tell the same story.)"
+    },
+    {
+      "id": "ch6-p5.3a2",
+      "unit": 5,
+      "topic": "Effectiveness of the tax",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 5.3(a) ★"
+      },
+      "scenario": "ch6-p5.3",
+      "type": "mc",
+      "prompt": "Problem 5.3(a), part 2: How effective would the gas tax be at reducing the consumption of gasoline in the long run?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Very effective: consumption would fall by more than the 20.9% price increase"
+        },
+        {
+          "id": "b",
+          "text": "Very effective: because the tax is $1.00, consumption would fall by about $1.00 per gallon"
+        },
+        {
+          "id": "c",
+          "text": "Not very effective: consumption would fall by only about 11%, because demand for gasoline is inelastic"
+        },
+        {
+          "id": "d",
+          "text": "Completely ineffective: consumption would not change at all"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "With E<sub>d</sub> = −0.55 (inelastic), quantity falls by only about 11.5% in response to a 20.9% price increase, from 140 to about 125 billion gallons. Consumption does fall (so the tax is not *completely* ineffective), but by far less than the price rises — a tax is a weak tool for cutting consumption of a good with few substitutes."
+    },
+    {
+      "id": "ch6-p5.3b",
+      "unit": 5,
+      "topic": "Tax revenue",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 5.3(b) ★"
+      },
+      "scenario": "ch6-p5.3",
+      "type": "numeric",
+      "prompt": "Problem 5.3(b): How much does the federal government receive from the tax (in billions of dollars per year)?",
+      "answer": {
+        "value": 124.8,
+        "tolerance": 1,
+        "display": "≈ $124.8 billion",
+        "prefix": "$",
+        "accept": [
+          122.0
+        ],
+        "hint": "Billions of dollars"
+      },
+      "explanation": "Revenue = tax per gallon × quantity sold after the tax = $1.00 × 124.8 billion gallons ≈ **$124.8 billion** per year. (Using Q = 122 billion gives about $122 billion.) Note it is the *new* quantity that counts, not the old 140 billion."
+    },
+    {
+      "id": "ch6-p6.6a",
+      "unit": 5,
+      "topic": "Short- vs long-run supply",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 6.6(a)"
+      },
+      "scenario": "ch6-p6.6",
+      "type": "graph",
+      "prompt": "Problem 6.6: Draw the effect of a permanent increase in the world demand for chocolate. First draw the new demand curve D₂, then mark the equilibrium after **1 year** (E₂, on the short-run supply curve S₁) and the equilibrium after **4 years** (E₃, on the long-run supply curve S₄).",
+      "graph": {
+        "x": {
+          "label": "Quantity of chocolate",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Price of chocolate",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "D",
+            "label": "D₁",
+            "points": [
+              [
+                20,
+                80
+              ],
+              [
+                80,
+                20
+              ]
+            ],
+            "color": "blue"
+          },
+          {
+            "id": "S1",
+            "label": "S₁ (1 year)",
+            "points": [
+              [
+                40,
+                15
+              ],
+              [
+                60,
+                85
+              ]
+            ],
+            "color": "red"
+          },
+          {
+            "id": "S4",
+            "label": "S₄ (4 years)",
+            "points": [
+              [
+                10,
+                40
+              ],
+              [
+                90,
+                60
+              ]
+            ],
+            "color": "green"
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E₁",
+            "x": 50,
+            "y": 50,
+            "drop": "both",
+            "dropLabels": {
+              "x": "Q₁",
+              "y": "P₁"
+            }
+          }
+        ],
+        "tasks": [
+          {
+            "id": "D2",
+            "kind": "line",
+            "label": "D₂",
+            "prompt": "Draw the new demand curve D₂",
+            "expect": {
+              "slope": "negative",
+              "shiftOf": "D",
+              "direction": "right"
+            }
+          },
+          {
+            "id": "E2",
+            "kind": "point",
+            "label": "E₂",
+            "prompt": "Mark the equilibrium after 1 year (E₂)",
+            "expect": {
+              "atIntersection": [
+                "user:D2",
+                "S1"
+              ],
+              "relativeTo": {
+                "ref": "E",
+                "x": "+",
+                "y": "+"
+              }
+            }
+          },
+          {
+            "id": "E3",
+            "kind": "point",
+            "label": "E₃",
+            "prompt": "Mark the equilibrium after 4 years (E₃)",
+            "expect": {
+              "atIntersection": [
+                "user:D2",
+                "S4"
+              ],
+              "relativeTo": {
+                "ref": "user:E2",
+                "x": "+",
+                "y": "-"
+              }
+            }
+          }
+        ]
+      },
+      "explanation": "Cocoa trees take 2–4 years to bear pods, so supply is very **inelastic (steep) after 1 year** and becomes **more elastic (flatter) after 4 years** as new trees mature. A permanent rise in demand shifts D right. Along the steep S₁ the equilibrium moves to a much higher price (E₂) with only a small increase in quantity; along the flatter S₄, producers can expand output, so the price rises less and quantity rises more (E₃). The price is therefore **higher after 1 year than after 4 years**."
+    },
+    {
+      "id": "ch6-p6.6b",
+      "unit": 5,
+      "topic": "Short- vs long-run supply",
+      "tags": [
+        "problem",
+        "week-5",
+        "elasticity"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 6 · Problem 6.6(b)"
+      },
+      "scenario": "ch6-p6.6",
+      "type": "mc",
+      "prompt": "Problem 6.6: Following a permanent increase in the world demand for chocolate, would you expect the price of chocolate to be greater after 1 year or after 4 years?",
+      "options": [
+        {
+          "id": "a",
+          "text": "After 1 year: supply is more inelastic in the short run (trees take years to mature), so the demand increase raises the price by more"
+        },
+        {
+          "id": "b",
+          "text": "After 4 years: supply is more inelastic in the long run, so the price keeps rising over time"
+        },
+        {
+          "id": "c",
+          "text": "After 4 years: the demand increase has had more time to push prices up"
+        },
+        {
+          "id": "d",
+          "text": "The price would be the same after 1 and 4 years, since the demand increase is permanent"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Supply responds more the longer producers have to adjust. After 1 year growers cannot produce more cocoa (new trees take 2–4 years), so the supply curve is steep and the price spikes. After 4 years new trees are bearing pods, the supply curve is flatter, quantity supplied expands, and the price comes back down some. Permanence of the demand increase means the demand curve stays shifted, but it does not stop supply from becoming more elastic over time."
+    },
+    {
+      "id": "ch6-p1.11a",
+      "type": "numeric",
+      "unit": 5,
+      "difficulty": 2,
+      "tags": [
+        "problem",
+        "week-5"
+      ],
+      "source": {
+        "ref": "Ch 6 · Problem 1.11"
+      },
+      "scenario": "ch6-p1.11",
+      "topic": "Midpoint elasticity on D₁",
+      "prompt": "Along **D₁** (A → B: $3 → $2, 30 → 60 hot dogs), what is the price elasticity of demand? Use the midpoint formula; two decimals.",
+      "answer": {
+        "value": -1.67,
+        "tolerance": 0.01,
+        "accept": [
+          1.67
+        ],
+        "display": "−1.67"
+      },
+      "explanation": "Midpoint formula: %ΔQ = (60 − 30) ÷ 45 = 0.667; %ΔP = (2 − 3) ÷ 2.5 = −0.40. **E = 0.667 ÷ (−0.40) = −1.67** → |E| > 1, demand along D₁ is **elastic** (the price cut raises revenue: $90 → $120). Using the starting values instead (100% ÷ −33%) gives −3.0 — not the midpoint method the problem asks for."
+    },
+    {
+      "id": "ch6-p1.11b",
+      "type": "numeric",
+      "unit": 5,
+      "difficulty": 2,
+      "tags": [
+        "problem",
+        "week-5"
+      ],
+      "source": {
+        "ref": "Ch 6 · Problem 1.11"
+      },
+      "scenario": "ch6-p1.11",
+      "topic": "Midpoint elasticity on D₂",
+      "prompt": "Along **D₂** (A → C: $3 → $2, 30 → 40 hot dogs), what is the price elasticity of demand? Use the midpoint formula; two decimals.",
+      "answer": {
+        "value": -0.71,
+        "tolerance": 0.01,
+        "accept": [
+          0.71
+        ],
+        "display": "−0.71"
+      },
+      "explanation": "%ΔQ = (40 − 30) ÷ 35 = 0.286; %ΔP = (2 − 3) ÷ 2.5 = −0.40. **E = 0.286 ÷ (−0.40) = −0.71** → |E| < 1, demand along D₂ is **inelastic**, so the price cut lowers revenue ($90 → $80). The steeper curve through the same point A is the less elastic one over this price range."
+    },
+    {
+      "id": "ch6-p1.11c",
+      "type": "mc",
+      "unit": 5,
+      "difficulty": 1,
+      "tags": [
+        "problem",
+        "week-5"
+      ],
+      "source": {
+        "ref": "Ch 6 · Problem 1.11"
+      },
+      "shuffleOptions": false,
+      "scenario": "ch6-p1.11",
+      "topic": "Elasticity and the price-cut decision",
+      "prompt": "Which demand curve would make cutting the price to $2 a good idea for your **revenue**?",
+      "options": [
+        "D₂, because more hot dogs are sold at $2",
+        "D₁, because demand is elastic there (E ≈ −1.67), so revenue rises from $90 to $120",
+        "Both, because any price cut sells more hot dogs",
+        "Neither, because a price cut always lowers revenue"
+      ],
+      "answer": "b",
+      "explanation": "Revenue rises after a price cut only when demand is **elastic**. On D₁: 3 × 30 = $90 → 2 × 60 = $120. On D₂ (inelastic, E ≈ −0.71): $90 → 2 × 40 = $80. Selling more units is not enough — the % rise in quantity has to beat the % fall in price."
+    },
+    {
+      "id": "ch6-p4.5a",
+      "type": "numeric",
+      "unit": 5,
+      "difficulty": 3,
+      "tags": [
+        "problem",
+        "week-5"
+      ],
+      "source": {
+        "ref": "Ch 6 · Problem 4.5"
+      },
+      "scenario": "ch6-p4.5",
+      "topic": "Cross-price elasticity (midpoint)",
+      "prompt": "Calculate the cross-price elasticity of demand for buns with respect to the price of hot dogs (midpoint formula, two decimals, keep the sign).",
+      "answer": {
+        "value": -0.91,
+        "tolerance": 0.01,
+        "display": "−0.91"
+      },
+      "explanation": "Cross-price elasticity measures how **quantity demanded** of buns responds to the price of hot dogs, holding the price of buns constant — so read the horizontal shift of demand at the same bun price ($1.20): 10,000 on D₁ → **12,000** on D₂.\n\n%ΔQ(buns) = 2,000 ÷ 11,000 = 18.2%; %ΔP(hot dogs) = (1.80 − 2.20) ÷ 2.00 = −20%.\n\n**E = 18.2% ÷ (−20%) = −0.91.** Negative → buns and hot dogs are **complements**. Using the new *equilibrium* quantity (11,000) mixes in the movement along supply (the bun price also rose to $1.40) and gives −0.48 — that is not the cross-price elasticity of demand."
+    },
+    {
+      "id": "ch6-p4.5b",
+      "type": "mc",
+      "unit": 5,
+      "difficulty": 1,
+      "tags": [
+        "problem",
+        "week-5"
+      ],
+      "source": {
+        "ref": "Ch 6 · Problem 4.5"
+      },
+      "shuffleOptions": false,
+      "scenario": "ch6-p4.5",
+      "topic": "Complements",
+      "prompt": "What does the sign of the cross-price elasticity you found tell you?",
+      "options": [
+        "Hot dogs and buns are substitutes, because the elasticity is negative",
+        "Buns are an inferior good",
+        "Demand for buns is price inelastic",
+        "Hot dogs and buns are complements: a lower hot dog price raises the demand for buns"
+      ],
+      "answer": "d",
+      "explanation": "A **negative** cross-price elasticity means the two goods are **complements** — the price of one and the demand for the other move in opposite directions (hot dogs cheaper → more buns demanded). Substitutes have a positive cross-price elasticity. The sign says nothing about income (inferior goods) or about the buns’ own-price elasticity."
+    },
+    {
+      "id": "ch6-p6.8a",
+      "type": "numeric",
+      "unit": 5,
+      "difficulty": 1,
+      "tags": [
+        "problem",
+        "week-5"
+      ],
+      "source": {
+        "ref": "Ch 6 · Problem 6.8(a)"
+      },
+      "scenario": "ch6-p6.8",
+      "topic": "Perfectly inelastic supply",
+      "prompt": "What is the price elasticity of supply of tickets shown in the graph?",
+      "answer": {
+        "value": 0,
+        "tolerance": 0.001,
+        "display": "0 (perfectly inelastic)"
+      },
+      "explanation": "The supply curve is **vertical** at 15,000 tickets (the arena’s seats): whatever the price, quantity supplied does not change, so %ΔQs = 0 and **E_S = 0** — perfectly inelastic supply."
+    },
+    {
+      "id": "ch6-p6.8b",
+      "type": "graph",
+      "unit": 5,
+      "difficulty": 2,
+      "tags": [
+        "problem",
+        "week-5"
+      ],
+      "source": {
+        "ref": "Ch 6 · Problem 6.8(b)"
+      },
+      "scenario": "ch6-p6.8",
+      "topic": "Demand shift with vertical supply",
+      "prompt": "The team goes undefeated and the demand for tickets increases. Draw the new demand curve D₂ and mark the new equilibrium E₂.",
+      "graph": {
+        "x": {
+          "label": "Quantity (tickets per game)",
+          "min": 0,
+          "max": 30000,
+          "ticks": [
+            {
+              "at": 15000,
+              "label": "15,000"
+            }
+          ]
+        },
+        "y": {
+          "label": "Price (dollars per ticket)",
+          "min": 0,
+          "max": 32,
+          "ticks": [
+            {
+              "at": 15,
+              "label": "$15"
+            }
+          ]
+        },
+        "curves": [
+          {
+            "id": "S",
+            "label": "S",
+            "color": "red",
+            "points": [
+              [
+                15000,
+                1
+              ],
+              [
+                15000,
+                31
+              ]
+            ]
+          },
+          {
+            "id": "D",
+            "label": "D",
+            "color": "blue",
+            "points": [
+              [
+                2000,
+                28
+              ],
+              [
+                26000,
+                4
+              ]
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E₁",
+            "x": 15000,
+            "y": 15
+          }
+        ],
+        "tasks": [
+          {
+            "id": "D2",
+            "kind": "line",
+            "label": "D₂",
+            "prompt": "Draw the new demand curve D₂",
+            "expect": {
+              "slope": "negative",
+              "shiftOf": "D",
+              "direction": "right"
+            }
+          },
+          {
+            "id": "E2",
+            "kind": "point",
+            "label": "E₂",
+            "prompt": "Mark the new equilibrium E₂",
+            "expect": {
+              "atIntersection": [
+                "user:D2",
+                "S"
+              ],
+              "relativeTo": {
+                "ref": "E",
+                "x": "0",
+                "y": "+"
+              }
+            }
+          }
+        ]
+      },
+      "explanation": "Demand shifts **right** to D₂. Because supply is vertical, the new equilibrium is still at **15,000 tickets** — the whole adjustment is a **higher price**. With perfectly inelastic supply, a demand increase raises price only, never quantity."
+    },
+    {
+      "id": "ch6-p6.8c",
+      "type": "mc",
+      "unit": 5,
+      "difficulty": 2,
+      "tags": [
+        "problem",
+        "week-5"
+      ],
+      "source": {
+        "ref": "Ch 6 · Problem 6.8(c)"
+      },
+      "shuffleOptions": false,
+      "scenario": "ch6-p6.8",
+      "topic": "Supply elasticity over time",
+      "prompt": "If the team keeps winning in future years, what is likely to happen to the price elasticity of supply of tickets?",
+      "options": [
+        "It becomes more elastic: given time, the university can add seats or build a bigger arena, so quantity can respond to price",
+        "It stays at zero forever because an arena’s capacity is fixed",
+        "It becomes negative because ticket prices rise",
+        "It becomes perfectly elastic because demand keeps rising"
+      ],
+      "answer": "a",
+      "explanation": "Supply is more elastic the more **time** sellers have to adjust. In the short run seating is fixed (E_S = 0); over several years, sustained high demand gives the university a reason to expand or replace the arena, so quantity supplied can rise with price. Elasticity of supply is never negative, and demand growth does not by itself make supply perfectly elastic."
+    }
+  ]
+}

@@ -1,0 +1,1175 @@
+{
+  "schema": "practice-bank/v1",
+  "id": "1B03-mt2-slides-u8",
+  "course": "ECON 1B03",
+  "title": "Unit 8 Lecture Slides",
+  "description": "Perfect Competition (Hubbard Ch. 10) — questions written from Dr. Mang's Unit 8 slides (Lessons 8.1–8.3) and the in-class lecture deck.",
+  "defaultSource": {
+    "label": "Unit 8 Lecture Slides",
+    "kind": "slides"
+  },
+  "defaultUnit": 8,
+  "scenarios": {
+    "u8-costs": {
+      "title": "Short-run costs of a competitive firm",
+      "body": "A price-taking firm has **fixed cost FC = $10** and the variable costs below (the Lesson 8.2 example). Total cost is TC = FC + VC, MC is the extra TC from one more unit, AVC = VC ÷ q and ATC = TC ÷ q. The next questions refer to this firm.",
+      "table": {
+        "caption": "Cost schedule",
+        "headers": [
+          "Quantity (q)",
+          "Fixed cost ($)",
+          "Variable cost ($)"
+        ],
+        "rows": [
+          [
+            1,
+            10,
+            10
+          ],
+          [
+            2,
+            10,
+            15
+          ],
+          [
+            3,
+            10,
+            25
+          ],
+          [
+            4,
+            10,
+            40
+          ],
+          [
+            5,
+            10,
+            60
+          ],
+          [
+            6,
+            10,
+            90
+          ]
+        ],
+        "rowHeaders": true
+      }
+    },
+    "u8-cf": {
+      "title": "A firm with a cost function",
+      "body": "A price-taking firm has total cost **TC = 100 + q²** (so FC = $100, VC = q², and **MC = 2q**). The market price is **P = $24**."
+    }
+  },
+  "questions": [
+    {
+      "id": "u8-q01",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Five conditions of perfect competition",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 8.1 · slide 7"
+      },
+      "tags": [
+        "lesson-8.1",
+        "slides-vs-text",
+        "five-conditions"
+      ],
+      "prompt": "A market has many small sellers, an identical product, and free entry and exit. However, buyers have no practical way to compare the prices different sellers charge. According to Dr. Mang, is this market perfectly competitive?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yes — many small sellers, an identical product and free entry are the conditions that matter, so it is perfectly competitive"
+        },
+        {
+          "id": "b",
+          "text": "No — perfect information (condition 3) fails, and Mang requires all five conditions to hold at the same time"
+        },
+        {
+          "id": "c",
+          "text": "Yes — four of the five conditions hold, which is close enough for perfect competition"
+        },
+        {
+          "id": "d",
+          "text": "No — an identical product with many sellers always means the market is monopolistically competitive"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "Dr. Mang's slides list **five** conditions that must hold **simultaneously**: (1) many small buyers and sellers, (2) a homogeneous good, (3) perfect information about prices and quality, (4) no additional transaction costs, (5) easy entry and exit. Buyers who cannot compare prices break condition 3, so the market is not perfectly competitive. The 'many small sellers, identical product, free entry' answer is **Hubbard's three-condition version** — by that textbook list this market would qualify. Learn Mang's five for the test. 'Four out of five' fails because the slides say ALL FIVE are required. Monopolistic competition is about *differentiated* products, which this market does not have."
+    },
+    {
+      "id": "u8-q02",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Firm's demand curve",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 8.1 · slide 8"
+      },
+      "tags": [
+        "lesson-8.1"
+      ],
+      "prompt": "In a perfectly competitive market, how does an individual firm see the demand for its own product?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Downward sloping, like market demand, so the firm must cut its price to sell more units"
+        },
+        {
+          "id": "b",
+          "text": "Perfectly inelastic (vertical) at the market quantity, so the firm's output is fixed"
+        },
+        {
+          "id": "c",
+          "text": "Unit elastic at the market price, so revenue is the same at every quantity"
+        },
+        {
+          "id": "d",
+          "text": "Perfectly elastic (horizontal) at the market price, so d = MR = P"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "The **market** price is set by market supply and demand. The individual firm is too small to move it and sells an identical product, so it can sell any quantity at the market price and nothing at a higher price: its demand curve d is **horizontal (perfectly elastic)** at P*. Only the *market* demand curve slopes down. A vertical or unit-elastic firm demand curve has no connection to price-taking behaviour."
+    },
+    {
+      "id": "u8-q03",
+      "type": "tf",
+      "unit": 8,
+      "topic": "Price taker",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 8.1 · slide 8"
+      },
+      "tags": [
+        "lesson-8.1"
+      ],
+      "prompt": "A perfectly competitive firm can raise its profit by charging a price slightly above the market price, because it will lose only a few customers.",
+      "answer": false,
+      "explanation": "**False.** The product is homogeneous and buyers are perfectly informed, so consumers buy only from the lowest-price sellers. A firm asking even a cent more than the market price sells **nothing**; its demand is perfectly elastic at P*. (Charging less just gives up revenue it could have earned on every unit.) The firm is a **price taker**: its only decision is how much to produce."
+    },
+    {
+      "id": "u8-q04",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Total revenue for a price taker",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 8.1 · slide 9"
+      },
+      "tags": [
+        "lesson-8.1"
+      ],
+      "prompt": "For a perfectly competitive firm, total revenue is TR = P × q. Why does the TR curve plot as a straight line from the origin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Because the price does not change as the firm sells more, every extra unit adds the same amount to revenue (MR = P), so TR has a constant slope of P"
+        },
+        {
+          "id": "b",
+          "text": "Because marginal cost is constant, so each extra unit adds the same amount to total cost"
+        },
+        {
+          "id": "c",
+          "text": "Because the firm's demand curve is vertical, so revenue is the same at every price"
+        },
+        {
+          "id": "d",
+          "text": "Because total revenue always equals total cost for a competitive firm"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Since P is constant, MR = ΔTR/Δq = P for every unit, so TR = P·q rises at the constant rate P — a straight line through the origin with slope P (= MR = the horizontal d curve). Constant marginal cost would describe the TC curve, not TR. TR = TC only at the break-even points, not everywhere."
+    },
+    {
+      "id": "u8-q05",
+      "type": "numeric",
+      "unit": 8,
+      "topic": "Marginal revenue = price",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 8.1 · slide 9"
+      },
+      "tags": [
+        "lesson-8.1"
+      ],
+      "prompt": "A perfectly competitive firm can sell at the market price of **$14** per unit. It raises output from 35 to 36 units. By how much does its total revenue change (that is, what is MR for the 36th unit)?",
+      "answer": {
+        "value": 14,
+        "tolerance": 0.01,
+        "prefix": "$",
+        "display": "$14"
+      },
+      "explanation": "TR(35) = 14 × 35 = $490 and TR(36) = 14 × 36 = $504, so ΔTR = 504 − 490 = **$14** and MR = ΔTR/Δq = 14/1 = $14 = P. For a price taker MR equals the market price at every quantity — it does **not** fall as the firm sells more."
+    },
+    {
+      "id": "u8-q06",
+      "type": "mc",
+      "unit": 8,
+      "topic": "MR vs MC decision",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 8.1 · slides 6, 12–13"
+      },
+      "tags": [
+        "lesson-8.1"
+      ],
+      "prompt": "A perfectly competitive firm sells at P = $9. At its current output the marginal cost of the last unit produced is $12. To maximize profit, the firm should...",
+      "options": [
+        {
+          "id": "a",
+          "text": "Increase output, because each unit sold still brings in a positive amount of revenue"
+        },
+        {
+          "id": "b",
+          "text": "Keep output unchanged, because MR is constant for a price taker"
+        },
+        {
+          "id": "c",
+          "text": "Reduce output, because MR = $9 is less than MC = $12, so the last unit lowers profit by $3"
+        },
+        {
+          "id": "d",
+          "text": "Raise its price to $12 so that it covers the marginal cost of the last unit"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "Rule from the slides: if MR > MC, profit rises with more output; if **MR < MC**, costs rise faster than revenue and profit falls, so cut back. Here MR − MC = 9 − 12 = −$3 on the last unit. 'Positive revenue' is irrelevant — the unit must add more revenue than cost. A price taker cannot raise its price (it would sell nothing); MR being constant does not mean the output choice is already right."
+    },
+    {
+      "id": "u8-q07",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Why MR = MC maximizes profit",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 8.1 · slide 11"
+      },
+      "tags": [
+        "lesson-8.1"
+      ],
+      "prompt": "On a graph of TR and TC against quantity, profit is at its maximum at the quantity where...",
+      "options": [
+        {
+          "id": "a",
+          "text": "TR and TC cross, because that is where the firm breaks even"
+        },
+        {
+          "id": "b",
+          "text": "TR is largest, because more revenue always means more profit"
+        },
+        {
+          "id": "c",
+          "text": "TC is lowest, because the firm wants to minimize its costs"
+        },
+        {
+          "id": "d",
+          "text": "TR and TC have the same slope (and TR lies above TC), which is the same as MR = MC"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "Profit = TR − TC is the vertical gap between the curves. It is largest where the gap stops widening: the **slopes are equal**, and slope of TR = MR, slope of TC = MC, so MR = MC. Where the curves cross, profit is zero (break-even) — the opposite of maximum. Maximizing TR or minimizing TC alone ignores the other side of the profit calculation."
+    },
+    {
+      "id": "u8-q08",
+      "type": "mc",
+      "unit": 8,
+      "topic": "P = MC interpretation",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 8.1 · slide 14"
+      },
+      "tags": [
+        "lesson-8.1"
+      ],
+      "prompt": "Since MR = P for a competitive firm, profit maximization implies P = MC. What does this result mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The market price consumers pay equals the marginal cost the firm incurs to produce the last unit"
+        },
+        {
+          "id": "b",
+          "text": "The firm earns zero economic profit on all of its units"
+        },
+        {
+          "id": "c",
+          "text": "The firm is producing at the lowest point of its average total cost curve"
+        },
+        {
+          "id": "d",
+          "text": "The firm's price equals its average total cost, so it breaks even"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "P = MC says the price consumers pay equals the marginal cost the firm pays to make the last unit (slide 14). It does **not** by itself say anything about profit: profit per unit is P − ATC, which can be positive or negative at q*. Zero economic profit and P = ATC = minimum ATC only appear in the **long run** (Lesson 8.3), after entry and exit."
+    },
+    {
+      "id": "u8-q09",
+      "type": "graph",
+      "unit": 8,
+      "topic": "Price rise shifts firm's demand",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 8.1 · slides 8, 12–14"
+      },
+      "tags": [
+        "lesson-8.1"
+      ],
+      "prompt": "A competitive firm faces the market price shown by d₁ = MR₁. A rise in market demand pushes the market price **up**. Draw the firm's new demand curve d₂, then mark the firm's new profit-maximizing output (where P = MC).",
+      "graph": {
+        "x": {
+          "label": "Quantity (q)",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Price / Cost ($)",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "MC",
+            "label": "MC",
+            "points": [
+              [
+                10,
+                8
+              ],
+              [
+                90,
+                88
+              ]
+            ],
+            "color": "red"
+          },
+          {
+            "id": "d1",
+            "label": "d₁ = MR₁",
+            "points": [
+              [
+                0,
+                30
+              ],
+              [
+                100,
+                30
+              ]
+            ],
+            "color": "blue"
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 32,
+            "y": 30,
+            "drop": "x",
+            "dropLabels": {
+              "x": "q₁*"
+            }
+          }
+        ],
+        "tasks": [
+          {
+            "id": "d2",
+            "kind": "line",
+            "label": "d₂ = MR₂",
+            "prompt": "Draw the new demand curve d₂",
+            "expect": {
+              "slope": "flat",
+              "shiftOf": "d1",
+              "direction": "up"
+            },
+            "hints": {
+              "shift": "The price went up, so d must sit above d₁."
+            },
+            "model": {
+              "points": [
+                [
+                  0,
+                  55
+                ],
+                [
+                  100,
+                  55
+                ]
+              ]
+            }
+          },
+          {
+            "id": "B",
+            "kind": "point",
+            "label": "B",
+            "prompt": "Mark the new profit-maximizing output (P = MC)",
+            "expect": {
+              "atIntersection": [
+                "user:d2",
+                "MC"
+              ],
+              "relativeTo": {
+                "ref": "A",
+                "x": "+",
+                "y": "+"
+              }
+            }
+          }
+        ]
+      },
+      "explanation": "A price taker's demand curve is horizontal at the market price, so a higher market price moves d **up** (to d₂ = MR₂). The firm keeps following MR = MC, and since MR = P, it produces where the new horizontal line meets the MC curve. Moving up along an upward-sloping MC, the firm's output **rises** (q₂* > q₁*) — a higher price calls forth more output, which is why the MC curve is the firm's supply curve (Lesson 8.2)."
+    },
+    {
+      "id": "u8-q10",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Choosing quantity at P = $20",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 8.2 · slides 25–28"
+      },
+      "tags": [
+        "lesson-8.2"
+      ],
+      "scenario": "u8-costs",
+      "prompt": "Refer to the cost table. If the market price is $20, how many units should the firm produce?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 units, the quantity at which average total cost is lowest"
+        },
+        {
+          "id": "b",
+          "text": "6 units, the most the firm can make, since price is above average variable cost there"
+        },
+        {
+          "id": "c",
+          "text": "5 units, because the 5th unit has MC = $20 = P, so MR ≥ MC up to that unit"
+        },
+        {
+          "id": "d",
+          "text": "0 units — the firm should shut down because it earns a profit of only $30"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "Build the MC column from TC = FC + VC: TC = 20, 25, 35, 50, 70, 100, so MC = 5, 10, 15, 20, 30 for units 2–6. Produce while MR = P = $20 ≥ MC; the 5th unit has MC = $20 = P, and the 6th has MC = $30 > $20 (it would *lose* $10). So q* = 5. (The 4th and 5th units give the same profit, $30, because the 5th adds MR − MC = 0 — slide 28 — but the rule is to produce up to MR = MC.) Minimum ATC (at 3 units) is not the target — MR = MC is. Shutting down would waste a $30 profit."
+    },
+    {
+      "id": "u8-q11",
+      "type": "numeric",
+      "unit": 8,
+      "topic": "Profit at P = $20",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 8.2 · slide 28"
+      },
+      "tags": [
+        "lesson-8.2"
+      ],
+      "scenario": "u8-costs",
+      "prompt": "Refer to the cost table. At a market price of $20, what is the firm's maximum profit?",
+      "answer": {
+        "value": 30,
+        "tolerance": 0.01,
+        "prefix": "$",
+        "display": "$30"
+      },
+      "explanation": "Profit = P × q − TC at each quantity: q = 1: 20 − 20 = $0; q = 2: 40 − 25 = $15; q = 3: 60 − 35 = $25; q = 4: 80 − 50 = $30; q = 5: 100 − 70 = **$30**; q = 6: 120 − 100 = $20. The maximum is **$30**, reached at q = 5 (where P = MC = $20); profit then falls as the 6th unit costs $30 to add but brings in only $20."
+    },
+    {
+      "id": "u8-q12",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Loss-minimizing quantity at P = $10",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 8.2 · slides 29–30"
+      },
+      "tags": [
+        "lesson-8.2"
+      ],
+      "scenario": "u8-costs",
+      "prompt": "Refer to the cost table. If the market price falls to $10, what should the firm do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Shut down temporarily, because the firm cannot earn a profit at this price"
+        },
+        {
+          "id": "b",
+          "text": "Produce 3 units (where P = MC = $10) and take a $5 loss, which is smaller than the $10 loss from shutting down"
+        },
+        {
+          "id": "c",
+          "text": "Produce 3 units and earn a profit, because P exceeds the average variable cost of $8.33"
+        },
+        {
+          "id": "d",
+          "text": "Produce 6 units, because total revenue is largest at the highest output"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "At P = $10 the firm sets P = MC at q = 3: TR = $30, TC = $35, profit = **−$5**. Shutting down loses only the fixed cost, **−$10**, so operating is better. The test is AVC: AVC(3) = $25/3 = $8.33 < $10, so revenue covers all variable cost and $5 of fixed cost. Operating still means a *loss* (P = $10 < ATC = $11.67), so 'earn a profit' is wrong — P > AVC only says the loss is smaller than FC. Producing 6 units would lose 60 − 100 = −$40."
+    },
+    {
+      "id": "u8-q13",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Shut down at P = $5",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 8.2 · slides 31–33"
+      },
+      "tags": [
+        "lesson-8.2"
+      ],
+      "scenario": "u8-costs",
+      "prompt": "Refer to the cost table. If the market price is $5, what should the firm do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Shut down temporarily: AVC at 2 units is $7.50 > $5, so operating loses $15 while shutting down loses only the $10 fixed cost"
+        },
+        {
+          "id": "b",
+          "text": "Produce 2 units, because P = MC = $5 there and the firm should always follow P = MC, accepting the $15 loss"
+        },
+        {
+          "id": "c",
+          "text": "Exit the industry permanently, because price is below average total cost"
+        },
+        {
+          "id": "d",
+          "text": "Produce 2 units, because shutting down would mean losing the full $25 of total cost"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "P = MC at q = 2 (MC = $5): TR = $10, TC = $25, loss = $15. But a firm that shuts down still pays FC, so its loss is only **$10**. In terms of the shutdown rule, AVC(2) = $15/2 = $7.50 > P = $5: revenue ($10) does not even cover variable cost ($15). So shut down. P = MC is the output rule *only for a firm that is operating*. A shutdown is **temporary** (short run); permanent exit is a long-run decision. And shutting down does not cost the whole $25 — the fixed cost of $10 is all that remains."
+    },
+    {
+      "id": "u8-q14",
+      "type": "numeric",
+      "unit": 8,
+      "topic": "Shutdown price (min AVC)",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 8.2 · slides 22–23, 30, 32"
+      },
+      "tags": [
+        "lesson-8.2"
+      ],
+      "scenario": "u8-costs",
+      "prompt": "Refer to the cost table. Below what price should the firm shut down temporarily? (Hint: it is the lowest AVC.)",
+      "answer": {
+        "value": 7.5,
+        "tolerance": 0.01,
+        "prefix": "$",
+        "display": "$7.50"
+      },
+      "explanation": "Operate if P > AVC, shut down if P < AVC. AVC = VC/q: 10/1 = $10.00, 15/2 = **$7.50**, 25/3 = $8.33, 40/4 = $10.00, 60/5 = $12.00, 90/6 = $15.00. The lowest AVC is **$7.50** (at q = 2), so the shutdown price is $7.50. (At exactly $7.50 the firm is indifferent — losses are the same either way, equal to FC.) Do not use ATC: fixed costs are paid whether the firm operates or not, so they are irrelevant to the shutdown decision."
+    },
+    {
+      "id": "u8-q15",
+      "type": "numeric",
+      "unit": 8,
+      "topic": "Break-even price (min ATC)",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 8.2 · slides 10, 17–18, 26–28"
+      },
+      "tags": [
+        "lesson-8.2"
+      ],
+      "scenario": "u8-costs",
+      "prompt": "Refer to the cost table. At what market price does the firm just break even (earn zero profit)? Round to the nearest cent.",
+      "answer": {
+        "value": 11.67,
+        "tolerance": 0.01,
+        "prefix": "$",
+        "display": "$11.67",
+        "accept": [
+          11.6667
+        ]
+      },
+      "explanation": "The firm breaks even when P = ATC at q* (P = MC = ATC, i.e. the minimum of ATC). ATC = TC/q: 20/1 = $20.00, 25/2 = $12.50, 35/3 = **$11.67**, 50/4 = $12.50, 70/5 = $14.00, 100/6 = $16.67. The minimum is $11.67 at q = 3, where MC = $10 is below it but the 4th unit (MC $15) would push ATC back up. At $11.67 the firm produces 3 units with TR = 35 = TC. Don't confuse this with the $7.50 shutdown price, which is the minimum of AVC."
+    },
+    {
+      "id": "u8-q16",
+      "type": "numeric",
+      "unit": 8,
+      "topic": "Profit at P = $12",
+      "difficulty": 3,
+      "source": {
+        "ref": "Lesson 8.2 · slides 26–28"
+      },
+      "tags": [
+        "lesson-8.2"
+      ],
+      "scenario": "u8-costs",
+      "prompt": "Refer to the cost table. If the market price is $12, what is the firm's profit (use a negative number for a loss)?",
+      "answer": {
+        "value": 1,
+        "tolerance": 0.01,
+        "prefix": "$",
+        "display": "$1"
+      },
+      "explanation": "Find q* by producing until MC would exceed P = $12: MC = 5, 10 (units 2, 3), then 15 for the 4th unit. So q* = 3. Profit = 12 × 3 − 35 = 36 − 35 = **$1**. Check the neighbours: q = 2 gives 24 − 25 = −$1; q = 4 gives 48 − 50 = −$2. The positive profit is consistent with the break-even price: $12 is just above the minimum ATC of $11.67."
+    },
+    {
+      "id": "u8-q17",
+      "type": "numeric",
+      "unit": 8,
+      "topic": "Market supply (adding firms)",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 8.2 · slide 24"
+      },
+      "tags": [
+        "lesson-8.2"
+      ],
+      "scenario": "u8-costs",
+      "prompt": "Suppose the market contains **200 identical firms**, each with the cost table above. At a market price of $12, what total quantity do they supply together?",
+      "answer": {
+        "value": 600,
+        "tolerance": 0.5,
+        "display": "600"
+      },
+      "explanation": "Each firm's supply curve is its MC curve above the minimum AVC. At P = $12 each firm produces where P = MC: q = 3 (MC = $10 ≤ $12 < $15 for the 4th unit), and $12 is above the shutdown price of $7.50, so it operates. The market supply curve is the **sum of the individual firms' supply curves**, so at $12 market quantity = 200 × 3 = **600**."
+    },
+    {
+      "id": "u8-q18",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Operate or shut down (P between AVC and ATC)",
+      "difficulty": 3,
+      "source": {
+        "ref": "Lesson 8.2 · slides 19–23"
+      },
+      "tags": [
+        "lesson-8.2"
+      ],
+      "prompt": "A price-taking firm faces P = $14 and produces q = 40 units where P = MC. At that output ATC = $18 and AVC = $11. What should it do in the short run?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Shut down, because P = $14 is below ATC = $18 and the firm is making a loss"
+        },
+        {
+          "id": "b",
+          "text": "Operate and earn a profit, because P is above AVC"
+        },
+        {
+          "id": "c",
+          "text": "It is indifferent, because the loss it incurs equals its fixed cost"
+        },
+        {
+          "id": "d",
+          "text": "Operate: P > AVC, so it loses $160 (4 × 40), less than the $280 fixed cost it would lose by shutting down"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "Loss per unit = P − ATC = 14 − 18 = −$4, so total loss from operating = 4 × 40 = **$160**. Fixed cost = (ATC − AVC) × q = (18 − 11) × 40 = **$280**, which is what shutting down would lose. Since P = $14 > AVC = $11, revenue ($560) covers all variable cost ($440) plus $120 of the fixed cost, so operating loses less than shutting down. The shutdown rule compares P with **AVC**, not ATC — a loss alone is not a reason to shut down. P > AVC does not mean profit (P < ATC). Indifference arises only when P = AVC."
+    },
+    {
+      "id": "u8-q19",
+      "type": "tf",
+      "unit": 8,
+      "topic": "Loss-minimizing output",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 8.2 · slides 11, 18"
+      },
+      "tags": [
+        "lesson-8.2"
+      ],
+      "prompt": "If a competitive firm produces the quantity where MR = MC, it is always earning a positive economic profit.",
+      "answer": false,
+      "explanation": "**False.** MR = MC (P = MC) gives the best the firm can do at the market price — a *profit-maximizing* quantity when P > ATC but the **loss-minimizing** quantity when P < ATC (slide 18 labels q* as 'the loss minimizing quantity'). Profit per unit is P − ATC at q*, which can be positive, zero or negative."
+    },
+    {
+      "id": "u8-lec01",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Revenue below variable cost: shut down",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 12",
+        "label": "Unit 8 In-Class Lecture"
+      },
+      "tags": [
+        "lesson-8.2",
+        "slides-vs-text",
+        "lesson-8.2-slide-21",
+        "in-class"
+      ],
+      "prompt": "A firm's revenue is less than its variable cost. According to the shutdown logic in the slides, which statement is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The firm should operate, because it has to pay its fixed cost either way"
+        },
+        {
+          "id": "b",
+          "text": "Loss from operating (VC + FC − R) exceeds the fixed cost, so the firm loses less by shutting down temporarily (loss = FC)"
+        },
+        {
+          "id": "c",
+          "text": "The firm should operate, because revenue still covers part of the fixed cost"
+        },
+        {
+          "id": "d",
+          "text": "The firm should shut down permanently, because it can no longer cover any cost"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "If R < VC then Loss(operate) = VC + FC − R > FC = Loss(shut down), so the firm **shuts down temporarily**. The fixed cost is paid in either case, so it cancels out of the decision — that is why 'it has to pay FC anyway' cannot justify operating. Revenue here does not even cover variable cost, let alone part of fixed cost. **Warning:** slide 21 of the Lesson 8.2 deck prints 'the firm will choose to operate' for this case; that is a typo — the logic on that slide, the in-class deck (slide 12) and the summary on slide 23 all conclude shut down. Shutdown is temporary; permanent exit is a long-run decision."
+    },
+    {
+      "id": "u8-q20",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Firm's short-run supply curve",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 8.2 · slide 24"
+      },
+      "tags": [
+        "lesson-8.2"
+      ],
+      "prompt": "A competitive firm's short-run supply curve is...",
+      "options": [
+        {
+          "id": "a",
+          "text": "The entire marginal cost curve"
+        },
+        {
+          "id": "b",
+          "text": "The part of the average total cost curve above its minimum"
+        },
+        {
+          "id": "c",
+          "text": "The part of the marginal cost curve that lies above the average variable cost curve"
+        },
+        {
+          "id": "d",
+          "text": "The horizontal demand curve d = MR at the market price"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "The firm picks q where P = MC, so MC traces the quantity supplied at each price — but only when P is at least AVC. Below minimum AVC the firm shuts down and supplies **zero**, so the supply curve is MC above AVC (slide 24: 'MC above AVC' = S). The *entire* MC curve would imply output at prices where the firm shuts down. ATC is a cost average, not the output rule. The horizontal d = MR curve is what the firm faces, not what it supplies."
+    },
+    {
+      "id": "u8-q21",
+      "type": "numeric",
+      "unit": 8,
+      "topic": "Profit-maximizing q from a cost function",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 8.1–8.2 · slides 5–6, 14"
+      },
+      "tags": [
+        "lesson-8.2"
+      ],
+      "scenario": "u8-cf",
+      "prompt": "Refer to the scenario. What quantity maximizes the firm's profit?",
+      "answer": {
+        "value": 12,
+        "tolerance": 0.01,
+        "display": "12"
+      },
+      "explanation": "Set P = MC: 24 = 2q → **q* = 12**. (MC is the extra cost of one more unit; for TC = 100 + q², the marginal cost is 2q, and fixed cost does not affect it.) Quick check by neighbours: q = 11: TR − TC = 264 − 221 = $43; q = 12: 288 − 244 = $44; q = 13: 312 − 269 = $43."
+    },
+    {
+      "id": "u8-q22",
+      "type": "numeric",
+      "unit": 8,
+      "topic": "Profit from a cost function",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 8.2 · slides 4, 17"
+      },
+      "tags": [
+        "lesson-8.2"
+      ],
+      "scenario": "u8-cf",
+      "prompt": "Refer to the scenario. What is the firm's maximum profit?",
+      "answer": {
+        "value": 44,
+        "tolerance": 0.01,
+        "prefix": "$",
+        "display": "$44"
+      },
+      "explanation": "At q* = 12 (from P = MC: 24 = 2q): TR = P × q = 24 × 12 = $288; TC = 100 + 12² = 100 + 144 = $244. π = TR − TC = 288 − 244 = **$44**. Equivalent: (P − ATC) × q with ATC = 244/12 = $20.33, so (24 − 20.33) × 12 = $44. The firm also operates: AVC = q = 12 < 24."
+    },
+    {
+      "id": "u8-lec02",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Long-run entry",
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 14",
+        "label": "Unit 8 In-Class Lecture"
+      },
+      "tags": [
+        "lesson-8.3",
+        "in-class"
+      ],
+      "prompt": "Firms in a perfectly competitive market are earning economic profits (P > ATC). What happens in the long run?",
+      "options": [
+        {
+          "id": "a",
+          "text": "New firms enter, market supply shifts right, and the price falls until the economic profit is eliminated"
+        },
+        {
+          "id": "b",
+          "text": "Existing firms raise their prices, since they can charge more than their costs"
+        },
+        {
+          "id": "c",
+          "text": "New firms enter, but market demand rises to absorb them, so the price stays high"
+        },
+        {
+          "id": "d",
+          "text": "Firms exit, market supply shifts left, and the price rises"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Economic profits attract new investors (easy entry is one of Mang's five conditions). The extra firms shift **market supply to the right**, which lowers the market price; the firm's d = MR line moves down until P = ATC and profit is zero (Lesson 8.3 slide 36: P₁ → P₂). Price-taking firms cannot raise prices, and entry does not raise demand. Exit and a leftward supply shift is the response to *losses* (slide 37)."
+    },
+    {
+      "id": "u8-q23",
+      "type": "graph",
+      "unit": 8,
+      "topic": "Entry shifts market supply",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 8.3 · slide 36"
+      },
+      "tags": [
+        "lesson-8.3"
+      ],
+      "prompt": "Firms in this market are earning economic profits at the initial equilibrium E. Draw the long-run change in market supply (S′), then mark the new market equilibrium E′.",
+      "graph": {
+        "x": {
+          "label": "Market quantity (Q)",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Market price ($)",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "D",
+            "label": "D",
+            "points": [
+              [
+                10,
+                85
+              ],
+              [
+                85,
+                15
+              ]
+            ],
+            "color": "blue"
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "points": [
+              [
+                10,
+                15
+              ],
+              [
+                85,
+                85
+              ]
+            ],
+            "color": "red"
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 47.5,
+            "y": 50,
+            "drop": "both",
+            "dropLabels": {
+              "x": "Q₁",
+              "y": "P₁"
+            }
+          }
+        ],
+        "tasks": [
+          {
+            "id": "S2",
+            "kind": "line",
+            "label": "S′",
+            "prompt": "Draw the new market supply curve S′",
+            "expect": {
+              "slope": "positive",
+              "shiftOf": "S",
+              "direction": "right"
+            },
+            "hints": {
+              "shift": "Profits attract entry — more firms means more supply at every price, so S shifts right."
+            },
+            "model": {
+              "points": [
+                [
+                  28,
+                  15
+                ],
+                [
+                  98,
+                  85
+                ]
+              ]
+            }
+          },
+          {
+            "id": "E2",
+            "kind": "point",
+            "label": "E′",
+            "prompt": "Mark the new market equilibrium",
+            "expect": {
+              "atIntersection": [
+                "D",
+                "user:S2"
+              ],
+              "relativeTo": {
+                "ref": "E",
+                "x": "+",
+                "y": "-"
+              }
+            }
+          }
+        ]
+      },
+      "explanation": "Economic profits signal new investors to enter. Each entrant adds its own supply, so **market supply shifts right** (S → S′). With demand unchanged, the new equilibrium E′ has a **lower price and a higher quantity**. The lower price slides every firm's d = MR line down until P = ATC and economic profit reaches zero."
+    },
+    {
+      "id": "u8-q24",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Long-run exit",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 8.3 · slides 37–38"
+      },
+      "tags": [
+        "lesson-8.3"
+      ],
+      "prompt": "Firms in a perfectly competitive market are making economic losses (P < ATC). What happens in the long run?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Firms stay and the price falls further, because fixed costs are sunk"
+        },
+        {
+          "id": "b",
+          "text": "Some firms exit, market supply shifts left, and the price falls because there are fewer competitors"
+        },
+        {
+          "id": "c",
+          "text": "More firms enter to take advantage of the lower price"
+        },
+        {
+          "id": "d",
+          "text": "Some firms exit, market supply shifts left, and the price rises until the losses are eliminated (P = ATC)"
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "Losses lower investment in the industry, so some firms **exit**: market supply shifts **left**, the market price rises, and each remaining firm's d = MR line moves up until P = ATC and losses disappear (slide 37: P₃ rising). Fewer firms means less supply, which raises — not lowers — the price. Entry happens when there are economic profits, not losses."
+    },
+    {
+      "id": "u8-lec03",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Zero economic profit (normal profit)",
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 17",
+        "label": "Unit 8 In-Class Lecture"
+      },
+      "tags": [
+        "lesson-8.3",
+        "in-class"
+      ],
+      "prompt": "In long-run perfect competition, P = ATC. What does this say about firms' profits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Firms earn zero accounting profit, so owners receive no return and will soon leave the industry"
+        },
+        {
+          "id": "b",
+          "text": "Economic profit is zero (a normal profit): accounting profit exactly equals investors' risk-adjusted required return, so there is no incentive to enter or exit"
+        },
+        {
+          "id": "c",
+          "text": "Firms earn a positive economic profit that is shared with new investors"
+        },
+        {
+          "id": "d",
+          "text": "Firms make an economic loss that is small enough to ignore in the long run"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "Mang's slide: with P = ATC, firms earn an accounting profit **just equal to investors' risk-adjusted expected return** — a zero **economic** profit, also called a **normal profit** (Lesson 8.3 slide 39). Capital is allocated efficiently because there is no gain from moving in or out. Zero *economic* profit is not zero *accounting* profit: owners are still earning the return they could get elsewhere. Neither positive profit nor losses would be a stable long-run position, since they trigger entry or exit."
+    },
+    {
+      "id": "u8-q25",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Long-run condition MC = ATC",
+      "difficulty": 3,
+      "source": {
+        "ref": "Lesson 8.3 · slides 39, 42"
+      },
+      "tags": [
+        "lesson-8.3",
+        "slides-vs-text"
+      ],
+      "prompt": "In long-run perfect competition P = MC (profit maximization) and P = ATC (zero economic profit), so MC = ATC. What does this tell us?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ATC is at its highest point, so the firm is producing as little as it can"
+        },
+        {
+          "id": "b",
+          "text": "AVC equals ATC, so the firm has no fixed cost"
+        },
+        {
+          "id": "c",
+          "text": "ATC is at its lowest point: production is efficient and P is the lowest sustainable price (Mang labels this the minimum efficient scale)"
+        },
+        {
+          "id": "d",
+          "text": "MC is falling, so the firm still has room to grow"
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "MC cuts ATC at ATC's **minimum** point (when MC is below ATC, ATC is falling; when above, rising). So MC = ATC means the firm produces at minimum ATC: the lowest possible cost per unit, hence the lowest sustainable market price. **Slides vs. text:** Mang's slides call this the *minimum efficient scale* (MES) of the short-run ATC curve (slide 42); Hubbard reserves 'minimum efficient scale' for the bottom of the *long-run* average cost curve and calls the outcome *productive efficiency*. Same idea — and for the test use Mang's wording. AVC = ATC would require FC = 0, which is not implied; and ATC at a maximum is the opposite of what MC = ATC means."
+    },
+    {
+      "id": "u8-q26",
+      "type": "numeric",
+      "unit": 8,
+      "topic": "Producer surplus",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 8.3 · slides 40–41"
+      },
+      "tags": [
+        "lesson-8.3"
+      ],
+      "prompt": "At the market equilibrium P* = $20, a competitive firm sells Q* = 100 units. Its total variable cost of producing those units is $1,400. What is its producer surplus?",
+      "answer": {
+        "value": 600,
+        "tolerance": 0.5,
+        "prefix": "$",
+        "display": "$600"
+      },
+      "explanation": "Producer surplus = Total Revenue − Variable Cost (slide 40; the area under the price line above the MC/supply curve). TR = P × Q = 20 × 100 = $2,000, so PS = 2,000 − 1,400 = **$600**. This is the 'gross profit' of an accounting class — it is **before** fixed cost is paid."
+    },
+    {
+      "id": "u8-q27",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Producer surplus, fixed cost and profit",
+      "difficulty": 3,
+      "source": {
+        "ref": "Lesson 8.3 · slide 41"
+      },
+      "tags": [
+        "lesson-8.3"
+      ],
+      "prompt": "A firm sells at the market price with total revenue of $3,600, total variable cost of $2,500 and fixed cost of $1,400. Using PS = TR − VC and the PS–FC link in the slides, what is its profit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "−$300 (a loss): PS = $1,100 is less than FC = $1,400"
+        },
+        {
+          "id": "b",
+          "text": "+$1,100: producer surplus is the firm's profit"
+        },
+        {
+          "id": "c",
+          "text": "+$2,200: revenue minus fixed cost"
+        },
+        {
+          "id": "d",
+          "text": "$0: producer surplus is used up covering fixed costs"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "PS = TR − VC = 3,600 − 2,500 = $1,100. Producer surplus pays the fixed cost, so π = PS − FC = 1,100 − 1,400 = **−$300**. Rule: PS > FC → π > 0; PS < FC → π < 0; PS = FC → π = 0 (the long-run perfect-competition case). The answer of +$1,100 forgets to subtract FC. +$2,200 subtracts FC from revenue but ignores variable cost. Zero profit needs PS = FC exactly, but here PS ≠ FC. (In the short run this firm would still operate, since TR > VC — it just takes a loss.)"
+    },
+    {
+      "id": "u8-q28",
+      "type": "mc",
+      "unit": 8,
+      "topic": "Efficiency of long-run perfect competition",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 8.3 · slide 42"
+      },
+      "tags": [
+        "lesson-8.3"
+      ],
+      "prompt": "According to Dr. Mang, why is total surplus at a maximum in long-run perfect competition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Firms earn the largest possible economic profit, which makes producer surplus as big as it can be"
+        },
+        {
+          "id": "b",
+          "text": "Firms produce at minimum efficient scale, so P* is the lowest sustainable price and Q* is the largest quantity consumers could buy"
+        },
+        {
+          "id": "c",
+          "text": "The government sets P = MC, so no firm can exploit consumers"
+        },
+        {
+          "id": "d",
+          "text": "Producers capture all the surplus, so consumers lose nothing"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "Slide 42: perfect competition drives firms to produce at minimum ATC, making P* the lowest sustainable price. That makes Q* the largest quantity consumers could buy at a price that covers costs, so CS + PS (total surplus) is at its maximum. It does not come from big profits — long-run economic profit is **zero**. Firms choose P = MC on their own; no government is involved. Producers do not capture all the surplus — consumer surplus (the area under demand above P*) is large, and it is part of the total."
+    }
+  ]
+}

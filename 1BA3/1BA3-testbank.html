@@ -6,14 +6,14 @@
 <title>COMM 1BA3 &mdash; Test Bank Answer Key</title>
 <meta name="color-scheme" content="light dark">
 <link rel="icon" href="/favicon.ico" sizes="32x32">
-<link rel="icon" href="/site/icon.svg?v=10" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/site/apple-touch-icon.png?v=10">
+<link rel="icon" href="/site/icon.svg?v=11" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/site/apple-touch-icon.png?v=11">
 <script>try{var d=document.documentElement,t=localStorage.getItem('hub:theme');if(t)d.setAttribute('data-theme',t);if(localStorage.getItem('hub:nav')==='closed')d.classList.add('nav-collapsed')}catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/site/site.css?v=10">
-<link rel="stylesheet" href="/site/lesson.css?v=10">
+<link rel="stylesheet" href="/site/site.css?v=11">
+<link rel="stylesheet" href="/site/lesson.css?v=11">
 <style>
   /* Test-bank answer key: tokens only, so light/dark both work */
   /* jump grid (chapters or weeks) */
@@ -247,7 +247,7 @@
   }
   /* the shell (site.js) reads the page's <section>s when it loads, so it is loaded after they exist */
   function loadShell() {
-    ['/site/courses.js?v=10', '/site/site.js?v=10'].forEach(function (src) {
+    ['/site/courses.js?v=11', '/site/site.js?v=11'].forEach(function (src) {
       var s = document.createElement('script'); s.src = src; s.async = false; document.body.appendChild(s);
       if (/site\.js/.test(src)) s.onload = jumpToHash;   // the shell shifts the layout, so jump once it is drawn
     });

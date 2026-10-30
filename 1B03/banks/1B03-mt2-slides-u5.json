@@ -1,0 +1,1072 @@
+{
+  "schema": "practice-bank/v1",
+  "id": "1B03-mt2-slides-u5",
+  "course": "ECON 1B03",
+  "title": "Unit 5 Lecture Slides",
+  "description": "Unit 5 Elasticity (Hubbard Ch 6): Lessons 5.1–5.4 from Dr. Mang's slides plus the in-class lecture deck (P = 260 − 3Q).",
+  "defaultSource": {
+    "label": "Unit 5 Lecture Slides",
+    "kind": "slides"
+  },
+  "defaultUnit": 5,
+  "scenarios": {
+    "mang-demand": {
+      "title": "Dr. Mang's slide demand curve",
+      "body": "Demand is **P = 100 − 2Q** (P in dollars, Q in units), the straight-line demand curve used throughout the Unit 5 slides. Solving for quantity gives Q = (100 − P) ÷ 2."
+    },
+    "lecture-demand": {
+      "title": "In-class lecture demand curve",
+      "body": "Demand is **P = 260 − 3Q**, so Q = (260 − P) ÷ 3. The lecture examined the price ranges **$170 → $155** (Q: 30 → 35) and **$50 → $35** (Q: 70 → 75)."
+    }
+  },
+  "questions": [
+    {
+      "id": "u5-q01",
+      "type": "mc",
+      "unit": 5,
+      "topic": "What elasticity measures",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 5.1 · slides 4, 7"
+      },
+      "tags": [
+        "lesson-5.1"
+      ],
+      "prompt": "Why do economists use the **elasticity** rather than the slope of the demand curve to measure how responsive consumers are?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The slope of a demand curve is always zero, so it cannot show any responsiveness"
+        },
+        {
+          "id": "b",
+          "text": "Elasticity compares **percentage** changes, so it does not depend on the units of quantity or price, and it works for linear and non-linear curves alike"
+        },
+        {
+          "id": "c",
+          "text": "Elasticity is simply the slope of the demand curve measured in dollars per unit"
+        },
+        {
+          "id": "d",
+          "text": "Elasticity measures the absolute change in quantity for a $1 change in price"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Slide 4: elasticity = % change in quantity demanded ÷ % change in the factor that drives it. Because it uses **percentages**, it is unit-free (dollars or cents, units or thousands give the same answer) and it can be applied to straight or curved demand curves. Slide 7 adds that elasticity is *not* the slope, though the two are related. The slope of a downward-sloping demand curve is not zero, so that option is false. The 'slope in dollars per unit' and 'absolute change per $1' options both describe unit-dependent measures, which is exactly what elasticity avoids.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "u5-q02",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Slope vs elasticity",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 5.1 · slide 8"
+      },
+      "tags": [
+        "lesson-5.1"
+      ],
+      "prompt": "A demand curve is a straight line, so its slope is the same everywhere. As we move **down** the curve to lower prices and larger quantities, what happens to the price elasticity of demand (in absolute value)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It stays constant, because a constant slope means a constant elasticity"
+        },
+        {
+          "id": "b",
+          "text": "It stays constant, because a percentage measure never changes along a curve"
+        },
+        {
+          "id": "c",
+          "text": "It increases, because quantity demanded is larger at lower prices"
+        },
+        {
+          "id": "d",
+          "text": "It decreases, because each price change is a larger percentage of a smaller price while each quantity change is a smaller percentage of a larger quantity"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Slide 8: *even if the slope is constant, the elasticity changes as we move along the demand curve.* Moving down, the same $ cut is a **bigger %** of a falling price (the denominator %ΔP grows) while the same extra units are a **smaller %** of a growing quantity (the numerator %ΔQ shrinks), so |E| falls: elastic at the top, inelastic at the bottom. Check on P = 100 − 2Q: between $90 and $86 E = −7.33, but between $10 and $6 E = −0.09, with slope −2 throughout. Equating constant slope with constant elasticity is the classic trap.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "u5-q03",
+      "type": "numeric",
+      "unit": 5,
+      "topic": "Midpoint formula",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 5.1 · slides 9, 15–21"
+      },
+      "tags": [
+        "lesson-5.1"
+      ],
+      "prompt": "Demand for a good is **P = 120 − 4Q**. Use the midpoint formula to find the price elasticity of demand when the price falls from **$40 to $32**. Give your answer to two decimals (keep the sign).",
+      "answer": {
+        "value": -0.43,
+        "tolerance": 0.01,
+        "accept": [
+          0.43
+        ],
+        "display": "−0.43",
+        "hint": "Find Q at each price first, then divide %ΔQ by %ΔP using average values."
+      },
+      "explanation": "Solve for Q at each price: Q = (120 − P) ÷ 4, so P = $40 → Q = 20 and P = $32 → Q = 22. Midpoint formula (slide 9):\n\n%ΔQ = (22 − 20) ÷ [(20 + 22)/2] = 2 ÷ 21 = 0.0952\n\n%ΔP = (32 − 40) ÷ [(40 + 32)/2] = −8 ÷ 36 = −0.2222\n\n**E = 0.0952 ÷ (−0.2222) = −0.43**. |E| < 1, so demand is **inelastic** over this range. Using the starting point as the base instead gives 10% ÷ (−20%) = −0.50 — close, but it is not the method Dr. Mang's slides use, and it would give a different answer going back up."
+    },
+    {
+      "id": "u5-q04",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Computing and classifying PED",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 5.1 · slides 9, 15–21"
+      },
+      "tags": [
+        "lesson-5.1"
+      ],
+      "scenario": "mang-demand",
+      "prompt": "Using the demand curve **P = 100 − 2Q**, the price falls from **$60 to $56**. What is the price elasticity of demand over this range (midpoint formula), and how is demand classified?",
+      "options": [
+        {
+          "id": "a",
+          "text": "E ≈ −1.38; elastic"
+        },
+        {
+          "id": "b",
+          "text": "E ≈ −1.50; elastic"
+        },
+        {
+          "id": "c",
+          "text": "E ≈ −0.72; inelastic"
+        },
+        {
+          "id": "d",
+          "text": "E = −2.00; elastic"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Q = (100 − P) ÷ 2: P = $60 → Q = 20; P = $56 → Q = 22. %ΔQ = 2 ÷ 21 = 0.0952; %ΔP = −4 ÷ 58 = −0.0690. **E = 0.0952 ÷ (−0.0690) = −1.38**, which is below −1, so demand is **elastic** (same method as slides 18 and 21). The −1.50 figure uses the starting values as the base (10% ÷ −6.67%), not averages. The −0.72 figure flips the fraction (price on top, quantity on the bottom). The −2.00 figure just reports the slope, which is not the elasticity.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "u5-q05",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Classifying elasticity",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 5.1 · slides 9–11"
+      },
+      "tags": [
+        "lesson-5.1"
+      ],
+      "prompt": "When the price of a good rises from **$10 to $12**, the quantity demanded falls from **100 to 90**. Using the midpoint formula, the price elasticity of demand is...",
+      "options": [
+        {
+          "id": "a",
+          "text": "−0.50, inelastic (computed with the starting values as the base)"
+        },
+        {
+          "id": "b",
+          "text": "−1.73, elastic (the flipped fraction, %ΔP ÷ %ΔQ)"
+        },
+        {
+          "id": "c",
+          "text": "−0.58, inelastic: the % change in quantity is smaller than the % change in price"
+        },
+        {
+          "id": "d",
+          "text": "−5.00, elastic (ΔQ ÷ ΔP in raw units)"
+        }
+      ],
+      "answer": "c",
+      "explanation": "%ΔQ = −10 ÷ [(100 + 90)/2] = −10 ÷ 95 = −0.1053; %ΔP = 2 ÷ [(10 + 12)/2] = 2 ÷ 11 = 0.1818. **E = −0.1053 ÷ 0.1818 = −0.58**. Between 0 and −1 demand is inelastic (slide 11): the % fall in quantity (10.5%) is smaller than the % rise in price (18.2%). −0.50 uses the starting values instead of the averages. −1.73 puts price on top (the reciprocal, which is not elasticity). −5.00 is a unit-dependent ratio of raw changes, which is why slides 4 and 7 use percentages.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "u5-q06",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Elastic and inelastic portions",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 5.1 · slides 12–14, 15–21"
+      },
+      "tags": [
+        "lesson-5.1"
+      ],
+      "scenario": "mang-demand",
+      "prompt": "Which statement about the linear demand curve **P = 100 − 2Q** is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It is elastic at every price because its slope is constant"
+        },
+        {
+          "id": "b",
+          "text": "It is elastic at high prices and inelastic at low prices, separated by a point of unit elasticity (Q = 25, P = $50, where revenue peaks)"
+        },
+        {
+          "id": "c",
+          "text": "It is inelastic at high prices and elastic at low prices"
+        },
+        {
+          "id": "d",
+          "text": "It is unit elastic at every price because its slope is constant"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Slides 12–14: every demand curve has an elastic portion and an inelastic portion separated by a point of unit elasticity. Check on this curve: between $90 and $86 (Q = 5 to 7) E = −7.33 (elastic); between $10 and $6 (Q = 45 to 47) E = −0.09 (inelastic). Revenue TR = (100 − 2Q)Q peaks at Q = 25, P = $50, the unit-elastic point (slide 28). A constant slope does not give a constant elasticity, and the high-price/low-price pattern is the reverse of the inelastic-at-the-top claim.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "u5-q07",
+      "type": "tf",
+      "unit": 5,
+      "topic": "Units and elasticity",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 5.1 · slides 4, 7"
+      },
+      "tags": [
+        "lesson-5.1"
+      ],
+      "prompt": "If quantity demanded is measured in thousands of units instead of single units, the price elasticity of demand between two points will change.",
+      "answer": false,
+      "explanation": "**False.** Elasticity is a ratio of *percentage* changes, so the units of measurement cancel (slide 4). The *slope* of the demand curve would change when units change — that is exactly why elasticity is not the slope (slide 7)."
+    },
+    {
+      "id": "u5-q08",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Sign convention",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 5.1 · slides 10–11, 18, 21"
+      },
+      "tags": [
+        "lesson-5.1",
+        "slides-vs-text"
+      ],
+      "prompt": "In Dr. Mang's example, the price elasticity of demand is **−3.54** between $80 and $76, and **−0.39** between $30 and $26. Which statement is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Demand is more elastic between $30 and $26, because −0.39 is the larger number"
+        },
+        {
+          "id": "b",
+          "text": "Demand is equally elastic in both ranges, because both elasticities are negative"
+        },
+        {
+          "id": "c",
+          "text": "Demand is inelastic between $80 and $76, because a negative sign means consumers respond less"
+        },
+        {
+          "id": "d",
+          "text": "Demand is more elastic between $80 and $76, because |−3.54| = 3.54 is larger than |−0.39| = 0.39 (elastic vs inelastic)"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Price elasticity of demand is always negative (slide 10), so we classify by its **absolute value**: |E| > 1 is elastic (−3.54 → 'Demand is Elastic!'), |E| < 1 is inelastic (−0.39 → 'Demand is Inelastic!'). Comparing the signed numbers would wrongly say −0.39 is 'bigger'. *Slides vs text:* Mang keeps the minus sign in the answer; Hubbard also says PED is always negative but drops the sign and compares absolute values (so '−3 is larger than −2'). (The exact value of the first elasticity is −3.545, which the slides quote as −3.54.)",
+      "shuffleOptions": false
+    },
+    {
+      "id": "u5-q09",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Determinant: passage of time",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 5.2 · slide 24"
+      },
+      "tags": [
+        "lesson-5.2"
+      ],
+      "prompt": "Which statement about the demand for gasoline is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Demand over ten years is more elastic than demand over one week, because consumers have time to adjust (buy fuel-efficient cars, move closer to work, switch to transit)"
+        },
+        {
+          "id": "b",
+          "text": "Demand over one week is more elastic than demand over ten years, because consumers react to price changes immediately"
+        },
+        {
+          "id": "c",
+          "text": "Demand is equally elastic over any time horizon, because gasoline is a necessity"
+        },
+        {
+          "id": "d",
+          "text": "Demand over ten years is more elastic only because gasoline becomes a luxury good over time"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Slide 24: *it takes time for consumers to adapt to changes in prices; over longer time periods, demand becomes more elastic.* In the short run people are locked into their cars, homes and jobs; over ten years they can change all three. The one-week claim has the time effect reversed. The 'any horizon' claim ignores time altogether. The luxury claim invents a mechanism — gasoline does not turn into a luxury; the extra responsiveness comes from adjustment possibilities.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "u5-q10",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Determinant: definition of the market",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 5.2 · slide 25"
+      },
+      "tags": [
+        "lesson-5.2"
+      ],
+      "prompt": "Which of the following goods would be expected to have the **most elastic** demand?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Food"
+        },
+        {
+          "id": "b",
+          "text": "Pizza (as a product class)"
+        },
+        {
+          "id": "c",
+          "text": "Large pepperoni pizza from one specific pizzeria"
+        },
+        {
+          "id": "d",
+          "text": "Restaurant meals"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Slide 25: a **broad** market (a product class such as food) has few substitutes, so demand is less elastic; a **narrow** market (one specific product from one supplier) has many substitutes, so demand is more elastic. A single pizzeria's pepperoni pizza has the most close substitutes (every other pizzeria), so buyers switch easily when its price rises. The broader categories are each less elastic because their substitutes are limited to other categories.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "u5-q11",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Elasticity and total revenue",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 5.2 · slides 26–28"
+      },
+      "tags": [
+        "lesson-5.2"
+      ],
+      "prompt": "The demand for a firm's product has a price elasticity of **−2.5**. The firm cuts its price by 4%. What happens to total revenue?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It falls, because the firm earns less on every unit sold"
+        },
+        {
+          "id": "b",
+          "text": "It does not change, because price and quantity move in opposite directions"
+        },
+        {
+          "id": "c",
+          "text": "It rises only if the firm also reduces its costs"
+        },
+        {
+          "id": "d",
+          "text": "It rises, because quantity demanded rises by about 10%, a proportionately larger change than the 4% price cut"
+        }
+      ],
+      "answer": "d",
+      "explanation": "|E| = 2.5 > 1, so demand is **elastic** (slide 28): a price decrease causes a proportionately larger increase in quantity sold, so revenue rises. Here %ΔQ ≈ 2.5 × 4% = 10%, so TR changes by roughly (0.96)(1.10) − 1 = +5.6%. 'Revenue falls' is the inelastic-demand result. 'Unchanged' only occurs at unit elasticity. Costs do not enter revenue = P × Q.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "u5-q12",
+      "type": "numeric",
+      "unit": 5,
+      "topic": "Total revenue change",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 5.2 · slides 26–28"
+      },
+      "tags": [
+        "lesson-5.2"
+      ],
+      "scenario": "mang-demand",
+      "prompt": "Demand is **P = 100 − 2Q**. By how many dollars does total revenue change when the firm cuts its price from **$70 to $60**? Enter a positive number for an increase and a negative number for a decrease.",
+      "answer": {
+        "value": 150,
+        "tolerance": 0.5,
+        "prefix": "$",
+        "display": "+$150 (TR rises)",
+        "hint": "TR = P × Q. Find Q at each price first."
+      },
+      "explanation": "Q = (100 − P) ÷ 2: P = $70 → Q = 15; P = $60 → Q = 20.\n\nTR before = 70 × 15 = **$1,050**; TR after = 60 × 20 = **$1,200**. Change = **+$150** (revenue rises).\n\nConsistent with the elasticity test: over this range E = (5 ÷ 17.5) ÷ (−10 ÷ 65) = -1.86, so demand is elastic and a price cut raises revenue (slide 28). Box check: lose $10 × 15 = $150 on the units already sold, gain $60 × 5 = $300 on the extra units → net +$150."
+    },
+    {
+      "id": "u5-q13",
+      "type": "numeric",
+      "unit": 5,
+      "topic": "Revenue-maximizing price",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 5.2 · slide 28"
+      },
+      "tags": [
+        "lesson-5.2"
+      ],
+      "scenario": "mang-demand",
+      "prompt": "Demand is **P = 100 − 2Q**. At what price is the firm's total revenue **maximized**?",
+      "answer": {
+        "value": 50,
+        "tolerance": 0.5,
+        "prefix": "$",
+        "display": "$50",
+        "hint": "Revenue is maximized at the point of unit elasticity."
+      },
+      "explanation": "Slide 28: *at the point of unit elasticity, revenues are at a maximum.* On a straight-line demand curve that point is the midpoint: TR = P × Q = (100 − 2Q)Q = 100Q − 2Q². Revenue rises while Q < 25 and falls after, so the peak is at **Q = 25, P = 100 − 2(25) = $50**, with TR = 50 × 25 = $1,250. Check: between $52 and $48 (Q = 24 to 26) E = (2/25) ÷ (−4/50) = −1.00 — unit elastic. Above $50 demand is elastic (cutting price raises TR); below $50 it is inelastic (cutting price lowers TR)."
+    },
+    {
+      "id": "u5-q14",
+      "type": "tf",
+      "unit": 5,
+      "topic": "Revenue and unit elasticity",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 5.2 · slide 28"
+      },
+      "tags": [
+        "lesson-5.2"
+      ],
+      "prompt": "At the point on a demand curve where demand is unit elastic, a firm's total revenue is at its maximum.",
+      "answer": true,
+      "explanation": "**True.** Slide 28: at the point of unit elasticity revenues are at a maximum. On the elastic portion a price cut still raises revenue; on the inelastic portion a price cut lowers it. Revenue stops rising exactly where |E| = 1."
+    },
+    {
+      "id": "u5-q15",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Inelastic demand and revenue",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 5.2 · slides 26–28"
+      },
+      "tags": [
+        "lesson-5.2"
+      ],
+      "prompt": "A coffee shop raises its price from **$20** to **$25** per bag, and its weekly sales fall from **100 to 92 bags**. Which statement is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Demand is elastic, so total revenue falls"
+        },
+        {
+          "id": "b",
+          "text": "Demand is inelastic (E ≈ −0.38), so total revenue rises from $2,000 to $2,300"
+        },
+        {
+          "id": "c",
+          "text": "Demand is unit elastic, so total revenue is unchanged"
+        },
+        {
+          "id": "d",
+          "text": "Demand is inelastic (E ≈ −0.38), so total revenue falls because the quantity sold fell"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Midpoint: %ΔQ = −8 ÷ 96 = −0.0833; %ΔP = 5 ÷ 22.5 = 0.2222. E = −0.0833 ÷ 0.2222 = **−0.375 ≈ −0.38**, inelastic. Slide 28: with inelastic demand, a price increase causes a proportionately smaller fall in quantity, so revenue rises. TR: 20 × 100 = $2,000 → 25 × 92 = $2,300. Saying revenue falls just because quantity fell ignores the higher price on every unit that is still sold.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "u5-q16",
+      "type": "graph",
+      "unit": 5,
+      "topic": "Perfectly inelastic demand",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 5.2 · slide 29"
+      },
+      "tags": [
+        "lesson-5.2"
+      ],
+      "prompt": "Consumers want exactly the quantity at point E and will pay **any** price for it (the price elasticity of demand is zero). Draw this **perfectly inelastic** demand curve D through point E.",
+      "graph": {
+        "x": {
+          "label": "Quantity",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Price",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "curves": [],
+        "points": [
+          {
+            "id": "E",
+            "label": "E",
+            "x": 50,
+            "y": 50,
+            "drop": "both",
+            "dropLabels": {
+              "x": "Q₁",
+              "y": "P₁"
+            }
+          }
+        ],
+        "tasks": [
+          {
+            "id": "D",
+            "kind": "line",
+            "label": "D",
+            "prompt": "Draw the perfectly inelastic demand curve D through E",
+            "expect": {
+              "slope": "vertical",
+              "through": [
+                {
+                  "x": 50,
+                  "y": 50,
+                  "tol": 10,
+                  "label": "E"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "explanation": "Slide 29: with perfectly inelastic demand, E = 0 — quantity demanded does not respond at all to price, so the demand curve is a **vertical line** at Q₁. Whether the price is P₁, P₂ or P₃, buyers still want Q₁. (In reality this only holds over a limited price range.) The opposite extreme, perfectly elastic demand (slide 30), is a **horizontal** line at P₁ with E = ∞."
+    },
+    {
+      "id": "u5-q17",
+      "type": "numeric",
+      "unit": 5,
+      "topic": "Income elasticity of demand",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 5.3 · slides 33–36"
+      },
+      "tags": [
+        "lesson-5.3"
+      ],
+      "prompt": "When a consumer's income rises from **$30,000 to $36,000**, her purchases of a good rise from **10 to 13** units per month. Use the midpoint formula to find the income elasticity of demand (two decimals).",
+      "answer": {
+        "value": 1.43,
+        "tolerance": 0.01,
+        "display": "1.43",
+        "hint": "Midpoint: change ÷ average for both quantity and income."
+      },
+      "explanation": "Midpoint formula (slide 34):\n\n%ΔQ = (13 − 10) ÷ [(10 + 13)/2] = 3 ÷ 11.5 = 0.2609\n\n%ΔI = (36,000 − 30,000) ÷ [(30,000 + 36,000)/2] = 6,000 ÷ 33,000 = 0.1818\n\n**E_I = 0.2609 ÷ 0.1818 = 1.43**. It is positive (a **normal** good) and greater than 1, so the good is a **luxury** (slide 36): quantity rises by a larger percentage than income."
+    },
+    {
+      "id": "u5-q18",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Classifying by income elasticity",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 5.3 · slides 34–38"
+      },
+      "tags": [
+        "lesson-5.3"
+      ],
+      "prompt": "A commuter's income rises from **$40,000 to $44,000**, and her bus rides fall from **50 to 47** per month. Using the midpoint formula, the income elasticity of demand for bus rides is approximately...",
+      "options": [
+        {
+          "id": "a",
+          "text": "+0.65, so bus rides are a necessity"
+        },
+        {
+          "id": "b",
+          "text": "+1.54, so bus rides are a luxury"
+        },
+        {
+          "id": "c",
+          "text": "−0.65, so bus rides are an inferior good"
+        },
+        {
+          "id": "d",
+          "text": "−0.65, so bus rides are a normal good that is a necessity"
+        }
+      ],
+      "answer": "c",
+      "explanation": "%ΔQ = −3 ÷ 48.5 = −0.0619; %ΔI = 4,000 ÷ 42,000 = 0.0952. **E_I = −0.0619 ÷ 0.0952 = −0.65**. A negative income elasticity means quantity consumed falls as income rises: the good is **inferior** (slide 38). A negative number is never a necessity or a normal good — those classes are positive (necessity 0 ≤ E_I ≤ 1, luxury E_I > 1, slides 36–37). The +1.54 figure comes from inverting the ratio and ignoring the sign.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "u5-q19",
+      "type": "numeric",
+      "unit": 5,
+      "topic": "Cross-price elasticity",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 5.3 · slides 39–43"
+      },
+      "tags": [
+        "lesson-5.3"
+      ],
+      "prompt": "When the price of good B rises from **$2 to $3**, the quantity demanded of good A falls from **100 to 80**. Use the midpoint formula to find the cross-price elasticity of demand of A with respect to the price of B (two decimals, keep the sign).",
+      "answer": {
+        "value": -0.56,
+        "tolerance": 0.01,
+        "display": "−0.56",
+        "hint": "%ΔQ of good A ÷ %ΔP of good B, both using averages."
+      },
+      "explanation": "Slide 40: change in the quantity of **A** over its average, divided by change in the price of **B** over its average.\n\n%ΔQ_A = (80 − 100) ÷ 90 = −0.2222\n\n%ΔP_B = (3 − 2) ÷ 2.5 = 0.4\n\n**E_xy = −0.2222 ÷ 0.4 = −0.56**. The sign is negative: when B gets more expensive, consumers buy less of A, so A and B are **complements** (slide 42)."
+    },
+    {
+      "id": "u5-q20",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Classifying goods by income elasticity",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 5.3 · slides 35–38"
+      },
+      "tags": [
+        "lesson-5.3"
+      ],
+      "prompt": "Estimated income elasticities of demand are: good X = **+1.8**, good Y = **+0.5**, good Z = **−0.3**. Which classification is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "X is a luxury, Y is a necessity, Z is an inferior good"
+        },
+        {
+          "id": "b",
+          "text": "X is a necessity, Y is a luxury, Z is an inferior good"
+        },
+        {
+          "id": "c",
+          "text": "X is a luxury, Y is an inferior good, Z is a necessity"
+        },
+        {
+          "id": "d",
+          "text": "X is a normal good, Y is an inferior good, Z is a luxury"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Slides 35–38: E_I > 1 → **luxury** (quantity rises by more than the % rise in income); 0 ≤ E_I ≤ 1 → **necessity** (quantity rises by less than income); E_I < 0 → **inferior** (quantity falls as income rises). So X (+1.8) = luxury, Y (+0.5) = necessity, Z (−0.3) = inferior. Common mix-up: an elasticity between 0 and 1 is still a normal good, not inferior; only a negative value signals inferior.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "u5-q21",
+      "type": "tf",
+      "unit": 5,
+      "topic": "Income elasticity and inferior goods",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 5.3 · slides 37–38"
+      },
+      "tags": [
+        "lesson-5.3"
+      ],
+      "prompt": "A good with an income elasticity of demand of **+0.4** is an inferior good.",
+      "answer": false,
+      "explanation": "**False.** Inferior means E_I < 0 (slide 38): consumers buy less as income rises. A value of +0.4 is positive, so the good is **normal**; because it lies between 0 and 1, it is a **necessity** (quantity rises, but by a smaller percentage than income, slide 37)."
+    },
+    {
+      "id": "u5-q22",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Cross-price elasticity formula",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 5.3 · slides 39–40"
+      },
+      "tags": [
+        "lesson-5.3",
+        "slides-vs-text"
+      ],
+      "prompt": "Which expression correctly defines the cross-price elasticity of demand of good A with respect to the price of good B (Dr. Mang's midpoint version)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "%ΔQ of good A ÷ %ΔP of good A"
+        },
+        {
+          "id": "b",
+          "text": "%ΔQ of good B ÷ %ΔQ of good A"
+        },
+        {
+          "id": "c",
+          "text": "%ΔQ of good A ÷ %Δ in consumer income"
+        },
+        {
+          "id": "d",
+          "text": "%ΔQ of good A ÷ %ΔP of good B, with each % change computed as the change over the average of the two values"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Slide 39: cross-price elasticity = % change in quantity of good A ÷ % change in the price of good B; slide 40 computes both percentages with the midpoint (average) base. A ÷ its own price is the ordinary price elasticity; dividing by income gives the income elasticity; and a ratio of two quantities is not an elasticity. *Slides vs text:* Mang uses the midpoint formula for income and cross-price elasticity too; Hubbard prints the midpoint formula only for the price elasticity of demand and writes the other two as plain % change ratios. Use the midpoint on Mang's test.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "u5-q23",
+      "type": "numeric",
+      "unit": 5,
+      "topic": "Price elasticity of supply",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 5.4 · slides 48–52"
+      },
+      "tags": [
+        "lesson-5.4"
+      ],
+      "prompt": "When the price of a good rises from **$20 to $30**, the quantity supplied rises from **30 to 60** units. Use the midpoint formula to find the price elasticity of supply (two decimals).",
+      "answer": {
+        "value": 1.67,
+        "tolerance": 0.01,
+        "display": "1.67",
+        "hint": "Same midpoint method as demand, but the sign will be positive."
+      },
+      "explanation": "Slide 50: %ΔQ = (60 − 30) ÷ [(30 + 60)/2] = 30 ÷ 45 = 0.6667; %ΔP = (30 − 20) ÷ [(20 + 30)/2] = 10 ÷ 25 = 0.4.\n\n**E_S = 0.6667 ÷ 0.4 = 1.67**. Supply slopes upward, so E_S is always **positive** (slide 51), and since it is greater than 1, supply is **elastic** (slide 52): the % change in quantity is larger than the % change in price."
+    },
+    {
+      "id": "u5-q24",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Determinants of supply elasticity",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 5.4 · slide 56"
+      },
+      "tags": [
+        "lesson-5.4",
+        "slides-vs-text"
+      ],
+      "prompt": "According to Dr. Mang's slides, the price elasticity of **supply** depends on which pair of factors?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The share of the consumer's budget and whether the good is a luxury or a necessity"
+        },
+        {
+          "id": "b",
+          "text": "The availability of close substitutes and the definition of the market"
+        },
+        {
+          "id": "c",
+          "text": "The availability of inputs and the passage of time"
+        },
+        {
+          "id": "d",
+          "text": "Consumer income and the prices of related goods"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Slide 56: supply elasticity depends on **availability of inputs** (labour, materials and capital that are easy to obtain make supply more elastic) and the **passage of time** (short run: hard to hire, fire or source new capital → less elastic; long run: firms can hire, train, open or close plants and switch processes → more elastic). The other pairs are determinants of *demand* elasticity (slides 24–25) or demand shifters. *Slides vs text:* Hubbard names only time (the ability and willingness of firms to change output) as the main determinant; Mang's two-item list is what to expect on his test.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "u5-q25",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Supply elasticity and price changes",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 5.4 · slide 57"
+      },
+      "tags": [
+        "lesson-5.4"
+      ],
+      "prompt": "Market demand increases by the same amount in two markets. In market 1 supply is highly price responsive (elastic); in market 2 supply is not very price responsive (inelastic). What happens?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The price rises by the same amount in both markets, because the demand shift is the same"
+        },
+        {
+          "id": "b",
+          "text": "The equilibrium price rises by **more** in market 2, where supply is inelastic, and quantity rises by less"
+        },
+        {
+          "id": "c",
+          "text": "The equilibrium price rises by more in market 1, where supply is elastic"
+        },
+        {
+          "id": "d",
+          "text": "The price rises by more in market 2, and quantity also rises by more"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Slide 57: for a given change in consumer demand, the market price changes **more** when producers are less price responsive. With elastic supply, firms expand output easily, so the new equilibrium has a large quantity increase and a small price increase; with inelastic supply, firms cannot produce much more, so the price must rise a lot to ration the extra demand and the quantity gain is small. Check with demand P = 100 − Q → 140 − Q: against supply P = 40 + 0.25Q the price rises $8 (to $60, Q = 80); against P = 2Q − 44 it rises $26.67 (to $78.67, Q = 61.33).",
+      "shuffleOptions": false
+    },
+    {
+      "id": "u5-q26",
+      "type": "graph",
+      "unit": 5,
+      "topic": "Demand shift with inelastic supply",
+      "difficulty": 2,
+      "source": {
+        "ref": "Lesson 5.4 · slide 57"
+      },
+      "tags": [
+        "lesson-5.4"
+      ],
+      "prompt": "Supply of this good is **inelastic** (steep). Consumer incomes rise and the good is normal. Draw the new demand curve D₂ and mark the new equilibrium E₂. (Notice how far price rises.)",
+      "graph": {
+        "x": {
+          "label": "Quantity",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Price",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "D",
+            "label": "D₁",
+            "points": [
+              [
+                10,
+                80
+              ],
+              [
+                80,
+                10
+              ]
+            ],
+            "color": "blue"
+          },
+          {
+            "id": "S",
+            "label": "S (inelastic)",
+            "points": [
+              [
+                30,
+                10
+              ],
+              [
+                60,
+                90
+              ]
+            ],
+            "color": "red"
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E₁",
+            "x": 43.64,
+            "y": 46.36,
+            "drop": "both",
+            "dropLabels": {
+              "x": "Q₁",
+              "y": "P₁"
+            }
+          }
+        ],
+        "tasks": [
+          {
+            "id": "D2",
+            "kind": "line",
+            "label": "D₂",
+            "prompt": "Draw the new demand curve D₂",
+            "expect": {
+              "slope": "negative",
+              "shiftOf": "D",
+              "direction": "right"
+            }
+          },
+          {
+            "id": "E2",
+            "kind": "point",
+            "label": "E₂",
+            "prompt": "Mark the new equilibrium E₂",
+            "expect": {
+              "atIntersection": [
+                "user:D2",
+                "S"
+              ],
+              "relativeTo": {
+                "ref": "E",
+                "x": "+",
+                "y": "+"
+              }
+            }
+          }
+        ]
+      },
+      "explanation": "Higher income raises demand for a normal good, so the whole demand curve shifts **right** to D₂. Supply does not move, so the market slides up along the steep S: equilibrium **price and quantity both rise**. Because supply is inelastic, producers can add little output, so most of the adjustment shows up as a **large price increase** and a small quantity increase (slide 57). With a flatter, elastic supply curve the same shift would raise quantity a lot and price only a little."
+    },
+    {
+      "id": "u5-q27",
+      "type": "tf",
+      "unit": 5,
+      "topic": "Elasticity vs slope (supply)",
+      "difficulty": 1,
+      "source": {
+        "ref": "Lesson 5.4 · slide 48"
+      },
+      "tags": [
+        "lesson-5.4"
+      ],
+      "prompt": "The price elasticity of supply is just another name for the slope of the supply curve.",
+      "answer": false,
+      "explanation": "**False.** Slide 48: the elasticity is *not* the slope of the supply curve, though it is related to it. Elasticity is %ΔQ ÷ %ΔP — a unit-free ratio of percentage changes — and it changes as we move along a straight supply curve (slide 49). Slope is ΔP ÷ ΔQ in raw units."
+    },
+    {
+      "id": "u5-lec01",
+      "type": "numeric",
+      "unit": 5,
+      "topic": "In-class elasticity (high prices)",
+      "difficulty": 2,
+      "source": {
+        "ref": "slides 8–10",
+        "label": "Unit 5 In-Class Lecture"
+      },
+      "tags": [
+        "lesson-5.1",
+        "in-class"
+      ],
+      "scenario": "lecture-demand",
+      "prompt": "Using the lecture demand curve **P = 260 − 3Q**, find the price elasticity of demand (midpoint formula) when the price falls from **$170 to $155**. Two decimals, keep the sign.",
+      "answer": {
+        "value": -1.67,
+        "tolerance": 0.01,
+        "accept": [
+          1.67
+        ],
+        "display": "−1.67",
+        "hint": "Q at $170 and $155 is 30 and 35."
+      },
+      "explanation": "Q = (260 − P) ÷ 3: P = $170 → Q = 30; P = $155 → Q = 35.\n\n%ΔQ = 5 ÷ 32.5 = 0.1538; %ΔP = −15 ÷ 162.5 = −0.0923.\n\n**E = 0.1538 ÷ (−0.0923) = −1.67**. |E| > 1: demand is **elastic** at these high prices."
+    },
+    {
+      "id": "u5-lec02",
+      "type": "numeric",
+      "unit": 5,
+      "topic": "In-class elasticity (low prices)",
+      "difficulty": 2,
+      "source": {
+        "ref": "slides 8–10",
+        "label": "Unit 5 In-Class Lecture"
+      },
+      "tags": [
+        "lesson-5.1",
+        "in-class"
+      ],
+      "scenario": "lecture-demand",
+      "prompt": "Using the same demand curve **P = 260 − 3Q**, find the price elasticity of demand (midpoint formula) when the price falls from **$50 to $35**. Two decimals, keep the sign.",
+      "answer": {
+        "value": -0.2,
+        "tolerance": 0.01,
+        "accept": [
+          0.2
+        ],
+        "display": "−0.20",
+        "hint": "Q at $50 and $35 is 70 and 75."
+      },
+      "explanation": "Q = (260 − P) ÷ 3: P = $50 → Q = 70; P = $35 → Q = 75.\n\n%ΔQ = 5 ÷ 72.5 = 0.0690; %ΔP = −15 ÷ 42.5 = −0.3529.\n\n**E = 0.0690 ÷ (−0.3529) = −0.20**. |E| < 1: demand is **inelastic** at these low prices. Compare with the −1.67 at the top: the slope is −3 in both places but the elasticity changes a lot."
+    },
+    {
+      "id": "u5-lec03",
+      "type": "mc",
+      "unit": 5,
+      "topic": "In-class: pattern along the curve",
+      "difficulty": 2,
+      "source": {
+        "ref": "slides 5–10",
+        "label": "Unit 5 In-Class Lecture"
+      },
+      "tags": [
+        "lesson-5.1",
+        "in-class"
+      ],
+      "scenario": "lecture-demand",
+      "prompt": "In the lecture example (**P = 260 − 3Q**), the elasticities are −1.67 between $170 and $155 and −0.20 between $50 and $35. What does this show?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Demand is elastic at high prices and inelastic at low prices, even though the slope is −3 throughout"
+        },
+        {
+          "id": "b",
+          "text": "Demand is inelastic at high prices and elastic at low prices"
+        },
+        {
+          "id": "c",
+          "text": "Demand is elastic everywhere because the slope is a constant −3"
+        },
+        {
+          "id": "d",
+          "text": "The two results must be wrong, because elasticity cannot change along a straight line"
+        }
+      ],
+      "answer": "a",
+      "explanation": "|−1.67| > 1 (elastic) at the top of the curve, |−0.20| < 1 (inelastic) at the bottom, with the unit-elastic point between them (slide 5). The slope (−3) is constant, so elasticity is clearly *not* the slope. The unit-elastic point is where revenue peaks: TR = (260 − 3Q)Q is largest at Q = 43.3, P = $130.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "u5-lec04",
+      "type": "mc",
+      "unit": 5,
+      "topic": "In-class: revenue effects of price cuts",
+      "difficulty": 2,
+      "source": {
+        "ref": "slides 11–13",
+        "label": "Unit 5 In-Class Lecture"
+      },
+      "tags": [
+        "lesson-5.2",
+        "in-class"
+      ],
+      "scenario": "lecture-demand",
+      "prompt": "Continuing with **P = 260 − 3Q**: the firm considers (i) cutting price from $170 to $155 (Q: 30 → 35) and (ii) cutting price from $50 to $35 (Q: 70 → 75). What happens to total revenue?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both price cuts raise revenue, because quantity sold rises each time"
+        },
+        {
+          "id": "b",
+          "text": "Neither price cut changes revenue"
+        },
+        {
+          "id": "c",
+          "text": "Cut (i) lowers revenue and cut (ii) raises it"
+        },
+        {
+          "id": "d",
+          "text": "Cut (i) raises revenue ($5,100 → $5,425) because demand is elastic; cut (ii) lowers revenue ($3,500 → $2,625) because demand is inelastic"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Slide 13: with **elastic** demand a price cut raises revenue; with **inelastic** demand it lowers revenue. (i) 170 × 30 = $5,100 → 155 × 35 = $5,425 (up $325; E = −1.67). (ii) 50 × 70 = $3,500 → 35 × 75 = $2,625 (down $875; E = −0.20). Quantity does rise in both cases, but in (ii) the % rise in quantity (about 7%) is much smaller than the % fall in price (about 35%).",
+      "shuffleOptions": false
+    },
+    {
+      "id": "u5-lec05",
+      "type": "numeric",
+      "unit": 5,
+      "topic": "In-class: maximum revenue",
+      "difficulty": 3,
+      "source": {
+        "ref": "slide 13",
+        "label": "Unit 5 In-Class Lecture"
+      },
+      "tags": [
+        "lesson-5.2",
+        "in-class"
+      ],
+      "scenario": "lecture-demand",
+      "prompt": "For the lecture demand curve **P = 260 − 3Q**, what is the **maximum** total revenue the firm can earn? (Round to the nearest dollar.)",
+      "answer": {
+        "value": 5633,
+        "tolerance": 1,
+        "prefix": "$",
+        "display": "$5,633",
+        "hint": "Revenue peaks at unit elasticity; try TR = (260 − 3Q)Q."
+      },
+      "explanation": "TR = P × Q = (260 − 3Q)Q = 260Q − 3Q². Revenue peaks where demand is unit elastic: Q = 260 ÷ 6 = 43.33, so P = 260 − 3(43.33) = **$130**, and TR = 130 × 43.33 = **$5,633**. Check: that is more than the $5,425 at $155 and well above the $3,500 at $50. Slide 13: *at the point of unit elasticity, revenues are at a maximum.*"
+    }
+  ]
+}

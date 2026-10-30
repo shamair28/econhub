@@ -1,0 +1,1760 @@
+{
+  "schema": "practice-bank/v1",
+  "id": "1B03-mt2-text-ch8",
+  "course": "ECON 1B03",
+  "title": "Textbook Homework · Ch 8",
+  "description": "Auto-gradable versions of the assigned Chapter 8 (Consumer Choice and Behavioural Economics) review questions and problems from Hubbard et al., Microeconomics (4th Canadian ed.), Week 6.",
+  "defaultSource": {
+    "label": "Textbook Homework",
+    "kind": "textbook"
+  },
+  "defaultUnit": 6,
+  "scenarios": {
+    "ch8-p1.6": {
+      "title": "Problem 1.6 — Studying for two exams",
+      "body": "You have six hours to study for two exams tomorrow. The following table shows the relationship between hours of study and test scores:\n\na. Use the rule for determining optimal purchases to decide how many hours you should study each subject. Treat each point on an exam as one unit of utility and assume that you consider an extra point on an economics exam to have the same value as an extra point on a psychology exam.\n\nb. Now suppose that you are a psychology major and that you value each point you earn on a psychology exam as being worth three times as much as each point you earn on an economics exam. Now how many hours will you study each subject?",
+      "table": {
+        "caption": "Problem 1.6",
+        "headers": [
+          "Hours",
+          "Economics score",
+          "Psychology hours",
+          "Psychology score"
+        ],
+        "rows": [
+          [
+            0,
+            54,
+            0,
+            54
+          ],
+          [
+            1,
+            62,
+            1,
+            60
+          ],
+          [
+            2,
+            69,
+            2,
+            65
+          ],
+          [
+            3,
+            75,
+            3,
+            69
+          ],
+          [
+            4,
+            80,
+            4,
+            72
+          ],
+          [
+            5,
+            84,
+            5,
+            74
+          ],
+          [
+            6,
+            87,
+            6,
+            75
+          ]
+        ]
+      }
+    },
+    "ch8-p1.11": {
+      "title": "Problem 1.11 — Rahim’s apples and oranges",
+      "body": "[Related to Solved Problem 8.1] Rahim has $55 to spend on apples and oranges. Given the information in the following table, is Rahim maximizing utility? Briefly explain.",
+      "table": {
+        "caption": "Problem 1.11",
+        "headers": [
+          "Product",
+          "Price",
+          "Quantity",
+          "Total utility",
+          "Marginal utility of last unit"
+        ],
+        "rows": [
+          [
+            "Apples",
+            "$0.50",
+            50,
+            1000,
+            20
+          ],
+          [
+            "Oranges",
+            "$0.75",
+            40,
+            500,
+            30
+          ]
+        ],
+        "rowHeaders": true
+      }
+    },
+    "ch8-p1.12": {
+      "title": "Problem 1.12 — Maya’s tuna and ginger ale",
+      "body": "Maya spends her $50 budget on two goods, cans of tuna and bottles of ginger ale. Initially, the marginal utility per dollar she spends on tuna is equal to the marginal utility per dollar she spends on ginger ale. Then the price of ginger ale decreases, while her income and the price of tuna do not change. Determine whether each of the following statements about what happens as a result of the decrease in the price of ginger ale is true or false and briefly explain why.\n\na. Her marginal utility from consuming ginger ale increases.\n\nb. The marginal utility per dollar she spends on ginger ale increases.\n\nc. Because of the substitution effect, Maya will buy more ginger ale. Therefore, we can conclude that ginger ale is a normal good.\n\nd. As Maya adjusts to the change in the price of ginger ale, her marginal utility per dollar spent on tuna will increase.\n\n*Part (d) isn’t auto-graded here: whether Maya buys less tuna (raising its MU per dollar) depends on how the income and substitution effects net out — think it through, then compare with your tutorial notes.*"
+    },
+    "ch8-p2.5": {
+      "title": "Problem 2.5 — Market for ice-cream cones",
+      "body": "Suppose the market for ice-cream cones is made up of three consumers: Josh, Jon, and Tim. Use the information in the following table to construct the market demand curve for ice-cream cones. Show the information in a table and in a graph.",
+      "table": {
+        "caption": "Problem 2.5",
+        "headers": [
+          "Price",
+          "Josh quantity demanded",
+          "Jon quantity demanded",
+          "Tim quantity demanded",
+          "Market demand"
+        ],
+        "rows": [
+          [
+            "$1.75",
+            2,
+            1,
+            0,
+            "?"
+          ],
+          [
+            "$1.50",
+            4,
+            3,
+            2,
+            "?"
+          ],
+          [
+            "$1.25",
+            6,
+            4,
+            3,
+            "?"
+          ],
+          [
+            "$1.00",
+            7,
+            6,
+            4,
+            "?"
+          ],
+          [
+            "$0.75",
+            9,
+            7,
+            5,
+            "?"
+          ]
+        ],
+        "rowHeaders": true
+      }
+    },
+    "ch8-p3.10": {
+      "title": "Problem 3.10 — Hamilton ticket bots",
+      "body": "[Related to Apply the Concept: Who Made the Most Profit from the Broadway Musical Hamilton?] An article in the Economist noted that for the Broadway musical Hamilton, “Every time the show’s producers release a new block [of tickets] to sell, they immediately get snapped up by ‘ticket bots,’ high-speed ticket-buying software.” The musical’s producer called the ticket bots “computerized cheaters.”\n\na. How do people earn a profit from using the bots to buy tickets?\n\nb. Is there a strategy the musical’s producer could use to eliminate the profit earned by the ticket bots? If so, why doesn’t he use it?"
+    },
+    "ch8-p1.7": {
+      "title": "Problem 1.7 — Joe’s Smarties and cookies",
+      "body": "[Related to Solved Problem 8.1] Joe has $16 to spend on Smarties and chocolate chip cookies. Smarties have a price of $1 per box, and cookies have a price of $2 per pack. Use the information in the following graphs to determine the number of Smarties boxes and the number of cookie packs Joe should buy to maximize his utility. Briefly explain your reasoning."
+    }
+  },
+  "questions": [
+    {
+      "id": "ch8-r1.1",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Utility",
+      "tags": [
+        "review-question",
+        "week-6"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 8 · Review Q 1.1"
+      },
+      "prompt": "What is the economic definition of utility, and is utility measurable?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The enjoyment or satisfaction a person gets from consuming a good or service. It cannot be observed or measured directly, so economists work with a hypothetical unit called a “util”."
+        },
+        {
+          "id": "b",
+          "text": "The usefulness of a good as measured by its market price, so utility is directly measurable in dollars."
+        },
+        {
+          "id": "c",
+          "text": "The total amount of money a consumer spends on a good, which can be read from sales receipts."
+        },
+        {
+          "id": "d",
+          "text": "The additional satisfaction from the last unit consumed, which can be measured exactly with a satisfaction survey."
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "**Utility** is the enjoyment or satisfaction people receive from consuming goods and services. Because satisfaction is subjective, nobody can observe it or compare it across people with a meter; economists therefore use an imaginary unit (“utils”) just to *reason* about choices. Price is not utility (price is what the market charges, and a consumer’s satisfaction can be far above or below it), and “additional satisfaction from the last unit” is *marginal* utility, not utility itself."
+    },
+    {
+      "id": "ch8-r1.1b",
+      "type": "tf",
+      "unit": 6,
+      "topic": "Utility",
+      "tags": [
+        "review-question",
+        "week-6"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 8 · Review Q 1.1"
+      },
+      "prompt": "Economists assume that utility can be measured directly in dollars, which is why the theory of consumer choice can use exact numbers.",
+      "answer": false,
+      "explanation": "False. Utility is satisfaction, which cannot be measured directly. The theory uses hypothetical “utils” to illustrate how consumers rank bundles; what matters for decisions is the *comparison* of marginal utility per dollar across goods, not an exact dollar value of satisfaction."
+    },
+    {
+      "id": "ch8-r1.2",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Marginal utility",
+      "tags": [
+        "review-question",
+        "week-6"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 8 · Review Q 1.2"
+      },
+      "prompt": "What is marginal utility, and what is the law of diminishing marginal utility?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Marginal utility is total utility divided by the number of units consumed; the law says total utility falls as more units are consumed."
+        },
+        {
+          "id": "b",
+          "text": "Marginal utility is the change in total utility from consuming one more unit; the law says that as a person consumes more of a good in a given period, each additional unit adds less utility than the previous one."
+        },
+        {
+          "id": "c",
+          "text": "Marginal utility is the price a consumer pays for the first unit; the law says the price must fall as more units are bought."
+        },
+        {
+          "id": "d",
+          "text": "Marginal utility is the utility of the very first unit; the law says every additional unit gives the same extra satisfaction."
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "**Marginal utility (MU)** = ΔTU ÷ ΔQ, the extra satisfaction from *one more* unit. The **law of diminishing marginal utility** says MU falls as consumption of a good rises (the 4th slice of pizza adds less than the 1st). Total utility still rises as long as MU is positive; it just rises at a decreasing rate. Total ÷ units is *average* utility, not marginal."
+    },
+    {
+      "id": "ch8-r1.2b",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Marginal utility",
+      "tags": [
+        "review-question",
+        "week-6"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 8 · Review Q 1.2"
+      },
+      "prompt": "Why is marginal utility more useful than total utility for explaining consumer decisions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Total utility cannot be calculated for any good, while marginal utility can always be observed in the market."
+        },
+        {
+          "id": "b",
+          "text": "Marginal utility is always larger than total utility, so it dominates the decision."
+        },
+        {
+          "id": "c",
+          "text": "Choices are made at the margin: the relevant question is whether one more unit is worth its price, and marginal utility measures exactly that, whereas total utility only describes the overall level of satisfaction."
+        },
+        {
+          "id": "d",
+          "text": "Total utility falls as consumption increases, so a consumer would never want more than one unit."
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "Consumers decide how much to buy *one unit at a time*: buy another unit if the extra utility per dollar is high enough. That is a marginal comparison, so MU (not TU) drives the optimal-purchase rule. The distractors are false on the facts: TU can be tabulated, MU is not “larger” than TU, and TU keeps rising (at a slower rate) while MU is positive."
+    },
+    {
+      "id": "ch8-r1.3",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Budget constraint & optimal rule",
+      "tags": [
+        "review-question",
+        "week-6"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 8 · Review Q 1.3"
+      },
+      "prompt": "What is a consumer’s “budget constraint”, and what is the rule of equal marginal utility per dollar spent?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The budget constraint is the highest price a consumer would pay for a good; the rule is to buy the good with the highest MU."
+        },
+        {
+          "id": "b",
+          "text": "The budget constraint is the amount a consumer saves each month; the rule is to equalize marginal utilities (MU<sub>X</sub> = MU<sub>Y</sub>) across goods."
+        },
+        {
+          "id": "c",
+          "text": "The budget constraint is a government limit on how much of a good can be bought; the rule is to buy equal quantities of every good."
+        },
+        {
+          "id": "d",
+          "text": "The budget constraint is the limited income a consumer has to spend; the rule is to allocate spending so that MU/P is the same for every good (MU<sub>X</sub>/P<sub>X</sub> = MU<sub>Y</sub>/P<sub>Y</sub>), with all income spent."
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "A consumer’s **budget constraint** is her limited income (given prices). To maximize utility she spends it so the **marginal utility per dollar** is equal across goods: MU<sub>X</sub>/P<sub>X</sub> = MU<sub>Y</sub>/P<sub>Y</sub>. If the ratios differed, she could shift a dollar from the good with the lower MU/P to the one with the higher MU/P and gain utility. Equalizing raw MU ignores prices, and buying the highest-MU good ignores what it costs."
+    },
+    {
+      "id": "ch8-r1.3b",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Budget constraint & optimal rule",
+      "tags": [
+        "review-question",
+        "week-6"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 8 · Review Q 1.3"
+      },
+      "prompt": "A consumer is maximizing utility. The marginal utility of her last unit of good X is 24 utils and P<sub>X</sub> = $3. If P<sub>Y</sub> = $5, what is the marginal utility of her last unit of good Y (in utils)?",
+      "answer": {
+        "value": 40,
+        "tolerance": 0.01,
+        "display": "40 utils"
+      },
+      "explanation": "At the optimum, MU<sub>X</sub>/P<sub>X</sub> = MU<sub>Y</sub>/P<sub>Y</sub>. MU<sub>X</sub>/P<sub>X</sub> = 24/3 = 8 utils per dollar, so MU<sub>Y</sub> = 8 × $5 = **40**. A tempting wrong answer is 24 (equal MUs); that only holds if the two prices are equal."
+    },
+    {
+      "id": "ch8-r2.1",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Demand curve from consumer choice",
+      "tags": [
+        "review-question",
+        "week-6"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 8 · Review Q 2.1"
+      },
+      "prompt": "Explain how a downward-sloping demand curve results from consumers adjusting their consumption choices to a change in price.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A lower price of X raises MU<sub>X</sub>/P<sub>X</sub> above MU<sub>Y</sub>/P<sub>Y</sub>, so consumers buy more X until diminishing marginal utility brings the ratios back into equality; this (income and substitution effects) gives an inverse price–quantity relationship."
+        },
+        {
+          "id": "b",
+          "text": "A lower price lowers MU<sub>X</sub>/P<sub>X</sub>, so consumers buy less X; the demand curve slopes down because consumers dislike cheap goods."
+        },
+        {
+          "id": "c",
+          "text": "A lower price leaves the ratios unchanged because the MU of X does not depend on price, so quantity demanded stays the same."
+        },
+        {
+          "id": "d",
+          "text": "A lower price makes consumers buy more X only because they expect the price to fall further, not because of marginal utility."
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Start at the optimum, MU<sub>X</sub>/P<sub>X</sub> = MU<sub>Y</sub>/P<sub>Y</sub>. If P<sub>X</sub> falls, MU<sub>X</sub>/P<sub>X</sub> rises above MU<sub>Y</sub>/P<sub>Y</sub>: a dollar spent on X now buys more utility. The consumer buys more X (substitution effect, plus the income effect of greater purchasing power); because of diminishing MU, MU<sub>X</sub> falls as she buys more, until the ratios are equal again. Lower price → larger quantity demanded is the downward-sloping demand curve."
+    },
+    {
+      "id": "ch8-r3.1",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Social influences",
+      "tags": [
+        "review-question",
+        "week-6"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 8 · Review Q 3.1"
+      },
+      "prompt": "Why do consumers pay attention to celebrity endorsements of products?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Celebrities are experts on product quality, so endorsements only supply information and never change a consumer’s utility."
+        },
+        {
+          "id": "b",
+          "text": "Utility depends partly on social influences: people get satisfaction from using products associated with admired people or groups, so an endorsement raises the product’s appeal even though it says nothing about the product’s physical qualities."
+        },
+        {
+          "id": "c",
+          "text": "Endorsements lower the product’s price, so the equal marginal utility per dollar rule tells consumers to buy more."
+        },
+        {
+          "id": "d",
+          "text": "Consumers who respond to endorsements are making arithmetic errors; their utility from the product is unchanged."
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "Behavioural economics adds that tastes are shaped by **social influences**: wanting to fit in with, or be like, people we admire. A celebrity endorsement therefore changes how much utility a consumer expects from the product (it can shift demand right) regardless of any quality information. The “pure information” and “price falls” stories do not fit: endorsements don’t change the price, and a celebrity is often no expert on the product."
+    },
+    {
+      "id": "ch8-p3.8",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Fairness & pricing",
+      "tags": [
+        "review-question",
+        "problem",
+        "week-6",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 8 · Problem 3.8 ★ (also listed as Review Q 3.8)"
+      },
+      "prompt": "A new Star Wars film is sold out and hundreds of people are turned away, while the same theatre’s third-week film plays to a mostly empty room. Why would the theatre charge the same $15.00 for a ticket to either movie?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The $15.00 price is the equilibrium price in both markets, so there is no shortage at all for the popular film."
+        },
+        {
+          "id": "b",
+          "text": "The theatre is legally required to charge the same price for every movie shown."
+        },
+        {
+          "id": "c",
+          "text": "Charging more for the sold-out film would be seen by customers as unfair (price gouging), which would hurt goodwill and future sales; varying prices movie by movie would also add costs and complexity."
+        },
+        {
+          "id": "d",
+          "text": "The marginal utility of a ticket is identical for the two movies, so consumers value them equally."
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "Standard theory says the price of the popular movie should rise (shortage) and the price of the dull one should fall (surplus). Firms often do not do this because of **fairness**: consumers judge prices as fair or unfair and react badly to what looks like gouging, so charging more could cost the theatre goodwill and long-run sales. Changing prices film by film also has its own costs. The “equilibrium” answer is wrong because the question itself states there is a shortage for one film and a surplus for the other, and there is no such legal requirement."
+    },
+    {
+      "id": "ch8-r3.8",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Fairness & pricing",
+      "tags": [
+        "review-question",
+        "problem",
+        "week-6"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 8 · Review Q 3.8 (also listed under Problems)"
+      },
+      "prompt": "Fairness considerations help explain why the theatre keeps the same ticket price for both films. What would most likely happen if the theatre raised the price of the sold-out film to the market-clearing level?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nothing would change, because consumers never care whether a price is fair as long as the good is available."
+        },
+        {
+          "id": "b",
+          "text": "The theatre would also have to raise the price of the third-week film, because every film in the same building must sell for the same price."
+        },
+        {
+          "id": "c",
+          "text": "Consumers would buy more tickets, since a higher price signals a higher marginal utility per dollar."
+        },
+        {
+          "id": "d",
+          "text": "Many customers would view the increase as unfair and respond with anger or by taking their business elsewhere, which could cost the theatre more in goodwill and future sales than it gains."
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "Behavioural economics shows that consumers care about the *fairness* of how prices are set, not only about the price itself. A visible price jump when demand surges looks like gouging, so firms (and theatres) often prefer a constant price even when there is a shortage. The other options ignore this: nothing forces one price on every film, and a higher price lowers, not raises, MU per dollar."
+    },
+    {
+      "id": "ch8-r4.1",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Economic rationality",
+      "tags": [
+        "review-question",
+        "week-6"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 8 · Review Q 4.1"
+      },
+      "prompt": "What does it mean to be economically rational?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Using all available information to choose the action that is in one’s own best interest, i.e. that maximizes one’s utility or well-being."
+        },
+        {
+          "id": "b",
+          "text": "Always choosing the cheapest option available, whatever its quality."
+        },
+        {
+          "id": "c",
+          "text": "Never being influenced by other people’s opinions or by fairness concerns of any kind."
+        },
+        {
+          "id": "d",
+          "text": "Making decisions quickly, using rules of thumb to avoid wasting time on analysis."
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "An economically rational consumer uses all available information to pick the option that best serves her own interests (maximizes utility). That need not be the cheapest option, and it says nothing about speed. Rules of thumb are exactly what behavioural economists contrast with rational choice because they can lead to suboptimal decisions."
+    },
+    {
+      "id": "ch8-r4.3",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Heuristics",
+      "tags": [
+        "review-question",
+        "week-6",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 8 · Review Q 4.3 ★"
+      },
+      "prompt": "Does using heuristics increase or decrease the likelihood of a consumer making an optimal choice? Briefly explain.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Increase: heuristics ensure consumers use all available information in the best possible way."
+        },
+        {
+          "id": "b",
+          "text": "Decrease: heuristics (rules of thumb) save time and effort, but they ignore some information, so they can lead the consumer to a choice that is not the utility-maximizing one."
+        },
+        {
+          "id": "c",
+          "text": "Increase: a rule of thumb is simply a faster way to reach the same optimal choice every time."
+        },
+        {
+          "id": "d",
+          "text": "No effect: heuristics only change how fast a decision is made, never what is chosen."
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "A **heuristic** is a rule of thumb that simplifies a decision. It saves effort but can produce systematic mistakes (anchoring, for instance), so it *reduces* the chance of the optimal choice. The “same optimal choice, only faster” view is wrong because a shortcut that skips information can change the result."
+    },
+    {
+      "id": "ch8-r4.3b",
+      "type": "tf",
+      "unit": 6,
+      "topic": "Heuristics",
+      "tags": [
+        "review-question",
+        "week-6",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 8 · Review Q 4.3 ★"
+      },
+      "prompt": "Relying on rules of thumb always leads a consumer to the same choice she would make if she carefully weighed marginal utility per dollar for every option.",
+      "answer": false,
+      "explanation": "False. Heuristics economize on time and effort but ignore some information, so they can lead to a different (suboptimal) choice than careful application of the equal-MU-per-dollar rule."
+    },
+    {
+      "id": "ch8-r4.4",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Anchoring",
+      "tags": [
+        "review-question",
+        "week-6"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 8 · Review Q 4.4"
+      },
+      "prompt": "What is anchoring, and how might a firm use it to increase sales?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anchoring is refusing to change a decision once it is made; a firm uses it by locking customers into long-term contracts."
+        },
+        {
+          "id": "b",
+          "text": "Anchoring is valuing something more once you own it; a firm uses it by offering free trials."
+        },
+        {
+          "id": "c",
+          "text": "Anchoring is relying heavily on an initial (often irrelevant) number when making a decision; a firm can show a high “regular” price next to the sale price, or list a high-priced item first, so that other prices seem like bargains."
+        },
+        {
+          "id": "d",
+          "text": "Anchoring is basing a decision on what other people are buying; a firm uses it by raising the price when demand is high."
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "**Anchoring**: people let a starting number (even an irrelevant one) pull their judgments of what a fair price is. Firms exploit it with a crossed-out “regular” price beside a sale price or a premium item displayed first. Valuing something more once owned is the *endowment effect*; copying others is a *social influence*; refusing to change a decision is not anchoring."
+    },
+    {
+      "id": "ch8-p1.6a",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Optimal allocation",
+      "tags": [
+        "problem",
+        "week-6",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 8 · Problem 1.6(a) ★"
+      },
+      "scenario": "ch8-p1.6",
+      "prompt": "Part (a): How should you split the six hours between economics and psychology?",
+      "options": [
+        {
+          "id": "a",
+          "text": "4 hours of economics, 2 hours of psychology"
+        },
+        {
+          "id": "b",
+          "text": "3 hours of economics, 3 hours of psychology"
+        },
+        {
+          "id": "c",
+          "text": "2 hours of economics, 4 hours of psychology"
+        },
+        {
+          "id": "d",
+          "text": "6 hours of economics, 0 hours of psychology"
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Each hour costs the same (one of your six hours) and each exam point is one util, so the optimal rule says to give each hour to the subject with the higher marginal utility (extra points). Marginal points, economics: 8, 7, 6, 5, 4, 3; psychology: 6, 5, 4, 3, 2, 1. The six largest of these are 8, 7, 6, 6, 5, 5, which are the first four economics hours and the first two psychology hours. Scores: 80 in economics and 65 in psychology (total 145, the highest possible). An even 3–3 split is wrong because the 4th economics hour (5 points) beats the 3rd psychology hour (4 points)."
+    },
+    {
+      "id": "ch8-p1.6a2",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Optimal allocation",
+      "tags": [
+        "problem",
+        "week-6",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 8 · Problem 1.6(a) ★"
+      },
+      "scenario": "ch8-p1.6",
+      "prompt": "Part (a): What is the marginal utility (extra points) from the 4th hour of studying economics?",
+      "answer": {
+        "value": 5,
+        "tolerance": 0.01,
+        "display": "5 points"
+      },
+      "explanation": "MU of the 4th hour = 80 − 75 = **5** points. In the optimal split (4 economics, 2 psychology) the last hour in each subject is worth 5 points (psychology hour 2: 65 − 60 = 5), so no hour can be moved to gain points."
+    },
+    {
+      "id": "ch8-p1.6b",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Optimal allocation",
+      "tags": [
+        "problem",
+        "week-6",
+        "starred"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 8 · Problem 1.6(b) ★"
+      },
+      "scenario": "ch8-p1.6",
+      "prompt": "Part (b): Each psychology point is now worth three times an economics point. How should you split the six hours?",
+      "options": [
+        {
+          "id": "a",
+          "text": "4 hours of economics, 2 hours of psychology"
+        },
+        {
+          "id": "b",
+          "text": "2 hours of economics, 4 hours of psychology"
+        },
+        {
+          "id": "c",
+          "text": "3 hours of economics, 3 hours of psychology"
+        },
+        {
+          "id": "d",
+          "text": "0 hours of economics, 6 hours of psychology"
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "Multiply the psychology marginal points by 3: 18, 15, 12, 9, 6, 3. Economics stays 8, 7, 6, 5, 4, 3. The six largest values are 18, 15, 12, 9 (psychology hours 1–4) and 8, 7 (economics hours 1–2), so study **2 hours economics and 4 hours psychology**. Putting all six hours into psychology is wrong: the 5th and 6th psychology hours are worth only 6 and 3, less than the 2nd economics hour (7). The weighted total is 69 + 3 × 72 = 285."
+    },
+    {
+      "id": "ch8-p1.6b2",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Optimal allocation",
+      "tags": [
+        "problem",
+        "week-6",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 8 · Problem 1.6(b) ★"
+      },
+      "scenario": "ch8-p1.6",
+      "prompt": "Part (b): With each psychology point worth three times an economics point, what is the weighted marginal utility (in utils) of the 4th hour of psychology?",
+      "answer": {
+        "value": 9,
+        "tolerance": 0.01,
+        "display": "9 utils"
+      },
+      "explanation": "The 4th psychology hour adds 72 − 69 = 3 points; at three utils per point, that is 3 × 3 = **9** utils. Compare it with the 3rd economics hour (6 utils) and the 5th psychology hour (2 × 3 = 6): the 4th psychology hour (9) is better than either, which is why the split moves to 2 economics and 4 psychology."
+    },
+    {
+      "id": "ch8-p1.9",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Income & substitution effects",
+      "tags": [
+        "problem",
+        "week-6"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 8 · Problem 1.9"
+      },
+      "prompt": "When the price of pizza falls, both the income effect and the substitution effect make you want to consume more pizza. If pizza were an inferior good, how would the analysis change, and could a lower price lead you to buy less pizza?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both effects still push consumption up, so a lower price can never reduce the quantity of pizza bought."
+        },
+        {
+          "id": "b",
+          "text": "The substitution effect reverses direction, so a lower price always leads to less pizza."
+        },
+        {
+          "id": "c",
+          "text": "The substitution effect still raises pizza consumption, but for an inferior good the income effect works the other way (higher real income means buying less). A lower price could reduce pizza purchased only if the income effect outweighed the substitution effect, which is possible but extremely rare."
+        },
+        {
+          "id": "d",
+          "text": "Neither effect applies to inferior goods, so the quantity of pizza bought does not change when the price falls."
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "A fall in the price of pizza (1) makes pizza cheaper relative to other goods (substitution effect: buy more) and (2) raises real income (income effect). For an **inferior good**, a rise in income reduces consumption, so the income effect pushes *against* the substitution effect. Normally the substitution effect is larger and the demand curve still slopes down. Only if the income effect were bigger would a lower price reduce quantity demanded (a Giffen good), a very rare case."
+    },
+    {
+      "id": "ch8-p1.9b",
+      "type": "tf",
+      "unit": 6,
+      "topic": "Income & substitution effects",
+      "tags": [
+        "problem",
+        "week-6"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 8 · Problem 1.9"
+      },
+      "prompt": "For an inferior good, the substitution effect of a price decrease leads the consumer to buy less of the good.",
+      "answer": false,
+      "explanation": "False. The substitution effect always favours the good that has become relatively cheaper, so the consumer buys *more*. For an inferior good it is the *income effect* that works in the opposite direction."
+    },
+    {
+      "id": "ch8-p1.11a",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Equal MU per dollar",
+      "tags": [
+        "problem",
+        "week-6"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 8 · Problem 1.11(a)"
+      },
+      "scenario": "ch8-p1.11",
+      "prompt": "What is the marginal utility per dollar spent on apples (utils per dollar)?",
+      "answer": {
+        "value": 40,
+        "tolerance": 0.01,
+        "display": "40 utils per $"
+      },
+      "explanation": "MU/P for apples = 20 ÷ $0.50 = **40** utils per dollar. (Total utility, 1000, is irrelevant for the marginal rule.) For oranges: 30 ÷ $0.75 = 40 as well."
+    },
+    {
+      "id": "ch8-p1.11b",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Budget constraint",
+      "tags": [
+        "problem",
+        "week-6"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 8 · Problem 1.11(b)"
+      },
+      "scenario": "ch8-p1.11",
+      "prompt": "How much does Rahim spend in total on 50 apples and 40 oranges?",
+      "answer": {
+        "value": 55,
+        "tolerance": 0.01,
+        "display": "$55",
+        "prefix": "$"
+      },
+      "explanation": "Spending = 50 × $0.50 + 40 × $0.75 = $25 + $30 = **$55**, exactly his budget, so the budget constraint is satisfied."
+    },
+    {
+      "id": "ch8-p1.11c",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Utility maximization",
+      "tags": [
+        "problem",
+        "week-6"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 8 · Problem 1.11(c)"
+      },
+      "scenario": "ch8-p1.11",
+      "prompt": "Is Rahim maximizing utility?",
+      "options": [
+        {
+          "id": "a",
+          "text": "No: the marginal utility of oranges (30) is higher than that of apples (20), so he should buy more oranges."
+        },
+        {
+          "id": "b",
+          "text": "No: total utility is higher for apples (1000) than for oranges (500), so he should buy more apples."
+        },
+        {
+          "id": "c",
+          "text": "Yes: MU/P is 40 for both apples and oranges and he spends exactly his $55."
+        },
+        {
+          "id": "d",
+          "text": "No: he buys more apples than oranges, so he should equalize the quantities."
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "Test both conditions. (1) MU<sub>A</sub>/P<sub>A</sub> = 20/0.50 = 40 and MU<sub>O</sub>/P<sub>O</sub> = 30/0.75 = 40, so the marginal utility per dollar is equal. (2) Spending = $25 + $30 = $55 = income. Both conditions hold, so he is maximizing utility. Comparing raw MUs (30 vs 20), total utilities or quantities ignores prices and is the mistake the rule is designed to avoid."
+    },
+    {
+      "id": "ch8-p1.12a",
+      "type": "tf",
+      "unit": 6,
+      "topic": "Price change & MU",
+      "tags": [
+        "problem",
+        "week-6"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 8 · Problem 1.12(a)"
+      },
+      "scenario": "ch8-p1.12",
+      "prompt": "(a) Her marginal utility from consuming ginger ale increases.",
+      "answer": false,
+      "explanation": "False. Marginal utility depends on how much she consumes, not on the price. Right after the price falls her MU at the current quantity is unchanged; as she buys *more* ginger ale, diminishing marginal utility makes MU *fall*. What rises is MU **per dollar** (statement b)."
+    },
+    {
+      "id": "ch8-p1.12b",
+      "type": "tf",
+      "unit": 6,
+      "topic": "Price change & MU per dollar",
+      "tags": [
+        "problem",
+        "week-6"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 8 · Problem 1.12(b)"
+      },
+      "scenario": "ch8-p1.12",
+      "prompt": "(b) The marginal utility per dollar she spends on ginger ale increases.",
+      "answer": true,
+      "explanation": "True. MU/P rises because P is in the denominator and falls while MU (at the current quantity) is unchanged. Ginger ale now gives more utility per dollar than tuna, so she buys more ginger ale until diminishing MU brings the ratios back into line."
+    },
+    {
+      "id": "ch8-p1.12c",
+      "type": "tf",
+      "unit": 6,
+      "topic": "Normal vs inferior goods",
+      "tags": [
+        "problem",
+        "week-6"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 8 · Problem 1.12(c)"
+      },
+      "scenario": "ch8-p1.12",
+      "prompt": "(c) Because of the substitution effect, Maya will buy more ginger ale. Therefore, we can conclude that ginger ale is a normal good.",
+      "answer": false,
+      "explanation": "False. The substitution effect makes her buy more of a good that has become cheaper, whether the good is normal *or inferior*. Whether ginger ale is normal depends on the **income effect** (whether she buys more when real income rises), which the substitution effect says nothing about."
+    },
+    {
+      "id": "ch8-p1.13",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Equal MU per dollar",
+      "tags": [
+        "problem",
+        "week-6"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 8 · Problem 1.13"
+      },
+      "prompt": "Afua has 4 bags of corn chips and 5 bottles of soda in her cart. The marginal utility of the fourth bag of chips is 10 and the marginal utility of the fifth bottle of soda is also 10. Is Afua maximizing utility? Briefly explain.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yes, because the marginal utilities of the last unit of each good are equal."
+        },
+        {
+          "id": "b",
+          "text": "No, because she is buying more bottles of soda than bags of chips."
+        },
+        {
+          "id": "c",
+          "text": "No, because she should buy only the good with the higher total utility."
+        },
+        {
+          "id": "d",
+          "text": "We cannot tell without prices: utility maximization requires equal marginal utility per dollar, and equal marginal utilities give that only if the two goods have the same price."
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "The rule is MU<sub>chips</sub>/P<sub>chips</sub> = MU<sub>soda</sub>/P<sub>soda</sub> (with all income spent). With both MUs = 10, the ratios are equal only if the prices are equal. For example, if soda costs twice as much as chips, soda gives half the utility per dollar and she should shift spending toward chips. Equal quantities or equal total utility say nothing about the condition, so the answer is “can’t tell without prices”."
+    },
+    {
+      "id": "ch8-p2.5a",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Market demand",
+      "tags": [
+        "problem",
+        "week-6",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 8 · Problem 2.5 ★"
+      },
+      "scenario": "ch8-p2.5",
+      "prompt": "What is the market quantity demanded at a price of $1.75?",
+      "answer": {
+        "value": 3,
+        "tolerance": 0.01,
+        "display": "3 cones"
+      },
+      "explanation": "Market demand is the *horizontal sum* of individual quantities demanded at each price: 2 + 1 + 0 = **3** cones."
+    },
+    {
+      "id": "ch8-p2.5b",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Market demand",
+      "tags": [
+        "problem",
+        "week-6",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 8 · Problem 2.5 ★"
+      },
+      "scenario": "ch8-p2.5",
+      "prompt": "What is the market quantity demanded at a price of $1.25?",
+      "answer": {
+        "value": 13,
+        "tolerance": 0.01,
+        "display": "13 cones"
+      },
+      "explanation": "At $1.25: Josh 6 + Jon 4 + Tim 3 = **13** cones. Add quantities at the same price; never add prices."
+    },
+    {
+      "id": "ch8-p2.5c",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Market demand",
+      "tags": [
+        "problem",
+        "week-6",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 8 · Problem 2.5 ★"
+      },
+      "scenario": "ch8-p2.5",
+      "prompt": "What is the market quantity demanded at a price of $0.75?",
+      "answer": {
+        "value": 21,
+        "tolerance": 0.01,
+        "display": "21 cones"
+      },
+      "explanation": "At $0.75: 9 + 7 + 5 = **21** cones. (The full market demand column is 3, 9, 13, 17, 21 at prices $1.75, $1.50, $1.25, $1.00, $0.75.)"
+    },
+    {
+      "id": "ch8-p2.5d",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Market demand",
+      "tags": [
+        "problem",
+        "week-6",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 8 · Problem 2.5 ★"
+      },
+      "scenario": "ch8-p2.5",
+      "prompt": "How does the market demand curve plotted from these numbers look, and how is it obtained from the three individual demand curves?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It slopes downward (3, 9, 13, 17, 21 cones as the price falls from $1.75 to $0.75); it is the horizontal sum of the individual demand curves, adding quantities at each price."
+        },
+        {
+          "id": "b",
+          "text": "It slopes upward, because at higher prices the three consumers together buy more cones."
+        },
+        {
+          "id": "c",
+          "text": "It slopes downward, and it is the vertical sum of the individual curves, adding the prices consumers are willing to pay at each quantity."
+        },
+        {
+          "id": "d",
+          "text": "It is vertical at 21 cones, since that is the largest quantity any consumer demands at any price."
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Add quantities at each price (3, 9, 13, 17, 21). Quantity rises as price falls, so the market demand curve slopes down: the law of demand holds for each consumer and so for the market. Market demand is the *horizontal* sum; summing prices vertically is how *public-goods* demand is added, not private goods like cones."
+    },
+    {
+      "id": "ch8-p2.10",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Demand curve & the optimal rule",
+      "tags": [
+        "problem",
+        "week-6"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 8 · Problem 2.10"
+      },
+      "prompt": "Along an individual’s demand curve for pizza, as the price of pizza falls, does the rule of equal marginal utility per dollar spent (pizza vs. Coke) still hold at every point? How can it hold when the price of pizza changes?",
+      "options": [
+        {
+          "id": "a",
+          "text": "No. When the price of pizza falls the ratio MU<sub>pizza</sub>/P<sub>pizza</sub> stays above MU<sub>Coke</sub>/P<sub>Coke</sub> at every point on the new demand curve."
+        },
+        {
+          "id": "b",
+          "text": "Yes. Each point on the demand curve is a utility-maximizing choice at that price, so MU<sub>pizza</sub>/P<sub>pizza</sub> = MU<sub>Coke</sub>/P<sub>Coke</sub> holds there. When P falls, she buys more pizza, which lowers MU<sub>pizza</sub> until the ratio equals the Coke ratio again."
+        },
+        {
+          "id": "c",
+          "text": "Yes, but only because MU<sub>pizza</sub> stays constant as the price falls, so the ratio is unchanged."
+        },
+        {
+          "id": "d",
+          "text": "No. The rule applies to one fixed price only, so it cannot describe a whole demand curve."
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "Right after the price falls, MU<sub>pizza</sub>/P<sub>pizza</sub> is temporarily *higher* than the Coke ratio, so she buys more pizza. Diminishing marginal utility makes MU<sub>pizza</sub> fall as she consumes more, until the ratios are equal again. Each point on the demand curve is such a re-optimized choice (that is what “quantity demanded at that price” means), so the rule holds at every point; the change in quantity is what lets the ratio re-equalize. MU<sub>pizza</sub> is not constant, and the rule holds at each price, not just one."
+    },
+    {
+      "id": "ch8-p3.10a",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Ticket pricing",
+      "tags": [
+        "problem",
+        "week-6"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 8 · Problem 3.10(a)"
+      },
+      "scenario": "ch8-p3.10",
+      "prompt": "Part (a): How do people earn a profit from using bots to buy tickets?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bots buy tickets at the high market price and sell them back to the producer at face value."
+        },
+        {
+          "id": "b",
+          "text": "Bots lower the marginal cost of producing each performance, which raises the producer’s profit and a share is passed on to the bot owners."
+        },
+        {
+          "id": "c",
+          "text": "Bots buy tickets at the producer’s face value, which is below the market-clearing price, and resell them at the much higher price that buyers are willing to pay."
+        },
+        {
+          "id": "d",
+          "text": "Bots buy tickets at face value and resell them at the same price, earning a profit on the volume sold."
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "Face value was set below the market-clearing price, so quantity demanded exceeded the number of seats. That shortage creates a profit opportunity for anyone who can get tickets quickly: buy at face value, resell near the market-clearing price. The bot owner pockets the difference, and the producer loses that revenue to the resellers. Reselling at the same price as the purchase price would earn nothing."
+    },
+    {
+      "id": "ch8-p3.10b",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Ticket pricing",
+      "tags": [
+        "problem",
+        "week-6"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 8 · Problem 3.10(b)"
+      },
+      "scenario": "ch8-p3.10",
+      "prompt": "Part (b): Is there a strategy the producer could use to eliminate the bots’ profit? If so, why does he not use it?",
+      "options": [
+        {
+          "id": "a",
+          "text": "No: nothing can be done, because any price the producer sets will always be below the market-clearing price."
+        },
+        {
+          "id": "b",
+          "text": "Yes: lower ticket prices further, which eliminates the shortage; he doesn’t because lower prices reduce quality."
+        },
+        {
+          "id": "c",
+          "text": "Yes: restrict each buyer to one ticket; this eliminates the profit completely, and the producer prefers it because it raises revenue."
+        },
+        {
+          "id": "d",
+          "text": "Yes: raise ticket prices to the market-clearing level (or auction the tickets), which removes the gap bots exploit; he doesn’t because many customers would see very high prices as unfair and he wants the show to stay accessible and keep goodwill."
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "The bots’ profit equals the gap between the market-clearing price and the face value. Charging the market-clearing price (or auctioning tickets) eliminates the gap, but fairness concerns, the desire for broad access and long-run reputation lead many producers not to do it. Lowering prices would make the shortage (and the bots’ profit) *bigger*, and a purchase limit only makes the shortage harder to exploit but does not remove the gap."
+    },
+    {
+      "id": "ch8-p4.8",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Elasticity estimation",
+      "tags": [
+        "problem",
+        "week-6"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 8 · Problem 4.8"
+      },
+      "prompt": "The alcoholic-beverage elasticities in the Apply the Concept were calculated using data for many brands of beer. Why might price elasticity estimates be less reliable if they use data for only one brand of beer?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A single brand has many close substitutes (other beers), so its demand responds far more to its own price, and brand-specific promotions or rival price changes confound the data; it would not represent demand for beer as a whole."
+        },
+        {
+          "id": "b",
+          "text": "A single brand has fewer substitutes than beer as a whole, so its demand is far more inelastic than the market’s."
+        },
+        {
+          "id": "c",
+          "text": "Data for one brand cannot show a price change, so elasticity cannot be calculated at all."
+        },
+        {
+          "id": "d",
+          "text": "A single brand’s data would always give exactly the same elasticity as the market, so the estimate would be redundant."
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Elasticity depends on the availability of close substitutes and on how narrowly the market is defined. One brand has many close substitutes (other brands), so its price elasticity is much larger than for beer overall. In addition, brand-specific advertising, promotions and rivals’ price moves shift that brand’s demand, so the estimated elasticity mixes shifts with movements along the demand curve. The estimate therefore would not be a good measure for the whole beer market."
+    },
+    {
+      "id": "ch8-p4.11",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Behavioural biases",
+      "tags": [
+        "problem",
+        "week-6"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 8 · Problem 4.11"
+      },
+      "prompt": "Members who pick a flat monthly fee of $70 attend 4.8 times a month on average, paying more than $14 per visit even though a $10-per-visit fee is available. Why would these consumers choose a monthly contract when they lose money on it?",
+      "options": [
+        {
+          "id": "a",
+          "text": "They are maximizing utility, because the marginal utility of each visit is always higher with a flat fee."
+        },
+        {
+          "id": "b",
+          "text": "They are overconfident about their own future behaviour: they overestimate how often they will go (and the flat fee may act as a commitment device)."
+        },
+        {
+          "id": "c",
+          "text": "They misjudge the price: a flat fee of $70 is actually cheaper than $10 for 4.8 visits."
+        },
+        {
+          "id": "d",
+          "text": "They are following the rule of equal marginal utility per dollar, which requires buying the highest-priced option."
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "At 4.8 visits, pay-per-visit would cost 4.8 × $10 = $48, while the flat fee costs $70, about $14.58 per visit. Rational consumers would choose pay-per-visit if they knew they would attend only about 4.8 times. Choosing the flat fee reflects a behavioural bias: people are unrealistic about their future behaviour and overestimate how often they will go (the contract can also serve as a way to commit themselves to exercising)."
+    },
+    {
+      "id": "ch8-p4.12",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Endowment effect",
+      "tags": [
+        "problem",
+        "week-6"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 8 · Problem 4.12"
+      },
+      "prompt": "Marvin would not pay $350 for a Maple Leafs ticket, but after buying a $250 ticket he declines a friend’s offer of $350 for it. How can his refusal be explained?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anchoring: Marvin is relying on the $350 price of the first broker’s ticket as a starting number."
+        },
+        {
+          "id": "b",
+          "text": "Diminishing marginal utility: Marvin’s second ticket gives him less utility than the first."
+        },
+        {
+          "id": "c",
+          "text": "Sunk cost: he has already paid $250 and would lose that money if he sold the ticket."
+        },
+        {
+          "id": "d",
+          "text": "The endowment effect: people value something more once they own it, so Marvin now values his ticket above $350 even though he would not have paid $350 for it."
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "Marvin’s behaviour is inconsistent with a simple rational model: he would not pay $350 to *get* a ticket, but he will not *sell* his for $350. This is the **endowment effect**, where ownership raises the value people place on a good. Anchoring is about a reference number, not ownership; diminishing MU does not apply since he holds only one ticket; and the $250 he paid is a sunk cost, which a rational consumer ignores (selling at $350 would actually give him $100 more than he paid)."
+    },
+    {
+      "id": "ch8-p4.12b",
+      "type": "tf",
+      "unit": 6,
+      "topic": "Endowment effect",
+      "tags": [
+        "problem",
+        "week-6"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 8 · Problem 4.12"
+      },
+      "prompt": "Marvin’s refusal to sell shows that he is acting like a standard rational consumer, because the ticket’s value to him must have been above $350 all along.",
+      "answer": false,
+      "explanation": "False. He decided he would *not pay* $350 for a comparable ticket, so if his valuation had been stable he would sell his for $350. The jump in valuation after buying is the endowment effect, a departure from the standard model."
+    },
+    {
+      "id": "ch8-p1.7a",
+      "type": "numeric",
+      "unit": 6,
+      "difficulty": 2,
+      "tags": [
+        "problem",
+        "week-6",
+        "starred"
+      ],
+      "source": {
+        "ref": "Ch 8 · Problem 1.7 ★"
+      },
+      "scenario": "ch8-p1.7",
+      "topic": "Equal MU per dollar (Smarties)",
+      "figure": [
+        {
+          "type": "graph",
+          "caption": "Smarties ($1 per box)",
+          "spec": {
+            "width": 360,
+            "height": 260,
+            "x": {
+              "label": "Quantity of Smarties (boxes)",
+              "min": 0,
+              "max": 7,
+              "step": 1
+            },
+            "y": {
+              "label": "Marginal utility",
+              "min": 0,
+              "max": 12,
+              "step": 2
+            },
+            "curves": [
+              {
+                "id": "MUs",
+                "label": "MU",
+                "color": "blue",
+                "points": [
+                  [
+                    0.5,
+                    11
+                  ],
+                  [
+                    6,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "points": [
+              {
+                "id": "s1",
+                "x": 1,
+                "y": 10
+              },
+              {
+                "id": "s2",
+                "x": 2,
+                "y": 8
+              },
+              {
+                "id": "s3",
+                "x": 3,
+                "y": 6
+              },
+              {
+                "id": "s4",
+                "x": 4,
+                "y": 4
+              },
+              {
+                "id": "s5",
+                "x": 5,
+                "y": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "graph",
+          "caption": "Chocolate chip cookies ($2 per pack)",
+          "spec": {
+            "width": 360,
+            "height": 260,
+            "x": {
+              "label": "Quantity of cookies (packs)",
+              "min": 0,
+              "max": 12,
+              "step": 2
+            },
+            "y": {
+              "label": "Marginal utility",
+              "min": 0,
+              "max": 20,
+              "step": 2
+            },
+            "curves": [
+              {
+                "id": "MUc",
+                "label": "MU",
+                "color": "blue",
+                "points": [
+                  [
+                    1,
+                    18
+                  ],
+                  [
+                    10,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "points": [
+              {
+                "id": "c2",
+                "x": 2,
+                "y": 16
+              },
+              {
+                "id": "c4",
+                "x": 4,
+                "y": 12
+              },
+              {
+                "id": "c6",
+                "x": 6,
+                "y": 8
+              },
+              {
+                "id": "c8",
+                "x": 8,
+                "y": 4
+              }
+            ]
+          }
+        }
+      ],
+      "prompt": "How many **boxes of Smarties** should Joe buy?",
+      "answer": {
+        "value": 4,
+        "tolerance": 0,
+        "display": "4 boxes"
+      },
+      "explanation": "Read the MU of each unit off the graphs (Smarties: 10, 8, 6, 4, 2; cookies: 18, 16, 14, 12, 10, 8, …) and divide by price: Smarties MU/P = 10, 8, 6, **4**, 2 (price $1); cookies MU/P = 9, 8, 7, 6, 5, **4**, 3 … (price $2).\n\nBuy where **MU/P is equal and the $16 is spent**: 4 boxes of Smarties (4th box MU/P = 4) and 6 packs of cookies (6th pack MU = 8, MU/P = 4) → 4 × $1 + 6 × $2 = **$16**. Check a neighbour: 6 Smarties + 5 cookies also costs $16 but gives total utility 30 + 70 = 100, versus 28 + 78 = **106** at 4 and 6. Equating MU instead of MU per dollar is the classic mistake."
+    },
+    {
+      "id": "ch8-p1.7b",
+      "type": "numeric",
+      "unit": 6,
+      "difficulty": 2,
+      "tags": [
+        "problem",
+        "week-6",
+        "starred"
+      ],
+      "source": {
+        "ref": "Ch 8 · Problem 1.7 ★"
+      },
+      "scenario": "ch8-p1.7",
+      "topic": "Equal MU per dollar (cookies)",
+      "figure": [
+        {
+          "type": "graph",
+          "caption": "Smarties ($1 per box)",
+          "spec": {
+            "width": 360,
+            "height": 260,
+            "x": {
+              "label": "Quantity of Smarties (boxes)",
+              "min": 0,
+              "max": 7,
+              "step": 1
+            },
+            "y": {
+              "label": "Marginal utility",
+              "min": 0,
+              "max": 12,
+              "step": 2
+            },
+            "curves": [
+              {
+                "id": "MUs",
+                "label": "MU",
+                "color": "blue",
+                "points": [
+                  [
+                    0.5,
+                    11
+                  ],
+                  [
+                    6,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "points": [
+              {
+                "id": "s1",
+                "x": 1,
+                "y": 10
+              },
+              {
+                "id": "s2",
+                "x": 2,
+                "y": 8
+              },
+              {
+                "id": "s3",
+                "x": 3,
+                "y": 6
+              },
+              {
+                "id": "s4",
+                "x": 4,
+                "y": 4
+              },
+              {
+                "id": "s5",
+                "x": 5,
+                "y": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "graph",
+          "caption": "Chocolate chip cookies ($2 per pack)",
+          "spec": {
+            "width": 360,
+            "height": 260,
+            "x": {
+              "label": "Quantity of cookies (packs)",
+              "min": 0,
+              "max": 12,
+              "step": 2
+            },
+            "y": {
+              "label": "Marginal utility",
+              "min": 0,
+              "max": 20,
+              "step": 2
+            },
+            "curves": [
+              {
+                "id": "MUc",
+                "label": "MU",
+                "color": "blue",
+                "points": [
+                  [
+                    1,
+                    18
+                  ],
+                  [
+                    10,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "points": [
+              {
+                "id": "c2",
+                "x": 2,
+                "y": 16
+              },
+              {
+                "id": "c4",
+                "x": 4,
+                "y": 12
+              },
+              {
+                "id": "c6",
+                "x": 6,
+                "y": 8
+              },
+              {
+                "id": "c8",
+                "x": 8,
+                "y": 4
+              }
+            ]
+          }
+        }
+      ],
+      "prompt": "How many **packs of cookies** should Joe buy?",
+      "answer": {
+        "value": 6,
+        "tolerance": 0,
+        "display": "6 packs"
+      },
+      "explanation": "Read the MU of each unit off the graphs (Smarties: 10, 8, 6, 4, 2; cookies: 18, 16, 14, 12, 10, 8, …) and divide by price: Smarties MU/P = 10, 8, 6, **4**, 2 (price $1); cookies MU/P = 9, 8, 7, 6, 5, **4**, 3 … (price $2).\n\nBuy where **MU/P is equal and the $16 is spent**: 4 boxes of Smarties (4th box MU/P = 4) and 6 packs of cookies (6th pack MU = 8, MU/P = 4) → 4 × $1 + 6 × $2 = **$16**. Check a neighbour: 6 Smarties + 5 cookies also costs $16 but gives total utility 30 + 70 = 100, versus 28 + 78 = **106** at 4 and 6. Equating MU instead of MU per dollar is the classic mistake."
+    },
+    {
+      "id": "ch8-p1.7c",
+      "type": "mc",
+      "unit": 6,
+      "difficulty": 2,
+      "tags": [
+        "problem",
+        "week-6",
+        "starred"
+      ],
+      "source": {
+        "ref": "Ch 8 · Problem 1.7 ★"
+      },
+      "shuffleOptions": false,
+      "scenario": "ch8-p1.7",
+      "topic": "Why the optimum is optimal",
+      "figure": [
+        {
+          "type": "graph",
+          "caption": "Smarties ($1 per box)",
+          "spec": {
+            "width": 360,
+            "height": 260,
+            "x": {
+              "label": "Quantity of Smarties (boxes)",
+              "min": 0,
+              "max": 7,
+              "step": 1
+            },
+            "y": {
+              "label": "Marginal utility",
+              "min": 0,
+              "max": 12,
+              "step": 2
+            },
+            "curves": [
+              {
+                "id": "MUs",
+                "label": "MU",
+                "color": "blue",
+                "points": [
+                  [
+                    0.5,
+                    11
+                  ],
+                  [
+                    6,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "points": [
+              {
+                "id": "s1",
+                "x": 1,
+                "y": 10
+              },
+              {
+                "id": "s2",
+                "x": 2,
+                "y": 8
+              },
+              {
+                "id": "s3",
+                "x": 3,
+                "y": 6
+              },
+              {
+                "id": "s4",
+                "x": 4,
+                "y": 4
+              },
+              {
+                "id": "s5",
+                "x": 5,
+                "y": 2
+              }
+            ]
+          }
+        },
+        {
+          "type": "graph",
+          "caption": "Chocolate chip cookies ($2 per pack)",
+          "spec": {
+            "width": 360,
+            "height": 260,
+            "x": {
+              "label": "Quantity of cookies (packs)",
+              "min": 0,
+              "max": 12,
+              "step": 2
+            },
+            "y": {
+              "label": "Marginal utility",
+              "min": 0,
+              "max": 20,
+              "step": 2
+            },
+            "curves": [
+              {
+                "id": "MUc",
+                "label": "MU",
+                "color": "blue",
+                "points": [
+                  [
+                    1,
+                    18
+                  ],
+                  [
+                    10,
+                    0
+                  ]
+                ]
+              }
+            ],
+            "points": [
+              {
+                "id": "c2",
+                "x": 2,
+                "y": 16
+              },
+              {
+                "id": "c4",
+                "x": 4,
+                "y": 12
+              },
+              {
+                "id": "c6",
+                "x": 6,
+                "y": 8
+              },
+              {
+                "id": "c8",
+                "x": 8,
+                "y": 4
+              }
+            ]
+          }
+        }
+      ],
+      "prompt": "Why is 4 Smarties + 6 cookies the utility-maximizing bundle?",
+      "options": [
+        "Because the marginal utility of the last Smarties box equals the marginal utility of the last cookie pack",
+        "Because the marginal utility per dollar is the same for both goods (4 utils per $) and Joe spends exactly $16",
+        "Because Joe should buy equal numbers of each good",
+        "Because Joe should spend half his budget on each good"
+      ],
+      "answer": "b",
+      "explanation": "The rule of equal marginal utility per dollar: MU_S/P_S = 4/$1 = 4 and MU_C/P_C = 8/$2 = 4, and 4 + 6 × 2 = $16 uses the whole budget. Equal **MU** (not per dollar) would ignore that cookies cost twice as much; equal quantities or equal spending have no basis in the rule."
+    }
+  ]
+}

@@ -34,6 +34,12 @@ window.HUB_SITE = {
           title: 'Midterm 1 Practice',
           desc: 'Units 1–4 · F22 practice midterm + lecture-slide questions · Unit 4 in-class tax exercise &amp; price-control drills · timed exam mode',
           chapters: [1, 2, 3, 4]
+        },
+        {
+          href: '/1B03/midterm2', icon: '✎', kind: 'Practice test',
+          title: 'Midterm 2 Practice',
+          desc: 'Units 5–8 · every assigned textbook homework problem (Ch. 6, 8, 9, 10) + lecture-slide &amp; in-class questions · F22 elasticity questions · timed exam mode',
+          chapters: [6, 8, 9, 10]
         }
       ]
     },
@@ -147,6 +153,6 @@ window.HUB_SITE = {
     { course: '1B03', title: 'Midterm Test 1', start: '2026-10-03T12:30', scope: 'Units 1–4 (Ch. 1–4)', tool: '/1B03/midterm1' },
     { course: '1BA3', title: 'Midterm', start: '2026-10-29T19:30', end: '2026-10-29T21:30', scope: 'Ch. 1–6, 10, 11.1–11.5', tool: '/1BA3/midterm' },
     { course: '1BB3', title: 'Term Test 2', start: '2026-11-07T09:00', end: '2026-11-07T10:20', scope: 'Ch. 4–8' },
-    { course: '1B03', title: 'Midterm Test 2', start: '2026-11-07T12:30', scope: 'Units 5–8' }
+    { course: '1B03', title: 'Midterm Test 2', start: '2026-11-07T12:30', scope: 'Units 5–8 (Ch. 6, 8, 9, 10)', tool: '/1B03/midterm2' }
   ]
 };

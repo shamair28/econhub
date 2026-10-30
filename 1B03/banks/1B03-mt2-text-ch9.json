@@ -1,0 +1,3631 @@
+{
+  "schema": "practice-bank/v1",
+  "id": "1B03-mt2-text-ch9",
+  "course": "ECON 1B03",
+  "title": "Textbook Homework · Ch 9",
+  "description": "Assigned Chapter 9 (and Appendix 9A) review questions and problems, Hubbard et al., Microeconomics, 4th Canadian ed. (Week 7 schedule).",
+  "defaultSource": {
+    "label": "Textbook Homework",
+    "kind": "textbook"
+  },
+  "defaultUnit": 7,
+  "scenarios": {
+    "ch9-p1.4": {
+      "title": "Problem 1.4 — Technological change",
+      "body": "Which of the following are examples of firms experiencing positive technological change?\n\na. A fall in the wages JetBlue pays its mechanics leads it to lower its ticket prices.\n\nb. A training program makes a firm’s workers more productive.\n\nc. An exercise program makes a firm’s workers healthier and reduces the number of days the typical worker is absent.\n\nd. A firm cuts its workforce and is able to maintain its initial level of output.\n\ne. A firm rearranges the layout of its factory and finds that by using its initial set of inputs, it can produce exactly as much as before."
+    },
+    "ch9-p2.5": {
+      "title": "Problem 2.5 — Amazon's holiday hiring",
+      "body": "In the fall of 2022, Amazon announced that it planned “to hire 150,000 people to meet demand during the holiday season.”\n\na. When Amazon hired 150,000 new workers prior to the 2022 holiday season, was that a short-run decision or a long-run decision? Briefly explain.\n\nb. Briefly explain why Amazon didn’t invest in new physical capital—such as warehouses and delivery vehicles—to meet consumer demand prior to the 2022 holiday season."
+    },
+    "ch9-p2.10": {
+      "title": "Problem 2.10 — Ebba Kantzen's pizza restaurant",
+      "body": "[Related to the Apply the Concept “Fixed Costs in the Publishing Industry”] For Ebba Kantzen’s pizza restaurant, explain whether each of the following is a fixed cost or a variable cost.\n\na. The payment she makes on her fire insurance policy\n\nb. The payment she makes to buy pizza dough\n\nc. The wages she pays her workers\n\nd. The lease payment she makes to the landlord who owns the building where her store is located\n\ne. The $300-per-month payment she makes to her local newspaper for running her weekly advertisements"
+    },
+    "ch9-p2.12": {
+      "title": "Problem 2.12 — Bill's collision repair shop",
+      "body": "Suppose that Bill owns an automobile collision repair shop. The following table shows how the quantity of cars Bill can repair per month depends on the number of workers he hires. Assume that he pays each worker $4000 per month and his fixed cost is $6000 per month. Using the information provided, fill in the missing values in the following table.",
+      "table": {
+        "caption": "Bill's repair shop (blank cells to be filled in)",
+        "headers": [
+          "Quantity of workers",
+          "Quantity of cars per month",
+          "Fixed cost",
+          "Variable cost",
+          "Total cost",
+          "Average total cost"
+        ],
+        "rows": [
+          [
+            0,
+            0,
+            "$6000",
+            "",
+            "",
+            "—"
+          ],
+          [
+            1,
+            20,
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            2,
+            30,
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            3,
+            40,
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            4,
+            50,
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            5,
+            55,
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    "ch9-p3.4": {
+      "title": "Problem 3.4 — Marginal and average product of labour",
+      "body": "Fill in the missing values in the following table.",
+      "table": {
+        "caption": "Output and workers (MP and AP to be filled in)",
+        "headers": [
+          "Quantity of workers",
+          "Total output",
+          "Marginal product of labour",
+          "Average product of labour"
+        ],
+        "rows": [
+          [
+            0,
+            0,
+            "",
+            ""
+          ],
+          [
+            1,
+            400,
+            "",
+            ""
+          ],
+          [
+            2,
+            900,
+            "",
+            ""
+          ],
+          [
+            3,
+            1500,
+            "",
+            ""
+          ],
+          [
+            4,
+            1900,
+            "",
+            ""
+          ],
+          [
+            5,
+            2200,
+            "",
+            ""
+          ],
+          [
+            6,
+            2400,
+            "",
+            ""
+          ],
+          [
+            7,
+            2300,
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    "ch9-p3.5": {
+      "title": "Problem 3.5 — Graphing total, marginal and average product",
+      "body": "Use the numbers from problem 3.4 to draw one graph that shows how total output increases with the quantity of workers hired and a second graph that shows the marginal product of labour and the average product of labour.\n\nValues from Problem 3.4 (workers: total output / MP / AP): 1: 400 / 400 / 400; 2: 900 / 500 / 450; 3: 1500 / 600 / 500; 4: 1900 / 400 / 475; 5: 2200 / 300 / 440; 6: 2400 / 200 / 400; 7: 2300 / −100 / 328.57."
+    },
+    "ch9-p4.9": {
+      "title": "Problem 4.9 — Santiago Delgado's copier store",
+      "body": "[Related to Solved Problem 9.4] Santiago Delgado owns a copier store. He leases two copy machines for which he pays $20 each per day. He cannot increase the number of machines he leases without giving the office machine company six weeks’ notice. He can hire as many workers as he wants at a cost of $40 per day per worker. These are the only two inputs he uses to produce copies.\n\na. Fill in the remaining columns in the following table.\n\nb. Draw the average total cost curve and marginal cost curve for Santiago’s store. Do these curves have the expected shapes? Briefly explain.",
+      "table": {
+        "caption": "Santiago's copier store (blank cells to be filled in)",
+        "headers": [
+          "Quantity of workers",
+          "Quantity of copies per day",
+          "Fixed cost",
+          "Variable cost",
+          "Total cost",
+          "Average total cost",
+          "Marginal cost"
+        ],
+        "rows": [
+          [
+            0,
+            0,
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            1,
+            600,
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            2,
+            1100,
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            3,
+            1500,
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            4,
+            1800,
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            5,
+            2000,
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            6,
+            2100,
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    "ch9-p5.4": {
+      "title": "Problem 5.4 — Tennis balls",
+      "body": "Suppose the total cost of producing 10,000 tennis balls is $30,000, and the fixed cost is $10,000.\n\na. What is the amount of the variable cost in this situation?\n\nb. When output is 10,000, what are the average variable cost and the average fixed cost?\n\nc. Assume that the cost curves have the usual shape. Is the dollar difference between the average total cost and the average variable cost greater when the output is 10,000 tennis balls or when the output is 30,000 tennis balls? Briefly explain."
+    },
+    "ch9-p5.6": {
+      "title": "Problem 5.6 — Scrolls versus codices",
+      "body": "In the ancient world, a book could be produced either on a scroll or as a codex, which was made of folded sheets glued together, something like a modern book. One scholar has estimated the following variable costs (in Greek drachmas) of the two methods:\n\na. Suppose that the fixed cost of preparing a codex was 58 drachmas and that there was no similar fixed cost for a scroll. Would an ancient book publisher who intended to sell 5 copies of a book be likely to publish it as a scroll or as a codex? What if the publisher intended to sell 10 copies? Briefly explain.\n\nb. Although most books were published as scrolls in the first century C.E., by the third century, most were published as codices. Considering only the factors mentioned in this problem, explain why this change may have taken place.\n\n*Note: the eText table shown beneath this problem in the supplied screenshot does not match the problem text. The variable-cost table below is the scholar's estimate printed with the textbook's version of the problem.*",
+      "table": {
+        "caption": "Variable cost per copy (drachmas)",
+        "headers": [
+          "",
+          "Scroll",
+          "Codex"
+        ],
+        "rows": [
+          [
+            "Writing",
+            11.33,
+            11.33
+          ],
+          [
+            "Paper",
+            16.5,
+            9.25
+          ],
+          [
+            "Total variable cost per copy",
+            27.83,
+            20.58
+          ]
+        ],
+        "rowHeaders": true
+      }
+    },
+    "ch9-p5.7": {
+      "title": "Problem 5.7 — The MOOC",
+      "body": "Some universities and private companies have launched online courses that anyone with an internet connection can take. The most successful of these massive open online courses (MOOCs) have attracted tens of thousands of students. Suppose that your university offers a MOOC and spends a total of $200,000 on one-time costs to have instructors prepare the course material and buy additional server capacity. The university administration estimates that the variable cost of offering the course will be $20 per student per course. This variable cost is the same, regardless of how many students enroll in the course.\n\na. Use the information provided to fill in the missing values in the following table.\n\nb. Use your answer to part (a) to draw a cost curve graph to illustrate your university’s costs of offering this course. Your graph should measure cost on the vertical axis and the number of students taking the course on the horizontal axis. Be sure your graph contains the following curves: average total cost, average variable cost, average fixed cost, and marginal cost.",
+      "table": {
+        "caption": "MOOC costs (blank cells to be filled in)",
+        "headers": [
+          "Number of students taking the course",
+          "Average total cost",
+          "Average variable cost",
+          "Average fixed cost",
+          "Marginal cost"
+        ],
+        "rows": [
+          [
+            1000,
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            10000,
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            20000,
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    "ch9-p9A.6": {
+      "title": "Problem 9A.6 — Ebba Kantzen's restaurant (Appendix)",
+      "body": "[Related to Solved Problem 9A.2] Consider the information in the following table for Ebba Kantzen’s restaurant.\n\n*Note: in the supplied screenshot the visible text ends after this table, with no further instruction shown. The questions below apply the appendix's cost-minimization rule, MP<sub>L</sub>/w versus MP<sub>K</sub>/r, to these four figures.*",
+      "table": {
+        "caption": "Ebba Kantzen's restaurant",
+        "headers": [
+          "Measure",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Marginal product of capital",
+            "4000"
+          ],
+          [
+            "Marginal product of labour",
+            "100"
+          ],
+          [
+            "Wage rate",
+            "$10"
+          ],
+          [
+            "Rental price of pizza ovens",
+            "$500"
+          ]
+        ],
+        "rowHeaders": true
+      }
+    },
+    "ch9-p3.9": {
+      "title": "Problem 3.9 — workers and output",
+      "body": "The table below shows the quantity of workers and total output for a local pizza restaurant. Answer the following questions based on the table.\n\na. When the owner hires 4 workers, what is the average product of labour?\n\nb. What is the marginal product of the fifth worker?\n\nc. If the marginal product of the second worker is 6, what is the total number of pizzas produced when 2 workers are hired?\n\nd. Assuming that the marginal product of the second worker is 6, with which worker hired does the law of diminishing returns set in?\n\n*Note: the eText prints the copy-shop output column here (headed “copies per day”, with empty cost columns), which does not fit parts (c)–(d). Parts (a) and (b) are answered from the printed table; (d) is asked about the printed table instead.*",
+      "table": {
+        "headers": [
+          "Quantity of workers",
+          "Quantity of output per day (as printed)"
+        ],
+        "rows": [
+          [
+            0,
+            "0"
+          ],
+          [
+            1,
+            "625"
+          ],
+          [
+            2,
+            "1,450"
+          ],
+          [
+            3,
+            "2,200"
+          ],
+          [
+            4,
+            "2,650"
+          ],
+          [
+            5,
+            "2,910"
+          ],
+          [
+            6,
+            "3,100"
+          ]
+        ]
+      }
+    },
+    "ch9-p5.10": {
+      "title": "Problem 5.10 — what’s wrong with this graph?",
+      "body": "[Related to Solved Problem 9.5] List the errors in the following graph. Carefully explain why the curves drawn this way are incorrect. In other words, why can’t these curves be as they are shown in the graph?",
+      "figure": {
+        "type": "graph",
+        "caption": "Problem 5.10 figure (redrawn) — find the errors",
+        "spec": {
+          "x": {
+            "label": "Quantity of output",
+            "min": 0,
+            "max": 100,
+            "hideTicks": true
+          },
+          "y": {
+            "label": "Costs",
+            "min": 0,
+            "max": 100,
+            "hideTicks": true
+          },
+          "curves": [
+            {
+              "id": "AFC",
+              "label": "AFC",
+              "color": "red",
+              "smooth": true,
+              "points": [
+                [
+                  7,
+                  88
+                ],
+                [
+                  15,
+                  55
+                ],
+                [
+                  31,
+                  32
+                ],
+                [
+                  50,
+                  45
+                ],
+                [
+                  66,
+                  63
+                ],
+                [
+                  83,
+                  86
+                ]
+              ]
+            },
+            {
+              "id": "AVC",
+              "label": "AVC",
+              "color": "amber",
+              "smooth": true,
+              "points": [
+                [
+                  29,
+                  96
+                ],
+                [
+                  45,
+                  72
+                ],
+                [
+                  66,
+                  63
+                ],
+                [
+                  85,
+                  68
+                ],
+                [
+                  98,
+                  76
+                ]
+              ]
+            },
+            {
+              "id": "ATC",
+              "label": "ATC",
+              "color": "orange",
+              "smooth": true,
+              "points": [
+                [
+                  16,
+                  92
+                ],
+                [
+                  30,
+                  68
+                ],
+                [
+                  53,
+                  53
+                ],
+                [
+                  75,
+                  59
+                ],
+                [
+                  91,
+                  68
+                ]
+              ]
+            }
+          ],
+          "points": [
+            {
+              "id": "p1",
+              "x": 66,
+              "y": 63
+            },
+            {
+              "id": "p2",
+              "x": 57,
+              "y": 53.5
+            }
+          ]
+        }
+      }
+    },
+    "ch9-p9A.5": {
+      "title": "Problem 9A.5 — isoquants and isocost lines",
+      "body": "Use the following graph to answer the following questions.\n\na. If the wage rate and the rental price of ovens are both $100 and total cost is $2000, is the cost-minimizing point A, B, or C? Briefly explain.\n\nb. If the wage rate is $25, the rental price of ovens is $100, and total cost is $1000, is the cost-minimizing point A, B, or C? Briefly explain.\n\nc. If the wage rate and the rental price of ovens are both $100 and total cost is $4000, is the cost-minimizing point A, B, or C? Briefly explain.",
+      "figure": {
+        "type": "graph",
+        "caption": "Problem 9A.5 figure (redrawn)",
+        "spec": {
+          "x": {
+            "label": "Labour (workers per week)",
+            "min": 0,
+            "max": 60,
+            "ticks": [
+              20,
+              40
+            ]
+          },
+          "y": {
+            "label": "Capital (ovens per week)",
+            "min": 0,
+            "max": 45,
+            "ticks": [
+              10,
+              20,
+              40
+            ]
+          },
+          "curves": [
+            {
+              "id": "Q5",
+              "label": "Q = 5000",
+              "color": "red",
+              "smooth": true,
+              "points": [
+                [
+                  3.0,
+                  33.333
+                ],
+                [
+                  4.625,
+                  21.622
+                ],
+                [
+                  6.25,
+                  16.0
+                ],
+                [
+                  7.875,
+                  12.698
+                ],
+                [
+                  9.5,
+                  10.526
+                ],
+                [
+                  11.125,
+                  8.989
+                ],
+                [
+                  12.75,
+                  7.843
+                ],
+                [
+                  14.375,
+                  6.957
+                ],
+                [
+                  16.0,
+                  6.25
+                ],
+                [
+                  17.625,
+                  5.674
+                ],
+                [
+                  19.25,
+                  5.195
+                ],
+                [
+                  20.875,
+                  4.79
+                ],
+                [
+                  22.5,
+                  4.444
+                ],
+                [
+                  24.125,
+                  4.145
+                ],
+                [
+                  25.75,
+                  3.883
+                ],
+                [
+                  27.375,
+                  3.653
+                ],
+                [
+                  29.0,
+                  3.448
+                ],
+                [
+                  30.625,
+                  3.265
+                ],
+                [
+                  32.25,
+                  3.101
+                ],
+                [
+                  33.875,
+                  2.952
+                ],
+                [
+                  35.5,
+                  2.817
+                ],
+                [
+                  37.125,
+                  2.694
+                ],
+                [
+                  38.75,
+                  2.581
+                ],
+                [
+                  40.375,
+                  2.477
+                ],
+                [
+                  42.0,
+                  2.381
+                ]
+              ]
+            },
+            {
+              "id": "Q12",
+              "label": "Q = 12,000",
+              "color": "red",
+              "smooth": true,
+              "points": [
+                [
+                  10.5,
+                  38.095
+                ],
+                [
+                  11.896,
+                  33.625
+                ],
+                [
+                  13.292,
+                  30.094
+                ],
+                [
+                  14.688,
+                  27.234
+                ],
+                [
+                  16.083,
+                  24.87
+                ],
+                [
+                  17.479,
+                  22.884
+                ],
+                [
+                  18.875,
+                  21.192
+                ],
+                [
+                  20.271,
+                  19.733
+                ],
+                [
+                  21.667,
+                  18.462
+                ],
+                [
+                  23.062,
+                  17.344
+                ],
+                [
+                  24.458,
+                  16.354
+                ],
+                [
+                  25.854,
+                  15.471
+                ],
+                [
+                  27.25,
+                  14.679
+                ],
+                [
+                  28.646,
+                  13.964
+                ],
+                [
+                  30.042,
+                  13.315
+                ],
+                [
+                  31.438,
+                  12.724
+                ],
+                [
+                  32.833,
+                  12.183
+                ],
+                [
+                  34.229,
+                  11.686
+                ],
+                [
+                  35.625,
+                  11.228
+                ],
+                [
+                  37.021,
+                  10.805
+                ],
+                [
+                  38.417,
+                  10.412
+                ],
+                [
+                  39.812,
+                  10.047
+                ],
+                [
+                  41.208,
+                  9.707
+                ],
+                [
+                  42.604,
+                  9.389
+                ],
+                [
+                  44.0,
+                  9.091
+                ]
+              ]
+            },
+            {
+              "id": "I1",
+              "label": "",
+              "color": "orange",
+              "points": [
+                [
+                  0,
+                  40
+                ],
+                [
+                  40,
+                  0
+                ]
+              ]
+            },
+            {
+              "id": "I2",
+              "label": "",
+              "color": "orange",
+              "points": [
+                [
+                  0,
+                  20
+                ],
+                [
+                  20,
+                  0
+                ]
+              ]
+            },
+            {
+              "id": "I3",
+              "label": "",
+              "color": "orange",
+              "points": [
+                [
+                  0,
+                  10
+                ],
+                [
+                  40,
+                  0
+                ]
+              ]
+            }
+          ],
+          "points": [
+            {
+              "id": "A",
+              "label": "A",
+              "x": 10,
+              "y": 10
+            },
+            {
+              "id": "B",
+              "label": "B",
+              "x": 20,
+              "y": 5
+            },
+            {
+              "id": "C",
+              "label": "C",
+              "x": 20,
+              "y": 20
+            }
+          ]
+        }
+      }
+    },
+    "ch9-p9A.14": {
+      "title": "Problem 9A.14 — Swift Ellis running shoes",
+      "body": "Swift Ellis, Inc., manufactures running shoes. The following graph illustrates the combination of capital and labour (point A) that minimizes the firm’s cost of producing 5000 pairs of shoes. Suppose both the wage rate and the rental price of machinery double.\n\na. Draw a new isocost line to reflect the changes in the wage rate and the rental price of machinery.\n\nb. Draw a new isoquant to show the combination of capital and labour that minimizes total cost, given the increase in input prices. Label this combination point B.\n\nc. Comparing point A to point B, can we be sure that at point B the firm will be using more or less labour? More or less capital? Briefly explain."
+    }
+  },
+  "questions": [
+    {
+      "id": "ch9-r2.1",
+      "unit": 7,
+      "topic": "Short run vs long run",
+      "tags": [
+        "review-question",
+        "week-7",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 9 · Review Q 2.1 ★"
+      },
+      "type": "mc",
+      "prompt": "What is the difference between the short run and the long run? Is the amount of time that separates the short run from the long run the same for every firm?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The short run is a period of less than one year and the long run is a period of more than one year, and this is the same for every firm."
+        },
+        {
+          "id": "b",
+          "text": "In the short run all inputs are variable, while in the long run at least one input is fixed; the time involved differs from firm to firm."
+        },
+        {
+          "id": "c",
+          "text": "In the short run at least one input (usually capital such as the plant or machinery) is fixed; in the long run all inputs can be varied. The length of time differs from firm to firm."
+        },
+        {
+          "id": "d",
+          "text": "In the short run the firm earns an economic profit, while in the long run profit is driven to zero; the time involved is the same for every firm."
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "**Rule:** the short run is the period during which at least one input (typically the plant, equipment or lease) cannot be changed; the long run is long enough for the firm to vary *every* input, including building a new plant.\n\n**Time differs by firm:** a food truck owner can buy another truck within weeks, so her long run is short; a steel mill may need years to build a new furnace, so its long run is long. The tempting 'one year' answer treats the short run as a calendar period, but it is defined by which inputs are fixed, not by a number of months."
+    },
+    {
+      "id": "ch9-r2.2",
+      "unit": 7,
+      "topic": "Fixed vs variable costs",
+      "tags": [
+        "review-question",
+        "week-7",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 9 · Review Q 2.2 ★"
+      },
+      "type": "mc",
+      "prompt": "Distinguish between a firm's fixed costs and variable costs and give an example of each.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fixed costs do not change with the quantity produced (e.g. rent or insurance); variable costs rise and fall with output (e.g. wages or raw materials)."
+        },
+        {
+          "id": "b",
+          "text": "Fixed costs are the costs of capital and variable costs are the costs of labour; for example, rent is fixed and wages are variable by definition."
+        },
+        {
+          "id": "c",
+          "text": "Fixed costs are costs that never change in any period (e.g. raw materials); variable costs change only in the long run (e.g. insurance)."
+        },
+        {
+          "id": "d",
+          "text": "Fixed costs are the costs a firm pays per unit of output (e.g. wages); variable costs are the total costs paid regardless of output (e.g. rent)."
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "**Rule:** a cost is fixed or variable according to whether it changes with the quantity produced in the short run, not according to which input it pays for. Rent, insurance and lease payments are owed even at zero output (fixed); raw materials, shipping and (usually) hourly wages rise with output (variable).\n\nTotal cost = fixed cost + variable cost. The 'capital vs labour' answer fails because some labour costs (e.g. a salaried manager under contract) can be fixed."
+    },
+    {
+      "id": "ch9-r3.1",
+      "unit": 7,
+      "topic": "MP and AP of labour",
+      "tags": [
+        "review-question",
+        "week-7"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Review Q 3.1"
+      },
+      "type": "mc",
+      "prompt": "Draw a graph that shows the usual relationship between the marginal product of labour and the average product of labour. Why do the marginal product of labour and the average product of labour curves have the shapes you drew?",
+      "options": [
+        {
+          "id": "a",
+          "text": "MP and AP both fall from the first worker because of diminishing returns, and the two curves never cross."
+        },
+        {
+          "id": "b",
+          "text": "AP first rises and then falls, but MP is always above AP, because the marginal worker is always more productive than the average worker."
+        },
+        {
+          "id": "c",
+          "text": "MP first rises and then falls, and AP reaches its maximum where MP is at its own maximum, because that is the most productive worker."
+        },
+        {
+          "id": "d",
+          "text": "MP first rises (specialization) and then falls (diminishing returns). AP rises whenever MP is above AP and falls whenever MP is below AP, so the MP curve cuts the AP curve at AP's maximum."
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "**Shapes:** with the first few workers, specialization makes each additional worker add more than the last (MP rises). Once the fixed capital becomes crowded, diminishing returns set in and MP falls (and can turn negative).\n\n**Link:** AP is an average, and a marginal value pulls an average toward itself. If MP > AP, AP is pulled up; if MP < AP, AP is pulled down. So AP peaks exactly where MP = AP, i.e. where the falling MP curve crosses it. That crossing is *after* MP's own peak, which is why linking AP's maximum to MP's maximum is wrong."
+    },
+    {
+      "id": "ch9-r3.2",
+      "unit": 7,
+      "topic": "Diminishing returns",
+      "tags": [
+        "review-question",
+        "week-7"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 9 · Review Q 3.2"
+      },
+      "type": "mc",
+      "prompt": "What is the law of diminishing returns? Does it apply in the long run?",
+      "options": [
+        {
+          "id": "a",
+          "text": "As a firm increases all of its inputs together, output eventually rises by less than the increase in inputs. It applies mainly in the long run."
+        },
+        {
+          "id": "b",
+          "text": "As more of a variable input is added to a fixed amount of other inputs, the marginal product of the variable input eventually falls. It applies only in the short run, because in the long run no input is fixed."
+        },
+        {
+          "id": "c",
+          "text": "As more of a variable input is added to a fixed input, total output eventually begins to fall. It applies in both the short run and the long run."
+        },
+        {
+          "id": "d",
+          "text": "Each additional worker eventually costs more to hire than the previous worker. It applies only in the long run, when wages can change."
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "**Rule:** the law of diminishing returns concerns adding more of one input (e.g. labour) while at least one other input (e.g. capital) stays fixed; eventually the extra output from each additional unit of the variable input (its MP) declines.\n\nBecause it needs a fixed input, it is a short-run concept. In the long run the firm can expand its plant along with its workforce, so no input is fixed. The 'increase all inputs together' version describes returns to scale (economies/diseconomies of scale), a long-run idea. Note also that MP *falling* is not the same as total output falling."
+    },
+    {
+      "id": "ch9-r4.1",
+      "unit": 7,
+      "topic": "ATC vs MC",
+      "tags": [
+        "review-question",
+        "week-7"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 9 · Review Q 4.1"
+      },
+      "type": "mc",
+      "prompt": "What is the difference between the average total cost of production and the marginal cost of production?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ATC is the change in total cost from producing one more unit; MC is total cost divided by output."
+        },
+        {
+          "id": "b",
+          "text": "ATC is total cost divided by output (cost per unit on average, TC/Q); MC is the change in total cost from producing one more unit (ΔTC/ΔQ)."
+        },
+        {
+          "id": "c",
+          "text": "ATC is variable cost divided by output; MC is fixed cost divided by output."
+        },
+        {
+          "id": "d",
+          "text": "ATC is the cost of the first unit produced; MC is the cost of the last unit produced and is always equal to ATC."
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "**ATC = TC ÷ Q** is the average cost of *all* units produced. **MC = ΔTC ÷ ΔQ** is the extra cost of producing *one more* unit. For example, if TC rises from $100 for 10 units to $108 for 11 units, MC = $8 while ATC at 11 units = 108/11 ≈ $9.82. The two are generally different, and their relationship (MC pulling ATC up or down) drives the U-shape of ATC."
+    },
+    {
+      "id": "ch9-r4.2",
+      "unit": 7,
+      "topic": "MP and MC",
+      "tags": [
+        "review-question",
+        "week-7"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Review Q 4.2"
+      },
+      "type": "mc",
+      "prompt": "If the marginal product of labour is rising, is the marginal cost of production rising or falling? Briefly explain.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rising. Each extra worker must be paid the wage, so producing more always costs more per unit."
+        },
+        {
+          "id": "b",
+          "text": "Rising. A rising marginal product means the firm is producing more output, and more output always raises marginal cost."
+        },
+        {
+          "id": "c",
+          "text": "Unchanged. The wage is constant, so marginal cost cannot change while the firm uses the same plant."
+        },
+        {
+          "id": "d",
+          "text": "Falling. If each extra worker adds more output at the same wage, the extra cost of each additional unit of output (MC = w ÷ MP) is falling."
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "**Working:** with capital fixed, the extra cost of hiring one more worker is the wage, w, and that worker produces MP extra units, so MC = w ÷ MP. If w is constant and MP rises, MC falls; once diminishing returns set in and MP falls, MC rises. That is why MC is first falling and then rising (U-shaped), mirroring the hump-shaped MP curve.\n\nThe 'unchanged' answer forgets that the *per-unit* cost depends on how many units each worker produces."
+    },
+    {
+      "id": "ch9-r4.3",
+      "unit": 7,
+      "topic": "MC crosses ATC",
+      "tags": [
+        "review-question",
+        "week-7"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Review Q 4.3"
+      },
+      "type": "mc",
+      "prompt": "Explain why the marginal cost curve intersects the average total cost curve at the level of output where average total cost is at a minimum.",
+      "options": [
+        {
+          "id": "a",
+          "text": "When MC is below ATC the extra unit costs less than the average and pulls ATC down; when MC is above ATC it pulls ATC up. ATC therefore stops falling and starts rising exactly where MC = ATC, its minimum."
+        },
+        {
+          "id": "b",
+          "text": "MC is always at its minimum at the same output as ATC, so the curves meet at their common lowest points."
+        },
+        {
+          "id": "c",
+          "text": "Fixed costs are zero at the minimum of ATC, so ATC and MC are identical at that quantity."
+        },
+        {
+          "id": "d",
+          "text": "ATC is the sum of all the marginal costs, so it must equal the last marginal cost whenever total cost is at its minimum."
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "**Average-marginal rule:** a marginal value pulls its average toward itself. While MC < ATC, each extra unit is cheaper than the current average, so ATC falls. Once MC > ATC, each extra unit is more expensive than the average, so ATC rises. The turning point of ATC is the output where MC = ATC, and it is the *minimum* of ATC.\n\nMC reaches its own minimum at a *lower* output than ATC does (MC bottoms out first, then rises up through ATC), so the 'same lowest point' answer is wrong, and fixed costs are never zero in the short run."
+    },
+    {
+      "id": "ch9-r5.1",
+      "unit": 7,
+      "topic": "MC, AVC and ATC",
+      "tags": [
+        "review-question",
+        "week-7"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Review Q 5.1"
+      },
+      "type": "mc",
+      "prompt": "Where does the marginal cost curve intersect the average variable cost curve and the average total cost curve?",
+      "options": [
+        {
+          "id": "a",
+          "text": "At the maximum point of each curve, since marginal cost is highest when average costs are highest."
+        },
+        {
+          "id": "b",
+          "text": "At the minimum of ATC but at the maximum of AVC, because AVC excludes fixed cost."
+        },
+        {
+          "id": "c",
+          "text": "At the minimum point of each: MC cuts AVC at AVC's minimum and cuts ATC at ATC's minimum."
+        },
+        {
+          "id": "d",
+          "text": "MC never crosses AVC; it crosses only ATC, because AVC is a variable cost and MC is a total cost."
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "The average-marginal rule applies to both averages: MC pulls AVC down when it is below AVC and up when it is above, so MC crosses AVC at AVC's minimum; likewise MC crosses ATC at ATC's minimum. Because ATC = AVC + AFC and AFC keeps falling, ATC's minimum occurs at a *larger* output than AVC's minimum, so the MC curve first crosses AVC, then ATC, as output rises."
+    },
+    {
+      "id": "ch9-r6.3",
+      "unit": 7,
+      "topic": "Diseconomies of scale",
+      "tags": [
+        "review-question",
+        "week-7"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Review Q 6.3"
+      },
+      "type": "mc",
+      "prompt": "What are diseconomies of scale? What is the main reason that a firm eventually encounters diseconomies of scale as it keeps increasing the size of its store or factory?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Diseconomies of scale occur when long-run average cost falls as output expands; the main reason is that fixed costs are spread over more units."
+        },
+        {
+          "id": "b",
+          "text": "Diseconomies of scale occur when short-run marginal cost rises as the firm adds workers; the main reason is the law of diminishing returns."
+        },
+        {
+          "id": "c",
+          "text": "Diseconomies of scale occur when long-run average cost rises as output expands; the main reason is that fixed costs rise in proportion to output."
+        },
+        {
+          "id": "d",
+          "text": "Diseconomies of scale occur when long-run average cost rises as the firm expands its output; the main reason is that very large firms are hard for managers to coordinate and control."
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "**Definition:** diseconomies of scale = the long-run average cost curve slopes *upward* as the firm increases the size of its operation (all inputs). The usual reason is organizational: as a firm becomes very large it becomes harder for managers to coordinate many workers and plants, to monitor them and to keep communication efficient, so costs per unit rise.\n\nDiminishing returns is a *short-run* idea (one input fixed) and shows up as rising MC; diseconomies of scale are about the *long-run* average cost curve."
+    },
+    {
+      "id": "ch9-r9A.1",
+      "unit": 7,
+      "topic": "Isoquants",
+      "tags": [
+        "review-question",
+        "week-7"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Review Q 9A.1"
+      },
+      "type": "mc",
+      "prompt": "What is an isoquant? What is the slope of an isoquant?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An isoquant shows all combinations of two inputs that cost the same total amount; its slope is −(wage ÷ rental price of capital)."
+        },
+        {
+          "id": "b",
+          "text": "An isoquant shows all combinations of two inputs (e.g. capital and labour) that produce the same level of output; its slope is −MP of labour ÷ MP of capital (the negative of the marginal rate of technical substitution)."
+        },
+        {
+          "id": "c",
+          "text": "An isoquant shows all output levels a given amount of labour can produce; its slope is the average product of labour."
+        },
+        {
+          "id": "d",
+          "text": "An isoquant shows all combinations of two inputs that produce the same output; its slope is always zero because output is constant along it."
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "**Isoquant** = same *output*, different input mixes. It slopes downward because giving up some capital must be offset by more labour to hold output constant. With labour on the horizontal axis its slope is −MP<sub>L</sub>/MP<sub>K</sub> = −MRTS. Don't confuse it with the **isocost line** (same *cost*, slope −w/r). Output is constant along an isoquant, but the isoquant itself is not flat: inputs trade off along it."
+    },
+    {
+      "id": "ch9-r9A.2",
+      "unit": 7,
+      "topic": "Isocost lines",
+      "tags": [
+        "review-question",
+        "week-7"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Review Q 9A.2"
+      },
+      "type": "mc",
+      "prompt": "What is an isocost line? What is the slope of an isocost line?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An isocost line shows all combinations of two inputs that produce the same output; its slope is −(MP of labour ÷ MP of capital)."
+        },
+        {
+          "id": "b",
+          "text": "An isocost line shows all combinations of two inputs that have the same total cost; its slope is −(MP of labour ÷ MP of capital)."
+        },
+        {
+          "id": "c",
+          "text": "An isocost line shows all combinations of two inputs that have the same total cost; with labour on the horizontal axis, its slope is −(wage rate ÷ rental price of capital)."
+        },
+        {
+          "id": "d",
+          "text": "An isocost line shows the cost of producing each level of output; its slope is the marginal cost."
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "**Isocost line** = same *total cost*. If total cost is C = wL + rK, then K = C/r − (w/r)L, so with labour on the horizontal axis the slope is −w/r (the rate at which the market lets the firm swap capital for labour). A higher total cost shifts the line out in parallel; a change in relative input prices changes its slope.\n\nThe isoquant's slope is −MP<sub>L</sub>/MP<sub>K</sub>; cost is minimized where the two slopes are equal (the isoquant is tangent to the isocost line)."
+    },
+    {
+      "id": "ch9-p1.4a",
+      "unit": 7,
+      "topic": "Technological change",
+      "tags": [
+        "problem",
+        "week-7",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 9 · Problem 1.4(a) ★"
+      },
+      "type": "tf",
+      "scenario": "ch9-p1.4",
+      "prompt": "Statement (a): a fall in the wages JetBlue pays its mechanics, leading it to lower its ticket prices, is an example of positive technological change.",
+      "answer": false,
+      "explanation": "**False.** Positive technological change means the firm can produce *more output from the same quantity of inputs*. A fall in the wage changes the *price* of an input, not the relationship between inputs and output, so it lowers cost but is not technological change."
+    },
+    {
+      "id": "ch9-p1.4b",
+      "unit": 7,
+      "topic": "Technological change",
+      "tags": [
+        "problem",
+        "week-7",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 9 · Problem 1.4(b) ★"
+      },
+      "type": "tf",
+      "scenario": "ch9-p1.4",
+      "prompt": "Statement (b): a training program that makes a firm’s workers more productive is an example of positive technological change.",
+      "answer": true,
+      "explanation": "**True.** More productive workers mean the same inputs now produce more output, which is exactly positive technological change (higher productivity)."
+    },
+    {
+      "id": "ch9-p1.4d",
+      "unit": 7,
+      "topic": "Technological change",
+      "tags": [
+        "problem",
+        "week-7",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 9 · Problem 1.4(d) ★"
+      },
+      "type": "tf",
+      "scenario": "ch9-p1.4",
+      "prompt": "Statement (d): a firm cuts its workforce and is able to maintain its initial level of output. This is an example of positive technological change.",
+      "answer": true,
+      "explanation": "**True.** The firm produces the same output with fewer inputs, i.e. it needs less input per unit of output: an improvement in technology (productivity)."
+    },
+    {
+      "id": "ch9-p1.4e",
+      "unit": 7,
+      "topic": "Technological change",
+      "tags": [
+        "problem",
+        "week-7",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 9 · Problem 1.4(e) ★"
+      },
+      "type": "tf",
+      "scenario": "ch9-p1.4",
+      "prompt": "Statement (e): a firm rearranges its factory layout and, using its initial set of inputs, produces exactly as much as before. This is an example of positive technological change.",
+      "answer": false,
+      "explanation": "**False.** Output from the same inputs did not change, so there has been no change in technology, even though the firm tried something new. Positive technological change requires more output from the same inputs (or the same output from fewer)."
+    },
+    {
+      "id": "ch9-p1.5",
+      "unit": 7,
+      "topic": "Technological change",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 9 · Problem 1.5"
+      },
+      "type": "mc",
+      "prompt": "An article in the Wall Street Journal described changes that Starbucks intends to make in its stores: (1) installing new equipment, such as “espresso machines that can pull three shots for complex orders, rather than two”; and (2) redesigning the layout of stores to “bring the equipment [such as refrigerators, ovens, and blenders] closer together.” Are either, both, or neither of these changes examples of technological change at Starbucks? Briefly explain.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both: better equipment and a more efficient layout let Starbucks produce more drinks with the same inputs (labour and capital), which is positive technological change."
+        },
+        {
+          "id": "b",
+          "text": "Only the new equipment: technological change requires new machinery, and rearranging a store layout does not change technology."
+        },
+        {
+          "id": "c",
+          "text": "Only the redesigned layout: the new machines are just more capital, not a change in how inputs are combined."
+        },
+        {
+          "id": "d",
+          "text": "Neither: technological change means inventing a new product, and these changes only affect costs."
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Technological change is any change in the ability of a firm to produce a given level of output with a given quantity of inputs. It can come from new equipment *or* from reorganizing production (layout, workflow, management methods). Both changes let Starbucks make more drinks per hour with the same workers, so both count."
+    },
+    {
+      "id": "ch9-p2.5a",
+      "unit": 7,
+      "topic": "Short run vs long run",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 9 · Problem 2.5(a)"
+      },
+      "type": "mc",
+      "scenario": "ch9-p2.5",
+      "prompt": "Part (a): When Amazon hired 150,000 new workers prior to the 2022 holiday season, was that a short-run decision or a long-run decision?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A short-run decision: Amazon changed its labour (a variable input) while its capital (warehouses, vehicles) stayed fixed."
+        },
+        {
+          "id": "b",
+          "text": "A long-run decision, because hiring 150,000 workers is a very large change for the firm."
+        },
+        {
+          "id": "c",
+          "text": "A long-run decision, because the workers were hired in the fall for the following season."
+        },
+        {
+          "id": "d",
+          "text": "Neither: hiring workers is a pricing decision, not a production decision."
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "The short run is defined by at least one fixed input, not by the size of the change. Amazon expanded output by adding labour to its existing warehouses and vehicles, with capital fixed, which is the classic short-run adjustment. A long-run decision would involve changing *all* inputs, including its physical capital."
+    },
+    {
+      "id": "ch9-p2.5b",
+      "unit": 7,
+      "topic": "Short run vs long run",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Problem 2.5(b)"
+      },
+      "type": "mc",
+      "scenario": "ch9-p2.5",
+      "prompt": "Part (b): Why didn't Amazon invest in new physical capital, such as warehouses and delivery vehicles, to meet consumer demand prior to the 2022 holiday season?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Capital is a variable cost, so Amazon would automatically have enough of it without investing."
+        },
+        {
+          "id": "b",
+          "text": "Workers are always cheaper than capital at every level of output, so a firm would never use more capital."
+        },
+        {
+          "id": "c",
+          "text": "Building warehouses and acquiring vehicles takes too long (and the holiday surge is temporary), so capital is fixed in the short run; labour is the input Amazon could adjust quickly."
+        },
+        {
+          "id": "d",
+          "text": "The law of diminishing returns means that additional capital has zero marginal product in the short run."
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "In the short run capital (warehouses, vehicles) cannot be changed quickly: permits, construction and delivery take much longer than the weeks before the holidays, and the extra demand is only seasonal. So Amazon added the one input it *could* change in time: labour. Capital is a fixed, not a variable, input in the short run, and diminishing returns refers to the variable input, not to extra capital having no value."
+    },
+    {
+      "id": "ch9-p2.6",
+      "unit": 7,
+      "topic": "Fixed vs variable costs",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 9 · Problem 2.6"
+      },
+      "type": "mc",
+      "prompt": "According to an article in the Wall Street Journal, FedEx planned “to raise shipping rates by an average of 6.9% across most of its services” in 2023. Suppose that you own a firm that uses FedEx to ship goods to customers. Are FedEx’s shipping charges a fixed cost or a variable cost to you? Briefly explain.",
+      "options": [
+        {
+          "id": "a",
+          "text": "A fixed cost: the shipping rate is set by FedEx, so the total charge does not depend on how much you produce."
+        },
+        {
+          "id": "b",
+          "text": "A variable cost: the more goods you ship, the more you pay FedEx, so the total charge changes with your output."
+        },
+        {
+          "id": "c",
+          "text": "A fixed cost: you must pay FedEx every month, so it is owed whether you ship goods or not."
+        },
+        {
+          "id": "d",
+          "text": "Neither: shipping charges are revenue for FedEx and therefore not a cost to your firm."
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "A cost is variable if its total rises and falls with the quantity produced. Shipping charges are paid per shipment, so shipping twice as many goods costs roughly twice as much; if you ship nothing you pay nothing. A fixed cost (rent, insurance, lease) is the same at every level of output. That the *rate* is outside your control does not make the *total* fixed."
+    },
+    {
+      "id": "ch9-p2.8",
+      "unit": 7,
+      "topic": "Accounting vs economic cost",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Problem 2.8"
+      },
+      "type": "mc",
+      "prompt": "A technology website estimated that the cost of materials and components in Apple’s iPhone 14 Pro Max was $464. Apple was selling this phone for $1099. Can we conclude from this information that Apple was making a profit of about $635?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yes: profit equals the selling price minus the cost of production, which is $1099 − $464 = $635."
+        },
+        {
+          "id": "b",
+          "text": "Yes: costs other than materials are fixed costs, and fixed costs are not subtracted when calculating profit."
+        },
+        {
+          "id": "c",
+          "text": "No: profit would be $1099 − $464 = $635 per phone only if Apple had sold every phone produced, so it depends on unsold inventory."
+        },
+        {
+          "id": "d",
+          "text": "No: $464 covers only materials and components. Apple also bears labour, R&D, design, marketing and distribution costs (and implicit costs), so profit per phone is well below $635."
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "Profit = total revenue − *total* cost, and total cost includes all explicit costs (labour, R&D, design, marketing, shipping, retail commissions) and implicit costs (opportunity cost of the owners' capital), not just materials. $635 is only the gross margin over materials, so economic profit per phone is lower. Fixed costs are subtracted from revenue when computing profit; they are just not part of the *per-unit* variable cost."
+    },
+    {
+      "id": "ch9-p2.10a",
+      "unit": 7,
+      "topic": "Fixed vs variable costs",
+      "tags": [
+        "problem",
+        "week-7",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 9 · Problem 2.10(a) ★"
+      },
+      "type": "tf",
+      "scenario": "ch9-p2.10",
+      "prompt": "Part (a): The payment Ebba makes on her fire insurance policy is a fixed cost.",
+      "answer": true,
+      "explanation": "**True.** The premium is the same however many pizzas she makes, so it is a fixed cost."
+    },
+    {
+      "id": "ch9-p2.10b",
+      "unit": 7,
+      "topic": "Fixed vs variable costs",
+      "tags": [
+        "problem",
+        "week-7",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 9 · Problem 2.10(b) ★"
+      },
+      "type": "tf",
+      "scenario": "ch9-p2.10",
+      "prompt": "Part (b): The payment Ebba makes to buy pizza dough is a fixed cost.",
+      "answer": false,
+      "explanation": "**False — variable.** Dough is an input used up in production: the more pizzas she makes, the more dough she buys."
+    },
+    {
+      "id": "ch9-p2.10c",
+      "unit": 7,
+      "topic": "Fixed vs variable costs",
+      "tags": [
+        "problem",
+        "week-7",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 9 · Problem 2.10(c) ★"
+      },
+      "type": "tf",
+      "scenario": "ch9-p2.10",
+      "prompt": "Part (c): The wages Ebba pays her workers are a variable cost.",
+      "answer": true,
+      "explanation": "**True.** The textbook treats workers' wages as a variable cost: she hires more workers (or more hours) to produce more pizzas and fewer when she produces fewer."
+    },
+    {
+      "id": "ch9-p2.10d",
+      "unit": 7,
+      "topic": "Fixed vs variable costs",
+      "tags": [
+        "problem",
+        "week-7",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 9 · Problem 2.10(d) ★"
+      },
+      "type": "tf",
+      "scenario": "ch9-p2.10",
+      "prompt": "Part (d): The lease payment Ebba makes to the landlord for her store is a variable cost.",
+      "answer": false,
+      "explanation": "**False — fixed.** The lease must be paid whether she bakes 10 pizzas or 1000."
+    },
+    {
+      "id": "ch9-p2.10e",
+      "unit": 7,
+      "topic": "Fixed vs variable costs",
+      "tags": [
+        "problem",
+        "week-7",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Problem 2.10(e) ★"
+      },
+      "type": "tf",
+      "scenario": "ch9-p2.10",
+      "prompt": "Part (e): The $300-per-month payment Ebba makes to her local newspaper for running her weekly advertisements is a fixed cost.",
+      "answer": true,
+      "explanation": "**True.** It is $300 each month regardless of how many pizzas are sold, so it does not vary with output."
+    },
+    {
+      "id": "ch9-p2.11a",
+      "unit": 7,
+      "topic": "Fixed costs of an airline",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 9 · Problem 2.11(a)"
+      },
+      "type": "mc",
+      "prompt": "A Federal Reserve publication notes that “airlines have high fixed costs.” What are likely to be the most important fixed costs for an airline?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jet fuel, pilots' and flight attendants' per-flight pay and in-flight meals, because these are the largest items in an airline's budget."
+        },
+        {
+          "id": "b",
+          "text": "Ticket-agent commissions and baggage-handling fees, because they are paid on each ticket sold."
+        },
+        {
+          "id": "c",
+          "text": "Costs of aircraft (purchase or lease payments), airport gate and landing-slot leases, maintenance facilities and insurance, which must be paid however many passengers fly."
+        },
+        {
+          "id": "d",
+          "text": "Airline ticket prices, because a higher fare increases the airline's costs."
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "Fixed costs do not change with the number of passengers carried (or flights flown) in the short run: aircraft ownership or lease payments, airport leases, hangars, insurance. Fuel, crew pay per flight, meals and per-ticket commissions all rise with the number of flights or passengers, so they are variable. Ticket prices are revenue, not a cost."
+    },
+    {
+      "id": "ch9-p2.11b",
+      "unit": 7,
+      "topic": "Fixed costs of an airline",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Problem 2.11(b)"
+      },
+      "type": "mc",
+      "prompt": "Are airlines likely to have particularly high fixed costs relative to their variable costs compared with, say, an Old Navy clothing store or a Panera Bread restaurant?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yes: an airline's aircraft, gates and maintenance facilities are very expensive relative to its per-flight variable costs, whereas a clothing store or restaurant has lower fixed costs relative to its variable costs (inventory, food, hourly labour)."
+        },
+        {
+          "id": "b",
+          "text": "No: all firms have fixed costs of roughly the same proportion to variable costs, so airlines are no different."
+        },
+        {
+          "id": "c",
+          "text": "No: an airline's variable costs (fuel, crew) are enormous, so its fixed costs are low relative to a clothing store or restaurant."
+        },
+        {
+          "id": "d",
+          "text": "Yes, but only because airlines pay more taxes than other businesses."
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "An aircraft costs tens or hundreds of millions of dollars and is paid for (or leased) whether or not it flies full; an Old Navy or Panera mostly pays for rent and equipment that are small compared with the ongoing cost of clothing, ingredients and hourly staff. So the fixed share is much greater for an airline. This is why airlines compete hard to fill otherwise empty seats: the marginal cost of an extra passenger is low relative to average total cost."
+    },
+    {
+      "id": "ch9-p2.12a",
+      "unit": 7,
+      "topic": "Cost table",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 9 · Problem 2.12(a)"
+      },
+      "type": "numeric",
+      "scenario": "ch9-p2.12",
+      "prompt": "What is Bill's total cost per month when he hires 4 workers? (Variable cost = workers × $4000; add the $6000 fixed cost.)",
+      "answer": {
+        "value": 22000,
+        "tolerance": 1,
+        "display": "$22,000",
+        "prefix": "$"
+      },
+      "explanation": "VC = 4 × $4000 = $16,000; TC = FC + VC = $6000 + $16,000 = **$22,000**. The full TC column is $6000, $10,000, $14,000, $18,000, $22,000, $26,000. Forgetting the fixed cost would give $16,000."
+    },
+    {
+      "id": "ch9-p2.12b",
+      "unit": 7,
+      "topic": "Cost table",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Problem 2.12(b)"
+      },
+      "type": "numeric",
+      "scenario": "ch9-p2.12",
+      "prompt": "What is Bill's average total cost per car when he hires 2 workers (30 cars per month)? Round to the nearest cent.",
+      "answer": {
+        "value": 466.67,
+        "tolerance": 0.5,
+        "display": "$466.67",
+        "prefix": "$"
+      },
+      "explanation": "TC at 2 workers = $6000 + 2 × $4000 = $14,000. ATC = TC ÷ Q = $14,000 ÷ 30 ≈ **$466.67** per car. (Using VC ÷ Q = $8000/30 = $266.67 would be AVC, not ATC.) The ATC column is —, $500.00, $466.67, $450.00, $440.00, $472.73."
+    },
+    {
+      "id": "ch9-p2.12c",
+      "unit": 7,
+      "topic": "Cost table",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Problem 2.12(c)"
+      },
+      "type": "mc",
+      "scenario": "ch9-p2.12",
+      "prompt": "Based on the completed table, how many workers should Bill hire if he wants to produce at the lowest average total cost per car?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 workers, where ATC = $18,000 ÷ 40 = $450 per car."
+        },
+        {
+          "id": "b",
+          "text": "5 workers, because output is the highest (55 cars) and ATC is therefore lowest."
+        },
+        {
+          "id": "c",
+          "text": "1 worker, because total cost is the lowest of all positive worker levels."
+        },
+        {
+          "id": "d",
+          "text": "4 workers, where ATC = $22,000 ÷ 50 = $440 per car."
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "ATC by workers: 1 → $500.00; 2 → $466.67; 3 → $450.00; 4 → $440.00; 5 → $472.73. It falls while the extra cars are cheaper than the current average and rises again once diminishing returns raise MC above ATC: from 4 to 5 workers TC rises $4000 for only 5 more cars (MC = $800), pulling ATC up. Highest output is not the same as lowest average cost."
+    },
+    {
+      "id": "ch9-p3.4a",
+      "unit": 7,
+      "topic": "Marginal product",
+      "tags": [
+        "problem",
+        "week-7",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 9 · Problem 3.4(a) ★"
+      },
+      "type": "numeric",
+      "scenario": "ch9-p3.4",
+      "prompt": "What is the marginal product of the 3rd worker?",
+      "answer": {
+        "value": 600,
+        "tolerance": 0.5,
+        "display": "600"
+      },
+      "explanation": "MP = change in total output from one more worker = 1500 − 900 = **600**. The MP column is 400, 500, 600, 400, 300, 200, −100."
+    },
+    {
+      "id": "ch9-p3.4b",
+      "unit": 7,
+      "topic": "Average product",
+      "tags": [
+        "problem",
+        "week-7",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 9 · Problem 3.4(b) ★"
+      },
+      "type": "numeric",
+      "scenario": "ch9-p3.4",
+      "prompt": "What is the average product of labour when 4 workers are hired?",
+      "answer": {
+        "value": 475,
+        "tolerance": 0.5,
+        "display": "475"
+      },
+      "explanation": "AP = total output ÷ workers = 1900 ÷ 4 = **475**. The AP column is 400, 450, 500, 475, 440, 400, 328.57. (1900 − 1500 = 400 is the *marginal* product of the 4th worker.)"
+    },
+    {
+      "id": "ch9-p3.4c",
+      "unit": 7,
+      "topic": "Average product",
+      "tags": [
+        "problem",
+        "week-7",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Problem 3.4(c) ★"
+      },
+      "type": "numeric",
+      "scenario": "ch9-p3.4",
+      "prompt": "What is the average product of labour when 7 workers are hired? Round to two decimals.",
+      "answer": {
+        "value": 328.57,
+        "tolerance": 0.1,
+        "display": "328.57"
+      },
+      "explanation": "AP = 2300 ÷ 7 ≈ **328.57**. The 7th worker's MP is 2300 − 2400 = −100 (negative: too many workers in the fixed workspace reduce total output), which drags AP down."
+    },
+    {
+      "id": "ch9-p3.4d",
+      "unit": 7,
+      "topic": "Diminishing returns",
+      "tags": [
+        "problem",
+        "week-7",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Problem 3.4(d) ★"
+      },
+      "type": "mc",
+      "scenario": "ch9-p3.4",
+      "prompt": "Using the completed table, with which worker does diminishing returns set in (the marginal product begins to fall)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The 7th worker, because that is the first worker whose marginal product is negative."
+        },
+        {
+          "id": "b",
+          "text": "The 4th worker: MP rises through the 3rd worker (400, 500, 600) and then falls (400, 300, 200, −100)."
+        },
+        {
+          "id": "c",
+          "text": "The 3rd worker, because total output at 3 workers (1500) is the largest increase so far."
+        },
+        {
+          "id": "d",
+          "text": "The 1st worker, because MP is lowest (400) and is therefore at its minimum there."
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "Diminishing returns begin where MP first declines: MP = 400, 500, 600 for workers 1–3 (specialization), then 400 for the 4th worker. Negative MP (7th worker) is a more extreme case — total output actually falls — but returns have been diminishing since the 4th worker. The 3rd worker is where MP peaks, not where it starts to fall."
+    },
+    {
+      "id": "ch9-p3.5a",
+      "unit": 7,
+      "topic": "Graphing product curves",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Problem 3.5(a)"
+      },
+      "type": "mc",
+      "scenario": "ch9-p3.5",
+      "prompt": "First graph (total output): which description of the total output curve drawn from the Problem 3.4 numbers is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It rises at an increasing rate throughout and reaches its maximum at 7 workers."
+        },
+        {
+          "id": "b",
+          "text": "It rises at first at an increasing rate, then at a decreasing rate, reaches a maximum of 2400 at 6 workers and then falls."
+        },
+        {
+          "id": "c",
+          "text": "It rises at a decreasing rate from the first worker and reaches its maximum at 3 workers, where MP is highest."
+        },
+        {
+          "id": "d",
+          "text": "It rises until 6 workers and then stays flat at 2400 because the 7th worker adds nothing."
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "Total output is 0, 400, 900, 1500, 1900, 2200, 2400, 2300. Increments (MP) rise (400, 500, 600) so the curve gets steeper, then shrink (400, 300, 200), so it flattens, peaking at 2400 with 6 workers. The 7th worker's MP is −100, so total output falls to 2300. The steepest point (highest MP) is at 3 workers, but that is where the curve is steepest, not where it peaks; total output is maximized when MP reaches zero."
+    },
+    {
+      "id": "ch9-p3.5b",
+      "unit": 7,
+      "topic": "Graphing product curves",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Problem 3.5(b)"
+      },
+      "type": "graph",
+      "scenario": "ch9-p3.5",
+      "prompt": "Second graph: the figure plots the marginal product (MP) and average product (AP) of labour from Problem 3.4. Mark the point on the AP curve where the average product of labour reaches its maximum.",
+      "graph": {
+        "x": {
+          "label": "Quantity of workers",
+          "min": 0,
+          "max": 8,
+          "ticks": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "y": {
+          "label": "Output per period",
+          "min": -150,
+          "max": 700,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "MP",
+            "label": "MP",
+            "points": [
+              [
+                1,
+                400
+              ],
+              [
+                2,
+                500
+              ],
+              [
+                3,
+                600
+              ],
+              [
+                4,
+                400
+              ],
+              [
+                5,
+                300
+              ],
+              [
+                6,
+                200
+              ],
+              [
+                7,
+                -100
+              ]
+            ],
+            "color": "red"
+          },
+          {
+            "id": "AP",
+            "label": "AP",
+            "points": [
+              [
+                1,
+                400
+              ],
+              [
+                2,
+                450
+              ],
+              [
+                3,
+                500
+              ],
+              [
+                4,
+                475
+              ],
+              [
+                5,
+                440
+              ],
+              [
+                6,
+                400
+              ],
+              [
+                7,
+                328.57
+              ]
+            ],
+            "color": "blue"
+          }
+        ],
+        "tasks": [
+          {
+            "id": "APmax",
+            "kind": "point",
+            "label": "AP max",
+            "prompt": "Mark the point on the AP curve where the average product of labour is at its maximum.",
+            "expect": {
+              "onCurve": "AP",
+              "atX": 3
+            }
+          }
+        ]
+      },
+      "explanation": "AP = 400, 450, 500, 475, 440, 400, 328.57, so it peaks at **500 with 3 workers**. At that point MP (600 for the 3rd worker) is still above AP, pulling it up; the 4th worker's MP (400) is below the AP of 500, so AP starts to fall. MP therefore cuts AP from above, just after AP's maximum, and MP itself peaked at the same 3rd worker."
+    },
+    {
+      "id": "ch9-p3.5c",
+      "unit": 7,
+      "topic": "Graphing product curves",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Problem 3.5(c)"
+      },
+      "type": "mc",
+      "scenario": "ch9-p3.5",
+      "prompt": "Second graph (MP and AP): which statement correctly describes the relationship between the two curves drawn from the Problem 3.4 numbers?",
+      "options": [
+        {
+          "id": "a",
+          "text": "MP lies below AP up to the 3rd worker and above it afterwards, so AP rises after the 3rd worker."
+        },
+        {
+          "id": "b",
+          "text": "MP and AP are equal at every number of workers, because each is output divided by workers."
+        },
+        {
+          "id": "c",
+          "text": "MP is always above AP, because the marginal worker is always more productive than the average worker."
+        },
+        {
+          "id": "d",
+          "text": "MP lies above AP for the 2nd and 3rd workers (the two are equal at the 1st), so AP rises; after that MP lies below AP, so AP falls. MP turns negative with the 7th worker."
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "Check the numbers: with 2 workers MP (500) > AP (450) so AP rises; with 3 workers MP (600) > AP (500) so AP rises again; with 4 workers MP (400) < AP (475) so AP falls, and it continues to fall because MP stays below it (300, 200, −100). A marginal value above its average pulls the average up; below pulls it down."
+    },
+    {
+      "id": "ch9-p4.9a1",
+      "unit": 7,
+      "topic": "Cost table",
+      "tags": [
+        "problem",
+        "week-7",
+        "starred"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 9 · Problem 4.9(a1) ★"
+      },
+      "type": "numeric",
+      "scenario": "ch9-p4.9",
+      "prompt": "Part (a): What is Santiago's fixed cost per day?",
+      "answer": {
+        "value": 40,
+        "tolerance": 0.01,
+        "display": "$40",
+        "prefix": "$"
+      },
+      "explanation": "Fixed cost = 2 machines × $20 per day = **$40**, the same at every output. Workers ($40 each) are the variable input: VC = $40 × workers, so TC = 40, 80, 120, 160, 200, 240, 280."
+    },
+    {
+      "id": "ch9-p4.9a2",
+      "unit": 7,
+      "topic": "Cost table",
+      "tags": [
+        "problem",
+        "week-7",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Problem 4.9(a2) ★"
+      },
+      "type": "numeric",
+      "scenario": "ch9-p4.9",
+      "prompt": "Part (a): What is Santiago's average total cost per copy when he hires 2 workers (1100 copies)? Give your answer in dollars to three decimal places.",
+      "answer": {
+        "value": 0.109,
+        "tolerance": 0.0015,
+        "display": "$0.109",
+        "prefix": "$",
+        "hint": "Dollars per copy, three decimal places"
+      },
+      "explanation": "With 2 workers: FC = $40, VC = 2 × $40 = $80, TC = $120. ATC = TC ÷ Q = $120 ÷ 1100 ≈ **$0.109** per copy. (The ATC column is —, 0.133, 0.109, 0.107, 0.111, 0.120, 0.133.)"
+    },
+    {
+      "id": "ch9-p4.9a3",
+      "unit": 7,
+      "topic": "Cost table",
+      "tags": [
+        "problem",
+        "week-7",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Problem 4.9(a3) ★"
+      },
+      "type": "numeric",
+      "scenario": "ch9-p4.9",
+      "prompt": "Part (a): What is the marginal cost per copy when Santiago increases from 2 workers (1100 copies) to 3 workers (1500 copies)? Give your answer in dollars.",
+      "answer": {
+        "value": 0.1,
+        "tolerance": 0.002,
+        "display": "$0.10",
+        "prefix": "$"
+      },
+      "explanation": "MC = ΔTC ÷ ΔQ = ($160 − $120) ÷ (1500 − 1100) = $40 ÷ 400 = **$0.10** per copy. The MC column is 0.067, 0.080, 0.100, 0.133, 0.200, 0.400: it rises as each additional worker produces fewer copies (diminishing returns)."
+    },
+    {
+      "id": "ch9-p4.9b1",
+      "unit": 7,
+      "topic": "ATC and MC curves",
+      "tags": [
+        "problem",
+        "week-7",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Problem 4.9(b) ★"
+      },
+      "type": "graph",
+      "scenario": "ch9-p4.9",
+      "prompt": "Part (b): the graph plots Santiago's ATC and MC curves from the completed table. Mark the point where the marginal cost curve crosses the average total cost curve.",
+      "graph": {
+        "x": {
+          "label": "Copies per day",
+          "min": 0,
+          "max": 2400,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Cost per copy ($)",
+          "min": 0,
+          "max": 0.45,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "ATC",
+            "label": "ATC",
+            "color": "blue",
+            "points": [
+              [
+                600,
+                0.1333
+              ],
+              [
+                1100,
+                0.1091
+              ],
+              [
+                1500,
+                0.1067
+              ],
+              [
+                1800,
+                0.1111
+              ],
+              [
+                2000,
+                0.12
+              ],
+              [
+                2100,
+                0.1333
+              ]
+            ]
+          },
+          {
+            "id": "MC",
+            "label": "MC",
+            "color": "red",
+            "points": [
+              [
+                600,
+                0.0667
+              ],
+              [
+                1100,
+                0.08
+              ],
+              [
+                1500,
+                0.1
+              ],
+              [
+                1800,
+                0.1333
+              ],
+              [
+                2000,
+                0.2
+              ],
+              [
+                2100,
+                0.4
+              ]
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "id": "min",
+            "kind": "point",
+            "label": "Min ATC",
+            "prompt": "Mark the point where the MC curve crosses the ATC curve (the minimum of ATC).",
+            "expect": {
+              "atIntersection": [
+                "ATC",
+                "MC"
+              ]
+            }
+          }
+        ]
+      },
+      "explanation": "MC is below ATC at 1500 copies ($0.100 vs $0.107) and above it at 1800 ($0.133 vs $0.111), so the curves cross between those outputs, close to ATC's minimum (about $0.107 at 1500 copies, 3 workers). To the left of the crossing MC < ATC and ATC falls; to the right MC > ATC and ATC rises."
+    },
+    {
+      "id": "ch9-p4.9b2",
+      "unit": 7,
+      "topic": "ATC and MC curves",
+      "tags": [
+        "problem",
+        "week-7",
+        "starred"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Problem 4.9(b2) ★"
+      },
+      "type": "mc",
+      "scenario": "ch9-p4.9",
+      "prompt": "Part (b): Do Santiago's curves have the expected shapes? Briefly explain.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yes: MC eventually rises because of diminishing returns, ATC is U-shaped (spreading the $40 fixed cost at first, then rising MC), and MC crosses ATC near ATC's minimum."
+        },
+        {
+          "id": "b",
+          "text": "No: ATC should be a horizontal line, because each worker costs the same $40 per day."
+        },
+        {
+          "id": "c",
+          "text": "No: MC should always fall as output rises, because the fixed cost is spread over more copies."
+        },
+        {
+          "id": "d",
+          "text": "Yes: both ATC and MC rise continuously from the first copy, and MC crosses ATC at the maximum of ATC."
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "Because each worker costs the same $40 but adds fewer and fewer copies (600, 500, 400, 300, 200, 100), MC = 40 ÷ (extra copies) rises after the first worker: 0.067, 0.080, 0.100, 0.133, 0.200, 0.400. ATC first falls as the $40 fixed cost is spread over more copies, then rises when MC exceeds it, giving the usual U-shape with the crossing at ATC's minimum (about $0.107 at 1500 copies)."
+    },
+    {
+      "id": "ch9-p5.4a",
+      "unit": 7,
+      "topic": "Variable cost",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 9 · Problem 5.4(a)"
+      },
+      "type": "numeric",
+      "scenario": "ch9-p5.4",
+      "prompt": "Part (a): What is the amount of the variable cost of producing 10,000 tennis balls?",
+      "answer": {
+        "value": 20000,
+        "tolerance": 1,
+        "display": "$20,000",
+        "prefix": "$"
+      },
+      "explanation": "TC = FC + VC, so VC = TC − FC = $30,000 − $10,000 = **$20,000**."
+    },
+    {
+      "id": "ch9-p5.4b1",
+      "unit": 7,
+      "topic": "AVC and AFC",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 9 · Problem 5.4(b1)"
+      },
+      "type": "numeric",
+      "scenario": "ch9-p5.4",
+      "prompt": "Part (b): What is the average variable cost (AVC) at 10,000 tennis balls?",
+      "answer": {
+        "value": 2,
+        "tolerance": 0.005,
+        "display": "$2.00",
+        "prefix": "$"
+      },
+      "explanation": "AVC = VC ÷ Q = $20,000 ÷ 10,000 = **$2.00** per ball. (Dividing TC by Q gives ATC = $3.00, which includes fixed cost.)"
+    },
+    {
+      "id": "ch9-p5.4b2",
+      "unit": 7,
+      "topic": "AVC and AFC",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 9 · Problem 5.4(b2)"
+      },
+      "type": "numeric",
+      "scenario": "ch9-p5.4",
+      "prompt": "Part (b): What is the average fixed cost (AFC) at 10,000 tennis balls?",
+      "answer": {
+        "value": 1,
+        "tolerance": 0.005,
+        "display": "$1.00",
+        "prefix": "$"
+      },
+      "explanation": "AFC = FC ÷ Q = $10,000 ÷ 10,000 = **$1.00** per ball. Check: ATC = AVC + AFC = $2.00 + $1.00 = $3.00 = $30,000 ÷ 10,000."
+    },
+    {
+      "id": "ch9-p5.4c",
+      "unit": 7,
+      "topic": "ATC − AVC gap",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Problem 5.4(c)"
+      },
+      "type": "mc",
+      "scenario": "ch9-p5.4",
+      "prompt": "Part (c): Is the dollar difference between ATC and AVC greater at 10,000 tennis balls or at 30,000?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Greater at 30,000 balls, because total cost is higher and so the gap between the averages is wider."
+        },
+        {
+          "id": "b",
+          "text": "The same at both outputs, because fixed cost does not change with output."
+        },
+        {
+          "id": "c",
+          "text": "Greater at 10,000 balls: ATC − AVC = AFC = FC ÷ Q, which gets smaller as output rises (the fixed cost is spread over more units)."
+        },
+        {
+          "id": "d",
+          "text": "Greater at 30,000 balls, because marginal cost is higher at larger outputs and so pulls ATC further above AVC."
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "ATC = AVC + AFC, so the gap between ATC and AVC is exactly AFC = FC ÷ Q. With FC = $10,000 the gap is $10,000 ÷ 10,000 = $1.00 at 10,000 balls but only $10,000 ÷ 30,000 ≈ $0.33 at 30,000. Fixed cost is constant in *total*, but its *average* keeps falling as output rises, so the AVC and ATC curves get closer together."
+    },
+    {
+      "id": "ch9-p5.6a1",
+      "unit": 7,
+      "topic": "Fixed vs variable cost trade-off",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Problem 5.6(a1)"
+      },
+      "type": "mc",
+      "scenario": "ch9-p5.6",
+      "prompt": "Part (a): A publisher intends to sell 5 copies of a book. Should it publish as a scroll or as a codex?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A codex, because its variable cost per copy (20.58) is lower than the scroll's (27.83)."
+        },
+        {
+          "id": "b",
+          "text": "A codex, because 5 copies is more than the fixed cost of 58 drachmas divided by the 27.83 variable cost."
+        },
+        {
+          "id": "c",
+          "text": "It makes no difference: both methods cost the same at 5 copies."
+        },
+        {
+          "id": "d",
+          "text": "A scroll: 5 scrolls cost 5 × 27.83 = 139.15 drachmas, versus 58 + 5 × 20.58 = 160.90 for a codex."
+        }
+      ],
+      "answer": "d",
+      "shuffleOptions": false,
+      "explanation": "Total cost = fixed + variable × copies. Scroll: 0 + 27.83 × 5 = **139.15**. Codex: 58 + 20.58 × 5 = 58 + 102.90 = **160.90**. At a small print run the codex's 58-drachma fixed cost is spread over too few copies to be worth its lower per-copy cost."
+    },
+    {
+      "id": "ch9-p5.6a2",
+      "unit": 7,
+      "topic": "Fixed vs variable cost trade-off",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Problem 5.6(a2)"
+      },
+      "type": "mc",
+      "scenario": "ch9-p5.6",
+      "prompt": "Part (a): The publisher intends to sell 10 copies instead. Should it publish as a scroll or as a codex?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A scroll, because it has no fixed cost and so it is always cheaper."
+        },
+        {
+          "id": "b",
+          "text": "A codex: 58 + 10 × 20.58 = 263.80 drachmas, versus 10 × 27.83 = 278.30 for scrolls."
+        },
+        {
+          "id": "c",
+          "text": "A scroll, because 10 copies is still below the number of copies at which the codex's lower variable cost outweighs its fixed cost."
+        },
+        {
+          "id": "d",
+          "text": "A codex, because its variable cost per copy is 20.58 and fixed cost does not matter once output is positive."
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "Scroll: 27.83 × 10 = **278.30**. Codex: 58 + 20.58 × 10 = 58 + 205.80 = **263.80**, which is cheaper. The codex's 7.25-drachma saving per copy (27.83 − 20.58) now more than pays for its fixed cost. Fixed cost always matters when comparing methods at a given output; it is the *average* total cost that favours the codex at large quantities."
+    },
+    {
+      "id": "ch9-p5.6a3",
+      "unit": 7,
+      "topic": "Break-even output",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 9 · Problem 5.6(a3)"
+      },
+      "type": "numeric",
+      "scenario": "ch9-p5.6",
+      "prompt": "At how many copies does a codex become as cheap as a scroll (the break-even number of copies)? Fixed cost of a codex = 58 drachmas.",
+      "answer": {
+        "value": 8,
+        "tolerance": 0.05,
+        "display": "8 copies"
+      },
+      "explanation": "Set the totals equal: 27.83Q = 58 + 20.58Q, so 7.25Q = 58 and Q = 58 ÷ 7.25 = **8**. Below 8 copies scrolls are cheaper (as at 5 copies); above 8 codices are cheaper (as at 10)."
+    },
+    {
+      "id": "ch9-p5.6b",
+      "unit": 7,
+      "topic": "Fixed vs variable cost trade-off",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Problem 5.6(b)"
+      },
+      "type": "mc",
+      "scenario": "ch9-p5.6",
+      "prompt": "Part (b): Considering only the factors in this problem, why might most books have changed from scrolls to codices between the first and third centuries?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The fixed cost of preparing a codex fell to zero over time, so a codex became cheaper than a scroll at every output."
+        },
+        {
+          "id": "b",
+          "text": "The variable cost of making a scroll rose above the variable cost of a codex only after the first century, for reasons unrelated to the number of copies."
+        },
+        {
+          "id": "c",
+          "text": "As the number of copies of a typical book rose (a larger market for books), the codex's fixed cost was spread over more copies, so its lower variable cost per copy made it the cheaper method."
+        },
+        {
+          "id": "d",
+          "text": "Publishers began producing fewer copies per book, and a small print run favours the codex."
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "With only these cost factors, the choice depends on the number of copies: below about 8 copies scrolls are cheaper, above that codices are. The shift is explained by publishers printing more copies per title (more readers and demand), so the codex's 58-drachma fixed cost became small per copy and its 7.25-drachma lower variable cost per copy dominated. Producing fewer copies would have favoured the scroll."
+    },
+    {
+      "id": "ch9-p5.7a1",
+      "unit": 7,
+      "topic": "MOOC cost curves",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Problem 5.7(a1)"
+      },
+      "type": "numeric",
+      "scenario": "ch9-p5.7",
+      "prompt": "Part (a): What is the average total cost per student when 1000 students enrol?",
+      "answer": {
+        "value": 220,
+        "tolerance": 0.5,
+        "display": "$220",
+        "prefix": "$"
+      },
+      "explanation": "AFC = $200,000 ÷ 1000 = $200; AVC = $20 (constant); ATC = AFC + AVC = **$220**. At 10,000 students ATC = $20 + $20 = $40; at 20,000, $10 + $20 = $30."
+    },
+    {
+      "id": "ch9-p5.7a2",
+      "unit": 7,
+      "topic": "MOOC cost curves",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Problem 5.7(a2)"
+      },
+      "type": "numeric",
+      "scenario": "ch9-p5.7",
+      "prompt": "Part (a): What is the average fixed cost per student when 20,000 students enrol?",
+      "answer": {
+        "value": 10,
+        "tolerance": 0.05,
+        "display": "$10",
+        "prefix": "$"
+      },
+      "explanation": "AFC = fixed cost ÷ students = $200,000 ÷ 20,000 = **$10**. (AFC is $200 at 1000 students, $20 at 10,000 and $10 at 20,000.)"
+    },
+    {
+      "id": "ch9-p5.7b",
+      "unit": 7,
+      "topic": "MOOC cost curves",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Problem 5.7(b)"
+      },
+      "type": "graph",
+      "scenario": "ch9-p5.7",
+      "prompt": "Part (b): the graph shows the ATC and AFC curves from your table. Draw the AVC curve (which is the same as the MC curve) for the MOOC.",
+      "graph": {
+        "x": {
+          "label": "Students (thousands)",
+          "min": 0,
+          "max": 22,
+          "ticks": [
+            0,
+            5,
+            10,
+            15,
+            20
+          ]
+        },
+        "y": {
+          "label": "Cost per student ($)",
+          "min": 0,
+          "max": 250,
+          "ticks": [
+            0,
+            20,
+            100,
+            200
+          ]
+        },
+        "curves": [
+          {
+            "id": "ATC",
+            "label": "ATC",
+            "color": "blue",
+            "points": [
+              [
+                1,
+                220
+              ],
+              [
+                2,
+                120
+              ],
+              [
+                4,
+                70
+              ],
+              [
+                5,
+                60
+              ],
+              [
+                10,
+                40
+              ],
+              [
+                15,
+                33.3
+              ],
+              [
+                20,
+                30
+              ],
+              [
+                22,
+                29.1
+              ]
+            ]
+          },
+          {
+            "id": "AFC",
+            "label": "AFC",
+            "color": "green",
+            "points": [
+              [
+                1,
+                200
+              ],
+              [
+                2,
+                100
+              ],
+              [
+                4,
+                50
+              ],
+              [
+                5,
+                40
+              ],
+              [
+                10,
+                20
+              ],
+              [
+                15,
+                13.3
+              ],
+              [
+                20,
+                10
+              ],
+              [
+                22,
+                9.1
+              ]
+            ]
+          }
+        ],
+        "tasks": [
+          {
+            "id": "MC",
+            "kind": "line",
+            "label": "AVC = MC",
+            "prompt": "Draw the average variable cost / marginal cost curve (they are the same line here).",
+            "expect": {
+              "slope": "flat",
+              "through": [
+                {
+                  "x": 10,
+                  "y": 20,
+                  "tol": 0.06
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "explanation": "Variable cost is $20 per student at every enrolment, so AVC = **$20** everywhere and MC (the extra cost of one more student) is also $20: a horizontal line. AFC = $200,000/N falls steadily, and ATC = AFC + AVC lies exactly $20 above AFC, approaching the $20 line as enrolment grows. There are no diminishing returns here, so MC does not rise."
+    },
+    {
+      "id": "ch9-p5.7c",
+      "unit": 7,
+      "topic": "MOOC cost curves",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Problem 5.7(c)"
+      },
+      "type": "mc",
+      "scenario": "ch9-p5.7",
+      "prompt": "Part (b) follow-up: which statement correctly describes the cost curves for the MOOC?",
+      "options": [
+        {
+          "id": "a",
+          "text": "AVC and MC are the same horizontal line at $20; AFC falls steadily; ATC falls toward $20 as enrolment grows because the $200,000 is spread over more students."
+        },
+        {
+          "id": "b",
+          "text": "MC rises with enrolment because of diminishing returns, so ATC is U-shaped."
+        },
+        {
+          "id": "c",
+          "text": "AFC is constant at $200, and ATC falls only because AVC falls as enrolment rises."
+        },
+        {
+          "id": "d",
+          "text": "AVC and ATC are identical because the $200,000 is a one-time cost and so is not included in any average."
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "With constant $20 variable cost per student, MC = AVC = $20. The one-time $200,000 is a fixed cost, so AFC = 200,000/N falls with N (hyperbola) and ATC = AFC + AVC falls and approaches $20 from above. Because MC is constant (not rising), ATC never turns upward in this range: there is no diminishing-returns hump."
+    },
+    {
+      "id": "ch9-p5.8",
+      "unit": 7,
+      "topic": "Fixed costs and operating leverage",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Problem 5.8"
+      },
+      "type": "mc",
+      "prompt": "An article on barrons.com discussed the advice of an investment analyst about which firms to invest in if you were expecting an economic expansion during which the demand for many goods would increase. According to the analyst, “You want very high fixed-cost businesses. . . . What you want is something like a copper mine. Any . . . pickup in economic activity would help it a lot.” Briefly explain the analyst’s reasoning.",
+      "options": [
+        {
+          "id": "a",
+          "text": "With high fixed costs and low marginal cost, extra output and sales raise revenue far more than cost: average total cost falls sharply as the fixed cost is spread over more units, so most of the added revenue becomes profit."
+        },
+        {
+          "id": "b",
+          "text": "High fixed costs mean the firm's costs rise by a large amount when demand rises, so its price can rise by more than competitors' prices."
+        },
+        {
+          "id": "c",
+          "text": "Firms with high fixed costs can shut down quickly when demand falls, so they avoid losses in a recession and profit more in an expansion."
+        },
+        {
+          "id": "d",
+          "text": "A firm with high fixed costs always has a lower average total cost than a firm with low fixed costs at the same output."
+        }
+      ],
+      "answer": "a",
+      "shuffleOptions": false,
+      "explanation": "A high-fixed-cost firm like a copper mine has already paid for its mine and equipment; producing more adds comparatively little to cost. When demand rises it sells more at the same or a higher price, and since fixed cost does not increase, ATC falls (AFC drops) and almost every extra dollar of revenue is profit. This sensitivity of profit to sales is called operating leverage. The same leverage works in reverse in a downturn."
+    },
+    {
+      "id": "ch9-p9A.6a",
+      "unit": 7,
+      "topic": "Cost minimization",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Problem 9A.6(a)"
+      },
+      "type": "numeric",
+      "scenario": "ch9-p9A.6",
+      "prompt": "What is the marginal product of labour per dollar spent on labour (MP<sub>L</sub> ÷ w)?",
+      "answer": {
+        "value": 10,
+        "tolerance": 0.01,
+        "display": "10"
+      },
+      "explanation": "MP<sub>L</sub> ÷ w = 100 ÷ $10 = **10** units of extra output per dollar spent on labour."
+    },
+    {
+      "id": "ch9-p9A.6b",
+      "unit": 7,
+      "topic": "Cost minimization",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 9 · Problem 9A.6(b)"
+      },
+      "type": "numeric",
+      "scenario": "ch9-p9A.6",
+      "prompt": "What is the marginal product of capital per dollar spent on capital (MP<sub>K</sub> ÷ r)?",
+      "answer": {
+        "value": 8,
+        "tolerance": 0.01,
+        "display": "8"
+      },
+      "explanation": "MP<sub>K</sub> ÷ r = 4000 ÷ $500 = **8** units of extra output per dollar spent on ovens."
+    },
+    {
+      "id": "ch9-p9A.6c",
+      "unit": 7,
+      "topic": "Cost minimization",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 9 · Problem 9A.6(c)"
+      },
+      "type": "mc",
+      "scenario": "ch9-p9A.6",
+      "prompt": "Is Ebba minimizing the cost of producing her current output? If not, how should she change her mix of inputs?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yes: the marginal product of capital (4000) is much larger than the marginal product of labour (100), so she is already using the best mix."
+        },
+        {
+          "id": "b",
+          "text": "No: ovens give more output per dollar than labour, so she should rent more ovens and hire fewer workers."
+        },
+        {
+          "id": "c",
+          "text": "No: labour gives 10 units of output per dollar versus 8 for ovens, so she should use more labour and fewer ovens until MP<sub>L</sub>/w = MP<sub>K</sub>/r."
+        },
+        {
+          "id": "d",
+          "text": "Yes: she is minimizing cost whenever both input prices are positive and the marginal products are both positive."
+        }
+      ],
+      "answer": "c",
+      "shuffleOptions": false,
+      "explanation": "Cost is minimized when the last dollar spent on each input yields the same extra output: MP<sub>L</sub>/w = MP<sub>K</sub>/r. Here MP<sub>L</sub>/w = 100/10 = 10 and MP<sub>K</sub>/r = 4000/500 = 8. Labour is the better buy, so she should substitute labour for capital: as she hires more workers MP<sub>L</sub> falls and as she uses fewer ovens MP<sub>K</sub> rises, moving the ratios toward equality. Comparing raw marginal products (4000 vs 100) is the tempting mistake; prices must be taken into account."
+    },
+    {
+      "id": "ch9-p9A.11",
+      "unit": 7,
+      "topic": "Isoquant-isocost analysis",
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 9 · Problem 9A.11"
+      },
+      "type": "mc",
+      "prompt": "In Brazil, a grove of oranges is picked using 20 workers, ladders, and baskets. In Florida, a grove of oranges is picked using 1 worker and a machine that shakes the oranges off the trees and scoops up the fallen oranges. Using an isoquant–isocost line graph, illustrate why these two different methods are used to pick the same number of oranges per day in these two locations. Which explanation is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The Brazilian isocost line is steeper because workers are expensive there, so the tangency is at the labour-intensive combination."
+        },
+        {
+          "id": "b",
+          "text": "Labour is cheap relative to capital in Brazil (low wage ÷ rental price), so the isocost line is flatter and is tangent to the isoquant at a labour-intensive point; in Florida the wage is high relative to machines, the isocost line is steeper and the tangency is at a capital-intensive point."
+        },
+        {
+          "id": "c",
+          "text": "Both locations face the same relative input prices, so the different methods must be due to different isoquants (the isoquant in Florida is further to the right)."
+        },
+        {
+          "id": "d",
+          "text": "Oranges are picked by machine in Florida because machines have a higher marginal product per worker; relative input prices do not affect the choice."
+        }
+      ],
+      "answer": "b",
+      "shuffleOptions": false,
+      "explanation": "Cost minimization puts the firm where the isoquant is tangent to the lowest isocost line: MRTS = w/r. In Brazil wages are low relative to the rental price of machinery, so w/r is small, the isocost line is flat (labour on the horizontal axis) and the tangency has lots of labour and little capital (20 workers, ladders, baskets). In Florida w/r is high, the isocost line is steep and the tangency has more capital and less labour (1 worker and a machine). Same output means the same isoquant; only the relative input prices differ."
+    },
+    {
+      "id": "ch9-p3.9a",
+      "type": "numeric",
+      "unit": 7,
+      "difficulty": 1,
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "source": {
+        "ref": "Ch 9 · Problem 3.9(a)"
+      },
+      "scenario": "ch9-p3.9",
+      "topic": "Average product of labour",
+      "prompt": "Using the table, what is the average product of labour when 4 workers are hired?",
+      "answer": {
+        "value": 662.5,
+        "tolerance": 0.5,
+        "display": "662.5"
+      },
+      "explanation": "AP_L = total output ÷ workers = 2,650 ÷ 4 = **662.5** units per worker. Don’t confuse it with the marginal product of the 4th worker (2,650 − 2,200 = 450)."
+    },
+    {
+      "id": "ch9-p3.9b",
+      "type": "numeric",
+      "unit": 7,
+      "difficulty": 1,
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "source": {
+        "ref": "Ch 9 · Problem 3.9(b)"
+      },
+      "scenario": "ch9-p3.9",
+      "topic": "Marginal product of labour",
+      "prompt": "What is the marginal product of the **fifth** worker?",
+      "answer": {
+        "value": 260,
+        "tolerance": 0,
+        "display": "260"
+      },
+      "explanation": "MP = change in total output from one more worker = 2,910 − 2,650 = **260**. (The average product at 5 workers, 2,910 ÷ 5 = 582, is a different measure.)"
+    },
+    {
+      "id": "ch9-p3.9d",
+      "type": "mc",
+      "unit": 7,
+      "difficulty": 2,
+      "tags": [
+        "problem",
+        "week-7",
+        "etext-table-mismatch"
+      ],
+      "source": {
+        "ref": "Ch 9 · Problem 3.9(d)"
+      },
+      "shuffleOptions": false,
+      "scenario": "ch9-p3.9",
+      "topic": "Diminishing returns",
+      "prompt": "For the output figures **as printed in the table**, with which worker does the law of diminishing returns set in?",
+      "options": [
+        "The 2nd worker",
+        "The 3rd worker",
+        "The 4th worker",
+        "The 6th worker"
+      ],
+      "answer": "b",
+      "explanation": "Marginal products: 625, 825, 750, 450, 260, 190. MP rises from the 1st to the 2nd worker (specialization), then **falls from the 3rd worker on** (825 → 750) — that is where diminishing returns set in. Total output still rises after that; diminishing returns means each extra worker adds *less*, not that output falls. (The eText’s part (c)–(d) premise “MP of the 2nd worker is 6” belongs to a different table, so it is not used here.)"
+    },
+    {
+      "id": "ch9-p5.10a",
+      "type": "multi",
+      "unit": 7,
+      "difficulty": 3,
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "source": {
+        "ref": "Ch 9 · Problem 5.10"
+      },
+      "shuffleOptions": false,
+      "scenario": "ch9-p5.10",
+      "topic": "Cost-curve relationships",
+      "prompt": "Select **all** the errors in the graph.",
+      "options": [
+        "The curve labelled AFC is U-shaped and rises — AFC = FC ÷ Q must fall continuously as output increases",
+        "ATC is drawn below AVC — ATC = AVC + AFC, so ATC must lie above AVC",
+        "AVC and ATC are drawn U-shaped",
+        "ATC reaches its minimum at a lower output than AVC — ATC’s minimum must be to the right of AVC’s"
+      ],
+      "answer": [
+        "a",
+        "b",
+        "d"
+      ],
+      "explanation": "Three errors: (1) **AFC can never be U-shaped**: fixed cost is spread over more units, so AFC falls throughout (the curve that cuts AVC and ATC at their minimum points is **MC**, mislabelled). (2) **ATC must be above AVC** by exactly AFC, with the gap shrinking as output rises. (3) **ATC’s minimum lies to the right of AVC’s**: past AVC’s minimum, falling AFC still pulls ATC down for a while. U-shaped AVC and ATC are correct (diminishing returns), so that statement is not an error."
+    },
+    {
+      "id": "ch9-p5.10b",
+      "type": "tf",
+      "unit": 7,
+      "difficulty": 1,
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "source": {
+        "ref": "Ch 9 · Problem 5.10"
+      },
+      "scenario": "ch9-p5.10",
+      "topic": "MC through the minimum points",
+      "prompt": "In a correct cost-curve diagram, the curve that passes through the minimum points of both AVC and ATC is the marginal cost curve.",
+      "answer": true,
+      "explanation": "**True.** When MC is below an average it pulls the average down; when above, it pulls it up — so MC crosses AVC and ATC exactly at their minimums. In the textbook graph that role is played by the curve wrongly labelled AFC."
+    },
+    {
+      "id": "ch9-p9A.5a",
+      "type": "mc",
+      "unit": 7,
+      "difficulty": 2,
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "source": {
+        "ref": "Ch 9 · Problem 9A.5(a)"
+      },
+      "shuffleOptions": false,
+      "scenario": "ch9-p9A.5",
+      "topic": "Cost minimization",
+      "prompt": "w = r = $100, total cost $2000: which point is cost-minimizing?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "None of them — the isocost line does not touch an isoquant"
+      ],
+      "answer": "a",
+      "explanation": "$2000 buys at most 2000/100 = **20 workers** or **20 ovens**, so the isocost runs from (0, 20) to (20, 0) with slope −w/r = −1. It is tangent to the Q = 5000 isoquant at **A** (10 workers, 10 ovens). B and C are not on this isocost line."
+    },
+    {
+      "id": "ch9-p9A.5b",
+      "type": "mc",
+      "unit": 7,
+      "difficulty": 2,
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "source": {
+        "ref": "Ch 9 · Problem 9A.5(b)"
+      },
+      "shuffleOptions": false,
+      "scenario": "ch9-p9A.5",
+      "topic": "Cost minimization",
+      "prompt": "w = $25, r = $100, total cost $1000: which point is cost-minimizing?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "None of them — the isocost line does not touch an isoquant"
+      ],
+      "answer": "b",
+      "explanation": "$1000 buys at most 1000/25 = **40 workers** or 1000/100 = **10 ovens**: the flat isocost from (0, 10) to (40, 0), slope −w/r = −¼. It is tangent to Q = 5000 at **B**. Cheap labour makes the firm substitute workers for ovens — B uses more labour and less capital than A for the same 5000 units."
+    },
+    {
+      "id": "ch9-p9A.5c",
+      "type": "mc",
+      "unit": 7,
+      "difficulty": 2,
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "source": {
+        "ref": "Ch 9 · Problem 9A.5(c)"
+      },
+      "shuffleOptions": false,
+      "scenario": "ch9-p9A.5",
+      "topic": "Cost minimization",
+      "prompt": "w = r = $100, total cost $4000: which point is cost-minimizing?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "None of them — the isocost line does not touch an isoquant"
+      ],
+      "answer": "c",
+      "explanation": "$4000 buys at most **40 workers** or **40 ovens**: the outer isocost from (0, 40) to (40, 0), slope −1. It is tangent to the higher Q = 12,000 isoquant at **C** — the most output $4000 can buy at these prices. (It also crosses Q = 5000, but producing 5000 there would not be cost-minimizing.)"
+    },
+    {
+      "id": "ch9-p9A.14a",
+      "type": "graph",
+      "unit": 7,
+      "difficulty": 3,
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "source": {
+        "ref": "Ch 9 · Problem 9A.14(a)"
+      },
+      "scenario": "ch9-p9A.14",
+      "topic": "Isocost after input prices double",
+      "prompt": "Total spending stays the same, but the wage and the rental price of machinery both **double**. Draw the new isocost line.",
+      "graph": {
+        "x": {
+          "label": "Labour (workers per week)",
+          "min": 0,
+          "max": 90,
+          "ticks": [
+            40,
+            80
+          ]
+        },
+        "y": {
+          "label": "Capital (machines per week)",
+          "min": 0,
+          "max": 90,
+          "ticks": [
+            40,
+            80
+          ]
+        },
+        "curves": [
+          {
+            "id": "IQ",
+            "label": "Q = 5000",
+            "color": "red",
+            "smooth": true,
+            "points": [
+              [
+                20.0,
+                80.0
+              ],
+              [
+                22.292,
+                71.776
+              ],
+              [
+                24.583,
+                65.085
+              ],
+              [
+                26.875,
+                59.535
+              ],
+              [
+                29.167,
+                54.857
+              ],
+              [
+                31.458,
+                50.861
+              ],
+              [
+                33.75,
+                47.407
+              ],
+              [
+                36.042,
+                44.393
+              ],
+              [
+                38.333,
+                41.739
+              ],
+              [
+                40.625,
+                39.385
+              ],
+              [
+                42.917,
+                37.282
+              ],
+              [
+                45.208,
+                35.392
+              ],
+              [
+                47.5,
+                33.684
+              ],
+              [
+                49.792,
+                32.134
+              ],
+              [
+                52.083,
+                30.72
+              ],
+              [
+                54.375,
+                29.425
+              ],
+              [
+                56.667,
+                28.235
+              ],
+              [
+                58.958,
+                27.138
+              ],
+              [
+                61.25,
+                26.122
+              ],
+              [
+                63.542,
+                25.18
+              ],
+              [
+                65.833,
+                24.304
+              ],
+              [
+                68.125,
+                23.486
+              ],
+              [
+                70.417,
+                22.722
+              ],
+              [
+                72.708,
+                22.006
+              ],
+              [
+                75.0,
+                21.333
+              ]
+            ]
+          },
+          {
+            "id": "IC",
+            "label": "Isocost",
+            "color": "orange",
+            "points": [
+              [
+                0,
+                80
+              ],
+              [
+                80,
+                0
+              ]
+            ]
+          }
+        ],
+        "points": [
+          {
+            "id": "A",
+            "label": "A",
+            "x": 40,
+            "y": 40,
+            "drop": "both"
+          }
+        ],
+        "tasks": [
+          {
+            "id": "IC2",
+            "kind": "line",
+            "label": "New isocost",
+            "prompt": "Draw the new isocost line for the same total spending",
+            "expect": {
+              "slope": "negative",
+              "shiftOf": "IC",
+              "direction": "left",
+              "through": [
+                {
+                  "x": 20,
+                  "y": 20,
+                  "tol": 6,
+                  "label": "halfway"
+                }
+              ]
+            },
+            "model": {
+              "points": [
+                [
+                  0,
+                  40
+                ],
+                [
+                  40,
+                  0
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      "explanation": "With both prices doubled, the same budget buys **half** as much of each input: the intercepts fall from 80 to **40** workers and 80 to **40** machines. The slope −w/r is unchanged (both doubled), so the new isocost is **parallel** to the old one and halfway to the origin — it can no longer reach the Q = 5000 isoquant, so output at that cost falls."
+    },
+    {
+      "id": "ch9-p9A.14b",
+      "type": "mc",
+      "unit": 7,
+      "difficulty": 2,
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "source": {
+        "ref": "Ch 9 · Problem 9A.14"
+      },
+      "shuffleOptions": false,
+      "scenario": "ch9-p9A.14",
+      "topic": "Relative input prices",
+      "figure": {
+        "type": "graph",
+        "caption": "Problem 9A.14 figure (redrawn)",
+        "spec": {
+          "x": {
+            "label": "Labour (workers per week)",
+            "min": 0,
+            "max": 90,
+            "ticks": [
+              40,
+              80
+            ]
+          },
+          "y": {
+            "label": "Capital (machines per week)",
+            "min": 0,
+            "max": 90,
+            "ticks": [
+              40,
+              80
+            ]
+          },
+          "curves": [
+            {
+              "id": "IQ",
+              "label": "Q = 5000",
+              "color": "red",
+              "smooth": true,
+              "points": [
+                [
+                  20.0,
+                  80.0
+                ],
+                [
+                  22.292,
+                  71.776
+                ],
+                [
+                  24.583,
+                  65.085
+                ],
+                [
+                  26.875,
+                  59.535
+                ],
+                [
+                  29.167,
+                  54.857
+                ],
+                [
+                  31.458,
+                  50.861
+                ],
+                [
+                  33.75,
+                  47.407
+                ],
+                [
+                  36.042,
+                  44.393
+                ],
+                [
+                  38.333,
+                  41.739
+                ],
+                [
+                  40.625,
+                  39.385
+                ],
+                [
+                  42.917,
+                  37.282
+                ],
+                [
+                  45.208,
+                  35.392
+                ],
+                [
+                  47.5,
+                  33.684
+                ],
+                [
+                  49.792,
+                  32.134
+                ],
+                [
+                  52.083,
+                  30.72
+                ],
+                [
+                  54.375,
+                  29.425
+                ],
+                [
+                  56.667,
+                  28.235
+                ],
+                [
+                  58.958,
+                  27.138
+                ],
+                [
+                  61.25,
+                  26.122
+                ],
+                [
+                  63.542,
+                  25.18
+                ],
+                [
+                  65.833,
+                  24.304
+                ],
+                [
+                  68.125,
+                  23.486
+                ],
+                [
+                  70.417,
+                  22.722
+                ],
+                [
+                  72.708,
+                  22.006
+                ],
+                [
+                  75.0,
+                  21.333
+                ]
+              ]
+            },
+            {
+              "id": "IC",
+              "label": "Isocost",
+              "color": "orange",
+              "points": [
+                [
+                  0,
+                  80
+                ],
+                [
+                  80,
+                  0
+                ]
+              ]
+            }
+          ],
+          "points": [
+            {
+              "id": "A",
+              "label": "A",
+              "x": 40,
+              "y": 40,
+              "drop": "both"
+            }
+          ]
+        }
+      },
+      "prompt": "Why is the new isocost line **parallel** to the original one?",
+      "options": [
+        "Because the firm’s output target is unchanged",
+        "Because the wage and the rental price rose by the same proportion, so the ratio w/r — the slope — is unchanged",
+        "Because the marginal products of labour and capital doubled",
+        "Because isocost lines always have a slope of −1"
+      ],
+      "answer": "b",
+      "explanation": "The isocost slope is −w/r. Doubling both prices leaves w/r unchanged, so only the **position** of the line changes (inward for a fixed budget), not its slope. Marginal products are a property of the technology (the isoquant), not of prices, and isocost slopes are −1 only when w = r, as in this graph."
+    },
+    {
+      "id": "ch9-p9A.14c",
+      "type": "mc",
+      "unit": 7,
+      "difficulty": 2,
+      "tags": [
+        "problem",
+        "week-7"
+      ],
+      "source": {
+        "ref": "Ch 9 · Problem 9A.14"
+      },
+      "shuffleOptions": false,
+      "scenario": "ch9-p9A.14",
+      "topic": "Cost minimization with equal price changes",
+      "figure": {
+        "type": "graph",
+        "caption": "Problem 9A.14 figure (redrawn)",
+        "spec": {
+          "x": {
+            "label": "Labour (workers per week)",
+            "min": 0,
+            "max": 90,
+            "ticks": [
+              40,
+              80
+            ]
+          },
+          "y": {
+            "label": "Capital (machines per week)",
+            "min": 0,
+            "max": 90,
+            "ticks": [
+              40,
+              80
+            ]
+          },
+          "curves": [
+            {
+              "id": "IQ",
+              "label": "Q = 5000",
+              "color": "red",
+              "smooth": true,
+              "points": [
+                [
+                  20.0,
+                  80.0
+                ],
+                [
+                  22.292,
+                  71.776
+                ],
+                [
+                  24.583,
+                  65.085
+                ],
+                [
+                  26.875,
+                  59.535
+                ],
+                [
+                  29.167,
+                  54.857
+                ],
+                [
+                  31.458,
+                  50.861
+                ],
+                [
+                  33.75,
+                  47.407
+                ],
+                [
+                  36.042,
+                  44.393
+                ],
+                [
+                  38.333,
+                  41.739
+                ],
+                [
+                  40.625,
+                  39.385
+                ],
+                [
+                  42.917,
+                  37.282
+                ],
+                [
+                  45.208,
+                  35.392
+                ],
+                [
+                  47.5,
+                  33.684
+                ],
+                [
+                  49.792,
+                  32.134
+                ],
+                [
+                  52.083,
+                  30.72
+                ],
+                [
+                  54.375,
+                  29.425
+                ],
+                [
+                  56.667,
+                  28.235
+                ],
+                [
+                  58.958,
+                  27.138
+                ],
+                [
+                  61.25,
+                  26.122
+                ],
+                [
+                  63.542,
+                  25.18
+                ],
+                [
+                  65.833,
+                  24.304
+                ],
+                [
+                  68.125,
+                  23.486
+                ],
+                [
+                  70.417,
+                  22.722
+                ],
+                [
+                  72.708,
+                  22.006
+                ],
+                [
+                  75.0,
+                  21.333
+                ]
+              ]
+            },
+            {
+              "id": "IC",
+              "label": "Isocost",
+              "color": "orange",
+              "points": [
+                [
+                  0,
+                  80
+                ],
+                [
+                  80,
+                  0
+                ]
+              ]
+            }
+          ],
+          "points": [
+            {
+              "id": "A",
+              "label": "A",
+              "x": 40,
+              "y": 40,
+              "drop": "both"
+            }
+          ]
+        }
+      },
+      "prompt": "If Swift Ellis still wants to produce **5000 pairs**, which input combination minimizes its cost after both prices double?",
+      "options": [
+        "More labour and less capital than at A",
+        "Less labour and more capital than at A",
+        "The same combination A (40 workers, 40 machines) — relative prices haven’t changed — but total cost doubles",
+        "Half the labour and half the capital at A"
+      ],
+      "answer": "c",
+      "explanation": "Cost is minimized where the isocost is tangent to the isoquant, i.e. MP_L/MP_K = w/r. With w/r unchanged and the same isoquant, the tangency is still at **A**; producing there now costs twice as much. Firms substitute between inputs only when **relative** input prices change. Halving both inputs would produce less than 5000 pairs."
+    }
+  ]
+}
