@@ -115,7 +115,7 @@
       this.scenarios = {};     // key `${bankId}:${scenarioId}`
       this.session = null;
       this.screen = 'start';
-      this.graph = null;       // active EconGraph instance for the current question
+      this.graphs = {};        // question/part id → EconGraph widget on the current card
       this._timer = null;
       this._scenarioCollapsed = {};
       this.root.classList.add('pe');
@@ -162,6 +162,34 @@
         });
       }
       if (!n) throw new Error('The banks contain no questions.');
+      this._buildGroups();
+    }
+
+    // Questions sharing a `group` become one multi-part question: it counts once everywhere (totals,
+    // filters, draws, palette, score) and reveals its parts one at a time. The parts stay in byId so
+    // sessions saved before grouping still resume.
+    _buildGroups() {
+      const members = {};
+      for (const q of this.questions) if (q.groupKey) (members[q.groupKey] = members[q.groupKey] || []).push(q);
+      const out = [];
+      for (const q of this.questions) {
+        const m = q.groupKey && members[q.groupKey];
+        if (!m || m.length < 2) { out.push(q); continue; }
+        if (m[0] !== q) continue;
+        const bank = this.banks.find(b => b.id === q.bankId) || {};
+        const meta = (bank.groups || {})[q.group] || {};
+        const g = {
+          id: 'grp:' + q.groupKey, type: 'group', kind: 'multipart', parts: m,
+          bankId: q.bankId, bankTitle: q.bankTitle,
+          source: Object.assign({}, q.source, meta.ref ? { ref: meta.ref } : {}),
+          tags: [...new Set(m.flatMap(p => p.tags))], unit: q.unit, topic: meta.title || q.topic,
+          difficulty: Math.max(...m.map(p => p.difficulty)), scenarioKey: q.scenarioKey,
+          inScope: m.every(p => p.inScope), scopeNote: q.scopeNote, prompt: q.prompt
+        };
+        this.byId[g.id] = g;
+        out.push(g);
+      }
+      this.questions = out;
     }
 
     _normalize(q, bank, idx) {
@@ -183,6 +211,7 @@
       nq.topic = q.topic || bank.defaultTopic || '';
       nq.difficulty = q.difficulty || 2;
       nq.scenarioKey = q.scenario ? `${bank.id}:${q.scenario}` : null;
+      nq.groupKey = q.group ? `${bank.id}:${q.group}` : null;
       // scope
       const sc = this.cfg.scope;
       nq.inScope = true;
@@ -279,7 +308,7 @@
       };
 
       const unitKeys = Object.keys(units).sort((a, b) => (a === 'none') - (b === 'none') || Number(a) - Number(b));
-      const typeLabel = { mc: 'Multiple choice', tf: 'True / false', multi: 'Select all that apply', numeric: 'Numeric', graph: 'Graph drawing' };
+      const typeLabel = { mc: 'Multiple choice', tf: 'True / false', multi: 'Select all that apply', numeric: 'Numeric', graph: 'Graph drawing', multipart: 'Multi-part' };
 
       const scopeToggle = cfg.scope ? h('label', { class: 'pe-switch' },
         h('input', { type: 'checkbox', checked: form.scopeOnly, onChange: (e) => { form.scopeOnly = e.target.checked; updateCount(); } }),
@@ -361,7 +390,7 @@
               types.graph ? h('div', { class: 'pe-stat' }, h('b', { text: types.graph }), h('span', { text: 'graph-drawing drills' })) : null),
 
             saved ? h('div', { class: 'pe-resume' },
-              h('div', {}, h('b', { text: 'Resume your last session?' }), h('span', { class: 'pe-muted', text: ` ${saved.mode === 'exam' ? 'Exam simulation' : 'Practice'} · ${Object.keys(saved.answers).length}/${saved.order.length} answered · started ${fmtDate(saved.createdAt)}` })),
+              h('div', {}, h('b', { text: 'Resume your last session?' }), h('span', { class: 'pe-muted', text: ` ${saved.mode === 'exam' ? 'Exam simulation' : 'Practice'} · ${saved.order.filter(id => this.byId[id] && this._itemAnswered(this.byId[id], saved.answers)).length}/${saved.order.length} answered · started ${fmtDate(saved.createdAt)}` })),
               h('div', { class: 'pe-resume-actions' },
                 h('button', { type: 'button', class: 'pe-btn pe-btn-primary', onClick: () => this.resumeSession() }, 'Resume'),
                 h('button', { type: 'button', class: 'pe-btn pe-btn-ghost', onClick: () => { this.clearSession(); this.renderStart(); } }, 'Discard'))) : null,
@@ -449,7 +478,7 @@
         timeLimit: form.mode === 'exam' ? Math.round(examM * 60 * qs.length / examN) : null,
         elapsed: 0, finished: false
       };
-      for (const q of qs) if (q.shuffleOptions && q.options) this.session.optionOrder[q.id] = shuffle(q.options.map(o => o.id), rng);
+      for (const q of qs) for (const p of this.partsOf(q)) if (p.shuffleOptions && p.options) this.session.optionOrder[p.id] = shuffle(p.options.map(o => o.id), rng);
       this._scenarioCollapsed = {};
       this.saveSession();
       this.renderQuiz();
@@ -535,25 +564,46 @@
     // Feedback is shown immediately in practice mode, and for every question when reviewing a finished session.
     showsFeedback() { const s = this.session; return s.mode === 'practice' || !!s.review; }
 
+    // ── multi-part questions ────────────────────────────────────────────
+    // A session's `order` holds question ids; a multi-part question's answers are stored per part.
+    partsOf(q) { return q && q.parts ? q.parts : [q]; }
+    // A part is finished once checked (practice) or handed in with "Next part" (exam); a finished part is locked.
+    _partLocked(p) { const a = this.session.answers[p.id]; return !!a && (this.showsFeedback() ? !!a.checked : !!a.submitted); }
+    // Parts are revealed one at a time: everything up to and including the first unfinished part.
+    _revealed(q) {
+      const ps = this.partsOf(q);
+      if (this.session.review) return ps.length;
+      let k = 0;
+      while (k < ps.length - 1 && this._partLocked(ps[k])) k++;
+      return k + 1;
+    }
+    activePart(q) { q = q || this.currentQuestion(); return this.partsOf(q)[this._revealed(q) - 1]; }
+    _itemAnswered(q, answers) { answers = answers || this.session.answers; return this.partsOf(q).every(p => answers[p.id] && this._hasResponse(p, answers[p.id].response)); }
+    _itemChecked(q) { return this.partsOf(q).every(p => this.session.answers[p.id] && this.session.answers[p.id].checked); }
+    // Score 0–1: each part is worth an equal share of the question.
+    _itemScore(q) { const ps = this.partsOf(q); return ps.filter(p => { const a = this.session.answers[p.id]; return a && a.graded && a.graded.correct; }).length / ps.length; }
+    _answeredCount() { const s = this.session; return s.order.filter(id => this.byId[id] && this._itemAnswered(this.byId[id])).length; }
+    _partEl(card, p) { return card.dataset.qid === p.id ? card : card.querySelector(`[data-qid="${CSS.escape(p.id)}"]`); }
+    _destroyGraphs() { for (const k in this.graphs) this.graphs[k].destroy(); this.graphs = {}; }
+
     renderQuestion(dir) {
       const s = this.session;
       const q = this.currentQuestion();
       if (!q) return;
       const total = s.order.length;
-      const answered = Object.keys(s.answers).filter(id => s.order.includes(id)).length;
-      this.progressEl.style.width = pct(answered, total) + '%';
+      this.progressEl.style.width = pct(this._answeredCount(), total) + '%';
       this.counterEl.textContent = `${s.index + 1} / ${total}`;
       if (this.paletteOpen) this._renderPalette();
 
       const old = this.stageEl.querySelector('.pe-card');
       const card = this._buildQuestionCard(q);
       const swap = () => {
-        if (this.graph) { this.graph.destroy(); this.graph = null; }
+        this._destroyGraphs();
         this.stageEl.innerHTML = '';
         this.stageEl.appendChild(card);
         this._mountQuestionWidgets(q, card);
         if (ANIM_MS) { card.classList.add(dir < 0 ? 'pe-enter-left' : 'pe-enter-right'); const clear = () => card.classList.remove('pe-enter-left', 'pe-enter-right'); requestAnimationFrame(() => requestAnimationFrame(clear)); setTimeout(clear, 80); }
-        const focusTarget = card.querySelector('.pe-option, .pe-input, .pe-btn-primary');
+        const focusTarget = card.querySelector('.pe-part.is-active .pe-option, .pe-part.is-active .pe-input') || card.querySelector('.pe-option, .pe-input, .pe-btn-primary');
         if (focusTarget && !('ontouchstart' in window)) focusTarget.focus({ preventScroll: true });
         this.stageEl.scrollTop = 0;
         window.scrollTo({ top: 0, behavior: REDUCED ? 'auto' : 'smooth' });
@@ -570,23 +620,80 @@
       return order.map(id => q.options.find(o => o.id === id)).filter(Boolean);
     }
 
+    _buildMeta(q, revealTopic) {
+      const s = this.session;
+      return h('div', { class: 'pe-meta' },
+        h('span', { class: 'pe-badge pe-badge-' + (q.source.kind || 'custom'), title: KIND_LABEL[q.source.kind] || '' }, this.sourceText(q)),
+        // the topic often gives the answer away, so until feedback shows it the badge names only the unit/chapter
+        q.unit != null || q.topic ? h('span', { class: 'pe-badge pe-badge-unit', text: this._unitBadgeText(q, revealTopic) }) : null,
+        q.parts ? h('span', { class: 'pe-badge pe-badge-parts', text: `${q.parts.length} parts` }) : null,
+        !q.inScope && this.cfg.scope ? h('span', { class: 'pe-badge pe-badge-warn', title: q.scopeNote || '' }, `Not on ${this.cfg.scope.label}`) : null,
+        h('button', { type: 'button', class: 'pe-flag' + (s.flags[q.id] ? ' is-on' : ''), 'aria-pressed': !!s.flags[q.id], title: 'Flag for review (F)', onClick: (e) => this.toggleFlag(e.currentTarget) }, '⚑', h('span', { class: 'pe-sr', text: 'Flag' })));
+    }
+
+    _buildFigures(q) {
+      return Array.isArray(q.figure)
+        ? h('div', { class: 'pe-figure-row' }, ...q.figure.map(f => this._buildFigure(f)))
+        : (q.figure ? this._buildFigure(q.figure) : null);
+    }
+
+    _buildActions() {
+      return h('div', { class: 'pe-actions' },
+        h('button', { type: 'button', class: 'pe-btn pe-btn-ghost', disabled: this.session.index === 0, onClick: () => this.go(-1) }, '← Previous'),
+        h('div', { class: 'pe-actions-right' },
+          h('button', { type: 'button', class: 'pe-btn pe-btn-primary pe-primary-action', onClick: () => this.primaryAction() }, 'Check')));
+    }
+
     _buildQuestionCard(q) {
+      if (q.parts) return this._buildGroupCard(q);
       const s = this.session;
       const a = s.answers[q.id];
       const locked = this.showsFeedback() && a && a.checked;
-      const meta = h('div', { class: 'pe-meta' },
-        h('span', { class: 'pe-badge pe-badge-' + (q.source.kind || 'custom'), title: KIND_LABEL[q.source.kind] || '' }, this.sourceText(q)),
-        // the topic often gives the answer away, so until feedback shows it the badge names only the unit/chapter
-        q.unit != null || q.topic ? h('span', { class: 'pe-badge pe-badge-unit', text: this._unitBadgeText(q, locked || !!s.review) }) : null,
-        !q.inScope && this.cfg.scope ? h('span', { class: 'pe-badge pe-badge-warn', title: q.scopeNote || '' }, `Not on ${this.cfg.scope.label}`) : null,
-        h('button', { type: 'button', class: 'pe-flag' + (s.flags[q.id] ? ' is-on' : ''), 'aria-pressed': !!s.flags[q.id], title: 'Flag for review (F)', onClick: (e) => this.toggleFlag(e.currentTarget) }, '⚑', h('span', { class: 'pe-sr', text: 'Flag' })));
-
+      const meta = this._buildMeta(q, locked || !!s.review);
       const scenario = q.scenarioKey ? this._buildScenario(this.scenarios[q.scenarioKey]) : null;
-      const figure = Array.isArray(q.figure)
-        ? h('div', { class: 'pe-figure-row' }, ...q.figure.map(f => this._buildFigure(f)))
-        : (q.figure ? this._buildFigure(q.figure) : null);
+      const figure = this._buildFigures(q);
       const prompt = h('div', { class: 'pe-prompt', html: md(q.prompt) });
+      const answerArea = this._buildAnswerArea(q, a, locked);
+      const feedback = h('div', { class: 'pe-feedback', hidden: true });
+      const card = h('article', { class: 'pe-card pe-card-q', dataset: { qid: q.id } },
+        meta, scenario, figure, prompt, answerArea, feedback, this._buildActions());
+      this._refreshPrimary(card, q);
+      if (locked) this._showFeedback(card, q, a);
+      return card;
+    }
 
+    // One card, parts stacked in order; only the revealed ones are built. Finished parts stay visible
+    // (locked, with feedback in practice) above the part being answered.
+    _buildGroupCard(q) {
+      const s = this.session;
+      const ps = q.parts, n = this._revealed(q);
+      const allDone = n === ps.length && this._partLocked(ps[n - 1]);
+      const scenario = q.scenarioKey ? this._buildScenario(this.scenarios[q.scenarioKey]) : null;
+      let lastFig = null;
+      const blocks = ps.slice(0, n).map((p, i) => {
+        const a = s.answers[p.id];
+        const locked = this._partLocked(p);
+        const figKey = p.figure ? JSON.stringify(p.figure) : null;   // parts often repeat the same figure: show it once
+        const figure = figKey && figKey !== lastFig ? this._buildFigures(p) : null;
+        if (figKey) lastFig = figKey;
+        const block = h('section', { class: 'pe-part' + (!locked && i === n - 1 && !s.review ? ' is-active' : ''), dataset: { qid: p.id } },
+          h('div', { class: 'pe-part-head' }, h('span', { class: 'pe-part-num', text: `Part ${i + 1} of ${ps.length}` })),
+          figure,
+          h('div', { class: 'pe-prompt', html: md(p.prompt) }),
+          this._buildAnswerArea(p, a, locked),
+          h('div', { class: 'pe-feedback', hidden: true }));
+        if (locked && this.showsFeedback()) this._showFeedback(block, p, a);
+        return block;
+      });
+      const left = ps.length - n;
+      const pending = left ? h('p', { class: 'pe-parts-pending', text: `${left} more part${left === 1 ? '' : 's'} — ${s.mode === 'exam' && !s.review ? 'shown when you go on to the next part' : 'shown after you check this one'}` }) : null;
+      const card = h('article', { class: 'pe-card pe-card-q pe-card-group', dataset: { qid: q.id } },
+        this._buildMeta(q, allDone && this.showsFeedback()), scenario, ...blocks, pending, this._buildActions());
+      this._refreshPrimary(card, q);
+      return card;
+    }
+
+    _buildAnswerArea(q, a, locked) {
       let answerArea;
       if (q.type === 'mc' || q.type === 'multi') {
         const multi = q.type === 'multi';
@@ -612,18 +719,7 @@
       } else {
         answerArea = h('p', { class: 'pe-error-inline', text: `Unsupported question type "${q.type}".` });
       }
-
-      const feedback = h('div', { class: 'pe-feedback', hidden: true });
-      const actions = h('div', { class: 'pe-actions' },
-        h('button', { type: 'button', class: 'pe-btn pe-btn-ghost', disabled: s.index === 0, onClick: () => this.go(-1) }, '← Previous'),
-        h('div', { class: 'pe-actions-right' },
-          h('button', { type: 'button', class: 'pe-btn pe-btn-primary pe-primary-action', onClick: () => this.primaryAction() }, 'Check')));
-
-      const card = h('article', { class: 'pe-card pe-card-q', dataset: { qid: q.id } },
-        meta, scenario, figure, prompt, answerArea, feedback, actions);
-      this._refreshPrimary(card, q);
-      if (locked) this._showFeedback(card, q, a);
-      return card;
+      return answerArea;
     }
 
     _buildScenario(sc) {
@@ -661,24 +757,28 @@
       card.querySelectorAll('.pe-static-graph').forEach(el => {
         try { new global.EconGraph(el, JSON.parse(el.dataset.spec), { interactive: false }); } catch (e) { el.textContent = 'Figure could not be rendered.'; }
       });
-      if (q.type === 'graph') {
-        const s = this.session, a = s.answers[q.id];
-        const locked = this.showsFeedback() && a && a.checked;
-        const host = card.querySelector('.pe-graph');
-        this.graph = new global.EconGraph(host, q.graph, {
+      for (const p of this.partsOf(q).slice(0, this._revealed(q))) {
+        if (p.type !== 'graph') continue;
+        const a = this.session.answers[p.id];
+        const el = this._partEl(card, p);
+        const host = el && el.querySelector('.pe-graph');
+        if (!host) continue;
+        const g = this.graphs[p.id] = new global.EconGraph(host, p.graph, {
           interactive: true, showTasks: true, drawings: a ? a.response : null,
-          onChange: (d) => this.setResponse(q, d, false)
+          onChange: (d) => this.setResponse(p, d, false)
         });
-        if (locked) { this.graph.lock(); this.graph.showModel(); }
+        if (this._partLocked(p)) { g.lock(); if (this.showsFeedback()) g.showModel(); }
       }
     }
 
     _refreshPrimary(card, q) {
       const s = this.session;
       const btn = card.querySelector('.pe-primary-action');
-      const a = s.answers[q.id];
+      const p = this.activePart(q);
+      const a = s.answers[p.id];
       const last = s.index === s.order.length - 1;
-      const has = a && this._hasResponse(q, a.response);
+      const has = a && this._hasResponse(p, a.response);
+      const morePartsHidden = this._revealed(q) < this.partsOf(q).length;
       if (s.review) { btn.textContent = last ? 'Back to results' : 'Next →'; btn.disabled = false; return; }
       if (s.mode === 'practice') {
         if (a && a.checked) btn.textContent = last ? 'Finish →' : 'Next →';
@@ -686,8 +786,28 @@
         btn.disabled = !(a && a.checked) && !has;
         btn.classList.toggle('pe-btn-primary', true);
       } else {
-        btn.textContent = last ? 'Finish exam' : 'Next →';
+        btn.textContent = morePartsHidden && has ? 'Next part →' : last ? 'Finish exam' : 'Next →';
         btn.disabled = false;
+      }
+    }
+
+    // Rebuild the current card in place (no slide animation) after a part is finished, then bring the
+    // newly revealed part into view.
+    _rerenderCard() {
+      const q = this.currentQuestion();
+      const old = this.stageEl.querySelector('.pe-card');
+      if (!old) return;
+      this._destroyGraphs();
+      const card = this._buildQuestionCard(q);
+      old.replaceWith(card);
+      this._mountQuestionWidgets(q, card);
+      const active = card.querySelector('.pe-part.is-active');
+      const el = active || card.querySelector('.pe-part:last-of-type .pe-feedback');
+      if (el) {
+        el.scrollIntoView({ block: active ? 'start' : 'nearest', behavior: REDUCED ? 'auto' : 'smooth' });
+        const f = el.querySelector('.pe-option, .pe-input');
+        if (f && !('ontouchstart' in window)) f.focus({ preventScroll: true });
+        else { const btn = card.querySelector('.pe-primary-action'); if (btn) btn.focus({ preventScroll: true }); }
       }
     }
 
@@ -703,7 +823,7 @@
     selectOption(q, id) {
       const s = this.session;
       const a = s.answers[q.id];
-      if (s.review || (s.mode === 'practice' && a && a.checked)) return;
+      if (s.review || this._partLocked(q)) return;
       let resp;
       if (q.type === 'multi') {
         const set = new Set(a && Array.isArray(a.response) ? a.response : []);
@@ -722,14 +842,15 @@
       s.answers[q.id] = entry;
       this.saveSession();
       const card = this.stageEl.querySelector('.pe-card');
-      if (card && (q.type === 'mc' || q.type === 'multi') && rerender) {
-        card.querySelectorAll('.pe-option').forEach(o => {
+      const el = card && this._partEl(card, q);
+      if (el && (q.type === 'mc' || q.type === 'multi') && rerender) {
+        el.querySelectorAll('.pe-option').forEach(o => {
           const sel = q.type === 'multi' ? resp.includes(o.dataset.id) : resp === o.dataset.id;
           o.classList.toggle('is-selected', sel); o.setAttribute('aria-checked', sel);
         });
       }
-      if (card) this._refreshPrimary(card, q);
-      if (s.mode === 'exam') { const answered = Object.keys(s.answers).length; this.progressEl.style.width = pct(answered, s.order.length) + '%'; }
+      if (card) this._refreshPrimary(card, this.currentQuestion());
+      if (s.mode === 'exam') this.progressEl.style.width = pct(this._answeredCount(), s.order.length) + '%';
     }
 
     grade(q, resp) {
@@ -761,10 +882,17 @@
     primaryAction() {
       const s = this.session;
       const q = this.currentQuestion();
-      const a = s.answers[q.id];
+      const p = this.activePart(q);
+      const a = s.answers[p.id];
       if (s.review) { if (s.index === s.order.length - 1) this.renderResults(); else this.go(1); return; }
       if (s.mode === 'practice') {
         if (!(a && a.checked)) { this.checkCurrent(); return; }
+      } else if (this._revealed(q) < this.partsOf(q).length && a && this._hasResponse(p, a.response)) {
+        // exam: hand in this part (it locks, ungraded) and reveal the next one
+        a.submitted = true;
+        this.saveSession();
+        this._rerenderCard();
+        return;
       }
       if (s.index === s.order.length - 1) this.finish(false);
       else this.go(1);
@@ -773,20 +901,22 @@
     checkCurrent() {
       const s = this.session;
       const q = this.currentQuestion();
-      const a = s.answers[q.id];
-      if (!a || !this._hasResponse(q, a.response)) return;
+      const p = this.activePart(q);
+      const a = s.answers[p.id];
+      if (!a || !this._hasResponse(p, a.response)) return;
       a.checked = true;
-      a.graded = this.grade(q, a.response);
+      a.graded = this.grade(p, a.response);
       this.saveSession();
+      this.progressEl.style.width = pct(this._answeredCount(), s.order.length) + '%';
+      if (q.parts) { this._rerenderCard(); return; }
       const card = this.stageEl.querySelector('.pe-card');
       card.querySelectorAll('.pe-option, .pe-input').forEach(el => el.disabled = true);
-      if (this.graph) { this.graph.lock(); this.graph.showModel(); }
+      const g = this.graphs[p.id];
+      if (g) { g.lock(); g.showModel(); }
       this._showFeedback(card, q, a);
       this._refreshPrimary(card, q);
       const btn = card.querySelector('.pe-primary-action');
       if (btn) btn.focus({ preventScroll: true });
-      const answered = Object.keys(s.answers).length;
-      this.progressEl.style.width = pct(answered, s.order.length) + '%';
     }
 
     _unitBadgeText(q, revealTopic) {
@@ -873,17 +1003,17 @@
       const s = this.session;
       this.paletteEl.innerHTML = '';
       const grid = h('div', { class: 'pe-palette-grid' }, ...s.order.map((id, i) => {
-        const a = s.answers[id];
+        const q = this.byId[id];
         let cls = 'pe-pal';
         if (i === s.index) cls += ' is-current';
-        if (a && this._hasResponse(this.byId[id], a.response)) {
+        if (q && this._itemAnswered(q)) {
           cls += ' is-answered';
-          if (this.showsFeedback() && a.checked) cls += a.graded && a.graded.correct ? ' is-correct' : ' is-wrong';
+          if (this.showsFeedback() && this._itemChecked(q)) cls += this._itemScore(q) === 1 ? ' is-correct' : ' is-wrong';
         }
         if (s.flags[id]) cls += ' is-flagged';
         return h('button', { type: 'button', class: cls, onClick: () => { this.goTo(i); this.togglePalette(); }, 'aria-label': `Question ${i + 1}` }, String(i + 1));
       }));
-      const unanswered = s.order.filter(id => !(s.answers[id] && this._hasResponse(this.byId[id], s.answers[id].response))).length;
+      const unanswered = s.order.length - this._answeredCount();
       this.paletteEl.appendChild(grid);
       this.paletteEl.appendChild(h('div', { class: 'pe-palette-foot' },
         h('span', { class: 'pe-muted pe-small', text: `${unanswered} unanswered · ${Object.keys(s.flags).length} flagged` }),
@@ -900,18 +1030,20 @@
     finish(auto) {
       const s = this.session;
       if (s.finished) { this.renderResults(); return; }
-      const unanswered = s.order.filter(id => !(s.answers[id] && this._hasResponse(this.byId[id], s.answers[id].response))).length;
+      s.order = s.order.filter(id => this.byId[id]);   // drop questions removed from the banks since the session began
+      const unanswered = s.order.length - this._answeredCount();
       if (!auto && unanswered > 0 && !confirm(`You have ${unanswered} unanswered question${unanswered === 1 ? '' : 's'}. Finish anyway?`)) return;
       this._stopTimer();
       for (const id of s.order) {
-        const q = this.byId[id];
-        const a = s.answers[id] || (s.answers[id] = { response: null, at: Date.now() });
-        a.checked = true;
-        a.graded = this.grade(q, a.response);
+        for (const p of this.partsOf(this.byId[id])) {
+          const a = s.answers[p.id] || (s.answers[p.id] = { response: null, at: Date.now() });
+          a.checked = true;
+          a.graded = this.grade(p, a.response);
+        }
       }
       s.finished = true;
       s.finishedAt = Date.now();
-      const correct = s.order.filter(id => s.answers[id].graded.correct).length;
+      const correct = Math.round(10 * s.order.reduce((t, id) => t + this._itemScore(this.byId[id]), 0)) / 10;
       this.store.history = (this.store.history || []).concat([{ at: s.finishedAt, mode: s.mode, correct, total: s.order.length, pct: pct(correct, s.order.length), elapsed: Math.round(s.elapsed) }]).slice(-30);
       this.store.lastResult = s;
       this.clearSession();
@@ -924,18 +1056,22 @@
       const root = this.root;
       root.innerHTML = '';
       const total = s.order.length;
-      const correct = s.order.filter(id => s.answers[id].graded.correct).length;
+      const score = {};   // id → 0–1 (multi-part questions earn a share per correct part)
+      for (const id of s.order) score[id] = this._itemScore(this.byId[id]);
+      const num = (x) => Number.isInteger(x) ? String(x) : x.toFixed(1);
+      const correct = Math.round(10 * s.order.reduce((t, id) => t + score[id], 0)) / 10;
       const p = pct(correct, total);
-      const missed = s.order.filter(id => !s.answers[id].graded.correct);
+      const missed = s.order.filter(id => score[id] < 1);
 
       const byUnit = {}, bySource = {}, byType = {}, byGroup = {};
+      const bump = (m, k, ok) => { m[k] = m[k] || { n: 0, ok: 0 }; m[k].n++; m[k].ok += ok; };
       for (const id of s.order) {
-        const q = this.byId[id], ok = s.answers[id].graded.correct;
-        const bump = (m, k) => { m[k] = m[k] || { n: 0, ok: 0 }; m[k].n++; if (ok) m[k].ok++; };
-        bump(byUnit, q.unit != null ? q.unit : 'none');
-        bump(bySource, q.source.label);
-        bump(byType, q.kind || q.type);
-        if (this.blueprint) bump(byGroup, this.blueprintGroup(q) ?? 'none');
+        const q = this.byId[id];
+        bump(byUnit, q.unit != null ? q.unit : 'none', score[id]);
+        bump(bySource, q.source.label, score[id]);
+        // question types are counted per part, so a multi-part question shows up under each type it uses
+        for (const part of this.partsOf(q)) bump(byType, part.kind || part.type, s.answers[part.id].graded.correct ? 1 : 0);
+        if (this.blueprint) bump(byGroup, this.blueprintGroup(q) ?? 'none', score[id]);
       }
       const breakdown = (title, map, labelFn) => h('div', { class: 'pe-breakdown' },
         h('h3', { text: title }),
@@ -944,14 +1080,14 @@
           return h('div', { class: 'pe-bd-row' },
             h('span', { class: 'pe-bd-label', text: labelFn(k) }),
             h('span', { class: 'pe-bd-bar' }, h('span', { class: 'pe-bd-fill ' + (pp >= 80 ? 'is-good' : pp >= 60 ? 'is-ok' : 'is-low'), style: { width: pp + '%' } })),
-            h('span', { class: 'pe-bd-num', text: `${r.ok}/${r.n}` }));
+            h('span', { class: 'pe-bd-num', text: `${num(r.ok)}/${r.n}` }));
         }));
 
       const ring = (() => {
         const r = 52, c = 2 * Math.PI * r;
         const wrap = h('div', { class: 'pe-ring ' + (p >= 80 ? 'is-good' : p >= 60 ? 'is-ok' : 'is-low') });
         wrap.innerHTML = `<svg viewBox="0 0 120 120" aria-hidden="true"><circle class="pe-ring-bg" cx="60" cy="60" r="${r}"/><circle class="pe-ring-fg" cx="60" cy="60" r="${r}" stroke-dasharray="${c}" stroke-dashoffset="${c}"/></svg>`;
-        wrap.appendChild(h('div', { class: 'pe-ring-text' }, h('b', { text: '0%' }), h('span', { text: `${correct} / ${total}` })));
+        wrap.appendChild(h('div', { class: 'pe-ring-text' }, h('b', { text: '0%' }), h('span', { text: `${num(correct)} / ${total}` })));
         requestAnimationFrame(() => {
           const fg = wrap.querySelector('.pe-ring-fg');
           fg.style.strokeDashoffset = c * (1 - p / 100);
@@ -964,7 +1100,7 @@
         return wrap;
       })();
 
-      const typeLabel = { mc: 'Multiple choice', tf: 'True / false', multi: 'Select all', numeric: 'Numeric', graph: 'Graph drawing' };
+      const typeLabel = { mc: 'Multiple choice', tf: 'True / false', multi: 'Select all', numeric: 'Numeric', graph: 'Graph drawing', multipart: 'Multi-part' };
       const verdict = p >= 90 ? 'Excellent — you are in great shape.' : p >= 80 ? 'Strong. Review the misses and you are there.' : p >= 65 ? 'Decent foundation — focus on the weakest units below.' : 'Keep going: work through the missed questions, then retry.';
 
       root.appendChild(h('div', { class: 'pe-shell pe-results' },
@@ -991,7 +1127,13 @@
               breakdown('By question type', byType, k => typeLabel[k] || k)),
             missed.length ? h('div', { class: 'pe-missed' },
               h('h3', { text: 'Missed questions' }),
-              h('ol', {}, ...missed.map(id => { const q = this.byId[id], i = s.order.indexOf(id); return h('li', {}, h('button', { type: 'button', class: 'pe-link', onClick: () => this.startReview(i) }, `Q${i + 1}`), ' ', h('span', { class: 'pe-badge pe-badge-' + (q.source.kind || 'custom'), text: this.sourceText(q) }), ' ', h('span', { class: 'pe-missed-text', html: md(String(q.prompt).slice(0, 140) + (q.prompt.length > 140 ? '…' : '')) })); }))) : null))));
+              h('ol', {}, ...missed.map(id => {
+                const q = this.byId[id], i = s.order.indexOf(id);
+                const sc = q.parts && q.scenarioKey && this.scenarios[q.scenarioKey];
+                const text = String(sc && sc.title ? sc.title : q.prompt);
+                const partial = q.parts ? h('span', { class: 'pe-muted pe-small', text: ` · ${Math.round(score[id] * q.parts.length)}/${q.parts.length} parts` }) : null;
+                return h('li', {}, h('button', { type: 'button', class: 'pe-link', onClick: () => this.startReview(i) }, `Q${i + 1}`), ' ', h('span', { class: 'pe-badge pe-badge-' + (q.source.kind || 'custom'), text: this.sourceText(q) }), partial, ' ', h('span', { class: 'pe-missed-text', html: md(text.slice(0, 140) + (text.length > 140 ? '…' : '')) }));
+              }))) : null))));
     }
 
     // Review = walk through the finished session with feedback visible, inputs locked.
@@ -1012,7 +1154,8 @@
       const tag = (e.target && e.target.tagName) || '';
       if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
       if (e.metaKey || e.ctrlKey || e.altKey) return;
-      const q = this.currentQuestion();
+      if (!this.currentQuestion()) return;
+      const q = this.activePart();   // keys answer the part being worked on
       const k = e.key;
       if (k === 'ArrowRight') { e.preventDefault(); this.go(1); return; }
       if (k === 'ArrowLeft') { e.preventDefault(); this.go(-1); return; }

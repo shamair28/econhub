@@ -101,6 +101,15 @@
 .pe-badge-textbook { background: #ECFDF5; color: #047857; border-color: #A7F3D0; }
 .pe-badge-generated { background: #F5F3FF; color: #6D28D9; border-color: #DDD6FE; }
 .pe-badge-unit { background: var(--pe-chip); }
+.pe-badge-parts { background: var(--pe-accent-soft); color: var(--pe-accent); border-color: color-mix(in srgb, var(--pe-accent) 30%, transparent); }
+
+/* multi-part questions: parts stack in one card, revealed one at a time */
+.pe-part { scroll-margin-top: 84px; }
+.pe-part + .pe-part { margin-top: 22px; padding-top: 18px; border-top: 1px dashed var(--pe-border-2); }
+.pe-part-head { margin-bottom: 2px; }
+.pe-part-num { font-size: 0.72rem; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; color: var(--pe-muted); }
+.pe-part.is-active .pe-part-num { color: var(--pe-accent); }
+.pe-parts-pending { margin: 18px 0 0; padding: 10px 14px; border: 1px dashed var(--pe-border-2); border-radius: 10px; font-size: 0.85rem; color: var(--pe-muted); }
 .pe-badge-warn { background: var(--pe-warn-soft); color: var(--pe-warn-text); border-color: color-mix(in srgb, var(--pe-warn) 40%, transparent); }
 @media (prefers-color-scheme: dark) {
   .pe:not([data-theme="light"]) .pe-badge-past-test { background: #172554; color: #93C5FD; border-color: #1E3A8A; }

@@ -817,6 +817,56 @@
       "body": "Swift Ellis, Inc., manufactures running shoes. The following graph illustrates the combination of capital and labour (point A) that minimizes the firm’s cost of producing 5000 pairs of shoes. Suppose both the wage rate and the rental price of machinery double.\n\na. Draw a new isocost line to reflect the changes in the wage rate and the rental price of machinery.\n\nb. Draw a new isoquant to show the combination of capital and labour that minimizes total cost, given the increase in input prices. Label this combination point B.\n\nc. Comparing point A to point B, can we be sure that at point B the firm will be using more or less labour? More or less capital? Briefly explain."
     }
   },
+  "groups": {
+    "ch9-1.4": {
+      "ref": "Ch 9 · Problem 1.4 ★"
+    },
+    "ch9-2.5": {
+      "ref": "Ch 9 · Problem 2.5"
+    },
+    "ch9-2.10": {
+      "ref": "Ch 9 · Problem 2.10 ★"
+    },
+    "ch9-2.11": {
+      "ref": "Ch 9 · Problem 2.11"
+    },
+    "ch9-2.12": {
+      "ref": "Ch 9 · Problem 2.12"
+    },
+    "ch9-3.4": {
+      "ref": "Ch 9 · Problem 3.4 ★"
+    },
+    "ch9-3.5": {
+      "ref": "Ch 9 · Problem 3.5"
+    },
+    "ch9-4.9": {
+      "ref": "Ch 9 · Problem 4.9 ★"
+    },
+    "ch9-5.4": {
+      "ref": "Ch 9 · Problem 5.4"
+    },
+    "ch9-5.6": {
+      "ref": "Ch 9 · Problem 5.6"
+    },
+    "ch9-5.7": {
+      "ref": "Ch 9 · Problem 5.7"
+    },
+    "ch9-9A.6": {
+      "ref": "Ch 9 · Problem 9A.6"
+    },
+    "ch9-3.9": {
+      "ref": "Ch 9 · Problem 3.9"
+    },
+    "ch9-5.10": {
+      "ref": "Ch 9 · Problem 5.10"
+    },
+    "ch9-9A.5": {
+      "ref": "Ch 9 · Problem 9A.5"
+    },
+    "ch9-9A.14": {
+      "ref": "Ch 9 · Problem 9A.14"
+    }
+  },
   "questions": [
     {
       "id": "ch9-r2.1",
@@ -1233,7 +1283,8 @@
       "scenario": "ch9-p1.4",
       "prompt": "Statement (a): a fall in the wages JetBlue pays its mechanics, leading it to lower its ticket prices, is an example of positive technological change.",
       "answer": false,
-      "explanation": "**False.** Positive technological change means the firm can produce *more output from the same quantity of inputs*. A fall in the wage changes the *price* of an input, not the relationship between inputs and output, so it lowers cost but is not technological change."
+      "explanation": "**False.** Positive technological change means the firm can produce *more output from the same quantity of inputs*. A fall in the wage changes the *price* of an input, not the relationship between inputs and output, so it lowers cost but is not technological change.",
+      "group": "ch9-1.4"
     },
     {
       "id": "ch9-p1.4b",
@@ -1252,7 +1303,8 @@
       "scenario": "ch9-p1.4",
       "prompt": "Statement (b): a training program that makes a firm’s workers more productive is an example of positive technological change.",
       "answer": true,
-      "explanation": "**True.** More productive workers mean the same inputs now produce more output, which is exactly positive technological change (higher productivity)."
+      "explanation": "**True.** More productive workers mean the same inputs now produce more output, which is exactly positive technological change (higher productivity).",
+      "group": "ch9-1.4"
     },
     {
       "id": "ch9-p1.4d",
@@ -1271,7 +1323,8 @@
       "scenario": "ch9-p1.4",
       "prompt": "Statement (d): a firm cuts its workforce and is able to maintain its initial level of output. This is an example of positive technological change.",
       "answer": true,
-      "explanation": "**True.** The firm produces the same output with fewer inputs, i.e. it needs less input per unit of output: an improvement in technology (productivity)."
+      "explanation": "**True.** The firm produces the same output with fewer inputs, i.e. it needs less input per unit of output: an improvement in technology (productivity).",
+      "group": "ch9-1.4"
     },
     {
       "id": "ch9-p1.4e",
@@ -1290,7 +1343,8 @@
       "scenario": "ch9-p1.4",
       "prompt": "Statement (e): a firm rearranges its factory layout and, using its initial set of inputs, produces exactly as much as before. This is an example of positive technological change.",
       "answer": false,
-      "explanation": "**False.** Output from the same inputs did not change, so there has been no change in technology, even though the firm tried something new. Positive technological change requires more output from the same inputs (or the same output from fewer)."
+      "explanation": "**False.** Output from the same inputs did not change, so there has been no change in technology, even though the firm tried something new. Positive technological change requires more output from the same inputs (or the same output from fewer).",
+      "group": "ch9-1.4"
     },
     {
       "id": "ch9-p1.5",
@@ -1363,7 +1417,8 @@
       ],
       "answer": "a",
       "shuffleOptions": false,
-      "explanation": "The short run is defined by at least one fixed input, not by the size of the change. Amazon expanded output by adding labour to its existing warehouses and vehicles, with capital fixed, which is the classic short-run adjustment. A long-run decision would involve changing *all* inputs, including its physical capital."
+      "explanation": "The short run is defined by at least one fixed input, not by the size of the change. Amazon expanded output by adding labour to its existing warehouses and vehicles, with capital fixed, which is the classic short-run adjustment. A long-run decision would involve changing *all* inputs, including its physical capital.",
+      "group": "ch9-2.5"
     },
     {
       "id": "ch9-p2.5b",
@@ -1400,7 +1455,8 @@
       ],
       "answer": "c",
       "shuffleOptions": false,
-      "explanation": "In the short run capital (warehouses, vehicles) cannot be changed quickly: permits, construction and delivery take much longer than the weeks before the holidays, and the extra demand is only seasonal. So Amazon added the one input it *could* change in time: labour. Capital is a fixed, not a variable, input in the short run, and diminishing returns refers to the variable input, not to extra capital having no value."
+      "explanation": "In the short run capital (warehouses, vehicles) cannot be changed quickly: permits, construction and delivery take much longer than the weeks before the holidays, and the extra demand is only seasonal. So Amazon added the one input it *could* change in time: labour. Capital is a fixed, not a variable, input in the short run, and diminishing returns refers to the variable input, not to extra capital having no value.",
+      "group": "ch9-2.5"
     },
     {
       "id": "ch9-p2.6",
@@ -1491,7 +1547,8 @@
       "scenario": "ch9-p2.10",
       "prompt": "Part (a): The payment Ebba makes on her fire insurance policy is a fixed cost.",
       "answer": true,
-      "explanation": "**True.** The premium is the same however many pizzas she makes, so it is a fixed cost."
+      "explanation": "**True.** The premium is the same however many pizzas she makes, so it is a fixed cost.",
+      "group": "ch9-2.10"
     },
     {
       "id": "ch9-p2.10b",
@@ -1510,7 +1567,8 @@
       "scenario": "ch9-p2.10",
       "prompt": "Part (b): The payment Ebba makes to buy pizza dough is a fixed cost.",
       "answer": false,
-      "explanation": "**False — variable.** Dough is an input used up in production: the more pizzas she makes, the more dough she buys."
+      "explanation": "**False — variable.** Dough is an input used up in production: the more pizzas she makes, the more dough she buys.",
+      "group": "ch9-2.10"
     },
     {
       "id": "ch9-p2.10c",
@@ -1529,7 +1587,8 @@
       "scenario": "ch9-p2.10",
       "prompt": "Part (c): The wages Ebba pays her workers are a variable cost.",
       "answer": true,
-      "explanation": "**True.** The textbook treats workers' wages as a variable cost: she hires more workers (or more hours) to produce more pizzas and fewer when she produces fewer."
+      "explanation": "**True.** The textbook treats workers' wages as a variable cost: she hires more workers (or more hours) to produce more pizzas and fewer when she produces fewer.",
+      "group": "ch9-2.10"
     },
     {
       "id": "ch9-p2.10d",
@@ -1548,7 +1607,8 @@
       "scenario": "ch9-p2.10",
       "prompt": "Part (d): The lease payment Ebba makes to the landlord for her store is a variable cost.",
       "answer": false,
-      "explanation": "**False — fixed.** The lease must be paid whether she bakes 10 pizzas or 1000."
+      "explanation": "**False — fixed.** The lease must be paid whether she bakes 10 pizzas or 1000.",
+      "group": "ch9-2.10"
     },
     {
       "id": "ch9-p2.10e",
@@ -1567,7 +1627,8 @@
       "scenario": "ch9-p2.10",
       "prompt": "Part (e): The $300-per-month payment Ebba makes to her local newspaper for running her weekly advertisements is a fixed cost.",
       "answer": true,
-      "explanation": "**True.** It is $300 each month regardless of how many pizzas are sold, so it does not vary with output."
+      "explanation": "**True.** It is $300 each month regardless of how many pizzas are sold, so it does not vary with output.",
+      "group": "ch9-2.10"
     },
     {
       "id": "ch9-p2.11a",
@@ -1603,7 +1664,8 @@
       ],
       "answer": "c",
       "shuffleOptions": false,
-      "explanation": "Fixed costs do not change with the number of passengers carried (or flights flown) in the short run: aircraft ownership or lease payments, airport leases, hangars, insurance. Fuel, crew pay per flight, meals and per-ticket commissions all rise with the number of flights or passengers, so they are variable. Ticket prices are revenue, not a cost."
+      "explanation": "Fixed costs do not change with the number of passengers carried (or flights flown) in the short run: aircraft ownership or lease payments, airport leases, hangars, insurance. Fuel, crew pay per flight, meals and per-ticket commissions all rise with the number of flights or passengers, so they are variable. Ticket prices are revenue, not a cost.",
+      "group": "ch9-2.11"
     },
     {
       "id": "ch9-p2.11b",
@@ -1639,7 +1701,8 @@
       ],
       "answer": "a",
       "shuffleOptions": false,
-      "explanation": "An aircraft costs tens or hundreds of millions of dollars and is paid for (or leased) whether or not it flies full; an Old Navy or Panera mostly pays for rent and equipment that are small compared with the ongoing cost of clothing, ingredients and hourly staff. So the fixed share is much greater for an airline. This is why airlines compete hard to fill otherwise empty seats: the marginal cost of an extra passenger is low relative to average total cost."
+      "explanation": "An aircraft costs tens or hundreds of millions of dollars and is paid for (or leased) whether or not it flies full; an Old Navy or Panera mostly pays for rent and equipment that are small compared with the ongoing cost of clothing, ingredients and hourly staff. So the fixed share is much greater for an airline. This is why airlines compete hard to fill otherwise empty seats: the marginal cost of an extra passenger is low relative to average total cost.",
+      "group": "ch9-2.11"
     },
     {
       "id": "ch9-p2.12a",
@@ -1662,7 +1725,8 @@
         "display": "$22,000",
         "prefix": "$"
       },
-      "explanation": "VC = 4 × $4000 = $16,000; TC = FC + VC = $6000 + $16,000 = **$22,000**. The full TC column is $6000, $10,000, $14,000, $18,000, $22,000, $26,000. Forgetting the fixed cost would give $16,000."
+      "explanation": "VC = 4 × $4000 = $16,000; TC = FC + VC = $6000 + $16,000 = **$22,000**. The full TC column is $6000, $10,000, $14,000, $18,000, $22,000, $26,000. Forgetting the fixed cost would give $16,000.",
+      "group": "ch9-2.12"
     },
     {
       "id": "ch9-p2.12b",
@@ -1685,7 +1749,8 @@
         "display": "$466.67",
         "prefix": "$"
       },
-      "explanation": "TC at 2 workers = $6000 + 2 × $4000 = $14,000. ATC = TC ÷ Q = $14,000 ÷ 30 ≈ **$466.67** per car. (Using VC ÷ Q = $8000/30 = $266.67 would be AVC, not ATC.) The ATC column is —, $500.00, $466.67, $450.00, $440.00, $472.73."
+      "explanation": "TC at 2 workers = $6000 + 2 × $4000 = $14,000. ATC = TC ÷ Q = $14,000 ÷ 30 ≈ **$466.67** per car. (Using VC ÷ Q = $8000/30 = $266.67 would be AVC, not ATC.) The ATC column is —, $500.00, $466.67, $450.00, $440.00, $472.73.",
+      "group": "ch9-2.12"
     },
     {
       "id": "ch9-p2.12c",
@@ -1722,7 +1787,8 @@
       ],
       "answer": "d",
       "shuffleOptions": false,
-      "explanation": "ATC by workers: 1 → $500.00; 2 → $466.67; 3 → $450.00; 4 → $440.00; 5 → $472.73. It falls while the extra cars are cheaper than the current average and rises again once diminishing returns raise MC above ATC: from 4 to 5 workers TC rises $4000 for only 5 more cars (MC = $800), pulling ATC up. Highest output is not the same as lowest average cost."
+      "explanation": "ATC by workers: 1 → $500.00; 2 → $466.67; 3 → $450.00; 4 → $440.00; 5 → $472.73. It falls while the extra cars are cheaper than the current average and rises again once diminishing returns raise MC above ATC: from 4 to 5 workers TC rises $4000 for only 5 more cars (MC = $800), pulling ATC up. Highest output is not the same as lowest average cost.",
+      "group": "ch9-2.12"
     },
     {
       "id": "ch9-p3.4a",
@@ -1745,7 +1811,8 @@
         "tolerance": 0.5,
         "display": "600"
       },
-      "explanation": "MP = change in total output from one more worker = 1500 − 900 = **600**. The MP column is 400, 500, 600, 400, 300, 200, −100."
+      "explanation": "MP = change in total output from one more worker = 1500 − 900 = **600**. The MP column is 400, 500, 600, 400, 300, 200, −100.",
+      "group": "ch9-3.4"
     },
     {
       "id": "ch9-p3.4b",
@@ -1768,7 +1835,8 @@
         "tolerance": 0.5,
         "display": "475"
       },
-      "explanation": "AP = total output ÷ workers = 1900 ÷ 4 = **475**. The AP column is 400, 450, 500, 475, 440, 400, 328.57. (1900 − 1500 = 400 is the *marginal* product of the 4th worker.)"
+      "explanation": "AP = total output ÷ workers = 1900 ÷ 4 = **475**. The AP column is 400, 450, 500, 475, 440, 400, 328.57. (1900 − 1500 = 400 is the *marginal* product of the 4th worker.)",
+      "group": "ch9-3.4"
     },
     {
       "id": "ch9-p3.4c",
@@ -1791,7 +1859,8 @@
         "tolerance": 0.1,
         "display": "328.57"
       },
-      "explanation": "AP = 2300 ÷ 7 ≈ **328.57**. The 7th worker's MP is 2300 − 2400 = −100 (negative: too many workers in the fixed workspace reduce total output), which drags AP down."
+      "explanation": "AP = 2300 ÷ 7 ≈ **328.57**. The 7th worker's MP is 2300 − 2400 = −100 (negative: too many workers in the fixed workspace reduce total output), which drags AP down.",
+      "group": "ch9-3.4"
     },
     {
       "id": "ch9-p3.4d",
@@ -1829,7 +1898,8 @@
       ],
       "answer": "b",
       "shuffleOptions": false,
-      "explanation": "Diminishing returns begin where MP first declines: MP = 400, 500, 600 for workers 1–3 (specialization), then 400 for the 4th worker. Negative MP (7th worker) is a more extreme case — total output actually falls — but returns have been diminishing since the 4th worker. The 3rd worker is where MP peaks, not where it starts to fall."
+      "explanation": "Diminishing returns begin where MP first declines: MP = 400, 500, 600 for workers 1–3 (specialization), then 400 for the 4th worker. Negative MP (7th worker) is a more extreme case — total output actually falls — but returns have been diminishing since the 4th worker. The 3rd worker is where MP peaks, not where it starts to fall.",
+      "group": "ch9-3.4"
     },
     {
       "id": "ch9-p3.5a",
@@ -1866,7 +1936,8 @@
       ],
       "answer": "b",
       "shuffleOptions": false,
-      "explanation": "Total output is 0, 400, 900, 1500, 1900, 2200, 2400, 2300. Increments (MP) rise (400, 500, 600) so the curve gets steeper, then shrink (400, 300, 200), so it flattens, peaking at 2400 with 6 workers. The 7th worker's MP is −100, so total output falls to 2300. The steepest point (highest MP) is at 3 workers, but that is where the curve is steepest, not where it peaks; total output is maximized when MP reaches zero."
+      "explanation": "Total output is 0, 400, 900, 1500, 1900, 2200, 2400, 2300. Increments (MP) rise (400, 500, 600) so the curve gets steeper, then shrink (400, 300, 200), so it flattens, peaking at 2400 with 6 workers. The 7th worker's MP is −100, so total output falls to 2300. The steepest point (highest MP) is at 3 workers, but that is where the curve is steepest, not where it peaks; total output is maximized when MP reaches zero.",
+      "group": "ch9-3.5"
     },
     {
       "id": "ch9-p3.5b",
@@ -1990,7 +2061,8 @@
           }
         ]
       },
-      "explanation": "AP = 400, 450, 500, 475, 440, 400, 328.57, so it peaks at **500 with 3 workers**. At that point MP (600 for the 3rd worker) is still above AP, pulling it up; the 4th worker's MP (400) is below the AP of 500, so AP starts to fall. MP therefore cuts AP from above, just after AP's maximum, and MP itself peaked at the same 3rd worker."
+      "explanation": "AP = 400, 450, 500, 475, 440, 400, 328.57, so it peaks at **500 with 3 workers**. At that point MP (600 for the 3rd worker) is still above AP, pulling it up; the 4th worker's MP (400) is below the AP of 500, so AP starts to fall. MP therefore cuts AP from above, just after AP's maximum, and MP itself peaked at the same 3rd worker.",
+      "group": "ch9-3.5"
     },
     {
       "id": "ch9-p3.5c",
@@ -2027,7 +2099,8 @@
       ],
       "answer": "d",
       "shuffleOptions": false,
-      "explanation": "Check the numbers: with 2 workers MP (500) > AP (450) so AP rises; with 3 workers MP (600) > AP (500) so AP rises again; with 4 workers MP (400) < AP (475) so AP falls, and it continues to fall because MP stays below it (300, 200, −100). A marginal value above its average pulls the average up; below pulls it down."
+      "explanation": "Check the numbers: with 2 workers MP (500) > AP (450) so AP rises; with 3 workers MP (600) > AP (500) so AP rises again; with 4 workers MP (400) < AP (475) so AP falls, and it continues to fall because MP stays below it (300, 200, −100). A marginal value above its average pulls the average up; below pulls it down.",
+      "group": "ch9-3.5"
     },
     {
       "id": "ch9-p4.9a1",
@@ -2051,7 +2124,8 @@
         "display": "$40",
         "prefix": "$"
       },
-      "explanation": "Fixed cost = 2 machines × $20 per day = **$40**, the same at every output. Workers ($40 each) are the variable input: VC = $40 × workers, so TC = 40, 80, 120, 160, 200, 240, 280."
+      "explanation": "Fixed cost = 2 machines × $20 per day = **$40**, the same at every output. Workers ($40 each) are the variable input: VC = $40 × workers, so TC = 40, 80, 120, 160, 200, 240, 280.",
+      "group": "ch9-4.9"
     },
     {
       "id": "ch9-p4.9a2",
@@ -2076,7 +2150,8 @@
         "prefix": "$",
         "hint": "Dollars per copy, three decimal places"
       },
-      "explanation": "With 2 workers: FC = $40, VC = 2 × $40 = $80, TC = $120. ATC = TC ÷ Q = $120 ÷ 1100 ≈ **$0.109** per copy. (The ATC column is —, 0.133, 0.109, 0.107, 0.111, 0.120, 0.133.)"
+      "explanation": "With 2 workers: FC = $40, VC = 2 × $40 = $80, TC = $120. ATC = TC ÷ Q = $120 ÷ 1100 ≈ **$0.109** per copy. (The ATC column is —, 0.133, 0.109, 0.107, 0.111, 0.120, 0.133.)",
+      "group": "ch9-4.9"
     },
     {
       "id": "ch9-p4.9a3",
@@ -2100,7 +2175,8 @@
         "display": "$0.10",
         "prefix": "$"
       },
-      "explanation": "MC = ΔTC ÷ ΔQ = ($160 − $120) ÷ (1500 − 1100) = $40 ÷ 400 = **$0.10** per copy. The MC column is 0.067, 0.080, 0.100, 0.133, 0.200, 0.400: it rises as each additional worker produces fewer copies (diminishing returns)."
+      "explanation": "MC = ΔTC ÷ ΔQ = ($160 − $120) ÷ (1500 − 1100) = $40 ÷ 400 = **$0.10** per copy. The MC column is 0.067, 0.080, 0.100, 0.133, 0.200, 0.400: it rises as each additional worker produces fewer copies (diminishing returns).",
+      "group": "ch9-4.9"
     },
     {
       "id": "ch9-p4.9b1",
@@ -2210,7 +2286,8 @@
           }
         ]
       },
-      "explanation": "MC is below ATC at 1500 copies ($0.100 vs $0.107) and above it at 1800 ($0.133 vs $0.111), so the curves cross between those outputs, close to ATC's minimum (about $0.107 at 1500 copies, 3 workers). To the left of the crossing MC < ATC and ATC falls; to the right MC > ATC and ATC rises."
+      "explanation": "MC is below ATC at 1500 copies ($0.100 vs $0.107) and above it at 1800 ($0.133 vs $0.111), so the curves cross between those outputs, close to ATC's minimum (about $0.107 at 1500 copies, 3 workers). To the left of the crossing MC < ATC and ATC falls; to the right MC > ATC and ATC rises.",
+      "group": "ch9-4.9"
     },
     {
       "id": "ch9-p4.9b2",
@@ -2248,7 +2325,8 @@
       ],
       "answer": "a",
       "shuffleOptions": false,
-      "explanation": "Because each worker costs the same $40 but adds fewer and fewer copies (600, 500, 400, 300, 200, 100), MC = 40 ÷ (extra copies) rises after the first worker: 0.067, 0.080, 0.100, 0.133, 0.200, 0.400. ATC first falls as the $40 fixed cost is spread over more copies, then rises when MC exceeds it, giving the usual U-shape with the crossing at ATC's minimum (about $0.107 at 1500 copies)."
+      "explanation": "Because each worker costs the same $40 but adds fewer and fewer copies (600, 500, 400, 300, 200, 100), MC = 40 ÷ (extra copies) rises after the first worker: 0.067, 0.080, 0.100, 0.133, 0.200, 0.400. ATC first falls as the $40 fixed cost is spread over more copies, then rises when MC exceeds it, giving the usual U-shape with the crossing at ATC's minimum (about $0.107 at 1500 copies).",
+      "group": "ch9-4.9"
     },
     {
       "id": "ch9-p5.4a",
@@ -2271,7 +2349,8 @@
         "display": "$20,000",
         "prefix": "$"
       },
-      "explanation": "TC = FC + VC, so VC = TC − FC = $30,000 − $10,000 = **$20,000**."
+      "explanation": "TC = FC + VC, so VC = TC − FC = $30,000 − $10,000 = **$20,000**.",
+      "group": "ch9-5.4"
     },
     {
       "id": "ch9-p5.4b1",
@@ -2294,7 +2373,8 @@
         "display": "$2.00",
         "prefix": "$"
       },
-      "explanation": "AVC = VC ÷ Q = $20,000 ÷ 10,000 = **$2.00** per ball. (Dividing TC by Q gives ATC = $3.00, which includes fixed cost.)"
+      "explanation": "AVC = VC ÷ Q = $20,000 ÷ 10,000 = **$2.00** per ball. (Dividing TC by Q gives ATC = $3.00, which includes fixed cost.)",
+      "group": "ch9-5.4"
     },
     {
       "id": "ch9-p5.4b2",
@@ -2317,7 +2397,8 @@
         "display": "$1.00",
         "prefix": "$"
       },
-      "explanation": "AFC = FC ÷ Q = $10,000 ÷ 10,000 = **$1.00** per ball. Check: ATC = AVC + AFC = $2.00 + $1.00 = $3.00 = $30,000 ÷ 10,000."
+      "explanation": "AFC = FC ÷ Q = $10,000 ÷ 10,000 = **$1.00** per ball. Check: ATC = AVC + AFC = $2.00 + $1.00 = $3.00 = $30,000 ÷ 10,000.",
+      "group": "ch9-5.4"
     },
     {
       "id": "ch9-p5.4c",
@@ -2354,7 +2435,8 @@
       ],
       "answer": "c",
       "shuffleOptions": false,
-      "explanation": "ATC = AVC + AFC, so the gap between ATC and AVC is exactly AFC = FC ÷ Q. With FC = $10,000 the gap is $10,000 ÷ 10,000 = $1.00 at 10,000 balls but only $10,000 ÷ 30,000 ≈ $0.33 at 30,000. Fixed cost is constant in *total*, but its *average* keeps falling as output rises, so the AVC and ATC curves get closer together."
+      "explanation": "ATC = AVC + AFC, so the gap between ATC and AVC is exactly AFC = FC ÷ Q. With FC = $10,000 the gap is $10,000 ÷ 10,000 = $1.00 at 10,000 balls but only $10,000 ÷ 30,000 ≈ $0.33 at 30,000. Fixed cost is constant in *total*, but its *average* keeps falling as output rises, so the AVC and ATC curves get closer together.",
+      "group": "ch9-5.4"
     },
     {
       "id": "ch9-p5.6a1",
@@ -2391,7 +2473,8 @@
       ],
       "answer": "d",
       "shuffleOptions": false,
-      "explanation": "Total cost = fixed + variable × copies. Scroll: 0 + 27.83 × 5 = **139.15**. Codex: 58 + 20.58 × 5 = 58 + 102.90 = **160.90**. At a small print run the codex's 58-drachma fixed cost is spread over too few copies to be worth its lower per-copy cost."
+      "explanation": "Total cost = fixed + variable × copies. Scroll: 0 + 27.83 × 5 = **139.15**. Codex: 58 + 20.58 × 5 = 58 + 102.90 = **160.90**. At a small print run the codex's 58-drachma fixed cost is spread over too few copies to be worth its lower per-copy cost.",
+      "group": "ch9-5.6"
     },
     {
       "id": "ch9-p5.6a2",
@@ -2428,7 +2511,8 @@
       ],
       "answer": "b",
       "shuffleOptions": false,
-      "explanation": "Scroll: 27.83 × 10 = **278.30**. Codex: 58 + 20.58 × 10 = 58 + 205.80 = **263.80**, which is cheaper. The codex's 7.25-drachma saving per copy (27.83 − 20.58) now more than pays for its fixed cost. Fixed cost always matters when comparing methods at a given output; it is the *average* total cost that favours the codex at large quantities."
+      "explanation": "Scroll: 27.83 × 10 = **278.30**. Codex: 58 + 20.58 × 10 = 58 + 205.80 = **263.80**, which is cheaper. The codex's 7.25-drachma saving per copy (27.83 − 20.58) now more than pays for its fixed cost. Fixed cost always matters when comparing methods at a given output; it is the *average* total cost that favours the codex at large quantities.",
+      "group": "ch9-5.6"
     },
     {
       "id": "ch9-p5.6a3",
@@ -2450,7 +2534,8 @@
         "tolerance": 0.05,
         "display": "8 copies"
       },
-      "explanation": "Set the totals equal: 27.83Q = 58 + 20.58Q, so 7.25Q = 58 and Q = 58 ÷ 7.25 = **8**. Below 8 copies scrolls are cheaper (as at 5 copies); above 8 codices are cheaper (as at 10)."
+      "explanation": "Set the totals equal: 27.83Q = 58 + 20.58Q, so 7.25Q = 58 and Q = 58 ÷ 7.25 = **8**. Below 8 copies scrolls are cheaper (as at 5 copies); above 8 codices are cheaper (as at 10).",
+      "group": "ch9-5.6"
     },
     {
       "id": "ch9-p5.6b",
@@ -2487,7 +2572,8 @@
       ],
       "answer": "c",
       "shuffleOptions": false,
-      "explanation": "With only these cost factors, the choice depends on the number of copies: below about 8 copies scrolls are cheaper, above that codices are. The shift is explained by publishers printing more copies per title (more readers and demand), so the codex's 58-drachma fixed cost became small per copy and its 7.25-drachma lower variable cost per copy dominated. Producing fewer copies would have favoured the scroll."
+      "explanation": "With only these cost factors, the choice depends on the number of copies: below about 8 copies scrolls are cheaper, above that codices are. The shift is explained by publishers printing more copies per title (more readers and demand), so the codex's 58-drachma fixed cost became small per copy and its 7.25-drachma lower variable cost per copy dominated. Producing fewer copies would have favoured the scroll.",
+      "group": "ch9-5.6"
     },
     {
       "id": "ch9-p5.7a1",
@@ -2510,7 +2596,8 @@
         "display": "$220",
         "prefix": "$"
       },
-      "explanation": "AFC = $200,000 ÷ 1000 = $200; AVC = $20 (constant); ATC = AFC + AVC = **$220**. At 10,000 students ATC = $20 + $20 = $40; at 20,000, $10 + $20 = $30."
+      "explanation": "AFC = $200,000 ÷ 1000 = $200; AVC = $20 (constant); ATC = AFC + AVC = **$220**. At 10,000 students ATC = $20 + $20 = $40; at 20,000, $10 + $20 = $30.",
+      "group": "ch9-5.7"
     },
     {
       "id": "ch9-p5.7a2",
@@ -2533,7 +2620,8 @@
         "display": "$10",
         "prefix": "$"
       },
-      "explanation": "AFC = fixed cost ÷ students = $200,000 ÷ 20,000 = **$10**. (AFC is $200 at 1000 students, $20 at 10,000 and $10 at 20,000.)"
+      "explanation": "AFC = fixed cost ÷ students = $200,000 ÷ 20,000 = **$10**. (AFC is $200 at 1000 students, $20 at 10,000 and $10 at 20,000.)",
+      "group": "ch9-5.7"
     },
     {
       "id": "ch9-p5.7b",
@@ -2673,7 +2761,8 @@
           }
         ]
       },
-      "explanation": "Variable cost is $20 per student at every enrolment, so AVC = **$20** everywhere and MC (the extra cost of one more student) is also $20: a horizontal line. AFC = $200,000/N falls steadily, and ATC = AFC + AVC lies exactly $20 above AFC, approaching the $20 line as enrolment grows. There are no diminishing returns here, so MC does not rise."
+      "explanation": "Variable cost is $20 per student at every enrolment, so AVC = **$20** everywhere and MC (the extra cost of one more student) is also $20: a horizontal line. AFC = $200,000/N falls steadily, and ATC = AFC + AVC lies exactly $20 above AFC, approaching the $20 line as enrolment grows. There are no diminishing returns here, so MC does not rise.",
+      "group": "ch9-5.7"
     },
     {
       "id": "ch9-p5.7c",
@@ -2710,7 +2799,8 @@
       ],
       "answer": "a",
       "shuffleOptions": false,
-      "explanation": "With constant $20 variable cost per student, MC = AVC = $20. The one-time $200,000 is a fixed cost, so AFC = 200,000/N falls with N (hyperbola) and ATC = AFC + AVC falls and approaches $20 from above. Because MC is constant (not rising), ATC never turns upward in this range: there is no diminishing-returns hump."
+      "explanation": "With constant $20 variable cost per student, MC = AVC = $20. The one-time $200,000 is a fixed cost, so AFC = 200,000/N falls with N (hyperbola) and ATC = AFC + AVC falls and approaches $20 from above. Because MC is constant (not rising), ATC never turns upward in this range: there is no diminishing-returns hump.",
+      "group": "ch9-5.7"
     },
     {
       "id": "ch9-p5.8",
@@ -2768,7 +2858,8 @@
         "tolerance": 0.01,
         "display": "10"
       },
-      "explanation": "MP<sub>L</sub> ÷ w = 100 ÷ $10 = **10** units of extra output per dollar spent on labour."
+      "explanation": "MP<sub>L</sub> ÷ w = 100 ÷ $10 = **10** units of extra output per dollar spent on labour.",
+      "group": "ch9-9A.6"
     },
     {
       "id": "ch9-p9A.6b",
@@ -2790,7 +2881,8 @@
         "tolerance": 0.01,
         "display": "8"
       },
-      "explanation": "MP<sub>K</sub> ÷ r = 4000 ÷ $500 = **8** units of extra output per dollar spent on ovens."
+      "explanation": "MP<sub>K</sub> ÷ r = 4000 ÷ $500 = **8** units of extra output per dollar spent on ovens.",
+      "group": "ch9-9A.6"
     },
     {
       "id": "ch9-p9A.6c",
@@ -2827,7 +2919,8 @@
       ],
       "answer": "c",
       "shuffleOptions": false,
-      "explanation": "Cost is minimized when the last dollar spent on each input yields the same extra output: MP<sub>L</sub>/w = MP<sub>K</sub>/r. Here MP<sub>L</sub>/w = 100/10 = 10 and MP<sub>K</sub>/r = 4000/500 = 8. Labour is the better buy, so she should substitute labour for capital: as she hires more workers MP<sub>L</sub> falls and as she uses fewer ovens MP<sub>K</sub> rises, moving the ratios toward equality. Comparing raw marginal products (4000 vs 100) is the tempting mistake; prices must be taken into account."
+      "explanation": "Cost is minimized when the last dollar spent on each input yields the same extra output: MP<sub>L</sub>/w = MP<sub>K</sub>/r. Here MP<sub>L</sub>/w = 100/10 = 10 and MP<sub>K</sub>/r = 4000/500 = 8. Labour is the better buy, so she should substitute labour for capital: as she hires more workers MP<sub>L</sub> falls and as she uses fewer ovens MP<sub>K</sub> rises, moving the ratios toward equality. Comparing raw marginal products (4000 vs 100) is the tempting mistake; prices must be taken into account.",
+      "group": "ch9-9A.6"
     },
     {
       "id": "ch9-p9A.11",
@@ -2885,7 +2978,8 @@
         "tolerance": 0.5,
         "display": "662.5"
       },
-      "explanation": "AP_L = total output ÷ workers = 2,650 ÷ 4 = **662.5** units per worker. Don’t confuse it with the marginal product of the 4th worker (2,650 − 2,200 = 450)."
+      "explanation": "AP_L = total output ÷ workers = 2,650 ÷ 4 = **662.5** units per worker. Don’t confuse it with the marginal product of the 4th worker (2,650 − 2,200 = 450).",
+      "group": "ch9-3.9"
     },
     {
       "id": "ch9-p3.9b",
@@ -2907,7 +3001,8 @@
         "tolerance": 0,
         "display": "260"
       },
-      "explanation": "MP = change in total output from one more worker = 2,910 − 2,650 = **260**. (The average product at 5 workers, 2,910 ÷ 5 = 582, is a different measure.)"
+      "explanation": "MP = change in total output from one more worker = 2,910 − 2,650 = **260**. (The average product at 5 workers, 2,910 ÷ 5 = 582, is a different measure.)",
+      "group": "ch9-3.9"
     },
     {
       "id": "ch9-p3.9d",
@@ -2933,7 +3028,8 @@
         "The 6th worker"
       ],
       "answer": "b",
-      "explanation": "Marginal products: 625, 825, 750, 450, 260, 190. MP rises from the 1st to the 2nd worker (specialization), then **falls from the 3rd worker on** (825 → 750) — that is where diminishing returns set in. Total output still rises after that; diminishing returns means each extra worker adds *less*, not that output falls. (The eText’s part (c)–(d) premise “MP of the 2nd worker is 6” belongs to a different table, so it is not used here.)"
+      "explanation": "Marginal products: 625, 825, 750, 450, 260, 190. MP rises from the 1st to the 2nd worker (specialization), then **falls from the 3rd worker on** (825 → 750) — that is where diminishing returns set in. Total output still rises after that; diminishing returns means each extra worker adds *less*, not that output falls. (The eText’s part (c)–(d) premise “MP of the 2nd worker is 6” belongs to a different table, so it is not used here.)",
+      "group": "ch9-3.9"
     },
     {
       "id": "ch9-p5.10a",
@@ -2962,7 +3058,8 @@
         "b",
         "d"
       ],
-      "explanation": "Three errors: (1) **AFC can never be U-shaped**: fixed cost is spread over more units, so AFC falls throughout (the curve that cuts AVC and ATC at their minimum points is **MC**, mislabelled). (2) **ATC must be above AVC** by exactly AFC, with the gap shrinking as output rises. (3) **ATC’s minimum lies to the right of AVC’s**: past AVC’s minimum, falling AFC still pulls ATC down for a while. U-shaped AVC and ATC are correct (diminishing returns), so that statement is not an error."
+      "explanation": "Three errors: (1) **AFC can never be U-shaped**: fixed cost is spread over more units, so AFC falls throughout (the curve that cuts AVC and ATC at their minimum points is **MC**, mislabelled). (2) **ATC must be above AVC** by exactly AFC, with the gap shrinking as output rises. (3) **ATC’s minimum lies to the right of AVC’s**: past AVC’s minimum, falling AFC still pulls ATC down for a while. U-shaped AVC and ATC are correct (diminishing returns), so that statement is not an error.",
+      "group": "ch9-5.10"
     },
     {
       "id": "ch9-p5.10b",
@@ -2980,7 +3077,8 @@
       "topic": "MC through the minimum points",
       "prompt": "In a correct cost-curve diagram, the curve that passes through the minimum points of both AVC and ATC is the marginal cost curve.",
       "answer": true,
-      "explanation": "**True.** When MC is below an average it pulls the average down; when above, it pulls it up — so MC crosses AVC and ATC exactly at their minimums. In the textbook graph that role is played by the curve wrongly labelled AFC."
+      "explanation": "**True.** When MC is below an average it pulls the average down; when above, it pulls it up — so MC crosses AVC and ATC exactly at their minimums. In the textbook graph that role is played by the curve wrongly labelled AFC.",
+      "group": "ch9-5.10"
     },
     {
       "id": "ch9-p9A.5a",
@@ -3005,7 +3103,8 @@
         "None of them — the isocost line does not touch an isoquant"
       ],
       "answer": "a",
-      "explanation": "$2000 buys at most 2000/100 = **20 workers** or **20 ovens**, so the isocost runs from (0, 20) to (20, 0) with slope −w/r = −1. It is tangent to the Q = 5000 isoquant at **A** (10 workers, 10 ovens). B and C are not on this isocost line."
+      "explanation": "$2000 buys at most 2000/100 = **20 workers** or **20 ovens**, so the isocost runs from (0, 20) to (20, 0) with slope −w/r = −1. It is tangent to the Q = 5000 isoquant at **A** (10 workers, 10 ovens). B and C are not on this isocost line.",
+      "group": "ch9-9A.5"
     },
     {
       "id": "ch9-p9A.5b",
@@ -3030,7 +3129,8 @@
         "None of them — the isocost line does not touch an isoquant"
       ],
       "answer": "b",
-      "explanation": "$1000 buys at most 1000/25 = **40 workers** or 1000/100 = **10 ovens**: the flat isocost from (0, 10) to (40, 0), slope −w/r = −¼. It is tangent to Q = 5000 at **B**. Cheap labour makes the firm substitute workers for ovens — B uses more labour and less capital than A for the same 5000 units."
+      "explanation": "$1000 buys at most 1000/25 = **40 workers** or 1000/100 = **10 ovens**: the flat isocost from (0, 10) to (40, 0), slope −w/r = −¼. It is tangent to Q = 5000 at **B**. Cheap labour makes the firm substitute workers for ovens — B uses more labour and less capital than A for the same 5000 units.",
+      "group": "ch9-9A.5"
     },
     {
       "id": "ch9-p9A.5c",
@@ -3055,7 +3155,8 @@
         "None of them — the isocost line does not touch an isoquant"
       ],
       "answer": "c",
-      "explanation": "$4000 buys at most **40 workers** or **40 ovens**: the outer isocost from (0, 40) to (40, 0), slope −1. It is tangent to the higher Q = 12,000 isoquant at **C** — the most output $4000 can buy at these prices. (It also crosses Q = 5000, but producing 5000 there would not be cost-minimizing.)"
+      "explanation": "$4000 buys at most **40 workers** or **40 ovens**: the outer isocost from (0, 40) to (40, 0), slope −1. It is tangent to the higher Q = 12,000 isoquant at **C** — the most output $4000 can buy at these prices. (It also crosses Q = 5000, but producing 5000 there would not be cost-minimizing.)",
+      "group": "ch9-9A.5"
     },
     {
       "id": "ch9-p9A.14a",
@@ -3259,7 +3360,8 @@
           }
         ]
       },
-      "explanation": "With both prices doubled, the same budget buys **half** as much of each input: the intercepts fall from 80 to **40** workers and 80 to **40** machines. The slope −w/r is unchanged (both doubled), so the new isocost is **parallel** to the old one and halfway to the origin — it can no longer reach the Q = 5000 isoquant, so output at that cost falls."
+      "explanation": "With both prices doubled, the same budget buys **half** as much of each input: the intercepts fall from 80 to **40** workers and 80 to **40** machines. The slope −w/r is unchanged (both doubled), so the new isocost is **parallel** to the old one and halfway to the origin — it can no longer reach the Q = 5000 isoquant, so output at that cost falls.",
+      "group": "ch9-9A.14"
     },
     {
       "id": "ch9-p9A.14b",
@@ -3442,7 +3544,8 @@
         "Because isocost lines always have a slope of −1"
       ],
       "answer": "b",
-      "explanation": "The isocost slope is −w/r. Doubling both prices leaves w/r unchanged, so only the **position** of the line changes (inward for a fixed budget), not its slope. Marginal products are a property of the technology (the isoquant), not of prices, and isocost slopes are −1 only when w = r, as in this graph."
+      "explanation": "The isocost slope is −w/r. Doubling both prices leaves w/r unchanged, so only the **position** of the line changes (inward for a fixed budget), not its slope. Marginal products are a property of the technology (the isoquant), not of prices, and isocost slopes are −1 only when w = r, as in this graph.",
+      "group": "ch9-9A.14"
     },
     {
       "id": "ch9-p9A.14c",
@@ -3625,7 +3728,8 @@
         "Half the labour and half the capital at A"
       ],
       "answer": "c",
-      "explanation": "Cost is minimized where the isocost is tangent to the isoquant, i.e. MP_L/MP_K = w/r. With w/r unchanged and the same isoquant, the tangency is still at **A**; producing there now costs twice as much. Firms substitute between inputs only when **relative** input prices change. Halving both inputs would produce less than 5000 pairs."
+      "explanation": "Cost is minimized where the isocost is tangent to the isoquant, i.e. MP_L/MP_K = w/r. With w/r unchanged and the same isoquant, the tangency is still at **A**; producing there now costs twice as much. Firms substitute between inputs only when **relative** input prices change. Halving both inputs would produce less than 5000 pairs.",
+      "group": "ch9-9A.14"
     }
   ]
 }

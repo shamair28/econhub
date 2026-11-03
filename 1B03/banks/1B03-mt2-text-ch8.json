@@ -163,6 +163,47 @@
       "body": "[Related to Solved Problem 8.1] Joe has $16 to spend on Smarties and chocolate chip cookies. Smarties have a price of $1 per box, and cookies have a price of $2 per pack. Use the information in the following graphs to determine the number of Smarties boxes and the number of cookie packs Joe should buy to maximize his utility. Briefly explain your reasoning."
     }
   },
+  "groups": {
+    "ch8-1.1": {
+      "ref": "Ch 8 · Review Q 1.1"
+    },
+    "ch8-1.2": {
+      "ref": "Ch 8 · Review Q 1.2"
+    },
+    "ch8-1.3": {
+      "ref": "Ch 8 · Review Q 1.3"
+    },
+    "ch8-3.8": {
+      "ref": "Ch 8 · Problem 3.8 ★"
+    },
+    "ch8-4.3": {
+      "ref": "Ch 8 · Review Q 4.3 ★"
+    },
+    "ch8-1.6": {
+      "ref": "Ch 8 · Problem 1.6 ★"
+    },
+    "ch8-1.9": {
+      "ref": "Ch 8 · Problem 1.9"
+    },
+    "ch8-1.11": {
+      "ref": "Ch 8 · Problem 1.11"
+    },
+    "ch8-1.12": {
+      "ref": "Ch 8 · Problem 1.12"
+    },
+    "ch8-2.5": {
+      "ref": "Ch 8 · Problem 2.5 ★"
+    },
+    "ch8-3.10": {
+      "ref": "Ch 8 · Problem 3.10"
+    },
+    "ch8-4.12": {
+      "ref": "Ch 8 · Problem 4.12"
+    },
+    "ch8-1.7": {
+      "ref": "Ch 8 · Problem 1.7 ★"
+    }
+  },
   "questions": [
     {
       "id": "ch8-r1.1",
@@ -198,7 +239,8 @@
       ],
       "answer": "a",
       "shuffleOptions": false,
-      "explanation": "**Utility** is the enjoyment or satisfaction people receive from consuming goods and services. Because satisfaction is subjective, nobody can observe it or compare it across people with a meter; economists therefore use an imaginary unit (“utils”) just to *reason* about choices. Price is not utility (price is what the market charges, and a consumer’s satisfaction can be far above or below it), and “additional satisfaction from the last unit” is *marginal* utility, not utility itself."
+      "explanation": "**Utility** is the enjoyment or satisfaction people receive from consuming goods and services. Because satisfaction is subjective, nobody can observe it or compare it across people with a meter; economists therefore use an imaginary unit (“utils”) just to *reason* about choices. Price is not utility (price is what the market charges, and a consumer’s satisfaction can be far above or below it), and “additional satisfaction from the last unit” is *marginal* utility, not utility itself.",
+      "group": "ch8-1.1"
     },
     {
       "id": "ch8-r1.1b",
@@ -215,7 +257,8 @@
       },
       "prompt": "Economists assume that utility can be measured directly in dollars, which is why the theory of consumer choice can use exact numbers.",
       "answer": false,
-      "explanation": "False. Utility is satisfaction, which cannot be measured directly. The theory uses hypothetical “utils” to illustrate how consumers rank bundles; what matters for decisions is the *comparison* of marginal utility per dollar across goods, not an exact dollar value of satisfaction."
+      "explanation": "False. Utility is satisfaction, which cannot be measured directly. The theory uses hypothetical “utils” to illustrate how consumers rank bundles; what matters for decisions is the *comparison* of marginal utility per dollar across goods, not an exact dollar value of satisfaction.",
+      "group": "ch8-1.1"
     },
     {
       "id": "ch8-r1.2",
@@ -251,7 +294,8 @@
       ],
       "answer": "b",
       "shuffleOptions": false,
-      "explanation": "**Marginal utility (MU)** = ΔTU ÷ ΔQ, the extra satisfaction from *one more* unit. The **law of diminishing marginal utility** says MU falls as consumption of a good rises (the 4th slice of pizza adds less than the 1st). Total utility still rises as long as MU is positive; it just rises at a decreasing rate. Total ÷ units is *average* utility, not marginal."
+      "explanation": "**Marginal utility (MU)** = ΔTU ÷ ΔQ, the extra satisfaction from *one more* unit. The **law of diminishing marginal utility** says MU falls as consumption of a good rises (the 4th slice of pizza adds less than the 1st). Total utility still rises as long as MU is positive; it just rises at a decreasing rate. Total ÷ units is *average* utility, not marginal.",
+      "group": "ch8-1.2"
     },
     {
       "id": "ch8-r1.2b",
@@ -287,7 +331,8 @@
       ],
       "answer": "c",
       "shuffleOptions": false,
-      "explanation": "Consumers decide how much to buy *one unit at a time*: buy another unit if the extra utility per dollar is high enough. That is a marginal comparison, so MU (not TU) drives the optimal-purchase rule. The distractors are false on the facts: TU can be tabulated, MU is not “larger” than TU, and TU keeps rising (at a slower rate) while MU is positive."
+      "explanation": "Consumers decide how much to buy *one unit at a time*: buy another unit if the extra utility per dollar is high enough. That is a marginal comparison, so MU (not TU) drives the optimal-purchase rule. The distractors are false on the facts: TU can be tabulated, MU is not “larger” than TU, and TU keeps rising (at a slower rate) while MU is positive.",
+      "group": "ch8-1.2"
     },
     {
       "id": "ch8-r1.3",
@@ -323,7 +368,8 @@
       ],
       "answer": "d",
       "shuffleOptions": false,
-      "explanation": "A consumer’s **budget constraint** is her limited income (given prices). To maximize utility she spends it so the **marginal utility per dollar** is equal across goods: MU<sub>X</sub>/P<sub>X</sub> = MU<sub>Y</sub>/P<sub>Y</sub>. If the ratios differed, she could shift a dollar from the good with the lower MU/P to the one with the higher MU/P and gain utility. Equalizing raw MU ignores prices, and buying the highest-MU good ignores what it costs."
+      "explanation": "A consumer’s **budget constraint** is her limited income (given prices). To maximize utility she spends it so the **marginal utility per dollar** is equal across goods: MU<sub>X</sub>/P<sub>X</sub> = MU<sub>Y</sub>/P<sub>Y</sub>. If the ratios differed, she could shift a dollar from the good with the lower MU/P to the one with the higher MU/P and gain utility. Equalizing raw MU ignores prices, and buying the highest-MU good ignores what it costs.",
+      "group": "ch8-1.3"
     },
     {
       "id": "ch8-r1.3b",
@@ -344,7 +390,8 @@
         "tolerance": 0.01,
         "display": "40 utils"
       },
-      "explanation": "At the optimum, MU<sub>X</sub>/P<sub>X</sub> = MU<sub>Y</sub>/P<sub>Y</sub>. MU<sub>X</sub>/P<sub>X</sub> = 24/3 = 8 utils per dollar, so MU<sub>Y</sub> = 8 × $5 = **40**. A tempting wrong answer is 24 (equal MUs); that only holds if the two prices are equal."
+      "explanation": "At the optimum, MU<sub>X</sub>/P<sub>X</sub> = MU<sub>Y</sub>/P<sub>Y</sub>. MU<sub>X</sub>/P<sub>X</sub> = 24/3 = 8 utils per dollar, so MU<sub>Y</sub> = 8 × $5 = **40**. A tempting wrong answer is 24 (equal MUs); that only holds if the two prices are equal.",
+      "group": "ch8-1.3"
     },
     {
       "id": "ch8-r2.1",
@@ -454,7 +501,8 @@
       ],
       "answer": "c",
       "shuffleOptions": false,
-      "explanation": "Standard theory says the price of the popular movie should rise (shortage) and the price of the dull one should fall (surplus). Firms often do not do this because of **fairness**: consumers judge prices as fair or unfair and react badly to what looks like gouging, so charging more could cost the theatre goodwill and long-run sales. Changing prices film by film also has its own costs. The “equilibrium” answer is wrong because the question itself states there is a shortage for one film and a surplus for the other, and there is no such legal requirement."
+      "explanation": "Standard theory says the price of the popular movie should rise (shortage) and the price of the dull one should fall (surplus). Firms often do not do this because of **fairness**: consumers judge prices as fair or unfair and react badly to what looks like gouging, so charging more could cost the theatre goodwill and long-run sales. Changing prices film by film also has its own costs. The “equilibrium” answer is wrong because the question itself states there is a shortage for one film and a surplus for the other, and there is no such legal requirement.",
+      "group": "ch8-3.8"
     },
     {
       "id": "ch8-r3.8",
@@ -491,7 +539,8 @@
       ],
       "answer": "d",
       "shuffleOptions": false,
-      "explanation": "Behavioural economics shows that consumers care about the *fairness* of how prices are set, not only about the price itself. A visible price jump when demand surges looks like gouging, so firms (and theatres) often prefer a constant price even when there is a shortage. The other options ignore this: nothing forces one price on every film, and a higher price lowers, not raises, MU per dollar."
+      "explanation": "Behavioural economics shows that consumers care about the *fairness* of how prices are set, not only about the price itself. A visible price jump when demand surges looks like gouging, so firms (and theatres) often prefer a constant price even when there is a shortage. The other options ignore this: nothing forces one price on every film, and a higher price lowers, not raises, MU per dollar.",
+      "group": "ch8-3.8"
     },
     {
       "id": "ch8-r4.1",
@@ -564,7 +613,8 @@
       ],
       "answer": "b",
       "shuffleOptions": false,
-      "explanation": "A **heuristic** is a rule of thumb that simplifies a decision. It saves effort but can produce systematic mistakes (anchoring, for instance), so it *reduces* the chance of the optimal choice. The “same optimal choice, only faster” view is wrong because a shortcut that skips information can change the result."
+      "explanation": "A **heuristic** is a rule of thumb that simplifies a decision. It saves effort but can produce systematic mistakes (anchoring, for instance), so it *reduces* the chance of the optimal choice. The “same optimal choice, only faster” view is wrong because a shortcut that skips information can change the result.",
+      "group": "ch8-4.3"
     },
     {
       "id": "ch8-r4.3b",
@@ -582,7 +632,8 @@
       },
       "prompt": "Relying on rules of thumb always leads a consumer to the same choice she would make if she carefully weighed marginal utility per dollar for every option.",
       "answer": false,
-      "explanation": "False. Heuristics economize on time and effort but ignore some information, so they can lead to a different (suboptimal) choice than careful application of the equal-MU-per-dollar rule."
+      "explanation": "False. Heuristics economize on time and effort but ignore some information, so they can lead to a different (suboptimal) choice than careful application of the equal-MU-per-dollar rule.",
+      "group": "ch8-4.3"
     },
     {
       "id": "ch8-r4.4",
@@ -656,7 +707,8 @@
       ],
       "answer": "a",
       "shuffleOptions": false,
-      "explanation": "Each hour costs the same (one of your six hours) and each exam point is one util, so the optimal rule says to give each hour to the subject with the higher marginal utility (extra points). Marginal points, economics: 8, 7, 6, 5, 4, 3; psychology: 6, 5, 4, 3, 2, 1. The six largest of these are 8, 7, 6, 6, 5, 5, which are the first four economics hours and the first two psychology hours. Scores: 80 in economics and 65 in psychology (total 145, the highest possible). An even 3–3 split is wrong because the 4th economics hour (5 points) beats the 3rd psychology hour (4 points)."
+      "explanation": "Each hour costs the same (one of your six hours) and each exam point is one util, so the optimal rule says to give each hour to the subject with the higher marginal utility (extra points). Marginal points, economics: 8, 7, 6, 5, 4, 3; psychology: 6, 5, 4, 3, 2, 1. The six largest of these are 8, 7, 6, 6, 5, 5, which are the first four economics hours and the first two psychology hours. Scores: 80 in economics and 65 in psychology (total 145, the highest possible). An even 3–3 split is wrong because the 4th economics hour (5 points) beats the 3rd psychology hour (4 points).",
+      "group": "ch8-1.6"
     },
     {
       "id": "ch8-p1.6a2",
@@ -679,7 +731,8 @@
         "tolerance": 0.01,
         "display": "5 points"
       },
-      "explanation": "MU of the 4th hour = 80 − 75 = **5** points. In the optimal split (4 economics, 2 psychology) the last hour in each subject is worth 5 points (psychology hour 2: 65 − 60 = 5), so no hour can be moved to gain points."
+      "explanation": "MU of the 4th hour = 80 − 75 = **5** points. In the optimal split (4 economics, 2 psychology) the last hour in each subject is worth 5 points (psychology hour 2: 65 − 60 = 5), so no hour can be moved to gain points.",
+      "group": "ch8-1.6"
     },
     {
       "id": "ch8-p1.6b",
@@ -717,7 +770,8 @@
       ],
       "answer": "b",
       "shuffleOptions": false,
-      "explanation": "Multiply the psychology marginal points by 3: 18, 15, 12, 9, 6, 3. Economics stays 8, 7, 6, 5, 4, 3. The six largest values are 18, 15, 12, 9 (psychology hours 1–4) and 8, 7 (economics hours 1–2), so study **2 hours economics and 4 hours psychology**. Putting all six hours into psychology is wrong: the 5th and 6th psychology hours are worth only 6 and 3, less than the 2nd economics hour (7). The weighted total is 69 + 3 × 72 = 285."
+      "explanation": "Multiply the psychology marginal points by 3: 18, 15, 12, 9, 6, 3. Economics stays 8, 7, 6, 5, 4, 3. The six largest values are 18, 15, 12, 9 (psychology hours 1–4) and 8, 7 (economics hours 1–2), so study **2 hours economics and 4 hours psychology**. Putting all six hours into psychology is wrong: the 5th and 6th psychology hours are worth only 6 and 3, less than the 2nd economics hour (7). The weighted total is 69 + 3 × 72 = 285.",
+      "group": "ch8-1.6"
     },
     {
       "id": "ch8-p1.6b2",
@@ -740,7 +794,8 @@
         "tolerance": 0.01,
         "display": "9 utils"
       },
-      "explanation": "The 4th psychology hour adds 72 − 69 = 3 points; at three utils per point, that is 3 × 3 = **9** utils. Compare it with the 3rd economics hour (6 utils) and the 5th psychology hour (2 × 3 = 6): the 4th psychology hour (9) is better than either, which is why the split moves to 2 economics and 4 psychology."
+      "explanation": "The 4th psychology hour adds 72 − 69 = 3 points; at three utils per point, that is 3 × 3 = **9** utils. Compare it with the 3rd economics hour (6 utils) and the 5th psychology hour (2 × 3 = 6): the 4th psychology hour (9) is better than either, which is why the split moves to 2 economics and 4 psychology.",
+      "group": "ch8-1.6"
     },
     {
       "id": "ch8-p1.9",
@@ -776,7 +831,8 @@
       ],
       "answer": "c",
       "shuffleOptions": false,
-      "explanation": "A fall in the price of pizza (1) makes pizza cheaper relative to other goods (substitution effect: buy more) and (2) raises real income (income effect). For an **inferior good**, a rise in income reduces consumption, so the income effect pushes *against* the substitution effect. Normally the substitution effect is larger and the demand curve still slopes down. Only if the income effect were bigger would a lower price reduce quantity demanded (a Giffen good), a very rare case."
+      "explanation": "A fall in the price of pizza (1) makes pizza cheaper relative to other goods (substitution effect: buy more) and (2) raises real income (income effect). For an **inferior good**, a rise in income reduces consumption, so the income effect pushes *against* the substitution effect. Normally the substitution effect is larger and the demand curve still slopes down. Only if the income effect were bigger would a lower price reduce quantity demanded (a Giffen good), a very rare case.",
+      "group": "ch8-1.9"
     },
     {
       "id": "ch8-p1.9b",
@@ -793,7 +849,8 @@
       },
       "prompt": "For an inferior good, the substitution effect of a price decrease leads the consumer to buy less of the good.",
       "answer": false,
-      "explanation": "False. The substitution effect always favours the good that has become relatively cheaper, so the consumer buys *more*. For an inferior good it is the *income effect* that works in the opposite direction."
+      "explanation": "False. The substitution effect always favours the good that has become relatively cheaper, so the consumer buys *more*. For an inferior good it is the *income effect* that works in the opposite direction.",
+      "group": "ch8-1.9"
     },
     {
       "id": "ch8-p1.11a",
@@ -815,7 +872,8 @@
         "tolerance": 0.01,
         "display": "40 utils per $"
       },
-      "explanation": "MU/P for apples = 20 ÷ $0.50 = **40** utils per dollar. (Total utility, 1000, is irrelevant for the marginal rule.) For oranges: 30 ÷ $0.75 = 40 as well."
+      "explanation": "MU/P for apples = 20 ÷ $0.50 = **40** utils per dollar. (Total utility, 1000, is irrelevant for the marginal rule.) For oranges: 30 ÷ $0.75 = 40 as well.",
+      "group": "ch8-1.11"
     },
     {
       "id": "ch8-p1.11b",
@@ -838,7 +896,8 @@
         "display": "$55",
         "prefix": "$"
       },
-      "explanation": "Spending = 50 × $0.50 + 40 × $0.75 = $25 + $30 = **$55**, exactly his budget, so the budget constraint is satisfied."
+      "explanation": "Spending = 50 × $0.50 + 40 × $0.75 = $25 + $30 = **$55**, exactly his budget, so the budget constraint is satisfied.",
+      "group": "ch8-1.11"
     },
     {
       "id": "ch8-p1.11c",
@@ -875,7 +934,8 @@
       ],
       "answer": "c",
       "shuffleOptions": false,
-      "explanation": "Test both conditions. (1) MU<sub>A</sub>/P<sub>A</sub> = 20/0.50 = 40 and MU<sub>O</sub>/P<sub>O</sub> = 30/0.75 = 40, so the marginal utility per dollar is equal. (2) Spending = $25 + $30 = $55 = income. Both conditions hold, so he is maximizing utility. Comparing raw MUs (30 vs 20), total utilities or quantities ignores prices and is the mistake the rule is designed to avoid."
+      "explanation": "Test both conditions. (1) MU<sub>A</sub>/P<sub>A</sub> = 20/0.50 = 40 and MU<sub>O</sub>/P<sub>O</sub> = 30/0.75 = 40, so the marginal utility per dollar is equal. (2) Spending = $25 + $30 = $55 = income. Both conditions hold, so he is maximizing utility. Comparing raw MUs (30 vs 20), total utilities or quantities ignores prices and is the mistake the rule is designed to avoid.",
+      "group": "ch8-1.11"
     },
     {
       "id": "ch8-p1.12a",
@@ -893,7 +953,8 @@
       "scenario": "ch8-p1.12",
       "prompt": "(a) Her marginal utility from consuming ginger ale increases.",
       "answer": false,
-      "explanation": "False. Marginal utility depends on how much she consumes, not on the price. Right after the price falls her MU at the current quantity is unchanged; as she buys *more* ginger ale, diminishing marginal utility makes MU *fall*. What rises is MU **per dollar** (statement b)."
+      "explanation": "False. Marginal utility depends on how much she consumes, not on the price. Right after the price falls her MU at the current quantity is unchanged; as she buys *more* ginger ale, diminishing marginal utility makes MU *fall*. What rises is MU **per dollar** (statement b).",
+      "group": "ch8-1.12"
     },
     {
       "id": "ch8-p1.12b",
@@ -911,7 +972,8 @@
       "scenario": "ch8-p1.12",
       "prompt": "(b) The marginal utility per dollar she spends on ginger ale increases.",
       "answer": true,
-      "explanation": "True. MU/P rises because P is in the denominator and falls while MU (at the current quantity) is unchanged. Ginger ale now gives more utility per dollar than tuna, so she buys more ginger ale until diminishing MU brings the ratios back into line."
+      "explanation": "True. MU/P rises because P is in the denominator and falls while MU (at the current quantity) is unchanged. Ginger ale now gives more utility per dollar than tuna, so she buys more ginger ale until diminishing MU brings the ratios back into line.",
+      "group": "ch8-1.12"
     },
     {
       "id": "ch8-p1.12c",
@@ -929,7 +991,8 @@
       "scenario": "ch8-p1.12",
       "prompt": "(c) Because of the substitution effect, Maya will buy more ginger ale. Therefore, we can conclude that ginger ale is a normal good.",
       "answer": false,
-      "explanation": "False. The substitution effect makes her buy more of a good that has become cheaper, whether the good is normal *or inferior*. Whether ginger ale is normal depends on the **income effect** (whether she buys more when real income rises), which the substitution effect says nothing about."
+      "explanation": "False. The substitution effect makes her buy more of a good that has become cheaper, whether the good is normal *or inferior*. Whether ginger ale is normal depends on the **income effect** (whether she buys more when real income rises), which the substitution effect says nothing about.",
+      "group": "ch8-1.12"
     },
     {
       "id": "ch8-p1.13",
@@ -988,7 +1051,8 @@
         "tolerance": 0.01,
         "display": "3 cones"
       },
-      "explanation": "Market demand is the *horizontal sum* of individual quantities demanded at each price: 2 + 1 + 0 = **3** cones."
+      "explanation": "Market demand is the *horizontal sum* of individual quantities demanded at each price: 2 + 1 + 0 = **3** cones.",
+      "group": "ch8-2.5"
     },
     {
       "id": "ch8-p2.5b",
@@ -1011,7 +1075,8 @@
         "tolerance": 0.01,
         "display": "13 cones"
       },
-      "explanation": "At $1.25: Josh 6 + Jon 4 + Tim 3 = **13** cones. Add quantities at the same price; never add prices."
+      "explanation": "At $1.25: Josh 6 + Jon 4 + Tim 3 = **13** cones. Add quantities at the same price; never add prices.",
+      "group": "ch8-2.5"
     },
     {
       "id": "ch8-p2.5c",
@@ -1034,7 +1099,8 @@
         "tolerance": 0.01,
         "display": "21 cones"
       },
-      "explanation": "At $0.75: 9 + 7 + 5 = **21** cones. (The full market demand column is 3, 9, 13, 17, 21 at prices $1.75, $1.50, $1.25, $1.00, $0.75.)"
+      "explanation": "At $0.75: 9 + 7 + 5 = **21** cones. (The full market demand column is 3, 9, 13, 17, 21 at prices $1.75, $1.50, $1.25, $1.00, $0.75.)",
+      "group": "ch8-2.5"
     },
     {
       "id": "ch8-p2.5d",
@@ -1072,7 +1138,8 @@
       ],
       "answer": "a",
       "shuffleOptions": false,
-      "explanation": "Add quantities at each price (3, 9, 13, 17, 21). Quantity rises as price falls, so the market demand curve slopes down: the law of demand holds for each consumer and so for the market. Market demand is the *horizontal* sum; summing prices vertically is how *public-goods* demand is added, not private goods like cones."
+      "explanation": "Add quantities at each price (3, 9, 13, 17, 21). Quantity rises as price falls, so the market demand curve slopes down: the law of demand holds for each consumer and so for the market. Market demand is the *horizontal* sum; summing prices vertically is how *public-goods* demand is added, not private goods like cones.",
+      "group": "ch8-2.5"
     },
     {
       "id": "ch8-p2.10",
@@ -1145,7 +1212,8 @@
       ],
       "answer": "c",
       "shuffleOptions": false,
-      "explanation": "Face value was set below the market-clearing price, so quantity demanded exceeded the number of seats. That shortage creates a profit opportunity for anyone who can get tickets quickly: buy at face value, resell near the market-clearing price. The bot owner pockets the difference, and the producer loses that revenue to the resellers. Reselling at the same price as the purchase price would earn nothing."
+      "explanation": "Face value was set below the market-clearing price, so quantity demanded exceeded the number of seats. That shortage creates a profit opportunity for anyone who can get tickets quickly: buy at face value, resell near the market-clearing price. The bot owner pockets the difference, and the producer loses that revenue to the resellers. Reselling at the same price as the purchase price would earn nothing.",
+      "group": "ch8-3.10"
     },
     {
       "id": "ch8-p3.10b",
@@ -1182,7 +1250,8 @@
       ],
       "answer": "d",
       "shuffleOptions": false,
-      "explanation": "The bots’ profit equals the gap between the market-clearing price and the face value. Charging the market-clearing price (or auctioning tickets) eliminates the gap, but fairness concerns, the desire for broad access and long-run reputation lead many producers not to do it. Lowering prices would make the shortage (and the bots’ profit) *bigger*, and a purchase limit only makes the shortage harder to exploit but does not remove the gap."
+      "explanation": "The bots’ profit equals the gap between the market-clearing price and the face value. Charging the market-clearing price (or auctioning tickets) eliminates the gap, but fairness concerns, the desire for broad access and long-run reputation lead many producers not to do it. Lowering prices would make the shortage (and the bots’ profit) *bigger*, and a purchase limit only makes the shortage harder to exploit but does not remove the gap.",
+      "group": "ch8-3.10"
     },
     {
       "id": "ch8-p4.8",
@@ -1290,7 +1359,8 @@
       ],
       "answer": "d",
       "shuffleOptions": false,
-      "explanation": "Marvin’s behaviour is inconsistent with a simple rational model: he would not pay $350 to *get* a ticket, but he will not *sell* his for $350. This is the **endowment effect**, where ownership raises the value people place on a good. Anchoring is about a reference number, not ownership; diminishing MU does not apply since he holds only one ticket; and the $250 he paid is a sunk cost, which a rational consumer ignores (selling at $350 would actually give him $100 more than he paid)."
+      "explanation": "Marvin’s behaviour is inconsistent with a simple rational model: he would not pay $350 to *get* a ticket, but he will not *sell* his for $350. This is the **endowment effect**, where ownership raises the value people place on a good. Anchoring is about a reference number, not ownership; diminishing MU does not apply since he holds only one ticket; and the $250 he paid is a sunk cost, which a rational consumer ignores (selling at $350 would actually give him $100 more than he paid).",
+      "group": "ch8-4.12"
     },
     {
       "id": "ch8-p4.12b",
@@ -1307,7 +1377,8 @@
       },
       "prompt": "Marvin’s refusal to sell shows that he is acting like a standard rational consumer, because the ticket’s value to him must have been above $350 all along.",
       "answer": false,
-      "explanation": "False. He decided he would *not pay* $350 for a comparable ticket, so if his valuation had been stable he would sell his for $350. The jump in valuation after buying is the endowment effect, a departure from the standard model."
+      "explanation": "False. He decided he would *not pay* $350 for a comparable ticket, so if his valuation had been stable he would sell his for $350. The jump in valuation after buying is the endowment effect, a departure from the standard model.",
+      "group": "ch8-4.12"
     },
     {
       "id": "ch8-p1.7a",
@@ -1455,7 +1526,8 @@
         "tolerance": 0,
         "display": "4 boxes"
       },
-      "explanation": "Read the MU of each unit off the graphs (Smarties: 10, 8, 6, 4, 2; cookies: 18, 16, 14, 12, 10, 8, …) and divide by price: Smarties MU/P = 10, 8, 6, **4**, 2 (price $1); cookies MU/P = 9, 8, 7, 6, 5, **4**, 3 … (price $2).\n\nBuy where **MU/P is equal and the $16 is spent**: 4 boxes of Smarties (4th box MU/P = 4) and 6 packs of cookies (6th pack MU = 8, MU/P = 4) → 4 × $1 + 6 × $2 = **$16**. Check a neighbour: 6 Smarties + 5 cookies also costs $16 but gives total utility 30 + 70 = 100, versus 28 + 78 = **106** at 4 and 6. Equating MU instead of MU per dollar is the classic mistake."
+      "explanation": "Read the MU of each unit off the graphs (Smarties: 10, 8, 6, 4, 2; cookies: 18, 16, 14, 12, 10, 8, …) and divide by price: Smarties MU/P = 10, 8, 6, **4**, 2 (price $1); cookies MU/P = 9, 8, 7, 6, 5, **4**, 3 … (price $2).\n\nBuy where **MU/P is equal and the $16 is spent**: 4 boxes of Smarties (4th box MU/P = 4) and 6 packs of cookies (6th pack MU = 8, MU/P = 4) → 4 × $1 + 6 × $2 = **$16**. Check a neighbour: 6 Smarties + 5 cookies also costs $16 but gives total utility 30 + 70 = 100, versus 28 + 78 = **106** at 4 and 6. Equating MU instead of MU per dollar is the classic mistake.",
+      "group": "ch8-1.7"
     },
     {
       "id": "ch8-p1.7b",
@@ -1603,7 +1675,8 @@
         "tolerance": 0,
         "display": "6 packs"
       },
-      "explanation": "Read the MU of each unit off the graphs (Smarties: 10, 8, 6, 4, 2; cookies: 18, 16, 14, 12, 10, 8, …) and divide by price: Smarties MU/P = 10, 8, 6, **4**, 2 (price $1); cookies MU/P = 9, 8, 7, 6, 5, **4**, 3 … (price $2).\n\nBuy where **MU/P is equal and the $16 is spent**: 4 boxes of Smarties (4th box MU/P = 4) and 6 packs of cookies (6th pack MU = 8, MU/P = 4) → 4 × $1 + 6 × $2 = **$16**. Check a neighbour: 6 Smarties + 5 cookies also costs $16 but gives total utility 30 + 70 = 100, versus 28 + 78 = **106** at 4 and 6. Equating MU instead of MU per dollar is the classic mistake."
+      "explanation": "Read the MU of each unit off the graphs (Smarties: 10, 8, 6, 4, 2; cookies: 18, 16, 14, 12, 10, 8, …) and divide by price: Smarties MU/P = 10, 8, 6, **4**, 2 (price $1); cookies MU/P = 9, 8, 7, 6, 5, **4**, 3 … (price $2).\n\nBuy where **MU/P is equal and the $16 is spent**: 4 boxes of Smarties (4th box MU/P = 4) and 6 packs of cookies (6th pack MU = 8, MU/P = 4) → 4 × $1 + 6 × $2 = **$16**. Check a neighbour: 6 Smarties + 5 cookies also costs $16 but gives total utility 30 + 70 = 100, versus 28 + 78 = **106** at 4 and 6. Equating MU instead of MU per dollar is the classic mistake.",
+      "group": "ch8-1.7"
     },
     {
       "id": "ch8-p1.7c",
@@ -1754,7 +1827,8 @@
         "Because Joe should spend half his budget on each good"
       ],
       "answer": "b",
-      "explanation": "The rule of equal marginal utility per dollar: MU_S/P_S = 4/$1 = 4 and MU_C/P_C = 8/$2 = 4, and 4 + 6 × 2 = $16 uses the whole budget. Equal **MU** (not per dollar) would ignore that cookies cost twice as much; equal quantities or equal spending have no basis in the rule."
+      "explanation": "The rule of equal marginal utility per dollar: MU_S/P_S = 4/$1 = 4 and MU_C/P_C = 8/$2 = 4, and 4 + 6 × 2 = $16 uses the whole budget. Equal **MU** (not per dollar) would ignore that cookies cost twice as much; equal quantities or equal spending have no basis in the rule.",
+      "group": "ch8-1.7"
     }
   ]
 }

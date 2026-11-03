@@ -348,6 +348,71 @@
       }
     }
   },
+  "groups": {
+    "ch6-1.1": {
+      "ref": "Ch 6 · Review Q 1.1"
+    },
+    "ch6-1.2": {
+      "ref": "Ch 6 · Review Q 1.2 ★"
+    },
+    "ch6-2.1": {
+      "ref": "Ch 6 · Review Q 2.1"
+    },
+    "ch6-3.1": {
+      "ref": "Ch 6 · Review Q 3.1 ★"
+    },
+    "ch6-4.1": {
+      "ref": "Ch 6 · Review Q 4.1"
+    },
+    "ch6-4.2": {
+      "ref": "Ch 6 · Review Q 4.2"
+    },
+    "ch6-6.1": {
+      "ref": "Ch 6 · Review Q 6.1 ★"
+    },
+    "ch6-1.9": {
+      "ref": "Ch 6 · Problem 1.9 ★"
+    },
+    "ch6-1.10": {
+      "ref": "Ch 6 · Problem 1.10 ★"
+    },
+    "ch6-2.5": {
+      "ref": "Ch 6 · Problem 2.5"
+    },
+    "ch6-3.3": {
+      "ref": "Ch 6 · Problem 3.3"
+    },
+    "ch6-3.5": {
+      "ref": "Ch 6 · Problem 3.5"
+    },
+    "ch6-3.6": {
+      "ref": "Ch 6 · Problem 3.6"
+    },
+    "ch6-3.7": {
+      "ref": "Ch 6 · Problem 3.7"
+    },
+    "ch6-4.3": {
+      "ref": "Ch 6 · Problem 4.3"
+    },
+    "ch6-4.6": {
+      "ref": "Ch 6 · Problem 4.6 ★"
+    },
+    "ch6-5.3": {
+      "ref": "Ch 6 · Problem 5.3 ★"
+    },
+    "ch6-6.6": {
+      "ref": "Ch 6 · Problem 6.6"
+    },
+    "ch6-1.11": {
+      "ref": "Ch 6 · Problem 1.11"
+    },
+    "ch6-4.5": {
+      "ref": "Ch 6 · Problem 4.5"
+    },
+    "ch6-6.8": {
+      "ref": "Ch 6 · Problem 6.8"
+    }
+  },
   "questions": [
     {
       "id": "ch6-r1.1a",
@@ -384,7 +449,8 @@
       ],
       "answer": "b",
       "shuffleOptions": false,
-      "explanation": "**Price elasticity of demand = %ΔQ<sub>d</sub> ÷ %ΔP.** The version with plain (not percentage) changes is just the slope of the demand curve, which is the very thing elasticity is designed to improve on. Flipping numerator and denominator gives the *inverse* of elasticity, and using quantity supplied would measure the price elasticity of *supply*."
+      "explanation": "**Price elasticity of demand = %ΔQ<sub>d</sub> ÷ %ΔP.** The version with plain (not percentage) changes is just the slope of the demand curve, which is the very thing elasticity is designed to improve on. Flipping numerator and denominator gives the *inverse* of elasticity, and using quantity supplied would measure the price elasticity of *supply*.",
+      "group": "ch6-1.1"
     },
     {
       "id": "ch6-r1.1b",
@@ -421,7 +487,8 @@
       ],
       "answer": "d",
       "shuffleOptions": false,
-      "explanation": "The slope is ΔQ/ΔP, so its value changes if we measure quantity in bushels instead of millions of bushels (or price in dollars instead of cents). That makes slopes impossible to compare across goods. Elasticity divides *percentage* changes, so the units cancel and it is comparable across any two goods. (Demand curves do have slopes, they differ across goods, and slope is about demand, so the other reasons are wrong.)"
+      "explanation": "The slope is ΔQ/ΔP, so its value changes if we measure quantity in bushels instead of millions of bushels (or price in dollars instead of cents). That makes slopes impossible to compare across goods. Elasticity divides *percentage* changes, so the units cancel and it is comparable across any two goods. (Demand curves do have slopes, they differ across goods, and slope is about demand, so the other reasons are wrong.)",
+      "group": "ch6-1.1"
     },
     {
       "id": "ch6-r1.2a",
@@ -448,7 +515,8 @@
         ],
         "hint": "Include the sign (or give the absolute value)"
       },
-      "explanation": "Elasticity = %ΔQ<sub>d</sub> ÷ %ΔP = (−25%) ÷ (+10%) = **−2.5**. Quantity falls when price rises, so the number is negative; we usually report its absolute value (2.5) when classifying it."
+      "explanation": "Elasticity = %ΔQ<sub>d</sub> ÷ %ΔP = (−25%) ÷ (+10%) = **−2.5**. Quantity falls when price rises, so the number is negative; we usually report its absolute value (2.5) when classifying it.",
+      "group": "ch6-1.2"
     },
     {
       "id": "ch6-r1.2b",
@@ -486,7 +554,8 @@
       ],
       "answer": "a",
       "shuffleOptions": false,
-      "explanation": "Demand is **elastic** when |E<sub>d</sub>| > 1 (quantity changes by a larger percentage than price), inelastic when |E<sub>d</sub>| < 1, and unit elastic when |E<sub>d</sub>| = 1. Here 25% > 10%, so |E<sub>d</sub>| = 2.5 > 1. The negative sign only reflects the law of demand and plays no part in the classification, and the *size* of the price change is irrelevant — only the ratio matters."
+      "explanation": "Demand is **elastic** when |E<sub>d</sub>| > 1 (quantity changes by a larger percentage than price), inelastic when |E<sub>d</sub>| < 1, and unit elastic when |E<sub>d</sub>| = 1. Here 25% > 10%, so |E<sub>d</sub>| = 2.5 > 1. The negative sign only reflects the law of demand and plays no part in the classification, and the *size* of the price change is irrelevant — only the ratio matters.",
+      "group": "ch6-1.2"
     },
     {
       "id": "ch6-r2.1a",
@@ -523,7 +592,8 @@
       ],
       "answer": "c",
       "shuffleOptions": false,
-      "explanation": "The textbook lists several determinants — availability of substitutes, time, luxury vs. necessity, the definition of the market, and the share of the budget — and calls **the availability of close substitutes the most important**. If a buyer can easily switch to a similar product, a price rise sends quantity demanded down sharply. The other three are real determinants but secondary."
+      "explanation": "The textbook lists several determinants — availability of substitutes, time, luxury vs. necessity, the definition of the market, and the share of the budget — and calls **the availability of close substitutes the most important**. If a buyer can easily switch to a similar product, a price rise sends quantity demanded down sharply. The other three are real determinants but secondary.",
+      "group": "ch6-2.1"
     },
     {
       "id": "ch6-r2.1b",
@@ -573,7 +643,8 @@
         "f"
       ],
       "shuffleOptions": false,
-      "explanation": "Demand elasticity depends on features of **buyers' options and the good itself**: close substitutes, the time period (demand is more elastic the longer buyers have to adjust), the budget share, and luxury vs. necessity (the definition of the market matters too). A firm's production cost and the tax rate affect supply or the price paid, not how responsive buyers are to a price change."
+      "explanation": "Demand elasticity depends on features of **buyers' options and the good itself**: close substitutes, the time period (demand is more elastic the longer buyers have to adjust), the budget share, and luxury vs. necessity (the definition of the market matters too). A firm's production cost and the tax rate affect supply or the price paid, not how responsive buyers are to a price change.",
+      "group": "ch6-2.1"
     },
     {
       "id": "ch6-r2.3",
@@ -648,7 +719,8 @@
       ],
       "answer": "a",
       "shuffleOptions": false,
-      "explanation": "Revenue = P × Q. With **inelastic** demand (|E<sub>d</sub>| < 1), a 1% price rise reduces quantity by *less* than 1%, so P × Q rises. Exact offsetting happens only with unit-elastic demand, and the sign of the revenue change depends only on the demand elasticity, so the supply curve is not needed."
+      "explanation": "Revenue = P × Q. With **inelastic** demand (|E<sub>d</sub>| < 1), a 1% price rise reduces quantity by *less* than 1%, so P × Q rises. Exact offsetting happens only with unit-elastic demand, and the sign of the revenue change depends only on the demand elasticity, so the supply curve is not needed.",
+      "group": "ch6-3.1"
     },
     {
       "id": "ch6-r3.1b",
@@ -667,7 +739,8 @@
       "type": "tf",
       "prompt": "If the demand for a good is elastic, an increase in its price will increase the sellers' total revenue.",
       "answer": false,
-      "explanation": "False. With elastic demand (|E<sub>d</sub>| > 1) the percentage fall in quantity is larger than the percentage rise in price, so P × Q **falls**. Only with inelastic demand does a price increase raise revenue."
+      "explanation": "False. With elastic demand (|E<sub>d</sub>| > 1) the percentage fall in quantity is larger than the percentage rise in price, so P × Q **falls**. Only with inelastic demand does a price increase raise revenue.",
+      "group": "ch6-3.1"
     },
     {
       "id": "ch6-r4.1a",
@@ -704,7 +777,8 @@
       ],
       "answer": "d",
       "shuffleOptions": false,
-      "explanation": "Cross-price elasticity = %ΔQ<sub>d</sub> of good A ÷ %ΔP of good B. Using the good's *own* price gives the ordinary price elasticity, using income gives the income elasticity, and comparing two prices says nothing about quantity demanded."
+      "explanation": "Cross-price elasticity = %ΔQ<sub>d</sub> of good A ÷ %ΔP of good B. Using the good's *own* price gives the ordinary price elasticity, using income gives the income elasticity, and comparing two prices says nothing about quantity demanded.",
+      "group": "ch6-4.1"
     },
     {
       "id": "ch6-r4.1b",
@@ -741,7 +815,8 @@
       ],
       "answer": "b",
       "shuffleOptions": false,
-      "explanation": "When the price of good B rises, buyers of *substitutes* switch to A (Q<sub>d</sub> of A rises → **positive**), while buyers of *complements* buy less of A along with B (Q<sub>d</sub> of A falls → **negative**). Whether a good is inferior is an income-elasticity question, and elastic/inelastic is about the own-price elasticity."
+      "explanation": "When the price of good B rises, buyers of *substitutes* switch to A (Q<sub>d</sub> of A rises → **positive**), while buyers of *complements* buy less of A along with B (Q<sub>d</sub> of A falls → **negative**). Whether a good is inferior is an income-elasticity question, and elastic/inelastic is about the own-price elasticity.",
+      "group": "ch6-4.1"
     },
     {
       "id": "ch6-r4.2a",
@@ -778,7 +853,8 @@
       ],
       "answer": "b",
       "shuffleOptions": false,
-      "explanation": "Income elasticity of demand = %ΔQ<sub>d</sub> ÷ %Δ(consumer income). When income rises, buyers purchase more of a **normal** good (E > 0) and less of an **inferior** good (E < 0). Dividing by the price change instead gives the price elasticity, and the 'greater than 1' split distinguishes luxuries from necessities, not normal from inferior."
+      "explanation": "Income elasticity of demand = %ΔQ<sub>d</sub> ÷ %Δ(consumer income). When income rises, buyers purchase more of a **normal** good (E > 0) and less of an **inferior** good (E < 0). Dividing by the price change instead gives the price elasticity, and the 'greater than 1' split distinguishes luxuries from necessities, not normal from inferior.",
+      "group": "ch6-4.2"
     },
     {
       "id": "ch6-r4.2b",
@@ -815,7 +891,8 @@
       ],
       "answer": "d",
       "shuffleOptions": false,
-      "explanation": "Among normal goods, quantity demanded rises by a *larger* percentage than income for **luxuries** (E > 1) and by a *smaller* percentage for **necessities** (0 < E < 1). A negative income elasticity marks an inferior good, not a luxury."
+      "explanation": "Among normal goods, quantity demanded rises by a *larger* percentage than income for **luxuries** (E > 1) and by a *smaller* percentage for **necessities** (0 < E < 1). A negative income elasticity marks an inferior good, not a luxury.",
+      "group": "ch6-4.2"
     },
     {
       "id": "ch6-r6.1a",
@@ -838,7 +915,8 @@
         "tolerance": 0.01,
         "display": "0.9"
       },
-      "explanation": "Price elasticity of supply = %ΔQ<sub>s</sub> ÷ %ΔP = 9% ÷ 10% = **0.9**."
+      "explanation": "Price elasticity of supply = %ΔQ<sub>s</sub> ÷ %ΔP = 9% ÷ 10% = **0.9**.",
+      "group": "ch6-6.1"
     },
     {
       "id": "ch6-r6.1b",
@@ -876,7 +954,8 @@
       ],
       "answer": "a",
       "shuffleOptions": false,
-      "explanation": "Supply is elastic when E<sub>s</sub> > 1 and inelastic when E<sub>s</sub> < 1. Because 0.9 < 1, the quantity supplied rises by a smaller percentage than price: **inelastic**. A positive sign is the normal case (the law of supply) and does not make supply elastic; only an elasticity of exactly 1 is unit elastic."
+      "explanation": "Supply is elastic when E<sub>s</sub> > 1 and inelastic when E<sub>s</sub> < 1. Because 0.9 < 1, the quantity supplied rises by a smaller percentage than price: **inelastic**. A positive sign is the normal case (the law of supply) and does not make supply elastic; only an elasticity of exactly 1 is unit elastic.",
+      "group": "ch6-6.1"
     },
     {
       "id": "ch6-p1.9a",
@@ -904,7 +983,8 @@
         ],
         "hint": "Use the stated % changes; sign optional"
       },
-      "explanation": "Selling 6.5 times as many means quantity rose by (6.5 − 1) × 100 = **550%**. With a 35% price cut, E<sub>d</sub> = 550% ÷ (−35%) ≈ **−15.7**, so demand is extremely elastic. (The midpoint formula would give a smaller value, about −3.46, because it measures a 550% change from the average quantity rather than from the starting quantity — still elastic.)"
+      "explanation": "Selling 6.5 times as many means quantity rose by (6.5 − 1) × 100 = **550%**. With a 35% price cut, E<sub>d</sub> = 550% ÷ (−35%) ≈ **−15.7**, so demand is extremely elastic. (The midpoint formula would give a smaller value, about −3.46, because it measures a 550% change from the average quantity rather than from the starting quantity — still elastic.)",
+      "group": "ch6-1.9"
     },
     {
       "id": "ch6-p1.9a2",
@@ -931,7 +1011,8 @@
           3.46
         ]
       },
-      "explanation": "Midpoint method: %ΔQ = (6.5 − 1) ÷ [(6.5 + 1)/2] = 5.5 ÷ 3.75 = 146.7%; %ΔP = (65 − 100) ÷ [(65 + 100)/2] = −35 ÷ 82.5 = −42.4%. E<sub>d</sub> = 146.7 ÷ (−42.4) ≈ **−3.46**. It is much smaller in magnitude than −15.7 because the large quantity change is measured relative to the midpoint, but demand is still elastic (|E| > 1)."
+      "explanation": "Midpoint method: %ΔQ = (6.5 − 1) ÷ [(6.5 + 1)/2] = 5.5 ÷ 3.75 = 146.7%; %ΔP = (65 − 100) ÷ [(65 + 100)/2] = −35 ÷ 82.5 = −42.4%. E<sub>d</sub> = 146.7 ÷ (−42.4) ≈ **−3.46**. It is much smaller in magnitude than −15.7 because the large quantity change is measured relative to the midpoint, but demand is still elastic (|E| > 1).",
+      "group": "ch6-1.9"
     },
     {
       "id": "ch6-p1.9b",
@@ -970,7 +1051,8 @@
       ],
       "answer": "c",
       "shuffleOptions": false,
-      "explanation": "The elasticity formula assumes a movement **along** a demand curve — only the price changed. Featuring the product in Cyber Monday e-mails shifts demand right, so some of the extra quantity sold is due to the promotion, not the lower price. Attributing all of it to the price cut makes demand look more elastic than it is, so −15.7 **overstates** the true elasticity."
+      "explanation": "The elasticity formula assumes a movement **along** a demand curve — only the price changed. Featuring the product in Cyber Monday e-mails shifts demand right, so some of the extra quantity sold is due to the promotion, not the lower price. Attributing all of it to the price cut makes demand look more elastic than it is, so −15.7 **overstates** the true elasticity.",
+      "group": "ch6-1.9"
     },
     {
       "id": "ch6-p1.10a",
@@ -995,7 +1077,8 @@
         "display": "−4,000,000 bushels per dollar",
         "hint": "Include the sign"
       },
-      "explanation": "ΔQ = 12,000,000 − 8,000,000 = 4,000,000 bushels; ΔP = $2 − $3 = −$1. ΔQ ÷ ΔP = **−4,000,000** bushels per dollar."
+      "explanation": "ΔQ = 12,000,000 − 8,000,000 = 4,000,000 bushels; ΔP = $2 − $3 = −$1. ΔQ ÷ ΔP = **−4,000,000** bushels per dollar.",
+      "group": "ch6-1.10"
     },
     {
       "id": "ch6-p1.10b",
@@ -1020,7 +1103,8 @@
         "display": "−4 million bushels per dollar",
         "hint": "Include the sign"
       },
-      "explanation": "ΔQ = 12 − 8 = 4 (millions of bushels); ΔP = −$1. ΔQ ÷ ΔP = **−4**. The same demand response gives −4,000,000 in part (a) and −4 here: the slope depends on the units of measurement."
+      "explanation": "ΔQ = 12 − 8 = 4 (millions of bushels); ΔP = −$1. ΔQ ÷ ΔP = **−4**. The same demand response gives −4,000,000 in part (a) and −4 here: the slope depends on the units of measurement.",
+      "group": "ch6-1.10"
     },
     {
       "id": "ch6-p1.10c",
@@ -1048,7 +1132,8 @@
         ],
         "hint": "Include the sign (or give the absolute value)"
       },
-      "explanation": "Midpoint quantity = (8 + 12)/2 = 10 million, so %ΔQ = 4 ÷ 10 = 40%. Midpoint price = ($3 + $2)/2 = $2.50, so %ΔP = −1 ÷ 2.5 = −40%. E<sub>d</sub> = 40% ÷ (−40%) = **−1.0**: unit-elastic demand."
+      "explanation": "Midpoint quantity = (8 + 12)/2 = 10 million, so %ΔQ = 4 ÷ 10 = 40%. Midpoint price = ($3 + $2)/2 = $2.50, so %ΔP = −1 ÷ 2.5 = −40%. E<sub>d</sub> = 40% ÷ (−40%) = **−1.0**: unit-elastic demand.",
+      "group": "ch6-1.10"
     },
     {
       "id": "ch6-p1.10c2",
@@ -1087,7 +1172,8 @@
       ],
       "answer": "c",
       "shuffleOptions": false,
-      "explanation": "In (a) and (b) the same data give −4,000,000 and −4 — the slope depends on whether quantity is counted in bushels or millions of bushels. The midpoint elasticity is −1.0 whichever unit is used, because percentage changes carry no units. That is exactly why economists use elasticity rather than slope to compare responsiveness."
+      "explanation": "In (a) and (b) the same data give −4,000,000 and −4 — the slope depends on whether quantity is counted in bushels or millions of bushels. The midpoint elasticity is −1.0 whichever unit is used, because percentage changes carry no units. That is exactly why economists use elasticity rather than slope to compare responsiveness.",
+      "group": "ch6-1.10"
     },
     {
       "id": "ch6-p2.5",
@@ -1125,7 +1211,8 @@
       ],
       "answer": "a",
       "shuffleOptions": false,
-      "explanation": "If Coke's price rises, buyers can switch to Pepsi or another cola; if the price of soda in general rises, there is no equally good substitute for soda as a category (other than water or juice). The **narrower the market definition**, the more close substitutes exist, and the more elastic demand is: −1.22 for Coke vs. −0.78 for all soda."
+      "explanation": "If Coke's price rises, buyers can switch to Pepsi or another cola; if the price of soda in general rises, there is no equally good substitute for soda as a category (other than water or juice). The **narrower the market definition**, the more close substitutes exist, and the more elastic demand is: −1.22 for Coke vs. −0.78 for all soda.",
+      "group": "ch6-2.5"
     },
     {
       "id": "ch6-p2.52",
@@ -1144,7 +1231,8 @@
       "type": "tf",
       "prompt": "The more narrowly a market is defined (for example, one brand rather than the whole product category), the more elastic the demand for it is likely to be.",
       "answer": true,
-      "explanation": "True. A narrow market (one brand) has many close substitutes — the other brands — so a price rise sends buyers elsewhere, making demand more elastic than for the broad category."
+      "explanation": "True. A narrow market (one brand) has many close substitutes — the other brands — so a price rise sends buyers elsewhere, making demand more elastic than for the broad category.",
+      "group": "ch6-2.5"
     },
     {
       "id": "ch6-p3.3a",
@@ -1182,7 +1270,8 @@
       ],
       "answer": "d",
       "shuffleOptions": false,
-      "explanation": "Total revenue = P × Q. If Q falls by, say, 5% but P rises by 15%, then P × Q still rises. So the percentage increase in the price of iPhones must have been **larger** than the percentage fall in quantity. Costs do not enter revenue at all."
+      "explanation": "Total revenue = P × Q. If Q falls by, say, 5% but P rises by 15%, then P × Q still rises. So the percentage increase in the price of iPhones must have been **larger** than the percentage fall in quantity. Costs do not enter revenue at all.",
+      "group": "ch6-3.3"
     },
     {
       "id": "ch6-p3.3b",
@@ -1220,7 +1309,8 @@
       ],
       "answer": "b",
       "shuffleOptions": false,
-      "explanation": "A price rise raises total revenue only if demand is **inelastic** (|E<sub>d</sub>| < 1). But the iPhone's price and quantity may have changed for other reasons (new models, income, competitors), shifting the demand curve, so the conclusion is only a tentative inference. Quantity always falls when price rises along a demand curve, which says nothing about elasticity."
+      "explanation": "A price rise raises total revenue only if demand is **inelastic** (|E<sub>d</sub>| < 1). But the iPhone's price and quantity may have changed for other reasons (new models, income, competitors), shifting the demand curve, so the conclusion is only a tentative inference. Quantity always falls when price rises along a demand curve, which says nothing about elasticity.",
+      "group": "ch6-3.3"
     },
     {
       "id": "ch6-p3.5",
@@ -1258,7 +1348,8 @@
       ],
       "answer": "b",
       "shuffleOptions": false,
-      "explanation": "Revenue rose while quantity fell 17%, so price rose by *more* than 17% — quantity responded less than proportionally, which is the definition of **inelastic** demand (|E<sub>d</sub>| < 1). Unit elasticity would leave revenue unchanged, and a fall in quantity demanded caused by a price increase is a movement along the demand curve, not a shift."
+      "explanation": "Revenue rose while quantity fell 17%, so price rose by *more* than 17% — quantity responded less than proportionally, which is the definition of **inelastic** demand (|E<sub>d</sub>| < 1). Unit elasticity would leave revenue unchanged, and a fall in quantity demanded caused by a price increase is a movement along the demand curve, not a shift.",
+      "group": "ch6-3.5"
     },
     {
       "id": "ch6-p3.52",
@@ -1277,7 +1368,8 @@
       "type": "tf",
       "prompt": "Because Disney's attendance fell 17%, the percentage increase in ticket prices must have been smaller than 17%.",
       "answer": false,
-      "explanation": "False. For ticket revenue to rise while 17% fewer tickets were sold, the percentage price increase had to be **greater** than 17% (e.g., a 25% price rise with a 17% fall in quantity raises revenue). A smaller price rise would have lowered revenue."
+      "explanation": "False. For ticket revenue to rise while 17% fewer tickets were sold, the percentage price increase had to be **greater** than 17% (e.g., a 25% price rise with a 17% fall in quantity raises revenue). A smaller price rise would have lowered revenue.",
+      "group": "ch6-3.5"
     },
     {
       "id": "ch6-p3.6a",
@@ -1315,7 +1407,8 @@
       ],
       "answer": "d",
       "shuffleOptions": false,
-      "explanation": "Revenue = P × Q rises only if price increased by a greater percentage than the quantity fell, i.e. quantity demanded responded by less than 15% to the price increase: **inelastic** demand (|E<sub>d</sub>| < 1). Perfectly elastic demand would have meant buyers would not accept any price increase, and costs do not determine revenue."
+      "explanation": "Revenue = P × Q rises only if price increased by a greater percentage than the quantity fell, i.e. quantity demanded responded by less than 15% to the price increase: **inelastic** demand (|E<sub>d</sub>| < 1). Perfectly elastic demand would have meant buyers would not accept any price increase, and costs do not determine revenue.",
+      "group": "ch6-3.6"
     },
     {
       "id": "ch6-p3.6b",
@@ -1353,7 +1446,8 @@
       ],
       "answer": "a",
       "shuffleOptions": false,
-      "explanation": "The higher prices were caused by a *supply* constraint, not by firms' choice. Once the constraint ends, any single carmaker can earn more by producing and selling extra cars at the elevated price; since the industry has many competing firms that cannot collude to restrict output, supply increases, which pushes the price back down. Inelastic demand explains why restricting output raises revenue, but each firm is better off breaking ranks, so the restraint would not last."
+      "explanation": "The higher prices were caused by a *supply* constraint, not by firms' choice. Once the constraint ends, any single carmaker can earn more by producing and selling extra cars at the elevated price; since the industry has many competing firms that cannot collude to restrict output, supply increases, which pushes the price back down. Inelastic demand explains why restricting output raises revenue, but each firm is better off breaking ranks, so the restraint would not last.",
+      "group": "ch6-3.6"
     },
     {
       "id": "ch6-p3.7a",
@@ -1391,7 +1485,8 @@
       ],
       "answer": "c",
       "shuffleOptions": false,
-      "explanation": "Popular brands have loyal customers who are less willing to switch to substitutes, so the quantity demanded falls by a smaller percentage than price rises — **inelastic** demand — and total revenue goes up. Elastic demand would make a price hike reduce revenue. Elasticity is about demand, so the brand's popularity matters directly, but demand is not perfectly inelastic."
+      "explanation": "Popular brands have loyal customers who are less willing to switch to substitutes, so the quantity demanded falls by a smaller percentage than price rises — **inelastic** demand — and total revenue goes up. Elastic demand would make a price hike reduce revenue. Elasticity is about demand, so the brand's popularity matters directly, but demand is not perfectly inelastic.",
+      "group": "ch6-3.7"
     },
     {
       "id": "ch6-p3.7b",
@@ -1429,7 +1524,8 @@
       ],
       "answer": "c",
       "shuffleOptions": false,
-      "explanation": "As the largest firm, P&G acts as a price leader: when it moves prices, rivals usually follow, so prices change across the whole industry at about the same time."
+      "explanation": "As the largest firm, P&G acts as a price leader: when it moves prices, rivals usually follow, so prices change across the whole industry at about the same time.",
+      "group": "ch6-3.7"
     },
     {
       "id": "ch6-p3.7b2",
@@ -1467,7 +1563,8 @@
       ],
       "answer": "a",
       "shuffleOptions": false,
-      "explanation": "Elasticity depends largely on the availability of *acceptable substitutes*. If rivals raise prices too, the alternatives to Pampers become pricier, so a Pampers price increase causes fewer buyers to switch: demand becomes **less elastic**. Competitors' pricing does matter because it changes the attractiveness of the substitutes."
+      "explanation": "Elasticity depends largely on the availability of *acceptable substitutes*. If rivals raise prices too, the alternatives to Pampers become pricier, so a Pampers price increase causes fewer buyers to switch: demand becomes **less elastic**. Competitors' pricing does matter because it changes the attractiveness of the substitutes.",
+      "group": "ch6-3.7"
     },
     {
       "id": "ch6-p4.3a",
@@ -1505,7 +1602,8 @@
       ],
       "answer": "d",
       "shuffleOptions": false,
-      "explanation": "The household would drop lettuce at $3 (substitutes exist, small budget importance) but would buy bread even at $5 (a necessity with no real substitute). Demand for lettuce is therefore **more elastic**; bread is inelastic. Necessities have *less* elastic demand, not more."
+      "explanation": "The household would drop lettuce at $3 (substitutes exist, small budget importance) but would buy bread even at $5 (a necessity with no real substitute). Demand for lettuce is therefore **more elastic**; bread is inelastic. Necessities have *less* elastic demand, not more.",
+      "group": "ch6-4.3"
     },
     {
       "id": "ch6-p4.3b",
@@ -1543,7 +1641,8 @@
       ],
       "answer": "b",
       "shuffleOptions": false,
-      "explanation": "She says other greens \"can fill in for lettuce\" — they are **substitutes**. When lettuce gets more expensive, she buys more of the other greens, so %ΔQ of greens ÷ %ΔP of lettuce is **positive**. Complements would give a negative value."
+      "explanation": "She says other greens \"can fill in for lettuce\" — they are **substitutes**. When lettuce gets more expensive, she buys more of the other greens, so %ΔQ of greens ÷ %ΔP of lettuce is **positive**. Complements would give a negative value.",
+      "group": "ch6-4.3"
     },
     {
       "id": "ch6-p4.6a",
@@ -1582,7 +1681,8 @@
       ],
       "answer": "b",
       "shuffleOptions": false,
-      "explanation": "Iced coffee and iced tea are alternatives for the same purpose. If iced tea gets more expensive, some buyers switch to iced coffee, so the quantity of coffee demanded rises: **positive** (substitutes). Substitutes can never give a negative value, and complements never give a positive one."
+      "explanation": "Iced coffee and iced tea are alternatives for the same purpose. If iced tea gets more expensive, some buyers switch to iced coffee, so the quantity of coffee demanded rises: **positive** (substitutes). Substitutes can never give a negative value, and complements never give a positive one.",
+      "group": "ch6-4.6"
     },
     {
       "id": "ch6-p4.6b",
@@ -1621,7 +1721,8 @@
       ],
       "answer": "d",
       "shuffleOptions": false,
-      "explanation": "Fries and ketchup are consumed together. A rise in the price of fries lowers the quantity of fries bought and with it the quantity of ketchup demanded: **negative** (complements)."
+      "explanation": "Fries and ketchup are consumed together. A rise in the price of fries lowers the quantity of fries bought and with it the quantity of ketchup demanded: **negative** (complements).",
+      "group": "ch6-4.6"
     },
     {
       "id": "ch6-p4.6c",
@@ -1660,7 +1761,8 @@
       ],
       "answer": "a",
       "shuffleOptions": false,
-      "explanation": "Steak and chicken are alternative sources of protein. A higher steak price shifts some buyers to chicken, raising the quantity of chicken demanded: **positive** (substitutes)."
+      "explanation": "Steak and chicken are alternative sources of protein. A higher steak price shifts some buyers to chicken, raising the quantity of chicken demanded: **positive** (substitutes).",
+      "group": "ch6-4.6"
     },
     {
       "id": "ch6-p4.6d",
@@ -1699,7 +1801,8 @@
       ],
       "answer": "c",
       "shuffleOptions": false,
-      "explanation": "A Blu-ray disc is only useful with a player. If players become more expensive, fewer are bought and so fewer discs are demanded: **negative** (complements)."
+      "explanation": "A Blu-ray disc is only useful with a player. If players become more expensive, fewer are bought and so fewer discs are demanded: **negative** (complements).",
+      "group": "ch6-4.6"
     },
     {
       "id": "ch6-p5.3a0",
@@ -1724,7 +1827,8 @@
         "display": "−11.5%",
         "hint": "Percent; include the sign"
       },
-      "explanation": "Midpoint price = ($3.00 + $3.70)/2 = $3.35, so %ΔP = 0.70 ÷ 3.35 = 20.9%. Then %ΔQ<sub>d</sub> = E<sub>d</sub> × %ΔP = −0.55 × 20.9% ≈ **−11.5%**."
+      "explanation": "Midpoint price = ($3.00 + $3.70)/2 = $3.35, so %ΔP = 0.70 ÷ 3.35 = 20.9%. Then %ΔQ<sub>d</sub> = E<sub>d</sub> × %ΔP = −0.55 × 20.9% ≈ **−11.5%**.",
+      "group": "ch6-5.3"
     },
     {
       "id": "ch6-p5.3a",
@@ -1751,7 +1855,8 @@
           122.0
         ]
       },
-      "explanation": "With %ΔQ = −11.49%: (Q₂ − 140) ÷ [(Q₂ + 140)/2] = −0.1149. Solving: 2(Q₂ − 140) = −0.1149(Q₂ + 140) → 2.1149 Q₂ = 280 − 16.09 = 263.9 → **Q₂ ≈ 124.8 billion gallons**. (Applying −0.55 × 23.3% = −12.8% to 140 with the simple percentage method gives about 122 billion; both are close and tell the same story.)"
+      "explanation": "With %ΔQ = −11.49%: (Q₂ − 140) ÷ [(Q₂ + 140)/2] = −0.1149. Solving: 2(Q₂ − 140) = −0.1149(Q₂ + 140) → 2.1149 Q₂ = 280 − 16.09 = 263.9 → **Q₂ ≈ 124.8 billion gallons**. (Applying −0.55 × 23.3% = −12.8% to 140 with the simple percentage method gives about 122 billion; both are close and tell the same story.)",
+      "group": "ch6-5.3"
     },
     {
       "id": "ch6-p5.3a2",
@@ -1790,7 +1895,8 @@
       ],
       "answer": "c",
       "shuffleOptions": false,
-      "explanation": "With E<sub>d</sub> = −0.55 (inelastic), quantity falls by only about 11.5% in response to a 20.9% price increase, from 140 to about 125 billion gallons. Consumption does fall (so the tax is not *completely* ineffective), but by far less than the price rises — a tax is a weak tool for cutting consumption of a good with few substitutes."
+      "explanation": "With E<sub>d</sub> = −0.55 (inelastic), quantity falls by only about 11.5% in response to a 20.9% price increase, from 140 to about 125 billion gallons. Consumption does fall (so the tax is not *completely* ineffective), but by far less than the price rises — a tax is a weak tool for cutting consumption of a good with few substitutes.",
+      "group": "ch6-5.3"
     },
     {
       "id": "ch6-p5.3b",
@@ -1819,7 +1925,8 @@
         ],
         "hint": "Billions of dollars"
       },
-      "explanation": "Revenue = tax per gallon × quantity sold after the tax = $1.00 × 124.8 billion gallons ≈ **$124.8 billion** per year. (Using Q = 122 billion gives about $122 billion.) Note it is the *new* quantity that counts, not the old 140 billion."
+      "explanation": "Revenue = tax per gallon × quantity sold after the tax = $1.00 × 124.8 billion gallons ≈ **$124.8 billion** per year. (Using Q = 122 billion gives about $122 billion.) Note it is the *new* quantity that counts, not the old 140 billion.",
+      "group": "ch6-5.3"
     },
     {
       "id": "ch6-p6.6a",
@@ -1958,7 +2065,8 @@
           }
         ]
       },
-      "explanation": "Cocoa trees take 2–4 years to bear pods, so supply is very **inelastic (steep) after 1 year** and becomes **more elastic (flatter) after 4 years** as new trees mature. A permanent rise in demand shifts D right. Along the steep S₁ the equilibrium moves to a much higher price (E₂) with only a small increase in quantity; along the flatter S₄, producers can expand output, so the price rises less and quantity rises more (E₃). The price is therefore **higher after 1 year than after 4 years**."
+      "explanation": "Cocoa trees take 2–4 years to bear pods, so supply is very **inelastic (steep) after 1 year** and becomes **more elastic (flatter) after 4 years** as new trees mature. A permanent rise in demand shifts D right. Along the steep S₁ the equilibrium moves to a much higher price (E₂) with only a small increase in quantity; along the flatter S₄, producers can expand output, so the price rises less and quantity rises more (E₃). The price is therefore **higher after 1 year than after 4 years**.",
+      "group": "ch6-6.6"
     },
     {
       "id": "ch6-p6.6b",
@@ -1996,7 +2104,8 @@
       ],
       "answer": "a",
       "shuffleOptions": false,
-      "explanation": "Supply responds more the longer producers have to adjust. After 1 year growers cannot produce more cocoa (new trees take 2–4 years), so the supply curve is steep and the price spikes. After 4 years new trees are bearing pods, the supply curve is flatter, quantity supplied expands, and the price comes back down some. Permanence of the demand increase means the demand curve stays shifted, but it does not stop supply from becoming more elastic over time."
+      "explanation": "Supply responds more the longer producers have to adjust. After 1 year growers cannot produce more cocoa (new trees take 2–4 years), so the supply curve is steep and the price spikes. After 4 years new trees are bearing pods, the supply curve is flatter, quantity supplied expands, and the price comes back down some. Permanence of the demand increase means the demand curve stays shifted, but it does not stop supply from becoming more elastic over time.",
+      "group": "ch6-6.6"
     },
     {
       "id": "ch6-p1.11a",
@@ -2021,7 +2130,8 @@
         ],
         "display": "−1.67"
       },
-      "explanation": "Midpoint formula: %ΔQ = (60 − 30) ÷ 45 = 0.667; %ΔP = (2 − 3) ÷ 2.5 = −0.40. **E = 0.667 ÷ (−0.40) = −1.67** → |E| > 1, demand along D₁ is **elastic** (the price cut raises revenue: $90 → $120). Using the starting values instead (100% ÷ −33%) gives −3.0 — not the midpoint method the problem asks for."
+      "explanation": "Midpoint formula: %ΔQ = (60 − 30) ÷ 45 = 0.667; %ΔP = (2 − 3) ÷ 2.5 = −0.40. **E = 0.667 ÷ (−0.40) = −1.67** → |E| > 1, demand along D₁ is **elastic** (the price cut raises revenue: $90 → $120). Using the starting values instead (100% ÷ −33%) gives −3.0 — not the midpoint method the problem asks for.",
+      "group": "ch6-1.11"
     },
     {
       "id": "ch6-p1.11b",
@@ -2046,7 +2156,8 @@
         ],
         "display": "−0.71"
       },
-      "explanation": "%ΔQ = (40 − 30) ÷ 35 = 0.286; %ΔP = (2 − 3) ÷ 2.5 = −0.40. **E = 0.286 ÷ (−0.40) = −0.71** → |E| < 1, demand along D₂ is **inelastic**, so the price cut lowers revenue ($90 → $80). The steeper curve through the same point A is the less elastic one over this price range."
+      "explanation": "%ΔQ = (40 − 30) ÷ 35 = 0.286; %ΔP = (2 − 3) ÷ 2.5 = −0.40. **E = 0.286 ÷ (−0.40) = −0.71** → |E| < 1, demand along D₂ is **inelastic**, so the price cut lowers revenue ($90 → $80). The steeper curve through the same point A is the less elastic one over this price range.",
+      "group": "ch6-1.11"
     },
     {
       "id": "ch6-p1.11c",
@@ -2071,7 +2182,8 @@
         "Neither, because a price cut always lowers revenue"
       ],
       "answer": "b",
-      "explanation": "Revenue rises after a price cut only when demand is **elastic**. On D₁: 3 × 30 = $90 → 2 × 60 = $120. On D₂ (inelastic, E ≈ −0.71): $90 → 2 × 40 = $80. Selling more units is not enough — the % rise in quantity has to beat the % fall in price."
+      "explanation": "Revenue rises after a price cut only when demand is **elastic**. On D₁: 3 × 30 = $90 → 2 × 60 = $120. On D₂ (inelastic, E ≈ −0.71): $90 → 2 × 40 = $80. Selling more units is not enough — the % rise in quantity has to beat the % fall in price.",
+      "group": "ch6-1.11"
     },
     {
       "id": "ch6-p4.5a",
@@ -2093,7 +2205,8 @@
         "tolerance": 0.01,
         "display": "−0.91"
       },
-      "explanation": "Cross-price elasticity measures how **quantity demanded** of buns responds to the price of hot dogs, holding the price of buns constant — so read the horizontal shift of demand at the same bun price ($1.20): 10,000 on D₁ → **12,000** on D₂.\n\n%ΔQ(buns) = 2,000 ÷ 11,000 = 18.2%; %ΔP(hot dogs) = (1.80 − 2.20) ÷ 2.00 = −20%.\n\n**E = 18.2% ÷ (−20%) = −0.91.** Negative → buns and hot dogs are **complements**. Using the new *equilibrium* quantity (11,000) mixes in the movement along supply (the bun price also rose to $1.40) and gives −0.48 — that is not the cross-price elasticity of demand."
+      "explanation": "Cross-price elasticity measures how **quantity demanded** of buns responds to the price of hot dogs, holding the price of buns constant — so read the horizontal shift of demand at the same bun price ($1.20): 10,000 on D₁ → **12,000** on D₂.\n\n%ΔQ(buns) = 2,000 ÷ 11,000 = 18.2%; %ΔP(hot dogs) = (1.80 − 2.20) ÷ 2.00 = −20%.\n\n**E = 18.2% ÷ (−20%) = −0.91.** Negative → buns and hot dogs are **complements**. Using the new *equilibrium* quantity (11,000) mixes in the movement along supply (the bun price also rose to $1.40) and gives −0.48 — that is not the cross-price elasticity of demand.",
+      "group": "ch6-4.5"
     },
     {
       "id": "ch6-p4.5b",
@@ -2118,7 +2231,8 @@
         "Hot dogs and buns are complements: a lower hot dog price raises the demand for buns"
       ],
       "answer": "d",
-      "explanation": "A **negative** cross-price elasticity means the two goods are **complements** — the price of one and the demand for the other move in opposite directions (hot dogs cheaper → more buns demanded). Substitutes have a positive cross-price elasticity. The sign says nothing about income (inferior goods) or about the buns’ own-price elasticity."
+      "explanation": "A **negative** cross-price elasticity means the two goods are **complements** — the price of one and the demand for the other move in opposite directions (hot dogs cheaper → more buns demanded). Substitutes have a positive cross-price elasticity. The sign says nothing about income (inferior goods) or about the buns’ own-price elasticity.",
+      "group": "ch6-4.5"
     },
     {
       "id": "ch6-p6.8a",
@@ -2140,7 +2254,8 @@
         "tolerance": 0.001,
         "display": "0 (perfectly inelastic)"
       },
-      "explanation": "The supply curve is **vertical** at 15,000 tickets (the arena’s seats): whatever the price, quantity supplied does not change, so %ΔQs = 0 and **E_S = 0** — perfectly inelastic supply."
+      "explanation": "The supply curve is **vertical** at 15,000 tickets (the arena’s seats): whatever the price, quantity supplied does not change, so %ΔQs = 0 and **E_S = 0** — perfectly inelastic supply.",
+      "group": "ch6-6.8"
     },
     {
       "id": "ch6-p6.8b",
@@ -2251,7 +2366,8 @@
           }
         ]
       },
-      "explanation": "Demand shifts **right** to D₂. Because supply is vertical, the new equilibrium is still at **15,000 tickets** — the whole adjustment is a **higher price**. With perfectly inelastic supply, a demand increase raises price only, never quantity."
+      "explanation": "Demand shifts **right** to D₂. Because supply is vertical, the new equilibrium is still at **15,000 tickets** — the whole adjustment is a **higher price**. With perfectly inelastic supply, a demand increase raises price only, never quantity.",
+      "group": "ch6-6.8"
     },
     {
       "id": "ch6-p6.8c",
@@ -2276,7 +2392,8 @@
         "It becomes perfectly elastic because demand keeps rising"
       ],
       "answer": "a",
-      "explanation": "Supply is more elastic the more **time** sellers have to adjust. In the short run seating is fixed (E_S = 0); over several years, sustained high demand gives the university a reason to expand or replace the arena, so quantity supplied can rise with price. Elasticity of supply is never negative, and demand growth does not by itself make supply perfectly elastic."
+      "explanation": "Supply is more elastic the more **time** sellers have to adjust. In the short run seating is fixed (E_S = 0); over several years, sustained high demand gives the university a reason to expand or replace the arena, so quantity supplied can rise with price. Elasticity of supply is never negative, and demand growth does not by itself make supply perfectly elastic.",
+      "group": "ch6-6.8"
     }
   ]
 }

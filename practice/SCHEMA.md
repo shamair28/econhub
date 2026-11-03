@@ -81,6 +81,22 @@ Several questions can share one stem (like "The next four questions refer to…"
 
 `body`, `table`, `figure` are all optional.
 
+### Multi-part questions (`group`)
+
+Scenarios keep related questions *adjacent*; a `group` makes them **one question**. Give every part the same `"group": "<id>"` (parts are ordinary questions of any type, listed in the order they should be asked, normally adjacent and sharing one `scenario`). The engine merges them into a single multi-part question that:
+
+* counts once everywhere — bank totals, source/unit chips, “How many”, exam draws and blueprints, the palette and the score (type filter: “Multi-part”);
+* shows its parts in one card, **one at a time**: in practice mode the next part appears when the current one is checked; in exam mode “Next part →” hands the current part in (it locks, still ungraded) and reveals the next. Earlier parts stay visible above, with their feedback in practice;
+* scores each part as an equal share of 1 point (e.g. 2 of 3 parts right = 0.67), shown as such on the results screen.
+
+Optional bank-level metadata sets the merged question’s badge text (otherwise it uses the first part’s `source.ref`):
+
+```jsonc
+"groups": { "ch6-1.10": { "ref": "Ch 6 · Problem 1.10 ★", "title": "Rye: slope vs elasticity" } }
+```
+
+Part ids stay as they are (saved sessions key on them). The validator warns about one-part groups and non-adjacent parts.
+
 ### Text fields
 
 `prompt`, option `text`, `explanation`, scenario `body` accept either plain text with light markup — `**bold**`, `*italic*`, `` `code` ``, blank line = new paragraph — or HTML (`<sub>`, `<sup>`, `<b>`, `<ul>`, …). Scripts and event handlers are stripped. Use real Unicode where possible: `−` (minus), `Q₁`, `P*`, `½`.
@@ -98,6 +114,7 @@ Several questions can share one stem (like "The next four questions refer to…"
   "difficulty": 2,                 // 1 easy · 2 medium · 3 hard
   "source": { "ref": "Q3" },
   "scenario": "laptops",           // optional scenario id from this bank
+  "group": "laptops-q",            // optional: parts sharing a group are asked as one multi-part question
   "figure": { ... },               // optional, same shape as scenario.figure (graph | image | table)
   "prompt": "Refer to the scenario. What is the equation for the inverse demand?",
   "explanation": "Set Q<sub>d</sub> = 10,800 − 4P and solve for P …",   // shown after answering

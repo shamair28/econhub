@@ -1458,6 +1458,59 @@
       }
     }
   },
+  "groups": {
+    "ch10-3.1": {
+      "ref": "Ch 10 · Review Q 3.1"
+    },
+    "ch10-3.2": {
+      "ref": "Ch 10 · Review Q 3.2"
+    },
+    "ch10-5.2": {
+      "ref": "Ch 10 · Review Q 5.2"
+    },
+    "ch10-5.4": {
+      "ref": "Ch 10 · Review Q 5.4"
+    },
+    "ch10-1.4": {
+      "ref": "Ch 10 · Problem 1.4 ★"
+    },
+    "ch10-2.5": {
+      "ref": "Ch 10 · Problem 2.5"
+    },
+    "ch10-2.6": {
+      "ref": "Ch 10 · Problem 2.6 ★"
+    },
+    "ch10-2.7": {
+      "ref": "Ch 10 · Problem 2.7 ★"
+    },
+    "ch10-2.8": {
+      "ref": "Ch 10 · Problem 2.8 ★"
+    },
+    "ch10-3.3": {
+      "ref": "Ch 10 · Problem 3.3 ★"
+    },
+    "ch10-4.4": {
+      "ref": "Ch 10 · Problem 4.4"
+    },
+    "ch10-4.5": {
+      "ref": "Ch 10 · Problem 4.5"
+    },
+    "ch10-4.6": {
+      "ref": "Ch 10 · Problem 4.6"
+    },
+    "ch10-4.11": {
+      "ref": "Ch 10 · Problem 4.11"
+    },
+    "ch10-5.7": {
+      "ref": "Ch 10 · Problem 5.7"
+    },
+    "ch10-3.8": {
+      "ref": "Ch 10 · Problem 3.8"
+    },
+    "ch10-6.5": {
+      "ref": "Ch 10 · Problem 6.5"
+    }
+  },
   "questions": [
     {
       "id": "ch10-r1.1",
@@ -2780,7 +2833,8 @@
         ],
         "caption": "A price-taking firm facing P = $50 (in this sketch)",
         "alt": "Horizontal price line above the minimum of the U-shaped ATC curve; MC cuts the price line from below to the right of the ATC minimum."
-      }
+      },
+      "group": "ch10-3.1"
     },
     {
       "id": "ch10-r3.1b",
@@ -2816,7 +2870,8 @@
         }
       ],
       "answer": "b",
-      "shuffleOptions": false
+      "shuffleOptions": false,
+      "group": "ch10-3.1"
     },
     {
       "id": "ch10-r3.2",
@@ -3994,7 +4049,8 @@
         ],
         "caption": "A price-taking firm facing P = $30 (in this sketch)",
         "alt": "Horizontal price line below the minimum of the ATC curve but above the minimum of the AVC curve."
-      }
+      },
+      "group": "ch10-3.2"
     },
     {
       "id": "ch10-r3.2b",
@@ -4030,7 +4086,8 @@
         }
       ],
       "answer": "d",
-      "shuffleOptions": false
+      "shuffleOptions": false,
+      "group": "ch10-3.2"
     },
     {
       "id": "ch10-r5.1",
@@ -4103,7 +4160,8 @@
         }
       ],
       "answer": "c",
-      "shuffleOptions": false
+      "shuffleOptions": false,
+      "group": "ch10-5.2"
     },
     {
       "id": "ch10-r5.2b",
@@ -4140,7 +4198,8 @@
         }
       ],
       "answer": "b",
-      "shuffleOptions": false
+      "shuffleOptions": false,
+      "group": "ch10-5.2"
     },
     {
       "id": "ch10-r5.4",
@@ -4178,7 +4237,8 @@
         }
       ],
       "answer": "d",
-      "shuffleOptions": false
+      "shuffleOptions": false,
+      "group": "ch10-5.4"
     },
     {
       "id": "ch10-r5.4g",
@@ -4331,7 +4391,8 @@
         ],
         "caption": "Constant-cost industry in long-run equilibrium at E₁",
         "alt": "Downward demand D1 and upward supply S1 meet at E1; a horizontal long-run supply line passes through E1."
-      }
+      },
+      "group": "ch10-5.4"
     },
     {
       "id": "ch10-p1.4a",
@@ -4350,7 +4411,8 @@
       "scenario": "ch10-p1.4",
       "prompt": "(a) The market for tomato growing is a perfectly competitive market.",
       "explanation": "True. There are very many tomato growers and buyers, tomatoes of a given grade are essentially identical, and it is easy to start or stop growing tomatoes. Each grower is a price taker.",
-      "answer": true
+      "answer": true,
+      "group": "ch10-1.4"
     },
     {
       "id": "ch10-p1.4b",
@@ -4369,7 +4431,8 @@
       "scenario": "ch10-p1.4",
       "prompt": "(b) The market for coffee shops is a perfectly competitive market.",
       "explanation": "False. Although there are many coffee shops and entry is easy, the products are **not identical**: shops differ in location, atmosphere, brand and menu, so each has some control over its price. (This is monopolistic competition.)",
-      "answer": false
+      "answer": false,
+      "group": "ch10-1.4"
     },
     {
       "id": "ch10-p1.4c",
@@ -4388,7 +4451,8 @@
       "scenario": "ch10-p1.4",
       "prompt": "(c) The market for automobile manufacturing is a perfectly competitive market.",
       "explanation": "False. There are only a **few large firms**, their cars are differentiated (brands, features), and there are very high barriers to entry (huge capital requirements, brand and dealership networks). None of the three conditions is met.",
-      "answer": false
+      "answer": false,
+      "group": "ch10-1.4"
     },
     {
       "id": "ch10-p1.4d",
@@ -4407,7 +4471,8 @@
       "scenario": "ch10-p1.4",
       "prompt": "(d) The market for new home construction is a perfectly competitive market.",
       "explanation": "False. Homes differ in location, size and design, so the product is **not identical**. Builders also differ in reputation and style, so each has some control over its price.",
-      "answer": false
+      "answer": false,
+      "group": "ch10-1.4"
     },
     {
       "id": "ch10-p2.5a",
@@ -4444,7 +4509,8 @@
         }
       ],
       "answer": "a",
-      "shuffleOptions": false
+      "shuffleOptions": false,
+      "group": "ch10-2.5"
     },
     {
       "id": "ch10-p2.5b",
@@ -4481,7 +4547,8 @@
         }
       ],
       "answer": "c",
-      "shuffleOptions": false
+      "shuffleOptions": false,
+      "group": "ch10-2.5"
     },
     {
       "id": "ch10-p2.6a",
@@ -4504,7 +4571,8 @@
         "value": 6,
         "tolerance": 0.01,
         "display": "6 bushels"
-      }
+      },
+      "group": "ch10-2.6"
     },
     {
       "id": "ch10-p2.6b",
@@ -4528,7 +4596,8 @@
         "tolerance": 0.01,
         "display": "$4.00",
         "prefix": "$"
-      }
+      },
+      "group": "ch10-2.6"
     },
     {
       "id": "ch10-p2.7a",
@@ -4566,7 +4635,8 @@
         }
       ],
       "answer": "b",
-      "shuffleOptions": false
+      "shuffleOptions": false,
+      "group": "ch10-2.7"
     },
     {
       "id": "ch10-p2.7b",
@@ -4590,7 +4660,8 @@
         "tolerance": 0.01,
         "display": "$10.00",
         "prefix": "$"
-      }
+      },
+      "group": "ch10-2.7"
     },
     {
       "id": "ch10-p2.8a",
@@ -4614,7 +4685,8 @@
         "tolerance": 0.01,
         "display": "$10.00",
         "prefix": "$"
-      }
+      },
+      "group": "ch10-2.8"
     },
     {
       "id": "ch10-p2.8b",
@@ -4652,7 +4724,8 @@
         }
       ],
       "answer": "d",
-      "shuffleOptions": false
+      "shuffleOptions": false,
+      "group": "ch10-2.8"
     },
     {
       "id": "ch10-p2.8c",
@@ -4676,7 +4749,8 @@
         "tolerance": 0.01,
         "display": "$3.50",
         "prefix": "$"
-      }
+      },
+      "group": "ch10-2.8"
     },
     {
       "id": "ch10-p3.3a1",
@@ -4699,7 +4773,8 @@
         "value": 6,
         "tolerance": 0.01,
         "display": "6 pencils"
-      }
+      },
+      "group": "ch10-3.3"
     },
     {
       "id": "ch10-p3.3a2",
@@ -4723,7 +4798,8 @@
         "tolerance": 0.01,
         "display": "$4.00",
         "prefix": "$"
-      }
+      },
+      "group": "ch10-3.3"
     },
     {
       "id": "ch10-p3.3a3",
@@ -4930,7 +5006,8 @@
           }
         ],
         "caption": "Frances's cost curves from the table; P = $1.80"
-      }
+      },
+      "group": "ch10-3.3"
     },
     {
       "id": "ch10-p3.3b1",
@@ -4953,7 +5030,8 @@
         "value": 5,
         "tolerance": 0.01,
         "display": "5 pencils"
-      }
+      },
+      "group": "ch10-3.3"
     },
     {
       "id": "ch10-p3.3b2",
@@ -4977,7 +5055,8 @@
         "tolerance": 0.01,
         "display": "−$0.20",
         "prefix": "$"
-      }
+      },
+      "group": "ch10-3.3"
     },
     {
       "id": "ch10-p3.3b3",
@@ -5015,7 +5094,8 @@
         }
       ],
       "answer": "a",
-      "shuffleOptions": false
+      "shuffleOptions": false,
+      "group": "ch10-3.3"
     },
     {
       "id": "ch10-p3.3b4",
@@ -5212,7 +5292,8 @@
           }
         ],
         "caption": "Frances's cost curves from the table; P = $1.00"
-      }
+      },
+      "group": "ch10-3.3"
     },
     {
       "id": "ch10-p3.3c",
@@ -5250,7 +5331,8 @@
         }
       ],
       "answer": "c",
-      "shuffleOptions": false
+      "shuffleOptions": false,
+      "group": "ch10-3.3"
     },
     {
       "id": "ch10-p4.4a",
@@ -5287,7 +5369,8 @@
         }
       ],
       "answer": "b",
-      "shuffleOptions": false
+      "shuffleOptions": false,
+      "group": "ch10-4.4"
     },
     {
       "id": "ch10-p4.4b",
@@ -5324,7 +5407,8 @@
         }
       ],
       "answer": "d",
-      "shuffleOptions": false
+      "shuffleOptions": false,
+      "group": "ch10-4.4"
     },
     {
       "id": "ch10-p4.4c",
@@ -5361,7 +5445,8 @@
         }
       ],
       "answer": "a",
-      "shuffleOptions": false
+      "shuffleOptions": false,
+      "group": "ch10-4.4"
     },
     {
       "id": "ch10-p4.5a",
@@ -5398,7 +5483,8 @@
         }
       ],
       "answer": "c",
-      "shuffleOptions": false
+      "shuffleOptions": false,
+      "group": "ch10-4.5"
     },
     {
       "id": "ch10-p4.5b",
@@ -5435,7 +5521,8 @@
         }
       ],
       "answer": "b",
-      "shuffleOptions": false
+      "shuffleOptions": false,
+      "group": "ch10-4.5"
     },
     {
       "id": "ch10-p4.5c",
@@ -5472,7 +5559,8 @@
         }
       ],
       "answer": "d",
-      "shuffleOptions": false
+      "shuffleOptions": false,
+      "group": "ch10-4.5"
     },
     {
       "id": "ch10-p4.6a1",
@@ -5495,7 +5583,8 @@
         "tolerance": 0.01,
         "display": "$27.50",
         "prefix": "$"
-      }
+      },
+      "group": "ch10-4.6"
     },
     {
       "id": "ch10-p4.6a2",
@@ -5518,7 +5607,8 @@
         "tolerance": 0.02,
         "display": "$46.67",
         "prefix": "$"
-      }
+      },
+      "group": "ch10-4.6"
     },
     {
       "id": "ch10-p4.6a3",
@@ -5555,7 +5645,8 @@
         }
       ],
       "answer": "a",
-      "shuffleOptions": false
+      "shuffleOptions": false,
+      "group": "ch10-4.6"
     },
     {
       "id": "ch10-p4.6b1",
@@ -5580,7 +5671,8 @@
         "accept": [
           6
         ]
-      }
+      },
+      "group": "ch10-4.6"
     },
     {
       "id": "ch10-p4.6b2",
@@ -5603,7 +5695,8 @@
         "tolerance": 0.01,
         "display": "$20",
         "prefix": "$"
-      }
+      },
+      "group": "ch10-4.6"
     },
     {
       "id": "ch10-p4.6c",
@@ -5640,7 +5733,8 @@
         }
       ],
       "answer": "c",
-      "shuffleOptions": false
+      "shuffleOptions": false,
+      "group": "ch10-4.6"
     },
     {
       "id": "ch10-p4.9",
@@ -5712,7 +5806,8 @@
         }
       ],
       "answer": "d",
-      "shuffleOptions": false
+      "shuffleOptions": false,
+      "group": "ch10-4.11"
     },
     {
       "id": "ch10-p4.11b",
@@ -5729,7 +5824,8 @@
       },
       "prompt": "Closing a store whose revenue exceeds its variable cost, but is less than its total cost (including the lease), would reduce Bed Bath & Beyond's losses in the short run.",
       "explanation": "False. If revenue exceeds variable cost, the store's contribution covers part of the fixed lease. Closing it removes that contribution while the lease must still be paid, so losses would *increase*. Only stores with revenue below variable cost should be closed in the short run (unless the leases can be exited in the long run).",
-      "answer": false
+      "answer": false,
+      "group": "ch10-4.11"
     },
     {
       "id": "ch10-p5.7a",
@@ -5766,7 +5862,8 @@
         }
       ],
       "answer": "a",
-      "shuffleOptions": false
+      "shuffleOptions": false,
+      "group": "ch10-5.7"
     },
     {
       "id": "ch10-p5.7b",
@@ -5803,7 +5900,8 @@
         }
       ],
       "answer": "c",
-      "shuffleOptions": false
+      "shuffleOptions": false,
+      "group": "ch10-5.7"
     },
     {
       "id": "ch10-p5.7c1",
@@ -5840,7 +5938,8 @@
         }
       ],
       "answer": "b",
-      "shuffleOptions": false
+      "shuffleOptions": false,
+      "group": "ch10-5.7"
     },
     {
       "id": "ch10-p5.7c2",
@@ -5877,7 +5976,8 @@
         }
       ],
       "answer": "d",
-      "shuffleOptions": false
+      "shuffleOptions": false,
+      "group": "ch10-5.7"
     },
     {
       "id": "ch10-p5.9",
@@ -5996,7 +6096,8 @@
         "tolerance": 0,
         "display": "100 caps"
       },
-      "explanation": "Produce where **MR = MC**: MC crosses MR = $11 at **100 caps**. 80 caps is where MC crosses ATC (minimum ATC) and 50 is near minimum AVC — neither maximizes profit at a price of $11."
+      "explanation": "Produce where **MR = MC**: MC crosses MR = $11 at **100 caps**. 80 caps is where MC crosses ATC (minimum ATC) and 50 is near minimum AVC — neither maximizes profit at a price of $11.",
+      "group": "ch10-3.8"
     },
     {
       "id": "ch10-p3.8b",
@@ -6019,7 +6120,8 @@
         "prefix": "$",
         "display": "$200"
       },
-      "explanation": "Profit = (P − ATC) × Q = ($11.00 − $9.00) × 100 = **$200**. Using AVC instead of ATC ($11 − $6 = $5 × 100 = $500) ignores fixed costs."
+      "explanation": "Profit = (P − ATC) × Q = ($11.00 − $9.00) × 100 = **$200**. Using AVC instead of ATC ($11 − $6 = $5 × 100 = $500) ignores fixed costs.",
+      "group": "ch10-3.8"
     },
     {
       "id": "ch10-p3.8c",
@@ -6045,7 +6147,8 @@
         ],
         "display": "$300"
       },
-      "explanation": "Shutting down (in the short run) she still pays her **fixed cost**. At 100 caps, AFC = ATC − AVC = $9 − $6 = $3 per cap, so FC = $3 × 100 = **$300** — her loss if she shuts down. Fixed cost is the same at every output, which is why it can be read off at Q = 100."
+      "explanation": "Shutting down (in the short run) she still pays her **fixed cost**. At 100 caps, AFC = ATC − AVC = $9 − $6 = $3 per cap, so FC = $3 × 100 = **$300** — her loss if she shuts down. Fixed cost is the same at every output, which is why it can be read off at Q = 100.",
+      "group": "ch10-3.8"
     },
     {
       "id": "ch10-p6.5a",
@@ -6070,7 +6173,8 @@
         "It can’t be determined without dollar values"
       ],
       "answer": "a",
-      "explanation": "At the profit-maximizing output Q₁ (MR = MC), **price = ATC**, so profit = (P − ATC) × Q₁ = **0**: Murat breaks even and earns a normal return. P × Q₁ is total revenue, not profit, and no dollar values are needed because the P − ATC gap is zero."
+      "explanation": "At the profit-maximizing output Q₁ (MR = MC), **price = ATC**, so profit = (P − ATC) × Q₁ = **0**: Murat breaks even and earns a normal return. P × Q₁ is total revenue, not profit, and no dollar values are needed because the P − ATC gap is zero.",
+      "group": "ch10-6.5"
     },
     {
       "id": "ch10-p6.5b",
@@ -6095,7 +6199,8 @@
         "Both: P = minimum ATC (productive efficiency) and P = MC (allocative efficiency)"
       ],
       "answer": "d",
-      "explanation": "**Productive efficiency**: output is produced at the lowest possible average cost — P equals the **minimum of ATC**. **Allocative efficiency**: P = MC, so the last unit’s value to buyers equals its cost to produce. Both hold at Q₁, as in long-run perfectly competitive equilibrium. Zero economic profit is exactly what long-run efficiency looks like, not a sign of inefficiency."
+      "explanation": "**Productive efficiency**: output is produced at the lowest possible average cost — P equals the **minimum of ATC**. **Allocative efficiency**: P = MC, so the last unit’s value to buyers equals its cost to produce. Both hold at Q₁, as in long-run perfectly competitive equilibrium. Zero economic profit is exactly what long-run efficiency looks like, not a sign of inefficiency.",
+      "group": "ch10-6.5"
     }
   ]
 }

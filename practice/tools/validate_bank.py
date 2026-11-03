@@ -356,7 +356,38 @@ def validate(path):
     for sid in (data.get("scenarios") or {}):
         if sid not in used:
             rep.warn(f"scenario {sid}", "defined but never used")
+    check_groups(rep, data, qs)
     return rep
+
+
+def check_groups(rep, data, qs):
+    """Multi-part questions: parts share a `group` id and are shown in bank order."""
+    groups = data.get("groups") or {}
+    if not isinstance(groups, dict):
+        rep.err("bank", "groups must be an object of {groupId: {ref?, title?}}")
+        groups = {}
+    members = {}
+    for i, q in enumerate(qs):
+        if not isinstance(q, dict) or "group" not in q:
+            continue
+        if not isinstance(q["group"], str) or not q["group"]:
+            rep.err(f"q {q.get('id')}", "group must be a non-empty string")
+            continue
+        members.setdefault(q["group"], []).append((i, q))
+    for gid, ms in members.items():
+        w = f"group {gid}"
+        if len(ms) < 2:
+            rep.warn(w, "has only one part (it will be shown as an ordinary question)")
+        idx = [i for i, _ in ms]
+        if idx != list(range(idx[0], idx[0] + len(idx))):
+            rep.warn(w, "parts are not adjacent in the bank (they are still shown together, in bank order)")
+        if len({q.get("scenario") for _, q in ms}) > 1:
+            rep.err(w, "parts use different scenarios (the card shows only the first part's scenario)")
+    for gid, meta in groups.items():
+        if gid not in members:
+            rep.warn(f"group {gid}", "defined in bank.groups but no question uses it")
+        elif not isinstance(meta, dict) or any(k in meta and not isinstance(meta[k], str) for k in ("ref", "title")):
+            rep.err(f"group {gid}", "bank.groups entries must be objects with string ref/title")
 
 
 def main(argv):
