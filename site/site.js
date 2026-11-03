@@ -451,7 +451,7 @@
         const isD = !!done[doneKey(c.code, ch.n)], isL = last && last.course === c.code && last.n === ch.n;
         return `<a class="ch-row${isD ? ' done' : ''}${isL ? ' last' : ''}" href="${chHref(c, ch.n)}">
             <span class="n">${isD ? '✓' : ch.n}</span><span class="t">Chapter ${ch.n}: ${esc(ch.title)}${isL && !isD ? '<small>Reading now</small>' : ''}</span>
-            ${isD ? '<span class="state">Studied</span>' : '<span class="arr" aria-hidden="true">→</span>'}</a>`;
+            <span class="end">${ch.week ? `<span class="wk" title="Taught in Week ${ch.week} of the course schedule">Week ${ch.week}</span>` : ''}${isD ? '<span class="state">Studied</span>' : '<span class="arr" aria-hidden="true">→</span>'}</span></a>`;
       }).join('');
       const trows = (c.tools || []).map(t => `<a class="ch-row tool" href="${t.href}">
             <span class="n" aria-hidden="true">${t.icon}</span><span class="t">${esc(t.title)}<span class="tag">Interactive</span><small>${t.desc}</small></span><span class="arr" aria-hidden="true">→</span></a>`).join('');

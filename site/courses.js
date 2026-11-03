@@ -4,7 +4,7 @@
  * chapter links and the "practise this chapter" links. Adding a chapter page means:
  * add it to `chapters` below + add its `_redirects` line. Nothing else links by hand.
  *
- *   courses[].chapters  { n, title }                  → page lives at /<code>/ch<n>
+ *   courses[].chapters  { n, title, week? }           → page lives at /<code>/ch<n>; week = schedule week it's taught (homepage label)
  *   courses[].tools     interactive prep pages for the course (title/kind/short = text, desc = HTML)
  *       chapters: [1, 2, 3]                            → chapters this tool covers (links to href)
  *       chapters: { 2: [['#/w2', 'Week 2 · §2.1–2.3']] } → per-chapter deep links (href + hash)
@@ -19,14 +19,14 @@ window.HUB_SITE = {
       title: 'Introductory Microeconomics',
       book: '<em>Microeconomics</em> — Hubbard, O’Brien, Serletis &amp; Childs, 4th Canadian Ed.',
       chapters: [
-        { n: 1, title: 'Economics: Foundations and Models' },
-        { n: 2, title: 'Trade-offs, Comparative Advantage, and the Market System' },
-        { n: 3, title: 'Where Prices Come From: The Interaction of Supply and Demand' },
-        { n: 4, title: 'Economic Efficiency, Government Price Setting, and Taxes' },
-        { n: 6, title: 'Elasticity: The Responsiveness of Demand and Supply' },
-        { n: 8, title: 'Consumer Choice and Behavioural Economics' },
-        { n: 9, title: 'Technology, Production, and Costs' },
-        { n: 10, title: 'Firms in Perfectly Competitive Markets' }
+        { n: 1, title: 'Economics: Foundations and Models', week: 1 },
+        { n: 2, title: 'Trade-offs, Comparative Advantage, and the Market System', week: 2 },
+        { n: 3, title: 'Where Prices Come From: The Interaction of Supply and Demand', week: 3 },
+        { n: 4, title: 'Economic Efficiency, Government Price Setting, and Taxes', week: 4 },
+        { n: 6, title: 'Elasticity: The Responsiveness of Demand and Supply', week: 5 },
+        { n: 8, title: 'Consumer Choice and Behavioural Economics', week: 6 },
+        { n: 9, title: 'Technology, Production, and Costs', week: 7 },
+        { n: 10, title: 'Firms in Perfectly Competitive Markets', week: 8 }
       ],
       tools: [
         {
@@ -48,12 +48,12 @@ window.HUB_SITE = {
       title: 'Introductory Macroeconomics',
       book: '<em>Macroeconomics</em> — Hubbard, O’Brien, Serletis &amp; Childs, 4th Canadian Ed.',
       chapters: [
-        { n: 1, title: 'Economics: Foundations and Models' },
-        { n: 2, title: 'Trade-offs, Comparative Advantage, and the Market System' },
-        { n: 3, title: 'Where Prices Come From: The Interaction of Supply and Demand' },
-        { n: 4, title: 'GDP: Measuring Total Production and Income' },
-        { n: 6, title: 'Economic Growth, the Financial System, and Business Cycles' },
-        { n: 7, title: 'Long-Run Economic Growth: Sources and Policies' }
+        { n: 1, title: 'Economics: Foundations and Models', week: 1 },
+        { n: 2, title: 'Trade-offs, Comparative Advantage, and the Market System', week: 1 },
+        { n: 3, title: 'Where Prices Come From: The Interaction of Supply and Demand', week: 2 },
+        { n: 4, title: 'GDP: Measuring Total Production and Income', week: 3 },
+        { n: 6, title: 'Economic Growth, the Financial System, and Business Cycles', week: 5 },
+        { n: 7, title: 'Long-Run Economic Growth: Sources and Policies', week: 6 }
       ],
       tools: [
         {
