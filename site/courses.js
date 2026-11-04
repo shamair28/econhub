@@ -77,6 +77,7 @@ window.HUB_SITE = {
         { n: 6, title: 'Motivation in Practice' },
         { n: 7, title: 'Groups and Teamwork' },
         { n: 8, title: 'Social Influence, Socialization, and Organizational Culture' },
+        { n: 9, title: 'Leadership' },
         { n: 10, title: 'Communication' },
         { n: 11, title: 'Decision Making' }
       ],
