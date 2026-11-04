@@ -18,7 +18,7 @@
   --lec: #f472b6;    --lec-bg: rgba(244,114,182,.09);
   --info: #60a5fa;   --info-bg: rgba(96,165,250,.09);
   --ok: #34d399; --bad: #f87171;
-  --w1: #38bdf8; --w2: #a78bfa; --w3: #34d399; --w4: #fbbf24; --w5: #fb7185;
+  --w1: #38bdf8; --w2: #a78bfa; --w3: #34d399; --w4: #fbbf24; --w5: #fb7185; --w7: #2dd4bf; --w8: #e879f9; --w9: #fb923c;
   --acc: #38bdf8;
   --radius: 14px;
   --mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, monospace;
@@ -42,7 +42,7 @@
   --lec: #db2777;    --lec-bg: rgba(219,39,119,.06);
   --info: #2563eb;   --info-bg: rgba(37,99,235,.06);
   --ok: #059669; --bad: #dc2626;
-  --w1: #0284c7; --w2: #7c3aed; --w3: #059669; --w4: #d97706; --w5: #e11d48;
+  --w1: #0284c7; --w2: #7c3aed; --w3: #059669; --w4: #d97706; --w5: #e11d48; --w7: #0d9488; --w8: #c026d3; --w9: #ea580c;
   color-scheme: light;
 }
 

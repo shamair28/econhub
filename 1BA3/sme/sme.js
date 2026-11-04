@@ -1,5 +1,5 @@
 /* COMM 1BA3 — SME Prep hub engine.
-   Week content lives in week1.js … week5.js, each calling SME.addWeek({...}).
+   Week content lives in week1.js … week9.js (no Week 6: reading week), each calling SME.addWeek({...}).
    Routes (hash): #/  ·  #/w1  ·  #/w1/cards  ·  #/w1/quiz  ·  #/w1/practice          */
 (function () {
   'use strict';
@@ -46,10 +46,11 @@
       qs: [['w1', 'Intro to OB'], ['w2', 'Abilities, Personality, Values, Attitudes'], ['w3', 'Perception'], ['w4', 'Motivation'], ['w4', 'Motivation']]
     },
     {
-      /* question → week map not announced yet; when it is, fill qs and drop pending */
+      /* expected map: last year's (Nov 2025, McAteer) paper; last year's #1 matched this term's #1 topic for topic */
       id: 'a2', short: 'A#2', name: 'Assignment #2', stakes: '10% of your grade',
-      when: 'Outline: Week 10 (Nov 9–13)', pending: 'Weeks 5–9 · Ch 7, 8, 9, 10, 11',
-      qs: []
+      when: 'Outline: Week 10 (Nov 9–13)',
+      basis: 'Expected map, not announced yet. It follows last year’s Assignment #2 (Nov 2025, Dr. McAteer’s section). Last year’s Assignment #1 matched this term’s #1 topic for topic, so this is the best guide available. Each week page has last year’s question as an answer-practice prompt with a model answer. Confirm the map when Dr. Kassaye announces it.',
+      qs: [['w5', 'Decision Making'], ['w5', 'Communication'], ['w7', 'Groups, Teams &amp; Groupthink'], ['w8', 'Culture &amp; Socialization'], ['w9', 'Leadership (path–goal)']]
     }
   ];
 
@@ -88,8 +89,11 @@
     { n: 4, t: 'Values, Attitudes, and Work Behaviour', wk: [['w2', '']] },
     { n: 5, t: 'Theories of Work Motivation', wk: [['w2', '§5.2 abilities'], ['w4', '§5.1, 5.3–5.6']] },
     { n: 6, t: 'Motivation in Practice', wk: [['w4', '']] },
+    { n: 7, t: 'Groups and Teamwork', wk: [['w7', '']] },
+    { n: 8, t: 'Social Influence, Socialization, and Organizational Culture', wk: [['w8', '']] },
+    { n: 9, t: 'Leadership', wk: [['w9', '']] },
     { n: 10, t: 'Communication', wk: [['w5', '']] },
-    { n: 11, t: 'Decision Making', wk: [['w5', '§11.1–11.5']] }
+    { n: 11, t: 'Decision Making', wk: [['w5', '§11.1–11.5'], ['w7', '§11.6–11.7']] }
   ];
   let drawerOpen = false, lastFocus = null;
   function renderDrawer() {
@@ -157,6 +161,7 @@
       <div class="card qmap">
         <h3>${a.name}</h3>
         <div class="sub">${a.stakes} · ${a.when}</div>
+        ${a.basis ? `<div class="note info" style="margin:10px 0 4px"><span class="nt">Expected map</span>${a.basis}</div>` : ''}
         ${a.qs.map(([wid, topic], i) => {
           const w = byId[wid]; const isMine = claims[a.id] === i;
           return `<div class="qrow ${isMine ? 'mine' : ''}" style="--wk:var(--${wid})">
@@ -173,8 +178,8 @@
         <h1>Become the <span class="grad">Subject Matter Expert</span> for your week.</h1>
         <p class="lede">Each group member owns one question topic. You won't see the question ahead of time, so this page gives you everything for your week in one place: key definitions, models, lists with memory aids, exam traps, a self-quiz and timed answer practice. You don't need to jump between chapter pages.</p>
         <div class="hero-meta">
-          <span class="chip">Johns &amp; Saks · Ch 1–6, 10, 11</span>
-          <span class="chip">Lecture slides Weeks 1–5 folded in</span>
+          <span class="chip">Johns &amp; Saks · Ch 1–11</span>
+          <span class="chip">Lecture slides Weeks 1–9 folded in</span>
           <span class="chip">Progress saves on this device</span>
         </div>
       </section>

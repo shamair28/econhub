@@ -119,7 +119,7 @@ window.HUB_SITE = {
           href: '/1BA3/sme', icon: '★', kind: 'Assignment prep',
           title: 'Group Assignment SME Prep',
           short: 'SME Prep',
-          desc: 'Weeks 1–5 · pick your week · key concepts, traps &amp; memory aids · flashcards · self-quiz · timed answer practice',
+          desc: 'Weeks 1–9 · pick your week · key concepts, traps &amp; memory aids · flashcards · self-quiz · timed answer practice',
           /* same chapter ↔ week map as the SME page's own side menu (1BA3/sme/sme.js) */
           chapters: {
             1: [['#/w1', 'Week 1']],
@@ -128,8 +128,11 @@ window.HUB_SITE = {
             4: [['#/w2', 'Week 2']],
             5: [['#/w2', 'Week 2 · §5.2'], ['#/w4', 'Week 4 · §5.1, 5.3–5.6']],
             6: [['#/w4', 'Week 4']],
+            7: [['#/w7', 'Week 7']],
+            8: [['#/w8', 'Week 8']],
+            9: [['#/w9', 'Week 9']],
             10: [['#/w5', 'Week 5']],
-            11: [['#/w5', 'Week 5 · §11.1–11.5']]
+            11: [['#/w5', 'Week 5 · §11.1–11.5'], ['#/w7', 'Week 7 · §11.6–11.7']]
           }
         }
       ]
