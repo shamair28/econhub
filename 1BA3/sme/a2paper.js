@@ -9,6 +9,7 @@ SME.addPaper({
 
     /* ───────────────────────── Q1 · DECISION MAKING ───────────────────────── */
     { n: 1, week: 'w5', topic: 'Decision Making',
+      sheet: 'You are a consultant hired by an executive who has recently transitioned into a new role that requires a lot of high-impact decision-making. Interested in learning about how individuals go through the decision-making process and what can impact or hinder this process, they seek out guidance from you.<br>a) Describe, in the correct order, the different steps in the rational decision-making process. (2 marks)<br>b) Compare the three descriptors of perfect rationality versus the three descriptors of bounded rationality (1.5). Explain why perfect rationality is considered problematic. (0.5 mark)<br>c) Describe, with examples, your choice of any five reasons for why bounded rationality occurs. (5 marks)<br>d) How do individuals behave when risk is involved? Explain (1 mark)',
       setup: 'You are a consultant hired by an executive who has recently transitioned into a new role that requires a lot of high-impact decision-making. Interested in learning about how individuals go through the decision-making process and what can impact or hinder this process, they seek out guidance from you.',
       parts: [
         { l: 'a', marks: 2,
@@ -90,6 +91,7 @@ SME.addPaper({
 
     /* ───────────────────────── Q2 · COMMUNICATION ───────────────────────── */
     { n: 2, week: 'w5', topic: 'Communication',
+      sheet: 'You have been hired by a client to facilitate a workshop on Communication.<br>a) In preparing for your workshop, define effective communication (1 mark)<br>b) Describe the 6-Stage Communication Model and each of its components (1.5 marks)<br>c) Explain the meaning of both psychological safety and voice (1 mark) and what happens when employees don’t feel each? (1 mark)<br>d) Explain the pros and cons of the organization’s grapevine (2 marks)<br>e) Define information richness and describe its two dimensions using examples (2.5 marks)<br>f) What information medium should you leverage when you want to achieve high information richness? Explain why (1 mark)',
       setup: 'You have been hired by a client to facilitate a workshop on Communication.',
       parts: [
         { l: 'a', marks: 1,
@@ -176,6 +178,7 @@ SME.addPaper({
 
     /* ───────────────────────── Q3 · GROUPS ───────────────────────── */
     { n: 3, week: 'w7', topic: 'Groups, Teams & Groupthink',
+      sheet: 'As a new manager in a medium-sized corporation, you are particularly interested in knowing and practicing as much as you can about effectively managing groups.<br>a) Explain the two models on group dynamics discussed in 1BA3, and be sure to identify all the stages from both models? (3 marks)<br>b) What do these two models tell organizations about managing groups (1 mark)?<br>c) Explain what social loafing is and how it affects groups. Outline, with examples, two ways to overcome it. (3 marks).<br>d) Explain what groupthink is and describe, with examples, two reasons why it may occur. (3 marks)',
       setup: 'As a new manager in a medium-sized corporation, you are particularly interested in knowing and practicing as much as you can about effectively managing groups.',
       parts: [
         { l: 'a', marks: 3,
@@ -265,6 +268,7 @@ SME.addPaper({
 
     /* ───────────────────────── Q4 · CULTURE & SOCIALIZATION ───────────────────────── */
     { n: 4, week: 'w8', topic: 'Culture & Socialization',
+      sheet: 'What is organizational culture? (1 mark). What are three ways of quickly diagnosing an organization’s culture? (1.5 marks). How are RJPs helpful for both an organization and potential/new employees? (1 mark). Explain the psychological contract and its breach (2 marks). Discuss the three stages of socialization that a new employee could encounter (3 marks). If an organization provides a new employee with a mentor, what would be the mentor’s two primary functions? (.50 marks). Identify and discuss four possible proactive socialization behaviors (1 mark)',
       setup: '',
       parts: [
         { l: 'i', marks: 1,
@@ -357,6 +361,7 @@ SME.addPaper({
 
     /* ───────────────────────── Q5 · LEADERSHIP ───────────────────────── */
     { n: 5, week: 'w9', topic: 'Leadership (path–goal)',
+      sheet: 'What are the components and lessons of House’s Path-Goal Theory of leadership (7 marks)? Use House’s Path-Goal Theory to explain how your leadership style would differ in the following situations: You are acting as a supervisor for incoming junior associates at a top law firm: You are leading an information technology (IT) team during a major system outage: You are a manager overseeing a recruitment event that your assistant manager has been planning for weeks (3 marks). Support your arguments with sound reasoning and examples.',
       setup: 'Support your arguments with sound reasoning and examples.',
       parts: [
         { l: 'a', marks: 7,

@@ -677,7 +677,7 @@
               <div><h2>${q.topic}</h2><a class="pq-wk" href="#/${q.week}">Week ${w ? w.num : q.week.slice(1)}${w ? ' · ' + w.chapterLine : ''} · study page →</a></div>
               <span class="pq-total">${q.parts.reduce((u, x) => u + x.marks, 0)} marks</span>
             </header>
-            ${q.setup ? `<p class="pq-setup">${q.setup}</p>` : ''}
+            ${q.sheet ? `<div class="pq-sheet"><span class="pq-sheet-k">Question ${q.n} as printed</span><p>${q.sheet}</p></div>` : (q.setup ? `<p class="pq-setup">${q.setup}</p>` : '')}
             ${q.parts.map(x => {
               const cont = x.l === lastL; lastL = x.l;
               return `<section class="pp">
