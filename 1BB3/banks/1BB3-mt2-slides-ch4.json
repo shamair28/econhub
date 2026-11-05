@@ -1,0 +1,857 @@
+{
+  "schema": "practice-bank/v1",
+  "id": "1BB3-mt2-slides-ch4",
+  "course": "ECON 1BB3",
+  "title": "Ch. 4 Lecture Slides",
+  "description": "Original exam-style questions based on Dr. Letendre's Chapter 4 slides (GDP: Measuring Total Production and Income) and the Week 4 lecture recap.",
+  "defaultSource": {
+    "label": "Ch. 4 Lecture Slides",
+    "kind": "slides"
+  },
+  "defaultUnit": 4,
+  "questions": [
+    {
+      "id": "s4-01",
+      "type": "mc",
+      "unit": 4,
+      "topic": "GDP definition",
+      "tags": [
+        "ch4",
+        "gdp-definition"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 3"
+      },
+      "prompt": "According to the slides, Gross Domestic Product (GDP) measures:",
+      "options": [
+        {
+          "id": "a",
+          "text": "the market value of all final goods and services produced within a country during a specific period, usually one year"
+        },
+        {
+          "id": "b",
+          "text": "the market value of all goods and services, final and intermediate, sold in a country during a year"
+        },
+        {
+          "id": "c",
+          "text": "the total quantity of goods produced by a country’s citizens, wherever they live"
+        },
+        {
+          "id": "d",
+          "text": "the total income received by a country’s residents, wherever it is earned"
+        }
+      ],
+      "answer": "a",
+      "explanation": "GDP = market value of **final** goods and services produced **within a country** in a period. Counting intermediate goods would double count; income received by residents wherever it is earned is GNI, and the slides use market value (prices) because different items cannot be added in quantities.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s4-02",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Intermediate goods",
+      "tags": [
+        "ch4",
+        "intermediate"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 4"
+      },
+      "prompt": "Which of the following is an intermediate good or service (and therefore NOT counted separately in GDP)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A hoodie purchased by a student"
+        },
+        {
+          "id": "b",
+          "text": "Cotton used by a manufacturer to make hoodies"
+        },
+        {
+          "id": "c",
+          "text": "A haircut purchased by a household"
+        },
+        {
+          "id": "d",
+          "text": "A new bridge built by a provincial government"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Intermediate goods and services are **used up in producing other goods and services** (cotton for hoodies, microchips for smartphones, coffee beans for your coffee). The hoodie, the haircut and the bridge are bought by final users, so they are final goods and services.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s4-03",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Location of production",
+      "tags": [
+        "ch4",
+        "gdp-definition",
+        "gni"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 5"
+      },
+      "prompt": "A Japanese-owned automaker produces 50,000 cars in a plant in Ontario, while a Canadian-owned firm produces 20,000 units in a plant in Mexico. Which statement about Canadian GDP is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both count, because GDP measures the output of Canadian-owned firms"
+        },
+        {
+          "id": "b",
+          "text": "Neither counts, because GDP counts only goods produced by Canadian-owned firms in Canada"
+        },
+        {
+          "id": "c",
+          "text": "The Ontario output counts in Canadian GDP; the Mexican output does not"
+        },
+        {
+          "id": "d",
+          "text": "Only the Mexican output counts, because it belongs to a Canadian firm"
+        }
+      ],
+      "answer": "c",
+      "explanation": "GDP measures **where output is produced, not who owns the production**. Production inside Canada counts whether the firm is Canadian or foreign; production outside Canada does not count in Canadian GDP even if a Canadian firm does it (that income is part of GNI instead).",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s4-04",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Circular flow",
+      "tags": [
+        "ch4",
+        "circular-flow"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 9"
+      },
+      "prompt": "In the circular flow of income (including government, trade and the financial system), GDP is still:",
+      "options": [
+        {
+          "id": "a",
+          "text": "total saving by households, which equals total taxes paid to government"
+        },
+        {
+          "id": "b",
+          "text": "total income minus total spending, which is a measure of the budget surplus"
+        },
+        {
+          "id": "c",
+          "text": "total spending on goods and services including intermediate goods"
+        },
+        {
+          "id": "d",
+          "text": "total spending on final goods and services, which equals total income in the economy"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Households supply labour and resources and receive income; firms produce and receive spending. Because everything produced and sold generates income, **total spending = total income = GDP**. Adding government, trade and finance does not change this.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s4-05",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Income approach",
+      "tags": [
+        "ch4",
+        "income-approach"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 11"
+      },
+      "prompt": "Which of the following is NOT one of the components of GDP in the income approach used by Statistics Canada?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Final consumption"
+        },
+        {
+          "id": "b",
+          "text": "Compensation of employees"
+        },
+        {
+          "id": "c",
+          "text": "Gross mixed income"
+        },
+        {
+          "id": "d",
+          "text": "Taxes less subsidies"
+        }
+      ],
+      "answer": "a",
+      "explanation": "The income approach has five components: **compensation of employees, gross operating surplus, gross mixed income, taxes less subsidies and a statistical discrepancy**. Final consumption is a component of the **expenditure** approach.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s4-06",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Income shares",
+      "tags": [
+        "ch4",
+        "income-approach"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 12"
+      },
+      "prompt": "Which income-approach component is the largest, and about what share of GDP does it represent?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gross operating surplus, about 51%"
+        },
+        {
+          "id": "b",
+          "text": "Compensation of employees, about 51%"
+        },
+        {
+          "id": "c",
+          "text": "Compensation of employees, about 26%"
+        },
+        {
+          "id": "d",
+          "text": "Gross mixed income, about 51%"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Compensation of employees (wages, salaries and employers’ social contributions) is about **51%** of GDP. Gross operating surplus is about 26%, gross mixed income 13% and taxes less subsidies 10%.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s4-07",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Income approach",
+      "tags": [
+        "ch4",
+        "income-approach"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 13"
+      },
+      "prompt": "A farmer who owns her farm and works it herself earns income that Statistics Canada cannot easily split into wages and profit. Under the income approach, it belongs to:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Compensation of employees"
+        },
+        {
+          "id": "b",
+          "text": "Gross operating surplus"
+        },
+        {
+          "id": "c",
+          "text": "Gross mixed income"
+        },
+        {
+          "id": "d",
+          "text": "Taxes less subsidies"
+        }
+      ],
+      "answer": "c",
+      "explanation": "**Gross mixed income** is the income of small business owners who both work in and own their business, so labour income and capital income are combined. Gross operating surplus is the income of owners of capital such as corporations; compensation of employees is paid to workers.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s4-08",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Income approach",
+      "tags": [
+        "ch4",
+        "income-approach"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 12"
+      },
+      "prompt": "Gross operating surplus (about 26% of GDP) is best described as:",
+      "options": [
+        {
+          "id": "a",
+          "text": "wages and salaries plus employers’ CPP and EI contributions"
+        },
+        {
+          "id": "b",
+          "text": "the net payment to government in taxes less subsidies"
+        },
+        {
+          "id": "c",
+          "text": "income received by households from transfer payments"
+        },
+        {
+          "id": "d",
+          "text": "income earned by the owners of capital, including net operating surplus and capital consumption (depreciation)"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Gross operating surplus is the **return to capital**: net operating surplus (profit) **plus consumption of fixed capital (depreciation)**. The word “gross” means depreciation has not been deducted.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s4-09",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Expenditure approach",
+      "tags": [
+        "ch4",
+        "expenditure-approach",
+        "investment"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 16"
+      },
+      "prompt": "Honda builds 1,000 cars in 2026 but sells only 900. The 100 unsold cars are counted in 2026 GDP as:",
+      "options": [
+        {
+          "id": "a",
+          "text": "investment in inventories"
+        },
+        {
+          "id": "b",
+          "text": "gross fixed capital formation"
+        },
+        {
+          "id": "c",
+          "text": "final consumption"
+        },
+        {
+          "id": "d",
+          "text": "a reduction in net exports"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Unsold output is **changes in stocks of finished goods held for sale**, i.e. **investment in inventories**. Gross fixed capital formation is purchases of fixed assets such as buildings and machinery. Counting the unsold cars keeps spending equal to production.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s4-10",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Expenditure approach",
+      "tags": [
+        "ch4",
+        "expenditure-approach"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 15"
+      },
+      "prompt": "Final consumption (the largest expenditure component, about 77% of GDP) includes purchases by:",
+      "options": [
+        {
+          "id": "a",
+          "text": "households only"
+        },
+        {
+          "id": "b",
+          "text": "households, government and non-profit organizations"
+        },
+        {
+          "id": "c",
+          "text": "households and firms only"
+        },
+        {
+          "id": "d",
+          "text": "households and foreigners only"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Final consumption = all domestic purchases of goods and services by final users, which includes **households, government and non-profits**. Gross fixed capital formation (about 22% of GDP) is the investment piece.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s4-11",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Y = C + I + G + Nx",
+      "tags": [
+        "ch4",
+        "expenditure-approach",
+        "macro-model"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 18"
+      },
+      "prompt": "In the simplified macro model Y = C + I + G + Nx, a provincial government builds a new hospital. This spending is counted in:",
+      "options": [
+        {
+          "id": "a",
+          "text": "I, because a hospital is a fixed asset, and investment is all fixed capital formation"
+        },
+        {
+          "id": "b",
+          "text": "C, because the hospital serves households"
+        },
+        {
+          "id": "c",
+          "text": "G, because government fixed capital formation is included in government spending"
+        },
+        {
+          "id": "d",
+          "text": "Nx, because the hospital will be used by foreign patients"
+        }
+      ],
+      "answer": "c",
+      "explanation": "In the macro models, spending is divided by **who does the spending**. **I** is spending by firms on fixed capital formation and inventories; **G** is fixed capital formation and final consumption done by **government**. The hospital is built by government, so it is G. (In the national-accounts version it would be gross fixed capital formation.)",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s4-12",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Net exports",
+      "tags": [
+        "ch4",
+        "expenditure-approach",
+        "net-exports"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 17"
+      },
+      "prompt": "A Canadian household buys a car imported from Japan for $40,000. The immediate effect on Canadian GDP (expenditure approach) is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "GDP rises by $40,000, because consumption rises"
+        },
+        {
+          "id": "b",
+          "text": "GDP falls by $40,000, because imports are subtracted"
+        },
+        {
+          "id": "c",
+          "text": "GDP rises by $80,000, because both consumption and imports rise"
+        },
+        {
+          "id": "d",
+          "text": "No change: consumption rises by $40,000 and net exports fall by $40,000"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Imports are spent on but not produced in Canada. Consumption rises by $40,000, but **Nx = exports − imports** falls by the same amount, so GDP is unchanged. (Net exports are negative when imports exceed exports; in 2024 they were less than half a percent of GDP.)",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s4-13",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Value added",
+      "tags": [
+        "ch4",
+        "value-added"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 20"
+      },
+      "prompt": "A miner sells ore to a diamond cutter for $500. The cutter sells polished diamonds to a jeweller for $900. The jeweller sells a ring to a customer for $1,600. What is the cutter’s value added (in dollars)?",
+      "answer": {
+        "value": 400,
+        "tolerance": 1,
+        "prefix": "$",
+        "display": "$400"
+      },
+      "explanation": "Value added = selling price − payments for intermediate goods = 900 − 500 = **$400**. The miner’s value added is $500 (assuming no inputs), the jeweller’s is 1,600 − 900 = $700. The sum 500 + 400 + 700 = **$1,600**, the final price that enters GDP."
+    },
+    {
+      "id": "s4-14",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Limits of GDP",
+      "tags": [
+        "ch4",
+        "limits",
+        "informal-economy"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 23"
+      },
+      "prompt": "According to the slides, which of the following is true of the informal economy in Canada?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It is estimated at about 11.3% of GDP (roughly $348 billion in 2024) and is not captured in measured GDP"
+        },
+        {
+          "id": "b",
+          "text": "It is estimated at about 1% of GDP and is fully captured by Statistics Canada"
+        },
+        {
+          "id": "c",
+          "text": "It consists only of illegal activities and excludes unreported legal work"
+        },
+        {
+          "id": "d",
+          "text": "It is estimated at over 50% of GDP, as in many developing countries"
+        }
+      ],
+      "answer": "a",
+      "explanation": "The informal economy covers **unreported or illegal production** hidden to avoid taxes or regulation, or because the activity is illegal. For Canada the slides cite about **11.3% of GDP (≈$348 billion in 2024)**. More than half of GDP is cited only for some developing countries.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s4-15",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Limits of GDP",
+      "tags": [
+        "ch4",
+        "limits",
+        "household-production"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 23"
+      },
+      "prompt": "A family that cleans its own house hires a cleaning company, which does exactly the same work for $200 a month. What happens to measured GDP and to total production?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Measured GDP is unchanged, because the same cleaning is being done"
+        },
+        {
+          "id": "b",
+          "text": "Measured GDP rises by $200 a month, while total production is unchanged"
+        },
+        {
+          "id": "c",
+          "text": "Measured GDP rises by $200, and total production rises by $200"
+        },
+        {
+          "id": "d",
+          "text": "Measured GDP falls, because the family now spends part of its income"
+        }
+      ],
+      "answer": "b",
+      "explanation": "**Household production** (unpaid cleaning, childcare, cooking) is not in GDP, but the same services bought in the market are. So measured GDP rises without any change in actual production. This is one reason GDP understates total production.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s4-16",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Limits of GDP",
+      "tags": [
+        "ch4",
+        "limits",
+        "well-being"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 24"
+      },
+      "prompt": "According to the slides, which of the following does GDP per capita NOT reflect when used as a measure of well-being?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The market value of final goods and services produced"
+        },
+        {
+          "id": "b",
+          "text": "The quantity of goods and services produced, valued at market prices"
+        },
+        {
+          "id": "c",
+          "text": "The distribution of income, leisure, pollution and crime"
+        },
+        {
+          "id": "d",
+          "text": "The value of production that takes place inside the country's borders"
+        }
+      ],
+      "answer": "c",
+      "explanation": "GDP is not a full measure of well-being: it does not reflect **leisure**, **pollution and other negative externalities**, **crime and social problems**, or the **distribution of income**. The other options describe what GDP does measure.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s4-17",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Real GDP",
+      "tags": [
+        "ch4",
+        "real-gdp"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 26"
+      },
+      "prompt": "Consider an economy with two goods and base year 2020. In 2020: 100 hoodies at $40 and 1,000 coffees at $3. In 2021: 110 hoodies at $50 and 1,000 coffees at $4. What is real GDP in 2021 (in 2020 dollars)?",
+      "answer": {
+        "value": 7400,
+        "tolerance": 1,
+        "prefix": "$",
+        "display": "$7,400"
+      },
+      "explanation": "Real GDP values current quantities at **base-year prices**: 110 × $40 + 1,000 × $3 = 4,400 + 3,000 = **$7,400**. (Nominal GDP in 2021 is 110×50 + 1,000×4 = $9,500, which includes the price increases.)"
+    },
+    {
+      "id": "s4-18",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Real GDP growth",
+      "tags": [
+        "ch4",
+        "real-gdp",
+        "growth-rate"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 26"
+      },
+      "prompt": "Using the same economy (base year 2020: 100 hoodies at $40 and 1,000 coffees at $3 in 2020; 110 hoodies at $50 and 1,000 coffees at $4 in 2021), what is the growth rate of real GDP between 2020 and 2021 (in percent, one decimal)?",
+      "answer": {
+        "value": 5.7,
+        "tolerance": 0.1,
+        "suffix": "%",
+        "display": "5.7%"
+      },
+      "explanation": "Real GDP 2020 = 100×40 + 1,000×3 = $7,000 (the base year, so equal to nominal). Real GDP 2021 = $7,400. Growth = (7,400 − 7,000) ÷ 7,000 × 100 = **5.7%**. Using nominal GDP (7,000 → 9,500, +35.7%) would wrongly mix in price changes."
+    },
+    {
+      "id": "s4-19",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Chain weighting",
+      "tags": [
+        "ch4",
+        "real-gdp",
+        "chain-weighting"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 25"
+      },
+      "prompt": "Why does Statistics Canada use chain-weighted prices rather than fixed base-year prices to compute real GDP?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fixed base-year prices make real GDP always equal nominal GDP"
+        },
+        {
+          "id": "b",
+          "text": "Chain weighting removes the need to measure quantities"
+        },
+        {
+          "id": "c",
+          "text": "Chain weighting keeps the GDP deflator constant at 100"
+        },
+        {
+          "id": "d",
+          "text": "Fixed base-year prices can distort real GDP as relative prices change over time; chaining links prices across years using average prices"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Over time, relative prices change (e.g. computers get cheaper), so valuing output at old fixed prices distorts real GDP. **Chain weighting** links prices across years using average prices, preserving purchasing power and reducing the distortion.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s4-20",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Nominal vs real",
+      "tags": [
+        "ch4",
+        "real-gdp",
+        "nominal-gdp",
+        "base-year"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 29"
+      },
+      "prompt": "Real GDP is measured in 2017 dollars and prices rise every year. Which statement is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Before 2017 real GDP is greater than nominal GDP; in 2017 they are equal; after 2017 nominal GDP is greater than real GDP"
+        },
+        {
+          "id": "b",
+          "text": "Before 2017 nominal GDP is greater than real GDP; after 2017 real GDP is greater than nominal GDP"
+        },
+        {
+          "id": "c",
+          "text": "Nominal GDP is greater than real GDP in every year"
+        },
+        {
+          "id": "d",
+          "text": "Real GDP and nominal GDP are equal in every year because both measure production"
+        }
+      ],
+      "answer": "a",
+      "explanation": "In the base year the two measures coincide. **After** the base year prices are higher than base-year prices, so **nominal > real**; **before** it prices were lower, so **real > nominal**. (The deflator is below 100 before the base year, 100 in it and above 100 after.)",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s4-21",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "GDP deflator",
+      "tags": [
+        "ch4",
+        "deflator"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 30"
+      },
+      "prompt": "In the economy above (nominal GDP in 2021 = $9,500; real GDP in 2021 = $7,400 in 2020 dollars), what is the GDP deflator for 2021 (one decimal)?",
+      "answer": {
+        "value": 128.4,
+        "tolerance": 0.1,
+        "display": "128.4"
+      },
+      "explanation": "GDP deflator = Nominal GDP ÷ Real GDP × 100 = 9,500 ÷ 7,400 × 100 = **128.4**. In the base year (2020) the deflator is 100, so prices are 28.4% above their 2020 level."
+    },
+    {
+      "id": "s4-22",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Inflation from deflator",
+      "tags": [
+        "ch4",
+        "deflator",
+        "inflation"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 30"
+      },
+      "prompt": "The GDP deflator is 112.0 in one year and 117.6 the next. By how much did the price level rise (in percent)?",
+      "answer": {
+        "value": 5,
+        "tolerance": 0.05,
+        "suffix": "%",
+        "display": "5%"
+      },
+      "explanation": "Percentage change = (117.6 − 112.0) ÷ 112.0 × 100 = 5.6 ÷ 112 × 100 = **5.0%**. The slides do the same with 123.8 → 127.2, a 2.7% rise in the price level."
+    },
+    {
+      "id": "s4-23",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Income measures",
+      "tags": [
+        "ch4",
+        "national-income",
+        "household-income"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 31"
+      },
+      "prompt": "Net National Income (NNI) and Household Disposable Income are, respectively:",
+      "options": [
+        {
+          "id": "a",
+          "text": "GDP minus imports; household income plus transfer payments"
+        },
+        {
+          "id": "b",
+          "text": "GNI minus consumption of fixed capital (depreciation); household income minus personal tax payments"
+        },
+        {
+          "id": "c",
+          "text": "GNI plus depreciation; household income minus firms’ retained earnings"
+        },
+        {
+          "id": "d",
+          "text": "GDP minus government spending; household income minus consumption"
+        }
+      ],
+      "answer": "b",
+      "explanation": "NNI = **GNI − depreciation**, so it is smaller than GNI. Household disposable income = **household income − personal taxes**, so it is smaller than household income and is the best measure of the income households actually have to spend.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s4-24",
+      "type": "mc",
+      "unit": 4,
+      "topic": "GDP vs GNI",
+      "tags": [
+        "ch4",
+        "gni"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 31"
+      },
+      "prompt": "A Canadian-owned mining company operating only in Chile sends $100 million of profit to its Canadian shareholders. Relative to a year with no such profit, this:",
+      "options": [
+        {
+          "id": "a",
+          "text": "raises Canadian GDP by $100 million but leaves Canadian GNI unchanged"
+        },
+        {
+          "id": "b",
+          "text": "raises both Canadian GDP and Canadian GNI by $100 million"
+        },
+        {
+          "id": "c",
+          "text": "raises Canadian GNI by $100 million but leaves Canadian GDP unchanged"
+        },
+        {
+          "id": "d",
+          "text": "has no effect on either, because the production happened in Chile"
+        }
+      ],
+      "answer": "c",
+      "explanation": "**GDP** counts production inside Canada, so Chilean output is not in Canadian GDP. **GNI** counts the incomes received by Canadians for the use of their factors of production **no matter where the production occurs**, so the profit received by Canadian owners raises GNI.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s4-25",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Deflators",
+      "tags": [
+        "ch4",
+        "deflator"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 8",
+        "label": "Week 4 Lecture"
+      },
+      "prompt": "For the data exercise in the Week 4 lecture, you download nominal and real Personal Consumption Expenditure (PCE) from FRED. How do you compute the PCE deflator?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Real PCE divided by nominal PCE, times 100"
+        },
+        {
+          "id": "b",
+          "text": "Nominal PCE minus real PCE"
+        },
+        {
+          "id": "c",
+          "text": "The percentage change of nominal PCE from the previous year"
+        },
+        {
+          "id": "d",
+          "text": "Nominal PCE divided by real PCE, times 100"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Any deflator = **(nominal ÷ real) × 100**; the PCE deflator is the price level for consumption spending, the same way the GDP deflator is the price level for all final goods and services.",
+      "shuffleOptions": true
+    }
+  ]
+}

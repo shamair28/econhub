@@ -1,0 +1,2875 @@
+{
+ "schema": "practice-bank/v1",
+ "id": "1BB3-mt2-text-ch8",
+ "course": "ECON 1BB3",
+ "title": "Textbook Problems · Ch 8",
+ "description": "Auto-gradable versions of the Chapter 8 (Aggregate Expenditure and Output in the Short Run) review questions and problems, with the appendix algebra problems. Answers worked independently (no official key).",
+ "defaultSource": {
+  "label": "Textbook Problems",
+  "kind": "textbook"
+ },
+ "defaultUnit": 8,
+ "scenarios": {
+  "ch8-1.4": {
+   "title": "Problem 1.4 — Categories of expenditure",
+   "body": "Into which category of aggregate expenditure does each of the following transactions fall?"
+  },
+  "ch8-2.5": {
+   "title": "Problem 2.5 — Tim Hortons demand forecast",
+   "body": "Suppose Tim Hortons is forecasting demand for its products during the next year. How will the forecast be affected by each of the following?"
+  },
+  "ch8-2.6": {
+   "title": "Problem 2.6 — Consumption function: movement vs shift",
+   "body": "Consider the consumption function (consumption on the vertical axis, disposable income on the horizontal axis)."
+  },
+  "ch8-2.9": {
+   "title": "Problem 2.9 — Consumption and saving table",
+   "body": "Fill in the blanks in the following table. Assume taxes are zero. Values are billions of 2017 dollars. Consumption rises by $75 when GDP increases by $100.",
+   "table": {
+    "caption": "Problem 2.9",
+    "headers": [
+     "Real GDP (Y)",
+     "Consumption (C)",
+     "Saving (S)",
+     "MPC",
+     "MPS"
+    ],
+    "rows": [
+     [
+      "900",
+      "$800",
+      "?",
+      "—",
+      "—"
+     ],
+     [
+      "1000",
+      "$875",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "1100",
+      "$950",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "1200",
+      "$1025",
+      "?",
+      "?",
+      "?"
+     ],
+     [
+      "1300",
+      "$1100",
+      "?",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  "ch8-2.12": {
+   "title": "Problem 2.12 — Conventional trade statistics",
+   "body": "Angel Gurría (OECD) observed: 'As goods and services cross borders several times at different stages of processing, conventional trade statistics may not tell the whole story.'"
+  },
+  "ch8-3.6": {
+   "title": "Problem 3.6 — Reading the 45°-line diagram",
+   "body": "The graph shows a 45° line and three points. At point A the graph is labelled 'unintended decrease in inventories', point B is on the line, and point C is labelled 'unintended increase in inventories'. (So A lies above the 45° line, where AE > GDP, and C lies below it, where AE < GDP.)"
+  },
+  "ch8-3.8": {
+   "title": "Problem 3.8 — Inventory investment, 2007–2013",
+   "body": "Business investment in inventories (millions of 2007 dollars), by quarter. Provide a macroeconomic explanation for the pattern (Canada's recession ran from about late 2008 to mid-2009).",
+   "table": {
+    "caption": "Inventory investment (millions of 2007 dollars)",
+    "headers": [
+     "Year",
+     "Q1",
+     "Q2",
+     "Q3",
+     "Q4"
+    ],
+    "rows": [
+     [
+      "2007",
+      "3,360",
+      "−2,822",
+      "15,570",
+      "19,644"
+     ],
+     [
+      "2008",
+      "6,061",
+      "9,512",
+      "11,856",
+      "4,699"
+     ],
+     [
+      "2009",
+      "−2,364",
+      "−7,779",
+      "−4,807",
+      "−4,807"
+     ],
+     [
+      "2010",
+      "2,663",
+      "−2,508",
+      "4,841",
+      "−6,805"
+     ],
+     [
+      "2011",
+      "8,965",
+      "12,153",
+      "6,462",
+      "2,179"
+     ],
+     [
+      "2012",
+      "2,061",
+      "7,298",
+      "14,091",
+      "3,875"
+     ],
+     [
+      "2013",
+      "6,031",
+      "",
+      "",
+      ""
+     ]
+    ]
+   }
+  },
+  "ch8-3.9": {
+   "title": "Problem 3.9 — Finding equilibrium from a table",
+   "body": "Assume the MPC does not change as real GDP changes. Values are billions of 2017 dollars. I<sub>p</sub> = 120, G = 120, NX = −40 at every level of GDP; C = 760 at Y = 900 and 840 at Y = 1000.",
+   "table": {
+    "caption": "Problem 3.9",
+    "headers": [
+     "Real GDP (Y)",
+     "C",
+     "I<sub>p</sub>",
+     "G",
+     "NX",
+     "AE",
+     "Unplanned inventory change"
+    ],
+    "rows": [
+     [
+      "900",
+      "760",
+      "120",
+      "120",
+      "−40",
+      "?",
+      "?"
+     ],
+     [
+      "1000",
+      "840",
+      "120",
+      "120",
+      "−40",
+      "?",
+      "?"
+     ],
+     [
+      "1100",
+      "?",
+      "120",
+      "120",
+      "−40",
+      "?",
+      "?"
+     ],
+     [
+      "1200",
+      "?",
+      "120",
+      "120",
+      "−40",
+      "?",
+      "?"
+     ],
+     [
+      "1300",
+      "?",
+      "120",
+      "120",
+      "−40",
+      "?",
+      "?"
+     ]
+    ]
+   }
+  },
+  "ch8-4.3": {
+   "title": "Problem 4.3 — Autonomous vs induced changes",
+   "body": "The graph shows two parallel AE lines, AE₁ (lower) and AE₂ (higher). Point A is on AE₁, point B is on AE₁ at a higher GDP, and point C is on AE₂ at a higher GDP than B."
+  },
+  "ch8-4.4": {
+   "title": "Problem 4.4 — Is real GDP of 3,250 an equilibrium?",
+   "body": "In Figure 8.12 the economy is initially in equilibrium at A (GDP = 3,000). An increase in investment of $250 billion raises aggregate expenditure to $3,250 billion at that GDP (Figure 8.12 shows the new equilibrium at B, GDP = 3,500, so the multiplier is 2 and MPC = 0.5)."
+  },
+  "ch8-4.5": {
+   "title": "Problem 4.5 — Equilibrium and multiplier from a table",
+   "body": "Values are billions of 2017 dollars. I<sub>p</sub> = 100, G = 100, NX = −50 at every level of GDP.",
+   "table": {
+    "caption": "Problem 4.5",
+    "headers": [
+     "Real GDP (Y)",
+     "C",
+     "I<sub>p</sub>",
+     "G",
+     "NX"
+    ],
+    "rows": [
+     [
+      "800",
+      "730",
+      "100",
+      "100",
+      "−50"
+     ],
+     [
+      "900",
+      "790",
+      "100",
+      "100",
+      "−50"
+     ],
+     [
+      "1000",
+      "850",
+      "100",
+      "100",
+      "−50"
+     ],
+     [
+      "1100",
+      "910",
+      "100",
+      "100",
+      "−50"
+     ],
+     [
+      "1200",
+      "970",
+      "100",
+      "100",
+      "−50"
+     ]
+    ]
+   }
+  },
+  "ch8-4.6": {
+   "title": "Problem 4.6 — MPC 0.75 and investment",
+   "body": "The marginal propensity to consume is 0.75, and planned investment spending increases by $40 billion."
+  },
+  "ch8-4.7": {
+   "title": "Problem 4.7 — What changes the size of the multiplier?",
+   "body": "Explain whether each of the following would cause the value of the multiplier to be larger or smaller. (True/False: the statement 'the multiplier would be…' is given in each part.)"
+  },
+  "ch8-4.12": {
+   "title": "Problem 4.12 — Tesla's Ontario factory",
+   "body": "Suppose Tesla decides to build a new factory in Ontario to assemble its Cybertruck."
+  },
+  "ch8-8A.3": {
+   "title": "Problem 8A.3 — AE function and inventories",
+   "body": "For the model in 8A.2 (C = 150 + 0.75Y, I<sub>p</sub> = 100, G = 100, NX = 25), the AE function is AE = 375 + 0.75Y."
+  }
+ },
+ "groups": {
+  "ch8-1.4": {
+   "ref": "Ch 8 · Problem 1.4",
+   "title": "Categories of expenditure"
+  },
+  "ch8-2.5": {
+   "ref": "Ch 8 · Problem 2.5",
+   "title": "Tim Hortons demand forecast"
+  },
+  "ch8-2.6": {
+   "ref": "Ch 8 · Problem 2.6",
+   "title": "Consumption function: movement vs shift"
+  },
+  "ch8-2.9": {
+   "ref": "Ch 8 · Problem 2.9",
+   "title": "Consumption and saving table"
+  },
+  "ch8-2.12": {
+   "ref": "Ch 8 · Problem 2.12",
+   "title": "Conventional trade statistics"
+  },
+  "ch8-3.6": {
+   "ref": "Ch 8 · Problem 3.6",
+   "title": "Reading the 45°-line diagram"
+  },
+  "ch8-3.9": {
+   "ref": "Ch 8 · Problem 3.9",
+   "title": "Finding equilibrium from a table"
+  },
+  "ch8-4.3": {
+   "ref": "Ch 8 · Problem 4.3",
+   "title": "Autonomous vs induced changes"
+  },
+  "ch8-4.4": {
+   "ref": "Ch 8 · Problem 4.4",
+   "title": "Is real GDP of 3,250 an equilibrium?"
+  },
+  "ch8-4.5": {
+   "ref": "Ch 8 · Problem 4.5",
+   "title": "Equilibrium and multiplier from a table"
+  },
+  "ch8-4.6": {
+   "ref": "Ch 8 · Problem 4.6",
+   "title": "MPC 0.75 and investment"
+  },
+  "ch8-4.7": {
+   "ref": "Ch 8 · Problem 4.7",
+   "title": "What changes the size of the multiplier?"
+  },
+  "ch8-4.12": {
+   "ref": "Ch 8 · Problem 4.12",
+   "title": "Tesla's Ontario factory"
+  },
+  "ch8-8A.3": {
+   "ref": "Ch 8 · Problem 8A.3",
+   "title": "AE function and inventories"
+  }
+ },
+ "questions": [
+  {
+   "id": "t8-r1.1",
+   "type": "mc",
+   "unit": 8,
+   "topic": "AE model key idea",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Review Q 1.1"
+   },
+   "prompt": "What is the key idea in the aggregate expenditure macroeconomic model?",
+   "options": [
+    {
+     "id": "a",
+     "text": "In the short run, with the price level fixed, the level of total (planned) spending determines the level of real GDP"
+    },
+    {
+     "id": "b",
+     "text": "In the short run, changes in the price level adjust to make planned spending equal to potential GDP"
+    },
+    {
+     "id": "c",
+     "text": "Real GDP is determined only by the supply of labour, capital and technology"
+    },
+    {
+     "id": "d",
+     "text": "Real GDP always equals potential GDP because prices adjust immediately"
+    }
+   ],
+   "answer": "a",
+   "explanation": "The AE model is a **short-run model that holds the price level constant**: total planned spending (C + I<sub>p</sub> + G + NX) determines real GDP. When spending differs from output, firms see unplanned inventory changes and adjust production, not prices.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-r1.2",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Inventories",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Review Q 1.2"
+   },
+   "prompt": "What are inventories, and what usually happens to them at the beginning of a recession and at the beginning of an expansion?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Goods produced but not yet sold; they fall unexpectedly at the start of a recession and build up at the start of an expansion"
+    },
+    {
+     "id": "b",
+     "text": "Goods produced but not yet sold; they build up unexpectedly at the start of a recession (sales fall short of expectations) and fall unexpectedly at the start of an expansion"
+    },
+    {
+     "id": "c",
+     "text": "Raw materials bought by firms; they are unchanged over the business cycle"
+    },
+    {
+     "id": "d",
+     "text": "Goods already sold but not yet delivered; they rise in both a recession and an expansion"
+    }
+   ],
+   "answer": "b",
+   "explanation": "**Inventories are goods that have been produced but not yet sold.** When a recession starts, sales drop below what firms expected, so unsold goods pile up (unplanned inventory increase). At the start of an expansion sales exceed expectations and firms' inventories are run down unexpectedly.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-r1.3",
+   "type": "mc",
+   "unit": 8,
+   "topic": "AE model scope",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Review Q 1.3",
+    "note": "The textbook answer is 'the business cycle'; cyclical unemployment is a by-product of the same fluctuations."
+   },
+   "prompt": "Which of the following does the aggregate expenditure model seek to explain?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Long-run economic growth"
+    },
+    {
+     "id": "b",
+     "text": "Inflation (the price level is assumed fixed in this model)"
+    },
+    {
+     "id": "c",
+     "text": "The business cycle (short-run fluctuations in real GDP, and the cyclical unemployment that goes with them)"
+    },
+    {
+     "id": "d",
+     "text": "The natural rate of unemployment"
+    }
+   ],
+   "answer": "c",
+   "explanation": "With the price level held constant, the AE model explains **short-run fluctuations in real GDP, i.e. the business cycle**, and so cyclical unemployment. Long-run growth depends on supply-side factors, and inflation requires letting the price level move (AD–AS, later).",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-1.4a",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Expenditure categories",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 1.4"
+   },
+   "prompt": "a. The Jones family buys a new car.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Planned investment (I<sub>p</sub>)"
+    },
+    {
+     "id": "b",
+     "text": "Government purchases (G)"
+    },
+    {
+     "id": "c",
+     "text": "Net exports (NX)"
+    },
+    {
+     "id": "d",
+     "text": "Consumption (C)"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Household purchases of newly produced goods (even big ones like cars) are **consumption**. Only new houses count as household 'investment'.",
+   "shuffleOptions": true,
+   "group": "ch8-1.4",
+   "scenario": "ch8-1.4"
+  },
+  {
+   "id": "t8-1.4b",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Expenditure categories",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 1.4"
+   },
+   "prompt": "b. The Toronto District School Board buys 12 new school buses.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Government purchases (G)"
+    },
+    {
+     "id": "b",
+     "text": "Consumption (C)"
+    },
+    {
+     "id": "c",
+     "text": "Planned investment (I<sub>p</sub>)"
+    },
+    {
+     "id": "d",
+     "text": "Net exports (NX)"
+    }
+   ],
+   "answer": "a",
+   "explanation": "School boards are part of government; their purchases of goods and services are **government purchases**.",
+   "shuffleOptions": true,
+   "group": "ch8-1.4",
+   "scenario": "ch8-1.4"
+  },
+  {
+   "id": "t8-1.4c",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Expenditure categories",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 1.4"
+   },
+   "prompt": "c. The Jones family buys a newly constructed house from the Garcia Construction Co.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Consumption (C)"
+    },
+    {
+     "id": "b",
+     "text": "Planned investment (I<sub>p</sub>)"
+    },
+    {
+     "id": "c",
+     "text": "Government purchases (G)"
+    },
+    {
+     "id": "d",
+     "text": "Net exports (NX)"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Newly constructed housing is counted as **investment** (spending on new capital), not consumption.",
+   "shuffleOptions": true,
+   "group": "ch8-1.4",
+   "scenario": "ch8-1.4"
+  },
+  {
+   "id": "t8-1.6",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Inventories vs AE",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 1.6"
+   },
+   "prompt": "Between October and December 2021, inventories increased by roughly $2.5 billion. Can we tell from this whether aggregate expenditure was higher or lower than GDP in those three months?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Yes. Inventories rose, so AE was lower than GDP"
+    },
+    {
+     "id": "b",
+     "text": "Yes. Inventories rose, so AE was higher than GDP"
+    },
+    {
+     "id": "c",
+     "text": "No. We would also need to know how much of the increase was planned versus unplanned; only an unplanned increase means AE &lt; GDP"
+    },
+    {
+     "id": "d",
+     "text": "No. Inventory changes tell us nothing about the relationship between AE and GDP under any circumstances"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Actual investment = planned investment + **unplanned** change in inventories. Firms may deliberately build inventories (planned investment, already in AE). Only the **unplanned** part signals AE &lt; GDP, so we need the planned versus unplanned breakdown.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-1.7",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Planned vs unplanned inventories",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 8 · Problem 1.7"
+   },
+   "prompt": "In late 2014 Japanese firms' inventories rose because the drop in demand was 'bigger than expected'. Does it matter that firms didn't expect the drop? Won't a decline in demand always raise inventories?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It doesn't matter: any fall in demand automatically raises inventories by the same amount"
+    },
+    {
+     "id": "b",
+     "text": "It matters only for exports, not for domestic sales"
+    },
+    {
+     "id": "c",
+     "text": "It doesn't matter: firms never adjust production in the short run"
+    },
+    {
+     "id": "d",
+     "text": "It matters: only an unexpected shortfall in sales raises inventories involuntarily; if firms foresee lower demand they cut production and inventories need not rise"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Unplanned inventory investment is the signal that production must fall. If firms **anticipate** weaker demand they cut output ahead of time, so inventories needn't build up. Hence a decline in demand does not always produce an inventory increase; the **unexpected** part does.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-r2.1",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Determinants of AE",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Review Q 2.1"
+   },
+   "prompt": "In the AE model, why is it important to know the factors that determine consumption, investment, government purchases and net exports?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Changes in these factors change aggregate expenditure and therefore equilibrium real GDP, so they let us predict (and respond to) fluctuations in GDP"
+    },
+    {
+     "id": "b",
+     "text": "They are needed only to measure last year's GDP, not to explain changes in it"
+    },
+    {
+     "id": "c",
+     "text": "Because they determine the price level, which is the key variable in the model"
+    },
+    {
+     "id": "d",
+     "text": "Because they fix potential GDP in the short run"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Real GDP is determined by AE = C + I<sub>p</sub> + G + NX, so understanding **what shifts each component** lets us forecast how a shock changes equilibrium GDP.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-r2.2",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Categories of AE",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Review Q 2.2"
+   },
+   "prompt": "Which list gives one example of each of the four categories of aggregate expenditure (C, I<sub>p</sub>, G, NX)?",
+   "options": [
+    {
+     "id": "a",
+     "text": "A household buys a new house; a firm buys shares of stock; a city pays pensions to retirees; a Canadian buys a US car"
+    },
+    {
+     "id": "b",
+     "text": "A household buys a TV; a firm buys a new machine; a city buys snow ploughs; Canadian lumber is sold to the US (an export)"
+    },
+    {
+     "id": "c",
+     "text": "A household buys a used car; a firm hires workers; the federal government pays EI benefits; a Canadian sells shares abroad"
+    },
+    {
+     "id": "d",
+     "text": "A household buys a TV; a firm buys corporate bonds; the government pays student grants; Canada imports oil"
+    }
+   ],
+   "answer": "b",
+   "explanation": "C = household purchases of goods/services; I<sub>p</sub> = firm purchases of capital goods (and new housing); G = government purchases of goods and services (**not transfers**); NX = exports − imports. Stocks, bonds, used goods and transfer payments are not any of these.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-r2.3",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Determinants of investment",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Review Q 2.3"
+   },
+   "prompt": "What are the main determinants of planned investment, and how does a change in interest rates affect it?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Current disposable income, wealth, the price level and the exchange rate; a higher interest rate raises investment"
+    },
+    {
+     "id": "b",
+     "text": "The exchange rate, foreign GDP and relative prices; interest rates have no effect"
+    },
+    {
+     "id": "c",
+     "text": "Expectations of future profitability, the real interest rate, taxes and cash flow; a higher real interest rate reduces investment, a lower one increases it"
+    },
+    {
+     "id": "d",
+     "text": "Expectations, taxes, cash flow and the MPC; a higher interest rate raises investment because it raises returns on savings"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Planned investment depends on **expected profitability, the real interest rate, taxes and cash flow**. Higher real interest rates raise the cost of borrowing, so fewer projects are profitable and investment falls.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-r2.4",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Determinants of net exports",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Review Q 2.4"
+   },
+   "prompt": "What are the three main determinants of net exports? How would an increase in the growth rate of GDP in developing countries affect Canadian net exports?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Relative price levels, relative GDP growth rates and the exchange rate; faster growth abroad raises Canadian imports, so net exports fall"
+    },
+    {
+     "id": "b",
+     "text": "Canadian disposable income, wealth and interest rates; faster growth abroad has no effect"
+    },
+    {
+     "id": "c",
+     "text": "Relative price levels, taxes and cash flow; faster growth abroad lowers Canadian exports"
+    },
+    {
+     "id": "d",
+     "text": "Relative price levels, relative GDP growth rates and the exchange rate; faster growth abroad raises foreign demand for Canadian goods, so Canadian net exports rise"
+    }
+   ],
+   "answer": "d",
+   "explanation": "NX depends on **Canadian vs foreign price levels, Canadian vs foreign GDP growth, and the exchange rate**. Faster growth abroad raises foreign incomes, increasing demand for Canadian exports (and not Canadian imports), so NX rises.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-2.5a",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Shifts in AE",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 2.5"
+   },
+   "prompt": "a. A survey shows a sharp rise in consumer confidence that income growth will be increasing.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The forecast of demand will be revised upward"
+    },
+    {
+     "id": "b",
+     "text": "The forecast of demand will be revised downward"
+    },
+    {
+     "id": "c",
+     "text": "The forecast is unaffected"
+    },
+    {
+     "id": "d",
+     "text": "Cannot be determined without knowing the MPC"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Higher expected future income raises consumption now, so demand for Tim Hortons' products is forecast to **rise**.",
+   "shuffleOptions": true,
+   "group": "ch8-2.5",
+   "scenario": "ch8-2.5"
+  },
+  {
+   "id": "t8-2.5b",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Shifts in AE",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 2.5"
+   },
+   "prompt": "b. Real interest rates are expected to increase.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The forecast of demand will be revised upward"
+    },
+    {
+     "id": "b",
+     "text": "The forecast of demand will be revised downward"
+    },
+    {
+     "id": "c",
+     "text": "The forecast is unaffected"
+    },
+    {
+     "id": "d",
+     "text": "Cannot be determined without knowing the MPC"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Higher real interest rates reduce consumption of durables and discourage investment, lowering spending: forecast **down**.",
+   "shuffleOptions": true,
+   "group": "ch8-2.5",
+   "scenario": "ch8-2.5"
+  },
+  {
+   "id": "t8-2.5c",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Shifts in AE",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 2.5",
+    "note": "Textbook reasoning runs through net exports; for a domestic coffee chain the effect is indirect."
+   },
+   "prompt": "c. The exchange rate value of the Canadian dollar is expected to increase.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The forecast of demand will be revised upward"
+    },
+    {
+     "id": "b",
+     "text": "The forecast is unaffected"
+    },
+    {
+     "id": "c",
+     "text": "The forecast of demand will be revised downward"
+    },
+    {
+     "id": "d",
+     "text": "Cannot be determined without knowing the MPC"
+    }
+   ],
+   "answer": "c",
+   "explanation": "A higher Canadian dollar makes Canadian goods more expensive abroad and imports cheaper, so NX falls and aggregate spending on Canadian-produced goods falls: forecast **down**.",
+   "shuffleOptions": true,
+   "group": "ch8-2.5",
+   "scenario": "ch8-2.5"
+  },
+  {
+   "id": "t8-2.5d",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Shifts in AE",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 2.5"
+   },
+   "prompt": "d. Planned investment spending in the economy is expected to decrease.",
+   "options": [
+    {
+     "id": "a",
+     "text": "The forecast of demand will be revised upward"
+    },
+    {
+     "id": "b",
+     "text": "The forecast is unaffected"
+    },
+    {
+     "id": "c",
+     "text": "Cannot be determined without knowing the MPC"
+    },
+    {
+     "id": "d",
+     "text": "The forecast of demand will be revised downward"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Lower I<sub>p</sub> reduces AE and (through the multiplier) income, so spending on Tim Hortons' products is forecast to fall.",
+   "shuffleOptions": true,
+   "group": "ch8-2.5",
+   "scenario": "ch8-2.5"
+  },
+  {
+   "id": "t8-2.6a",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Consumption function",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 2.6"
+   },
+   "prompt": "a. An increase in current income causes…",
+   "options": [
+    {
+     "id": "a",
+     "text": "A movement along the consumption function (to a higher point on the same line)"
+    },
+    {
+     "id": "b",
+     "text": "An upward shift of the consumption function"
+    },
+    {
+     "id": "c",
+     "text": "A downward shift of the consumption function"
+    },
+    {
+     "id": "d",
+     "text": "A change in the slope (the MPC)"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Income is the variable on the horizontal axis, so a change in it moves us **along** the consumption function. The slope is the MPC.",
+   "shuffleOptions": true,
+   "group": "ch8-2.6",
+   "scenario": "ch8-2.6"
+  },
+  {
+   "id": "t8-2.6b",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Consumption function",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 2.6"
+   },
+   "prompt": "b. An increase in expected future income or in household wealth causes…",
+   "options": [
+    {
+     "id": "a",
+     "text": "A movement up along the same consumption function"
+    },
+    {
+     "id": "b",
+     "text": "An upward shift of the consumption function (more consumption at every level of current income)"
+    },
+    {
+     "id": "c",
+     "text": "A downward shift of the consumption function"
+    },
+    {
+     "id": "d",
+     "text": "No change, because only current income affects consumption"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Expected future income and wealth are determinants of consumption **other than current income**, so changing them **shifts** the whole function up.",
+   "shuffleOptions": true,
+   "group": "ch8-2.6",
+   "scenario": "ch8-2.6"
+  },
+  {
+   "id": "t8-2.7",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Employment insurance",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 2.7"
+   },
+   "prompt": "Does the existence of employment insurance make it likely that consumption will fluctuate more or less over the business cycle than without it?",
+   "options": [
+    {
+     "id": "a",
+     "text": "More: EI encourages workers to quit, so consumption is more volatile"
+    },
+    {
+     "id": "b",
+     "text": "More: EI payments are counted as government purchases"
+    },
+    {
+     "id": "c",
+     "text": "Less: EI payments support the disposable income of unemployed workers, so their consumption falls by less in a recession"
+    },
+    {
+     "id": "d",
+     "text": "No difference: consumption depends only on the interest rate"
+    }
+   ],
+   "answer": "c",
+   "explanation": "EI is a transfer that props up disposable income when output and jobs fall, so **consumption fluctuates less** (an automatic stabilizer).",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-2.8",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Consumer confidence",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 2.8"
+   },
+   "prompt": "Why might a small business owner pay for detailed consumer confidence data (such as the Consumer Confidence Index)?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Confidence data directly measure the firm's profit"
+    },
+    {
+     "id": "b",
+     "text": "Confidence affects only government purchases"
+    },
+    {
+     "id": "c",
+     "text": "Because consumer confidence always predicts GDP perfectly"
+    },
+    {
+     "id": "d",
+     "text": "Confidence affects expected future income and hence consumption, so the data help the owner forecast demand for the firm's products"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Expectations of future income are a **determinant of consumption**; the index helps the owner forecast spending (and plan inventory, hiring, etc.).",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-2.9a",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "Saving",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 2.9"
+   },
+   "prompt": "a. Saving when Y = 900 (billions).",
+   "answer": {
+    "value": 100,
+    "tolerance": 0.5,
+    "hint": "billions of dollars"
+   },
+   "explanation": "With taxes zero, S = Y − C = 900 − 800 = **100**.",
+   "group": "ch8-2.9",
+   "scenario": "ch8-2.9"
+  },
+  {
+   "id": "t8-2.9b",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "Saving",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 2.9"
+   },
+   "prompt": "b. Saving when Y = 1100 (billions).",
+   "answer": {
+    "value": 150,
+    "tolerance": 0.5
+   },
+   "explanation": "S = 1100 − 950 = **150**.",
+   "group": "ch8-2.9",
+   "scenario": "ch8-2.9"
+  },
+  {
+   "id": "t8-2.9c",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "Saving",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 2.9"
+   },
+   "prompt": "c. Saving when Y = 1300 (billions).",
+   "answer": {
+    "value": 200,
+    "tolerance": 0.5
+   },
+   "explanation": "S = 1300 − 1100 = **200**.",
+   "group": "ch8-2.9",
+   "scenario": "ch8-2.9"
+  },
+  {
+   "id": "t8-2.9d",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "MPC",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 2.9"
+   },
+   "prompt": "d. What is the MPC (same in every row)?",
+   "answer": {
+    "value": 0.75,
+    "tolerance": 0.005
+   },
+   "explanation": "MPC = ΔC/ΔY = 75/100 = **0.75** (e.g. 875 − 800 = 75; 1100 − 1025 = 75).",
+   "group": "ch8-2.9",
+   "scenario": "ch8-2.9"
+  },
+  {
+   "id": "t8-2.9e",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "MPS",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 2.9"
+   },
+   "prompt": "e. What is the MPS?",
+   "answer": {
+    "value": 0.25,
+    "tolerance": 0.005
+   },
+   "explanation": "MPS = ΔS/ΔY = 25/100 = 0.25, or **1 − MPC = 0.25**.",
+   "group": "ch8-2.9",
+   "scenario": "ch8-2.9"
+  },
+  {
+   "id": "t8-2.10",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Investment and GDP",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 2.10"
+   },
+   "prompt": "Should a local home building company pay attention to reports of Canadian GDP? Why or why not?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Yes: housing demand depends on the state of the economy (income, confidence) and interest rates, so GDP reports signal changes in demand for new homes"
+    },
+    {
+     "id": "b",
+     "text": "No: housing construction is independent of the business cycle"
+    },
+    {
+     "id": "c",
+     "text": "No: GDP reports only measure government purchases"
+    },
+    {
+     "id": "d",
+     "text": "Yes, but only because GDP directly sets the price of lumber"
+    }
+   ],
+   "answer": "a",
+   "explanation": "New housing is part of investment and is **cyclical**: it falls in recessions (weak incomes, pessimism) and rises in expansions. GDP reports therefore help the builder forecast demand.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-2.11",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Interest rates and investment",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 2.11"
+   },
+   "prompt": "A student objects: 'The chapter said a higher interest rate lowers investment, but if I can get a higher rate I'll invest more in my savings account.' Do you agree?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Yes: a higher interest rate raises both saving and firms' investment"
+    },
+    {
+     "id": "b",
+     "text": "No: 'investment' in the AE model means firms' spending on capital goods and new housing, which is discouraged by higher borrowing costs; putting money in a savings account is saving, not investment"
+    },
+    {
+     "id": "c",
+     "text": "Yes: investment in the model means buying financial assets"
+    },
+    {
+     "id": "d",
+     "text": "No: interest rates have no effect on any kind of spending"
+    }
+   ],
+   "answer": "b",
+   "explanation": "In macroeconomics **investment = purchases of new physical capital (and new housing)**, not financial assets. A higher interest rate raises the cost of financing those projects, so planned investment falls.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-2.12a",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Trade statistics",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 2.12"
+   },
+   "prompt": "a. What does Gurría mean by 'conventional trade statistics'?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Statistics on the value added by each country in a product"
+    },
+    {
+     "id": "b",
+     "text": "Statistics on only domestic sales"
+    },
+    {
+     "id": "c",
+     "text": "Statistics that record the gross value of exports and imports each time goods cross a border"
+    },
+    {
+     "id": "d",
+     "text": "Statistics on exchange rates"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Conventional statistics count the **full (gross) value** of goods each time they cross a border.",
+   "shuffleOptions": true,
+   "group": "ch8-2.12",
+   "scenario": "ch8-2.12"
+  },
+  {
+   "id": "t8-2.12b",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Trade statistics",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 2.12"
+   },
+   "prompt": "b. Why might they be less reliable than they once were?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because countries no longer trade with each other"
+    },
+    {
+     "id": "b",
+     "text": "Because exchange rates are fixed"
+    },
+    {
+     "id": "c",
+     "text": "Because imports are now always zero"
+    },
+    {
+     "id": "d",
+     "text": "Global value chains: parts cross borders several times, so the same value is counted repeatedly and the value added by each country is obscured"
+    }
+   ],
+   "answer": "d",
+   "explanation": "With production split across countries, intermediate goods are counted at **every crossing** (double counting), overstating how much any country actually adds.",
+   "shuffleOptions": true,
+   "group": "ch8-2.12",
+   "scenario": "ch8-2.12"
+  },
+  {
+   "id": "t8-2.12c",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Trade statistics",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 2.12"
+   },
+   "prompt": "c. What problems could this cause for policymakers?",
+   "options": [
+    {
+     "id": "a",
+     "text": "They may misjudge trade balances and who gains from trade, leading to misguided trade policy"
+    },
+    {
+     "id": "b",
+     "text": "Policymakers would be unable to collect any taxes"
+    },
+    {
+     "id": "c",
+     "text": "Policymakers would think exchange rates are too stable"
+    },
+    {
+     "id": "d",
+     "text": "There would be no problems; gross figures are always accurate"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Misleading numbers about bilateral deficits and dependence can lead to **poorly targeted tariffs or trade agreements**.",
+   "shuffleOptions": true,
+   "group": "ch8-2.12",
+   "scenario": "ch8-2.12"
+  },
+  {
+   "id": "t8-r3.1",
+   "type": "mc",
+   "unit": 8,
+   "topic": "45° line",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Review Q 3.1"
+   },
+   "prompt": "What is the meaning of the 45° line in the 45°-line diagram?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It shows all points where consumption equals saving"
+    },
+    {
+     "id": "b",
+     "text": "It shows all points where aggregate expenditure equals real GDP, i.e. every possible macroeconomic equilibrium"
+    },
+    {
+     "id": "c",
+     "text": "It is the aggregate expenditure function"
+    },
+    {
+     "id": "d",
+     "text": "It shows potential GDP"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Both axes have the same units, so the 45° line is the set of points where **AE = GDP**. The actual equilibrium is where the AE line crosses it.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-r3.2",
+   "type": "mc",
+   "unit": 8,
+   "topic": "45° diagram",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Review Q 3.2"
+   },
+   "prompt": "In a 45°-line diagram (AE on the vertical axis, real GDP on the horizontal), where is macroeconomic equilibrium?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Where the AE line crosses the vertical axis"
+    },
+    {
+     "id": "b",
+     "text": "At the highest point on the AE line"
+    },
+    {
+     "id": "c",
+     "text": "Where the upward-sloping AE line crosses the 45° line; equilibrium real GDP is read from the horizontal axis at that point"
+    },
+    {
+     "id": "d",
+     "text": "Where the 45° line crosses the horizontal axis"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Equilibrium requires AE = GDP, so it lies on the 45° line **and** on the AE line: their intersection. Label the horizontal coordinate Y*.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-r3.3",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Slope of AE",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Review Q 3.3"
+   },
+   "prompt": "What does the slope of the AE line equal, and how is it related to the slope of the consumption function?",
+   "options": [
+    {
+     "id": "a",
+     "text": "1 − MPC; it is steeper than the consumption function"
+    },
+    {
+     "id": "b",
+     "text": "The multiplier; it is flatter than the consumption function"
+    },
+    {
+     "id": "c",
+     "text": "Zero; I<sub>p</sub>, G and NX are constant"
+    },
+    {
+     "id": "d",
+     "text": "The MPC; it is the same as the slope of the consumption function (the AE line is the consumption function shifted up by I<sub>p</sub> + G + NX)"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Only C depends on GDP; I<sub>p</sub>, G and NX are constants. Each extra $1 of GDP raises AE by the **MPC**, so the AE line is **parallel** to the consumption function.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-r3.4",
+   "type": "mc",
+   "unit": 8,
+   "topic": "AE vs C",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Review Q 3.4"
+   },
+   "prompt": "What is the difference between aggregate expenditure and consumption spending?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Aggregate expenditure = C + I<sub>p</sub> + G + NX; consumption is just one component"
+    },
+    {
+     "id": "b",
+     "text": "They are the same thing in a closed economy"
+    },
+    {
+     "id": "c",
+     "text": "Aggregate expenditure excludes consumption"
+    },
+    {
+     "id": "d",
+     "text": "Consumption includes investment and government purchases"
+    }
+   ],
+   "answer": "a",
+   "explanation": "AE is **total planned spending**; consumption is its largest part (about 55% of GDP in 2024) but not all of it.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-r3.5",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Inventories",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Review Q 3.5"
+   },
+   "prompt": "What is likely to happen if firms have large unplanned inventory investments?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Firms raise production and hire more workers"
+    },
+    {
+     "id": "b",
+     "text": "Firms cut production (and employment), so GDP falls until AE and GDP are equal"
+    },
+    {
+     "id": "c",
+     "text": "Prices fall immediately and restore equilibrium"
+    },
+    {
+     "id": "d",
+     "text": "Nothing; unplanned inventories do not affect production"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Unplanned inventory build-up means AE &lt; GDP. With prices fixed, firms respond by **reducing output and employment**.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-3.6a",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Inventories",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 3.6",
+    "note": "The figure is not reproduced; the point labels given in the textbook are used."
+   },
+   "prompt": "a. At point A, planned aggregate expenditure is…",
+   "options": [
+    {
+     "id": "a",
+     "text": "Less than GDP (an unintended increase in inventories)"
+    },
+    {
+     "id": "b",
+     "text": "Equal to GDP"
+    },
+    {
+     "id": "c",
+     "text": "Greater than GDP (an unintended decrease in inventories)"
+    },
+    {
+     "id": "d",
+     "text": "Impossible to determine"
+    }
+   ],
+   "answer": "c",
+   "explanation": "At A firms have **unintended inventory decreases**: sales exceed production, so AE &gt; GDP. The vertical distance between AE and the 45° line measures the unintended inventory change.",
+   "shuffleOptions": true,
+   "group": "ch8-3.6",
+   "scenario": "ch8-3.6"
+  },
+  {
+   "id": "t8-3.6b",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Equilibrium",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 3.6"
+   },
+   "prompt": "b. At point B (on the 45° line), planned aggregate expenditure is…",
+   "options": [
+    {
+     "id": "a",
+     "text": "Greater than GDP"
+    },
+    {
+     "id": "b",
+     "text": "Less than GDP"
+    },
+    {
+     "id": "c",
+     "text": "Equal to potential GDP by definition"
+    },
+    {
+     "id": "d",
+     "text": "Equal to GDP (macroeconomic equilibrium, no unintended inventory change)"
+    }
+   ],
+   "answer": "d",
+   "explanation": "On the 45° line AE = GDP: firms sell exactly what they expected to, so there is **no unplanned inventory change**.",
+   "shuffleOptions": true,
+   "group": "ch8-3.6",
+   "scenario": "ch8-3.6"
+  },
+  {
+   "id": "t8-3.6c",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Inventories",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 3.6"
+   },
+   "prompt": "c. At point C, planned aggregate expenditure is…",
+   "options": [
+    {
+     "id": "a",
+     "text": "Less than GDP (an unintended increase in inventories)"
+    },
+    {
+     "id": "b",
+     "text": "Greater than GDP (an unintended decrease)"
+    },
+    {
+     "id": "c",
+     "text": "Equal to GDP"
+    },
+    {
+     "id": "d",
+     "text": "Equal to zero"
+    }
+   ],
+   "answer": "a",
+   "explanation": "At C production exceeds planned spending, so AE &lt; GDP and unplanned inventories **rise**. Firms then cut output.",
+   "shuffleOptions": true,
+   "group": "ch8-3.6",
+   "scenario": "ch8-3.6"
+  },
+  {
+   "id": "t8-3.7",
+   "type": "mc",
+   "unit": 8,
+   "topic": "NX and GDP",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 3.7"
+   },
+   "prompt": "If net exports depend on real GDP, does the line relating NX to real GDP have a positive or negative slope?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Positive: higher GDP raises income and therefore exports"
+    },
+    {
+     "id": "b",
+     "text": "Negative: higher GDP raises income and therefore imports, which lowers net exports"
+    },
+    {
+     "id": "c",
+     "text": "Positive: higher GDP raises the exchange rate"
+    },
+    {
+     "id": "d",
+     "text": "Zero: net exports never depend on GDP"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Higher Canadian GDP raises spending on imports (while foreign demand for exports depends on foreign GDP), so NX = X − M **falls as Y rises**.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-3.8",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Inventories and the business cycle",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 8 · Problem 3.8",
+    "note": "The 2009 Q4 value is shown as printed in the source table (same as Q3)."
+   },
+   "prompt": "Which explanation best fits the pattern of inventory investment?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Inventories fall at the start of a recession and rise throughout it, because firms stockpile goods"
+    },
+    {
+     "id": "b",
+     "text": "Inventory investment is unrelated to the business cycle"
+    },
+    {
+     "id": "c",
+     "text": "As the recession began, sales fell short of expectations and inventories built up unintentionally; firms then cut production and ran inventories down (negative values in 2009); inventory investment rebounded as the expansion resumed"
+    },
+    {
+     "id": "d",
+     "text": "Inventories were negative in 2009 because GDP was above potential"
+    }
+   ],
+   "answer": "c",
+   "explanation": "The pattern is **cyclical**: unplanned build-ups when sales unexpectedly slump (2008), liquidation of stocks during the recession (2009–early 2010), and rebuilding during recovery (2011–12).",
+   "shuffleOptions": true,
+   "scenario": "ch8-3.8"
+  },
+  {
+   "id": "t8-3.9a",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "MPC",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 3.9"
+   },
+   "prompt": "a. What is the value of the MPC?",
+   "answer": {
+    "value": 0.8,
+    "tolerance": 0.005
+   },
+   "explanation": "MPC = ΔC/ΔY = (840 − 760)/(1000 − 900) = 80/100 = **0.8**.",
+   "group": "ch8-3.9",
+   "scenario": "ch8-3.9"
+  },
+  {
+   "id": "t8-3.9b",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "Planned AE",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 3.9"
+   },
+   "prompt": "Fill in the table. What is planned aggregate expenditure when Y = 1100?",
+   "answer": {
+    "value": 1120,
+    "tolerance": 0.5
+   },
+   "explanation": "C at 1100 = 840 + 80 = 920. AE = 920 + 120 + 120 − 40 = **1,120**.",
+   "group": "ch8-3.9",
+   "scenario": "ch8-3.9"
+  },
+  {
+   "id": "t8-3.9c",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "Unplanned inventories",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 3.9"
+   },
+   "prompt": "What is the unplanned change in inventories when Y = 1000? (Negative = decrease.)",
+   "answer": {
+    "value": -40,
+    "tolerance": 0.5
+   },
+   "explanation": "At Y = 1000: AE = 840 + 200 = 1,040. Unplanned inventory change = Y − AE = 1000 − 1040 = **−40**.",
+   "group": "ch8-3.9",
+   "scenario": "ch8-3.9"
+  },
+  {
+   "id": "t8-3.9d",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "Equilibrium",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 3.9"
+   },
+   "prompt": "b. What is the value of equilibrium real GDP?",
+   "answer": {
+    "value": 1200,
+    "tolerance": 0.5
+   },
+   "explanation": "AE = C + 200 and C rises 0.8 per $1 of Y. At Y = 1200, C = 1000 and AE = 1,200 = Y. Unplanned inventory change is zero, so Y* = **1,200**.",
+   "group": "ch8-3.9",
+   "scenario": "ch8-3.9"
+  },
+  {
+   "id": "t8-3.10",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Determinants of GDP",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 3.10"
+   },
+   "prompt": "Do you agree: 'The equilibrium level of GDP is determined by AE. Therefore, GDP will decline only if households decide to spend less on goods and services.'?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Agree: only consumption matters because it is the largest component"
+    },
+    {
+     "id": "b",
+     "text": "Agree: investment, G and NX are fixed by definition"
+    },
+    {
+     "id": "c",
+     "text": "Disagree: GDP is determined by the price level, not by spending"
+    },
+    {
+     "id": "d",
+     "text": "Disagree: a decline in any component of AE (investment, government purchases or net exports), not just consumption, can lower equilibrium GDP"
+    }
+   ],
+   "answer": "d",
+   "explanation": "AE = C + I<sub>p</sub> + G + NX. A fall in **any** autonomous component (and the multiplier) lowers equilibrium GDP.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-r4.1",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Multiplier effect",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Review Q 4.1"
+   },
+   "prompt": "What is the multiplier effect? What does it imply for a $100 million decrease in government purchases?",
+   "options": [
+    {
+     "id": "a",
+     "text": "An autonomous change in spending leads to a larger change in equilibrium GDP; the decrease shifts the AE line down and lowers GDP by more than $100 million"
+    },
+    {
+     "id": "b",
+     "text": "An autonomous change in spending changes GDP by exactly the same amount; GDP falls by $100 million"
+    },
+    {
+     "id": "c",
+     "text": "A change in GDP changes the price level; GDP falls by less than $100 million"
+    },
+    {
+     "id": "d",
+     "text": "It applies only to increases in spending, so GDP is unchanged"
+    }
+   ],
+   "answer": "a",
+   "explanation": "A fall in G lowers income, which **induces** a further fall in consumption, and so on; the total fall in GDP = multiplier × ΔG, which is larger than |ΔG| (when MPC &gt; 0). On the 45° diagram the AE line shifts down and the intersection moves left.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-r4.2",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Multiplier formula",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Review Q 4.2"
+   },
+   "prompt": "What is the multiplier formula, and why is it considered too simple?",
+   "options": [
+    {
+     "id": "a",
+     "text": "1/MPC; it ignores the role of saving"
+    },
+    {
+     "id": "b",
+     "text": "1/(1 − MPC); it ignores that imports, income taxes, interest rates and the price level also respond to income changes, which reduce the real-world multiplier"
+    },
+    {
+     "id": "c",
+     "text": "MPC/(1 − MPC); it ignores consumption"
+    },
+    {
+     "id": "d",
+     "text": "1/(1 + MPC); it ignores government purchases"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Multiplier = **1/(1 − MPC) = 1/MPS**. In reality part of extra income is lost to imports and taxes, and higher output raises interest rates and prices, so the actual multiplier is smaller.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-4.3a",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Autonomous vs induced",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 4.3"
+   },
+   "prompt": "a. The movement from A to B (along AE₁) represents…",
+   "options": [
+    {
+     "id": "a",
+     "text": "A change in autonomous expenditure"
+    },
+    {
+     "id": "b",
+     "text": "No change in aggregate expenditure"
+    },
+    {
+     "id": "c",
+     "text": "A change in induced expenditure (spending changes because GDP changes)"
+    },
+    {
+     "id": "d",
+     "text": "A change in the MPC"
+    }
+   ],
+   "answer": "c",
+   "explanation": "A movement **along** one AE line is caused by a change in GDP, so it is an **induced** change.",
+   "shuffleOptions": true,
+   "group": "ch8-4.3",
+   "scenario": "ch8-4.3"
+  },
+  {
+   "id": "t8-4.3b",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Autonomous vs induced",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 4.3"
+   },
+   "prompt": "b. The movement from B to C (to the higher line AE₂) represents…",
+   "options": [
+    {
+     "id": "a",
+     "text": "A change in induced expenditure"
+    },
+    {
+     "id": "b",
+     "text": "A movement along the AE line"
+    },
+    {
+     "id": "c",
+     "text": "A change in the slope of the AE line"
+    },
+    {
+     "id": "d",
+     "text": "A change in autonomous expenditure (a shift of the AE line, not caused by GDP)"
+    }
+   ],
+   "answer": "d",
+   "explanation": "A shift of the AE line is an **autonomous** change: spending changes at every level of GDP (e.g. due to I<sub>p</sub>, G or NX).",
+   "shuffleOptions": true,
+   "group": "ch8-4.3",
+   "scenario": "ch8-4.3"
+  },
+  {
+   "id": "t8-4.4a",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Multiplier process",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 4.4"
+   },
+   "prompt": "a. If real GDP increases to $3,250 billion, is the economy in equilibrium?",
+   "options": [
+    {
+     "id": "a",
+     "text": "No: at Y = 3,250 consumption rises, so AE exceeds 3,250 and inventories fall unexpectedly"
+    },
+    {
+     "id": "b",
+     "text": "Yes: AE = 3,250 so AE = GDP"
+    },
+    {
+     "id": "c",
+     "text": "No: AE falls below GDP and inventories build up"
+    },
+    {
+     "id": "d",
+     "text": "Yes: the multiplier is zero in the short run"
+    }
+   ],
+   "answer": "a",
+   "explanation": "The extra $250 of income induces more consumption, so AE rises further and **AE &gt; GDP**; production keeps rising.",
+   "shuffleOptions": true,
+   "group": "ch8-4.4",
+   "scenario": "ch8-4.4"
+  },
+  {
+   "id": "t8-4.4b",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "Multiplier process",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 4.4",
+    "note": "MPC = 0.5 is implied by Figure 8.12 itself: a $250 billion rise in investment raises equilibrium GDP from 3,000 to 3,500 (multiplier 2)."
+   },
+   "prompt": "b. With MPC = 0.5, what is aggregate expenditure (billions) when real GDP is 3,250?",
+   "answer": {
+    "value": 3375,
+    "tolerance": 0.5
+   },
+   "explanation": "GDP rises 250 from 3,000, so C rises 0.5 × 250 = 125. AE = 3,250 + 125 = **3,375**, still above GDP. Process continues to Y* = 3,500.",
+   "group": "ch8-4.4",
+   "scenario": "ch8-4.4"
+  },
+  {
+   "id": "t8-4.5a",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "Equilibrium",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 4.5"
+   },
+   "prompt": "a. What is the equilibrium level of real GDP?",
+   "answer": {
+    "value": 1000,
+    "tolerance": 0.5
+   },
+   "explanation": "AE = C + 100 + 100 − 50 = C + 150. At Y = 1000: 850 + 150 = 1,000 = Y. Equilibrium GDP = **1,000**.",
+   "group": "ch8-4.5",
+   "scenario": "ch8-4.5"
+  },
+  {
+   "id": "t8-4.5b",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "MPC",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 4.5"
+   },
+   "prompt": "b. What is the MPC?",
+   "answer": {
+    "value": 0.6,
+    "tolerance": 0.005
+   },
+   "explanation": "MPC = ΔC/ΔY = (790 − 730)/100 = **0.6**.",
+   "group": "ch8-4.5",
+   "scenario": "ch8-4.5"
+  },
+  {
+   "id": "t8-4.5c",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "Multiplier",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 4.5"
+   },
+   "prompt": "c. Net exports increase by $40 billion. What is the new equilibrium level of real GDP?",
+   "answer": {
+    "value": 1100,
+    "tolerance": 0.5
+   },
+   "explanation": "Multiplier = 1/(1 − 0.6) = 2.5. ΔY = 2.5 × 40 = 100. New Y* = 1,000 + 100 = **1,100** (check: at 1,100 AE = 910 + 100 + 100 − 10 = 1,100).",
+   "group": "ch8-4.5",
+   "scenario": "ch8-4.5"
+  },
+  {
+   "id": "t8-4.6a",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "Autonomous shift",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 4.6"
+   },
+   "prompt": "a. By how much (billions) does the AE line shift up?",
+   "answer": {
+    "value": 40,
+    "tolerance": 0.5
+   },
+   "explanation": "A change in planned investment is a change in autonomous expenditure: the AE line shifts up by exactly **$40 billion**.",
+   "group": "ch8-4.6",
+   "scenario": "ch8-4.6"
+  },
+  {
+   "id": "t8-4.6b",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "Multiplier",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 4.6"
+   },
+   "prompt": "b. By how much (billions) does equilibrium real GDP increase?",
+   "answer": {
+    "value": 160,
+    "tolerance": 0.5
+   },
+   "explanation": "Multiplier = 1/(1 − 0.75) = 4; ΔY = 4 × 40 = **160**.",
+   "group": "ch8-4.6",
+   "scenario": "ch8-4.6"
+  },
+  {
+   "id": "t8-4.7a",
+   "type": "tf",
+   "unit": 8,
+   "topic": "Multiplier",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 4.7"
+   },
+   "prompt": "a. An increase in real GDP increases imports. True or false: this makes the multiplier smaller.",
+   "answer": true,
+   "explanation": "Higher imports are a leakage: less of each extra dollar of income is spent on domestic goods, so the effective MPC is lower and the multiplier **smaller**.",
+   "group": "ch8-4.7",
+   "scenario": "ch8-4.7"
+  },
+  {
+   "id": "t8-4.7b",
+   "type": "tf",
+   "unit": 8,
+   "topic": "Multiplier",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 4.7"
+   },
+   "prompt": "b. An increase in real GDP increases interest rates. True or false: this makes the multiplier smaller.",
+   "answer": true,
+   "explanation": "Higher interest rates reduce investment and durable consumption, offsetting part of the initial increase: the multiplier is **smaller**.",
+   "group": "ch8-4.7",
+   "scenario": "ch8-4.7"
+  },
+  {
+   "id": "t8-4.7c",
+   "type": "tf",
+   "unit": 8,
+   "topic": "Multiplier",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 4.7"
+   },
+   "prompt": "c. An increase in real GDP increases the MPC. True or false: this makes the multiplier larger.",
+   "answer": true,
+   "explanation": "Multiplier = 1/(1 − MPC); a larger MPC means a **larger** multiplier.",
+   "group": "ch8-4.7",
+   "scenario": "ch8-4.7"
+  },
+  {
+   "id": "t8-4.7d",
+   "type": "tf",
+   "unit": 8,
+   "topic": "Multiplier",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 4.7"
+   },
+   "prompt": "d. An increase in real GDP causes the average tax rate paid by households to decrease. True or false: this makes the multiplier larger.",
+   "answer": true,
+   "explanation": "Lower taxes leave households more disposable income per dollar of GDP, so more is spent; the multiplier is **larger**.",
+   "group": "ch8-4.7",
+   "scenario": "ch8-4.7"
+  },
+  {
+   "id": "t8-4.7e",
+   "type": "tf",
+   "unit": 8,
+   "topic": "Multiplier",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 4.7"
+   },
+   "prompt": "e. An increase in real GDP increases the price level. True or false: this makes the multiplier larger.",
+   "answer": false,
+   "explanation": "A rising price level reduces wealth, exports and so on, damping the rise in real GDP: the multiplier is **smaller**, not larger.",
+   "group": "ch8-4.7",
+   "scenario": "ch8-4.7"
+  },
+  {
+   "id": "t8-4.8",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "Multiplier",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 4.8"
+   },
+   "prompt": "Booming economies in developing countries cause Canadian net exports to rise by $75 billion. If the MPC is 0.8, what is the change in equilibrium GDP (billions)?",
+   "answer": {
+    "value": 375,
+    "tolerance": 0.5
+   },
+   "explanation": "Multiplier = 1/(1 − 0.8) = 5; ΔY = 5 × 75 = **$375 billion**."
+  },
+  {
+   "id": "t8-4.9",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Multiplier and recessions",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 4.9"
+   },
+   "prompt": "Would a larger multiplier lead to longer and more severe recessions, or shorter and less severe ones?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Less severe recessions: a larger multiplier cushions falls in spending"
+    },
+    {
+     "id": "b",
+     "text": "More severe (deeper) recessions: a given fall in autonomous spending causes a larger fall in GDP"
+    },
+    {
+     "id": "c",
+     "text": "No effect: the multiplier works only for increases in spending"
+    },
+    {
+     "id": "d",
+     "text": "Shorter recessions, because GDP falls faster and then recovers at once"
+    }
+   ],
+   "answer": "b",
+   "explanation": "The multiplier works **in both directions**. A larger multiplier magnifies any negative shock to autonomous spending, so recessions tend to be **deeper**.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-4.11",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Size of multiplier",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 8 · Problem 4.11"
+   },
+   "prompt": "Why might the multiplier for non-residential construction be 1.52 in Quebec but only 1.07 in Nunavut?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Nunavut households have a higher MPC"
+    },
+    {
+     "id": "b",
+     "text": "Nunavut has more domestic suppliers than Quebec"
+    },
+    {
+     "id": "c",
+     "text": "Quebec's larger, more diversified economy produces more of its inputs and consumer goods locally, so less of each extra dollar leaks into imports than in Nunavut"
+    },
+    {
+     "id": "d",
+     "text": "Quebec has no taxes, so the multiplier is larger"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Multipliers are smaller when more income is spent on **imports from outside the region** (leakage). Remote Nunavut imports most inputs and goods.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-4.12a",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Multiplier",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 4.12"
+   },
+   "prompt": "a. What would analysts and politicians mean by 'multiplier'?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The factory's number of employees"
+    },
+    {
+     "id": "b",
+     "text": "The ratio of Tesla's profits to its investment"
+    },
+    {
+     "id": "c",
+     "text": "The increase in the price level"
+    },
+    {
+     "id": "d",
+     "text": "The total increase in GDP and jobs resulting from the factory spending, as a multiple of the initial investment"
+    }
+   ],
+   "answer": "d",
+   "explanation": "The multiplier is **change in equilibrium GDP ÷ initial change in autonomous spending**.",
+   "shuffleOptions": true,
+   "group": "ch8-4.12",
+   "scenario": "ch8-4.12"
+  },
+  {
+   "id": "t8-4.12b",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Multiplier",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 4.12"
+   },
+   "prompt": "b. Why would Tesla's investment significantly boost Ontario's and Canada's economy?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Construction and equipment spending raise incomes of workers and suppliers, who then spend more, inducing further rounds of consumption"
+    },
+    {
+     "id": "b",
+     "text": "Because investment spending is exempt from the multiplier"
+    },
+    {
+     "id": "c",
+     "text": "Because Tesla spends only outside Canada"
+    },
+    {
+     "id": "d",
+     "text": "Because it lowers the price level"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Investment is **autonomous spending**; the incomes it generates induce consumption, so GDP rises by more than the initial outlay.",
+   "shuffleOptions": true,
+   "group": "ch8-4.12",
+   "scenario": "ch8-4.12"
+  },
+  {
+   "id": "t8-4.12c",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Multiplier",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 4.12"
+   },
+   "prompt": "c. Why might analysts and politicians be unsure of the size of the multiplier?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because the multiplier formula is exactly 1/(1 − MPC) and nobody knows the MPC"
+    },
+    {
+     "id": "b",
+     "text": "The size depends on the MPC, import content, taxes and other leakages and on how much of the spending is local, all of which are hard to know in advance"
+    },
+    {
+     "id": "c",
+     "text": "Because the multiplier is always exactly 1"
+    },
+    {
+     "id": "d",
+     "text": "Because factories are not part of GDP"
+    }
+   ],
+   "answer": "b",
+   "explanation": "The simple formula overstates real-world multipliers; **import content, taxes, and interest-rate and price responses** are uncertain.",
+   "shuffleOptions": true,
+   "group": "ch8-4.12",
+   "scenario": "ch8-4.12"
+  },
+  {
+   "id": "t8-4.13",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Components of AE",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 4.13"
+   },
+   "prompt": "'Europe is entering its fifth consecutive year of growth, supported by … robust business and consumer confidence, and improving world trade.' Which components of AE are affected and why does GDP grow?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Confidence raises government purchases; world trade raises consumption; the AE line shifts down"
+    },
+    {
+     "id": "b",
+     "text": "Only net exports are affected; the AE line is unchanged"
+    },
+    {
+     "id": "c",
+     "text": "Confidence raises consumption and planned investment; improving world trade raises net exports. The AE line shifts up, so equilibrium GDP rises (by a multiple of the autonomous increase)"
+    },
+    {
+     "id": "d",
+     "text": "Confidence lowers investment; world trade lowers net exports"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Optimism raises **C and I<sub>p</sub>**, and stronger foreign demand raises **NX**. All are autonomous increases that shift the AE line up and move the equilibrium to the right on the 45° diagram.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-4.14",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "Implied multiplier",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 4.14"
+   },
+   "prompt": "McKinsey estimated that raising US infrastructure spending by $150 billion to $180 billion per year would raise GDP by $270 billion to $320 billion. What is the implied multiplier (approximately)?",
+   "answer": {
+    "value": 1.8,
+    "tolerance": 0.1
+   },
+   "explanation": "Multiplier = ΔY/ΔG: 270/150 = 1.8 and 320/180 ≈ 1.78. The implied multiplier is about **1.8**."
+  },
+  {
+   "id": "t8-r5.1",
+   "type": "mc",
+   "unit": 8,
+   "topic": "AE vs AD",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Review Q 5.1"
+   },
+   "prompt": "Briefly, what is the difference between aggregate expenditure and aggregate demand?",
+   "options": [
+    {
+     "id": "a",
+     "text": "AE shows the price level at each real GDP; AD shows spending at a given price level"
+    },
+    {
+     "id": "b",
+     "text": "They are identical"
+    },
+    {
+     "id": "c",
+     "text": "AE includes only consumption; AD includes all four components"
+    },
+    {
+     "id": "d",
+     "text": "AE is total planned spending at a given real GDP (price level fixed); AD shows the quantity of real GDP demanded at each price level"
+    }
+   ],
+   "answer": "d",
+   "explanation": "AE relates **spending to GDP** (price level held constant); the AD curve relates **real GDP demanded to the price level**.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-r5.2",
+   "type": "mc",
+   "unit": 8,
+   "topic": "AD and price level",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Review Q 5.2"
+   },
+   "prompt": "Which components of aggregate expenditure are affected by a change in the price level?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Consumption, planned investment and net exports"
+    },
+    {
+     "id": "b",
+     "text": "Only consumption"
+    },
+    {
+     "id": "c",
+     "text": "Consumption and government purchases"
+    },
+    {
+     "id": "d",
+     "text": "Only government purchases and net exports"
+    }
+   ],
+   "answer": "a",
+   "explanation": "A higher price level lowers real wealth (C), raises interest rates (I<sub>p</sub>), and raises Canadian prices relative to foreign ones (NX). Government purchases are set by policy and don't respond.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-r5.3",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Movement vs shift",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 8 · Review Q 5.3"
+   },
+   "prompt": "Does a change in the price level cause a movement along or a shift of the AE line? Along or a shift of the AD curve?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It moves along the AE line and shifts the AD curve"
+    },
+    {
+     "id": "b",
+     "text": "It shifts the AE line, and moves us along the AD curve"
+    },
+    {
+     "id": "c",
+     "text": "It shifts both"
+    },
+    {
+     "id": "d",
+     "text": "It moves along both"
+    }
+   ],
+   "answer": "b",
+   "explanation": "A new price level changes C, I<sub>p</sub> and NX **at every GDP**, so the AE line shifts. Each point of AD is the equilibrium for one price level, so a price change is a **movement along AD**.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-5.4",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Slopes",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 5.4"
+   },
+   "prompt": "Why is the AE line upward sloping while the AD curve is downward sloping?",
+   "options": [
+    {
+     "id": "a",
+     "text": "AE slopes up because higher prices raise spending; AD slopes down because higher GDP lowers prices"
+    },
+    {
+     "id": "b",
+     "text": "Both slope up"
+    },
+    {
+     "id": "c",
+     "text": "AE slopes up because higher GDP raises income and consumption; AD slopes down because a higher price level lowers C, I<sub>p</sub> and NX, lowering equilibrium GDP"
+    },
+    {
+     "id": "d",
+     "text": "AD slopes down because government purchases fall as prices rise"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Different axes, different mechanisms: **AE vs GDP** (income effect on C) versus **price level vs GDP demanded** (wealth, interest-rate and net-export effects).",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-5.5",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Why AD slopes down",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 8 · Problem 5.5"
+   },
+   "prompt": "Do you agree: 'The AD curve slopes downward because when the price level is higher, people cannot afford to buy as many goods and services.'?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Yes: higher prices reduce people's incomes proportionally"
+    },
+    {
+     "id": "b",
+     "text": "Yes: because the AD curve is derived from the budget constraint"
+    },
+    {
+     "id": "c",
+     "text": "No: because the AD curve is actually upward sloping"
+    },
+    {
+     "id": "d",
+     "text": "No: higher prices come with higher incomes, so affordability isn't the reason; the downward slope reflects the wealth, interest-rate and international-trade effects"
+    }
+   ],
+   "answer": "d",
+   "explanation": "In the macro economy one person's price is another's income; the AD slope comes from the **wealth effect, the interest-rate effect and the exchange-rate/net-export effect**.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-5.6",
+   "type": "mc",
+   "unit": 8,
+   "topic": "AD slope",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 8 · Problem 5.6"
+   },
+   "prompt": "Suppose exports become more sensitive to price-level changes in Canada. Will AD become steeper or less steep?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Less steep (flatter): a given rise in the price level now reduces exports, and so GDP demanded, by more"
+    },
+    {
+     "id": "b",
+     "text": "Steeper"
+    },
+    {
+     "id": "c",
+     "text": "No change"
+    },
+    {
+     "id": "d",
+     "text": "It shifts right without changing slope"
+    }
+   ],
+   "answer": "a",
+   "explanation": "A bigger response of NX to P makes the AE line shift more for a given change in P, so real GDP demanded changes by more: AD is **flatter**.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-8A.1",
+   "type": "mc",
+   "unit": 8,
+   "topic": "General AE function",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 8A.1"
+   },
+   "prompt": "Write the AE function in general form. As a line on the 45° diagram, what are its intercept and slope?",
+   "options": [
+    {
+     "id": "a",
+     "text": "AE = MPC + (C̄ + Ī<sub>p</sub> + Ḡ + NX̄)Y; intercept = MPC, slope = autonomous expenditure"
+    },
+    {
+     "id": "b",
+     "text": "AE = (C̄ + Ī<sub>p</sub> + Ḡ + NX̄) + MPC × Y; intercept = autonomous expenditure, slope = MPC"
+    },
+    {
+     "id": "c",
+     "text": "AE = (C̄ + Ī<sub>p</sub> + Ḡ + NX̄)/(1 − MPC); intercept = 0, slope = 1"
+    },
+    {
+     "id": "d",
+     "text": "AE = Y; intercept 0 and slope 1"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Substituting C = C̄ + MPC·Y gives AE = (C̄ + I + G + NX) + MPC·Y: **intercept = autonomous expenditure, slope = MPC**.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t8-8A.2",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "Algebra of equilibrium",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 8A.2"
+   },
+   "prompt": "Find equilibrium GDP: C = 150 + 0.75Y, I<sub>p</sub> = 100, G = 100, NX = 25 (billions).",
+   "answer": {
+    "value": 1500,
+    "tolerance": 0.5
+   },
+   "explanation": "Y = 150 + 0.75Y + 100 + 100 + 25 → 0.25Y = 375 → Y = 375/0.25 = **1,500**."
+  },
+  {
+   "id": "t8-8A.3a",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "AE function",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 8A.3"
+   },
+   "prompt": "a. Planned AE when GDP = 1,600.",
+   "answer": {
+    "value": 1575,
+    "tolerance": 0.5
+   },
+   "explanation": "AE = 375 + 0.75(1600) = 375 + 1200 = **1,575**.",
+   "group": "ch8-8A.3",
+   "scenario": "ch8-8A.3"
+  },
+  {
+   "id": "t8-8A.3b",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "Inventories",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 8A.3"
+   },
+   "prompt": "b. Unintended change in inventories when GDP = 1,600 (negative if a decrease).",
+   "answer": {
+    "value": 25,
+    "tolerance": 0.5
+   },
+   "explanation": "Y − AE = 1600 − 1575 = **+25**: an unintended **increase** in inventories (GDP above equilibrium of 1,500).",
+   "group": "ch8-8A.3",
+   "scenario": "ch8-8A.3"
+  },
+  {
+   "id": "t8-8A.3c",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "AE function",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 8 · Problem 8A.3"
+   },
+   "prompt": "c. Planned AE when GDP = 1,200.",
+   "answer": {
+    "value": 1275,
+    "tolerance": 0.5
+   },
+   "explanation": "AE = 375 + 0.75(1200) = 375 + 900 = **1,275**.",
+   "group": "ch8-8A.3",
+   "scenario": "ch8-8A.3"
+  },
+  {
+   "id": "t8-8A.3d",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "Inventories",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 8A.3"
+   },
+   "prompt": "d. Unintended change in inventories when GDP = 1,200 (negative if a decrease).",
+   "answer": {
+    "value": -75,
+    "tolerance": 0.5
+   },
+   "explanation": "Y − AE = 1200 − 1275 = **−75**: an unintended **decrease**; firms raise production.",
+   "group": "ch8-8A.3",
+   "scenario": "ch8-8A.3"
+  },
+  {
+   "id": "t8-8A.4",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "Algebra of equilibrium",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 8 · Problem 8A.4"
+   },
+   "prompt": "Autonomous consumption is 50, G = 100, I<sub>p</sub> = 125, NX = −25, and MPC = 0.9. What is equilibrium GDP?",
+   "answer": {
+    "value": 2500,
+    "tolerance": 0.5
+   },
+   "explanation": "Autonomous expenditure = 50 + 125 + 100 − 25 = 250. Multiplier = 1/(1 − 0.9) = 10. Y = 250 × 10 = **2,500**."
+  }
+ ]
+}

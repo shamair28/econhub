@@ -1,0 +1,3055 @@
+{
+  "schema": "practice-bank/v1",
+  "id": "1BB3-mt2-text-ch6",
+  "course": "ECON 1BB3",
+  "title": "Textbook Problems · Ch 6",
+  "description": "Auto-gradable versions of the Chapter 6 review questions and problems (Economic Growth, the Financial System, and Business Cycles), Hubbard et al., Macroeconomics, 5th Canadian ed. No official answer key exists; answers were worked out independently.",
+  "defaultSource": {
+    "label": "Textbook Problems",
+    "kind": "textbook"
+  },
+  "defaultUnit": 6,
+  "groups": {
+    "ch6-1.1": {
+      "ref": "Ch 6 · Review Q 1.1",
+      "title": "Canada's growth in real GDP per capita"
+    },
+    "ch6-1.2": {
+      "ref": "Ch 6 · Review Q 1.2",
+      "title": "The rule of 70"
+    },
+    "ch6-1.8": {
+      "ref": "Ch 6 · Problem 1.8",
+      "title": "Growth rates of U.S. real GDP"
+    },
+    "ch6-1.9": {
+      "ref": "Ch 6 · Problem 1.9",
+      "title": "Years to double (rule of 70)"
+    },
+    "ch6-1.11": {
+      "ref": "Ch 6 · Problem 1.11",
+      "title": "Goofing off and measured productivity"
+    },
+    "ch6-2.5": {
+      "ref": "Ch 6 · Problem 2.5",
+      "title": "Saving and the budget balance (Y = 11)"
+    },
+    "ch6-2.6": {
+      "ref": "Ch 6 · Problem 2.6",
+      "title": "Saving and the budget balance (Y = 12)"
+    },
+    "ch6-2.7": {
+      "ref": "Ch 6 · Problem 2.7",
+      "title": "Higher G: effect on S and I"
+    },
+    "ch6-2.8": {
+      "ref": "Ch 6 · Problem 2.8",
+      "title": "Reading a supply shift"
+    },
+    "ch6-2.9": {
+      "ref": "Ch 6 · Problem 2.9",
+      "title": "Demand shift and the interest rate"
+    },
+    "ch6-2.10": {
+      "ref": "Ch 6 · Problem 2.10",
+      "title": "Forecast of expansion in the loanable funds market"
+    },
+    "ch6-2.11": {
+      "ref": "Ch 6 · Problem 2.11",
+      "title": "Higher business profit taxes"
+    },
+    "ch6-2.12": {
+      "ref": "Ch 6 · Problem 2.12",
+      "title": "Deficit reduction and household reactions"
+    },
+    "ch6-2.13": {
+      "ref": "Ch 6 · Problem 2.13",
+      "title": "Taxing real rather than nominal interest"
+    },
+    "ch6-2.15": {
+      "ref": "Ch 6 · Problem 2.15",
+      "title": "Match scenarios to loanable funds graphs"
+    },
+    "ch6-2.16": {
+      "ref": "Ch 6 · Problem 2.16",
+      "title": "AI and the financial system"
+    },
+    "ch6-3.1": {
+      "ref": "Ch 6 · Review Q 3.1",
+      "title": "Phases of the business cycle"
+    },
+    "ch6-3.2": {
+      "ref": "Ch 6 · Review Q 3.2",
+      "title": "Inflation and unemployment over the cycle"
+    },
+    "ch6-3.3": {
+      "ref": "Ch 6 · Problem 3.3",
+      "title": "Cyclical sensitivity of goods"
+    }
+  },
+  "scenarios": {
+    "p1.1": {
+      "title": "Review Q 1.1 — Real GDP per capita, 1961 to 2024",
+      "body": "Real GDP per capita in Canada was about **$20,100** in 1961 and about **$58,600** in 2024."
+    },
+    "p1.2": {
+      "title": "Review Q 1.2 — The rule of 70",
+      "body": "Real GDP per capita grows at **7 percent per year**."
+    },
+    "p1.8": {
+      "title": "Problem 1.8 — U.S. real GDP, 1990–1994",
+      "body": "Use the table to answer the following. Round growth rates to two decimals.",
+      "table": {
+        "caption": "Problem 1.8",
+        "headers": [
+          "Year",
+          "Real GDP (billions of 2005 dollars)"
+        ],
+        "rows": [
+          [
+            1990,
+            "$8,034"
+          ],
+          [
+            1991,
+            "$8,015"
+          ],
+          [
+            1992,
+            "$8,287"
+          ],
+          [
+            1993,
+            "$8,523"
+          ],
+          [
+            1994,
+            "$8,871"
+          ]
+        ]
+      }
+    },
+    "p1.9": {
+      "title": "Problem 1.9 — Doubling real GDP per capita",
+      "body": "Real GDP per capita in Canada grew from about $20,100 in 1961 to about $58,600 in 2024, an annual growth rate of about **1.6 percent**."
+    },
+    "p1.11": {
+      "title": "Problem 1.11 — Goofing off at work",
+      "body": "Noah Smith notes that people who work at computers have many ways to avoid work while looking busy. He calculates that the average American at work spends 34.4 hours a week on the job; if that is five days a week, one hour of slacking off per day means true work hours are only **85.5 percent** of the official number."
+    },
+    "p2.5": {
+      "title": "Problem 2.5 — Closed-economy data",
+      "body": "Consider the following data for a closed economy (trillions of dollars): **Y = 11, C = 8, I = 2, TR = 1, T = 3**. Recall S<sub>private</sub> = Y + TR − C − T and S<sub>public</sub> = T − G − TR."
+    },
+    "p2.6": {
+      "title": "Problem 2.6 — Closed-economy data",
+      "body": "Consider the following data for a closed economy (trillions of dollars): **Y = 12, C = 8, G = 2, S<sub>public</sub> = −0.5, T = 2**."
+    },
+    "p2.7": {
+      "title": "Problem 2.7 — A rise in government purchases",
+      "body": "In Problem 2.6 (Y = 12, C = 8, T = 2, TR = 0.5, G = 2, so S = I = 2), government purchases rise from $2 trillion to **$2.5 trillion**. Y and C are unchanged."
+    },
+    "p2.8": {
+      "title": "Problem 2.8 — A shift in the supply of loanable funds",
+      "body": "D<sub>1</sub> is unchanged. Supply shifts from S<sub>1</sub> to S<sub>2</sub>, and the equilibrium moves from (i<sub>1</sub>, L<sub>1</sub>) to (i<sub>2</sub>, L<sub>2</sub>).",
+      "figure": {
+        "type": "graph",
+        "caption": "Problem 2.8",
+        "spec": {
+          "x": {
+            "label": "Loanable funds (dollars per year)",
+            "min": 0,
+            "max": 100,
+            "hideTicks": true
+          },
+          "y": {
+            "label": "Real interest rate",
+            "min": 0,
+            "max": 100,
+            "hideTicks": true
+          },
+          "curves": [
+            {
+              "id": "D1",
+              "label": "D₁",
+              "points": [
+                [
+                  10,
+                  85.0
+                ],
+                [
+                  90,
+                  15.0
+                ]
+              ],
+              "color": "blue"
+            },
+            {
+              "id": "S1",
+              "label": "S₁",
+              "points": [
+                [
+                  15,
+                  19.38
+                ],
+                [
+                  90,
+                  85.0
+                ]
+              ],
+              "color": "red"
+            },
+            {
+              "id": "S2",
+              "label": "S₂",
+              "points": [
+                [
+                  0,
+                  19.38
+                ],
+                [
+                  75,
+                  85.0
+                ]
+              ],
+              "color": "red",
+              "style": "dashed"
+            }
+          ],
+          "points": [
+            {
+              "id": "E1",
+              "label": "(i₁, L₁)",
+              "x": 50,
+              "y": 50,
+              "drop": "both",
+              "dropLabels": {
+                "x": "L₁",
+                "y": "i₁"
+              }
+            },
+            {
+              "id": "E2",
+              "label": "(i₂, L₂)",
+              "x": 42.5,
+              "y": 56.56,
+              "drop": "both",
+              "dropLabels": {
+                "x": "L₂",
+                "y": "i₂"
+              }
+            }
+          ],
+          "alt": "Loanable funds market: supply shifts left from S1 to S2; the real interest rate rises from i1 to i2 and the quantity falls from L1 to L2."
+        }
+      }
+    },
+    "p2.9": {
+      "title": "Problem 2.9 — A shift in the demand for loanable funds",
+      "body": "S<sub>1</sub> is unchanged; demand shifts from D<sub>1</sub> to D<sub>2</sub>. A is the original equilibrium (i<sub>1</sub>, L<sub>1</sub>); C is the new equilibrium (i<sub>2</sub>, L<sub>2</sub>); B (hollow) shows the quantity demanded, L<sub>3</sub>, at the original rate i<sub>1</sub> after the shift.",
+      "figure": {
+        "type": "graph",
+        "caption": "Problem 2.9",
+        "spec": {
+          "x": {
+            "label": "Loanable funds (dollars per year)",
+            "min": 0,
+            "max": 100,
+            "hideTicks": true
+          },
+          "y": {
+            "label": "Real interest rate",
+            "min": 0,
+            "max": 100,
+            "hideTicks": true
+          },
+          "curves": [
+            {
+              "id": "D1",
+              "label": "D₁",
+              "points": [
+                [
+                  5,
+                  89.38
+                ],
+                [
+                  80,
+                  23.75
+                ]
+              ],
+              "color": "blue"
+            },
+            {
+              "id": "D2",
+              "label": "D₂",
+              "points": [
+                [
+                  25,
+                  85.0
+                ],
+                [
+                  100,
+                  19.38
+                ]
+              ],
+              "color": "blue",
+              "style": "dashed"
+            },
+            {
+              "id": "S1",
+              "label": "S₁",
+              "points": [
+                [
+                  15,
+                  19.38
+                ],
+                [
+                  95,
+                  89.38
+                ]
+              ],
+              "color": "red"
+            }
+          ],
+          "points": [
+            {
+              "id": "A",
+              "label": "A",
+              "x": 50,
+              "y": 50,
+              "drop": "both",
+              "dropLabels": {
+                "x": "L₁",
+                "y": "i₁"
+              }
+            },
+            {
+              "id": "C",
+              "label": "C",
+              "x": 57.5,
+              "y": 56.56,
+              "drop": "both",
+              "dropLabels": {
+                "x": "L₂",
+                "y": "i₂"
+              }
+            },
+            {
+              "id": "B",
+              "label": "B",
+              "x": 65,
+              "y": 50,
+              "hollow": true,
+              "drop": "x",
+              "dropLabels": {
+                "x": "L₃"
+              }
+            }
+          ],
+          "alt": "Demand shifts right from D1 to D2 along an unchanged supply curve S1. A is the original equilibrium, C the new equilibrium, B the quantity demanded at the original rate after the shift."
+        }
+      }
+    },
+    "p2.10": {
+      "title": "Problem 2.10 — A forecast of expansion",
+      "body": "The economy is in a recession, and forecasts indicate that it will soon enter an expansion. Borrowers and lenders believe the forecast is accurate."
+    },
+    "p2.11": {
+      "title": "Problem 2.11 — A tax on business profits",
+      "body": "Firms care about their after-tax rate of return on investment projects. Taxes on business profits **increase**. For simplicity, assume no change in the federal budget deficit or surplus."
+    },
+    "p2.12": {
+      "title": "Problem 2.12 — Shrinking federal deficits",
+      "body": "The federal government has been cutting spending to reduce budget deficits."
+    },
+    "p2.13": {
+      "title": "Problem 2.13 — Taxing real rather than nominal interest",
+      "body": "[Solved Problem 6.2] Savers are taxed on nominal interest payments rather than real ones. Suppose the government instead taxed only **real** interest: savers subtract the inflation rate from the nominal rate they receive and pay tax only on the real rate."
+    },
+    "p2.15": {
+      "title": "Problem 2.15 — Matching scenarios to graphs",
+      "body": "Four loanable funds graphs (real interest rate on the vertical axis, loanable funds on the horizontal axis):<ul><li><b>Panel 1:</b> a single, relatively flat demand curve D<sub>1</sub> (investment very sensitive to the interest rate)</li><li><b>Panel 2:</b> supply shifts <i>left</i>, from S<sub>1</sub> to S<sub>2</sub></li><li><b>Panel 3:</b> demand shifts <i>right</i>, from D<sub>2</sub> to D<sub>1</sub></li><li><b>Panel 4:</b> a single, steep supply curve S<sub>1</sub> (saving barely responds to the interest rate)</li></ul>Match each scenario with the graph that fits it."
+    },
+    "p2.16": {
+      "title": "Problem 2.16 — AI in the financial system",
+      "body": "A Wall Street Journal article says that funds managed in part by artificial intelligence, like index-tracking funds, 'require less human intervention and therefore can often cost less to run'. Banks are also using AI to cut the cost and raise the accuracy of complying with government regulations."
+    },
+    "rq3.1": {
+      "title": "Review Q 3.1 — Names of business cycle events",
+      "body": "Name each of the following events in the business cycle."
+    },
+    "rq3.2": {
+      "title": "Review Q 3.2 — Cycle, inflation and unemployment",
+      "body": "Describe the effect of the business cycle on the inflation rate and the unemployment rate."
+    },
+    "p3.3": {
+      "title": "Problem 3.3 — Which goods fluctuate more than real GDP?",
+      "body": "[Chapter opener] Briefly explain whether production of each of the following is likely to fluctuate **more or less** than real GDP does during the business cycle."
+    }
+  },
+  "questions": [
+    {
+      "id": "t6-rq1.1-a",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Growth in living standards",
+      "tags": [
+        "ch6",
+        "growth-rates"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Review Q 1.1 (a)"
+      },
+      "prompt": "By roughly how many <b>percent</b> did real GDP per capita rise between 1961 and 2024?",
+      "answer": {
+        "value": 191.5,
+        "tolerance": 2.5,
+        "suffix": "%",
+        "display": "≈ 191.5%"
+      },
+      "explanation": "Percentage change = (58,600 − 20,100) ÷ 20,100 × 100 = **191.5%**. Equivalently, real GDP per capita is about 2.9 times its 1961 level — 'almost three times as much' in the chapter's words.",
+      "scenario": "p1.1",
+      "group": "ch6-1.1"
+    },
+    {
+      "id": "t6-rq1.1-b",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Growth in living standards",
+      "tags": [
+        "ch6",
+        "living-standards"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Review Q 1.1 (b)"
+      },
+      "prompt": "(b) Is the measured increase in real GDP per capita likely to be greater or less than the true increase in living standards?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Less than the true increase: real GDP per capita misses improvements in product quality and variety, health, leisure time and the environment"
+        },
+        {
+          "id": "b",
+          "text": "Greater than the true increase: real GDP per capita counts illegal and household production, so it overstates the gain"
+        },
+        {
+          "id": "c",
+          "text": "Exactly equal: real GDP per capita is a perfect measure of living standards once it is adjusted for inflation"
+        },
+        {
+          "id": "d",
+          "text": "Greater than the true increase: a larger population means nobody is better off even when real GDP per capita rises"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Real GDP per capita is the most common but **imperfect** measure of living standards. It does not capture better and entirely new products, longer life expectancy, more leisure or a cleaner environment. So the **measured increase is smaller than the true improvement** in living standards.",
+      "shuffleOptions": true,
+      "scenario": "p1.1",
+      "group": "ch6-1.1"
+    },
+    {
+      "id": "t6-rq1.2-a",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Rule of 70",
+      "tags": [
+        "ch6",
+        "rule-of-70"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Review Q 1.2 (a)"
+      },
+      "prompt": "(a) What does the rule of 70 say?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The growth rate of a variable equals 70 divided by the number of years it has been growing"
+        },
+        {
+          "id": "b",
+          "text": "The number of years it takes a variable to double is approximately 70 divided by its annual percentage growth rate"
+        },
+        {
+          "id": "c",
+          "text": "A variable doubles every 70 years regardless of its growth rate"
+        },
+        {
+          "id": "d",
+          "text": "A variable that grows at 70 percent per year doubles in one year"
+        }
+      ],
+      "answer": "b",
+      "explanation": "The **rule of 70**: years to double ≈ 70 ÷ (annual growth rate in percent). The faster the growth, the sooner the doubling.",
+      "shuffleOptions": true,
+      "scenario": "p1.2",
+      "group": "ch6-1.2"
+    },
+    {
+      "id": "t6-rq1.2-b",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Rule of 70",
+      "tags": [
+        "ch6",
+        "rule-of-70"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Review Q 1.2 (b)"
+      },
+      "prompt": "(b) At 7 percent growth per year, about how many years will it take real GDP per capita to double?",
+      "answer": {
+        "value": 10,
+        "tolerance": 0.1,
+        "suffix": " years"
+      },
+      "explanation": "70 ÷ 7 = **10 years**.",
+      "scenario": "p1.2",
+      "group": "ch6-1.2"
+    },
+    {
+      "id": "t6-rq1.3",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Determinants of growth",
+      "tags": [
+        "ch6",
+        "productivity"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Review Q 1.3"
+      },
+      "prompt": "What is the most important factor in explaining increases in real GDP per capita in the long run?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Increases in labour productivity"
+        },
+        {
+          "id": "b",
+          "text": "Increases in the size of the population"
+        },
+        {
+          "id": "c",
+          "text": "Increases in the price level"
+        },
+        {
+          "id": "d",
+          "text": "Increases in government purchases"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Long-run growth in real GDP per capita depends on **increases in labour productivity** (output per worker or per hour), which in turn depends on capital per hour worked and technology.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t6-rq1.4",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Potential GDP",
+      "tags": [
+        "ch6",
+        "potential-gdp"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Review Q 1.4"
+      },
+      "prompt": "What is potential real GDP, and does it stay constant over time?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It is the level of real GDP attained when all firms are producing at capacity; it stays constant because capacity is fixed"
+        },
+        {
+          "id": "b",
+          "text": "It is the highest level real GDP has ever reached; it is revised downward after each recession"
+        },
+        {
+          "id": "c",
+          "text": "It is the level of real GDP attained when all firms are producing at capacity; it grows over time as the labour force, capital and technology grow"
+        },
+        {
+          "id": "d",
+          "text": "It is the real GDP forecast for next year; it is unrelated to the capacity of firms"
+        }
+      ],
+      "answer": "c",
+      "explanation": "**Potential GDP** is the level of real GDP when all firms produce at capacity. Because the labour force and capital stock grow and technology improves, it **rises over time**. (Your slides move the detail on potential GDP to Ch 8.)",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t6-p1.5",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Living standards over time",
+      "tags": [
+        "ch6",
+        "living-standards"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 1.5",
+        "note": "Discussion question: most students would choose 2024; there is no single official answer."
+      },
+      "prompt": "Would you rather live in Canada in 1900 on $1,000,000 or in Canada in 2024 on $50,000 (both in 2024 dollars)? Which statement best captures the economics?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Everyone should pick 1900, because the income is 20 times larger in real terms and real income is all that matters"
+        },
+        {
+          "id": "b",
+          "text": "It makes no difference, because real incomes in constant dollars are perfectly comparable across any two years"
+        },
+        {
+          "id": "c",
+          "text": "Everyone should pick 2024, because $50,000 is always worth more than $1,000,000 from a different year"
+        },
+        {
+          "id": "d",
+          "text": "Most people would pick 2024: $50,000 buys goods and services (modern medicine, electricity, communication, travel) that were unavailable in 1900 at any price"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Constant-dollar comparisons miss that many goods (antibiotics, refrigeration, the internet, air travel) were **not available at any price** in 1900, and life expectancy and quality of life were far lower. This is one reason real GDP per capita **understates** long-run improvements in living standards.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t6-p1.6",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Prosperity and health",
+      "tags": [
+        "ch6",
+        "living-standards"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 1.6"
+      },
+      "prompt": "[Apply the Concept: Economic Prosperity and Health] Higher incomes are associated with longer life expectancy. What does this imply for the health care sector in coming years?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It is likely to expand: richer, older populations spend a larger share of income on health care"
+        },
+        {
+          "id": "b",
+          "text": "It is likely to contract: longer life expectancy means people need less health care"
+        },
+        {
+          "id": "c",
+          "text": "It will stay the same share of the economy because health spending does not depend on income"
+        },
+        {
+          "id": "d",
+          "text": "It will contract because rising productivity reduces the demand for services"
+        }
+      ],
+      "answer": "a",
+      "explanation": "As real incomes rise, households spend **more on health care**, and longer lives mean a larger elderly population that uses more care. The health care sector is therefore likely to **expand**.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t6-p1.7",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Growth and quality of life",
+      "tags": [
+        "ch6",
+        "living-standards"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 1.7"
+      },
+      "prompt": "Based on this chapter, why does growth in real GDP per capita matter for the quality of life of a country's citizens?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It guarantees that income is distributed equally across the population"
+        },
+        {
+          "id": "b",
+          "text": "Sustained growth raises the typical person's purchasing power and pays for better health care, education and material comforts"
+        },
+        {
+          "id": "c",
+          "text": "It matters only because a larger real GDP lets a country pay off its debts"
+        },
+        {
+          "id": "d",
+          "text": "It is irrelevant to quality of life, because only the total size of the economy matters"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Rising real GDP per capita means **more goods and services per person**; the typical Canadian today can buy almost three times what the typical Canadian could in 1961. Growth makes better health, education and leisure affordable — though it does not guarantee equality.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t6-p1.8-a1991",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Calculating growth rates",
+      "tags": [
+        "ch6",
+        "growth-rates"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 1.8 (a, 1991)"
+      },
+      "prompt": "(a) What is the growth rate of real GDP in 1991? (percent)",
+      "answer": {
+        "value": -0.24,
+        "tolerance": 0.05,
+        "suffix": "%"
+      },
+      "explanation": "Growth rate = (GDP<sub>1991</sub> − GDP<sub>1990</sub>) ÷ GDP<sub>1990</sub> × 100 = (8,015 − 8,034) ÷ 8,034 × 100 = **-0.24%**.",
+      "scenario": "p1.8",
+      "group": "ch6-1.8"
+    },
+    {
+      "id": "t6-p1.8-a1992",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Calculating growth rates",
+      "tags": [
+        "ch6",
+        "growth-rates"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 1.8 (a, 1992)"
+      },
+      "prompt": "(a) What is the growth rate of real GDP in 1992? (percent)",
+      "answer": {
+        "value": 3.39,
+        "tolerance": 0.05,
+        "suffix": "%"
+      },
+      "explanation": "Growth rate = (GDP<sub>1992</sub> − GDP<sub>1991</sub>) ÷ GDP<sub>1991</sub> × 100 = (8,287 − 8,015) ÷ 8,015 × 100 = **3.39%**.",
+      "scenario": "p1.8",
+      "group": "ch6-1.8"
+    },
+    {
+      "id": "t6-p1.8-a1993",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Calculating growth rates",
+      "tags": [
+        "ch6",
+        "growth-rates"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 1.8 (a, 1993)"
+      },
+      "prompt": "(a) What is the growth rate of real GDP in 1993? (percent)",
+      "answer": {
+        "value": 2.85,
+        "tolerance": 0.05,
+        "suffix": "%"
+      },
+      "explanation": "Growth rate = (GDP<sub>1993</sub> − GDP<sub>1992</sub>) ÷ GDP<sub>1992</sub> × 100 = (8,523 − 8,287) ÷ 8,287 × 100 = **2.85%**.",
+      "scenario": "p1.8",
+      "group": "ch6-1.8"
+    },
+    {
+      "id": "t6-p1.8-a1994",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Calculating growth rates",
+      "tags": [
+        "ch6",
+        "growth-rates"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 1.8 (a, 1994)"
+      },
+      "prompt": "(a) What is the growth rate of real GDP in 1994? (percent)",
+      "answer": {
+        "value": 4.08,
+        "tolerance": 0.05,
+        "suffix": "%"
+      },
+      "explanation": "Growth rate = (GDP<sub>1994</sub> − GDP<sub>1993</sub>) ÷ GDP<sub>1993</sub> × 100 = (8,871 − 8,523) ÷ 8,523 × 100 = **4.08%**.",
+      "scenario": "p1.8",
+      "group": "ch6-1.8"
+    },
+    {
+      "id": "t6-p1.8-b",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Calculating growth rates",
+      "tags": [
+        "ch6",
+        "growth-rates"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 1.8 (b)"
+      },
+      "prompt": "(b) What is the average annual growth rate of real GDP over 1991–1994? (percent)",
+      "answer": {
+        "value": 2.52,
+        "tolerance": 0.05,
+        "suffix": "%"
+      },
+      "explanation": "Average the four annual growth rates, as on the slides: (-0.24 + 3.39 + 2.85 + 4.08) ÷ 4 = **2.52%**.",
+      "scenario": "p1.8",
+      "group": "ch6-1.8"
+    },
+    {
+      "id": "t6-p1.9-a",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Rule of 70",
+      "tags": [
+        "ch6",
+        "rule-of-70"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 1.9 (a)"
+      },
+      "prompt": "If Canada keeps growing at 1.6 percent per year, approximately how many years until real GDP per capita doubles?",
+      "answer": {
+        "value": 43.75,
+        "tolerance": 1.0,
+        "suffix": " years",
+        "display": "≈ 44 years"
+      },
+      "explanation": "Rule of 70: 70 ÷ 1.6 = 43.75, i.e. about **44 years**.",
+      "scenario": "p1.9",
+      "group": "ch6-1.9"
+    },
+    {
+      "id": "t6-p1.9-b",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Rule of 70",
+      "tags": [
+        "ch6",
+        "rule-of-70"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 1.9 (b)"
+      },
+      "prompt": "If productivity gains lift growth to 2 percent per year, how many years until real GDP per capita doubles?",
+      "answer": {
+        "value": 35,
+        "tolerance": 0.1,
+        "suffix": " years"
+      },
+      "explanation": "70 ÷ 2 = **35 years**, roughly 9 years sooner. Small differences in growth rates compound into big differences in living standards.",
+      "scenario": "p1.9",
+      "group": "ch6-1.9"
+    },
+    {
+      "id": "t6-p1.10",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Growth policy",
+      "tags": [
+        "ch6",
+        "growth-policy"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 1.10",
+        "note": "Discussion question with no single official answer."
+      },
+      "prompt": "[Solved Problem 6.1] The steps needed to improve Canada's slow growth sound simple (more investment, more innovation). What might prevent the government from taking them?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Economic theory shows that investment and innovation cannot raise labour productivity"
+        },
+        {
+          "id": "b",
+          "text": "Governments cannot change tax or spending policy in Canada"
+        },
+        {
+          "id": "c",
+          "text": "Growth-promoting policies often impose costs now for benefits later, and they create losers who lobby against them, so political constraints can block them"
+        },
+        {
+          "id": "d",
+          "text": "Faster growth would cause real GDP per capita to fall in the long run"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Growth-friendly reforms (investment incentives, deregulation, education, openness) have **up-front costs and delayed benefits** and face opposition from groups that lose, so **political and trade-off obstacles** often matter more than the economics.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t6-p1.11-a",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Measuring productivity",
+      "tags": [
+        "ch6",
+        "productivity"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 1.11 (a)"
+      },
+      "prompt": "(a) If Smith's estimates are correct, is the growth rate of labour productivity measured by government statistics overstated or understated?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Overstated: official hours are too low, so measured output per hour is too high"
+        },
+        {
+          "id": "b",
+          "text": "Overstated: slacking raises output, which is counted twice in GDP"
+        },
+        {
+          "id": "c",
+          "text": "Neither: labour productivity is calculated from output alone, so hours worked are irrelevant"
+        },
+        {
+          "id": "d",
+          "text": "Understated: output is divided by official hours, which exceed hours actually worked, so true output per hour worked is higher than measured"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Labour productivity = real GDP ÷ **hours worked**. If actual hours are only 85.5% of official hours, dividing by the larger official figure gives a number that is **too low**: measured productivity (and its growth, if slacking has increased) is understated.",
+      "shuffleOptions": true,
+      "scenario": "p1.11",
+      "group": "ch6-1.11"
+    },
+    {
+      "id": "t6-p1.11-b",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Measuring productivity",
+      "tags": [
+        "ch6",
+        "living-standards"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 1.11 (b)"
+      },
+      "prompt": "(b) What does this imply for using official real GDP per capita to measure increases in well-being?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Official real GDP per capita probably understates the gain in well-being, since workers also enjoy leisure-like time that GDP does not count"
+        },
+        {
+          "id": "b",
+          "text": "It overstates the gain in well-being, because slacking reduces total output"
+        },
+        {
+          "id": "c",
+          "text": "It has no implications, because GDP per capita measures only well-being from work"
+        },
+        {
+          "id": "d",
+          "text": "It means GDP per capita should be replaced by hours worked as the only measure of well-being"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Official statistics count the time as work, so they miss the extra non-market benefit (leisure) that workers enjoy. Like quality improvements and unpaid work, this is another way that **real GDP per capita understates** gains in well-being.",
+      "shuffleOptions": true,
+      "scenario": "p1.11",
+      "group": "ch6-1.11"
+    },
+    {
+      "id": "t6-p1.12",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Productivity and wages",
+      "tags": [
+        "ch6",
+        "productivity"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 1.12"
+      },
+      "prompt": "Why should we expect a close relationship between productivity gains and increases in real wages?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Higher productivity lets firms pay lower wages because workers can work fewer hours"
+        },
+        {
+          "id": "b",
+          "text": "Firms pay workers roughly the value of what they produce, so when output per hour rises across the economy, competition for workers pushes real wages up"
+        },
+        {
+          "id": "c",
+          "text": "Real wages are set by the government in line with productivity statistics"
+        },
+        {
+          "id": "d",
+          "text": "Productivity gains raise prices by exactly the amount of wages, leaving real wages unchanged"
+        }
+      ],
+      "answer": "b",
+      "explanation": "A worker's pay is tied to the **value of the output the worker produces**. When productivity rises economy-wide, firms compete for workers and real wages rise. In Britain (1770–1830) gains were confined to a few industries, so real wages barely moved until gains spread across the economy.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t6-rq2.1",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Financial system and growth",
+      "tags": [
+        "ch6",
+        "financial-system"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Review Q 2.1"
+      },
+      "prompt": "Why is the financial system important for long-run growth, and why must firms have access to adequate funds?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Firms never need outside funds because retained earnings always cover investment; the financial system matters only for households"
+        },
+        {
+          "id": "b",
+          "text": "Growth depends only on government borrowing; the private financial system has no role"
+        },
+        {
+          "id": "c",
+          "text": "Firms need funds to buy capital and adopt new technology; the financial system channels household saving to them, so a well-functioning system supports investment and growth"
+        },
+        {
+          "id": "d",
+          "text": "The financial system creates funds out of nothing, so saving is not needed for investment"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Growth requires more capital per hour worked and new technology. Many firms cannot finance rapid expansion from retained earnings, so they rely on **households' saving channelled through financial markets and intermediaries**.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t6-rq2.2",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Saving equals investment",
+      "tags": [
+        "ch6",
+        "saving-investment"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Review Q 2.2"
+      },
+      "prompt": "Why must total saving equal total investment in a closed economy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Because the government forces households to save exactly as much as firms want to invest"
+        },
+        {
+          "id": "b",
+          "text": "Because investment is defined as the saving done by households, ignoring government"
+        },
+        {
+          "id": "c",
+          "text": "Because interest rates are set by the central bank so that the two always match"
+        },
+        {
+          "id": "d",
+          "text": "Y = C + I + G, so I = Y − C − G; and national saving (private plus public) also equals Y − C − G, hence S = I"
+        }
+      ],
+      "answer": "d",
+      "explanation": "In a closed economy Y = C + I + G → **I = Y − C − G**. Private saving (Y + TR − C − T) plus public saving (T − G − TR) also simplifies to **Y − C − G**, so **S = I** by accounting. The loanable funds market is how that equality is reached.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t6-rq2.3",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Loanable funds",
+      "tags": [
+        "ch6",
+        "loanable-funds"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Review Q 2.3"
+      },
+      "prompt": "What are loanable funds, and who demands and supplies them?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Funds available to be borrowed; businesses demand them to finance investment projects and households (plus government surpluses) supply them as saving"
+        },
+        {
+          "id": "b",
+          "text": "Funds held by the central bank; the government demands them and firms supply them"
+        },
+        {
+          "id": "c",
+          "text": "Funds from foreign countries only; domestic households play no role"
+        },
+        {
+          "id": "d",
+          "text": "Funds firms raise only through the stock market; households demand them to buy cars"
+        }
+      ],
+      "answer": "a",
+      "explanation": "**Loanable funds** are the funds savers make available to borrowers. **Firms demand** them to finance new investment projects (more projects are profitable at low rates); **households supply** them through saving, and government budget surpluses add to supply.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t6-p2.4",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Financial intermediaries",
+      "tags": [
+        "ch6",
+        "financial-system"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 2.4"
+      },
+      "prompt": "You can earn 3 percent on a bank CD while the bank charges 7 percent on car loans. Why might you refuse to lend directly to a borrower who offers more than 3 percent?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lending directly is illegal in Canada"
+        },
+        {
+          "id": "b",
+          "text": "You would bear that borrower's default risk and information costs and lose liquidity; the bank diversifies risk, screens borrowers and lets you get your money back"
+        },
+        {
+          "id": "c",
+          "text": "Interest paid by an individual borrower is always taxed at 100 percent"
+        },
+        {
+          "id": "d",
+          "text": "Individual borrowers never repay loans, whereas banks never lose money"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Intermediaries provide the three key services: **risk-sharing** (your deposit is backed by many loans), **information** (the bank screens and monitors borrowers) and **liquidity** (you can withdraw). Lending to one person exposes you to default risk and information costs, with no easy exit.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t6-p2.5-a",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Saving and investment",
+      "tags": [
+        "ch6",
+        "saving-investment"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 2.5 (a)"
+      },
+      "prompt": "(a) Private saving ($ trillion)?",
+      "answer": {
+        "value": 1,
+        "tolerance": 0.01,
+        "prefix": "$",
+        "suffix": " trillion"
+      },
+      "explanation": "S<sub>private</sub> = Y + TR − C − T = 11 + 1 − 8 − 3 = **$1 trillion**.",
+      "scenario": "p2.5",
+      "group": "ch6-2.5"
+    },
+    {
+      "id": "t6-p2.5-b",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Saving and investment",
+      "tags": [
+        "ch6",
+        "saving-investment"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 2.5 (b)"
+      },
+      "prompt": "(b) Public saving ($ trillion)? (Hint: total saving S equals I.)",
+      "answer": {
+        "value": 1,
+        "tolerance": 0.01,
+        "prefix": "$",
+        "suffix": " trillion"
+      },
+      "explanation": "Total saving equals investment: S = I = 2. So S<sub>public</sub> = S − S<sub>private</sub> = 2 − 1 = **$1 trillion** (check: T − G − TR = 3 − 1 − 1 = 1).",
+      "scenario": "p2.5",
+      "group": "ch6-2.5"
+    },
+    {
+      "id": "t6-p2.5-c",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Saving and investment",
+      "tags": [
+        "ch6",
+        "saving-investment"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 2.5 (c)"
+      },
+      "prompt": "(c) Government purchases ($ trillion)? (In a closed economy Y = C + I + G.)",
+      "answer": {
+        "value": 1,
+        "tolerance": 0.01,
+        "prefix": "$",
+        "suffix": " trillion"
+      },
+      "explanation": "G = Y − C − I = 11 − 8 − 2 = **$1 trillion**.",
+      "scenario": "p2.5",
+      "group": "ch6-2.5"
+    },
+    {
+      "id": "t6-p2.5-d",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Budget balance",
+      "tags": [
+        "ch6",
+        "saving-investment"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 2.5 (d)"
+      },
+      "prompt": "(d) What is the government's budget position?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A budget surplus of $1 trillion (public saving is positive)"
+        },
+        {
+          "id": "b",
+          "text": "A budget deficit of $1 trillion"
+        },
+        {
+          "id": "c",
+          "text": "A balanced budget"
+        },
+        {
+          "id": "d",
+          "text": "A budget deficit of $2 trillion"
+        }
+      ],
+      "answer": "a",
+      "explanation": "The budget balance equals public saving: T − G − TR = **+$1 trillion**, a **surplus** (taxes of $3 trillion exceed G + TR = $2 trillion).",
+      "shuffleOptions": true,
+      "scenario": "p2.5",
+      "group": "ch6-2.5"
+    },
+    {
+      "id": "t6-p2.6-a",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Saving and investment",
+      "tags": [
+        "ch6",
+        "saving-investment"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 2.6 (a)"
+      },
+      "prompt": "(a) Private saving ($ trillion)? (Hint: first find total saving S = Y − C − G.)",
+      "answer": {
+        "value": 2.5,
+        "tolerance": 0.01,
+        "prefix": "$",
+        "suffix": " trillion"
+      },
+      "explanation": "S = Y − C − G = 12 − 8 − 2 = 2, and S = S<sub>private</sub> + S<sub>public</sub>, so S<sub>private</sub> = 2 − (−0.5) = **$2.5 trillion**.",
+      "scenario": "p2.6",
+      "group": "ch6-2.6"
+    },
+    {
+      "id": "t6-p2.6-b",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Saving and investment",
+      "tags": [
+        "ch6",
+        "saving-investment"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 2.6 (b)"
+      },
+      "prompt": "(b) Investment spending ($ trillion)?",
+      "answer": {
+        "value": 2,
+        "tolerance": 0.01,
+        "prefix": "$",
+        "suffix": " trillion"
+      },
+      "explanation": "In a closed economy S = I. Total saving is 2.5 + (−0.5) = 2, so **I = $2 trillion** (also I = Y − C − G = 12 − 8 − 2).",
+      "scenario": "p2.6",
+      "group": "ch6-2.6"
+    },
+    {
+      "id": "t6-p2.6-c",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Saving and investment",
+      "tags": [
+        "ch6",
+        "saving-investment"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 2.6 (c)"
+      },
+      "prompt": "(c) Transfer payments TR ($ trillion)?",
+      "answer": {
+        "value": 0.5,
+        "tolerance": 0.01,
+        "prefix": "$",
+        "suffix": " trillion"
+      },
+      "explanation": "S<sub>public</sub> = T − G − TR → −0.5 = 2 − 2 − TR → TR = **$0.5 trillion**. (Check: S<sub>private</sub> = 12 + 0.5 − 8 − 2 = 2.5.)",
+      "scenario": "p2.6",
+      "group": "ch6-2.6"
+    },
+    {
+      "id": "t6-p2.6-d",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Budget balance",
+      "tags": [
+        "ch6",
+        "saving-investment"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 2.6 (d)"
+      },
+      "prompt": "(d) What is the government's budget position?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A budget surplus of $0.5 trillion"
+        },
+        {
+          "id": "b",
+          "text": "A budget deficit of $0.5 trillion"
+        },
+        {
+          "id": "c",
+          "text": "A balanced budget"
+        },
+        {
+          "id": "d",
+          "text": "A budget deficit of $2 trillion"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Public saving is −$0.5 trillion: T = 2 is less than G + TR = 2.5, so the government runs a **deficit of $0.5 trillion**.",
+      "shuffleOptions": true,
+      "scenario": "p2.6",
+      "group": "ch6-2.6"
+    },
+    {
+      "id": "t6-p2.7-a",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Crowding out",
+      "tags": [
+        "ch6",
+        "crowding-out"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 2.7 (a)"
+      },
+      "prompt": "(a) What is total saving S now ($ trillion)?",
+      "answer": {
+        "value": 1.5,
+        "tolerance": 0.01,
+        "prefix": "$",
+        "suffix": " trillion"
+      },
+      "explanation": "S = Y − C − G = 12 − 8 − 2.5 = **$1.5 trillion**. Private saving is unchanged at 2.5; public saving falls from −0.5 to −1.0.",
+      "scenario": "p2.7",
+      "group": "ch6-2.7"
+    },
+    {
+      "id": "t6-p2.7-b",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Crowding out",
+      "tags": [
+        "ch6",
+        "crowding-out"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 2.7 (b)"
+      },
+      "prompt": "(b) What is investment I now ($ trillion)?",
+      "answer": {
+        "value": 1.5,
+        "tolerance": 0.01,
+        "prefix": "$",
+        "suffix": " trillion"
+      },
+      "explanation": "Since S = I, investment falls from 2.0 to **$1.5 trillion**.",
+      "scenario": "p2.7",
+      "group": "ch6-2.7"
+    },
+    {
+      "id": "t6-p2.7-c",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Crowding out",
+      "tags": [
+        "ch6",
+        "crowding-out"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 2.7 (c)"
+      },
+      "prompt": "(c) What does this illustrate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Crowding in: higher government purchases raise private investment by the same amount"
+        },
+        {
+          "id": "b",
+          "text": "Nothing changes, because saving and investment are determined independently"
+        },
+        {
+          "id": "c",
+          "text": "Crowding out: with Y and C fixed, extra government purchases lower national saving and therefore investment one for one"
+        },
+        {
+          "id": "d",
+          "text": "Investment rises by $0.5 trillion, because the government spends the funds on capital"
+        }
+      ],
+      "answer": "c",
+      "explanation": "With Y and C fixed, Y − C − G falls by the $0.5 trillion rise in G, so S and I each fall by $0.5 trillion: government purchases **crowd out** private investment.",
+      "shuffleOptions": true,
+      "scenario": "p2.7",
+      "group": "ch6-2.7"
+    },
+    {
+      "id": "t6-p2.8-a",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Loanable funds shifts",
+      "tags": [
+        "ch6",
+        "loanable-funds"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 2.8 (a)"
+      },
+      "prompt": "(a) The shift from S₁ to S₂ is…",
+      "options": [
+        {
+          "id": "a",
+          "text": "An increase in the supply of loanable funds"
+        },
+        {
+          "id": "b",
+          "text": "A decrease in the quantity supplied (a movement along S₁)"
+        },
+        {
+          "id": "c",
+          "text": "An increase in the demand for loanable funds"
+        },
+        {
+          "id": "d",
+          "text": "A decrease in the supply of loanable funds"
+        }
+      ],
+      "answer": "d",
+      "explanation": "S₂ lies to the **left** of S₁: less is supplied at every interest rate, so supply has **decreased** (a shift, not a movement along the curve).",
+      "shuffleOptions": true,
+      "scenario": "p2.8",
+      "group": "ch6-2.8"
+    },
+    {
+      "id": "t6-p2.8-b",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Loanable funds shifts",
+      "tags": [
+        "ch6",
+        "loanable-funds"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 2.8 (b)"
+      },
+      "prompt": "(b) What happens to the equilibrium quantity of loanable funds and the real interest rate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The quantity falls (L₂ < L₁) and the real interest rate rises (i₂ > i₁)"
+        },
+        {
+          "id": "b",
+          "text": "The quantity rises and the real interest rate falls"
+        },
+        {
+          "id": "c",
+          "text": "The quantity falls and the real interest rate falls"
+        },
+        {
+          "id": "d",
+          "text": "The quantity is unchanged and only the real interest rate rises"
+        }
+      ],
+      "answer": "a",
+      "explanation": "A leftward supply shift against an unchanged downward-sloping demand curve **raises the real interest rate and lowers the equilibrium quantity**.",
+      "shuffleOptions": true,
+      "scenario": "p2.8",
+      "group": "ch6-2.8"
+    },
+    {
+      "id": "t6-p2.8-c",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Loanable funds shifts",
+      "tags": [
+        "ch6",
+        "loanable-funds",
+        "saving-investment"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 2.8 (c)"
+      },
+      "prompt": "(c) What happens to the quantity of saving and the quantity of investment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Saving falls but investment rises"
+        },
+        {
+          "id": "b",
+          "text": "Both fall, by the same amount"
+        },
+        {
+          "id": "c",
+          "text": "Saving rises but investment falls"
+        },
+        {
+          "id": "d",
+          "text": "Both rise, by the same amount"
+        }
+      ],
+      "answer": "b",
+      "explanation": "The equilibrium quantity of loanable funds is both the amount saved and the amount invested (S = I). With L falling from L₁ to L₂, **saving and investment both fall**.",
+      "shuffleOptions": true,
+      "scenario": "p2.8",
+      "group": "ch6-2.8"
+    },
+    {
+      "id": "t6-p2.9-a",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Loanable funds shifts",
+      "tags": [
+        "ch6",
+        "loanable-funds"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 2.9 (a)"
+      },
+      "prompt": "(a) After the demand shift (A to C), what happens to the equilibrium real interest rate and quantity of loanable funds?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The interest rate rises and the quantity falls"
+        },
+        {
+          "id": "b",
+          "text": "The interest rate falls and the quantity rises"
+        },
+        {
+          "id": "c",
+          "text": "Both rise"
+        },
+        {
+          "id": "d",
+          "text": "Both fall"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Demand increased, so the equilibrium moves up along the unchanged supply curve: a **higher real interest rate (i₂ > i₁) and more loanable funds (L₂ > L₁)**.",
+      "shuffleOptions": true,
+      "scenario": "p2.9",
+      "group": "ch6-2.9"
+    },
+    {
+      "id": "t6-p2.9-b",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Loanable funds shifts",
+      "tags": [
+        "ch6",
+        "loanable-funds"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 6 · Problem 2.9 (b)"
+      },
+      "prompt": "(b) How can the equilibrium quantity of loanable funds increase when the interest rate rises? Doesn't a higher rate reduce the quantity demanded?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The law of demand does not hold for loanable funds, so a higher interest rate raises the quantity demanded"
+        },
+        {
+          "id": "b",
+          "text": "The supply curve also shifted right, which raised the quantity"
+        },
+        {
+          "id": "c",
+          "text": "The quantity of loanable funds increases only because the interest rate is set by the government"
+        },
+        {
+          "id": "d",
+          "text": "The demand curve itself shifted right; a higher rate reduces the quantity demanded only along a given curve, and the rate rises just enough to cut the quantity demanded from L₃ back to L₂ while raising the quantity supplied"
+        }
+      ],
+      "answer": "d",
+      "explanation": "A higher rate lowers the quantity demanded only **along a given demand curve**. Here demand shifted right, so at every rate firms want more. The rate rises until the quantity supplied (a movement **along S₁**) equals the quantity demanded on D₂: below L₃ (point B) but above L₁ (point A).",
+      "shuffleOptions": true,
+      "scenario": "p2.9",
+      "group": "ch6-2.9"
+    },
+    {
+      "id": "t6-p2.10-a",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Loanable funds: forecast of expansion",
+      "tags": [
+        "ch6",
+        "loanable-funds"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 2.10 (a)"
+      },
+      "prompt": "(a) What is the likely effect of the expansion on the expected profitability of new investment in plant and equipment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It rises: higher expected sales and capacity use make new projects more profitable"
+        },
+        {
+          "id": "b",
+          "text": "It falls: firms already have excess capacity"
+        },
+        {
+          "id": "c",
+          "text": "It is unaffected: profitability depends only on the interest rate"
+        },
+        {
+          "id": "d",
+          "text": "It rises, but only for firms that already own plants"
+        }
+      ],
+      "answer": "a",
+      "explanation": "In an expansion demand for goods and services grows, so firms expect **higher sales and profits** from new plant and equipment.",
+      "shuffleOptions": true,
+      "scenario": "p2.10",
+      "group": "ch6-2.10"
+    },
+    {
+      "id": "t6-p2.10-b",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Loanable funds: forecast of expansion",
+      "tags": [
+        "ch6",
+        "loanable-funds"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 2.10 (b)"
+      },
+      "prompt": "(b) In the loanable funds market, which curve shifts, and in which direction?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The supply curve shifts right"
+        },
+        {
+          "id": "b",
+          "text": "The demand curve shifts right (firms want to borrow more at every interest rate)"
+        },
+        {
+          "id": "c",
+          "text": "The demand curve shifts left"
+        },
+        {
+          "id": "d",
+          "text": "The supply curve shifts left"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Higher expected profitability raises the demand for loanable funds: **D shifts right**. Supply is held unchanged, as in the lecture's treatment.",
+      "shuffleOptions": true,
+      "scenario": "p2.10",
+      "group": "ch6-2.10"
+    },
+    {
+      "id": "t6-p2.10-d",
+      "type": "graph",
+      "unit": 6,
+      "topic": "Loanable funds: forecast of expansion",
+      "tags": [
+        "ch6",
+        "loanable-funds",
+        "graph"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 2.10 (graph)"
+      },
+      "scenario": "p2.10",
+      "group": "ch6-2.10",
+      "prompt": "Show the effect of the forecast on the market for loanable funds. Draw the new demand curve D₂ and mark the new equilibrium E₂.",
+      "graph": {
+        "x": {
+          "label": "Loanable funds (dollars per year)",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "y": {
+          "label": "Real interest rate",
+          "min": 0,
+          "max": 100,
+          "hideTicks": true
+        },
+        "curves": [
+          {
+            "id": "D",
+            "label": "D₁",
+            "points": [
+              [
+                10,
+                85
+              ],
+              [
+                90,
+                15
+              ]
+            ],
+            "color": "blue"
+          },
+          {
+            "id": "S",
+            "label": "S",
+            "points": [
+              [
+                10,
+                15
+              ],
+              [
+                90,
+                85
+              ]
+            ],
+            "color": "red"
+          }
+        ],
+        "points": [
+          {
+            "id": "E",
+            "label": "E₁",
+            "x": 50,
+            "y": 50,
+            "drop": "both",
+            "dropLabels": {
+              "x": "L₁",
+              "y": "i₁"
+            }
+          }
+        ],
+        "tasks": [
+          {
+            "id": "D2",
+            "kind": "line",
+            "label": "D₂",
+            "prompt": "Draw the new demand curve D₂",
+            "expect": {
+              "slope": "negative",
+              "shiftOf": "D",
+              "direction": "right"
+            }
+          },
+          {
+            "id": "E2",
+            "kind": "point",
+            "label": "E₂",
+            "prompt": "Mark the new equilibrium E₂",
+            "expect": {
+              "atIntersection": [
+                "user:D2",
+                "S"
+              ],
+              "relativeTo": {
+                "ref": "E",
+                "x": "+",
+                "y": "+"
+              }
+            }
+          }
+        ]
+      },
+      "explanation": "A forecast of expansion raises the **expected profitability of new investment**, so firms want to borrow more at every real interest rate: **demand for loanable funds shifts right**. Supply is unchanged, so the equilibrium real interest rate **and** the quantity of loanable funds both rise (a movement up along S)."
+    },
+    {
+      "id": "t6-p2.10-c",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Loanable funds: forecast of expansion",
+      "tags": [
+        "ch6",
+        "loanable-funds"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 2.10 (c)"
+      },
+      "prompt": "(c) What happens to the equilibrium real interest rate, the quantity of loanable funds, saving and investment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The real interest rate falls; saving and investment rise"
+        },
+        {
+          "id": "b",
+          "text": "The real interest rate rises; saving and investment fall"
+        },
+        {
+          "id": "c",
+          "text": "The real interest rate rises; the quantity of loanable funds, saving and investment all rise"
+        },
+        {
+          "id": "d",
+          "text": "The real interest rate is unchanged; investment rises while saving is unchanged"
+        }
+      ],
+      "answer": "c",
+      "explanation": "A right shift in demand raises the equilibrium **real interest rate** and moves along the supply curve to a larger quantity: saving (the quantity supplied) rises and so does investment, since S = I.",
+      "shuffleOptions": true,
+      "scenario": "p2.10",
+      "group": "ch6-2.10"
+    },
+    {
+      "id": "t6-p2.11-a",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Taxes and loanable funds",
+      "tags": [
+        "ch6",
+        "loanable-funds",
+        "taxes"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 2.11 (a)"
+      },
+      "prompt": "(a) Which curve shifts in the loanable funds market?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Demand shifts right, because firms need to borrow to pay the tax"
+        },
+        {
+          "id": "b",
+          "text": "Supply shifts right, because the government has more revenue to lend"
+        },
+        {
+          "id": "c",
+          "text": "Supply shifts left, because households save less"
+        },
+        {
+          "id": "d",
+          "text": "Demand shifts left, because the after-tax return on investment projects falls"
+        }
+      ],
+      "answer": "d",
+      "explanation": "A higher profit tax reduces the **after-tax return** on projects, so fewer projects are worth financing at each interest rate: **D shifts left**. With the budget balance held fixed, supply is unchanged.",
+      "shuffleOptions": true,
+      "scenario": "p2.11",
+      "group": "ch6-2.11"
+    },
+    {
+      "id": "t6-p2.11-b",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Taxes and loanable funds",
+      "tags": [
+        "ch6",
+        "loanable-funds",
+        "taxes"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 2.11 (b)"
+      },
+      "prompt": "(b) What happens to the equilibrium real interest rate and the quantity of loanable funds?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Both fall"
+        },
+        {
+          "id": "b",
+          "text": "Both rise"
+        },
+        {
+          "id": "c",
+          "text": "The interest rate falls and the quantity rises"
+        },
+        {
+          "id": "d",
+          "text": "The interest rate rises and the quantity falls"
+        }
+      ],
+      "answer": "a",
+      "explanation": "A left shift in demand along an unchanged supply curve gives a **lower real interest rate and a smaller quantity** of loanable funds.",
+      "shuffleOptions": true,
+      "scenario": "p2.11",
+      "group": "ch6-2.11"
+    },
+    {
+      "id": "t6-p2.11-c",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Taxes and loanable funds",
+      "tags": [
+        "ch6",
+        "loanable-funds",
+        "taxes"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 2.11 (c)"
+      },
+      "prompt": "(c) What is the effect on investment by firms and on the economy's future capital stock?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Investment rises, so the capital stock will be larger"
+        },
+        {
+          "id": "b",
+          "text": "Investment falls, so the capital stock will be smaller (and growth slower) than otherwise"
+        },
+        {
+          "id": "c",
+          "text": "Investment is unchanged, so the capital stock is unchanged"
+        },
+        {
+          "id": "d",
+          "text": "Investment falls, but the capital stock rises because the interest rate is lower"
+        }
+      ],
+      "answer": "b",
+      "explanation": "A lower L means **less investment** and so less capital accumulation. A smaller capital stock per hour worked means lower future labour productivity and slower growth.",
+      "shuffleOptions": true,
+      "scenario": "p2.11",
+      "group": "ch6-2.11"
+    },
+    {
+      "id": "t6-p2.12-a",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Budget deficits",
+      "tags": [
+        "ch6",
+        "loanable-funds",
+        "crowding-out"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 2.12 (a)"
+      },
+      "prompt": "(a) What is the effect of shrinking budget deficits on the market for loanable funds?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Supply shifts left: the real interest rate rises and investment falls"
+        },
+        {
+          "id": "b",
+          "text": "Demand shifts left: the real interest rate falls and investment falls"
+        },
+        {
+          "id": "c",
+          "text": "Public saving rises, so supply shifts right: the real interest rate falls and saving, investment and loanable funds all rise"
+        },
+        {
+          "id": "d",
+          "text": "Demand shifts right: the real interest rate rises and investment rises"
+        }
+      ],
+      "answer": "c",
+      "explanation": "A smaller deficit means higher **public saving** and so higher national saving: **S shifts right**, lowering the real interest rate and raising the quantity of loanable funds. Saving and investment both increase (less crowding out).",
+      "shuffleOptions": true,
+      "scenario": "p2.12",
+      "group": "ch6-2.12"
+    },
+    {
+      "id": "t6-p2.12-b",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Budget deficits",
+      "tags": [
+        "ch6",
+        "loanable-funds",
+        "crowding-out"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 6 · Problem 2.12 (b)"
+      },
+      "prompt": "(b) Households expect lower taxes soon and cut their saving. How does this change the analysis in (a)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The supply shift is larger, because lower taxes make deficit cuts more effective"
+        },
+        {
+          "id": "b",
+          "text": "Demand shifts right, so the interest rate rises and completely reverses part (a)"
+        },
+        {
+          "id": "c",
+          "text": "Nothing changes, because private saving never responds to expected taxes"
+        },
+        {
+          "id": "d",
+          "text": "Private saving falls and partly offsets the rise in public saving, so supply shifts right by less: the interest rate falls less and the quantity rises less"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Lower household saving shifts S back to the left, **partially offsetting** the increase from public saving. The net rightward shift of S is smaller, so the fall in the interest rate and the rise in investment are **smaller** than with deficit cuts alone.",
+      "shuffleOptions": true,
+      "scenario": "p2.12",
+      "group": "ch6-2.12"
+    },
+    {
+      "id": "t6-p2.13-a",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Taxes and loanable funds",
+      "tags": [
+        "ch6",
+        "loanable-funds",
+        "taxes"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 2.13 (a)"
+      },
+      "prompt": "(a) What happens to savers' after-tax return, and which curve shifts?",
+      "options": [
+        {
+          "id": "a",
+          "text": "After-tax real return rises, so households save more at each interest rate and supply shifts right"
+        },
+        {
+          "id": "b",
+          "text": "After-tax real return falls, so supply shifts left"
+        },
+        {
+          "id": "c",
+          "text": "Firms' after-tax profits rise, so demand shifts right"
+        },
+        {
+          "id": "d",
+          "text": "Nothing changes because the tax is paid by borrowers"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Taxing nominal interest taxes the inflation component too, which can leave a low or negative after-tax real return. Taxing only real interest **raises the after-tax real return** to saving, so **S shifts right**.",
+      "shuffleOptions": true,
+      "scenario": "p2.13",
+      "group": "ch6-2.13"
+    },
+    {
+      "id": "t6-p2.13-b",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Taxes and loanable funds",
+      "tags": [
+        "ch6",
+        "loanable-funds",
+        "taxes"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 2.13 (b)"
+      },
+      "prompt": "(b) What happens to the equilibrium real interest rate, saving and investment?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The real interest rate rises; saving and investment rise"
+        },
+        {
+          "id": "b",
+          "text": "The real interest rate falls; the quantity of loanable funds, saving and investment all rise"
+        },
+        {
+          "id": "c",
+          "text": "The real interest rate falls; saving and investment fall"
+        },
+        {
+          "id": "d",
+          "text": "The real interest rate rises; saving rises but investment falls"
+        }
+      ],
+      "answer": "b",
+      "explanation": "A right shift in supply along an unchanged demand curve → **lower real interest rate, larger quantity**. Saving and investment each rise (S = I).",
+      "shuffleOptions": true,
+      "scenario": "p2.13",
+      "group": "ch6-2.13"
+    },
+    {
+      "id": "t6-p2.14",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Financial system and growth",
+      "tags": [
+        "ch6",
+        "financial-system"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 2.14"
+      },
+      "prompt": "The IMF says a country's financial system provides a framework supporting economic growth. Do you agree?",
+      "options": [
+        {
+          "id": "a",
+          "text": "No: growth depends only on natural resources; finance is irrelevant"
+        },
+        {
+          "id": "b",
+          "text": "No: financial systems always reduce saving and investment"
+        },
+        {
+          "id": "c",
+          "text": "Yes: a sound financial system channels saving to productive investments and provides risk-sharing, liquidity and information, which supports capital accumulation and growth"
+        },
+        {
+          "id": "d",
+          "text": "Yes, but only because a sound financial system guarantees that no recession will ever occur"
+        }
+      ],
+      "answer": "c",
+      "explanation": "A well-functioning financial system links savers and borrowers and provides **risk-sharing, liquidity and information**, so more funds reach productive uses and investment and growth rise. It does not abolish recessions.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t6-p2.15-a",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Loanable funds shifts",
+      "tags": [
+        "ch6",
+        "loanable-funds"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 2.15 (a)",
+        "note": "Panel descriptions reconstructed from the textbook figure."
+      },
+      "scenario": "p2.15",
+      "group": "ch6-2.15",
+      "prompt": "(a) An increase in the real interest rate results in only a small increase in private saving by households.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Panel 1"
+        },
+        {
+          "id": "b",
+          "text": "Panel 2"
+        },
+        {
+          "id": "c",
+          "text": "Panel 3"
+        },
+        {
+          "id": "d",
+          "text": "Panel 4"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Saving that barely responds to the interest rate means a **steep supply curve**: Panel 4.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "t6-p2.15-b",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Loanable funds shifts",
+      "tags": [
+        "ch6",
+        "loanable-funds"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 2.15 (b)",
+        "note": "Panel descriptions reconstructed from the textbook figure."
+      },
+      "scenario": "p2.15",
+      "group": "ch6-2.15",
+      "prompt": "(b) A decrease in the real interest rate results in a substantial increase in spending on investment projects by businesses.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Panel 1"
+        },
+        {
+          "id": "b",
+          "text": "Panel 2"
+        },
+        {
+          "id": "c",
+          "text": "Panel 3"
+        },
+        {
+          "id": "d",
+          "text": "Panel 4"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Investment that responds strongly to the interest rate means a **flat demand curve**: Panel 1.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "t6-p2.15-c",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Loanable funds shifts",
+      "tags": [
+        "ch6",
+        "loanable-funds"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 2.15 (c)",
+        "note": "Panel descriptions reconstructed from the textbook figure."
+      },
+      "scenario": "p2.15",
+      "group": "ch6-2.15",
+      "prompt": "(c) The federal government eliminates RRSPs and TFSAs (tax-deductible retirement accounts).",
+      "options": [
+        {
+          "id": "a",
+          "text": "Panel 1"
+        },
+        {
+          "id": "b",
+          "text": "Panel 2"
+        },
+        {
+          "id": "c",
+          "text": "Panel 3"
+        },
+        {
+          "id": "d",
+          "text": "Panel 4"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Removing the tax advantage lowers the after-tax return to saving, so the **supply of loanable funds shifts left**: Panel 2.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "t6-p2.15-d",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Loanable funds shifts",
+      "tags": [
+        "ch6",
+        "loanable-funds"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 2.15 (d)",
+        "note": "Panel descriptions reconstructed from the textbook figure."
+      },
+      "scenario": "p2.15",
+      "group": "ch6-2.15",
+      "prompt": "(d) The federal government reduces the tax on corporate profits (no change in the budget deficit or surplus).",
+      "options": [
+        {
+          "id": "a",
+          "text": "Panel 1"
+        },
+        {
+          "id": "b",
+          "text": "Panel 2"
+        },
+        {
+          "id": "c",
+          "text": "Panel 3"
+        },
+        {
+          "id": "d",
+          "text": "Panel 4"
+        }
+      ],
+      "answer": "c",
+      "explanation": "A lower profit tax raises the after-tax return on investment, so the **demand for loanable funds shifts right**: Panel 3.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "t6-p2.16-a",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Financial intermediaries",
+      "tags": [
+        "ch6",
+        "financial-system"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 2.16 (a)"
+      },
+      "prompt": "(a) What financial intermediary do 'index-tracking funds' or 'funds' refer to?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Commercial banks"
+        },
+        {
+          "id": "b",
+          "text": "Insurance companies"
+        },
+        {
+          "id": "c",
+          "text": "The stock market"
+        },
+        {
+          "id": "d",
+          "text": "Mutual funds (and similar pooled investment funds such as ETFs)"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Funds that pool household savings and buy a portfolio of stocks and/or bonds are **mutual funds** (including index funds and ETFs), a type of financial intermediary.",
+      "shuffleOptions": true,
+      "scenario": "p2.16",
+      "group": "ch6-2.16"
+    },
+    {
+      "id": "t6-p2.16-b",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Productivity",
+      "tags": [
+        "ch6",
+        "productivity"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 2.16 (b)"
+      },
+      "prompt": "(b) How does AI affect labour productivity in the financial system?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It raises it: the same output of financial services is produced with fewer hours of labour"
+        },
+        {
+          "id": "b",
+          "text": "It lowers it: workers become less skilled"
+        },
+        {
+          "id": "c",
+          "text": "It has no effect because services cannot be measured"
+        },
+        {
+          "id": "d",
+          "text": "It lowers it because technology replaces capital"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Labour productivity is output per hour worked. If AI lets firms deliver the same services with less human labour, **output per hour rises**.",
+      "shuffleOptions": true,
+      "scenario": "p2.16",
+      "group": "ch6-2.16"
+    },
+    {
+      "id": "t6-p2.16-c",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Loanable funds and growth",
+      "tags": [
+        "ch6",
+        "loanable-funds",
+        "growth-policy"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 2.16 (c)",
+        "note": "Ambiguous: AI could instead raise the profitability of investment (demand right). Either way investment rises; the supply-side reading was chosen."
+      },
+      "prompt": "(c) Using the loanable funds model, how would AI-driven cost reductions affect long-run growth?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lower costs shift demand left, lowering investment and growth"
+        },
+        {
+          "id": "b",
+          "text": "Cheaper intermediation raises the supply of loanable funds, lowering the real interest rate and raising investment, capital and long-run growth"
+        },
+        {
+          "id": "c",
+          "text": "Lower costs raise the real interest rate and reduce saving"
+        },
+        {
+          "id": "d",
+          "text": "There is no effect because the loanable funds market is unaffected by costs"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Lower costs raise the **net return to savers** and make saving through the financial system more attractive: **S shifts right**, the real interest rate falls and investment rises. More capital per hour worked boosts productivity and growth.",
+      "shuffleOptions": true,
+      "scenario": "p2.16",
+      "group": "ch6-2.16"
+    },
+    {
+      "id": "t6-rq3.1-a",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Business cycle phases",
+      "tags": [
+        "ch6",
+        "business-cycle"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Review Q 3.1 (a)"
+      },
+      "prompt": "(a) The high point of economic activity:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trough"
+        },
+        {
+          "id": "b",
+          "text": "Recession"
+        },
+        {
+          "id": "c",
+          "text": "Peak"
+        },
+        {
+          "id": "d",
+          "text": "Expansion"
+        }
+      ],
+      "answer": "c",
+      "explanation": "The business cycle **peak** is the high point of economic activity.",
+      "shuffleOptions": true,
+      "scenario": "rq3.1",
+      "group": "ch6-3.1"
+    },
+    {
+      "id": "t6-rq3.1-b",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Business cycle phases",
+      "tags": [
+        "ch6",
+        "business-cycle"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Review Q 3.1 (b)"
+      },
+      "prompt": "(b) The low point of economic activity:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trough"
+        },
+        {
+          "id": "b",
+          "text": "Peak"
+        },
+        {
+          "id": "c",
+          "text": "Recession"
+        },
+        {
+          "id": "d",
+          "text": "Expansion"
+        }
+      ],
+      "answer": "a",
+      "explanation": "The business cycle **trough** is the low point of economic activity.",
+      "shuffleOptions": true,
+      "scenario": "rq3.1",
+      "group": "ch6-3.1"
+    },
+    {
+      "id": "t6-rq3.1-c",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Business cycle phases",
+      "tags": [
+        "ch6",
+        "business-cycle"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Review Q 3.1 (c)"
+      },
+      "prompt": "(c) The period between the high point and the following low point:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Peak"
+        },
+        {
+          "id": "b",
+          "text": "Trough"
+        },
+        {
+          "id": "c",
+          "text": "Expansion"
+        },
+        {
+          "id": "d",
+          "text": "Recession"
+        }
+      ],
+      "answer": "d",
+      "explanation": "A **recession** is the decline in production, employment and income from a peak to the next trough.",
+      "shuffleOptions": true,
+      "scenario": "rq3.1",
+      "group": "ch6-3.1"
+    },
+    {
+      "id": "t6-rq3.1-d",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Business cycle phases",
+      "tags": [
+        "ch6",
+        "business-cycle"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Review Q 3.1 (d)"
+      },
+      "prompt": "(d) The period between the low point and the following high point:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Peak"
+        },
+        {
+          "id": "b",
+          "text": "Expansion"
+        },
+        {
+          "id": "c",
+          "text": "Trough"
+        },
+        {
+          "id": "d",
+          "text": "Recession"
+        }
+      ],
+      "answer": "b",
+      "explanation": "An **expansion** is the period of rising production, employment and income from a trough to the next peak.",
+      "shuffleOptions": true,
+      "scenario": "rq3.1",
+      "group": "ch6-3.1"
+    },
+    {
+      "id": "t6-rq3.2-a",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Inflation over the cycle",
+      "tags": [
+        "ch6",
+        "business-cycle"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Review Q 3.2 (a)"
+      },
+      "prompt": "(a) What typically happens to inflation over the cycle?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It rises during recessions and falls during expansions"
+        },
+        {
+          "id": "b",
+          "text": "It is unaffected by the business cycle"
+        },
+        {
+          "id": "c",
+          "text": "It tends to rise toward the end of an expansion and fall during a recession"
+        },
+        {
+          "id": "d",
+          "text": "It is highest at the trough"
+        }
+      ],
+      "answer": "c",
+      "explanation": "In an expansion demand is high relative to supply, so prices rise faster (especially late in the expansion); in a recession demand is weak, so inflation falls (prices may even fall).",
+      "shuffleOptions": true,
+      "scenario": "rq3.2",
+      "group": "ch6-3.2"
+    },
+    {
+      "id": "t6-rq3.2-b",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Unemployment over the cycle",
+      "tags": [
+        "ch6",
+        "business-cycle"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Review Q 3.2 (b)"
+      },
+      "prompt": "(b) What typically happens to the unemployment rate over the cycle?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It rises throughout an expansion"
+        },
+        {
+          "id": "b",
+          "text": "It stays constant at the natural rate"
+        },
+        {
+          "id": "c",
+          "text": "It rises during an expansion and falls during a recession"
+        },
+        {
+          "id": "d",
+          "text": "It declines during the later part of an expansion and rises during a recession"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Unemployment moves **opposite to output**: it falls as production and hiring expand, and rises in recession.",
+      "shuffleOptions": true,
+      "scenario": "rq3.2",
+      "group": "ch6-3.2"
+    },
+    {
+      "id": "t6-rq3.2-c",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Unemployment over the cycle",
+      "tags": [
+        "ch6",
+        "business-cycle"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Review Q 3.2 (c)"
+      },
+      "prompt": "(c) Why might the unemployment rate keep rising in the early stages of an expansion?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Firms may be slow to rehire, and discouraged workers re-enter the labour force as conditions improve, so unemployment can rise even as output recovers"
+        },
+        {
+          "id": "b",
+          "text": "Because output falls at the start of every expansion"
+        },
+        {
+          "id": "c",
+          "text": "Because inflation falls too fast for firms to hire"
+        },
+        {
+          "id": "d",
+          "text": "Because every expansion begins with a new recession"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Early in a recovery firms first raise hours of existing workers and are cautious about hiring; meanwhile **discouraged workers** start looking again, adding to the labour force and the unemployed. So unemployment often keeps rising after the trough.",
+      "shuffleOptions": true,
+      "scenario": "rq3.2",
+      "group": "ch6-3.2"
+    },
+    {
+      "id": "t6-p3.3-a",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Cyclical sensitivity",
+      "tags": [
+        "ch6",
+        "business-cycle"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 3.3 (a)"
+      },
+      "prompt": "(a) Ford F-150 pickup trucks: production fluctuates…",
+      "options": [
+        {
+          "id": "a",
+          "text": "About the same as real GDP"
+        },
+        {
+          "id": "b",
+          "text": "More than real GDP"
+        },
+        {
+          "id": "c",
+          "text": "Less than real GDP"
+        },
+        {
+          "id": "d",
+          "text": "In the opposite direction to real GDP"
+        }
+      ],
+      "answer": "b",
+      "explanation": "**More** than real GDP. Big-ticket durable goods are bought less in recessions because purchases can be postponed.",
+      "shuffleOptions": true,
+      "scenario": "p3.3",
+      "group": "ch6-3.3"
+    },
+    {
+      "id": "t6-p3.3-b",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Cyclical sensitivity",
+      "tags": [
+        "ch6",
+        "business-cycle"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 3.3 (b)"
+      },
+      "prompt": "(b) McDonald's Big Macs: production fluctuates…",
+      "options": [
+        {
+          "id": "a",
+          "text": "More than real GDP"
+        },
+        {
+          "id": "b",
+          "text": "About the same as real GDP"
+        },
+        {
+          "id": "c",
+          "text": "Less than real GDP"
+        },
+        {
+          "id": "d",
+          "text": "In the opposite direction to real GDP"
+        }
+      ],
+      "answer": "c",
+      "explanation": "**Less** than real GDP. Inexpensive nondurable food is bought regularly and may even gain customers who trade down in a recession.",
+      "shuffleOptions": true,
+      "scenario": "p3.3",
+      "group": "ch6-3.3"
+    },
+    {
+      "id": "t6-p3.3-c",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Cyclical sensitivity",
+      "tags": [
+        "ch6",
+        "business-cycle"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 3.3 (c)"
+      },
+      "prompt": "(c) Refrigerators: production fluctuates…",
+      "options": [
+        {
+          "id": "a",
+          "text": "More than real GDP"
+        },
+        {
+          "id": "b",
+          "text": "About the same as real GDP"
+        },
+        {
+          "id": "c",
+          "text": "Less than real GDP"
+        },
+        {
+          "id": "d",
+          "text": "In the opposite direction to real GDP"
+        }
+      ],
+      "answer": "a",
+      "explanation": "**More** than real GDP. Durable goods: consumers can delay replacing them when incomes fall, so production swings more than real GDP.",
+      "shuffleOptions": true,
+      "scenario": "p3.3",
+      "group": "ch6-3.3"
+    },
+    {
+      "id": "t6-p3.3-d",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Cyclical sensitivity",
+      "tags": [
+        "ch6",
+        "business-cycle"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 3.3 (d)"
+      },
+      "prompt": "(d) Huggies diapers: production fluctuates…",
+      "options": [
+        {
+          "id": "a",
+          "text": "More than real GDP"
+        },
+        {
+          "id": "b",
+          "text": "Less than real GDP"
+        },
+        {
+          "id": "c",
+          "text": "About the same as real GDP"
+        },
+        {
+          "id": "d",
+          "text": "In the opposite direction to real GDP"
+        }
+      ],
+      "answer": "b",
+      "explanation": "**Less** than real GDP. A necessity with steady demand, so sales vary little over the cycle.",
+      "shuffleOptions": true,
+      "scenario": "p3.3",
+      "group": "ch6-3.3"
+    },
+    {
+      "id": "t6-p3.3-e",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Cyclical sensitivity",
+      "tags": [
+        "ch6",
+        "business-cycle"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 3.3 (e)"
+      },
+      "prompt": "(e) Bombardier passenger aircraft: production fluctuates…",
+      "options": [
+        {
+          "id": "a",
+          "text": "About the same as real GDP"
+        },
+        {
+          "id": "b",
+          "text": "Less than real GDP"
+        },
+        {
+          "id": "c",
+          "text": "More than real GDP"
+        },
+        {
+          "id": "d",
+          "text": "In the opposite direction to real GDP"
+        }
+      ],
+      "answer": "c",
+      "explanation": "**More** than real GDP. Capital goods bought with large, postponable outlays are among the most cyclical products.",
+      "shuffleOptions": true,
+      "scenario": "p3.3",
+      "group": "ch6-3.3"
+    },
+    {
+      "id": "t6-p3.4",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Dating recessions",
+      "tags": [
+        "ch6",
+        "recession-dating"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 3.4",
+        "note": "Discussion question; answer reflects the reasoning in the chapter and lecture."
+      },
+      "prompt": "No agency in Canada is responsible for declaring recessions. Why might Statistics Canada not want that role?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Statistics Canada does not collect any data on GDP or employment"
+        },
+        {
+          "id": "b",
+          "text": "Declaring recessions is judgmental and politically sensitive, and its own GDP data get revised, so a declaration could later look wrong and damage its credibility"
+        },
+        {
+          "id": "c",
+          "text": "The Canadian constitution forbids federal agencies from measuring GDP"
+        },
+        {
+          "id": "d",
+          "text": "Recessions are defined only by the Bank of Canada, whose decisions cannot be questioned"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Dating a recession involves **judgment** across duration, depth and breadth, and the underlying data are **revised** (see the Week 6 lecture). A neutral statistical agency would not want to be accused of political bias or to reverse itself, so dating is left to non-official bodies like the C.D. Howe Business Cycle Council.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t6-p3.5",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Business cycle strategy",
+      "tags": [
+        "ch6",
+        "business-cycle"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 3.5",
+        "note": "Discussion question."
+      },
+      "prompt": "Some firms prosper by expanding during recessions. What risks does the strategy carry?",
+      "options": [
+        {
+          "id": "a",
+          "text": "There is no risk because recessions always end within two quarters"
+        },
+        {
+          "id": "b",
+          "text": "Expanding in a recession is illegal under competition law"
+        },
+        {
+          "id": "c",
+          "text": "The recession may be deeper or longer than expected, leaving the firm with debt and idle capacity; caution is warranted in highly cyclical industries or when the firm is heavily indebted"
+        },
+        {
+          "id": "d",
+          "text": "The only risk is that interest rates will fall"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Expanding during a recession can capture cheap inputs and market share, but if the downturn **lasts longer or goes deeper** than forecast, sales fall short of the new capacity and debt payments strain finances. Firms whose demand is very cyclical (e.g. autos, aircraft) or already highly leveraged should be more cautious.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t6-p3.6",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Level vs growth",
+      "tags": [
+        "ch6",
+        "growth-rates"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 6 · Problem 3.6"
+      },
+      "prompt": "'Real GDP in 2012 was $1.6 trillion. This value is a large number. Therefore, economic growth must have been high during 2012.' Do you agree?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yes: a large level of real GDP always means rapid growth"
+        },
+        {
+          "id": "b",
+          "text": "Yes: growth is defined as the level of real GDP divided by population"
+        },
+        {
+          "id": "c",
+          "text": "No: real GDP of $1.6 trillion is too small for a large economy"
+        },
+        {
+          "id": "d",
+          "text": "No: the level of real GDP says nothing about growth, which is the percentage change in real GDP from the previous year"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Economic growth is measured by the **percentage change** in real GDP, not its level. A large economy can be growing slowly, or even shrinking.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t6-p3.7",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Great Moderation",
+      "tags": [
+        "ch6",
+        "business-cycle",
+        "financial-system"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 6 · Problem 3.7",
+        "note": "Discussion question."
+      },
+      "prompt": "Samuelson argued the Great Moderation caused the Great Recession. Why might it have made the severe 2007–2009 recession more likely?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Years of stable growth led borrowers and lenders to underestimate risk and take on heavy debt, so when the downturn came, defaults and losses were severe"
+        },
+        {
+          "id": "b",
+          "text": "Stable growth reduced consumers' incomes, forcing them to default"
+        },
+        {
+          "id": "c",
+          "text": "Stable growth caused lenders to restrict credit, starving firms of funds"
+        },
+        {
+          "id": "d",
+          "text": "It could not have: stability of output always makes recessions milder"
+        }
+      ],
+      "answer": "a",
+      "explanation": "During the Great Moderation recessions were mild and rare, so consumers felt secure borrowing and lenders felt safe lending more freely. The result was **high leverage**; when the housing and financial shocks hit, defaults cascaded and the downturn was deep.",
+      "shuffleOptions": true
+    }
+  ]
+}

@@ -1,0 +1,2832 @@
+{
+  "schema": "practice-bank/v1",
+  "id": "1BB3-mt2-text-ch4",
+  "course": "ECON 1BB3",
+  "title": "Textbook Problems · Ch 4",
+  "description": "Auto-gradable versions of the Chapter 4 (GDP: Measuring Total Production and Income) review questions and problems from Hubbard, O'Brien, Serletis & Childs, Macroeconomics, 5th Canadian ed.",
+  "defaultSource": {
+    "label": "Textbook Problems",
+    "kind": "textbook"
+  },
+  "defaultUnit": 4,
+  "scenarios": {
+    "ch4-1.4": {
+      "title": "Review Q 1.4 — Expenditure categories",
+      "body": "Describe the four major categories of expenditures in GDP and write the equation used to represent the relationship between GDP and the four expenditure categories."
+    },
+    "ch4-1.7": {
+      "title": "Problem 1.7 — Final goods?",
+      "body": "Briefly explain whether each of the following transactions represents the purchase of a final good."
+    },
+    "ch4-1.8": {
+      "title": "Problem 1.8 — CPKC and the components of GDP",
+      "body": "Briefly explain which component of GDP will be affected by each of the following transactions involving CPKC. If you believe that a transaction will not affect any of the components of GDP, say so.\n\nThe components to choose from are: final consumption, gross fixed capital formation, net exports, or none (intermediate good)."
+    },
+    "ch4-1.9": {
+      "title": "Problem 1.9 — A resold house",
+      "body": "Consider a house built in 2014 and resold in 2026, and the services of the real estate agent who helped sell (or buy) it in 2026."
+    },
+    "ch4-1.10": {
+      "title": "Problem 1.10 — Nominal GDP in a simple economy (2027)",
+      "body": "A simple economy produces only four goods: shoes, hamburgers, shirts, and cotton. Assume that all the cotton is used in the production of shirts. Use the information in the table to calculate nominal GDP for 2027.",
+      "table": {
+        "caption": "Production and price statistics for 2027",
+        "headers": [
+          "Product",
+          "Quantity",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Shoes",
+            100,
+            "$60.00"
+          ],
+          [
+            "Hamburgers",
+            100,
+            "$2.00"
+          ],
+          [
+            "Shirts",
+            50,
+            "$25.00"
+          ],
+          [
+            "Cotton",
+            80,
+            "$0.60"
+          ]
+        ],
+        "rowHeaders": true
+      }
+    },
+    "ch4-1.12": {
+      "title": "Problem 1.12 — Do Canadian households spend too much?",
+      "body": "Household debt is becoming an ever more serious concern for the Canadian economy. By the end of September 2024, Canadians’ debt-to-disposable-income ratio was 173.1 percent, meaning the average Canadian was carrying debt equal to more than 1.7 times their after-tax income. In 2000 the ratio was much lower, at 110 percent. Economists identify current debt as a risk to future growth, because Canadians will have to cut debt and build up savings."
+    },
+    "ch4-1.14": {
+      "title": "Problem 1.14 — The artist and the art store",
+      "body": "An artist buys scrap metal from a local steel mill as raw material for her metal sculptures. Last year she bought $5,000 worth of scrap metal. During the year she produced 10 metal sculptures that she sold for $800 each to a local art store. The art store sold all the sculptures to local art collectors at an average price of $1,000 each."
+    },
+    "ch4-2.3": {
+      "title": "Problem 2.3 — Measured GDP",
+      "body": "Which of the following are likely to increase measured GDP, and which are likely to reduce it?"
+    },
+    "ch4-2.5": {
+      "title": "Problem 2.5 — GNI per person versus the Human Development Index (2022)",
+      "body": "The UN Human Development Index (HDI) combines gross national income (GNI) per person with life expectancy at birth, average years of schooling and expected years of schooling. Rank the countries from highest to lowest GNI per person and from highest to lowest HDI, and discuss the differences.",
+      "table": {
+        "caption": "Real GNI per person (2017 PPP) and HDI, 2022",
+        "headers": [
+          "Country",
+          "Real GNI per person",
+          "HDI"
+        ],
+        "rows": [
+          [
+            "Austria",
+            "56,530",
+            "0.926"
+          ],
+          [
+            "Greece",
+            "31,382",
+            "0.893"
+          ],
+          [
+            "China",
+            "18,025",
+            "0.788"
+          ],
+          [
+            "Iran",
+            "14,770",
+            "0.780"
+          ],
+          [
+            "Norway",
+            "69,190",
+            "0.966"
+          ],
+          [
+            "Canada",
+            "48,444",
+            "0.935"
+          ],
+          [
+            "Singapore",
+            "88,761",
+            "0.949"
+          ],
+          [
+            "South Korea",
+            "46,026",
+            "0.929"
+          ],
+          [
+            "United Arab Emirates",
+            "74,104",
+            "0.937"
+          ],
+          [
+            "United States",
+            "65,565",
+            "0.927"
+          ],
+          [
+            "Venezuela",
+            "6,184",
+            "0.699"
+          ],
+          [
+            "Zimbabwe",
+            "2,079",
+            "0.550"
+          ]
+        ],
+        "rowHeaders": true
+      }
+    },
+    "ch4-2.6": {
+      "title": "Problem 2.6 — Did cannabis legalization boost GDP?",
+      "body": "The legalization of cannabis for recreational use in October 2018 presented Statistics Canada with a real challenge: it had to add estimates of the economic activity of the illegal cannabis market for every year back to 1961."
+    },
+    "ch4-2.7": {
+      "title": "Problem 2.7 — GDP as a summary statistic",
+      "body": "An article in the Economist stated, “The appeal of GDP is that it offers, or seems to, a summary statistic of how well an economy is doing.”"
+    },
+    "ch4-3.3": {
+      "title": "Review Q 3.3 — Nominal vs real GDP",
+      "body": "Assuming prices have increased over time, what is the relationship between nominal GDP and real GDP in each of the following situations?"
+    },
+    "ch4-3.4": {
+      "title": "Problem 3.4 — Real GDP, base year 2009",
+      "body": "A simple economy produces only four goods: shoes, hamburgers, shirts and cotton. Assume that all the cotton is used in the production of shirts. Use the table to calculate real GDP for 2018 and 2019, assuming that the base year is 2009.",
+      "table": {
+        "caption": "Quantities and prices",
+        "headers": [
+          "",
+          "2009 Qty",
+          "2009 Price",
+          "2018 Qty",
+          "2018 Price",
+          "2019 Qty",
+          "2019 Price"
+        ],
+        "rows": [
+          [
+            "Shoes",
+            90,
+            "$50.00",
+            100,
+            "$60.00",
+            100,
+            "$65.00"
+          ],
+          [
+            "Hamburgers",
+            75,
+            "$2.00",
+            100,
+            "$2.00",
+            120,
+            "$2.25"
+          ],
+          [
+            "Shirts",
+            50,
+            "$30.00",
+            50,
+            "$25.00",
+            65,
+            "$25.00"
+          ],
+          [
+            "Cotton",
+            100,
+            "$0.80",
+            800,
+            "$0.60",
+            120,
+            "$0.70"
+          ]
+        ],
+        "rowHeaders": true
+      }
+    },
+    "ch4-3.5": {
+      "title": "Problem 3.5 — Real vs nominal GDP statements",
+      "body": "For each of the following statements, decide whether you agree."
+    },
+    "ch4-3.7": {
+      "title": "Problem 3.7 — Changing the base year",
+      "body": "Use the hypothetical values in the table. Real GDP = Nominal GDP ÷ GDP deflator × 100. The percentage change in real GDP is the change from the previous year.",
+      "table": {
+        "caption": "Nominal GDP and deflators",
+        "headers": [
+          "Year",
+          "Nominal GDP",
+          "Deflator (base 2016)",
+          "Deflator (base 2018)"
+        ],
+        "rows": [
+          [
+            2014,
+            "$980",
+            90,
+            81.8
+          ],
+          [
+            2015,
+            "$1,020",
+            92,
+            83.6
+          ],
+          [
+            2016,
+            "$1,050",
+            100,
+            90.9
+          ],
+          [
+            2017,
+            "$1,200",
+            105,
+            95.5
+          ],
+          [
+            2018,
+            "$1,400",
+            110,
+            100.0
+          ]
+        ],
+        "rowHeaders": true
+      }
+    },
+    "ch4-3.9": {
+      "title": "Problem 3.9 — The GDP deflator",
+      "body": "Use the data in the table to calculate the GDP deflator for each year (billions of dollars).",
+      "table": {
+        "caption": "Nominal and real GDP",
+        "headers": [
+          "Year",
+          "Nominal GDP",
+          "Real GDP"
+        ],
+        "rows": [
+          [
+            2012,
+            "16,155",
+            "15,355"
+          ],
+          [
+            2013,
+            "16,692",
+            "15,612"
+          ],
+          [
+            2014,
+            "17,393",
+            "15,982"
+          ],
+          [
+            2015,
+            "18,037",
+            "16,397"
+          ],
+          [
+            2016,
+            "18,569",
+            "16,662"
+          ]
+        ],
+        "rowHeaders": true
+      }
+    },
+    "ch4-4.1": {
+      "title": "Review Q 4.1 — GDP versus GNI",
+      "body": "What is the difference between GDP and GNI? Is the difference important for Canada?"
+    },
+    "ch4-4.3": {
+      "title": "Review Q 4.3 — Gross domestic income",
+      "body": "What is gross domestic income? Which component of gross domestic income is the largest?"
+    }
+  },
+  "groups": {
+    "ch4-1.4": {
+      "ref": "Ch 4 · Review Q 1.4",
+      "title": "GDP expenditure categories and equation"
+    },
+    "ch4-1.7": {
+      "ref": "Ch 4 · Problem 1.7",
+      "title": "Which purchases are final goods?"
+    },
+    "ch4-1.8": {
+      "ref": "Ch 4 · Problem 1.8",
+      "title": "CPKC transactions and GDP components"
+    },
+    "ch4-1.9": {
+      "ref": "Ch 4 · Problem 1.9",
+      "title": "Resale of a house"
+    },
+    "ch4-1.12": {
+      "ref": "Ch 4 · Problem 1.12",
+      "title": "Household debt, saving and GDP"
+    },
+    "ch4-1.14": {
+      "ref": "Ch 4 · Problem 1.14",
+      "title": "Value added: artist and art store"
+    },
+    "ch4-2.3": {
+      "ref": "Ch 4 · Problem 2.3",
+      "title": "What raises or lowers measured GDP"
+    },
+    "ch4-2.5": {
+      "ref": "Ch 4 · Problem 2.5",
+      "title": "GNI per person vs HDI"
+    },
+    "ch4-2.6": {
+      "ref": "Ch 4 · Problem 2.6",
+      "title": "Cannabis and GDP"
+    },
+    "ch4-2.7": {
+      "ref": "Ch 4 · Problem 2.7",
+      "title": "GDP as a summary statistic"
+    },
+    "ch4-3.3": {
+      "ref": "Ch 4 · Review Q 3.3",
+      "title": "Nominal vs real GDP around the base year"
+    },
+    "ch4-3.4": {
+      "ref": "Ch 4 · Problem 3.4",
+      "title": "Real GDP and its growth rate"
+    },
+    "ch4-3.5": {
+      "ref": "Ch 4 · Problem 3.5",
+      "title": "Nominal and real GDP statements"
+    },
+    "ch4-3.7": {
+      "ref": "Ch 4 · Problem 3.7",
+      "title": "Changing the base year"
+    },
+    "ch4-3.9": {
+      "ref": "Ch 4 · Problem 3.9",
+      "title": "Computing the GDP deflator"
+    },
+    "ch4-4.1": {
+      "ref": "Ch 4 · Review Q 4.1",
+      "title": "GDP vs GNI"
+    },
+    "ch4-4.3": {
+      "ref": "Ch 4 · Review Q 4.3",
+      "title": "Gross domestic income"
+    }
+  },
+  "questions": [
+    {
+      "id": "t4-1.1",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Why market value",
+      "tags": [
+        "ch4",
+        "gdp-definition"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Review Q 1.1"
+      },
+      "prompt": "Why in microeconomics do we measure production in terms of quantity, but in macroeconomics we measure production in terms of market value?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Macroeconomics must add up very different goods and services (cars, haircuts, food) into one total, which needs a common unit; market value (price × quantity) provides it"
+        },
+        {
+          "id": "b",
+          "text": "Macroeconomics studies only prices, so quantities are irrelevant"
+        },
+        {
+          "id": "c",
+          "text": "Quantities of goods cannot be measured for the economy as a whole"
+        },
+        {
+          "id": "d",
+          "text": "Market values are unaffected by inflation, so they give a more accurate measure of output"
+        }
+      ],
+      "answer": "a",
+      "explanation": "You cannot meaningfully add cars to haircuts to bushels of wheat. In microeconomics we study one good at a time, so units work. For the whole economy we need a **common unit, and market value in dollars is that unit**. (Market values do move with prices, which is why real GDP is introduced later.)",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-1.2",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Double counting",
+      "tags": [
+        "ch4",
+        "gdp-definition",
+        "intermediate"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Review Q 1.2"
+      },
+      "prompt": "If Statistics Canada added up the values of every good and service sold during the year, would the total be larger or smaller than GDP?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Smaller, because GDP also includes the value of imported goods"
+        },
+        {
+          "id": "b",
+          "text": "Larger, because it would count intermediate goods repeatedly and also resales of used goods"
+        },
+        {
+          "id": "c",
+          "text": "Exactly the same, because GDP is the total value of everything sold"
+        },
+        {
+          "id": "d",
+          "text": "Smaller, because sales leave out government purchases that GDP includes"
+        }
+      ],
+      "answer": "b",
+      "explanation": "GDP counts only **final** goods and services produced in the period. Summing every sale would count intermediate goods (e.g. the wheat, then the flour, then the bread) multiple times, and would add resales of used goods produced earlier. The total would therefore be **larger** than GDP.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-1.3",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Circular flow",
+      "tags": [
+        "ch4",
+        "circular-flow"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Review Q 1.3"
+      },
+      "prompt": "In the circular flow of income, why must the value of total production in an economy equal the value of total income?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Because the government sets income equal to production through its taxes and transfers"
+        },
+        {
+          "id": "b",
+          "text": "Because households spend exactly all of their income on domestically produced goods"
+        },
+        {
+          "id": "c",
+          "text": "Every dollar spent on final goods becomes revenue for firms, and firms pay all of that revenue out as wages, rent, interest and profit to the owners of the factors of production"
+        },
+        {
+          "id": "d",
+          "text": "Because prices adjust automatically until production equals income in each market"
+        }
+      ],
+      "answer": "c",
+      "explanation": "The value of what is produced equals what is spent on it (revenue to firms). Firms in turn pay out **all** of that revenue as income to households: wages, rent, interest, and profit to the owners. So **total production = total spending = total income**. This is an accounting identity; it does not require that households spend all their income or that government acts.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-1.4a",
+      "type": "multi",
+      "unit": 4,
+      "topic": "Expenditure categories",
+      "tags": [
+        "ch4",
+        "expenditure-approach"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Review Q 1.4"
+      },
+      "scenario": "ch4-1.4",
+      "group": "ch4-1.4",
+      "prompt": "Which of the following are major categories of expenditure in GDP (national-accounts version)? Select all that apply.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Final consumption"
+        },
+        {
+          "id": "b",
+          "text": "Government transfer payments"
+        },
+        {
+          "id": "c",
+          "text": "Gross fixed capital formation"
+        },
+        {
+          "id": "d",
+          "text": "Purchases of intermediate goods"
+        },
+        {
+          "id": "e",
+          "text": "Investment in inventories"
+        },
+        {
+          "id": "f",
+          "text": "Net exports"
+        }
+      ],
+      "answer": [
+        "a",
+        "c",
+        "e",
+        "f"
+      ],
+      "explanation": "The four expenditure categories are **final consumption** (households, government and non-profits), **gross fixed capital formation** (fixed assets such as buildings and machinery), **investment in inventories**, and **net exports**. Transfer payments are not purchases of newly produced output, and intermediate goods are excluded to avoid double counting.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-1.4b",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Expenditure equation",
+      "tags": [
+        "ch4",
+        "expenditure-approach"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Review Q 1.4"
+      },
+      "scenario": "ch4-1.4",
+      "group": "ch4-1.4",
+      "prompt": "Which equation relates GDP to the four expenditure categories?",
+      "options": [
+        {
+          "id": "a",
+          "text": "GDP = final consumption + saving + taxes + (exports − imports)"
+        },
+        {
+          "id": "b",
+          "text": "GDP = final consumption + gross fixed capital formation + transfer payments + (exports + imports)"
+        },
+        {
+          "id": "c",
+          "text": "GDP = final consumption + intermediate goods + investment in inventories + imports"
+        },
+        {
+          "id": "d",
+          "text": "GDP = final consumption + gross fixed capital formation + investment in inventories + (exports − imports)"
+        }
+      ],
+      "answer": "d",
+      "explanation": "GDP is total spending on final goods and services produced domestically: consumption, plus investment (fixed capital and inventories), plus **net exports = exports − imports**. Imports are subtracted because they are included in spending but were not produced in Canada. (In the simplified macro-model version this is **Y = C + I + G + Nx**.)",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-1.5",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Value added",
+      "tags": [
+        "ch4",
+        "value-added"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Review Q 1.5"
+      },
+      "prompt": "What is meant by a firm’s “value added”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The market value the firm adds to a product: its sales revenue minus what it pays for intermediate goods and services"
+        },
+        {
+          "id": "b",
+          "text": "The firm’s total revenue from selling the finished product"
+        },
+        {
+          "id": "c",
+          "text": "The firm’s profit after paying all wages, rent and interest"
+        },
+        {
+          "id": "d",
+          "text": "The tax the government collects on the firm’s final sale"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Value added = **sale price of the output − payments for intermediate goods**. It is larger than profit, because it also includes the wages, rent and interest the firm pays. Summing value added across every stage of production gives the final selling price, and hence GDP.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-1.6",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Intermediate goods",
+      "tags": [
+        "ch4",
+        "intermediate",
+        "double-counting"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Problem 1.6"
+      },
+      "prompt": "A student says: “It doesn’t make sense that intermediate goods are not counted in GDP. A computer chip is an intermediate good, and without it a PC won’t work. So why don’t we count the computer chip in GDP?” What is the best reply?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chips are not valuable enough to be counted in a country’s output"
+        },
+        {
+          "id": "b",
+          "text": "The chip’s value is already included in the price of the final PC; counting it separately as well would double count it"
+        },
+        {
+          "id": "c",
+          "text": "GDP counts only goods bought by consumers, never goods bought by firms"
+        },
+        {
+          "id": "d",
+          "text": "Chips are produced in other countries, so they can never be in Canadian GDP"
+        }
+      ],
+      "answer": "b",
+      "explanation": "GDP counts the **final** good only. The price of the PC already reflects the chip, so adding the chip’s sale as well would **double count** it. (Firms do buy final goods, such as machinery, and those do count; only inputs used up in producing other goods are excluded.)",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-1.7a",
+      "type": "tf",
+      "unit": 4,
+      "topic": "Final vs intermediate",
+      "tags": [
+        "ch4",
+        "final-goods"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Problem 1.7"
+      },
+      "scenario": "ch4-1.7",
+      "group": "ch4-1.7",
+      "prompt": "Part (a): “The purchase of wheat from a wheat farmer by a bakery” is the purchase of a final good.",
+      "answer": false,
+      "explanation": "The bakery uses the wheat as an input to make bread, so it is an **intermediate good**; the bread is the final good."
+    },
+    {
+      "id": "t4-1.7b",
+      "type": "tf",
+      "unit": 4,
+      "topic": "Final vs intermediate",
+      "tags": [
+        "ch4",
+        "final-goods"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Problem 1.7"
+      },
+      "scenario": "ch4-1.7",
+      "group": "ch4-1.7",
+      "prompt": "Part (b): “The purchase of a frigate by the federal government” is the purchase of a final good.",
+      "answer": true,
+      "explanation": "The government is the final user of the frigate, so it is a **final good** (government spending)."
+    },
+    {
+      "id": "t4-1.7c",
+      "type": "tf",
+      "unit": 4,
+      "topic": "Final vs intermediate",
+      "tags": [
+        "ch4",
+        "final-goods"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Problem 1.7"
+      },
+      "scenario": "ch4-1.7",
+      "group": "ch4-1.7",
+      "prompt": "Part (c): “The purchase of a French wine by a Canadian consumer” is the purchase of a final good.",
+      "answer": true,
+      "explanation": "The consumer is the final user, so it is a final good. Because it is an **import**, it is added to consumption but subtracted again in net exports, so it does not raise Canadian GDP."
+    },
+    {
+      "id": "t4-1.7d",
+      "type": "tf",
+      "unit": 4,
+      "topic": "Final vs intermediate",
+      "tags": [
+        "ch4",
+        "final-goods"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Problem 1.7"
+      },
+      "scenario": "ch4-1.7",
+      "group": "ch4-1.7",
+      "prompt": "Part (d): “The purchase of a new airliner by WestJet” is the purchase of a final good.",
+      "answer": true,
+      "explanation": "The airliner is not used up in producing another good during the year; it is a **capital good** bought by its final user, counted as gross fixed capital formation."
+    },
+    {
+      "id": "t4-1.8a",
+      "type": "mc",
+      "unit": 4,
+      "topic": "GDP components",
+      "tags": [
+        "ch4",
+        "expenditure-approach"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 1.8"
+      },
+      "scenario": "ch4-1.8",
+      "group": "ch4-1.8",
+      "prompt": "Transaction 1: You hire CPKC to pull a holiday-themed railcar across Canada to celebrate the end of the fall semester. Which component of GDP is affected?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gross fixed capital formation"
+        },
+        {
+          "id": "b",
+          "text": "Net exports"
+        },
+        {
+          "id": "c",
+          "text": "Final consumption"
+        },
+        {
+          "id": "d",
+          "text": "None: it is an intermediate good/service"
+        }
+      ],
+      "answer": "c",
+      "explanation": "You are a final user buying a service for your own enjoyment: **final consumption** (household purchase of a service).",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-1.8b",
+      "type": "mc",
+      "unit": 4,
+      "topic": "GDP components",
+      "tags": [
+        "ch4",
+        "expenditure-approach"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 1.8"
+      },
+      "scenario": "ch4-1.8",
+      "group": "ch4-1.8",
+      "prompt": "Transaction 2: CPKC buys new rail oil tanker cars from Procor in Oakville, ON. Which component of GDP is affected?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Final consumption"
+        },
+        {
+          "id": "b",
+          "text": "Net exports"
+        },
+        {
+          "id": "c",
+          "text": "None: it is an intermediate good/service"
+        },
+        {
+          "id": "d",
+          "text": "Gross fixed capital formation"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Tanker cars are durable equipment bought by a firm and used for many years: **gross fixed capital formation**.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-1.8c",
+      "type": "mc",
+      "unit": 4,
+      "topic": "GDP components",
+      "tags": [
+        "ch4",
+        "expenditure-approach"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 1.8"
+      },
+      "scenario": "ch4-1.8",
+      "group": "ch4-1.8",
+      "prompt": "Transaction 3: CPKC buys new track signalling software from IBM. Which component of GDP is affected?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gross fixed capital formation"
+        },
+        {
+          "id": "b",
+          "text": "Final consumption"
+        },
+        {
+          "id": "c",
+          "text": "Net exports"
+        },
+        {
+          "id": "d",
+          "text": "None: it is an intermediate good/service"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Software used over many years is a fixed asset: **gross fixed capital formation** (an intellectual-property investment).",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-1.8d",
+      "type": "mc",
+      "unit": 4,
+      "topic": "GDP components",
+      "tags": [
+        "ch4",
+        "expenditure-approach"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 1.8"
+      },
+      "scenario": "ch4-1.8",
+      "group": "ch4-1.8",
+      "prompt": "Transaction 4: CPKC purchases 1,000,000 litres of diesel fuel from the Co-op refinery in Regina, SK. Which component of GDP is affected?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Final consumption"
+        },
+        {
+          "id": "b",
+          "text": "None: it is an intermediate good/service"
+        },
+        {
+          "id": "c",
+          "text": "Gross fixed capital formation"
+        },
+        {
+          "id": "d",
+          "text": "Net exports"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Fuel is used up in producing rail service, so it is an **intermediate good**; its value is already inside the price of the final service. It affects no component directly.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-1.8e",
+      "type": "mc",
+      "unit": 4,
+      "topic": "GDP components",
+      "tags": [
+        "ch4",
+        "expenditure-approach"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 1.8",
+        "note": "Textbook gives no key; answer follows the intended reading that shipping goods to the US is an export of transportation services."
+      },
+      "scenario": "ch4-1.8",
+      "group": "ch4-1.8",
+      "prompt": "Transaction 5: CPKC takes railcars full of EV batteries from plants in Ontario to Detroit, Michigan. Which component of GDP is affected?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Final consumption"
+        },
+        {
+          "id": "b",
+          "text": "Gross fixed capital formation"
+        },
+        {
+          "id": "c",
+          "text": "Net exports"
+        },
+        {
+          "id": "d",
+          "text": "None: it is an intermediate good/service"
+        }
+      ],
+      "answer": "c",
+      "explanation": "The service is delivered to a destination in the United States for export: the sale of rail transportation services to a foreign market is an **export**, which raises **net exports**. (If the shipper were instead an intermediate input to the battery maker, its value would already be in the price of the exported batteries; either way the output is counted through net exports, not consumption or investment.)",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-1.8f",
+      "type": "mc",
+      "unit": 4,
+      "topic": "GDP components",
+      "tags": [
+        "ch4",
+        "expenditure-approach"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 1.8"
+      },
+      "scenario": "ch4-1.8",
+      "group": "ch4-1.8",
+      "prompt": "Transaction 6: The Ontario government builds a new highway to improve access to the CPKC intermodal terminal in Vaughan, ON. Which component of GDP is affected?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Final consumption"
+        },
+        {
+          "id": "b",
+          "text": "Net exports"
+        },
+        {
+          "id": "c",
+          "text": "None: it is an intermediate good/service"
+        },
+        {
+          "id": "d",
+          "text": "Gross fixed capital formation"
+        }
+      ],
+      "answer": "d",
+      "explanation": "A highway is a long-lived fixed asset purchased by government: **gross fixed capital formation** (the government-investment part of G in Y = C + I + G + Nx).",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-1.9a",
+      "type": "tf",
+      "unit": 4,
+      "topic": "Used goods",
+      "tags": [
+        "ch4",
+        "final-goods"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Problem 1.9"
+      },
+      "scenario": "ch4-1.9",
+      "group": "ch4-1.9",
+      "prompt": "The value of a house built in 2014 and resold in 2026 is included in the GDP of 2026.",
+      "answer": false,
+      "explanation": "GDP counts only goods **produced** during the period. The house was produced in 2014 and counted in 2014 GDP; reselling it only transfers ownership. **Used goods are not counted again.**"
+    },
+    {
+      "id": "t4-1.9b",
+      "type": "tf",
+      "unit": 4,
+      "topic": "Used goods",
+      "tags": [
+        "ch4",
+        "final-goods"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Problem 1.9"
+      },
+      "scenario": "ch4-1.9",
+      "group": "ch4-1.9",
+      "prompt": "The services of the real estate agent who helped sell the house in 2026 are counted in the GDP of 2026.",
+      "answer": true,
+      "explanation": "The agent’s services are **newly produced** in 2026 (a final service bought by the seller or buyer), so the commission is part of 2026 GDP even though the house itself is not."
+    },
+    {
+      "id": "t4-1.10",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Nominal GDP",
+      "tags": [
+        "ch4",
+        "nominal-gdp",
+        "intermediate"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 1.10"
+      },
+      "scenario": "ch4-1.10",
+      "prompt": "What is nominal GDP for 2027 (in dollars)?",
+      "answer": {
+        "value": 7450,
+        "tolerance": 1,
+        "prefix": "$",
+        "display": "$7,450"
+      },
+      "explanation": "Cotton is an intermediate good (all of it goes into shirts), so exclude it. Nominal GDP = 100×$60 + 100×$2 + 50×$25 = 6,000 + 200 + 1,250 = **$7,450**. Including the cotton (80 × $0.60 = $48) would double count it."
+    },
+    {
+      "id": "t4-1.11",
+      "type": "mc",
+      "unit": 4,
+      "topic": "What counts as investment",
+      "tags": [
+        "ch4",
+        "investment",
+        "gfcf"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 1.11"
+      },
+      "prompt": "Do you agree with this statement? “In years when people buy many shares of stock, investment will be high and, therefore, so will GDP.”",
+      "options": [
+        {
+          "id": "a",
+          "text": "Disagree: buying shares is a financial transaction that transfers ownership of existing claims; “investment” in GDP means purchases of new capital goods (fixed capital and inventories)"
+        },
+        {
+          "id": "b",
+          "text": "Agree: buying stock gives firms funds, and every dollar a firm receives is counted in GDP"
+        },
+        {
+          "id": "c",
+          "text": "Agree: stock purchases are a form of saving, and saving is a component of GDP"
+        },
+        {
+          "id": "d",
+          "text": "Disagree: stock purchases are counted in GDP only when the shares are newly issued"
+        }
+      ],
+      "answer": "a",
+      "explanation": "In GDP, **investment means spending on newly produced physical capital** (and inventories). Buying shares is a financial investment that moves money between people; no new good or service is produced by the purchase itself. It therefore does **not** add to GDP. (The only link is indirect, if a firm uses the funds to buy new capital.)",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-1.12a",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Consumption and saving",
+      "tags": [
+        "ch4",
+        "consumption"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Problem 1.12"
+      },
+      "scenario": "ch4-1.12",
+      "group": "ch4-1.12",
+      "prompt": "Why does cutting debt and increasing personal saving affect consumer spending?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paying down debt automatically raises household income, so consumption must rise"
+        },
+        {
+          "id": "b",
+          "text": "Income used to pay down debt or to save is not available to spend, so consumption falls unless income rises"
+        },
+        {
+          "id": "c",
+          "text": "Saving is itself a form of consumption, so consumption is unchanged"
+        },
+        {
+          "id": "d",
+          "text": "Debt payments are counted in GDP, so cutting them lowers consumption"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Households divide disposable income between spending and saving/debt repayment. Each dollar devoted to **repaying debt or saving is a dollar not spent**, so consumer spending (the largest component of GDP) falls unless income grows.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-1.12b",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Spending = income",
+      "tags": [
+        "ch4",
+        "circular-flow"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 1.12"
+      },
+      "scenario": "ch4-1.12",
+      "group": "ch4-1.12",
+      "prompt": "What would happen to GDP and incomes if the majority of consumers decided to reduce their spending at the same time?",
+      "options": [
+        {
+          "id": "a",
+          "text": "GDP would fall but incomes would rise, since households would be saving more"
+        },
+        {
+          "id": "b",
+          "text": "GDP and incomes would not change, because saving is spent by banks automatically"
+        },
+        {
+          "id": "c",
+          "text": "GDP and incomes would fall, since one person’s spending is another person’s income (total spending = total income)"
+        },
+        {
+          "id": "d",
+          "text": "GDP would rise, because lower consumption makes room for more investment"
+        }
+      ],
+      "answer": "c",
+      "explanation": "From the circular flow, **spending = production = income**. If most households cut spending, firms’ revenue falls, so they pay out less income, which leads to still less spending. Unless investment, government spending or net exports rise to offset it, **GDP and incomes fall**.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-1.13",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Profit is income",
+      "tags": [
+        "ch4",
+        "circular-flow",
+        "income-approach"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 1.13"
+      },
+      "prompt": "For the value of expenditures on final goods to equal total income, all the money a business receives from selling its product must be paid out as income to the owners of the factors of production. How can a business make a profit if it pays out as income all the money it receives?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Profit is revenue that is kept by the firm and is therefore not part of income"
+        },
+        {
+          "id": "b",
+          "text": "Profit is paid to the government as taxes, which are not income"
+        },
+        {
+          "id": "c",
+          "text": "A firm can pay out all of its revenue only if its profit is zero"
+        },
+        {
+          "id": "d",
+          "text": "Profit is itself income: it is the part of revenue paid to the firm’s owners, so paying out all revenue includes paying out the profit"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Revenue is paid to **workers (wages), lenders (interest), landlords (rent) and the firm’s owners (profit)**. Profit is the residual income of the owners, so it is part of the total income paid out. Nothing is left over: the income approach to GDP includes profits as part of gross operating surplus.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-1.14a",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Value added",
+      "tags": [
+        "ch4",
+        "value-added"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 1.14"
+      },
+      "scenario": "ch4-1.14",
+      "group": "ch4-1.14",
+      "prompt": "What was the total value added by the artist for the 10 sculptures (in dollars)?",
+      "answer": {
+        "value": 3000,
+        "tolerance": 1,
+        "prefix": "$",
+        "display": "$3,000"
+      },
+      "explanation": "Artist’s revenue = 10 × $800 = $8,000. Intermediate goods = $5,000 of scrap metal. **Value added = 8,000 − 5,000 = $3,000.**"
+    },
+    {
+      "id": "t4-1.14b",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Value added",
+      "tags": [
+        "ch4",
+        "value-added"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 1.14"
+      },
+      "scenario": "ch4-1.14",
+      "group": "ch4-1.14",
+      "prompt": "What was the total value added by the local art store for the 10 sculptures (in dollars)?",
+      "answer": {
+        "value": 2000,
+        "tolerance": 1,
+        "prefix": "$",
+        "display": "$2,000"
+      },
+      "explanation": "The store sells for 10 × $1,000 = $10,000 and pays $8,000 for the sculptures (its intermediate input). **Value added = 10,000 − 8,000 = $2,000.** Only the final $10,000 sale enters GDP; it equals the sum of value added at every stage (steel mill's part + $3,000 + $2,000)."
+    },
+    {
+      "id": "t4-2.1",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Why GDP matters",
+      "tags": [
+        "ch4",
+        "well-being"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Review Q 2.1"
+      },
+      "prompt": "Why does the size of a country’s GDP matter? How does it affect the quality of life of its people?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A larger GDP (especially per person) means more goods and services are available, and more resources for health care, education and other things that improve living standards"
+        },
+        {
+          "id": "b",
+          "text": "A larger GDP guarantees that income is equally distributed among citizens"
+        },
+        {
+          "id": "c",
+          "text": "GDP size determines a country’s inflation rate, which sets its standard of living"
+        },
+        {
+          "id": "d",
+          "text": "It does not: GDP has no relationship to the quality of life"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Higher production per person means higher incomes and a greater ability to buy goods and services and to fund health care, education and environmental protection. Countries with higher real GDP per person generally have longer life expectancy and better living standards, though GDP does not guarantee equality or happiness.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-2.2",
+      "type": "multi",
+      "unit": 4,
+      "topic": "Limits of GDP",
+      "tags": [
+        "ch4",
+        "well-being",
+        "limits"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Review Q 2.2"
+      },
+      "prompt": "Which of the following are reasons why GDP is an imperfect measure of economic well-being? Select all that apply.",
+      "options": [
+        {
+          "id": "a",
+          "text": "It excludes household production (e.g. unpaid childcare and cooking)"
+        },
+        {
+          "id": "b",
+          "text": "It counts intermediate goods several times"
+        },
+        {
+          "id": "c",
+          "text": "It excludes production in the informal economy"
+        },
+        {
+          "id": "d",
+          "text": "It includes the value of used goods when they are resold"
+        },
+        {
+          "id": "e",
+          "text": "It places no value on leisure time"
+        },
+        {
+          "id": "f",
+          "text": "It is not adjusted for pollution or crime"
+        }
+      ],
+      "answer": [
+        "a",
+        "c",
+        "e",
+        "f"
+      ],
+      "explanation": "GDP leaves out **household production** and the **informal economy**, and even a perfect production measure would not value **leisure**, pollution, crime and social problems, or the distribution of income. It does **not** double count intermediate goods or include used goods; the definition is built to avoid exactly those.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-2.3a",
+      "type": "tf",
+      "unit": 4,
+      "topic": "Measured GDP",
+      "tags": [
+        "ch4",
+        "limits",
+        "household-production"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Problem 2.3"
+      },
+      "scenario": "ch4-2.3",
+      "group": "ch4-2.3",
+      "prompt": "The fraction of women working outside the home increases. Measured GDP is likely to increase.",
+      "answer": true,
+      "explanation": "Work done outside the home is paid and recorded, and household services that used to be unpaid (cooking, childcare) are now often bought in the market. Measured GDP **rises** (even though total production may not have changed as much)."
+    },
+    {
+      "id": "t4-2.3b",
+      "type": "tf",
+      "unit": 4,
+      "topic": "Measured GDP",
+      "tags": [
+        "ch4",
+        "limits",
+        "crime"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 2.3",
+        "note": "Textbook Problem 2.3(b) is open-ended; the reading used here is that GDP is not adjusted for crime, so security spending raises measured GDP while well-being falls. (Crime that drives people away from work or shopping could instead reduce activity.)"
+      },
+      "scenario": "ch4-2.3",
+      "group": "ch4-2.3",
+      "prompt": "There is a sharp increase in the crime rate. Because GDP counts the extra spending on police, alarms and security services but does not subtract the harm done by crime, measured GDP is likely to increase.",
+      "answer": true,
+      "explanation": "Crime itself is not counted in GDP (and illegal trade is largely unmeasured), but the **response** is: more spending on police, locks, alarms and security services is final output that is counted. So measured GDP tends to rise even though well-being falls, which illustrates that GDP is not adjusted for crime."
+    },
+    {
+      "id": "t4-2.3c",
+      "type": "tf",
+      "unit": 4,
+      "topic": "Measured GDP",
+      "tags": [
+        "ch4",
+        "limits",
+        "informal-economy"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Problem 2.3"
+      },
+      "scenario": "ch4-2.3",
+      "group": "ch4-2.3",
+      "prompt": "Higher tax rates cause some people to hide more of the income they earn. Measured GDP is likely to increase.",
+      "answer": false,
+      "explanation": "Income and production that people hide moves into the **informal economy**, which GDP does not capture. Measured GDP therefore **falls** (though actual production may be unchanged)."
+    },
+    {
+      "id": "t4-2.4",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Leisure and well-being",
+      "tags": [
+        "ch4",
+        "well-being",
+        "leisure"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 2.4"
+      },
+      "prompt": "The typical Canadian works fewer than 40 hours a week today, versus about 60 hours in 1890. What does this tell us about economic well-being today compared with 1890?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Well-being is lower today, because fewer hours worked means less production"
+        },
+        {
+          "id": "b",
+          "text": "Well-being is very likely higher today: real GDP per person is much greater and there is more leisure time, which GDP does not count, so GDP per person alone understates the improvement"
+        },
+        {
+          "id": "c",
+          "text": "Hours worked tell us nothing; real GDP per person is a complete measure of well-being"
+        },
+        {
+          "id": "d",
+          "text": "Well-being cannot be compared because the price level has changed since 1890"
+        }
+      ],
+      "answer": "b",
+      "explanation": "GDP does not value **leisure**. Canadians today enjoy far higher real GDP per person *and* more leisure than in 1890, so the real improvement in well-being is **larger** than the GDP comparison alone suggests. Fewer hours do not mean lower well-being, and GDP per person is not a complete measure (real GDP already adjusts for price changes).",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-2.5a",
+      "type": "mc",
+      "unit": 4,
+      "topic": "GNI vs HDI",
+      "tags": [
+        "ch4",
+        "well-being",
+        "hdi"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Problem 2.5"
+      },
+      "scenario": "ch4-2.5",
+      "group": "ch4-2.5",
+      "prompt": "Which country has the highest GNI per person?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Norway"
+        },
+        {
+          "id": "b",
+          "text": "United Arab Emirates"
+        },
+        {
+          "id": "c",
+          "text": "Singapore"
+        },
+        {
+          "id": "d",
+          "text": "United States"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Ranking by GNI per person: Singapore (88,761), UAE (74,104), Norway (69,190), US (65,565), Austria, Canada, South Korea, Greece, China, Iran, Venezuela, Zimbabwe.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-2.5b",
+      "type": "mc",
+      "unit": 4,
+      "topic": "GNI vs HDI",
+      "tags": [
+        "ch4",
+        "well-being",
+        "hdi"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Problem 2.5"
+      },
+      "scenario": "ch4-2.5",
+      "group": "ch4-2.5",
+      "prompt": "Which country has the highest HDI?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Singapore"
+        },
+        {
+          "id": "b",
+          "text": "Canada"
+        },
+        {
+          "id": "c",
+          "text": "United Arab Emirates"
+        },
+        {
+          "id": "d",
+          "text": "Norway"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Ranking by HDI: Norway (0.966), Singapore (0.949), UAE (0.937), Canada (0.935), South Korea (0.929), US (0.927), Austria (0.926), Greece, China, Iran, Venezuela, Zimbabwe. Norway tops HDI although Singapore is richer in GNI per person.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-2.5c",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "GNI vs HDI",
+      "tags": [
+        "ch4",
+        "well-being",
+        "hdi"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Problem 2.5"
+      },
+      "scenario": "ch4-2.5",
+      "group": "ch4-2.5",
+      "prompt": "What is Canada’s rank (1 = highest) in the HDI list?",
+      "answer": {
+        "value": 4,
+        "tolerance": 0
+      },
+      "explanation": "HDI order: Norway, Singapore, UAE, **Canada (4th)**. In the GNI-per-person list Canada is 6th, so it ranks two places higher on HDI."
+    },
+    {
+      "id": "t4-2.5d",
+      "type": "mc",
+      "unit": 4,
+      "topic": "GNI vs HDI",
+      "tags": [
+        "ch4",
+        "well-being",
+        "hdi"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 2.5"
+      },
+      "scenario": "ch4-2.5",
+      "group": "ch4-2.5",
+      "prompt": "Which best explains why the two rankings differ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "HDI also includes life expectancy and education, so countries with long lives and high schooling rank relatively higher on HDI than their income alone suggests, and vice versa"
+        },
+        {
+          "id": "b",
+          "text": "HDI is calculated from nominal GDP, whereas GNI is calculated from real GDP"
+        },
+        {
+          "id": "c",
+          "text": "GNI per person ignores income earned abroad, whereas HDI includes it"
+        },
+        {
+          "id": "d",
+          "text": "HDI measures income inequality only, so it differs from GNI"
+        }
+      ],
+      "answer": "a",
+      "explanation": "GNI per person measures **income only**. HDI adds **health and education** components, so a country’s HDI rank can differ from its income rank. For example, the US is 4th on GNI but 6th on HDI, and Canada is 6th on GNI but 4th on HDI. HDI is a broader measure of well-being.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-2.6a",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Cannabis",
+      "tags": [
+        "ch4",
+        "expenditure-approach",
+        "informal-economy"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 2.6"
+      },
+      "scenario": "ch4-2.6",
+      "group": "ch4-2.6",
+      "prompt": "Which element of the expenditure approach is likely to change the most when illicit cannabis is included?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Net exports"
+        },
+        {
+          "id": "b",
+          "text": "Final consumption (household purchases of cannabis)"
+        },
+        {
+          "id": "c",
+          "text": "Gross fixed capital formation"
+        },
+        {
+          "id": "d",
+          "text": "Investment in inventories"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Cannabis is bought mostly by households for their own use, so it shows up in **final consumption**. The other categories are little affected.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-2.6b",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Cannabis",
+      "tags": [
+        "ch4",
+        "income-approach",
+        "informal-economy"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 2.6",
+        "note": "Open-ended in the text; illicit growers and dealers are mostly unincorporated, so gross mixed income (and gross operating surplus) change most."
+      },
+      "scenario": "ch4-2.6",
+      "group": "ch4-2.6",
+      "prompt": "Which element(s) of the income approach are likely to change the most when illicit cannabis is included?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Compensation of employees only"
+        },
+        {
+          "id": "b",
+          "text": "Taxes less subsidies only"
+        },
+        {
+          "id": "c",
+          "text": "Gross mixed income and gross operating surplus (the earnings of growers and sellers)"
+        },
+        {
+          "id": "d",
+          "text": "Statistical discrepancy only"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Illicit growers and dealers are mostly self-employed or unincorporated owners earning **gross mixed income** and profits (**gross operating surplus**). Little of it is formal wages or taxes before legalization.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-2.6c",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Cannabis",
+      "tags": [
+        "ch4",
+        "income-approach"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 4 · Problem 2.6",
+        "note": "Open-ended in the text; the answer given is the standard reading (government-run stores add employee pay, operating surplus and sales taxes, and displace some mixed income)."
+      },
+      "scenario": "ch4-2.6",
+      "group": "ch4-2.6",
+      "prompt": "Which income-approach items are most likely to change due to government-run cannabis stores (Quebec, New Brunswick, Nova Scotia, PEI)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gross mixed income only, which rises"
+        },
+        {
+          "id": "b",
+          "text": "Final consumption and net exports"
+        },
+        {
+          "id": "c",
+          "text": "No component changes, since the same cannabis is sold"
+        },
+        {
+          "id": "d",
+          "text": "Compensation of employees and gross operating surplus / taxes less subsidies of the government-run stores, replacing some mixed income"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Government-run stores hire employees (**compensation of employees**) and earn a profit for government (**operating surplus**, plus taxes on sales), while unregistered sellers’ **mixed income** shrinks. Total spending on cannabis may be similar, but the income is distributed across different categories.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-2.7a",
+      "type": "mc",
+      "unit": 4,
+      "topic": "GDP as summary",
+      "tags": [
+        "ch4",
+        "well-being"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Problem 2.7"
+      },
+      "scenario": "ch4-2.7",
+      "group": "ch4-2.7",
+      "prompt": "In what sense does GDP offer a summary statistic of how well an economy is doing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It adds up the market value of all final production into one number that equals total income, so higher GDP generally means more goods and services and more income"
+        },
+        {
+          "id": "b",
+          "text": "It measures every activity that contributes to human well-being"
+        },
+        {
+          "id": "c",
+          "text": "It measures the distribution of income across households"
+        },
+        {
+          "id": "d",
+          "text": "It measures only the quantity of goods, not their prices"
+        }
+      ],
+      "answer": "a",
+      "explanation": "One number captures the economy’s total output and, by the circular-flow identity, its total income. Growth in real GDP signals more production, jobs and income.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-2.7b",
+      "type": "mc",
+      "unit": 4,
+      "topic": "GDP as summary",
+      "tags": [
+        "ch4",
+        "well-being",
+        "limits"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Problem 2.7"
+      },
+      "scenario": "ch4-2.7",
+      "group": "ch4-2.7",
+      "prompt": "Why does the author add the words “or seems to”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Because GDP is always measured with large errors that cannot be corrected"
+        },
+        {
+          "id": "b",
+          "text": "Because GDP leaves out household production, the informal economy, leisure, pollution, crime and income distribution, so it is not a complete measure of well-being"
+        },
+        {
+          "id": "c",
+          "text": "Because GDP does not include government spending"
+        },
+        {
+          "id": "d",
+          "text": "Because GDP is not calculated with the expenditure approach"
+        }
+      ],
+      "answer": "b",
+      "explanation": "The qualification reflects the **limits of GDP**: nonmarket activity, leisure, environmental damage, crime and inequality are not captured.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-3.1",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Nominal vs real",
+      "tags": [
+        "ch4",
+        "real-gdp",
+        "nominal-gdp"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Review Q 3.1"
+      },
+      "prompt": "Why does inflation make nominal GDP a poor measure of the increase in total production from one year to the next? How does Statistics Canada deal with this?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inflation makes nominal GDP fall; Statistics Canada therefore adds the inflation rate back"
+        },
+        {
+          "id": "b",
+          "text": "Inflation reduces output; Statistics Canada therefore uses only the value of intermediate goods"
+        },
+        {
+          "id": "c",
+          "text": "Nominal GDP rises when prices rise even if output does not; Statistics Canada calculates real GDP using constant (base-year) prices so that changes reflect only quantities"
+        },
+        {
+          "id": "d",
+          "text": "Nominal GDP ignores prices altogether; Statistics Canada therefore uses current prices instead"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Nominal GDP = current prices × current quantities, so it can grow purely because prices rose. **Real GDP** values each year’s output at **constant base-year prices**, so its changes reflect changes in quantities produced. (Statistics Canada actually uses chain-weighted prices to reduce distortion.)",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-3.2",
+      "type": "mc",
+      "unit": 4,
+      "topic": "GDP deflator",
+      "tags": [
+        "ch4",
+        "deflator"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Review Q 3.2"
+      },
+      "prompt": "What is the GDP deflator, and how is it calculated?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A measure of total output: real GDP divided by nominal GDP, times 100"
+        },
+        {
+          "id": "b",
+          "text": "A measure of the inflation rate: the change in nominal GDP divided by the change in real GDP"
+        },
+        {
+          "id": "c",
+          "text": "A measure of the price of consumer goods only: consumer spending divided by population"
+        },
+        {
+          "id": "d",
+          "text": "A measure of the price level: nominal GDP divided by real GDP, times 100"
+        }
+      ],
+      "answer": "d",
+      "explanation": "GDP deflator = **(Nominal GDP ÷ Real GDP) × 100**. It is a price-level measure covering all final goods; its percentage change between years is the inflation rate measured by the deflator.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-3.3a",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Nominal vs real",
+      "tags": [
+        "ch4",
+        "real-gdp",
+        "base-year"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Review Q 3.3"
+      },
+      "scenario": "ch4-3.3",
+      "group": "ch4-3.3",
+      "prompt": "In the years after the base year:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nominal GDP is greater than real GDP"
+        },
+        {
+          "id": "b",
+          "text": "Nominal GDP equals real GDP"
+        },
+        {
+          "id": "c",
+          "text": "Nominal GDP is less than real GDP"
+        },
+        {
+          "id": "d",
+          "text": "The relationship cannot be determined"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Prices are higher than base-year prices, so valuing output at current prices gives a bigger number: **nominal > real**.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-3.3b",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Nominal vs real",
+      "tags": [
+        "ch4",
+        "real-gdp",
+        "base-year"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Review Q 3.3"
+      },
+      "scenario": "ch4-3.3",
+      "group": "ch4-3.3",
+      "prompt": "In the base year:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nominal GDP is greater than real GDP"
+        },
+        {
+          "id": "b",
+          "text": "Nominal GDP equals real GDP"
+        },
+        {
+          "id": "c",
+          "text": "Nominal GDP is less than real GDP"
+        },
+        {
+          "id": "d",
+          "text": "The relationship cannot be determined"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Current prices are the base-year prices, so **nominal = real** (and the deflator = 100).",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-3.3c",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Nominal vs real",
+      "tags": [
+        "ch4",
+        "real-gdp",
+        "base-year"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Review Q 3.3"
+      },
+      "scenario": "ch4-3.3",
+      "group": "ch4-3.3",
+      "prompt": "In the years before the base year:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nominal GDP is greater than real GDP"
+        },
+        {
+          "id": "b",
+          "text": "Nominal GDP equals real GDP"
+        },
+        {
+          "id": "c",
+          "text": "Nominal GDP is less than real GDP"
+        },
+        {
+          "id": "d",
+          "text": "The relationship cannot be determined"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Prices were lower than base-year prices, so **nominal < real** (deflator below 100).",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-3.4a1",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Real GDP",
+      "tags": [
+        "ch4",
+        "real-gdp"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 3.4",
+        "note": "The table’s cotton quantity of 800 in 2018 looks like a misprint, but cotton is excluded from GDP so it does not affect the answer."
+      },
+      "scenario": "ch4-3.4",
+      "group": "ch4-3.4",
+      "prompt": "What is real GDP for 2018 (in 2009 dollars)?",
+      "answer": {
+        "value": 6700,
+        "tolerance": 1,
+        "prefix": "$",
+        "display": "$6,700"
+      },
+      "explanation": "Use 2009 prices and exclude cotton (intermediate). 2018: 100×$50 + 100×$2 + 50×$30 = 5,000 + 200 + 1,500 = **$6,700**."
+    },
+    {
+      "id": "t4-3.4a2",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Real GDP",
+      "tags": [
+        "ch4",
+        "real-gdp"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 3.4"
+      },
+      "scenario": "ch4-3.4",
+      "group": "ch4-3.4",
+      "prompt": "What is real GDP for 2019 (in 2009 dollars)?",
+      "answer": {
+        "value": 7190,
+        "tolerance": 1,
+        "prefix": "$",
+        "display": "$7,190"
+      },
+      "explanation": "2019 quantities at 2009 prices: 100×$50 + 120×$2 + 65×$30 = 5,000 + 240 + 1,950 = **$7,190**."
+    },
+    {
+      "id": "t4-3.4b",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Growth rate",
+      "tags": [
+        "ch4",
+        "real-gdp",
+        "growth-rate"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 3.4"
+      },
+      "scenario": "ch4-3.4",
+      "group": "ch4-3.4",
+      "prompt": "What is the growth rate of real GDP during 2019 (in percent, one decimal)?",
+      "answer": {
+        "value": 7.3,
+        "tolerance": 0.1,
+        "suffix": "%",
+        "display": "7.3%"
+      },
+      "explanation": "Growth = (7,190 − 6,700) ÷ 6,700 × 100 = 490 ÷ 6,700 × 100 = **7.3%**."
+    },
+    {
+      "id": "t4-3.5a",
+      "type": "tf",
+      "unit": 4,
+      "topic": "Nominal vs real",
+      "tags": [
+        "ch4",
+        "real-gdp",
+        "nominal-gdp"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 3.5"
+      },
+      "scenario": "ch4-3.5",
+      "group": "ch4-3.5",
+      "prompt": "I agree with: “If nominal GDP is less than real GDP, then the price level must have fallen during the year.”",
+      "answer": false,
+      "explanation": "Nominal < real only says that prices are **below their base-year level** (the year is before the base year). Prices may well have risen from the previous year. **Disagree.**"
+    },
+    {
+      "id": "t4-3.5b",
+      "type": "tf",
+      "unit": 4,
+      "topic": "Nominal vs real",
+      "tags": [
+        "ch4",
+        "real-gdp",
+        "nominal-gdp"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 3.5"
+      },
+      "scenario": "ch4-3.5",
+      "group": "ch4-3.5",
+      "prompt": "I agree with: “Whenever real GDP declines, nominal GDP must also decline.”",
+      "answer": false,
+      "explanation": "Nominal GDP = P × Q. If prices rise by more than real output falls, nominal GDP can still rise. **Disagree.**"
+    },
+    {
+      "id": "t4-3.5c",
+      "type": "tf",
+      "unit": 4,
+      "topic": "Nominal vs real",
+      "tags": [
+        "ch4",
+        "real-gdp",
+        "nominal-gdp"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 3.5"
+      },
+      "scenario": "ch4-3.5",
+      "group": "ch4-3.5",
+      "prompt": "I agree with: “If a recession is so severe that the price level declines, then we know that both real GDP and nominal GDP must decline.”",
+      "answer": true,
+      "explanation": "A recession means real GDP falls. If the price level also falls, nominal GDP (price × quantity) falls too, since both factors decline. **Agree.**"
+    },
+    {
+      "id": "t4-3.5d",
+      "type": "tf",
+      "unit": 4,
+      "topic": "Nominal vs real",
+      "tags": [
+        "ch4",
+        "real-gdp",
+        "nominal-gdp"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 3.5"
+      },
+      "scenario": "ch4-3.5",
+      "group": "ch4-3.5",
+      "prompt": "I agree with: “Nominal GDP declined between 2018 and 2019; therefore, the GDP deflator must also have declined.”",
+      "answer": false,
+      "explanation": "Nominal GDP can fall because real GDP fell while prices rose (or fell by less). The deflator = nominal ÷ real × 100 depends on both. **Disagree.**"
+    },
+    {
+      "id": "t4-3.6",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Deflator and inflation",
+      "tags": [
+        "ch4",
+        "deflator",
+        "inflation"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 3.6"
+      },
+      "prompt": "One of the textbook authors argues that rising oil prices are likely to be neutral for Canada’s real GDP but will definitely raise nominal GDP. Can we tell what effect higher oil prices are expected to have on the inflation rate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "No: inflation depends on real GDP only, which is unchanged"
+        },
+        {
+          "id": "b",
+          "text": "Yes: inflation falls, because higher oil prices reduce households’ real incomes"
+        },
+        {
+          "id": "c",
+          "text": "No: nominal GDP and real GDP never tell us anything about the price level"
+        },
+        {
+          "id": "d",
+          "text": "Yes: nominal GDP rises while real GDP does not, so the GDP deflator (price level) rises, which means higher inflation"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Deflator = (nominal GDP ÷ real GDP) × 100. If nominal GDP rises and real GDP stays the same, the **deflator rises**: the price level goes up, so the **inflation rate is higher**.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-3.7a1",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Real GDP",
+      "tags": [
+        "ch4",
+        "real-gdp",
+        "deflator"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 3.7"
+      },
+      "scenario": "ch4-3.7",
+      "group": "ch4-3.7",
+      "prompt": "(a) Real GDP for 2014 with base year 2016?",
+      "answer": {
+        "value": 1088.9,
+        "tolerance": 0.5,
+        "prefix": "$",
+        "display": "$1,088.9"
+      },
+      "explanation": "Real GDP = 980 ÷ 90 × 100 = **$1,088.9**."
+    },
+    {
+      "id": "t4-3.7a2",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Real GDP",
+      "tags": [
+        "ch4",
+        "real-gdp",
+        "deflator"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 3.7"
+      },
+      "scenario": "ch4-3.7",
+      "group": "ch4-3.7",
+      "prompt": "(a) Real GDP for 2017 with base year 2016?",
+      "answer": {
+        "value": 1142.9,
+        "tolerance": 0.5,
+        "prefix": "$",
+        "display": "$1,142.9"
+      },
+      "explanation": "1,200 ÷ 105 × 100 = **$1,142.9**."
+    },
+    {
+      "id": "t4-3.7a3",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Real GDP",
+      "tags": [
+        "ch4",
+        "real-gdp",
+        "deflator"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 3.7"
+      },
+      "scenario": "ch4-3.7",
+      "group": "ch4-3.7",
+      "prompt": "(a) Real GDP for 2014 with base year 2018?",
+      "answer": {
+        "value": 1198.0,
+        "tolerance": 0.5,
+        "prefix": "$",
+        "display": "$1,198.0"
+      },
+      "explanation": "980 ÷ 81.8 × 100 = **$1,198.0**."
+    },
+    {
+      "id": "t4-3.7a4",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Real GDP",
+      "tags": [
+        "ch4",
+        "real-gdp",
+        "deflator"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 3.7"
+      },
+      "scenario": "ch4-3.7",
+      "group": "ch4-3.7",
+      "prompt": "(a) Real GDP for 2017 with base year 2018?",
+      "answer": {
+        "value": 1256.5,
+        "tolerance": 0.5,
+        "prefix": "$",
+        "display": "$1,256.5"
+      },
+      "explanation": "1,200 ÷ 95.5 × 100 = **$1,256.5**."
+    },
+    {
+      "id": "t4-3.7b1",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Growth rate",
+      "tags": [
+        "ch4",
+        "real-gdp",
+        "growth-rate"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 4 · Problem 3.7"
+      },
+      "scenario": "ch4-3.7",
+      "group": "ch4-3.7",
+      "prompt": "(b) Percentage change in real GDP in 2016, base year 2016 (percent, two decimals; use a minus sign for a fall)?",
+      "answer": {
+        "value": -5.29,
+        "tolerance": 0.05,
+        "suffix": "%",
+        "display": "−5.29%"
+      },
+      "explanation": "Real GDP: 2015 = 1,020 ÷ 92 × 100 = 1,108.70; 2016 = 1,050. Change = (1,050 − 1,108.70) ÷ 1,108.70 = **−5.29%**."
+    },
+    {
+      "id": "t4-3.7b2",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "Growth rate",
+      "tags": [
+        "ch4",
+        "real-gdp",
+        "growth-rate"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Ch 4 · Problem 3.7"
+      },
+      "scenario": "ch4-3.7",
+      "group": "ch4-3.7",
+      "prompt": "(b) Percentage change in real GDP in 2016, base year 2018 (percent, two decimals)?",
+      "answer": {
+        "value": -5.33,
+        "tolerance": 0.05,
+        "suffix": "%",
+        "display": "−5.33%"
+      },
+      "explanation": "Real GDP (base 2018): 2015 = 1,020 ÷ 83.6 × 100 = 1,220.10; 2016 = 1,050 ÷ 90.9 × 100 = 1,155.12. Change = **−5.33%**."
+    },
+    {
+      "id": "t4-3.7c",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Base year",
+      "tags": [
+        "ch4",
+        "real-gdp",
+        "base-year"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 3.7"
+      },
+      "scenario": "ch4-3.7",
+      "group": "ch4-3.7",
+      "prompt": "What effect does changing the base year have on the calculated percentage changes in real GDP?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Very little: the levels of real GDP change, but the growth rates are nearly the same (only small differences from the different relative price weights)"
+        },
+        {
+          "id": "b",
+          "text": "It changes the sign of the growth rates, since a different year’s prices are used"
+        },
+        {
+          "id": "c",
+          "text": "It has no effect on the level of real GDP but a large effect on growth rates"
+        },
+        {
+          "id": "d",
+          "text": "It makes real GDP always equal to nominal GDP in every year"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Moving the base year rescales the **levels** of real GDP (1,088.9 vs 1,198.0 in 2014), but growth rates barely change (−5.29% vs −5.33%). The differences are small because the two deflator series move almost in proportion.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-3.8",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Growth reporting",
+      "tags": [
+        "ch4",
+        "real-gdp"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Problem 3.8"
+      },
+      "prompt": "An article says “the euro zone’s GDP grew at an annualized rate of around 2 percent in the first quarter.” Is it likely referring to nominal or real GDP growth?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nominal GDP: only nominal GDP can be measured quarterly"
+        },
+        {
+          "id": "b",
+          "text": "Real GDP: news reports of economic growth refer to the increase in actual production, with price changes removed"
+        },
+        {
+          "id": "c",
+          "text": "Nominal GDP: real GDP can never grow as slowly as 2 percent"
+        },
+        {
+          "id": "d",
+          "text": "Neither: GDP growth is always expressed as the inflation rate"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Growth of the economy means **more goods and services**, which is measured by **real GDP** growth. Nominal GDP growth would mix in inflation, so it is not the standard way to report how fast the economy is growing.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-3.9-2012",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "GDP deflator",
+      "tags": [
+        "ch4",
+        "deflator"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 3.9"
+      },
+      "scenario": "ch4-3.9",
+      "group": "ch4-3.9",
+      "prompt": "GDP deflator for 2012 (one decimal)?",
+      "answer": {
+        "value": 105.2,
+        "tolerance": 0.15
+      },
+      "explanation": "Deflator = Nominal ÷ Real × 100 = 16,155 ÷ 15,355 × 100 = 105.21. **≈ 105.2**."
+    },
+    {
+      "id": "t4-3.9-2013",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "GDP deflator",
+      "tags": [
+        "ch4",
+        "deflator"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 3.9"
+      },
+      "scenario": "ch4-3.9",
+      "group": "ch4-3.9",
+      "prompt": "GDP deflator for 2013 (one decimal)?",
+      "answer": {
+        "value": 106.9,
+        "tolerance": 0.15
+      },
+      "explanation": "Deflator = Nominal ÷ Real × 100 = 16,692 ÷ 15,612 × 100 = 106.92. **≈ 106.9**."
+    },
+    {
+      "id": "t4-3.9-2014",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "GDP deflator",
+      "tags": [
+        "ch4",
+        "deflator"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 3.9"
+      },
+      "scenario": "ch4-3.9",
+      "group": "ch4-3.9",
+      "prompt": "GDP deflator for 2014 (one decimal)?",
+      "answer": {
+        "value": 108.8,
+        "tolerance": 0.15
+      },
+      "explanation": "Deflator = Nominal ÷ Real × 100 = 17,393 ÷ 15,982 × 100 = 108.83. **≈ 108.8**."
+    },
+    {
+      "id": "t4-3.9-2015",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "GDP deflator",
+      "tags": [
+        "ch4",
+        "deflator"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 3.9"
+      },
+      "scenario": "ch4-3.9",
+      "group": "ch4-3.9",
+      "prompt": "GDP deflator for 2015 (one decimal)?",
+      "answer": {
+        "value": 110.0,
+        "tolerance": 0.15
+      },
+      "explanation": "Deflator = Nominal ÷ Real × 100 = 18,037 ÷ 16,397 × 100 = 110.00. **≈ 110.0**."
+    },
+    {
+      "id": "t4-3.9-2016",
+      "type": "numeric",
+      "unit": 4,
+      "topic": "GDP deflator",
+      "tags": [
+        "ch4",
+        "deflator"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 3.9"
+      },
+      "scenario": "ch4-3.9",
+      "group": "ch4-3.9",
+      "prompt": "GDP deflator for 2016 (one decimal)?",
+      "answer": {
+        "value": 111.4,
+        "tolerance": 0.15
+      },
+      "explanation": "Deflator = Nominal ÷ Real × 100 = 18,569 ÷ 16,662 × 100 = 111.45. **≈ 111.4**."
+    },
+    {
+      "id": "t4-3.9f",
+      "type": "mc",
+      "unit": 4,
+      "topic": "GDP deflator",
+      "tags": [
+        "ch4",
+        "deflator",
+        "inflation"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 3.9"
+      },
+      "scenario": "ch4-3.9",
+      "group": "ch4-3.9",
+      "prompt": "Which year from 2013 to 2016 saw the largest percentage increase in the price level as measured by the GDP deflator?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2013"
+        },
+        {
+          "id": "b",
+          "text": "2015"
+        },
+        {
+          "id": "c",
+          "text": "2014"
+        },
+        {
+          "id": "d",
+          "text": "2016"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Percentage changes in the deflator: 2013 = 1.62%, **2014 = 1.79%**, 2015 = 1.08%, 2016 = 1.31%. So 2014 had the largest increase in the price level.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-4.1a",
+      "type": "mc",
+      "unit": 4,
+      "topic": "GDP vs GNI",
+      "tags": [
+        "ch4",
+        "gni"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Review Q 4.1"
+      },
+      "scenario": "ch4-4.1",
+      "group": "ch4-4.1",
+      "prompt": "What is the difference between GDP and GNI?",
+      "options": [
+        {
+          "id": "a",
+          "text": "GDP includes depreciation, GNI includes only net investment"
+        },
+        {
+          "id": "b",
+          "text": "GDP is the expenditure measure and GNI is the income measure of the same domestic production"
+        },
+        {
+          "id": "c",
+          "text": "GDP excludes government spending, GNI includes it"
+        },
+        {
+          "id": "d",
+          "text": "GDP values production within a country’s borders; GNI measures the income received by the country’s residents for the use of their factors of production, wherever that production occurs"
+        }
+      ],
+      "answer": "d",
+      "explanation": "GDP = where production happens; **GNI = who earns the income** (GDP + income received from abroad − income paid abroad). Both include depreciation.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-4.1b",
+      "type": "mc",
+      "unit": 4,
+      "topic": "GDP vs GNI",
+      "tags": [
+        "ch4",
+        "gni"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Review Q 4.1"
+      },
+      "scenario": "ch4-4.1",
+      "group": "ch4-4.1",
+      "prompt": "Is the difference between GDP and GNI important for Canada?",
+      "options": [
+        {
+          "id": "a",
+          "text": "No: for Canada the difference is small, because incomes earned abroad by Canadians and incomes earned in Canada by foreigners are similar in size"
+        },
+        {
+          "id": "b",
+          "text": "Yes: Canada’s GNI is more than double its GDP"
+        },
+        {
+          "id": "c",
+          "text": "Yes: Canada’s GDP is much larger than GNI because foreign firms own most Canadian capital"
+        },
+        {
+          "id": "d",
+          "text": "No: GNI and GDP are always exactly equal in every country"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Canadian GDP and GNI are close in value (GNI is slightly below GDP because of net investment income paid abroad), so the difference is small relative to GDP, unlike, say, Ireland where GDP is about 20% larger than GNI.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-4.2",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Income measures",
+      "tags": [
+        "ch4",
+        "national-income",
+        "household-income"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Review Q 4.2"
+      },
+      "prompt": "What are the differences between national income, household income and household disposable income?",
+      "options": [
+        {
+          "id": "a",
+          "text": "National income = GDP plus transfers; household income = GNI minus taxes; disposable income = household income plus saving"
+        },
+        {
+          "id": "b",
+          "text": "National income = GNI minus depreciation (consumption of fixed capital); household income = income received by households, including transfers but excluding firms’ retained earnings; disposable income = household income minus personal taxes"
+        },
+        {
+          "id": "c",
+          "text": "National income is the income of households; household income is the income of firms; disposable income is after-tax profit"
+        },
+        {
+          "id": "d",
+          "text": "All three are the same thing measured at different times of the year"
+        }
+      ],
+      "answer": "b",
+      "explanation": "National (net national) income subtracts **depreciation** from GNI. Household income adds transfer payments and leaves out retained earnings. **Household disposable income = household income − personal tax payments**, the income households actually have available to spend.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-4.3a",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Income approach",
+      "tags": [
+        "ch4",
+        "income-approach"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Review Q 4.3"
+      },
+      "scenario": "ch4-4.3",
+      "group": "ch4-4.3",
+      "prompt": "What is gross domestic income?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The sum of household disposable income and government spending"
+        },
+        {
+          "id": "b",
+          "text": "The value of all final goods bought by households"
+        },
+        {
+          "id": "c",
+          "text": "The total of all incomes earned from domestic production: compensation of employees, gross operating surplus, gross mixed income and taxes less subsidies (plus a statistical discrepancy)"
+        },
+        {
+          "id": "d",
+          "text": "The income of Canadians from all sources, including from abroad"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Gross domestic income is the income-approach total, equal to GDP up to the statistical discrepancy. It is **domestic** (earned in Canada), unlike GNI.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-4.3b",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Income approach",
+      "tags": [
+        "ch4",
+        "income-approach"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Review Q 4.3"
+      },
+      "scenario": "ch4-4.3",
+      "group": "ch4-4.3",
+      "prompt": "Which component of gross domestic income is the largest?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gross operating surplus"
+        },
+        {
+          "id": "b",
+          "text": "Gross mixed income"
+        },
+        {
+          "id": "c",
+          "text": "Taxes less subsidies"
+        },
+        {
+          "id": "d",
+          "text": "Compensation of employees"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Compensation of employees (wages, salaries and employer contributions) is about **51%** of GDP, followed by gross operating surplus (≈26%), gross mixed income (≈13%) and taxes less subsidies (≈10%).",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-4.4",
+      "type": "mc",
+      "unit": 4,
+      "topic": "GDP vs GNI",
+      "tags": [
+        "ch4",
+        "gni"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 4.4"
+      },
+      "prompt": "A country has many citizens temporarily working in other countries and many firms with facilities abroad, while relatively few foreign citizens or foreign firms operate in the country. Which would you expect to be larger, GDP or GNI?",
+      "options": [
+        {
+          "id": "a",
+          "text": "GNI, because income earned abroad by its residents and firms exceeds the income earned domestically by foreigners"
+        },
+        {
+          "id": "b",
+          "text": "GDP, because production abroad is counted in domestic production"
+        },
+        {
+          "id": "c",
+          "text": "They would be equal, because GDP always equals GNI"
+        },
+        {
+          "id": "d",
+          "text": "GDP, because foreign production inside the country is large"
+        }
+      ],
+      "answer": "a",
+      "explanation": "GNI = GDP + income earned by the country’s residents abroad − income earned by foreigners at home. Here the first term is large and the second small, so **GNI > GDP**.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-4.5",
+      "type": "mc",
+      "unit": 4,
+      "topic": "GDP vs GNI",
+      "tags": [
+        "ch4",
+        "gni"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 4.5"
+      },
+      "prompt": "Ireland’s GDP is about 20 percent larger than its GNI, so Irish people “appear (when using GDP per person) to be richer than what they feel they are.” Explain the author’s reasoning.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ireland’s GDP double counts intermediate goods, while GNI does not"
+        },
+        {
+          "id": "b",
+          "text": "Much of the production in Ireland is by foreign-owned multinationals, and their profits flow abroad to foreign owners, so the income actually received by Irish residents (GNI) is smaller than domestic production (GDP)"
+        },
+        {
+          "id": "c",
+          "text": "The Irish government’s taxes are included in GNI but not in GDP"
+        },
+        {
+          "id": "d",
+          "text": "GDP per person ignores Irish citizens who work abroad, whereas GNI counts foreigners working in Ireland"
+        }
+      ],
+      "answer": "b",
+      "explanation": "GDP counts all production in Ireland, including that of foreign firms. Their profits are income to foreigners and are not part of Irish GNI. GNI per person thus gives a truer picture of Irish incomes than GDP per person.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-4.6",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Income measures",
+      "tags": [
+        "ch4",
+        "household-income"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Ch 4 · Problem 4.6"
+      },
+      "prompt": "The federal government collects more personal income tax while GDP stays the same. What happens to national income, household income and household disposable income?",
+      "options": [
+        {
+          "id": "a",
+          "text": "All three fall"
+        },
+        {
+          "id": "b",
+          "text": "National income falls; household income and disposable income are unchanged"
+        },
+        {
+          "id": "c",
+          "text": "National income and household income are unchanged; household disposable income falls"
+        },
+        {
+          "id": "d",
+          "text": "Household income rises; national income and disposable income are unchanged"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Household disposable income = household income − personal taxes, so it **falls**. National income depends on production (GDP), which is unchanged. Household income is measured before personal taxes, so it too is unchanged.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "t4-4.7",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Income measures",
+      "tags": [
+        "ch4",
+        "household-income"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Ch 4 · Problem 4.7"
+      },
+      "prompt": "To forecast household consumption spending, which measure of total production or income would be most helpful?",
+      "options": [
+        {
+          "id": "a",
+          "text": "GDP"
+        },
+        {
+          "id": "b",
+          "text": "Gross national income"
+        },
+        {
+          "id": "c",
+          "text": "National income"
+        },
+        {
+          "id": "d",
+          "text": "Household disposable income"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Households can spend only what they have after paying personal taxes, so **household disposable income** is the best predictor of consumption spending.",
+      "shuffleOptions": true
+    }
+  ]
+}

@@ -62,6 +62,12 @@ window.HUB_SITE = {
           title: 'Term Test 1 Practice',
           desc: 'Chapters 1–3 · Practice Test #1 + lecture-slide questions · graph-drawing drills · timed exam mode',
           chapters: [1, 2, 3]
+        },
+        {
+          href: '/1BB3/test2', icon: '✎', kind: 'Practice test',
+          title: 'Term Test 2 Practice',
+          desc: 'Chapters 4–8 · every end-of-chapter textbook problem (auto-graded, worked answers) + Dr. Letendre’s slide questions · 40-question exam mode with the real 6/6/8/9/11 chapter split',
+          chapters: [4, 5, 6, 7, 8]
         }
       ]
     },
@@ -158,7 +164,7 @@ window.HUB_SITE = {
     { course: '1BB3', title: 'Term Test 1', start: '2026-09-26T09:00', end: '2026-09-26T10:00', scope: 'Ch. 1–3', tool: '/1BB3/test1' },
     { course: '1B03', title: 'Midterm Test 1', start: '2026-10-03T12:30', scope: 'Units 1–4 (Ch. 1–4)', tool: '/1B03/midterm1' },
     { course: '1BA3', title: 'Midterm', start: '2026-10-29T19:30', end: '2026-10-29T21:30', scope: 'Ch. 1–6, 10, 11.1–11.5', tool: '/1BA3/midterm' },
-    { course: '1BB3', title: 'Term Test 2', start: '2026-11-07T09:00', end: '2026-11-07T10:20', scope: 'Ch. 4–8' },
+    { course: '1BB3', title: 'Term Test 2', start: '2026-11-07T09:00', end: '2026-11-07T10:20', scope: 'Ch. 4–8', tool: '/1BB3/test2' },
     { course: '1B03', title: 'Midterm Test 2', start: '2026-11-07T12:30', scope: 'Units 5–8 (Ch. 6, 8, 9, 10)', tool: '/1B03/midterm2' }
   ]
 };

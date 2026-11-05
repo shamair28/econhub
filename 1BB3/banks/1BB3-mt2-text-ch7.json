@@ -1,0 +1,3807 @@
+{
+ "schema": "practice-bank/v1",
+ "id": "1BB3-mt2-text-ch7",
+ "course": "ECON 1BB3",
+ "title": "Ch. 7 Textbook Problems",
+ "defaultSource": {
+  "label": "Textbook Problems",
+  "kind": "textbook"
+ },
+ "defaultUnit": 7,
+ "scenarios": {
+  "ch7-1.5": {
+   "title": "Andover Bank vs Lowell Bank CDs",
+   "body": "You deposit $1,000 in a 1-year CD at each bank at the beginning of 2024, and reinvest the principal plus interest in a new 1-year CD at the end of 2024 and again at the end of 2025.",
+   "table": {
+    "caption": "Interest rates on 1-year CDs",
+    "headers": [
+     "",
+     "2024",
+     "2025",
+     "2026"
+    ],
+    "rows": [
+     [
+      "Andover Bank",
+      "5%",
+      "5%",
+      "5%"
+     ],
+     [
+      "Lowell Bank",
+      "2%",
+      "6%",
+      "7%"
+     ]
+    ],
+    "rowHeaders": true
+   }
+  },
+  "ch7-1.6": {
+   "title": "US real GDP per capita, 2018\u20132022",
+   "body": "Real GDP per capita for the United States (2017 dollars).",
+   "table": {
+    "headers": [
+     "",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022"
+    ],
+    "rows": [
+     [
+      "Real GDP per capita",
+      "$61,418",
+      "$62,606",
+      "$60,895",
+      "$64,413",
+      "$65,415"
+     ]
+    ],
+    "rowHeaders": true
+   }
+  },
+  "ch7-1.7": {
+   "title": "Health gains in southern Africa and Egypt",
+   "body": "Easterly reports that a measles vaccination campaign in seven southern African nations (from 1996) virtually eliminated measles by 2000, and that an Egyptian campaign promoting oral rehydration therapy (1982\u20131989) cut childhood deaths from diarrhea by 82%."
+  },
+  "ch7-1.8": {
+   "title": "Do institutions flow like water or bricks?",
+   "body": "Charles Kenny argues that process technologies, such as institutions like laws and inventory management systems, \u201cflow less like water and more like bricks,\u201d while ideas and inventions (the importance of education, vaccines) \u201creally might flow more easily across borders and over distances.\u201d"
+  },
+  "ch7-2.1": {
+   "title": "Per-worker production function",
+   "body": "The per-worker production function relates real GDP per hour worked (Y/L) to capital per hour worked (K/L), holding technology constant (Figures 7.3 and 7.4)."
+  },
+  "ch7-2.2": {
+   "title": "Diminishing returns to capital",
+   "body": "Answer both parts about diminishing returns to capital in the growth model."
+  },
+  "ch7-2.4": {
+   "title": "Knowledge capital and R&D",
+   "body": "Questions on knowledge capital and the role of government in promoting it."
+  },
+  "ch7-2.6": {
+   "title": "China's per-worker production function",
+   "body": "Decide whether each scenario results in a movement along, or a shift of, China's per-worker production function."
+  },
+  "ch7-2.8": {
+   "title": "Samuelson and the Soviet economy",
+   "body": "In the 1961 edition of his textbook, Paul Samuelson noted that Soviet GDP might become larger than US GDP by 1985."
+  },
+  "ch7-2.9": {
+   "title": "Shifts in the production function",
+   "body": "Refer to the textbook graph with three per-worker production functions: production function\u2081 (lowest), \u2082 (middle) and \u2083 (highest). Points A, B and C lie on production functions 1, 2 and 3 respectively, **directly above one another at the same level of capital per hour worked (K/L)**. The vertical axis is real GDP per hour worked (Y/L)."
+  },
+  "ch7-2.12": {
+   "title": "Creative destruction in America",
+   "body": "Alan Greenspan and Adrian Wooldridge argue that \u201cthe key to America's success lies in its unique toleration for \u2018creative destruction,\u2019 the destabilizing force described by the economist Joseph Schumpeter in 1942.\u201d"
+  },
+  "ch7-2.13": {
+   "title": "Romer: it's good that the Portuguese exist",
+   "body": "In the traditional theory of trade, England and Portugal both benefit because each has a comparative advantage in a different good. Paul Romer says that in the new growth theory, more people, even remote ones, are good to have around because \u201cthey might discover something valuable.\u201d He concludes: \u201cThe new insight is that \u2018It's good that the Portuguese exist.\u2019\u201d"
+  },
+  "ch7-3.6": {
+   "title": "Is the productivity slowdown a measurement problem?",
+   "body": "Some economists argue that the slowdown in productivity growth is due to measurement difficulties: standard techniques are \u201cinsufficient to capture the massive benefits\u201d of things like algorithmic recommendations for streaming videos. Before the internet, finding facts required a trip to the library; now a Google search takes seconds."
+  },
+  "ch7-3.7": {
+   "title": "Secular stagnation and the loanable funds market",
+   "body": "\u201cSecular stagnation\u201d refers to a long period of weak growth with persistently low private demand (low investment demand and high desired saving)."
+  },
+  "ch7-3.8": {
+   "title": "Blanchard on secular stagnation",
+   "body": "Olivier Blanchard (2023): secular stagnation \u201crefers to economies suffering from structurally low private demand,\u201d and \u201cglobal secular stagnation was and is driven by deep structural factors that neither COVID nor inflation have done anything to reverse.\u201d"
+  },
+  "ch7-4.1": {
+   "title": "Catch-up",
+   "body": "Questions on economic catch-up between poor and rich countries."
+  },
+  "ch7-4.2": {
+   "title": "FDI vs foreign portfolio investment",
+   "body": "Questions on the two forms of foreign investment."
+  },
+  "ch7-4.3": {
+   "title": "Globalization",
+   "body": "Questions on globalization and developing countries."
+  },
+  "ch7-4.6": {
+   "title": "Matching groups of countries with graphs",
+   "body": "Each of three graphs shows the average relationship between a country's initial real GDP per capita (horizontal axis) and its growth rate (vertical axis): **Graph 1** is a flat line (growth unrelated to initial income); **Graph 2** slopes downward (poorer countries grow faster); **Graph 3** slopes slightly upward (richer countries grow slightly faster)."
+  },
+  "ch7-4.7": {
+   "title": "McCloskey: thoroughgoing innovation",
+   "body": "Deirdre McCloskey argued, \u201cA poor country that adopts thoroughgoing innovation . . . can get within hailing distance of the West . . . in about two generations.\u201d A generation is about 25 years. Real GDP per capita in 2021: Italy about **$31,506**, Haiti about **$1,283** (2010 US dollars). Suppose Haiti's average annual growth rate rises to **6.5%** for the next 50 years. Use: Real GDP per capita\u2082\u2080\u2082\u2081 \u00d7 (1 + g)\u2075\u2070 = Real GDP per capita\u2082\u2080\u2087\u2081."
+  },
+  "ch7-4.8": {
+   "title": "Mexico's growth forecast",
+   "body": "The Bank of Mexico said that GDP is now projected to grow by 2.3% in 2023, compared with a previous forecast of 1.6%."
+  },
+  "ch7-4.9": {
+   "title": "Growth prospects for Mexico",
+   "body": "The Economist reported that Santiago Levy believes Mexico could enjoy annual growth of around 4% if it became more business-friendly and invested in infrastructure. A Bank of Mexico deputy governor said: \u201cCurrently, it is predominantly domestic issues holding back [foreign] investment.\u201d"
+  },
+  "ch7-4.10": {
+   "title": "Tim Cook on globalization",
+   "body": "Apple CEO Tim Cook said globalization is \u201cgreat for the world . . . countries in the world . . . that isolate themselves, it's not good for their people.\u201d"
+  },
+  "ch7-4.11": {
+   "title": "The decline in world trade",
+   "body": "A 2023 Wall Street Journal article noted: \u201cWorld trade as a share of overall economic activity peaked at 61% in 2008 . . . Trade has since receded to 57% of economic activity.\u201d"
+  },
+  "ch7-5.3": {
+   "title": "Santiago Levy's proposals for Mexico",
+   "body": "Levy thinks Mexico \u201cneeds to replace restrictions on firing with unemployment insurance and shift the tax burden away from payrolls, abolish tax perks for small firms and take contract enforcement more seriously. The prize would be faster growth . . . and better-paid jobs.\u201d"
+  },
+  "ch7-5.4": {
+   "title": "China's investment in residential property",
+   "body": "A Wall Street Journal article noted that China's rapidly increasing investment in residential property, particularly apartment houses, may \u201cboost economic growth but restrain the country's long-term potential.\u201d"
+  },
+  "ch7-5.5": {
+   "title": "Rule of law in China",
+   "body": "Chen Guangcheng asserts that \u201cthere is no rule of law under the rule of the Chinese Communist Party.\u201d"
+  },
+  "ch7-5.6": {
+   "title": "Policies to raise growth in Canada",
+   "body": "Decide whether each policy is likely to raise the rate of economic growth in Canada."
+  },
+  "ch7-5.7": {
+   "title": "A free press and growth",
+   "body": "George Ayittey noted that of the 54 African countries only 8 had a free press, and argued strongly for establishing one to aid Africa's economic development."
+  },
+  "ch7-5.8": {
+   "title": "Aid versus investment",
+   "body": "Akinwumi Adesina, president of the African Development Bank: \u201cAfrica is not going to be developed by aid. It will be developed by investment.\u201d"
+  },
+  "ch7-5.9": {
+   "title": "Tariffs on Chinese imports",
+   "body": "Starting in 2018 the United States imposed tariffs on about $300 billion of goods imported from China. A 2023 US International Trade Commission study found that US firms and households paid higher prices for Chinese imports, rising dollar-for-dollar with the tariffs."
+  }
+ },
+ "questions": [
+  {
+   "id": "t7-001",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Creative destruction",
+   "tags": [
+    "ch7",
+    "growth-basics"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Review Q 1.1"
+   },
+   "prompt": "Which statement best defines \u201ccreative destruction\u201d and its role in economic growth?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The process by which new, better products and production methods replace existing ones, putting old firms and jobs out of business; it raises living standards by moving resources to higher-productivity uses"
+    },
+    {
+     "id": "b",
+     "text": "Government destruction of obsolete factories so that new ones can be built, which raises growth by increasing the capital stock"
+    },
+    {
+     "id": "c",
+     "text": "A fall in output during a recession that clears out inefficient firms; it has no lasting effect on growth"
+    },
+    {
+     "id": "d",
+     "text": "The wearing out of capital through depreciation, which must be replaced before any growth can occur"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Joseph Schumpeter's term: **entrepreneurs introduce qualitatively better products and methods that replace existing ones**. Old firms, products and jobs are destroyed, but the economy's productivity and standard of living rise over time. It is a market process, not a government programme, and it is not the same thing as depreciation or a recession.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-002",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Total vs annual growth",
+   "tags": [
+    "ch7",
+    "growth-rates"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Review Q 1.2",
+    "note": "The 48% figure is illustrative; the textbook question gives no data."
+   },
+   "prompt": "Real GDP rose by a total of 48% between 2007 and 2023 (16 years). How does this total increase compare with the average annual growth rate over the same period?",
+   "options": [
+    {
+     "id": "a",
+     "text": "They are the same number, because both describe the change in real GDP between 2007 and 2023"
+    },
+    {
+     "id": "b",
+     "text": "The total is the cumulative change over all 16 years; the average annual growth rate is the much smaller yearly rate that, compounded, produces that total"
+    },
+    {
+     "id": "c",
+     "text": "The average annual growth rate is the total increase multiplied by 16"
+    },
+    {
+     "id": "d",
+     "text": "The average annual rate uses only the final year's growth, while the total uses all years"
+    }
+   ],
+   "answer": "b",
+   "explanation": "The **total percentage increase** is the cumulative change from start to end, (RGDP\u2082\u2080\u2082\u2083 \u2212 RGDP\u2082\u2080\u2080\u2087)/RGDP\u2082\u2080\u2080\u2087. The **average annual growth rate** is the per-year rate that, compounded over the period, delivers that total: here about 1.48^(1/16) \u2212 1 \u2248 2.5% a year (the shortcut 48 \u00f7 16 = 3% overstates it because of compounding).",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-003",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Why England?",
+   "tags": [
+    "ch7",
+    "institutions"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 1.3"
+   },
+   "prompt": "Shiue and Keller found that in 1770 market efficiency in England (prices equalised across regions, allowing for transport costs) was significantly greater than in the rest of Europe and China. How does this relate to Douglass North's argument about why the Industrial Revolution began in England?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It contradicts North: efficient markets show that natural resources, not institutions, explain England's early growth"
+    },
+    {
+     "id": "b",
+     "text": "It is unrelated to North, whose argument is that England had the largest population and so the most workers"
+    },
+    {
+     "id": "c",
+     "text": "It supports North: England's institutions (secure property rights, enforceable contracts, a government that would not seize gains) encouraged entrepreneurs to trade and invest, which favoured long-run growth"
+    },
+    {
+     "id": "d",
+     "text": "It supports North because English prices were higher, which gave firms larger profits"
+    }
+   ],
+   "answer": "c",
+   "explanation": "North argued that the Industrial Revolution began in England because its **institutions** (rule of law, property rights, contract enforcement) gave entrepreneurs confidence that they could keep the gains from trade and innovation. Greater market efficiency in 1770 is exactly what you would expect where trade is protected by such institutions, so the finding supports his argument.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-004",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Comparing growth rates",
+   "tags": [
+    "ch7",
+    "growth-rates"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 1.4",
+    "note": "Parts (a) and (b) are not included: the real GDP table did not come through legibly in the source file, so only part (c) is asked."
+   },
+   "prompt": "Real GDP is measured in each country's own currency, and each country uses a different base year (Mexico 2013, France 2014, United States 2017). Does this matter when comparing the countries' economic growth rates?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Yes: growth rates cannot be compared unless every country uses the same currency and base year"
+    },
+    {
+     "id": "b",
+     "text": "Yes: a country with a more recent base year will always show a higher growth rate"
+    },
+    {
+     "id": "c",
+     "text": "No, but only because exchange rates are fixed between the three currencies"
+    },
+    {
+     "id": "d",
+     "text": "No: a growth rate is a percentage change, so it is unit-free; currency and base year do not matter for comparing growth rates (although they would for comparing levels of real GDP)"
+    }
+   ],
+   "answer": "d",
+   "explanation": "A **growth rate is a percentage change**, so the units cancel: (RGDP\u2082 \u2212 RGDP\u2081)/RGDP\u2081 is the same whether real GDP is in pesos, euros or dollars. The base year changes the *level* of real GDP, not the growth rate in any meaningful way. Levels in different currencies cannot be compared directly, but growth rates can.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-005",
+   "type": "numeric",
+   "unit": 7,
+   "topic": "Compounding",
+   "tags": [
+    "ch7",
+    "growth-rates"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 1.5"
+   },
+   "group": "ch7-1.5",
+   "scenario": "ch7-1.5",
+   "prompt": "How much interest (in dollars) have you earned on the Andover Bank CDs by the end of 2026?",
+   "answer": {
+    "value": 157.63,
+    "tolerance": 0.05,
+    "prefix": "$"
+   },
+   "explanation": "$1,000 \u00d7 1.05 \u00d7 1.05 \u00d7 1.05 = $1,157.63, so interest earned = **$157.63**."
+  },
+  {
+   "id": "t7-006",
+   "type": "numeric",
+   "unit": 7,
+   "topic": "Compounding",
+   "tags": [
+    "ch7",
+    "growth-rates"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 1.5"
+   },
+   "group": "ch7-1.5",
+   "scenario": "ch7-1.5",
+   "prompt": "How much interest (in dollars) have you earned on the Lowell Bank CDs by the end of 2026?",
+   "answer": {
+    "value": 156.88,
+    "tolerance": 0.05,
+    "prefix": "$"
+   },
+   "explanation": "$1,000 \u00d7 1.02 \u00d7 1.06 \u00d7 1.07 = $1,156.88, so interest earned = **$156.88**."
+  },
+  {
+   "id": "t7-007",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Compounding",
+   "tags": [
+    "ch7",
+    "growth-rates"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 1.5"
+   },
+   "group": "ch7-1.5",
+   "scenario": "ch7-1.5",
+   "prompt": "At the end of 2026, on which CDs will you have earned more interest?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Andover Bank: $157.63 compared with $156.88 at Lowell"
+    },
+    {
+     "id": "b",
+     "text": "Lowell Bank, because its rate is highest in the last year"
+    },
+    {
+     "id": "c",
+     "text": "They are equal, because both banks' rates average 5% over the three years"
+    },
+    {
+     "id": "d",
+     "text": "Lowell Bank, because its rates are rising"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Both sets of rates have a simple average of 5% ((2 + 6 + 7)/3 = 5), but compounding does not use the simple average. The ending balance is the *product* of the growth factors (1.02 \u00d7 1.06 \u00d7 1.07 = 1.1569 vs 1.05\u00b3 = 1.1576), and the order of the years does not matter. Uneven rates give a slightly smaller product than equal rates with the same average, so Lowell earns less ($156.88 vs $157.63). Equal simple averages do not give equal compounded growth.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-008",
+   "type": "numeric",
+   "unit": 7,
+   "topic": "Growth rates",
+   "tags": [
+    "ch7",
+    "growth-rates"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 1.6"
+   },
+   "group": "ch7-1.6",
+   "scenario": "ch7-1.6",
+   "prompt": "What was the percentage change in real GDP per capita between 2018 and 2022? (percent, 1 decimal)",
+   "answer": {
+    "value": 6.5,
+    "tolerance": 0.1,
+    "display": "6.5%",
+    "hint": "Percent"
+   },
+   "explanation": "(65,415 \u2212 61,418)/61,418 \u00d7 100 = **6.5%**. This is the total change over the four years."
+  },
+  {
+   "id": "t7-009",
+   "type": "numeric",
+   "unit": 7,
+   "topic": "Growth rates",
+   "tags": [
+    "ch7",
+    "growth-rates"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 1.6"
+   },
+   "group": "ch7-1.6",
+   "scenario": "ch7-1.6",
+   "prompt": "Using the textbook's shortcut for short periods (average the yearly growth rates), what was the average annual growth rate in real GDP per capita between 2018 and 2022? (percent, 1 decimal)",
+   "answer": {
+    "value": 1.6,
+    "tolerance": 0.1,
+    "display": "1.6%",
+    "hint": "Percent"
+   },
+   "explanation": "Yearly growth: 2019 = +1.93%, 2020 = \u22122.73%, 2021 = +5.78%, 2022 = +1.56%. Average = (1.93 \u2212 2.73 + 5.78 + 1.56)/4 \u2248 **1.6%** (the exact compound rate is 1.59%)."
+  },
+  {
+   "id": "t7-010",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Standard of living vs GDP",
+   "tags": [
+    "ch7",
+    "growth-basics"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 1.7"
+   },
+   "group": "ch7-1.7",
+   "scenario": "ch7-1.7",
+   "prompt": "Is real GDP per capita likely to have increased significantly because of these health gains, and could the standard of living still have risen?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Yes, real GDP per capita must have risen significantly, because a healthier population always raises GDP per capita by the same proportion"
+    },
+    {
+     "id": "b",
+     "text": "Probably not by much, since these low-cost programmes mainly saved lives rather than added measured output; but living standards could still have risen substantially because GDP does not measure the value of saving children's lives"
+    },
+    {
+     "id": "c",
+     "text": "No, and living standards could not have risen either, because the standard of living is measured only by real GDP per capita"
+    },
+    {
+     "id": "d",
+     "text": "Yes, because lower child mortality directly increases the goods and services produced per person in the first year"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Vaccination and oral rehydration programmes cost little and mostly save lives, so **real GDP per capita need not change much**. Yet reduced child mortality plainly improves well-being: **real GDP per capita is only a proxy for the standard of living**, and health is part of the standard of living that GDP does not capture.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-011",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Standard of living vs GDP",
+   "tags": [
+    "ch7",
+    "growth-basics",
+    "catch-up"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 1.7"
+   },
+   "group": "ch7-1.7",
+   "scenario": "ch7-1.7",
+   "prompt": "Which seems more achievable for a developing country in the short run?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Sustained increases in real GDP per capita, because they only require more machines"
+    },
+    {
+     "id": "b",
+     "text": "They are equally hard, because both require rich-country incomes first"
+    },
+    {
+     "id": "c",
+     "text": "Eliminating measles and childhood deaths from diarrhea, because they use low-cost, well-known technologies that can spread across borders, whereas sustained growth requires hard-to-copy institutional change"
+    },
+    {
+     "id": "d",
+     "text": "Neither is achievable until the country has caught up to the high-income countries"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Easterly's point (and Kenny's in 1.8): **ideas and inexpensive technologies flow across borders readily**, so health improvements are quick wins, while sustained growth requires good institutions, rule of law, education and investment, which take decades to build.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-012",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Institutions and catch-up",
+   "tags": [
+    "ch7",
+    "catch-up",
+    "institutions"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 1.8"
+   },
+   "group": "ch7-1.8",
+   "scenario": "ch7-1.8",
+   "prompt": "If Kenny is correct, what are the implications for the ability of low-income countries to rapidly increase their growth rates of real GDP per capita?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It will be easy: ideas flow freely, so every low-income country can quickly match rich-country growth rates"
+    },
+    {
+     "id": "b",
+     "text": "It will be impossible, because no knowledge can ever cross borders"
+    },
+    {
+     "id": "c",
+     "text": "Growth rates will rise quickly only if low-income countries stop using foreign ideas"
+    },
+    {
+     "id": "d",
+     "text": "It will be hard: the institutions that sustain growth spread slowly, so rapid and lasting increases in growth rates are difficult"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Sustained growth depends heavily on institutions (rule of law, property rights, good management). If those move like bricks, **low-income countries cannot adopt them quickly**, so fast, sustained increases in growth rates are hard.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-013",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Institutions and catch-up",
+   "tags": [
+    "ch7",
+    "catch-up",
+    "institutions"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 1.8"
+   },
+   "group": "ch7-1.8",
+   "scenario": "ch7-1.8",
+   "prompt": "What are the implications for their ability to increase their standards of living?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Standards of living can still improve faster than growth does, because ideas such as vaccines and education move easily across borders even when institutions do not"
+    },
+    {
+     "id": "b",
+     "text": "Standards of living cannot rise unless growth rates rise first"
+    },
+    {
+     "id": "c",
+     "text": "Standards of living will fall, because ideas flow to the countries with the best institutions"
+    },
+    {
+     "id": "d",
+     "text": "Nothing changes, because standards of living depend only on institutions"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Because **ideas and inventions flow more easily than institutions**, poor countries can import health and education gains quickly. Living standards (life expectancy, literacy) can rise even where real GDP per capita grows slowly.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-014",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Per-worker production function",
+   "tags": [
+    "ch7",
+    "solow",
+    "diminishing-returns"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Review Q 2.1"
+   },
+   "group": "ch7-2.1",
+   "scenario": "ch7-2.1",
+   "prompt": "What does an increase in capital per hour worked, holding technology constant, do to real GDP per hour worked?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It shifts the whole production function upward"
+    },
+    {
+     "id": "b",
+     "text": "It moves the economy along the same production function, up and to the right, to a higher Y/L, but by progressively smaller amounts"
+    },
+    {
+     "id": "c",
+     "text": "It shifts the production function downward because of depreciation"
+    },
+    {
+     "id": "d",
+     "text": "It leaves Y/L unchanged because only technology matters"
+    }
+   ],
+   "answer": "b",
+   "explanation": "More capital per hour worked is a **movement along** the unchanged per-worker production function. Because of diminishing returns to capital the curve gets flatter, so each additional unit of capital adds less to Y/L.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-015",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Per-worker production function",
+   "tags": [
+    "ch7",
+    "solow",
+    "technology"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Review Q 2.1"
+   },
+   "group": "ch7-2.1",
+   "scenario": "ch7-2.1",
+   "prompt": "What does an increase in technology, holding K/L constant, do to real GDP per hour worked?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It moves the economy along the same curve to the right"
+    },
+    {
+     "id": "b",
+     "text": "It shifts the production function downward"
+    },
+    {
+     "id": "c",
+     "text": "It shifts the production function upward, so Y/L is higher at every level of K/L"
+    },
+    {
+     "id": "d",
+     "text": "It makes the curve linear but does not change Y/L at the current K/L"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Technological change raises output for given inputs, so the **entire per-worker production function shifts up**: at the same K/L, workers produce more.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-016",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Diminishing returns",
+   "tags": [
+    "ch7",
+    "diminishing-returns"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Review Q 2.2"
+   },
+   "group": "ch7-2.2",
+   "scenario": "ch7-2.2",
+   "prompt": "What are the consequences for growth of diminishing returns to capital?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Output per hour worked falls whenever capital per hour worked rises"
+    },
+    {
+     "id": "b",
+     "text": "Growth rates must rise as capital accumulates"
+    },
+    {
+     "id": "c",
+     "text": "Diminishing returns affect labour but not capital"
+    },
+    {
+     "id": "d",
+     "text": "Increasing capital per hour worked alone yields smaller and smaller gains in output per hour, so growth driven only by capital accumulation slows down"
+    }
+   ],
+   "answer": "d",
+   "explanation": "**Diminishing returns** means each extra unit of capital per hour adds less output than the last, so an economy growing only by accumulating capital sees its growth rate fall.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-017",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Diminishing returns",
+   "tags": [
+    "ch7",
+    "diminishing-returns",
+    "technology"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Review Q 2.2"
+   },
+   "group": "ch7-2.2",
+   "scenario": "ch7-2.2",
+   "prompt": "How are some economies able to maintain high growth rates despite diminishing returns to capital?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Continuing technological change (and rising human capital) keeps shifting the production function upward, offsetting diminishing returns"
+    },
+    {
+     "id": "b",
+     "text": "By saving 100% of income so that capital stops depreciating"
+    },
+    {
+     "id": "c",
+     "text": "By moving along the production function faster"
+    },
+    {
+     "id": "d",
+     "text": "They cannot; no economy has ever maintained high growth"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Technological change shifts the per-worker production function up, so each new unit of capital is more productive and the economy **avoids running into diminishing returns**. That is why the model says long-run growth requires continuing technological progress.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-018",
+   "type": "mc",
+   "unit": 7,
+   "topic": "New growth theory",
+   "tags": [
+    "ch7",
+    "new-growth"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Review Q 2.3"
+   },
+   "prompt": "How does the new growth theory differ from the growth theory developed by Robert Solow?",
+   "options": [
+    {
+     "id": "a",
+     "text": "New growth theory says capital accumulation alone can generate unlimited growth; Solow's says technology alone does"
+    },
+    {
+     "id": "b",
+     "text": "New growth theory explains technological change as the result of individuals' and firms' responses to economic incentives (R&D, learning by doing); Solow's model takes the growth of technology as given"
+    },
+    {
+     "id": "c",
+     "text": "New growth theory ignores technology and focuses on population; Solow's focuses on technology"
+    },
+    {
+     "id": "d",
+     "text": "They are the same model with different names"
+    }
+   ],
+   "answer": "b",
+   "explanation": "In the Solow(\u2013Swan) model **technology (A) is exogenous**: the model does not explain why it grows. The **new growth theory** treats technological change as an outcome of incentives, such as profit from R&D, knowledge capital and learning by doing, so policy can influence long-run growth.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-019",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Knowledge capital",
+   "tags": [
+    "ch7",
+    "new-growth"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Review Q 2.4"
+   },
+   "group": "ch7-2.4",
+   "scenario": "ch7-2.4",
+   "prompt": "What is knowledge capital?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The total amount of money a country has saved"
+    },
+    {
+     "id": "b",
+     "text": "The skills workers acquire through on-the-job training only"
+    },
+    {
+     "id": "c",
+     "text": "The stock of ideas, discoveries and know-how (new products and ways of producing them) accumulated through research and development"
+    },
+    {
+     "id": "d",
+     "text": "The value of buildings and equipment used by universities"
+    }
+   ],
+   "answer": "c",
+   "explanation": "**Knowledge capital** is the accumulated stock of inventions, research results and know-how. In new growth theory it is a central input to technological progress.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-020",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Knowledge capital",
+   "tags": [
+    "ch7",
+    "new-growth",
+    "externality"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Review Q 2.4"
+   },
+   "group": "ch7-2.4",
+   "scenario": "ch7-2.4",
+   "prompt": "Why are firms likely to underinvest in research and development?",
+   "options": [
+    {
+     "id": "a",
+     "text": "R&D is unprofitable for every firm"
+    },
+    {
+     "id": "b",
+     "text": "Firms prefer to hold cash rather than invest"
+    },
+    {
+     "id": "c",
+     "text": "The government prohibits private research"
+    },
+    {
+     "id": "d",
+     "text": "Knowledge spills over to other firms that can copy it without paying, so the firm bears the full cost but captures only part of the benefits (a positive externality)"
+    }
+   ],
+   "answer": "d",
+   "explanation": "R&D creates a **positive externality**: competitors imitate the new knowledge, so the social return exceeds the private return and firms invest less than is socially optimal.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-021",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Knowledge capital",
+   "tags": [
+    "ch7",
+    "new-growth",
+    "policy"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Review Q 2.4"
+   },
+   "group": "ch7-2.4",
+   "scenario": "ch7-2.4",
+   "prompt": "Which set contains three government policies that can increase the accumulation of knowledge capital?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Granting patents, giving tax incentives for private R&D, and subsidizing university and basic research"
+    },
+    {
+     "id": "b",
+     "text": "Price controls, higher tariffs and import quotas"
+    },
+    {
+     "id": "c",
+     "text": "Raising payroll taxes, shortening patent protection and cutting education funding"
+    },
+    {
+     "id": "d",
+     "text": "Printing money, taxing saving and restricting foreign investment"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Governments can raise knowledge capital by **protecting inventors (patents), lowering the cost of R&D (tax credits), and funding research** at universities and labs. The other sets would weaken innovation incentives or are unrelated.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-022",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Productivity and growth",
+   "tags": [
+    "ch7",
+    "productivity"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 2.5"
+   },
+   "prompt": "In 2023 the Economist said there are good reasons to be gloomy about Chinese workers' productivity and that many analysts cut their long-term forecasts for China's growth. Is there a connection?",
+   "options": [
+    {
+     "id": "a",
+     "text": "No: productivity affects only unemployment, not growth"
+    },
+    {
+     "id": "b",
+     "text": "Yes: long-run growth in real GDP per capita depends on labour productivity growth, so weak productivity prospects lower long-run growth forecasts"
+    },
+    {
+     "id": "c",
+     "text": "Yes, but only because lower productivity raises population"
+    },
+    {
+     "id": "d",
+     "text": "No: growth forecasts depend only on the capital stock, not productivity"
+    }
+   ],
+   "answer": "b",
+   "explanation": "In the growth model **growth in output per person comes from growth in labour productivity** (more K/L, better technology, more human capital). If productivity growth is expected to be low, long-run growth forecasts must be cut.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-023",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Per-worker production function",
+   "tags": [
+    "ch7",
+    "solow"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 2.6"
+   },
+   "group": "ch7-2.6",
+   "scenario": "ch7-2.6",
+   "prompt": "Capital per hour worked increases from 200 yuan per hour worked to 250 yuan per hour worked.",
+   "options": [
+    {
+     "id": "a",
+     "text": "An upward shift of the production function"
+    },
+    {
+     "id": "b",
+     "text": "A downward shift of the production function"
+    },
+    {
+     "id": "c",
+     "text": "A movement along the production function"
+    },
+    {
+     "id": "d",
+     "text": "A shift, but only if labour also increases"
+    }
+   ],
+   "answer": "c",
+   "explanation": "A change in K/L, the variable on the horizontal axis, is a **movement along** the existing curve.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-024",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Per-worker production function",
+   "tags": [
+    "ch7",
+    "solow",
+    "technology"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 2.6"
+   },
+   "group": "ch7-2.6",
+   "scenario": "ch7-2.6",
+   "prompt": "The Chinese government doubles its spending on support for university research.",
+   "options": [
+    {
+     "id": "a",
+     "text": "A movement along the production function"
+    },
+    {
+     "id": "b",
+     "text": "A downward shift of the production function"
+    },
+    {
+     "id": "c",
+     "text": "No effect on the production function"
+    },
+    {
+     "id": "d",
+     "text": "An upward shift of the production function, since more research raises technology"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Research spending raises knowledge capital and **technological progress**, which shifts the per-worker production function up (although the effect takes time).",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-025",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Per-worker production function",
+   "tags": [
+    "ch7",
+    "solow",
+    "human-capital"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 2.6"
+   },
+   "group": "ch7-2.6",
+   "scenario": "ch7-2.6",
+   "prompt": "A reform of the Chinese school system results in more highly trained Chinese workers.",
+   "options": [
+    {
+     "id": "a",
+     "text": "An upward shift of the production function, since human capital is higher"
+    },
+    {
+     "id": "b",
+     "text": "A movement along the production function"
+    },
+    {
+     "id": "c",
+     "text": "A downward shift of the production function"
+    },
+    {
+     "id": "d",
+     "text": "A change only in the capital stock"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Better-trained workers raise **human capital**, which increases Y/L at every level of K/L and shifts the production function up.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-026",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Soviet failure",
+   "tags": [
+    "ch7",
+    "institutions"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 2.7"
+   },
+   "prompt": "Why did the investment decisions of salaried managers in the United States tend to be better for long-term growth than those of salaried bureaucrats in the Soviet Union?",
+   "options": [
+    {
+     "id": "a",
+     "text": "US managers are simply more intelligent than Soviet bureaucrats"
+    },
+    {
+     "id": "b",
+     "text": "US managers answer to shareholders, capital markets and competitors, so poor investments are punished with losses and good ones rewarded with profits; Soviet bureaucrats faced no comparable market discipline"
+    },
+    {
+     "id": "c",
+     "text": "Soviet bureaucrats invested too little in physical capital"
+    },
+    {
+     "id": "d",
+     "text": "US managers can ignore shareholders because the money is not their own"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Even though managers spend others' money, in a market economy **profits and losses, competition and the threat of dismissal or takeover** discipline their choices. In the Soviet system, planners allocated resources by directive without market signals, so there was little incentive to adopt productive technologies.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-027",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Soviet failure",
+   "tags": [
+    "ch7",
+    "diminishing-returns"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 2.8"
+   },
+   "group": "ch7-2.8",
+   "scenario": "ch7-2.8",
+   "prompt": "In 1961, why might a leading economist have expected the Soviet economy to eventually become larger than the US economy?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Soviet labour productivity already exceeded the US level"
+    },
+    {
+     "id": "b",
+     "text": "Soviet technology was far ahead of US technology"
+    },
+    {
+     "id": "c",
+     "text": "The Soviet Union was growing very rapidly by devoting huge resources to capital accumulation (very high investment rates) and shifting workers into industry"
+    },
+    {
+     "id": "d",
+     "text": "Soviet consumption per person was higher than in the United States"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Soviet growth in the 1950s was fast because of **extremely high rates of investment and rapid growth of labour and capital inputs**; extrapolating those growth rates made overtaking the United States seem plausible.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-028",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Soviet failure",
+   "tags": [
+    "ch7",
+    "diminishing-returns",
+    "institutions"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 2.8"
+   },
+   "group": "ch7-2.8",
+   "scenario": "ch7-2.8",
+   "prompt": "Briefly explain why the Soviet economy failed to overtake the US economy.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Soviet saving rates were too low to accumulate capital"
+    },
+    {
+     "id": "b",
+     "text": "Soviet growth was faster than US growth in every year, but the Soviet starting point was too low"
+    },
+    {
+     "id": "c",
+     "text": "The Soviet Union grew too slowly in its first decade, and it never recovered"
+    },
+    {
+     "id": "d",
+     "text": "Growth based on capital accumulation alone ran into diminishing returns, and without market incentives there was little technological change to offset them"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Without technological change, **diminishing returns to capital** caused Soviet growth to slow. Central planning provided weak incentives for innovation and efficient investment, so rapid growth could not be sustained.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-029",
+   "type": "tf",
+   "unit": 7,
+   "topic": "Per-worker production function",
+   "tags": [
+    "ch7",
+    "solow",
+    "technology"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 2.9",
+    "note": "Graph read as having A, B, C at the same K/L on three successively higher curves."
+   },
+   "group": "ch7-2.9",
+   "scenario": "ch7-2.9",
+   "prompt": "The movement from point A to point B shows the effects of technological change.",
+   "answer": true,
+   "explanation": "A and B have the same K/L, but B lies on a higher production function, so Y/L rises with no change in capital. That is a **shift of the production function**: technological change (or higher human capital)."
+  },
+  {
+   "id": "t7-030",
+   "type": "tf",
+   "unit": 7,
+   "topic": "Per-worker production function",
+   "tags": [
+    "ch7",
+    "solow",
+    "diminishing-returns"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 2.9"
+   },
+   "group": "ch7-2.9",
+   "scenario": "ch7-2.9",
+   "prompt": "The economy can move from point B to point C only if there are no diminishing returns to capital.",
+   "answer": false,
+   "explanation": "B to C is another upward shift (technological change) at the same K/L. Diminishing returns concern movements *along* a curve, so they do not prevent a move from B to C."
+  },
+  {
+   "id": "t7-031",
+   "type": "tf",
+   "unit": 7,
+   "topic": "Per-worker production function",
+   "tags": [
+    "ch7",
+    "solow"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 2.9",
+    "note": "Graph read as having A, B, C at the same K/L on three successively higher curves (see the scenario). If the textbook figure instead had A and C at different K/L, the answer to this part would change; check the figure."
+   },
+   "group": "ch7-2.9",
+   "scenario": "ch7-2.9",
+   "prompt": "To move from point A to point C, the economy must increase the amount of capital per hour worked and experience technological change.",
+   "answer": false,
+   "explanation": "A and C have the same K/L, so no change in capital per hour is needed. The move is entirely a **shift up** due to technological change."
+  },
+  {
+   "id": "t7-032",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Diminishing returns",
+   "tags": [
+    "ch7",
+    "diminishing-returns"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 2.10",
+    "note": "The textbook figure is described only as a curve rising steeply from the origin. The stem here states explicitly that the curve does not flatten (no diminishing returns), which is the point of the problem, so the reading does not depend on the word 'steep'."
+   },
+   "prompt": "Suppose the per-worker production function were an upward-sloping curve that does not flatten as capital per hour worked rises (it rises steeply from the origin, with no diminishing returns). What would this imply for a country accumulating increasing quantities of capital per hour worked?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Capital accumulation alone could keep raising output per hour worked at a steady (or accelerating) pace, so growth could be sustained without technological change"
+    },
+    {
+     "id": "b",
+     "text": "Growth would still have to stop eventually, because diminishing returns always set in"
+    },
+    {
+     "id": "c",
+     "text": "Output per hour worked would fall as K/L rises"
+    },
+    {
+     "id": "d",
+     "text": "Growth would require the population to fall"
+    }
+   ],
+   "answer": "a",
+   "explanation": "In the standard model, growth driven by capital alone must slow because of **diminishing returns**. If the curve does not flatten, each additional unit of capital keeps adding as much (or more) output, so growth from capital accumulation could be sustained. Real economies do not look like this, which is why technological change matters.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-033",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Soviet failure",
+   "tags": [
+    "ch7",
+    "diminishing-returns"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 2.11"
+   },
+   "prompt": "Soviet growth strategy relied on very high rates of investment, causing rapid growth of the capital stock. Why was this a poor way to sustain growth in the long run?",
+   "options": [
+    {
+     "id": "a",
+     "text": "High investment always lowers output"
+    },
+    {
+     "id": "b",
+     "text": "Without technological change, diminishing returns to capital meant each additional unit of capital added less output, so growth slowed"
+    },
+    {
+     "id": "c",
+     "text": "Capital accumulation makes technology disappear"
+    },
+    {
+     "id": "d",
+     "text": "Soviet investment was too low to matter"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Rapid capital accumulation moves the economy along its per-worker production function, where **diminishing returns** make each new unit of capital less productive. Sustained growth requires technological progress, which the Soviet system did not generate.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-034",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Creative destruction",
+   "tags": [
+    "ch7",
+    "creative-destruction"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 2.12"
+   },
+   "group": "ch7-2.12",
+   "scenario": "ch7-2.12",
+   "prompt": "What success are the authors referring to, and why might creative destruction be the key to it?",
+   "options": [
+    {
+     "id": "a",
+     "text": "America's low unemployment; creative destruction prevents firms from failing"
+    },
+    {
+     "id": "b",
+     "text": "America's trade surplus; creative destruction reduces imports"
+    },
+    {
+     "id": "c",
+     "text": "America's high long-run growth and living standards; creative destruction brings continual innovation, replacing old products and firms with more productive ones"
+    },
+    {
+     "id": "d",
+     "text": "America's equal income distribution; creative destruction removes high earners"
+    }
+   ],
+   "answer": "c",
+   "explanation": "The success is **sustained economic growth and high living standards**. Creative destruction is how new technologies and products replace old ones, continually raising productivity.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-035",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Creative destruction",
+   "tags": [
+    "ch7",
+    "creative-destruction"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 2.12"
+   },
+   "group": "ch7-2.12",
+   "scenario": "ch7-2.12",
+   "prompt": "Why does creative destruction need to be \u201ctolerated\u201d? If it leads to a country's success, shouldn't everyone support it?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because it reduces total output in the long run"
+    },
+    {
+     "id": "b",
+     "text": "Because it makes everyone worse off"
+    },
+    {
+     "id": "c",
+     "text": "Because it has no winners"
+    },
+    {
+     "id": "d",
+     "text": "Because it also destroys existing firms and jobs, creating concentrated losers who may resist it even though society as a whole gains"
+    }
+   ],
+   "answer": "d",
+   "explanation": "The gains are spread across the economy while the losses (closed firms, displaced workers) are concentrated, so losers have strong incentives to resist. Societies must **tolerate the losses** to get the long-run gains.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-036",
+   "type": "mc",
+   "unit": 7,
+   "topic": "New growth theory",
+   "tags": [
+    "ch7",
+    "new-growth"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 2.13"
+   },
+   "group": "ch7-2.13",
+   "scenario": "ch7-2.13",
+   "prompt": "Briefly explain Romer's reasoning.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Ideas can be used by everyone at no additional cost, so more people means more potential discoveries that benefit all, beyond the gains from comparative advantage"
+    },
+    {
+     "id": "b",
+     "text": "Trade is beneficial only if the other country has a comparative advantage in every good"
+    },
+    {
+     "id": "c",
+     "text": "Population growth always reduces per capita incomes"
+    },
+    {
+     "id": "d",
+     "text": "Other countries' discoveries cannot be copied"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Under the standard argument, Portugal matters because of comparative advantage. In new growth theory, **ideas are non-rival**: a discovery by anyone raises productivity everywhere, so more people means more ideas for all.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-037",
+   "type": "mc",
+   "unit": 7,
+   "topic": "New growth theory",
+   "tags": [
+    "ch7",
+    "new-growth"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 2.13"
+   },
+   "group": "ch7-2.13",
+   "scenario": "ch7-2.13",
+   "prompt": "Is the existence of the Portuguese more important in the new growth theory or in Solow's original model?",
+   "options": [
+    {
+     "id": "a",
+     "text": "In Solow's model, because population drives technology"
+    },
+    {
+     "id": "b",
+     "text": "In the new growth theory, because technological change comes from people responding to incentives; in Solow's model technology is given"
+    },
+    {
+     "id": "c",
+     "text": "Equally important in both"
+    },
+    {
+     "id": "d",
+     "text": "Neither, because both ignore population"
+    }
+   ],
+   "answer": "b",
+   "explanation": "In Solow's model technological progress is **exogenous**, so more people do not add to it. In the new growth theory, more people mean more researchers and more ideas, so population matters more.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-038",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Canada's growth record",
+   "tags": [
+    "ch7",
+    "canada"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Review Q 3.1"
+   },
+   "prompt": "Which description best captures the record of productivity growth in Canada from 1870 to the present?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Steady growth at the same rate in every period since 1870"
+    },
+    {
+     "id": "b",
+     "text": "Productivity fell continuously from 1870 to 1973 and has risen since"
+    },
+    {
+     "id": "c",
+     "text": "Rapid growth from after World War II to the mid-1970s, a slowdown of about 20 years, a pick-up from the mid-1990s for about a decade, and slower growth again recently"
+    },
+    {
+     "id": "d",
+     "text": "Growth was fastest between 2006 and 2020"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Canadian growth followed several phases: strong postwar growth, **a long slowdown (mid-1970s to mid-1990s)**, an IT-driven rebound (mid-1990s\u20132005), and historically weak growth since 2006.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-039",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Canada's growth record",
+   "tags": [
+    "ch7",
+    "canada"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Review Q 3.2"
+   },
+   "prompt": "Which statement best describes the debate among economists over future Canadian productivity growth?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Optimists think productivity will fall; pessimists think it will rise"
+    },
+    {
+     "id": "b",
+     "text": "Economists agree growth will return to postwar levels"
+    },
+    {
+     "id": "c",
+     "text": "The debate is only about the size of the labour force"
+    },
+    {
+     "id": "d",
+     "text": "Optimists think measurement problems hide real gains, or that new technologies like AI will boost productivity; pessimists think the big gains from the IT revolution are over and growth will stay low"
+    }
+   ],
+   "answer": "d",
+   "explanation": "**Optimists**: productivity is mismeasured and new technologies will help. **Pessimists**: the easy IT gains are exhausted and factors like aging and regulation hold growth down.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-040",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Canada's growth record",
+   "tags": [
+    "ch7",
+    "canada",
+    "productivity"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 3.3"
+   },
+   "prompt": "Figure 7.5 shows growth in real GDP per person in Canada since 1870. How might the growth rates differ if calculated for real GDP per hour worked instead?",
+   "options": [
+    {
+     "id": "a",
+     "text": "They would generally be higher, because hours worked per person have fallen since 1870 (shorter work weeks, more years in school and retirement)"
+    },
+    {
+     "id": "b",
+     "text": "They would be lower, because hours worked per person have risen since 1870"
+    },
+    {
+     "id": "c",
+     "text": "They would be identical"
+    },
+    {
+     "id": "d",
+     "text": "They would be negative"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Y/population = (Y/hours) \u00d7 (hours/population). If **hours per person have fallen**, output per hour has grown faster than output per person.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-041",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Canada's growth record",
+   "tags": [
+    "ch7",
+    "canada",
+    "productivity"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 3.4"
+   },
+   "prompt": "A columnist notes that many economists expect GDP growth to stay around 2% and that productivity growth has slowed markedly with no sign of a sudden upturn. Is there a connection?",
+   "options": [
+    {
+     "id": "a",
+     "text": "No: GDP growth does not depend on productivity"
+    },
+    {
+     "id": "b",
+     "text": "Yes: long-run GDP growth depends on growth in labour and in labour productivity, so if productivity growth stays low, GDP growth stays low"
+    },
+    {
+     "id": "c",
+     "text": "Yes: low productivity growth raises GDP growth"
+    },
+    {
+     "id": "d",
+     "text": "No: productivity affects only inflation"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Growth in real GDP comes from more labour and **more output per worker**. If productivity growth is weak and no new surge is expected, GDP growth stays low.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-042",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Canada's growth record",
+   "tags": [
+    "ch7",
+    "canada",
+    "productivity"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 3.5"
+   },
+   "prompt": "Robert Gordon argues that most of the economy has already benefited from the internet and that many jobs are outside the capabilities of AI and robots. If he is correct, what does this imply for future Canadian labour productivity growth?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It will be very high, because AI will transform all jobs"
+    },
+    {
+     "id": "b",
+     "text": "It will fall to zero because of depreciation"
+    },
+    {
+     "id": "c",
+     "text": "Productivity growth is likely to remain low, since the large IT gains are exhausted and AI will affect only part of the economy"
+    },
+    {
+     "id": "d",
+     "text": "It will be unaffected by technology"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Gordon is a **pessimist**: the main gains from the IT revolution are behind us and much of the economy (services done by hand) has little scope for technological change, so productivity growth is likely to stay low.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-043",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Measurement of productivity",
+   "tags": [
+    "ch7",
+    "canada",
+    "gdp-measurement"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 3.6"
+   },
+   "group": "ch7-3.6",
+   "scenario": "ch7-3.6",
+   "prompt": "Are the benefits to you of being able to do a Google search included in GDP?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Yes, the full value of the benefit is counted"
+    },
+    {
+     "id": "b",
+     "text": "Yes, because Google's profits include the entire value to users"
+    },
+    {
+     "id": "c",
+     "text": "No, because GDP includes only goods, not services"
+    },
+    {
+     "id": "d",
+     "text": "Largely not: the search is free, so its value to users is not captured by market prices and is not counted in GDP"
+    }
+   ],
+   "answer": "d",
+   "explanation": "GDP counts the **market value of final goods and services**. A free service generates no price \u00d7 quantity for users, so most of the benefit is not measured.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-044",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Measurement of productivity",
+   "tags": [
+    "ch7",
+    "canada",
+    "gdp-measurement"
+   ],
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 3.6"
+   },
+   "group": "ch7-3.6",
+   "scenario": "ch7-3.6",
+   "prompt": "Does this show that the slowdown in Canadian productivity growth is just a measurement problem? What information would be needed to decide?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Not necessarily: we would need to know whether unmeasured benefits have grown enough, relative to earlier periods, to explain the size of the measured slowdown"
+    },
+    {
+     "id": "b",
+     "text": "Yes, it proves productivity growth has not slowed"
+    },
+    {
+     "id": "c",
+     "text": "No, because mismeasurement never happens"
+    },
+    {
+     "id": "d",
+     "text": "Yes, because services cannot be measured at all"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Unmeasured benefits existed in earlier eras too (e.g., earlier technologies), so the issue is whether **unmeasured benefits have grown enough** to account for the measured slowdown. That requires data on the value of unmeasured improvements over time.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-045",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Secular stagnation",
+   "tags": [
+    "ch7",
+    "secular-stagnation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 3.7"
+   },
+   "group": "ch7-3.7",
+   "scenario": "ch7-3.7",
+   "prompt": "Briefly, what is secular stagnation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "A temporary recession lasting less than a year"
+    },
+    {
+     "id": "b",
+     "text": "A prolonged period of weak economic growth and weak private demand, with persistently low interest rates"
+    },
+    {
+     "id": "c",
+     "text": "A period of high inflation and fast growth"
+    },
+    {
+     "id": "d",
+     "text": "The permanent disappearance of unemployment"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Alvin Hansen (1938) used the term for chronic, **structurally weak private demand** that leaves growth low for long periods.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-046",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Secular stagnation",
+   "tags": [
+    "ch7",
+    "secular-stagnation",
+    "loanable-funds"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 3.7"
+   },
+   "group": "ch7-3.7",
+   "scenario": "ch7-3.7",
+   "prompt": "In the market for loanable funds, how does secular stagnation shift the demand for and supply of loanable funds?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Demand shifts right and supply shifts left"
+    },
+    {
+     "id": "b",
+     "text": "Both shift right"
+    },
+    {
+     "id": "c",
+     "text": "Demand shifts left (fewer profitable investment opportunities) and supply shifts right (higher desired saving)"
+    },
+    {
+     "id": "d",
+     "text": "Both shift left"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Stagnation means **less desire to invest** (demand for funds falls) and often **more desire to save**, e.g., with aging populations (supply of funds rises).",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-047",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Secular stagnation",
+   "tags": [
+    "ch7",
+    "secular-stagnation",
+    "loanable-funds"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 3.7"
+   },
+   "group": "ch7-3.7",
+   "scenario": "ch7-3.7",
+   "prompt": "What happens to the equilibrium interest rate and quantity of loanable funds?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Both the interest rate and quantity rise"
+    },
+    {
+     "id": "b",
+     "text": "The interest rate rises and the quantity falls"
+    },
+    {
+     "id": "c",
+     "text": "The interest rate is unchanged and the quantity rises"
+    },
+    {
+     "id": "d",
+     "text": "The interest rate falls; the equilibrium quantity could rise or fall depending on the sizes of the shifts"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Leftward demand and rightward supply both lower the equilibrium interest rate, but they push the quantity in opposite directions, so the **quantity change is ambiguous**.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-048",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Secular stagnation",
+   "tags": [
+    "ch7",
+    "secular-stagnation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 3.8"
+   },
+   "group": "ch7-3.8",
+   "scenario": "ch7-3.8",
+   "prompt": "What does Blanchard mean by \u201cstructurally low private demand,\u201d and why might it be structural?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Persistently weak consumption and investment spending by the private sector that does not go away with the business cycle, caused by long-lasting forces such as aging and weak investment opportunities"
+    },
+    {
+     "id": "b",
+     "text": "Private demand that falls temporarily during a recession"
+    },
+    {
+     "id": "c",
+     "text": "Private demand that exceeds government demand"
+    },
+    {
+     "id": "d",
+     "text": "Demand for structures such as buildings"
+    }
+   ],
+   "answer": "a",
+   "explanation": "\u2018Structural\u2019 means **long-lasting rather than cyclical**: demographic and technological forces keep private spending low.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-049",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Secular stagnation",
+   "tags": [
+    "ch7",
+    "secular-stagnation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 3.8"
+   },
+   "group": "ch7-3.8",
+   "scenario": "ch7-3.8",
+   "prompt": "Why might structurally low private demand result in secular stagnation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Low demand raises interest rates and encourages investment"
+    },
+    {
+     "id": "b",
+     "text": "Low spending depresses investment and output, and interest rates fall toward zero, leaving central banks little room to stimulate demand, so weak growth persists"
+    },
+    {
+     "id": "c",
+     "text": "Low demand increases the supply of goods and so raises output"
+    },
+    {
+     "id": "d",
+     "text": "It cannot; low demand has no lasting effect"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Weak demand reduces output and investment, while interest rates near their lower bound limit **monetary policy's ability to restore demand**.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-050",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Secular stagnation",
+   "tags": [
+    "ch7",
+    "secular-stagnation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 3.8"
+   },
+   "group": "ch7-3.8",
+   "scenario": "ch7-3.8",
+   "prompt": "Which are examples of deep structural factors that might lead to secular stagnation in Canada?",
+   "options": [
+    {
+     "id": "a",
+     "text": "A young, fast-growing population and rapid productivity growth"
+    },
+    {
+     "id": "b",
+     "text": "Persistent high inflation"
+    },
+    {
+     "id": "c",
+     "text": "An aging population, slow productivity growth and weak investment opportunities, and rising inequality that raises saving"
+    },
+    {
+     "id": "d",
+     "text": "A sudden fall in oil prices"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Aging societies save more and invest less, slow technological progress reduces the return to investment, and inequality shifts income to high savers. **All lower demand structurally.**",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-051",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Catch-up",
+   "tags": [
+    "ch7",
+    "catch-up"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Review Q 4.1"
+   },
+   "group": "ch7-4.1",
+   "scenario": "ch7-4.1",
+   "prompt": "Why does the economic growth model predict that poor countries should catch up to rich countries in real GDP per capita?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Poor countries have more capital per worker"
+    },
+    {
+     "id": "b",
+     "text": "Poor countries have higher levels of technology"
+    },
+    {
+     "id": "c",
+     "text": "Rich countries' growth rates always rise over time"
+    },
+    {
+     "id": "d",
+     "text": "Poor countries have less capital per hour worked, so extra capital yields larger output gains (diminishing returns), and they can adopt existing technology from richer countries"
+    }
+   ],
+   "answer": "d",
+   "explanation": "The model predicts **catch-up (convergence)**: poor countries start lower on the production function, where diminishing returns mean capital is more productive, and they can copy existing technology, so they grow faster. This prediction holds for countries with similar institutions and conditions for growth; where those differ (rule of law, stability, education), catch-up need not happen.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-052",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Catch-up",
+   "tags": [
+    "ch7",
+    "catch-up",
+    "growth-obstacles"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Review Q 4.1"
+   },
+   "group": "ch7-4.1",
+   "scenario": "ch7-4.1",
+   "prompt": "Why have some poor countries not been able to catch up?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Wars and revolutions, poor education and health, weak rule of law, and low saving and investment"
+    },
+    {
+     "id": "b",
+     "text": "Excessive foreign investment"
+    },
+    {
+     "id": "c",
+     "text": "Too much globalization"
+    },
+    {
+     "id": "d",
+     "text": "Too much capital per worker"
+    }
+   ],
+   "answer": "a",
+   "explanation": "The four obstacles are **wars/instability, poor education and health, lack of rule of law, and low saving/investment**.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-053",
+   "type": "mc",
+   "unit": 7,
+   "topic": "FDI vs FPI",
+   "tags": [
+    "ch7",
+    "fdi",
+    "globalization"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Review Q 4.2"
+   },
+   "group": "ch7-4.2",
+   "scenario": "ch7-4.2",
+   "prompt": "What is the difference between foreign direct investment and foreign portfolio investment?",
+   "options": [
+    {
+     "id": "a",
+     "text": "FDI is buying stocks and bonds; foreign portfolio investment is building a factory"
+    },
+    {
+     "id": "b",
+     "text": "FDI is a firm building or buying a facility in another country; foreign portfolio investment is an individual or firm buying stocks or bonds issued in another country"
+    },
+    {
+     "id": "c",
+     "text": "They are the same thing"
+    },
+    {
+     "id": "d",
+     "text": "FDI is government aid; foreign portfolio investment is private lending"
+    }
+   ],
+   "answer": "b",
+   "explanation": "**FDI = a physical presence** (factory, store, purchase of a business). **Foreign portfolio investment = financial securities** (shares, bonds).",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-054",
+   "type": "mc",
+   "unit": 7,
+   "topic": "FDI vs FPI",
+   "tags": [
+    "ch7",
+    "fdi",
+    "globalization"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Review Q 4.2"
+   },
+   "group": "ch7-4.2",
+   "scenario": "ch7-4.2",
+   "prompt": "How might a poor country benefit from them?",
+   "options": [
+    {
+     "id": "a",
+     "text": "They reduce the capital stock"
+    },
+    {
+     "id": "b",
+     "text": "They benefit only rich countries"
+    },
+    {
+     "id": "c",
+     "text": "Both bring in funds for investment, raising capital per worker; FDI also brings in technology and management know-how"
+    },
+    {
+     "id": "d",
+     "text": "They bring only debt and no benefits"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Foreign funds raise **domestic investment** beyond what low domestic saving would permit, and FDI also transfers technology.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-055",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Globalization",
+   "tags": [
+    "ch7",
+    "globalization"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Review Q 4.3"
+   },
+   "group": "ch7-4.3",
+   "scenario": "ch7-4.3",
+   "prompt": "What does globalization mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Countries closing their borders to protect industries"
+    },
+    {
+     "id": "b",
+     "text": "The adoption of a single world currency"
+    },
+    {
+     "id": "c",
+     "text": "Governments setting world prices"
+    },
+    {
+     "id": "d",
+     "text": "The process of countries becoming more open to foreign trade and investment, and more interconnected economically"
+    }
+   ],
+   "answer": "d",
+   "explanation": "**Globalization** is increased openness to trade, investment, technology and ideas across borders.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-056",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Globalization",
+   "tags": [
+    "ch7",
+    "globalization"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Review Q 4.3"
+   },
+   "group": "ch7-4.3",
+   "scenario": "ch7-4.3",
+   "prompt": "How have developing countries benefited from globalization?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Access to foreign capital, technology and larger markets has helped them grow faster (e.g., countries that opened up since the 1980s)"
+    },
+    {
+     "id": "b",
+     "text": "Higher tariffs protected their industries and always raised growth"
+    },
+    {
+     "id": "c",
+     "text": "Countries that closed their economies grew fastest"
+    },
+    {
+     "id": "d",
+     "text": "They gained nothing"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Countries that **opened to trade and foreign investment** gained technology and capital; those that restricted trade (1940s\u20131970s) grew slowly.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-057",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Catch-up",
+   "tags": [
+    "ch7",
+    "catch-up"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 4.4",
+    "note": "Table values from the textbook. Figure-based Problem 4.5 is not included (scatterplot not reproducible)."
+   },
+   "prompt": "The table shows 1960 real GDP per capita and 1960\u20132019 growth for: Botswana ($519, 6.10%), Uganda ($940, 1.31%), Madagascar ($1,657, \u22120.17%), Ireland ($7,065, 4.64%) and the United States ($19,365, 2.01%). Are these statistics consistent with the growth model's prediction of catch-up?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Fully consistent: the poorer the country, the faster it grew"
+    },
+    {
+     "id": "b",
+     "text": "Partly: Botswana and Ireland started below the US and grew faster, but Uganda and Madagascar, also poor, grew slowly, so catch-up is not automatic"
+    },
+    {
+     "id": "c",
+     "text": "Completely inconsistent: no poor country grew faster than the United States"
+    },
+    {
+     "id": "d",
+     "text": "Consistent, because the richest country grew fastest"
+    }
+   ],
+   "answer": "b",
+   "explanation": "The model predicts that poorer countries tend to grow faster. Botswana (poorest, fastest) and Ireland fit, but **Uganda and Madagascar did not catch up**, showing that catch-up depends on institutions, education, stability and investment.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-058",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Catch-up evidence",
+   "tags": [
+    "ch7",
+    "catch-up"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 4.6",
+    "note": "Graphs 1 and 3 are close; matching based on the pattern of Figures 7.7\u20137.9."
+   },
+   "group": "ch7-4.6",
+   "scenario": "ch7-4.6",
+   "prompt": "Which graph best depicts all countries for which statistics are available, 1960\u20132019?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Graph 1 (flat)"
+    },
+    {
+     "id": "b",
+     "text": "Graph 2 (downward-sloping)"
+    },
+    {
+     "id": "c",
+     "text": "Graph 3 (slightly upward-sloping)"
+    },
+    {
+     "id": "d",
+     "text": "None of the graphs"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Across all countries there is **no catch-up**: many poor countries did not grow faster, and the average relationship is flat to slightly upward (Figure 7.8).",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-059",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Catch-up evidence",
+   "tags": [
+    "ch7",
+    "catch-up"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 4.6",
+    "note": "Graphs 1 and 3 are close; matching based on the pattern of Figures 7.8-7.9 (no catch-up since 1990 means growth unrelated to initial income)."
+   },
+   "group": "ch7-4.6",
+   "scenario": "ch7-4.6",
+   "prompt": "Which graph best depicts the United States, Western Europe, Canada and Japan, 1990\u20132019?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Graph 2 (downward-sloping)"
+    },
+    {
+     "id": "b",
+     "text": "Graph 3 (slightly upward-sloping)"
+    },
+    {
+     "id": "c",
+     "text": "None of the graphs"
+    },
+    {
+     "id": "d",
+     "text": "Graph 1 (flat)"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Since 1990 these high-income countries **stopped catching up**: growth was unrelated to initial income (Figure 7.9).",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-060",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Catch-up evidence",
+   "tags": [
+    "ch7",
+    "catch-up"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 4.6"
+   },
+   "group": "ch7-4.6",
+   "scenario": "ch7-4.6",
+   "prompt": "Which graph best depicts current high-income countries, 1960\u20132019?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Graph 2 (downward-sloping)"
+    },
+    {
+     "id": "b",
+     "text": "Graph 1 (flat)"
+    },
+    {
+     "id": "c",
+     "text": "Graph 3 (slightly upward-sloping)"
+    },
+    {
+     "id": "d",
+     "text": "None of the graphs"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Among today's high-income countries, those poorer in 1960 (South Korea, Taiwan, Singapore, Hong Kong) grew fastest: **clear catch-up** (Figure 7.7).",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-061",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Catch-up",
+   "tags": [
+    "ch7",
+    "catch-up"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 4.7"
+   },
+   "group": "ch7-4.7",
+   "scenario": "ch7-4.7",
+   "prompt": "What does McCloskey mean by \u201cthoroughgoing innovation\u201d and by getting \u201cwithin hailing distance of the West\u201d?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Banning foreign ideas; becoming richer than the West"
+    },
+    {
+     "id": "b",
+     "text": "Widely adopting new technologies, ideas and ways of organizing production; and reaching a standard of living close to (not necessarily equal to) that of high-income countries"
+    },
+    {
+     "id": "c",
+     "text": "Borrowing money from the West; having an identical income"
+    },
+    {
+     "id": "d",
+     "text": "Reducing population; matching military power"
+    }
+   ],
+   "answer": "b",
+   "explanation": "\u2018Thoroughgoing innovation\u2019 is broad, sustained adoption of new technologies and institutions; \u2018hailing distance\u2019 means **being close to rich-country living standards**.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-062",
+   "type": "numeric",
+   "unit": 7,
+   "topic": "Compounding",
+   "tags": [
+    "ch7",
+    "growth-rates",
+    "catch-up"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 4.7"
+   },
+   "group": "ch7-4.7",
+   "scenario": "ch7-4.7",
+   "prompt": "What would Haiti's real GDP per capita be in 2071 (2010 US dollars)?",
+   "answer": {
+    "value": 29902,
+    "tolerance": 150,
+    "prefix": "$"
+   },
+   "explanation": "1,283 \u00d7 (1.065)\u2075\u2070 = 1,283 \u00d7 23.31 \u2248 **$29,902**."
+  },
+  {
+   "id": "t7-063",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Compounding",
+   "tags": [
+    "ch7",
+    "growth-rates",
+    "catch-up"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 4.7"
+   },
+   "group": "ch7-4.7",
+   "scenario": "ch7-4.7",
+   "prompt": "Would Haiti end up with the real GDP per capita that Italy enjoyed in 2021?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Yes, it would more than double Italy's level"
+    },
+    {
+     "id": "b",
+     "text": "Yes, exactly"
+    },
+    {
+     "id": "c",
+     "text": "No, but it would be close: about $29,900 against $31,506"
+    },
+    {
+     "id": "d",
+     "text": "No, it would be less than half"
+    }
+   ],
+   "answer": "c",
+   "explanation": "$29,902 is **about 95% of Italy's 2021 level**: \u2018within hailing distance\u2019 but not equal (it would need about 6.6% a year to match).",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-064",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Catch-up",
+   "tags": [
+    "ch7",
+    "catch-up",
+    "growth-obstacles"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 4.7"
+   },
+   "group": "ch7-4.7",
+   "scenario": "ch7-4.7",
+   "prompt": "McCloskey also notes that this \u201cdoes not mean that catch-up is inevitable.\u201d Why isn't catch-up inevitable?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Technology cannot be copied"
+    },
+    {
+     "id": "b",
+     "text": "Rich countries refuse to trade"
+    },
+    {
+     "id": "c",
+     "text": "Catch-up requires lower saving"
+    },
+    {
+     "id": "d",
+     "text": "Poor countries may lack the rule of law, stability, education and health, and investment needed to adopt and benefit from technology"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Catch-up depends on the **conditions for growth** (property rights, stability, human capital, investment). Many poor countries lack them.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-065",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Interpreting growth forecasts",
+   "tags": [
+    "ch7",
+    "growth-rates"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 4.8"
+   },
+   "group": "ch7-4.8",
+   "scenario": "ch7-4.8",
+   "prompt": "Is the forecast likely for growth in nominal GDP or real GDP?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Real GDP: growth forecasts refer to real output, and 2.3% would be a very low forecast for nominal GDP when inflation is high"
+    },
+    {
+     "id": "b",
+     "text": "Nominal GDP, since it includes inflation"
+    },
+    {
+     "id": "c",
+     "text": "Neither; it is a forecast of population"
+    },
+    {
+     "id": "d",
+     "text": "Nominal GDP, because it is easier to forecast"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Real GDP growth measures changes in output, which is what matters for living standards, and central bank growth forecasts are normally **in real terms**.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-066",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Interpreting growth forecasts",
+   "tags": [
+    "ch7",
+    "growth-rates"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 4.8"
+   },
+   "group": "ch7-4.8",
+   "scenario": "ch7-4.8",
+   "prompt": "Given your answer, is per capita GDP likely to expand more quickly or more slowly than 2.3%?",
+   "options": [
+    {
+     "id": "a",
+     "text": "More quickly, because dividing by population always raises growth"
+    },
+    {
+     "id": "b",
+     "text": "More slowly, if the population is growing (per capita growth \u2248 GDP growth \u2212 population growth)"
+    },
+    {
+     "id": "c",
+     "text": "The same, always"
+    },
+    {
+     "id": "d",
+     "text": "More quickly, because the population is shrinking"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Real GDP per capita growth \u2248 **real GDP growth \u2212 population growth**. With positive population growth, per capita growth is smaller than 2.3%.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-067",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Interpreting growth forecasts",
+   "tags": [
+    "ch7",
+    "growth-rates"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 4.8"
+   },
+   "group": "ch7-4.8",
+   "scenario": "ch7-4.8",
+   "prompt": "Assuming the forecast is accurate, did living standards in Mexico likely rise or fall in 2023?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Fell, because forecasts are always too high"
+    },
+    {
+     "id": "b",
+     "text": "Rose, and no additional information is needed"
+    },
+    {
+     "id": "c",
+     "text": "Likely rose, since 2.3% real GDP growth probably exceeds population growth; to be more confident we would need Mexico's population growth rate (and how the gains were distributed)"
+    },
+    {
+     "id": "d",
+     "text": "Fell, because growth was below 2.5%"
+    }
+   ],
+   "answer": "c",
+   "explanation": "2.3% growth in real GDP probably exceeds population growth, so real GDP per capita likely rose. We need the **population growth rate** (and information on distribution) to be sure.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-068",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Mexico",
+   "tags": [
+    "ch7",
+    "catch-up"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 4.9",
+    "note": "Textbook data on Mexico's growth since 1980 are summarized qualitatively here."
+   },
+   "group": "ch7-4.9",
+   "scenario": "ch7-4.9",
+   "prompt": "How does a 4% growth rate compare with the growth rate Mexico has experienced since 1980?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It is about the same as Mexico's experience"
+    },
+    {
+     "id": "b",
+     "text": "It is well below what Mexico has experienced"
+    },
+    {
+     "id": "c",
+     "text": "Mexico has not grown at all since 1980"
+    },
+    {
+     "id": "d",
+     "text": "It is well above what Mexico has experienced; Mexico's growth since 1980 has been much slower"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Mexico's growth since 1980 has been **modest, well below 4%**, and well below the growth of fast-growing Asian economies such as China, so 4% would be a large improvement.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-069",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Mexico",
+   "tags": [
+    "ch7",
+    "policy",
+    "growth-policies"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 4.9"
+   },
+   "group": "ch7-4.9",
+   "scenario": "ch7-4.9",
+   "prompt": "What are business-friendly policies and infrastructure, and why would Levy expect them to have such a large effect on growth?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Business-friendly policies cut regulation and uncertainty so firms invest; infrastructure is roads, ports and power. Both raise the productivity of private capital and labour and attract investment"
+    },
+    {
+     "id": "b",
+     "text": "Policies that tax business; infrastructure means housing; they would reduce growth"
+    },
+    {
+     "id": "c",
+     "text": "Policies that ban imports; infrastructure means machinery; they would raise prices"
+    },
+    {
+     "id": "d",
+     "text": "They are identical terms with no growth effects"
+    }
+   ],
+   "answer": "a",
+   "explanation": "**Infrastructure** (roads, ports, electricity, telecom) raises productivity, and **business-friendly policies** raise the return to investment; both increase K/L and A.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-070",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Mexico",
+   "tags": [
+    "ch7",
+    "fdi",
+    "policy"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 4.9",
+    "note": "Judgment question; most defensible reading chosen."
+   },
+   "group": "ch7-4.9",
+   "scenario": "ch7-4.9",
+   "prompt": "Is foreign investment important to increasing Mexico's growth, and is it as important to Canadian economic growth?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Unimportant for both"
+    },
+    {
+     "id": "b",
+     "text": "It is important to Mexico because of low domestic saving; it matters less for Canada, which has higher saving and well-developed capital markets"
+    },
+    {
+     "id": "c",
+     "text": "More important for Canada than for Mexico"
+    },
+    {
+     "id": "d",
+     "text": "Equally and entirely important to both"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Foreign investment gives countries with **low domestic saving** access to capital and technology. Canada has more domestic saving and deep financial markets, though it still benefits.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-071",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Globalization",
+   "tags": [
+    "ch7",
+    "globalization"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 4.10"
+   },
+   "group": "ch7-4.10",
+   "scenario": "ch7-4.10",
+   "prompt": "Why would countries that isolate themselves rather than participate fully in the global economy hurt their own people?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Isolation raises productivity by protecting domestic firms"
+    },
+    {
+     "id": "b",
+     "text": "Isolation eliminates diminishing returns"
+    },
+    {
+     "id": "c",
+     "text": "They lose access to foreign markets, capital, technology and cheaper goods, which reduces growth and living standards"
+    },
+    {
+     "id": "d",
+     "text": "Isolation increases foreign investment"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Open economies gain **larger markets, foreign capital and technology and specialization**; closed economies (1940s\u20131970s) grew slowly.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-072",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Globalization",
+   "tags": [
+    "ch7",
+    "globalization"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 4.10"
+   },
+   "group": "ch7-4.10",
+   "scenario": "ch7-4.10",
+   "prompt": "Is there an argument that globalization hurts rather than helps some economies?",
+   "options": [
+    {
+     "id": "a",
+     "text": "No: globalization makes everyone better off"
+    },
+    {
+     "id": "b",
+     "text": "Yes: globalization reduces total output for every country"
+    },
+    {
+     "id": "c",
+     "text": "No: globalization only affects financial markets"
+    },
+    {
+     "id": "d",
+     "text": "Yes: workers and firms in industries facing import competition can lose jobs and income, and some countries may struggle to compete, even though the gains are larger overall"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Globalization creates **winners and losers**: import-competing industries and their workers lose, though the gains to consumers and exporters are typically larger.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-073",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Globalization",
+   "tags": [
+    "ch7",
+    "globalization"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 4.11"
+   },
+   "group": "ch7-4.11",
+   "scenario": "ch7-4.11",
+   "prompt": "Which people and industries around the world were likely hurt the most by this reduction in trade?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Exporting industries and their workers, and consumers and firms that depend on imports; especially developing countries relying on export markets"
+    },
+    {
+     "id": "b",
+     "text": "Domestic firms protected from import competition"
+    },
+    {
+     "id": "c",
+     "text": "Governments that collect tariffs"
+    },
+    {
+     "id": "d",
+     "text": "No one, since trade has no effect on incomes"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Lower trade reduces demand for exports and raises the cost of imported goods, hurting **exporters, their workers, and consumers**, especially in export-dependent developing economies.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-074",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Globalization",
+   "tags": [
+    "ch7",
+    "globalization"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 4.11"
+   },
+   "group": "ch7-4.11",
+   "scenario": "ch7-4.11",
+   "prompt": "Are there people and industries that benefit when world trade declines?",
+   "options": [
+    {
+     "id": "a",
+     "text": "No: everyone loses from reduced trade"
+    },
+    {
+     "id": "b",
+     "text": "Yes: domestic firms and workers in import-competing industries, who face less foreign competition"
+    },
+    {
+     "id": "c",
+     "text": "Yes: all exporting firms"
+    },
+    {
+     "id": "d",
+     "text": "Yes: all consumers"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Less trade reduces competition for **import-competing industries**, protecting their sales and jobs, although consumers and exporters lose.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-075",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Preconditions for growth",
+   "tags": [
+    "ch7",
+    "institutions"
+   ],
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 4.12",
+    "note": "The textbook says there are no definite answers; the most defensible reading based on the chapter's model is chosen."
+   },
+   "prompt": "The Roman Empire built impressive monuments and aqueducts but did not experience sustained economic growth. Which explanation is most consistent with the growth model and new growth theory?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Rome lacked any physical capital"
+    },
+    {
+     "id": "b",
+     "text": "Rome had too much technological progress"
+    },
+    {
+     "id": "c",
+     "text": "Roman institutions provided weak incentives for continuing innovation and investment (little institutionalized technological change), so growth spurts did not last"
+    },
+    {
+     "id": "d",
+     "text": "Rome grew too fast and ran out of labour"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Sustained growth needs **continuing technological change**, which depends on incentives and institutions (property rights, markets for ideas, R&D). Without those, periods of growth were short-lived.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-076",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Growth policies",
+   "tags": [
+    "ch7",
+    "growth-policies"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Review Q 5.1"
+   },
+   "prompt": "Which set contains three government policies that can increase economic growth?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Price controls, tariffs and import quotas"
+    },
+    {
+     "id": "b",
+     "text": "Raising payroll taxes, shortening patents and cutting schooling budgets"
+    },
+    {
+     "id": "c",
+     "text": "Printing more money, restricting trade and limiting foreign investment"
+    },
+    {
+     "id": "d",
+     "text": "Enforcing property rights and the rule of law, improving health and education, and providing incentives for saving and investment (or subsidizing R&D)"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Growth-promoting policies: **property rights/rule of law, health and education, technology/R&D support, and saving/investment incentives**.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-077",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Growth policies",
+   "tags": [
+    "ch7",
+    "growth-policies"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Review Q 5.2"
+   },
+   "prompt": "Has economic analysis determined that economic growth will always improve economic well-being?",
+   "options": [
+    {
+     "id": "a",
+     "text": "No: whether continued growth is desirable is a normative question that economic analysis cannot settle"
+    },
+    {
+     "id": "b",
+     "text": "Yes, growth always raises well-being for everyone"
+    },
+    {
+     "id": "c",
+     "text": "Yes, because GDP measures well-being perfectly"
+    },
+    {
+     "id": "d",
+     "text": "No, because growth never raises incomes"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Economics can say how to raise growth (a positive question), but whether more growth is desirable involves **value judgments (normative)**, including environmental costs and distribution.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-078",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Growth policies",
+   "tags": [
+    "ch7",
+    "growth-policies",
+    "policy"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 5.3"
+   },
+   "group": "ch7-5.3",
+   "scenario": "ch7-5.3",
+   "prompt": "Why might replacing legal restrictions on firing workers with unemployment insurance increase economic growth?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Firms would hire fewer workers"
+    },
+    {
+     "id": "b",
+     "text": "Firms would be more willing to hire and to reallocate workers to more productive uses, while workers remain protected by insurance"
+    },
+    {
+     "id": "c",
+     "text": "It would keep workers in low-productivity jobs"
+    },
+    {
+     "id": "d",
+     "text": "It would reduce competition"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Firing restrictions make firms reluctant to hire and trap workers in low-productivity firms. **Unemployment insurance protects workers without blocking the reallocation** of labour to more productive uses.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-079",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Growth policies",
+   "tags": [
+    "ch7",
+    "growth-policies",
+    "policy"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 5.3"
+   },
+   "group": "ch7-5.3",
+   "scenario": "ch7-5.3",
+   "prompt": "What are possible negative effects of taxing business payrolls rather than taxing incomes?",
+   "options": [
+    {
+     "id": "a",
+     "text": "They raise employment"
+    },
+    {
+     "id": "b",
+     "text": "They have no effect on hiring"
+    },
+    {
+     "id": "c",
+     "text": "Payroll taxes raise the cost of hiring, discouraging employment (especially formal jobs) and lowering output"
+    },
+    {
+     "id": "d",
+     "text": "They reduce the cost of labour"
+    }
+   ],
+   "answer": "c",
+   "explanation": "A tax on payrolls raises the effective cost of labour, **reducing hiring** and encouraging informal employment.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-080",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Growth policies",
+   "tags": [
+    "ch7",
+    "growth-policies",
+    "policy"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 5.3"
+   },
+   "group": "ch7-5.3",
+   "scenario": "ch7-5.3",
+   "prompt": "What is a \u201ctax perk,\u201d and why might perks for small firms slow growth?",
+   "options": [
+    {
+     "id": "a",
+     "text": "A tax increase on large firms; it helps small firms become more productive"
+    },
+    {
+     "id": "b",
+     "text": "A subsidy for imports; it helps large firms"
+    },
+    {
+     "id": "c",
+     "text": "A tax refund for consumers; it has no effect on firms"
+    },
+    {
+     "id": "d",
+     "text": "A special tax break; perks for small firms encourage firms to stay small rather than grow, even though larger firms are typically more productive"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Tax perks that disappear as firms grow create an incentive to **stay small**. Levy assumes larger firms are more productive, so keeping firms small lowers productivity and growth.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-081",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Growth policies",
+   "tags": [
+    "ch7",
+    "growth-policies",
+    "institutions"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 5.3"
+   },
+   "group": "ch7-5.3",
+   "scenario": "ch7-5.3",
+   "prompt": "What does Levy mean by \u201ccontract enforcement,\u201d and why might better enforcement increase growth?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Courts and government ensuring that agreements are honoured; it gives firms the confidence to invest, trade and lend"
+    },
+    {
+     "id": "b",
+     "text": "Forcing people to sign contracts; it reduces trade"
+    },
+    {
+     "id": "c",
+     "text": "Banning contracts between firms; it increases competition"
+    },
+    {
+     "id": "d",
+     "text": "Setting prices by contract; it reduces uncertainty"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Part of the **rule of law**: if contracts are enforced, entrepreneurs and lenders can rely on agreements, boosting investment and trade.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-082",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Growth policies",
+   "tags": [
+    "ch7",
+    "growth-policies"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 5.4"
+   },
+   "group": "ch7-5.4",
+   "scenario": "ch7-5.4",
+   "prompt": "How might spending on building residential property increase economic growth in the short run?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It permanently raises technology"
+    },
+    {
+     "id": "b",
+     "text": "Construction spending adds to demand and output and creates jobs now"
+    },
+    {
+     "id": "c",
+     "text": "It reduces investment"
+    },
+    {
+     "id": "d",
+     "text": "It lowers output in the short run"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Residential construction raises **current output and employment**, so measured growth rises in the short run.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-083",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Growth policies",
+   "tags": [
+    "ch7",
+    "growth-policies"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 5.4"
+   },
+   "group": "ch7-5.4",
+   "scenario": "ch7-5.4",
+   "prompt": "Why might investment in residential property not lead to long-term growth?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Housing raises K/L in production so it always raises productivity"
+    },
+    {
+     "id": "b",
+     "text": "Housing is a form of technology"
+    },
+    {
+     "id": "c",
+     "text": "Housing does not raise the productivity of workers in producing goods and services the way productive capital, technology or human capital does"
+    },
+    {
+     "id": "d",
+     "text": "Housing is not counted in GDP"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Long-term growth requires **higher labour productivity** (more productive capital per worker, technology, human capital). Apartments provide housing services but do not raise output per hour in other sectors.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-084",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Rule of law",
+   "tags": [
+    "ch7",
+    "institutions"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 5.5"
+   },
+   "group": "ch7-5.5",
+   "scenario": "ch7-5.5",
+   "prompt": "What does the author mean by \u201crule of law\u201d?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Rule by decree"
+    },
+    {
+     "id": "b",
+     "text": "A system with no laws"
+    },
+    {
+     "id": "c",
+     "text": "The fact that laws exist on paper"
+    },
+    {
+     "id": "d",
+     "text": "The ability of the government to enforce the laws, especially protecting property rights and enforcing contracts, with the government itself bound by the law"
+    }
+   ],
+   "answer": "d",
+   "explanation": "The **rule of law** means laws are enforced impartially, protecting property rights and contracts.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-085",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Rule of law",
+   "tags": [
+    "ch7",
+    "institutions"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 5.5"
+   },
+   "group": "ch7-5.5",
+   "scenario": "ch7-5.5",
+   "prompt": "Why do economists believe a government must follow the rule of law for a country to achieve sustained growth?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Secure property rights and contract enforcement give entrepreneurs the confidence to invest and innovate, because they expect to keep the gains"
+    },
+    {
+     "id": "b",
+     "text": "Rule of law reduces investment"
+    },
+    {
+     "id": "c",
+     "text": "It increases corruption"
+    },
+    {
+     "id": "d",
+     "text": "It has no effect on growth"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Without it, entrepreneurs fear **seizure of gains** and unenforced contracts, discouraging investment and innovation.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-086",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Rule of law",
+   "tags": [
+    "ch7",
+    "institutions",
+    "catch-up"
+   ],
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 5.5",
+    "note": "The author of the article claims China lacks the rule of law; the question asks you to reason from that premise."
+   },
+   "group": "ch7-5.5",
+   "scenario": "ch7-5.5",
+   "prompt": "If China doesn't follow the rule of law, what explains its high growth?",
+   "options": [
+    {
+     "id": "a",
+     "text": "China has diminishing returns that don't apply to it"
+    },
+    {
+     "id": "b",
+     "text": "Both grew rapidly from a low base by mobilizing huge amounts of capital and labour. The Soviet Union relied on capital accumulation with little technological change, so growth ran into diminishing returns; China also opened to markets, foreign investment and foreign technology (catch-up). Growth without the rule of law may not be sustainable"
+    },
+    {
+     "id": "c",
+     "text": "China's high growth proves that rule of law is irrelevant"
+    },
+    {
+     "id": "d",
+     "text": "China grew by lowering investment"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Neither case shows that the rule of law is unnecessary for *sustained* growth. The USSR grew rapidly by mobilizing capital and labour under central planning, with little technological change, so diminishing returns eventually slowed it. China's growth also relied on very high investment, but it added market reforms, foreign investment and adoption of existing foreign technology, which let it catch up from a low base. Catch-up growth from a low base can be fast without the rule of law, but sustaining it for a long period is doubtful.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-087",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Growth policies",
+   "tags": [
+    "ch7",
+    "growth-policies",
+    "policy"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 5.6"
+   },
+   "group": "ch7-5.6",
+   "scenario": "ch7-5.6",
+   "prompt": "The government passes an investment tax credit, which reduces a firm's taxes if it installs new machinery, equipment or software.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Likely to reduce growth"
+    },
+    {
+     "id": "b",
+     "text": "No effect on growth"
+    },
+    {
+     "id": "c",
+     "text": "Likely to increase growth: it encourages investment, raising capital per hour worked (and embodying new technology)"
+    },
+    {
+     "id": "d",
+     "text": "Likely to reduce investment"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Lower after-tax cost of capital \u2192 **more investment in new machinery and software**, raising K/L and embodied technology.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-088",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Growth policies",
+   "tags": [
+    "ch7",
+    "growth-policies",
+    "policy"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 5.6"
+   },
+   "group": "ch7-5.6",
+   "scenario": "ch7-5.6",
+   "prompt": "The government shortens the period of patent protection for new inventions.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Likely to increase growth by increasing R&D"
+    },
+    {
+     "id": "b",
+     "text": "Likely to increase growth by lowering prices forever"
+    },
+    {
+     "id": "c",
+     "text": "No effect on innovation"
+    },
+    {
+     "id": "d",
+     "text": "Not likely to increase growth: it reduces the reward to innovators and so reduces incentives for R&D"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Patents protect the profit from inventions; **shorter patent protection lowers the incentive** to do R&D, so growth would, if anything, fall.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-089",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Growth policies",
+   "tags": [
+    "ch7",
+    "growth-policies",
+    "human-capital"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 5.6"
+   },
+   "group": "ch7-5.6",
+   "scenario": "ch7-5.6",
+   "prompt": "The government provides more funds for low-interest loans to college students.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Likely to increase growth: it raises human capital by increasing the number of educated workers"
+    },
+    {
+     "id": "b",
+     "text": "Likely to reduce growth"
+    },
+    {
+     "id": "c",
+     "text": "No effect on productivity"
+    },
+    {
+     "id": "d",
+     "text": "Likely to reduce human capital"
+    }
+   ],
+   "answer": "a",
+   "explanation": "More education raises **human capital** and therefore productivity.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-090",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Rule of law",
+   "tags": [
+    "ch7",
+    "institutions"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 5.7"
+   },
+   "group": "ch7-5.7",
+   "scenario": "ch7-5.7",
+   "prompt": "Why would a free press be vital for enhancing property rights and the rule of law?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It allows the government to control information"
+    },
+    {
+     "id": "b",
+     "text": "It exposes government and court abuses, such as property seizures, so officials are held accountable"
+    },
+    {
+     "id": "c",
+     "text": "It reduces the number of laws"
+    },
+    {
+     "id": "d",
+     "text": "It prevents trade"
+    }
+   ],
+   "answer": "b",
+   "explanation": "A free press **monitors the government** and publicizes violations of property rights.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-091",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Rule of law",
+   "tags": [
+    "ch7",
+    "institutions"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 5.7"
+   },
+   "group": "ch7-5.7",
+   "scenario": "ch7-5.7",
+   "prompt": "How could a free press help reduce corruption?",
+   "options": [
+    {
+     "id": "a",
+     "text": "By paying officials"
+    },
+    {
+     "id": "b",
+     "text": "By hiding information"
+    },
+    {
+     "id": "c",
+     "text": "By investigating and publicizing corrupt behaviour, raising the risk and cost of corruption"
+    },
+    {
+     "id": "d",
+     "text": "By banning investigations"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Publicity raises the **probability of being caught**, discouraging corruption.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-092",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Growth policies",
+   "tags": [
+    "ch7",
+    "fdi",
+    "policy"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 5.8"
+   },
+   "group": "ch7-5.8",
+   "scenario": "ch7-5.8",
+   "prompt": "What type of aid was Adesina most likely referring to?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Foreign direct investment by firms"
+    },
+    {
+     "id": "b",
+     "text": "Domestic saving"
+    },
+    {
+     "id": "c",
+     "text": "International trade"
+    },
+    {
+     "id": "d",
+     "text": "Foreign aid: transfers of funds or goods from rich-country governments and organizations to poor-country governments or people"
+    }
+   ],
+   "answer": "d",
+   "explanation": "**Aid** means transfers (grants, assistance) from governments and international organizations.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-093",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Growth policies",
+   "tags": [
+    "ch7",
+    "fdi",
+    "policy"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 5.8"
+   },
+   "group": "ch7-5.8",
+   "scenario": "ch7-5.8",
+   "prompt": "What type of investment was he referring to, and why might he believe it matters more than aid?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Foreign direct investment and portfolio investment: they add productive capital and technology and create jobs, whereas aid can be wasted or lost to corruption and doesn't create productive capacity"
+    },
+    {
+     "id": "b",
+     "text": "Investment in housing only; aid creates capital"
+    },
+    {
+     "id": "c",
+     "text": "Domestic government spending; aid is more productive"
+    },
+    {
+     "id": "d",
+     "text": "Investment in stocks by Africans only; aid has no effect"
+    }
+   ],
+   "answer": "a",
+   "explanation": "Private investment raises **K/L and brings technology**, and it responds to returns rather than politics; aid often fails to raise productivity.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-094",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Globalization",
+   "tags": [
+    "ch7",
+    "globalization",
+    "policy"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 5.9"
+   },
+   "group": "ch7-5.9",
+   "scenario": "ch7-5.9",
+   "prompt": "Which of the following is most likely true of the effects of the tariffs?",
+   "options": [
+    {
+     "id": "a",
+     "text": "All US firms gained"
+    },
+    {
+     "id": "b",
+     "text": "US firms competing with Chinese imports (and their workers) likely gained, while US firms that use imported inputs and US consumers likely lost"
+    },
+    {
+     "id": "c",
+     "text": "All US consumers gained from lower prices"
+    },
+    {
+     "id": "d",
+     "text": "US firms that import inputs gained the most"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Tariffs **raise the price of imports**, benefiting import-competing producers and workers but hurting consumers and firms that use imported inputs.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "t7-095",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Globalization",
+   "tags": [
+    "ch7",
+    "globalization",
+    "policy"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 7 \u00b7 Problem 5.9"
+   },
+   "group": "ch7-5.9",
+   "scenario": "ch7-5.9",
+   "prompt": "If the tariffs remained in place for years, would they affect the long-run growth rate of the US economy?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Raise it by increasing investment"
+    },
+    {
+     "id": "b",
+     "text": "No effect"
+    },
+    {
+     "id": "c",
+     "text": "Probably lower it: tariffs raise the cost of imported capital goods and technology, reduce competition and discourage investment"
+    },
+    {
+     "id": "d",
+     "text": "Raise it because prices rise"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Anti-globalization policies **limit access to foreign capital and technology and increase uncertainty**, hurting investment and growth.",
+   "shuffleOptions": true
+  }
+ ],
+ "description": "End-of-chapter review questions and problems for Chapter 7 (Long-Run Economic Growth: Sources and Policies), converted to auto-graded parts. No answer key exists; answers worked out independently.",
+ "groups": {
+  "ch7-1.5": {
+   "ref": "Ch 7 \u00b7 Problem 1.5",
+   "title": "Andover Bank vs Lowell Bank CDs"
+  },
+  "ch7-1.6": {
+   "ref": "Ch 7 \u00b7 Problem 1.6",
+   "title": "US real GDP per capita, 2018\u20132022"
+  },
+  "ch7-1.7": {
+   "ref": "Ch 7 \u00b7 Problem 1.7",
+   "title": "Health gains in southern Africa and Egypt"
+  },
+  "ch7-1.8": {
+   "ref": "Ch 7 \u00b7 Problem 1.8",
+   "title": "Do institutions flow like water or bricks?"
+  },
+  "ch7-2.1": {
+   "ref": "Ch 7 \u00b7 Review Q 2.1",
+   "title": "Per-worker production function"
+  },
+  "ch7-2.2": {
+   "ref": "Ch 7 \u00b7 Review Q 2.2",
+   "title": "Diminishing returns to capital"
+  },
+  "ch7-2.4": {
+   "ref": "Ch 7 \u00b7 Review Q 2.4",
+   "title": "Knowledge capital and R&D"
+  },
+  "ch7-2.6": {
+   "ref": "Ch 7 \u00b7 Problem 2.6",
+   "title": "China's per-worker production function"
+  },
+  "ch7-2.8": {
+   "ref": "Ch 7 \u00b7 Problem 2.8",
+   "title": "Samuelson and the Soviet economy"
+  },
+  "ch7-2.9": {
+   "ref": "Ch 7 \u00b7 Problem 2.9",
+   "title": "Shifts in the production function"
+  },
+  "ch7-2.12": {
+   "ref": "Ch 7 \u00b7 Problem 2.12",
+   "title": "Creative destruction in America"
+  },
+  "ch7-2.13": {
+   "ref": "Ch 7 \u00b7 Problem 2.13",
+   "title": "Romer: it's good that the Portuguese exist"
+  },
+  "ch7-3.6": {
+   "ref": "Ch 7 \u00b7 Problem 3.6",
+   "title": "Is the productivity slowdown a measurement problem?"
+  },
+  "ch7-3.7": {
+   "ref": "Ch 7 \u00b7 Problem 3.7",
+   "title": "Secular stagnation and the loanable funds market"
+  },
+  "ch7-3.8": {
+   "ref": "Ch 7 \u00b7 Problem 3.8",
+   "title": "Blanchard on secular stagnation"
+  },
+  "ch7-4.1": {
+   "ref": "Ch 7 \u00b7 Review Q 4.1",
+   "title": "Catch-up"
+  },
+  "ch7-4.2": {
+   "ref": "Ch 7 \u00b7 Review Q 4.2",
+   "title": "FDI vs foreign portfolio investment"
+  },
+  "ch7-4.3": {
+   "ref": "Ch 7 \u00b7 Review Q 4.3",
+   "title": "Globalization"
+  },
+  "ch7-4.6": {
+   "ref": "Ch 7 \u00b7 Problem 4.6",
+   "title": "Matching groups of countries with graphs"
+  },
+  "ch7-4.7": {
+   "ref": "Ch 7 \u00b7 Problem 4.7",
+   "title": "McCloskey: thoroughgoing innovation"
+  },
+  "ch7-4.8": {
+   "ref": "Ch 7 \u00b7 Problem 4.8",
+   "title": "Mexico's growth forecast"
+  },
+  "ch7-4.9": {
+   "ref": "Ch 7 \u00b7 Problem 4.9",
+   "title": "Growth prospects for Mexico"
+  },
+  "ch7-4.10": {
+   "ref": "Ch 7 \u00b7 Problem 4.10",
+   "title": "Tim Cook on globalization"
+  },
+  "ch7-4.11": {
+   "ref": "Ch 7 \u00b7 Problem 4.11",
+   "title": "The decline in world trade"
+  },
+  "ch7-5.3": {
+   "ref": "Ch 7 \u00b7 Problem 5.3",
+   "title": "Santiago Levy's proposals for Mexico"
+  },
+  "ch7-5.4": {
+   "ref": "Ch 7 \u00b7 Problem 5.4",
+   "title": "China's investment in residential property"
+  },
+  "ch7-5.5": {
+   "ref": "Ch 7 \u00b7 Problem 5.5",
+   "title": "Rule of law in China"
+  },
+  "ch7-5.6": {
+   "ref": "Ch 7 \u00b7 Problem 5.6",
+   "title": "Policies to raise growth in Canada"
+  },
+  "ch7-5.7": {
+   "ref": "Ch 7 \u00b7 Problem 5.7",
+   "title": "A free press and growth"
+  },
+  "ch7-5.8": {
+   "ref": "Ch 7 \u00b7 Problem 5.8",
+   "title": "Aid versus investment"
+  },
+  "ch7-5.9": {
+   "ref": "Ch 7 \u00b7 Problem 5.9",
+   "title": "Tariffs on Chinese imports"
+  }
+ }
+}

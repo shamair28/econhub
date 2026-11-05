@@ -1,0 +1,3287 @@
+{
+ "schema": "practice-bank/v1",
+ "id": "1BB3-mt2-text-ch5",
+ "course": "ECON 1BB3",
+ "title": "Textbook Problems · Ch 5 Unemployment and Inflation",
+ "description": "Auto-gradable versions of the Chapter 5 review questions and problems from Hubbard, O’Brien, Serletis & Childs, Macroeconomics (5th Canadian ed.). No official answer key exists; answers were worked out independently.",
+ "defaultSource": {
+  "label": "Textbook Problems",
+  "kind": "textbook"
+ },
+ "defaultUnit": 5,
+ "scenarios": {
+  "ch5-1.6": {
+   "title": "Labour Force Survey, February 2019",
+   "body": "Fill in the missing values in the table of Labour Force Survey data for February 2019. Only three entries are known: **employment = 18,662,000**, **unemployment rate = 6.1%**, **labour force participation rate = 65%**. Work out the number of unemployed, the labour force, the working-age population and the employment–population ratio.",
+   "table": {
+    "caption": "Problem 1.6 (Statistics Canada, Feb 2019)",
+    "headers": [
+     "Measure",
+     "Value"
+    ],
+    "rows": [
+     [
+      "Employment",
+      "18,662,000"
+     ],
+     [
+      "Unemployment",
+      "?"
+     ],
+     [
+      "Labour force",
+      "?"
+     ],
+     [
+      "Working-age population",
+      "?"
+     ],
+     [
+      "Unemployment rate",
+      "6.1%"
+     ],
+     [
+      "Labour force participation rate",
+      "65%"
+     ],
+     [
+      "Employment–population ratio",
+      "?"
+     ]
+    ],
+    "rowHeaders": true
+   }
+  },
+  "ch5-1.10": {
+   "title": "Wall Street Journal: workers leaving and entering the job market",
+   "body": "“Every month, millions of workers leave the job market because of retirement, to care for children or aging parents, to pursue more education, or out of discouragement. Millions of others jump in after graduating.”"
+  },
+  "ch5-2.8": {
+   "title": "Near full employment, April 2019",
+   "body": "One of the textbook authors noted in April 2019 that “the Canadian economy is getting really close to full employment. The R8 rate, which includes involuntary part-time and discouraged workers, fell from 9.0 percent in March to 8.3 percent in April.”"
+  },
+  "ch5-3.2": {
+   "title": "Effects on the unemployment rate",
+   "body": "Discuss the effect of each of the following on the unemployment rate."
+  },
+  "ch5-3.7": {
+   "title": "Likely effect on the unemployment rate",
+   "body": "Discuss the likely effect of each of the following on the unemployment rate."
+  },
+  "ch5-4.5": {
+   "title": "New Housing Price Index (base: December 2016 = 100)",
+   "body": "The New Housing Price Index measures new-house price trends in Canada. Index values for November 2019 and November 2024:",
+   "table": {
+    "caption": "Problem 4.5",
+    "headers": [
+     "City",
+     "Nov 2019",
+     "Nov 2024"
+    ],
+    "rows": [
+     [
+      "Halifax",
+      121.3,
+      121.7
+     ],
+     [
+      "Montreal",
+      151.0,
+      153.0
+     ],
+     [
+      "Toronto",
+      114.7,
+      113.5
+     ],
+     [
+      "Winnipeg",
+      140.8,
+      140.2
+     ],
+     [
+      "Regina",
+      102.0,
+      102.2
+     ],
+     [
+      "Edmonton",
+      106.3,
+      109.4
+     ],
+     [
+      "Vancouver",
+      128.6,
+      127.8
+     ]
+    ],
+    "rowHeaders": true
+   }
+  },
+  "ch5-4.6": {
+   "title": "CPI path of a country (adapted from the figure)",
+   "body": "The textbook shows a figure of a country’s CPI from 1990 to 2010 with points A, B, C and D. The figure is not reproduced here; instead, the same kinds of CPI path are given as **illustrative numbers invented for this question** (not read off the textbook figure). Each segment covers the same length of time.",
+   "table": {
+    "caption": "CPI at points O, A, B, C, D, E",
+    "headers": [
+     "Point",
+     "O",
+     "A",
+     "B",
+     "C",
+     "D",
+     "E"
+    ],
+    "rows": [
+     [
+      "CPI",
+      100,
+      110,
+      130,
+      140,
+      140,
+      125
+     ]
+    ],
+    "rowHeaders": true
+   }
+  },
+  "ch5-5.4": {
+   "title": "Minimum wages and CPI: United States and France",
+   "table": {
+    "caption": "Problem 5.4",
+    "headers": [
+     "",
+     "Minimum wage 1957",
+     "CPI 1957",
+     "Minimum wage 2016",
+     "CPI 2016"
+    ],
+    "rows": [
+     [
+      "United States",
+      "$1.00",
+      "27",
+      "$7.25",
+      "240"
+     ],
+     [
+      "France",
+      "€0.19",
+      "8",
+      "€9.76",
+      "106"
+     ]
+    ],
+    "rowHeaders": true
+   },
+   "body": "Use the table to determine the percentage changes in the US and French real minimum wages between 1957 and 2016."
+  },
+  "ch5-5.5": {
+   "title": "Canadian GDP and the COVID-19 recession",
+   "body": "Use the data to calculate the percentage decline in real GDP between 2019 and 2020.",
+   "table": {
+    "caption": "Problem 5.5",
+    "headers": [
+     "Year",
+     "Nominal GDP (billions)",
+     "CPI (2002 = 100)"
+    ],
+    "rows": [
+     [
+      2019,
+      "$2,311",
+      136
+     ],
+     [
+      2020,
+      "$2,207",
+      137
+     ]
+    ],
+    "rowHeaders": true
+   }
+  },
+  "ch5-5.7": {
+   "title": "Box office receipts in 2020 dollars",
+   "body": "The CPI in 2020 was 259. Convert each film’s receipts (assumed earned in its release year) to 2020 dollars: 2020 dollars = receipts × 259 ÷ CPI in release year.",
+   "table": {
+    "caption": "Problem 5.7 (selected films)",
+    "headers": [
+     "Film",
+     "Receipts (nominal)",
+     "Year",
+     "CPI"
+    ],
+    "rows": [
+     [
+      "Star Wars: The Force Awakens",
+      "$936,662,225",
+      2015,
+      237
+     ],
+     [
+      "Avengers: Endgame",
+      "$858,373,000",
+      2019,
+      251
+     ],
+     [
+      "Titanic",
+      "$659,363,944",
+      1997,
+      161
+     ],
+     [
+      "Snow White and the Seven Dwarfs",
+      "$184,925,486",
+      1937,
+      10
+     ],
+     [
+      "101 Dalmatians",
+      "$144,880,014",
+      1961,
+      30
+     ]
+    ],
+    "rowHeaders": true
+   }
+  },
+  "ch5-7.7": {
+   "title": "James and Frank retire",
+   "body": "James and Frank both retire this year. James relies on a company pension paying a fixed $2,500 per month for life; he has no savings. Frank has no pension but has savings invested in guaranteed investment certificates (GICs) that currently pay him interest of $2,300 per month."
+  }
+ },
+ "groups": {
+  "ch5-1.6": {
+   "ref": "Ch 5 · Problem 1.6",
+   "title": "Filling in the Labour Force Survey table"
+  },
+  "ch5-1.10": {
+   "ref": "Ch 5 · Problem 1.10",
+   "title": "People leaving and entering the job market"
+  },
+  "ch5-2.8": {
+   "ref": "Ch 5 · Problem 2.8",
+   "title": "Discouraged workers, full employment and R8"
+  },
+  "ch5-3.2": {
+   "ref": "Ch 5 · Review Q 3.2",
+   "title": "Minimum wages, unions, efficiency wages"
+  },
+  "ch5-3.7": {
+   "ref": "Ch 5 · Problem 3.7",
+   "title": "Four policy and market changes"
+  },
+  "ch5-4.5": {
+   "ref": "Ch 5 · Problem 4.5",
+   "title": "New Housing Price Index across seven cities"
+  },
+  "ch5-4.6": {
+   "ref": "Ch 5 · Problem 4.6",
+   "title": "Zero inflation, deflation, disinflation, accelerating inflation"
+  },
+  "ch5-5.4": {
+   "ref": "Ch 5 · Problem 5.4",
+   "title": "Real minimum wages: US vs France"
+  },
+  "ch5-5.5": {
+   "ref": "Ch 5 · Problem 5.5",
+   "title": "Real GDP decline, 2019–2020"
+  },
+  "ch5-5.7": {
+   "ref": "Ch 5 · Problem 5.7",
+   "title": "Box office in 2020 dollars"
+  },
+  "ch5-7.7": {
+   "ref": "Ch 5 · Problem 7.7",
+   "title": "Fixed pension vs GIC interest"
+  }
+ },
+ "questions": [
+  {
+   "id": "t5-1.1",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Measuring unemployment",
+   "tags": [
+    "ch5",
+    "unemployment-rate",
+    "review-question"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Review Q 1.1"
+   },
+   "prompt": "How is the unemployment rate measured, and what must a person satisfy to be counted as unemployed?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Unemployment rate = unemployed ÷ labour force × 100. To be unemployed a person must be of working age (15+), not have a job, and be available for work and actively looking for it (or be on temporary layoff / about to start a job)."
+    },
+    {
+     "id": "b",
+     "text": "Unemployment rate = unemployed ÷ working-age population × 100. Anyone of working age without a job is counted as unemployed, whether or not they are looking."
+    },
+    {
+     "id": "c",
+     "text": "Unemployment rate = unemployed ÷ employed × 100. Anyone who wants a job and has stopped searching because none are available is counted as unemployed."
+    },
+    {
+     "id": "d",
+     "text": "Unemployment rate = (population − employed) ÷ population × 100, taken from the number of people registered for Employment Insurance."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The rate divides the **unemployed by the labour force** (employed + unemployed), not by the whole population. Being jobless is not enough: the Labour Force Survey counts only people who are working-age, without work, and available and *actively searching* (temporary layoffs and people about to start a job also count). People who have stopped searching (discouraged workers) are not counted, and EI registration is not the basis of the survey."
+  },
+  {
+   "id": "t5-1.2",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Measurement problems",
+   "tags": [
+    "ch5",
+    "unemployment-rate",
+    "review-question"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Review Q 1.2"
+   },
+   "prompt": "In what ways does the official unemployment rate overstate, and in what ways understate, the true degree of unemployment?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It overstates because discouraged workers are counted as unemployed; it understates because people who work in the informal economy are counted as employed."
+    },
+    {
+     "id": "b",
+     "text": "It may overstate because some people report searching without really wanting a job (e.g., to keep EI benefits) or work in the informal economy; it understates because it ignores discouraged workers and counts involuntary part-timers as fully employed."
+    },
+    {
+     "id": "c",
+     "text": "It overstates because involuntary part-time workers are counted as unemployed; it understates because some people claim to be searching but are not."
+    },
+    {
+     "id": "d",
+     "text": "It overstates because it counts only full-time jobs as employment; it understates because it includes people under 15 in the labour force."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "**Overstates:** a respondent may say they are searching when they are not really (to qualify for benefits), or may be working in an unreported job. **Understates:** discouraged workers (available but have stopped looking) are left out of the labour force, and someone working part-time who wants full-time hours is counted as employed. Discouraged workers are *not* counted as unemployed, and part-timers are *not* counted as unemployed."
+  },
+  {
+   "id": "t5-1.3",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Participation rate",
+   "tags": [
+    "ch5",
+    "participation",
+    "review-question"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Review Q 1.3"
+   },
+   "prompt": "What does the labour force participation rate measure, and how have the male and female rates changed since 1970?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The percentage of the labour force that is employed. Since 1970 the men's rate has risen while the women's rate has fallen."
+    },
+    {
+     "id": "b",
+     "text": "The percentage of the working-age population that is in the labour force. Since 1970 both the men's and women's rates have risen."
+    },
+    {
+     "id": "c",
+     "text": "The percentage of the working-age population that is in the labour force (employed or looking). Since 1970 the women's rate has risen while the men's rate has fallen."
+    },
+    {
+     "id": "d",
+     "text": "The percentage of the working-age population that is employed. Since 1970 the women's rate has risen while the men's rate has been unchanged."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "**Participation rate = labour force ÷ working-age population × 100**. It counts both employed and unemployed (job-seeking) people in the numerator. Over the last half-century the participation of women has climbed steadily while that of men has drifted down, so the two rates have moved closer together."
+  },
+  {
+   "id": "t5-1.4",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Employment–population ratio",
+   "tags": [
+    "ch5",
+    "employment-population-ratio",
+    "review-question"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Review Q 1.4"
+   },
+   "prompt": "What does the employment–population ratio measure? If an unemployed person drops out of the labour force, what happens to the unemployment rate and to the employment–population ratio?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It is employed ÷ labour force. When an unemployed person leaves the labour force, the unemployment rate falls and the ratio rises."
+    },
+    {
+     "id": "b",
+     "text": "It is employed ÷ working-age population. When an unemployed person leaves the labour force, both the unemployment rate and the ratio fall."
+    },
+    {
+     "id": "c",
+     "text": "It is employed ÷ working-age population. When an unemployed person leaves the labour force, the unemployment rate rises and the ratio does not change."
+    },
+    {
+     "id": "d",
+     "text": "It is employed ÷ working-age population. When an unemployed person leaves the labour force, the unemployment rate falls and the employment–population ratio does not change."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "**Employment–population ratio = employed ÷ working-age population.** A person who stops searching leaves the numerator of the unemployment rate (unemployed) *and* shrinks the labour force, so the **unemployment rate falls** even though nobody found a job. Employment and the working-age population are unchanged, so the **ratio is unchanged** – which is why the ratio is a useful check on a falling unemployment rate."
+  },
+  {
+   "id": "t5-1.5",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Surveys",
+   "tags": [
+    "ch5",
+    "lfs",
+    "review-question"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Review Q 1.5"
+   },
+   "prompt": "What is the difference between the Survey of Household Spending and the Labour Force Survey, and which one do economists use to measure changes in employment?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The Survey of Household Spending records what households buy (used to build the CPI basket), while the Labour Force Survey asks about work and job search; employment changes come from the Labour Force Survey."
+    },
+    {
+     "id": "b",
+     "text": "The Survey of Household Spending records who is working and looking for work, while the Labour Force Survey records what households buy; employment changes come from the Survey of Household Spending."
+    },
+    {
+     "id": "c",
+     "text": "Both surveys ask about work status, but the Survey of Household Spending covers only large cities; employment changes come from the Survey of Household Spending."
+    },
+    {
+     "id": "d",
+     "text": "The Survey of Household Spending counts jobs at firms, while the Labour Force Survey counts households' spending; employment changes come from the Labour Force Survey."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The **Labour Force Survey** (a monthly household survey) classifies people as employed, unemployed or not in the labour force, so it is the source for employment, unemployment and participation. The **Survey of Household Spending** measures expenditure patterns; Statistics Canada uses it to choose the goods and weights in the CPI basket."
+  },
+  {
+   "id": "t5-1.6a",
+   "type": "numeric",
+   "unit": 5,
+   "topic": "Labour force",
+   "tags": [
+    "ch5",
+    "problem",
+    "calculation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 1.6"
+   },
+   "prompt": "What is the labour force (round to the nearest thousand)?",
+   "answer": {
+    "value": 19874000,
+    "tolerance": 2000,
+    "display": "≈ 19,874,000"
+   },
+   "explanation": "Employed are 93.9% of the labour force (1 − 0.061), so labour force = 18,662,000 ÷ 0.939 ≈ **19,874,000**.",
+   "group": "ch5-1.6",
+   "scenario": "ch5-1.6"
+  },
+  {
+   "id": "t5-1.6b",
+   "type": "numeric",
+   "unit": 5,
+   "topic": "Unemployed",
+   "tags": [
+    "ch5",
+    "problem",
+    "calculation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 1.6"
+   },
+   "prompt": "How many people are unemployed (nearest thousand)?",
+   "answer": {
+    "value": 1212000,
+    "tolerance": 2000,
+    "display": "≈ 1,212,000"
+   },
+   "explanation": "Unemployed = labour force − employed = 19,874,334 − 18,662,000 ≈ **1,212,000** (equivalently 6.1% × 19,874,000).",
+   "group": "ch5-1.6",
+   "scenario": "ch5-1.6"
+  },
+  {
+   "id": "t5-1.6c",
+   "type": "numeric",
+   "unit": 5,
+   "topic": "Working-age population",
+   "tags": [
+    "ch5",
+    "problem",
+    "calculation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 1.6"
+   },
+   "prompt": "What is the working-age population (nearest thousand)?",
+   "answer": {
+    "value": 30576000,
+    "tolerance": 3000,
+    "display": "≈ 30,576,000"
+   },
+   "explanation": "Participation rate = labour force ÷ working-age population, so population = 19,874,334 ÷ 0.65 ≈ **30,576,000**.",
+   "group": "ch5-1.6",
+   "scenario": "ch5-1.6"
+  },
+  {
+   "id": "t5-1.6d",
+   "type": "numeric",
+   "unit": 5,
+   "topic": "Employment–population ratio",
+   "tags": [
+    "ch5",
+    "problem",
+    "calculation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 1.6"
+   },
+   "prompt": "What is the employment–population ratio, in percent (one decimal)?",
+   "answer": {
+    "value": 61.0,
+    "tolerance": 0.2,
+    "suffix": "%",
+    "display": "61.0%"
+   },
+   "explanation": "Ratio = employed ÷ working-age population = 18,662,000 ÷ 30,575,899 ≈ **61.0%**. It is below the 65% participation rate because the unemployed are in the labour force but not employed (65% × 0.939 = 61.0%).",
+   "group": "ch5-1.6",
+   "scenario": "ch5-1.6"
+  },
+  {
+   "id": "t5-1.7",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Unemployment rate",
+   "tags": [
+    "ch5",
+    "unemployment-rate",
+    "problem"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 1.7"
+   },
+   "prompt": "Is it possible for the number of unemployed people to increase while the unemployment rate decreases?",
+   "options": [
+    {
+     "id": "a",
+     "text": "No – the unemployment rate is the number of unemployed divided by a fixed population, so the two must always move in the same direction."
+    },
+    {
+     "id": "b",
+     "text": "Yes – if the labour force grows by a larger percentage than the number of unemployed, e.g. unemployed rise from 1,000 to 1,100 (+10%) while the labour force rises from 20,000 to 23,000 (+15%)."
+    },
+    {
+     "id": "c",
+     "text": "No – if the number of unemployed rises, the unemployment rate must rise, because the labour force cannot change in the short run."
+    },
+    {
+     "id": "d",
+     "text": "Yes – but only if some of the unemployed are reclassified as discouraged workers, because otherwise the rate always rises."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "The unemployment rate is a **ratio**: unemployed ÷ labour force. If the labour force grows proportionally more than unemployment, the rate falls even as the count rises (1,000/20,000 = 5.0% → 1,100/23,000 = 4.8%). The denominator is the labour force, which changes as people enter or leave, not a fixed population."
+  },
+  {
+   "id": "t5-1.8",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Unemployment rate",
+   "tags": [
+    "ch5",
+    "unemployment-rate",
+    "problem"
+   ],
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 5 · Problem 1.8",
+    "note": "Discussion question converted to a best-explanation multiple choice."
+   },
+   "prompt": "Unemployment stayed at 8.0% in May 2021 although employment fell by 50,800, and employment rose in Saskatchewan and Alberta. How can both statements be true?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Statistics Canada adjusts the unemployment rate so that it ignores changes in employment; the provincial gains are simply reporting errors."
+    },
+    {
+     "id": "b",
+     "text": "The unemployment rate depends only on the number of new jobs created, not on the number of employed; the provincial gains were seasonally adjusted away at the national level."
+    },
+    {
+     "id": "c",
+     "text": "The rate is unemployed ÷ labour force: if people who lost jobs left the labour force, so the labour force shrank in proportion, the rate can be unchanged; and the national figure is a net total, so gains in some provinces were outweighed by losses elsewhere."
+    },
+    {
+     "id": "d",
+     "text": "The unemployment rate is calculated from Employment Insurance claims, which do not change month to month; provincial employment is measured by a different survey."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Employment can fall with the rate unchanged when the **labour force shrinks too** (e.g., people lose jobs and stop looking, so they are neither employed nor unemployed). And the national employment change is the **sum across provinces**: small gains in Saskatchewan (+2,300) and Alberta (+600) were more than offset by declines in the other provinces."
+  },
+  {
+   "id": "t5-1.9",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Participation vs employment ratio",
+   "tags": [
+    "ch5",
+    "participation",
+    "employment-population-ratio",
+    "problem"
+   ],
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 5 · Problem 1.9"
+   },
+   "prompt": "In late 2016 the employment–population ratio was unchanged while the labour force participation rate fell. How is that possible?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It is not possible; the two series always move in the same direction because both have employment in the numerator."
+    },
+    {
+     "id": "b",
+     "text": "Employment must have fallen and the working-age population fallen by the same percentage, which is the only way the ratio can stay constant."
+    },
+    {
+     "id": "c",
+     "text": "Some employed people were reclassified as discouraged workers, which lowers participation without changing the ratio."
+    },
+    {
+     "id": "d",
+     "text": "Some unemployed people stopped searching and left the labour force: the labour force (and so the participation rate) fell, but employment and the working-age population did not change."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Participation = labour force ÷ population; employment–population = **employed** ÷ population. They differ by the **unemployed**. If unemployed people give up looking, they leave the labour force (participation falls) but employment is unchanged (the ratio is unchanged). Employed people reclassified as discouraged would reduce the ratio, and both measures share the same denominator, not the same numerator."
+  },
+  {
+   "id": "t5-1.10a",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Labour force",
+   "tags": [
+    "ch5",
+    "problem"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Problem 1.10"
+   },
+   "prompt": "Are the workers leaving the job market for the reasons given counted as unemployed in Statistics Canada data?",
+   "options": [
+    {
+     "id": "a",
+     "text": "No. People who retire, care for family, study or have stopped looking out of discouragement are not actively searching, so they are outside the labour force rather than unemployed."
+    },
+    {
+     "id": "b",
+     "text": "Yes. Anyone of working age who does not have a job is counted as unemployed, whatever the reason."
+    },
+    {
+     "id": "c",
+     "text": "Yes for discouraged workers and students, who are counted as unemployed; no for retirees and caregivers."
+    },
+    {
+     "id": "d",
+     "text": "No, they are counted as employed until they have been out of work for a full year."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Unemployed means **jobless, available and actively searching**. Retirees, caregivers and full-time students are not looking; discouraged workers have *stopped* looking. All are **not in the labour force**, so they affect the participation rate but not the unemployment rate.",
+   "group": "ch5-1.10",
+   "scenario": "ch5-1.10"
+  },
+  {
+   "id": "t5-1.10b",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Labour force",
+   "tags": [
+    "ch5",
+    "problem"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Problem 1.10"
+   },
+   "prompt": "Will Statistics Canada count people entering the job market after graduating as part of the labour force even if they do not find a job right away?",
+   "options": [
+    {
+     "id": "a",
+     "text": "No, they enter the labour force only once they have a job."
+    },
+    {
+     "id": "b",
+     "text": "Yes, as long as they are actively looking for work: a jobless graduate who is searching is counted as unemployed, so is in the labour force."
+    },
+    {
+     "id": "c",
+     "text": "No, they are counted as discouraged workers until they find a job."
+    },
+    {
+     "id": "d",
+     "text": "Yes, whether or not they are looking, because they have the right to work."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "The labour force is **employed + unemployed**. A graduate without a job who is available and searching is *unemployed*, hence in the labour force. A graduate who is not searching (e.g., travelling) would not be.",
+   "group": "ch5-1.10",
+   "scenario": "ch5-1.10"
+  },
+  {
+   "id": "t5-1.11",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Unemployment rate",
+   "tags": [
+    "ch5",
+    "unemployment-rate",
+    "problem"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 1.11"
+   },
+   "prompt": "Georgia’s employment rose 1% over four months while its jobless rate rose 1.2 percentage points. How could both happen?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Each new job automatically creates two new unemployed workers, so the unemployment rate rises whenever employment rises."
+    },
+    {
+     "id": "b",
+     "text": "Employment cannot rise while the unemployment rate rises; at least one of the two reported numbers must be wrong."
+    },
+    {
+     "id": "c",
+     "text": "The labour force grew faster than employment – many people (new entrants or earlier non-searchers) began looking for work, so unemployment rose even though more people were employed."
+    },
+    {
+     "id": "d",
+     "text": "Employed people who move to another state are counted as unemployed in the state they left."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Unemployment rate = unemployed ÷ (employed + unemployed). Employment can grow 1% yet the rate increase if **more people enter or re-enter the labour force than find jobs**: the extra searchers who do not (yet) have jobs are counted as unemployed. This often happens early in a recovery when discouraged workers resume looking."
+  },
+  {
+   "id": "t5-1.12",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Job creation",
+   "tags": [
+    "ch5",
+    "job-flows",
+    "problem"
+   ],
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 5 · Problem 1.12",
+    "note": "Textbook asks for a discussion; converted to multiple choice. Reading: the “3 million jobs” headline is the net gain from the April 2020 trough (about 3 million jobs were lost in March–April 2020), so employment in October 2021 was roughly back at its pre-pandemic level."
+   },
+   "prompt": "Reports in October 2021 said the Canadian economy had “added 3 million jobs.” Is it likely that only 3 million jobs were created between March 2020 and October 2021? What were the reports referring to?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Yes. Net job creation equals the number of jobs created, because no jobs are destroyed during a recovery."
+    },
+    {
+     "id": "b",
+     "text": "No. The figure is the change in the number of people in the labour force, which includes people who are not working."
+    },
+    {
+     "id": "c",
+     "text": "Yes. The press counts only jobs created in new firms, and existing firms create very few jobs."
+    },
+    {
+     "id": "d",
+     "text": "No. The 3 million is a net change measured from the pandemic low point (a recovery of jobs lost), while far more jobs were created – and destroyed – along the way (gross job creation)."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Statistics Canada reports **net** employment change. About 3 million jobs disappeared in March–April 2020, and the “3 million added” headline is the net rebound measured **from that April 2020 trough** – so it mostly reflects jobs *regained*, leaving employment roughly back at its pre-pandemic (March 2020) level. Gross job creation over the period was far larger, because thousands of jobs are created and destroyed every month."
+  },
+  {
+   "id": "t5-2.1",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Types of unemployment",
+   "tags": [
+    "ch5",
+    "types",
+    "review-question"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Review Q 2.1"
+   },
+   "prompt": "What are the four types of unemployment?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Frictional, structural, cyclical and seasonal."
+    },
+    {
+     "id": "b",
+     "text": "Frictional, structural, cyclical and discouraged."
+    },
+    {
+     "id": "c",
+     "text": "Voluntary, involuntary, cyclical and seasonal."
+    },
+    {
+     "id": "d",
+     "text": "Natural, frictional, cyclical and technological."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The textbook lists **frictional** (short-term job matching), **structural** (skills/location mismatch), **cyclical** (recessions) and **seasonal** (weather, tourism, calendar). “Discouraged” describes workers outside the labour force, and the **natural rate** is frictional + structural, not a separate type."
+  },
+  {
+   "id": "t5-2.2",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Natural rate",
+   "tags": [
+    "ch5",
+    "natural-rate",
+    "review-question"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Review Q 2.2"
+   },
+   "prompt": "What is the natural rate of unemployment, how does it relate to full employment, and should full employment be defined as zero unemployment?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The natural rate is cyclical plus seasonal unemployment; full employment is when this equals zero, so full employment is best defined as zero unemployment."
+    },
+    {
+     "id": "b",
+     "text": "The natural rate is frictional plus structural unemployment; full employment is when unemployment is at the natural rate. Zero unemployment is not a sensible goal because some frictional and structural unemployment is unavoidable (and useful)."
+    },
+    {
+     "id": "c",
+     "text": "The natural rate is the lowest unemployment rate ever recorded; full employment is the first year it is reached again."
+    },
+    {
+     "id": "d",
+     "text": "The natural rate is frictional plus cyclical unemployment; full employment is when cyclical unemployment is as large as possible."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "**Natural rate = frictional + structural.** At full employment cyclical unemployment is zero, but the natural rate is still positive because workers switch jobs and skills do not always match jobs. Defining full employment as 0% would ignore that a dynamic economy always has people between jobs."
+  },
+  {
+   "id": "t5-2.3",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Business cycle and decisions",
+   "tags": [
+    "ch5",
+    "cyclical",
+    "problem"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Problem 2.3"
+   },
+   "prompt": "Why might a graduating student enter the job market in an expansion but apply for graduate school during a recession?",
+   "options": [
+    {
+     "id": "a",
+     "text": "In an expansion, graduate-school tuition is higher, so the student avoids it; in a recession, tuition falls to zero."
+    },
+    {
+     "id": "b",
+     "text": "In a recession, wages are high but there are no schools hiring; in an expansion, wages are low and jobs are scarce."
+    },
+    {
+     "id": "c",
+     "text": "In an expansion jobs are plentiful and the opportunity cost of more school (forgone wages) is high; in a recession jobs are scarce and the opportunity cost of more school is low."
+    },
+    {
+     "id": "d",
+     "text": "Graduate programs only accept students during expansions, so students must work in recessions."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Macroeconomic conditions change **opportunity costs**. When the economy is strong, a graduate can quickly find a good job, so staying in school means giving up that pay. In a recession the chance of finding a job is low, so postponing job search by studying costs little."
+  },
+  {
+   "id": "t5-2.4",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Frictional unemployment",
+   "tags": [
+    "ch5",
+    "frictional",
+    "problem"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 2.4"
+   },
+   "prompt": "A politician argues that the economy would be more efficient if frictional unemployment were eliminated, so policy should reduce it to the lowest possible level. Do you agree?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Yes. Frictional unemployment is pure waste because searching workers produce nothing and no better matches are ever found."
+    },
+    {
+     "id": "b",
+     "text": "Yes, because frictional unemployment is caused entirely by recessions, which the government can eliminate."
+    },
+    {
+     "id": "c",
+     "text": "No, because frictional unemployment is the only type that makes the economy grow."
+    },
+    {
+     "id": "d",
+     "text": "No. Some frictional unemployment is beneficial: time spent searching lets workers find jobs that fit their skills and preferences, raising productivity, so zero frictional unemployment would be inefficient."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Frictional unemployment is the **normal churn of matching workers and jobs**. A longer search for the right match usually means higher productivity and better pay, and employers get suitable workers. Policies that help matching are good; a rush to push frictional unemployment to zero would leave workers in poorly matched jobs."
+  },
+  {
+   "id": "t5-2.5",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Types of unemployment",
+   "tags": [
+    "ch5",
+    "types",
+    "problem"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 2.5"
+   },
+   "prompt": "What advice for finding a job fits a frictionally unemployed person, a structurally unemployed person and a cyclically unemployed person?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Frictional: widen the job search using networks and job sites; structural: retrain or relocate to acquire in-demand skills; cyclical: be patient and keep searching, since jobs return when the economy recovers."
+    },
+    {
+     "id": "b",
+     "text": "Frictional: retrain for a new occupation; structural: wait for the economy to recover; cyclical: search more widely using job sites."
+    },
+    {
+     "id": "c",
+     "text": "Frictional: relocate to another country; structural: be patient; cyclical: take a seasonal job each winter."
+    },
+    {
+     "id": "d",
+     "text": "All three types should do the same thing: stop searching until the unemployment rate falls."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Match the remedy to the cause. **Frictional** = a matching problem, so better information and a broader search. **Structural** = a skills or location mismatch, so training or moving. **Cyclical** = too few jobs overall in a downturn, so persistence and flexibility until demand recovers."
+  },
+  {
+   "id": "t5-2.6",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Efficiency wages",
+   "tags": [
+    "ch5",
+    "efficiency-wages",
+    "problem"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 2.6"
+   },
+   "prompt": "What are the advantages and disadvantages of efficiency wages?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Advantages: lower wage bill and more jobs for the unemployed. Disadvantages: higher turnover and lower effort."
+    },
+    {
+     "id": "b",
+     "text": "Advantages: higher productivity, lower turnover and less shirking, which can offset the higher wage. Disadvantages: higher labour cost per hour and a wage above equilibrium, which creates a surplus of labour (more unemployment)."
+    },
+    {
+     "id": "c",
+     "text": "Advantages: the wage is set by supply and demand, so unemployment is eliminated. Disadvantages: workers are less productive."
+    },
+    {
+     "id": "d",
+     "text": "Advantages: higher wages for all workers and no cost to the firm. Disadvantages: none, since productivity always rises enough to cover the cost."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "An **efficiency wage** is a wage above the market-clearing level paid to raise productivity. Benefits: workers work harder, quit less (saving hiring and training costs), and the firm attracts better applicants. Costs: a higher wage bill, and because the wage exceeds equilibrium, the quantity of labour supplied exceeds the quantity demanded, which adds to unemployment."
+  },
+  {
+   "id": "t5-2.7",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Types of unemployment",
+   "tags": [
+    "ch5",
+    "structural",
+    "problem"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Problem 2.7"
+   },
+   "prompt": "A Silicon Valley president says production workers are scarce and “many applicants lack even the most rudimentary skills.” Are these applicants cyclically, frictionally or structurally unemployed?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Cyclically unemployed – there are not enough jobs because the economy is in recession."
+    },
+    {
+     "id": "b",
+     "text": "Frictionally unemployed – they are in the short process of matching with a job that is available."
+    },
+    {
+     "id": "c",
+     "text": "Structurally unemployed – their skills do not match what employers need."
+    },
+    {
+     "id": "d",
+     "text": "Seasonally unemployed – precision-tool manufacturing only operates part of the year."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "A persistent **mismatch between skills and job requirements** is the definition of structural unemployment. The firm says jobs exist (so not cyclical) and that applicants cannot do them (so not a simple, short-term matching problem)."
+  },
+  {
+   "id": "t5-2.8a",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Discouraged workers",
+   "tags": [
+    "ch5",
+    "problem"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Problem 2.8"
+   },
+   "prompt": "What are discouraged workers, and why do economists and policymakers track them?",
+   "options": [
+    {
+     "id": "a",
+     "text": "People who are searching for work but have been unemployed for over a year. They are counted as unemployed, so tracking them is only a check on the survey."
+    },
+    {
+     "id": "b",
+     "text": "Employed workers who would prefer fewer hours. They are counted as unemployed in the official rate."
+    },
+    {
+     "id": "c",
+     "text": "People who have retired early. Tracking them matters only for pension planning."
+    },
+    {
+     "id": "d",
+     "text": "People available for work who have stopped searching because they believe no jobs are available. They are not counted as unemployed, so tracking them reveals labour-market slack the official rate misses."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Discouraged workers are **outside the labour force**, so the official rate ignores them. When the economy improves they often start searching again; tracking them (and involuntary part-timers, as in R8) gives a fuller picture of how much slack remains.",
+   "group": "ch5-2.8",
+   "scenario": "ch5-2.8"
+  },
+  {
+   "id": "t5-2.8b",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Full employment",
+   "tags": [
+    "ch5",
+    "problem"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 2.8"
+   },
+   "prompt": "What is full employment, and why could the broader R8 measure still be as high as 8.3% when the economy was close to full employment?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Full employment means unemployment equals the natural rate (frictional + structural), which is above zero; R8 also counts discouraged workers and involuntary part-timers, who are not in the official rate, so it is higher."
+    },
+    {
+     "id": "b",
+     "text": "Full employment means zero unemployment; R8 stayed high only because the survey is inaccurate in April."
+    },
+    {
+     "id": "c",
+     "text": "Full employment means cyclical unemployment is as large as possible; R8 is higher because it excludes frictional unemployment."
+    },
+    {
+     "id": "d",
+     "text": "Full employment means every working-age person has a job; R8 stays high because it counts only seasonal unemployment."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "**Full employment = unemployment at the natural rate**, so some unemployment always remains. R8 is a broader measure: it adds discouraged workers and involuntary part-time workers to the unemployed (and to the labour force), so it sits well above the official unemployment rate even when the economy is near full employment.",
+   "group": "ch5-2.8",
+   "scenario": "ch5-2.8"
+  },
+  {
+   "id": "t5-3.1",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Employment Insurance",
+   "tags": [
+    "ch5",
+    "ei",
+    "review-question"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Review Q 3.1"
+   },
+   "prompt": "What effect does Employment Insurance have on the unemployment rate and on the severity of recessions?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It lowers the unemployment rate because workers are paid to search, and makes recessions more severe because it raises taxes."
+    },
+    {
+     "id": "b",
+     "text": "It raises the unemployment rate (people search longer and seasonal workers have less incentive to find off-season work) but makes recessions less severe by supporting the spending of the unemployed."
+    },
+    {
+     "id": "c",
+     "text": "It raises the unemployment rate and makes recessions more severe because spending by the unemployed falls."
+    },
+    {
+     "id": "d",
+     "text": "It has no effect on the unemployment rate but lowers it during recessions because it creates public-sector jobs."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "EI lowers the cost of being unemployed, so people take longer to accept jobs – **higher frictional/seasonal unemployment**. But the benefits keep the unemployed spending, which cushions the fall in demand: EI is an **automatic stabilizer** that reduces the severity of recessions."
+  },
+  {
+   "id": "t5-3.2a",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Minimum wage",
+   "tags": [
+    "ch5",
+    "review-question"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Review Q 3.2"
+   },
+   "prompt": "Provincial minimum wage laws affect the unemployment rate by…",
+   "options": [
+    {
+     "id": "a",
+     "text": "lowering it: a binding minimum raises demand for labour from employers."
+    },
+    {
+     "id": "b",
+     "text": "leaving it unchanged: the minimum wage affects wages but never employment."
+    },
+    {
+     "id": "c",
+     "text": "raising it: a binding minimum above the equilibrium wage makes quantity of labour supplied exceed quantity demanded, mostly among low-skilled workers."
+    },
+    {
+     "id": "d",
+     "text": "lowering it: workers earning the minimum wage never search for other jobs."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "A **minimum wage above equilibrium** is a price floor in the labour market: employers hire fewer workers while more people want jobs, creating a surplus of labour – unemployment, concentrated among teens and the unskilled.",
+   "group": "ch5-3.2",
+   "scenario": "ch5-3.2"
+  },
+  {
+   "id": "t5-3.2b",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Unions",
+   "tags": [
+    "ch5",
+    "review-question"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Review Q 3.2"
+   },
+   "prompt": "Labour unions affect the unemployment rate by…",
+   "options": [
+    {
+     "id": "a",
+     "text": "lowering it: higher union wages create more jobs."
+    },
+    {
+     "id": "b",
+     "text": "leaving it unchanged: union wages are the same as non-union wages."
+    },
+    {
+     "id": "c",
+     "text": "lowering it: unions always agree to lower wages in recessions."
+    },
+    {
+     "id": "d",
+     "text": "raising it: unions bargain for wages above the equilibrium level, which reduces the quantity of labour demanded and leaves outsiders unemployed."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Union contracts that set wages **above the market level** raise the cost of labour. Employers cut employment, and the displaced workers (or would-be entrants) add to unemployment, even though union members who keep their jobs gain.",
+   "group": "ch5-3.2",
+   "scenario": "ch5-3.2"
+  },
+  {
+   "id": "t5-3.2c",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Efficiency wages",
+   "tags": [
+    "ch5",
+    "review-question"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Review Q 3.2"
+   },
+   "prompt": "Efficiency wages affect the unemployment rate by…",
+   "options": [
+    {
+     "id": "a",
+     "text": "raising it: wages above equilibrium reduce the quantity of labour demanded and increase the quantity supplied, even though the firm gains from higher productivity."
+    },
+    {
+     "id": "b",
+     "text": "lowering it: firms paying more must hire more workers to produce the same output."
+    },
+    {
+     "id": "c",
+     "text": "leaving it unchanged: because workers become more productive, the firm hires the same number."
+    },
+    {
+     "id": "d",
+     "text": "lowering it: higher wages cause workers to quit and look for other jobs."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Efficiency wages are a **voluntary wage premium**. The firm benefits through effort and lower turnover, but the above-market wage still draws more job seekers than there are jobs, raising unemployment.",
+   "group": "ch5-3.2",
+   "scenario": "ch5-3.2"
+  },
+  {
+   "id": "t5-3.3",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Cross-country comparison",
+   "tags": [
+    "ch5",
+    "policy",
+    "review-question"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Review Q 3.3"
+   },
+   "prompt": "Why has the U.S. unemployment rate typically been lower than in Canada and Western Europe?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The U.S. has higher minimum wages and more generous unemployment insurance, which create jobs."
+    },
+    {
+     "id": "b",
+     "text": "U.S. policies are less generous: shorter and smaller unemployment benefits, weaker unions, and fewer restrictions on hiring and firing, so unemployed workers take jobs sooner and firms hire more readily."
+    },
+    {
+     "id": "c",
+     "text": "The U.S. labour force survey does not count anyone who is unemployed for more than a week."
+    },
+    {
+     "id": "d",
+     "text": "The U.S. has stronger unions, which negotiate higher employment."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Government policies in Canada and Western Europe (more generous EI, stronger unions, tighter labour regulation, higher minimum wages relative to wages) raise **frictional and structural unemployment** compared with the U.S."
+  },
+  {
+   "id": "t5-3.4",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Employment Insurance",
+   "tags": [
+    "ch5",
+    "ei",
+    "problem"
+   ],
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 5 · Problem 3.4"
+   },
+   "prompt": "If Parliament eliminated Employment Insurance, what would happen to frictional unemployment and real GDP, and would well-being necessarily increase?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Frictional unemployment would rise, real GDP would fall, and well-being would clearly fall."
+    },
+    {
+     "id": "b",
+     "text": "Frictional unemployment would fall and real GDP would rise, so well-being would clearly increase because output is all that matters."
+    },
+    {
+     "id": "c",
+     "text": "Frictional unemployment would fall and real GDP would rise, but well-being would not necessarily rise: workers lose insurance against job loss and may take poorer-matched jobs."
+    },
+    {
+     "id": "d",
+     "text": "Frictional unemployment and real GDP would not change, since EI affects only cyclical unemployment."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Without EI, jobless workers search for shorter periods, so **frictional unemployment falls** and more output is produced (**real GDP rises**). But GDP is not the same as well-being: EI protects families against income loss, supports spending in recessions and lets workers find better matches, so the net effect on well-being is ambiguous."
+  },
+  {
+   "id": "t5-3.5",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Minimum wage",
+   "tags": [
+    "ch5",
+    "minimum-wage",
+    "real-vs-nominal",
+    "problem"
+   ],
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 5 · Problem 3.5",
+    "note": "Open-ended question; answer uses the textbook’s nominal-vs-real reasoning."
+   },
+   "prompt": "Why would Newfoundland and Labrador have set the minimum wage at only $0.50 per hour in 1965? Wouldn’t that be far below the equilibrium wage?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The minimum wage is always set at half of the equilibrium wage, whatever the year."
+    },
+    {
+     "id": "b",
+     "text": "In 1965 there was no inflation, so $0.50 had the same purchasing power as today’s minimum wage."
+    },
+    {
+     "id": "c",
+     "text": "Governments set the minimum wage at zero in the 1960s to maximise unemployment."
+    },
+    {
+     "id": "d",
+     "text": "Dollar amounts from 1965 cannot be compared with today’s because of inflation (nominal vs real); in 1965 prices and wages were far lower, and the minimum wage was likely just below or near typical low-end wages."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "A **nominal** wage must be adjusted for the price level before it can be judged. Prices and wages in 1965 were a small fraction of today’s, so $0.50 in 1965 dollars was worth several dollars in today’s money and was comparable to what low-skilled workers were then paid. It therefore need not have been “well below” the equilibrium wage of that time; comparing it with today’s dollar wages ignores inflation."
+  },
+  {
+   "id": "t5-3.6",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Efficiency wages",
+   "tags": [
+    "ch5",
+    "efficiency-wages",
+    "problem"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 3.6"
+   },
+   "prompt": "Costco pays more than Walmart because, an analyst says, it needs higher-skilled workers to sell higher-cost products to richer customers. Can we conclude Costco pays efficiency wages and Walmart does not?",
+   "options": [
+    {
+     "id": "a",
+     "text": "No. If higher pay only reflects higher skills, it is the market (equilibrium) wage for those skills; an efficiency wage is a premium above the market wage for the same skills in order to raise productivity."
+    },
+    {
+     "id": "b",
+     "text": "Yes. Any firm that pays more than another firm pays efficiency wages."
+    },
+    {
+     "id": "c",
+     "text": "Yes. Walmart’s wages are below Costco’s, so Walmart is paying less than the minimum wage."
+    },
+    {
+     "id": "d",
+     "text": "No. Efficiency wages are paid only by firms that are unionized, and Costco is not unionized."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "**Efficiency wage = pay above the market-clearing wage for a given type of labour.** A skill-based difference can be fully consistent with market wages. We would need evidence that Costco pays more than the going wage for comparable workers."
+  },
+  {
+   "id": "t5-3.7a",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Employment Insurance",
+   "tags": [
+    "ch5",
+    "problem"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Problem 3.7"
+   },
+   "prompt": "The length of time workers are eligible to receive EI payments doubles.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Unemployment rate falls: workers must accept jobs faster."
+    },
+    {
+     "id": "b",
+     "text": "Unemployment rate rises: workers can afford to search longer before accepting a job."
+    },
+    {
+     "id": "c",
+     "text": "Unemployment rate falls: firms are required to hire more workers."
+    },
+    {
+     "id": "d",
+     "text": "No change: EI affects only the incomes of the unemployed."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Longer eligibility **lowers the cost of continued search**, increasing the duration of unemployment and the unemployment rate (frictional and seasonal).",
+   "group": "ch5-3.7",
+   "scenario": "ch5-3.7"
+  },
+  {
+   "id": "t5-3.7b",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Minimum wage",
+   "tags": [
+    "ch5",
+    "problem"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Problem 3.7"
+   },
+   "prompt": "The minimum wage is abolished.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Unemployment rate rises: firms will fire workers to pay lower wages."
+    },
+    {
+     "id": "b",
+     "text": "No change: the minimum wage never affects employment."
+    },
+    {
+     "id": "c",
+     "text": "Unemployment rate falls: wages for low-skilled jobs can fall to the equilibrium level, removing the surplus of labour."
+    },
+    {
+     "id": "d",
+     "text": "Unemployment rate rises: workers will quit because wages are lower."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Removing a binding price floor lets the wage fall to equilibrium; the **quantity of labour demanded rises** and the quantity supplied falls, shrinking the surplus (unemployment).",
+   "group": "ch5-3.7",
+   "scenario": "ch5-3.7"
+  },
+  {
+   "id": "t5-3.7c",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Unions",
+   "tags": [
+    "ch5",
+    "problem"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 3.7"
+   },
+   "prompt": "Most Canadian workers join labour unions.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Unemployment rate falls: unions guarantee jobs for all members."
+    },
+    {
+     "id": "b",
+     "text": "No change: unions raise productivity enough to offset higher wages."
+    },
+    {
+     "id": "c",
+     "text": "Unemployment rate falls: unions lower the wages of workers."
+    },
+    {
+     "id": "d",
+     "text": "Unemployment rate rises: union wages above equilibrium reduce employment and increase the number of people looking for those jobs."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "More union coverage means more workers paid **above the market wage**, so employers demand less labour and unemployment rises.",
+   "group": "ch5-3.7",
+   "scenario": "ch5-3.7"
+  },
+  {
+   "id": "t5-3.7d",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Job search",
+   "tags": [
+    "ch5",
+    "problem"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Problem 3.7"
+   },
+   "prompt": "More companies make information about job openings easily available on internet job sites.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Unemployment rate falls: better information shortens the time workers need to find a suitable job (less frictional unemployment)."
+    },
+    {
+     "id": "b",
+     "text": "Unemployment rate rises: more openings attract more people into the labour force."
+    },
+    {
+     "id": "c",
+     "text": "No change: unemployment depends only on the business cycle."
+    },
+    {
+     "id": "d",
+     "text": "Unemployment rate rises: workers search longer because they can see more jobs."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Better information reduces **search costs and the time to match**, lowering frictional unemployment.",
+   "group": "ch5-3.7",
+   "scenario": "ch5-3.7"
+  },
+  {
+   "id": "t5-3.8",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Efficiency wages",
+   "tags": [
+    "ch5",
+    "efficiency-wages",
+    "problem"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 3.8"
+   },
+   "prompt": "In 1914 Henry Ford paid $5 a day, more than twice what other automakers paid, and called it “one of the finest cost-cutting moves.” How can paying an above-market wage cut costs?",
+   "options": [
+    {
+     "id": "a",
+     "text": "A higher wage makes workers work fewer hours, which reduces the firm’s total wage bill."
+    },
+    {
+     "id": "b",
+     "text": "Higher pay reduced turnover (hiring and training costs), reduced shirking and raised effort and productivity, so the cost per car fell even though the hourly wage rose."
+    },
+    {
+     "id": "c",
+     "text": "Higher wages reduce the price of cars, which raises the firm’s revenue."
+    },
+    {
+     "id": "d",
+     "text": "Paying more guarantees that the minimum wage law will not apply to the firm."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "This is the **efficiency-wage** logic: wage cost per unit of output = wage ÷ productivity. If productivity rises more than the wage, unit labour cost falls; lower quit rates also save recruiting and training costs."
+  },
+  {
+   "id": "t5-3.9",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Efficiency wages",
+   "tags": [
+    "ch5",
+    "efficiency-wages",
+    "problem"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 3.9"
+   },
+   "prompt": "Raising Amazon’s minimum hourly wage to $15 (when the U.S. federal minimum was $7.25) may be good for “both Amazon’s employees and its bottom line.” How could higher wages improve profitability?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Higher wages force competitors to lay off workers, which raises Amazon’s market share."
+    },
+    {
+     "id": "b",
+     "text": "Higher wages cause workers to work fewer hours at the same pay, so labour costs are lower."
+    },
+    {
+     "id": "c",
+     "text": "Lower turnover and recruiting costs, a better pool of applicants and more motivated, more productive workers can outweigh the higher wage bill."
+    },
+    {
+     "id": "d",
+     "text": "Higher wages reduce the number of workers Amazon needs to hire, because each worker is paid more per item."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Same efficiency-wage argument as for Ford: a wage premium reduces quits, raises effort and attracts better workers. If the **productivity gain and savings on turnover exceed the extra wage cost**, profit rises."
+  },
+  {
+   "id": "t5-4.1",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Price level measures",
+   "tags": [
+    "ch5",
+    "cpi",
+    "review-question"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Review Q 4.1"
+   },
+   "prompt": "Briefly describe the three major measures of the price level.",
+   "options": [
+    {
+     "id": "a",
+     "text": "CPI: prices received by producers at all stages; GDP deflator: the typical household basket; PPI: prices of all domestic output."
+    },
+    {
+     "id": "b",
+     "text": "CPI: prices of all goods produced in Canada; GDP deflator: prices paid by households only; PPI: prices of imports only."
+    },
+    {
+     "id": "c",
+     "text": "CPI: a count of goods in the typical household basket; GDP deflator: number of firms; PPI: number of producers."
+    },
+    {
+     "id": "d",
+     "text": "CPI: average price of the goods and services bought by a typical household; GDP deflator: prices of all final goods and services produced in the economy; PPI: average prices received by producers at all stages of production."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "The **CPI** (best measure of the cost of living) tracks a fixed household basket, including imports. The **GDP deflator** covers everything counted in GDP, i.e. domestically produced final goods. The **PPI** measures what producers *receive*, at all stages of production."
+  },
+  {
+   "id": "t5-4.2",
+   "type": "mc",
+   "unit": 5,
+   "topic": "CPI biases",
+   "tags": [
+    "ch5",
+    "cpi",
+    "bias",
+    "review-question"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Review Q 4.2"
+   },
+   "prompt": "What potential biases exist in calculating the consumer price index?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Substitution bias (consumers shift away from goods whose prices rise), new-product bias, quality-change bias and outlet-substitution bias; all make the CPI overstate inflation."
+    },
+    {
+     "id": "b",
+     "text": "Only a government-spending bias; the CPI is otherwise exact."
+    },
+    {
+     "id": "c",
+     "text": "A bias from ignoring imports and a bias from counting services; together they make the CPI understate inflation."
+    },
+    {
+     "id": "d",
+     "text": "A bias from rounding and a bias from measuring in the wrong currency; they cancel out."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "The CPI uses a **fixed basket**, so it misses consumers substituting cheaper goods, new products entering the basket late, quality improvements that raise value without raising price, and the shift to discount outlets. The net result is that the CPI **overstates the true inflation rate** (by roughly 0.5–1 percentage point per year)."
+  },
+  {
+   "id": "t5-4.3",
+   "type": "mc",
+   "unit": 5,
+   "topic": "CPI interpretation",
+   "tags": [
+    "ch5",
+    "cpi",
+    "inflation-rate",
+    "problem"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 4.3"
+   },
+   "prompt": "“I don’t believe the government price statistics. The CPI for 2024 was 161.8, but there is no way the inflation rate was 61.8 percent in 2024.” Does the speaker have good reason to distrust the statistics?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Yes – the CPI equals the inflation rate, so 161.8 means prices rose by 61.8% in 2024."
+    },
+    {
+     "id": "b",
+     "text": "No – a CPI of 161.8 says prices are 61.8% higher than in the base year, not that they rose 61.8% in 2024; 2024 inflation is the percentage change in the CPI from 2023, which is far smaller."
+    },
+    {
+     "id": "c",
+     "text": "Yes – a CPI above 100 always means the country experienced hyperinflation during the year."
+    },
+    {
+     "id": "d",
+     "text": "No – the CPI is 161.8 because prices rose 161.8% in 2024."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "A price index measures the **level** of prices relative to the base year (=100), not the rate of change. Inflation = (CPI₂₀₂₄ − CPI₂₀₂₃) ÷ CPI₂₀₂₃ × 100. The 61.8% is the cumulative rise since the base year, so the speaker has confused the index level with the annual inflation rate."
+  },
+  {
+   "id": "t5-4.4",
+   "type": "mc",
+   "unit": 5,
+   "topic": "CPI basket",
+   "tags": [
+    "ch5",
+    "cpi",
+    "bias",
+    "problem"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 4.4"
+   },
+   "prompt": "Why would Statistics Canada not want to keep using the basket from the 2002 base year?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The 2002 basket contains too many goods for the survey to price."
+    },
+    {
+     "id": "b",
+     "text": "Because the base year’s prices keep changing, the index could not be compared over time."
+    },
+    {
+     "id": "c",
+     "text": "Households’ buying patterns change – new products appear, quality improves and consumers substitute – so an outdated basket would misrepresent the typical household’s costs and overstate inflation."
+    },
+    {
+     "id": "d",
+     "text": "Statistics Canada is legally required to use a different basket each decade."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "A fixed basket grows less representative every year (e.g., smartphones, streaming). Frequent updating reduces **substitution, new-product and quality bias**."
+  },
+  {
+   "id": "t5-4.5a1",
+   "type": "numeric",
+   "unit": 5,
+   "topic": "Percentage change",
+   "tags": [
+    "ch5",
+    "problem",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Problem 4.5"
+   },
+   "prompt": "Percentage change in new housing prices, 2019–2024, for Edmonton (two decimals).",
+   "answer": {
+    "value": 2.92,
+    "tolerance": 0.05,
+    "suffix": "%",
+    "display": "2.92%"
+   },
+   "explanation": "(109.4 − 106.3) ÷ 106.3 × 100 = **+2.92%**.",
+   "group": "ch5-4.5",
+   "scenario": "ch5-4.5"
+  },
+  {
+   "id": "t5-4.5a2",
+   "type": "numeric",
+   "unit": 5,
+   "topic": "Percentage change",
+   "tags": [
+    "ch5",
+    "problem",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Problem 4.5"
+   },
+   "prompt": "Percentage change for Vancouver (two decimals; enter a negative number for a fall).",
+   "answer": {
+    "value": -0.62,
+    "tolerance": 0.05,
+    "suffix": "%",
+    "display": "−0.62%"
+   },
+   "explanation": "(127.8 − 128.6) ÷ 128.6 × 100 = **−0.62%**.",
+   "group": "ch5-4.5",
+   "scenario": "ch5-4.5"
+  },
+  {
+   "id": "t5-4.5a3",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Percentage change",
+   "tags": [
+    "ch5",
+    "problem"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 4.5"
+   },
+   "prompt": "Computing all seven (Halifax +0.33%, Montreal +1.32%, Toronto −1.05%, Winnipeg −0.43%, Regina +0.20%, Edmonton +2.92%, Vancouver −0.62%), in which city did prices increase the most, and which city had the lowest percentage change (the largest fall)?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Most: Montreal; least: Regina."
+    },
+    {
+     "id": "b",
+     "text": "Most: Halifax; least: Vancouver."
+    },
+    {
+     "id": "c",
+     "text": "Most: Edmonton; least: Winnipeg."
+    },
+    {
+     "id": "d",
+     "text": "Most: Edmonton; least (the largest fall): Toronto."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Percentage change = (new − old) ÷ old × 100. Edmonton’s +2.92% is the biggest rise. Toronto’s −1.05% is the lowest change (the largest fall), below Vancouver (−0.62%) and Winnipeg (−0.43%). Regina’s +0.20% is merely the smallest *rise*, not the lowest change.",
+   "group": "ch5-4.5",
+   "scenario": "ch5-4.5"
+  },
+  {
+   "id": "t5-4.5b",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Index interpretation",
+   "tags": [
+    "ch5",
+    "problem"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 4.5"
+   },
+   "prompt": "Can you tell from these numbers which city had the most expensive new homes in November 2024?",
+   "options": [
+    {
+     "id": "a",
+     "text": "No – each city’s index is relative to its own December 2016 base (=100), so it shows changes in that city’s prices, not price levels that can be compared across cities."
+    },
+    {
+     "id": "b",
+     "text": "Yes – Montreal, because it has the highest index number."
+    },
+    {
+     "id": "c",
+     "text": "Yes – Regina, because its index number is closest to 100."
+    },
+    {
+     "id": "d",
+     "text": "Yes – Toronto, because its index number fell the most."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Price indexes tell you about **changes over time**, not absolute levels. Each city’s index starts at 100 in its own base period, so a high index only means prices rose a lot since 2016 there, not that houses cost more than in other cities.",
+   "group": "ch5-4.5",
+   "scenario": "ch5-4.5"
+  },
+  {
+   "id": "t5-4.6a",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Inflation concepts",
+   "tags": [
+    "ch5",
+    "problem"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Problem 4.6",
+    "note": "The textbook shows a curve; this version replaces it with invented, illustrative CPI values that show the same patterns."
+   },
+   "prompt": "During which segment did the country experience zero inflation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "A to B"
+    },
+    {
+     "id": "b",
+     "text": "C to D"
+    },
+    {
+     "id": "c",
+     "text": "B to C"
+    },
+    {
+     "id": "d",
+     "text": "D to E"
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Zero inflation means the price level is **unchanged**: CPI stays at 140 from C to D.",
+   "group": "ch5-4.6",
+   "scenario": "ch5-4.6"
+  },
+  {
+   "id": "t5-4.6b",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Inflation concepts",
+   "tags": [
+    "ch5",
+    "problem"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Problem 4.6"
+   },
+   "prompt": "During which segment did the country experience deflation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "O to A"
+    },
+    {
+     "id": "b",
+     "text": "C to D"
+    },
+    {
+     "id": "c",
+     "text": "D to E"
+    },
+    {
+     "id": "d",
+     "text": "B to C"
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "**Deflation** is a falling price level (negative inflation): CPI drops 140 → 125.",
+   "group": "ch5-4.6",
+   "scenario": "ch5-4.6"
+  },
+  {
+   "id": "t5-4.6c",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Inflation concepts",
+   "tags": [
+    "ch5",
+    "problem"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 4.6"
+   },
+   "prompt": "During which segment was there disinflation (inflation slowing but still positive)?",
+   "options": [
+    {
+     "id": "a",
+     "text": "A to B"
+    },
+    {
+     "id": "b",
+     "text": "C to D"
+    },
+    {
+     "id": "c",
+     "text": "D to E"
+    },
+    {
+     "id": "d",
+     "text": "B to C"
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Inflation by segment: O–A 10%, A–B 18.2%, B–C 7.7%, C–D 0%, D–E −10.7%. From A–B to B–C the rate **falls but is still positive** – disinflation. C–D has zero inflation and D–E has deflation.",
+   "group": "ch5-4.6",
+   "scenario": "ch5-4.6"
+  },
+  {
+   "id": "t5-4.6d",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Inflation concepts",
+   "tags": [
+    "ch5",
+    "problem"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 4.6"
+   },
+   "prompt": "During which segment was the inflation rate increasing (accelerating)?",
+   "options": [
+    {
+     "id": "a",
+     "text": "A to B"
+    },
+    {
+     "id": "b",
+     "text": "B to C"
+    },
+    {
+     "id": "c",
+     "text": "C to D"
+    },
+    {
+     "id": "d",
+     "text": "D to E"
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Inflation was 10% over O–A and **18.2%** over A–B, so the rate of inflation increased. After that it falls.",
+   "group": "ch5-4.6",
+   "scenario": "ch5-4.6"
+  },
+  {
+   "id": "t5-4.7",
+   "type": "mc",
+   "unit": 5,
+   "topic": "CPI quality bias",
+   "tags": [
+    "ch5",
+    "cpi",
+    "bias",
+    "problem"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 4.7"
+   },
+   "prompt": "In 2024 smart TVs with WiFi, streaming, better resolution and sound sold for similar prices to older TVs. How did introducing them affect the CPI?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The CPI fell sharply, because the new TVs are worth more."
+    },
+    {
+     "id": "b",
+     "text": "If the CPI simply tracks the price, it shows no change, so it overstates inflation relative to the true cost of living (consumers get more for the same price); quality adjustments by Statistics Canada reduce this bias."
+    },
+    {
+     "id": "c",
+     "text": "The CPI rose, because the new TVs add new items to the basket at a higher price."
+    },
+    {
+     "id": "d",
+     "text": "The CPI is unaffected, because televisions are not in the basket."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "This is the **quality-change bias**: a better product at the same price means the price per unit of quality has fallen, but a simple price comparison records no change. The CPI therefore overstates inflation unless quality is adjusted."
+  },
+  {
+   "id": "t5-5.1",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Nominal vs real",
+   "tags": [
+    "ch5",
+    "real-vs-nominal",
+    "review-question"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Review Q 5.1"
+   },
+   "prompt": "What is the difference between a nominal variable and a real variable?",
+   "options": [
+    {
+     "id": "a",
+     "text": "A nominal variable is adjusted for inflation; a real variable is measured in current dollars."
+    },
+    {
+     "id": "b",
+     "text": "A nominal variable measures quantities; a real variable measures prices only."
+    },
+    {
+     "id": "c",
+     "text": "A nominal variable is measured in current dollars; a real variable is adjusted for changes in the price level (nominal ÷ price index × 100), so it is measured in base-year dollars."
+    },
+    {
+     "id": "d",
+     "text": "A nominal variable is measured at the base year; a real variable is measured only in the current year."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "**Real = nominal ÷ price index × 100.** Real variables remove the effect of changing prices, so comparisons over time reflect actual purchasing power."
+  },
+  {
+   "id": "t5-5.2",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Real wages",
+   "tags": [
+    "ch5",
+    "real-vs-nominal",
+    "review-question"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Review Q 5.2"
+   },
+   "prompt": "How can nominal wage data and the CPI for 2004–2025 be used to compute the real wage in each year?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Multiply each year’s nominal wage by that year’s CPI and divide by 100."
+    },
+    {
+     "id": "b",
+     "text": "Add each year’s CPI to that year’s nominal wage."
+    },
+    {
+     "id": "c",
+     "text": "Divide each year’s CPI by that year’s nominal wage."
+    },
+    {
+     "id": "d",
+     "text": "Divide each year’s nominal wage by that year’s CPI and multiply by 100."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Real wage = (nominal wage ÷ CPI) × 100, expressed in base-year dollars. Dividing by the price index removes inflation."
+  },
+  {
+   "id": "t5-5.3",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Real vs nominal growth",
+   "tags": [
+    "ch5",
+    "real-vs-nominal",
+    "review-question"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Review Q 5.3"
+   },
+   "prompt": "During deflation, which grows faster: nominal average hourly earnings or real average hourly earnings?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Real earnings: with falling prices, real growth ≈ nominal growth − inflation = nominal growth + |deflation|."
+    },
+    {
+     "id": "b",
+     "text": "Nominal earnings, because nominal values are not affected by prices."
+    },
+    {
+     "id": "c",
+     "text": "Both grow at exactly the same rate."
+    },
+    {
+     "id": "d",
+     "text": "Neither; real earnings must fall when prices fall."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Real growth ≈ nominal growth − inflation rate. With **negative** inflation, subtracting it *adds* to real growth, so real earnings grow faster than nominal earnings."
+  },
+  {
+   "id": "t5-5.4a",
+   "type": "numeric",
+   "unit": 5,
+   "topic": "Real wage",
+   "tags": [
+    "ch5",
+    "problem",
+    "calculation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 5.4"
+   },
+   "prompt": "Percentage change in the U.S. real minimum wage, 1957–2016 (one decimal; negative if it fell).",
+   "answer": {
+    "value": -18.4,
+    "tolerance": 0.3,
+    "suffix": "%",
+    "display": "−18.4%"
+   },
+   "explanation": "Real wage 1957 = 1.00 ÷ 27 × 100 = 3.70; 2016 = 7.25 ÷ 240 × 100 = 3.02 (both in base-year dollars). Change = (3.02 − 3.70) ÷ 3.70 = **−18.4%**: the nominal minimum wage rose but prices rose even faster.",
+   "group": "ch5-5.4",
+   "scenario": "ch5-5.4"
+  },
+  {
+   "id": "t5-5.4b",
+   "type": "numeric",
+   "unit": 5,
+   "topic": "Real wage",
+   "tags": [
+    "ch5",
+    "problem",
+    "calculation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 5.4"
+   },
+   "prompt": "Percentage change in the French real minimum wage, 1957–2016 (nearest percent).",
+   "answer": {
+    "value": 288,
+    "tolerance": 2,
+    "suffix": "%",
+    "display": "≈ +288%"
+   },
+   "explanation": "1957: 0.19 ÷ 8 × 100 = 2.375; 2016: 9.76 ÷ 106 × 100 = 9.208. Change = (9.208 − 2.375) ÷ 2.375 = **+287.7%** (about 288%).",
+   "group": "ch5-5.4",
+   "scenario": "ch5-5.4"
+  },
+  {
+   "id": "t5-5.4c",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Base year",
+   "tags": [
+    "ch5",
+    "problem"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 5.4"
+   },
+   "prompt": "Does it matter that you do not know the base year of either country’s CPI?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Yes – without the base year the real wage cannot be computed at all."
+    },
+    {
+     "id": "b",
+     "text": "No – changing the base year rescales the index by a constant factor, which cancels out in percentage changes of real values (and in the comparison of price level growth)."
+    },
+    {
+     "id": "c",
+     "text": "Yes – the percentage change would be larger in the country with the earlier base year."
+    },
+    {
+     "id": "d",
+     "text": "No – because the CPI is the same in all countries."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Both years use the **same base**, so the base-year choice scales every real value equally. The ratio (percentage change) is unaffected.",
+   "group": "ch5-5.4",
+   "scenario": "ch5-5.4"
+  },
+  {
+   "id": "t5-5.4d",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Price level",
+   "tags": [
+    "ch5",
+    "problem"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 5.4"
+   },
+   "prompt": "Was the percentage increase in the price level larger in the United States or in France between 1957 and 2016?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The United States: its CPI rose by more points (213 vs 98)."
+    },
+    {
+     "id": "b",
+     "text": "They were equal, because both are measured against 100."
+    },
+    {
+     "id": "c",
+     "text": "France: its CPI rose from 8 to 106 (+1,225%, i.e. 13.25 times) versus 27 to 240 in the U.S. (+789%, 8.9 times)."
+    },
+    {
+     "id": "d",
+     "text": "The United States: its minimum wage rose less."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Compare **percentage** changes, not point changes. U.S.: (240 − 27) ÷ 27 = 789%. France: (106 − 8) ÷ 8 = 1,225%. So France’s price level rose by more, even though the U.S. CPI rose by more points.",
+   "group": "ch5-5.4",
+   "scenario": "ch5-5.4"
+  },
+  {
+   "id": "t5-5.5a",
+   "type": "numeric",
+   "unit": 5,
+   "topic": "Real GDP",
+   "tags": [
+    "ch5",
+    "problem",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Problem 5.5"
+   },
+   "prompt": "Real GDP in 2019, in billions of 2002 dollars (nearest billion).",
+   "answer": {
+    "value": 1699,
+    "tolerance": 1,
+    "prefix": "$",
+    "display": "$1,699 billion"
+   },
+   "explanation": "2,311 ÷ 136 × 100 = **1,699.3**.",
+   "group": "ch5-5.5",
+   "scenario": "ch5-5.5"
+  },
+  {
+   "id": "t5-5.5b",
+   "type": "numeric",
+   "unit": 5,
+   "topic": "Real GDP",
+   "tags": [
+    "ch5",
+    "problem",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Problem 5.5"
+   },
+   "prompt": "Real GDP in 2020, in billions of 2002 dollars (nearest billion).",
+   "answer": {
+    "value": 1611,
+    "tolerance": 1,
+    "prefix": "$",
+    "display": "$1,611 billion"
+   },
+   "explanation": "2,207 ÷ 137 × 100 = **1,610.9**.",
+   "group": "ch5-5.5",
+   "scenario": "ch5-5.5"
+  },
+  {
+   "id": "t5-5.5c",
+   "type": "numeric",
+   "unit": 5,
+   "topic": "Real GDP growth",
+   "tags": [
+    "ch5",
+    "problem",
+    "calculation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 5.5"
+   },
+   "prompt": "Percentage change in real GDP, 2019 to 2020 (one decimal; negative for a decline).",
+   "answer": {
+    "value": -5.2,
+    "tolerance": 0.1,
+    "suffix": "%",
+    "display": "−5.2%"
+   },
+   "explanation": "(1,610.9 − 1,699.3) ÷ 1,699.3 × 100 = **−5.2%**. Nominal GDP fell 4.5% but prices rose 0.7%, so the real decline is larger.",
+   "group": "ch5-5.5",
+   "scenario": "ch5-5.5"
+  },
+  {
+   "id": "t5-5.6",
+   "type": "numeric",
+   "unit": 5,
+   "topic": "CPI calculation",
+   "tags": [
+    "ch5",
+    "cpi",
+    "calculation",
+    "problem"
+   ],
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 5 · Problem 5.6"
+   },
+   "prompt": "Three cups of coffee and a doughnut cost $10 in 2022 when the CPI was 240. What would the CPI have to be in 2062 for $2,000 to buy only that bundle? (Prices rise at the CPI’s rate.)",
+   "answer": {
+    "value": 48000,
+    "tolerance": 10
+   },
+   "explanation": "The bundle’s price must rise from $10 to $2,000, a factor of 200. The CPI must rise by the same factor: 240 × 200 = **48,000**."
+  },
+  {
+   "id": "t5-5.7a",
+   "type": "numeric",
+   "unit": 5,
+   "topic": "Real values",
+   "tags": [
+    "ch5",
+    "problem",
+    "calculation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 5.7"
+   },
+   "prompt": "Titanic’s receipts in 2020 dollars, in millions (nearest million).",
+   "answer": {
+    "value": 1061,
+    "tolerance": 2,
+    "prefix": "$",
+    "display": "≈ $1,061 million"
+   },
+   "explanation": "659.36 × 259 ÷ 161 = **1,060.7 million**.",
+   "group": "ch5-5.7",
+   "scenario": "ch5-5.7"
+  },
+  {
+   "id": "t5-5.7b",
+   "type": "numeric",
+   "unit": 5,
+   "topic": "Real values",
+   "tags": [
+    "ch5",
+    "problem",
+    "calculation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 5.7"
+   },
+   "prompt": "Snow White’s receipts in 2020 dollars, in millions (nearest million).",
+   "answer": {
+    "value": 4790,
+    "tolerance": 10,
+    "prefix": "$",
+    "display": "≈ $4,790 million"
+   },
+   "explanation": "184.93 × 259 ÷ 10 = **4,789.6 million**.",
+   "group": "ch5-5.7",
+   "scenario": "ch5-5.7"
+  },
+  {
+   "id": "t5-5.7c",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Real values",
+   "tags": [
+    "ch5",
+    "problem"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 5.7",
+    "note": "Only films with legible receipts are used; the textbook’s full top-10 list is not reproduced."
+   },
+   "prompt": "Among the five films in the table, which earned the most in 2020 dollars?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Star Wars: The Force Awakens (~$1.02 billion)."
+    },
+    {
+     "id": "b",
+     "text": "Avengers: Endgame (~$0.89 billion)."
+    },
+    {
+     "id": "c",
+     "text": "Titanic (~$1.06 billion)."
+    },
+    {
+     "id": "d",
+     "text": "Snow White and the Seven Dwarfs (~$4.79 billion), because its 1937 receipts are scaled up by 259/10."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Converted: Force Awakens 936.7 × 259/237 = 1,023.6; Endgame 858.4 × 259/251 = 885.7; Titanic 1,060.7; 101 Dalmatians 144.9 × 259/30 = 1,250.8; **Snow White 4,789.6**. Older films gain the most because prices have risen so much since their release.",
+   "group": "ch5-5.7",
+   "scenario": "ch5-5.7"
+  },
+  {
+   "id": "t5-5.8",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Real minimum wage",
+   "tags": [
+    "ch5",
+    "real-vs-nominal",
+    "problem"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 5.8",
+    "note": "Textbook asks for two reasons; both reasons in the keyed option follow from nominal-vs-real reasoning under very high inflation."
+   },
+   "prompt": "Venezuelans greeted a 60% rise in the minimum wage with shrugs. What are two reasons?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Inflation was probably well above 60%, so the real minimum wage actually fell (nominal vs real); and with prices rising so fast, any nominal raise is eroded within weeks, so it does not durably raise purchasing power."
+    },
+    {
+     "id": "b",
+     "text": "A 60% rise is automatically taken back by taxes, and workers do not use money."
+    },
+    {
+     "id": "c",
+     "text": "The minimum wage applies only to government workers, who are already paid more."
+    },
+    {
+     "id": "d",
+     "text": "Nominal wage changes affect only prices of imported goods."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "People care about **real** wages. If prices rise faster than 60%, the purchasing power of the new minimum wage declines, and with such rapid inflation even a large nominal raise is quickly eroded."
+  },
+  {
+   "id": "t5-6.1",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Interest rates",
+   "tags": [
+    "ch5",
+    "interest-rates",
+    "review-question"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Review Q 6.1"
+   },
+   "prompt": "What is the difference between the nominal and the real interest rate?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The real rate is the stated rate; the nominal rate is the stated rate minus inflation."
+    },
+    {
+     "id": "b",
+     "text": "The nominal rate is the stated rate on a loan; the real rate is the nominal rate minus the inflation rate, adjusting for the change in purchasing power."
+    },
+    {
+     "id": "c",
+     "text": "The nominal rate is the stated rate plus inflation; the real rate is the stated rate minus taxes."
+    },
+    {
+     "id": "d",
+     "text": "They are the same unless the interest rate is negative."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "**Real interest rate = nominal interest rate − inflation rate** (the Fisher relationship). It measures the true cost of borrowing and the true return to lending."
+  },
+  {
+   "id": "t5-6.2",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Fisher effect",
+   "tags": [
+    "ch5",
+    "interest-rates",
+    "review-question"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Review Q 6.2"
+   },
+   "prompt": "If inflation is expected to increase, what happens to the nominal interest rate?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It falls: lenders accept lower rates when prices rise."
+    },
+    {
+     "id": "b",
+     "text": "It stays the same: nominal rates are set by law."
+    },
+    {
+     "id": "c",
+     "text": "It rises: lenders demand a higher nominal rate to keep the same real return, and borrowers are willing to pay it."
+    },
+    {
+     "id": "d",
+     "text": "It falls: higher expected inflation reduces the demand for loans."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Nominal rate ≈ real rate + expected inflation. With the real rate fixed, a higher expected inflation raises the nominal rate one-for-one."
+  },
+  {
+   "id": "t5-6.3",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Interest rates",
+   "tags": [
+    "ch5",
+    "interest-rates",
+    "review-question"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Review Q 6.3"
+   },
+   "prompt": "Why is it impossible to know whether a particular nominal interest rate is “high” or “low”?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because nominal rates are too volatile to measure."
+    },
+    {
+     "id": "b",
+     "text": "Because the central bank sets nominal rates in secret."
+    },
+    {
+     "id": "c",
+     "text": "Because nominal rates are always positive."
+    },
+    {
+     "id": "d",
+     "text": "Because it depends on inflation: the same nominal rate may be a high real rate when inflation is low and a low or negative real rate when inflation is high."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Compare the **real** rate: 8% nominal with 7% inflation (real 1%) is cheap, whereas 4% nominal with 0% inflation (real 4%) is expensive."
+  },
+  {
+   "id": "t5-6.4",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Deflation",
+   "tags": [
+    "ch5",
+    "interest-rates",
+    "review-question"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Review Q 6.4"
+   },
+   "prompt": "In an economy experiencing deflation, is the nominal interest rate higher or lower than the real interest rate?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Lower: real = nominal − (negative inflation), so real is greater than nominal."
+    },
+    {
+     "id": "b",
+     "text": "Higher: real = nominal − (negative inflation), so real is smaller than nominal."
+    },
+    {
+     "id": "c",
+     "text": "They are equal when inflation is negative."
+    },
+    {
+     "id": "d",
+     "text": "Higher: because the nominal rate must include a deflation premium."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Real = nominal − inflation. With inflation < 0, subtracting it adds to the nominal rate, so **real > nominal**, i.e. nominal < real."
+  },
+  {
+   "id": "t5-6.5",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Deflation definition",
+   "tags": [
+    "ch5",
+    "inflation-rate",
+    "problem"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Problem 6.5"
+   },
+   "prompt": "A reporter says the Lehigh Valley feared deflation, “when prices sink so low the CPI drops below zero.” Do you agree with this definition?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Yes – deflation occurs when the CPI becomes negative."
+    },
+    {
+     "id": "b",
+     "text": "No – deflation is a decrease in the price level (a negative inflation rate); the CPI index is always positive."
+    },
+    {
+     "id": "c",
+     "text": "Yes – deflation occurs when inflation is lower than the national rate."
+    },
+    {
+     "id": "d",
+     "text": "No – deflation is any inflation rate less than 2%."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "The CPI is an index of prices and cannot be negative. **Deflation = falling CPI (negative inflation rate)**; slower inflation than elsewhere (here half the national rate) is simply low inflation or disinflation."
+  },
+  {
+   "id": "t5-6.6",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Real interest rates",
+   "tags": [
+    "ch5",
+    "interest-rates",
+    "calculation",
+    "problem"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 6.6"
+   },
+   "prompt": "Which car loan would you prefer: a 20% interest rate with 19% inflation, or a 5% interest rate with 2% inflation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The 5% loan: it has the lower nominal rate, so it is cheaper."
+    },
+    {
+     "id": "b",
+     "text": "Neither: they cost the same because inflation differs."
+    },
+    {
+     "id": "c",
+     "text": "The 20% loan: real rate = 20 − 19 = 1%, lower than the other loan’s real rate of 5 − 2 = 3%."
+    },
+    {
+     "id": "d",
+     "text": "The 5% loan: its real rate is 3% while the other is 20%."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Borrowers care about the **real** cost: 20% − 19% = 1% versus 5% − 2% = 3%. The first loan costs less in purchasing-power terms."
+  },
+  {
+   "id": "t5-6.7",
+   "type": "numeric",
+   "unit": 5,
+   "topic": "Real interest rate",
+   "tags": [
+    "ch5",
+    "interest-rates",
+    "calculation",
+    "problem"
+   ],
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 5 · Problem 6.7",
+    "note": "The hint says to compound the monthly rate; using 12 × 4% = 48% would give −44%."
+   },
+   "prompt": "Borrowers paid 4% a year while prices rose 4% a month (England, 1920). What was the real interest rate in percent per year? (Compound the monthly inflation rate to get annual inflation, then use real rate = nominal rate − inflation rate; one decimal.)",
+   "answer": {
+    "value": -56.1,
+    "tolerance": 0.5,
+    "suffix": "%",
+    "display": "−56.1%"
+   },
+   "explanation": "Annual inflation = 1.04¹² − 1 = 1.6010 − 1 ≈ 60.1%. Real rate = nominal − inflation = 4% − 60.1% = **−56.1%**. (Using the exact Fisher form, 1.04 ÷ 1.601 − 1, would give about −35%, but the textbook uses real = nominal − inflation.)"
+  },
+  {
+   "id": "t5-6.8",
+   "type": "numeric",
+   "unit": 5,
+   "topic": "Real interest rate",
+   "tags": [
+    "ch5",
+    "interest-rates",
+    "calculation",
+    "problem"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 6.8"
+   },
+   "prompt": "A hamburger costs $2.00 at the start of the year and $2.08 at the end. You lend $1,000 at 5% for one year. What real interest rate did you earn?",
+   "answer": {
+    "value": 1,
+    "tolerance": 0.05,
+    "suffix": "%",
+    "display": "1%"
+   },
+   "explanation": "Inflation = (2.08 − 2.00) ÷ 2.00 = 4%. Real rate = 5% − 4% = **1%**."
+  },
+  {
+   "id": "t5-6.9",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Real interest rates",
+   "tags": [
+    "ch5",
+    "interest-rates",
+    "problem"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 6.9"
+   },
+   "prompt": "During the 1990s Japan experienced deflation and nominal interest rates near 0%. Why would lenders accept a nominal rate near 0%?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because real interest rates were also near zero."
+    },
+    {
+     "id": "b",
+     "text": "Because lenders did not care about their return."
+    },
+    {
+     "id": "c",
+     "text": "Because the government prohibited higher rates."
+    },
+    {
+     "id": "d",
+     "text": "Because prices were falling, even a 0% nominal rate gave a positive real return: real rate = nominal rate − (negative inflation)."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "With deflation, a nominal rate of 0% corresponds to a real rate equal to the rate of deflation (e.g., 0% − (−1%) = +1%), so real rates in Japan were not low."
+  },
+  {
+   "id": "t5-7.1",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Costs of inflation",
+   "tags": [
+    "ch5",
+    "inflation-costs",
+    "review-question"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Review Q 7.1"
+   },
+   "prompt": "Why do nominal incomes generally rise with inflation, and does inflation therefore reduce average purchasing power?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Wages and other incomes are prices too, and they rise along with other prices, so on average inflation does not reduce purchasing power."
+    },
+    {
+     "id": "b",
+     "text": "Inflation reduces nominal incomes, so purchasing power falls."
+    },
+    {
+     "id": "c",
+     "text": "Nominal incomes rise only if the government raises benefits, so purchasing power falls."
+    },
+    {
+     "id": "d",
+     "text": "Incomes rise before prices, so purchasing power rises permanently."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Inflation is a rise in the average price level, and wages are the price of labour. Over time **nominal incomes rise roughly in step with inflation**, so inflation does not reduce the affordability of goods for the average consumer – but it does impose other costs."
+  },
+  {
+   "id": "t5-7.2",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Costs of inflation",
+   "tags": [
+    "ch5",
+    "inflation-costs",
+    "review-question"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Review Q 7.2"
+   },
+   "prompt": "How can inflation affect the distribution of income?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It redistributes from borrowers to lenders."
+    },
+    {
+     "id": "b",
+     "text": "Unexpected inflation redistributes from lenders and fixed-income earners to borrowers, because fixed nominal payments lose purchasing power."
+    },
+    {
+     "id": "c",
+     "text": "It cannot affect the distribution of income since all prices rise."
+    },
+    {
+     "id": "d",
+     "text": "It redistributes from wage earners to the government."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "If inflation is higher than expected, borrowers repay with dollars worth less; lenders and people on fixed nominal incomes lose."
+  },
+  {
+   "id": "t5-7.3",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Costs of inflation",
+   "tags": [
+    "ch5",
+    "inflation-costs",
+    "review-question"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Review Q 7.3"
+   },
+   "prompt": "Which is a greater problem: anticipated or unanticipated inflation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Anticipated: it causes arbitrary redistribution."
+    },
+    {
+     "id": "b",
+     "text": "They are equally costly."
+    },
+    {
+     "id": "c",
+     "text": "Unanticipated: it arbitrarily redistributes income and creates uncertainty, whereas anticipated inflation mainly causes menu costs and a loss of money’s value."
+    },
+    {
+     "id": "d",
+     "text": "Neither causes any cost."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "People can plan for anticipated inflation (adjust contracts, interest rates), so costs are smaller; unexpected inflation causes **winners and losers** and discourages long-term contracts."
+  },
+  {
+   "id": "t5-7.4",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Deflation",
+   "tags": [
+    "ch5",
+    "inflation-costs",
+    "review-question"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Review Q 7.4"
+   },
+   "prompt": "What problems does deflation cause?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It lowers the real burden of debt and increases spending."
+    },
+    {
+     "id": "b",
+     "text": "It raises wages and prices equally with no effect."
+    },
+    {
+     "id": "c",
+     "text": "It only affects the CPI but not households."
+    },
+    {
+     "id": "d",
+     "text": "It raises the real burden of debt, hurting borrowers; and consumers may delay purchases waiting for lower prices, lowering spending."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "Deflation makes debts harder to repay in real terms and encourages postponement of spending, which can deepen recessions."
+  },
+  {
+   "id": "t5-7.5",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Menu costs",
+   "tags": [
+    "ch5",
+    "inflation-costs",
+    "problem"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Problem 7.5"
+   },
+   "prompt": "What are menu costs, and what has the internet done to their size?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Costs of changing prices (reprinting menus and catalogues); the internet has reduced them because online prices can be updated cheaply."
+    },
+    {
+     "id": "b",
+     "text": "Costs of buying food at restaurants; the internet raised them."
+    },
+    {
+     "id": "c",
+     "text": "Costs of borrowing; the internet had no effect."
+    },
+    {
+     "id": "d",
+     "text": "Costs of changing wages; the internet increased them."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Menu costs arise when firms adjust prices. Online price changes are almost free, so they shrink."
+  },
+  {
+   "id": "t5-7.6",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Unexpected inflation",
+   "tags": [
+    "ch5",
+    "inflation-costs",
+    "problem"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "Ch 5 · Problem 7.6"
+   },
+   "prompt": "If inflation turns out much higher than expected, would you rather have been a borrower or a lender?",
+   "options": [
+    {
+     "id": "a",
+     "text": "A lender: you receive more dollars."
+    },
+    {
+     "id": "b",
+     "text": "A borrower: the fixed nominal repayments are worth less in real terms."
+    },
+    {
+     "id": "c",
+     "text": "Neither: inflation does not affect borrowers or lenders."
+    },
+    {
+     "id": "d",
+     "text": "A lender: real interest rates rise."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Unexpected inflation lowers the **real interest rate**, benefiting borrowers."
+  },
+  {
+   "id": "t5-7.7a",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Real income",
+   "tags": [
+    "ch5",
+    "problem"
+   ],
+   "difficulty": 3,
+   "source": {
+    "ref": "Ch 5 · Problem 7.7",
+    "note": "The textbook’s intended answer assumes nominal interest rates rise with inflation; the stem now states this assumption."
+   },
+   "prompt": "Assume prices rise steadily over the next ten years and that nominal interest rates rise with inflation, so GICs are renewed at higher nominal rates. Ten years from now, is James or Frank likely to have the higher real income? (Real income = nominal income adjusted for the price level.)",
+   "options": [
+    {
+     "id": "a",
+     "text": "James: his $2,500 pension is higher than $2,300."
+    },
+    {
+     "id": "b",
+     "text": "James: a fixed pension is protected from inflation."
+    },
+    {
+     "id": "c",
+     "text": "Frank: as inflation raises nominal interest rates, his GIC income tends to keep pace with prices, whereas James’s fixed nominal pension buys less each year."
+    },
+    {
+     "id": "d",
+     "text": "They are equal because both receive fixed incomes."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Real income = nominal income ÷ price level. James’s fixed nominal pension loses purchasing power with inflation. Frank’s interest income can rise as GICs are renewed at higher nominal rates. (Frank’s advantage depends on rates adjusting.)",
+   "group": "ch5-7.7",
+   "scenario": "ch5-7.7"
+  },
+  {
+   "id": "t5-7.7b",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Real income",
+   "tags": [
+    "ch5",
+    "problem"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 7.7"
+   },
+   "prompt": "Now suppose James’s pension rises each year by the same percentage as the CPI. Ten years from now, who is likely to have the higher real income?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Frank: interest income always grows faster than a CPI-indexed pension."
+    },
+    {
+     "id": "b",
+     "text": "Both equal: indexation raises both incomes."
+    },
+    {
+     "id": "c",
+     "text": "Frank: indexed pensions are not adjusted for inflation."
+    },
+    {
+     "id": "d",
+     "text": "James: his real pension stays at $2,500 in today’s dollars, above Frank’s roughly $2,300."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "An indexed pension keeps **real income constant at $2,500**; Frank’s real interest income is about $2,300 at best. So James is better off.",
+   "group": "ch5-7.7",
+   "scenario": "ch5-7.7"
+  },
+  {
+   "id": "t5-7.8",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Unexpected inflation",
+   "tags": [
+    "ch5",
+    "inflation-costs",
+    "interest-rates",
+    "problem"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "Ch 5 · Problem 7.8"
+   },
+   "prompt": "Apple and bond investors expect 2% inflation, so the nominal rate is 6% and the real rate 4%. Inflation turns out to be 6%. Who gains and who loses?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Apple (the borrower) gains and the investors lose: the ex post real interest rate is 6% − 6% = 0%, below the expected 4%."
+    },
+    {
+     "id": "b",
+     "text": "Investors gain and Apple loses: the nominal rate was fixed at 6%."
+    },
+    {
+     "id": "c",
+     "text": "Both gain: inflation raises Apple’s revenue and the investors’ interest."
+    },
+    {
+     "id": "d",
+     "text": "Neither: the real rate equals the nominal rate."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Unexpected inflation means the real return falls from 4% to 0%. The lenders (bond buyers) are repaid in dollars worth less; **the borrower gains**."
+  }
+ ]
+}

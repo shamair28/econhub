@@ -1,0 +1,860 @@
+{
+ "schema": "practice-bank/v1",
+ "id": "1BB3-mt2-slides-ch7",
+ "course": "ECON 1BB3",
+ "title": "Ch. 7 Lecture Slides",
+ "defaultSource": {
+  "label": "Ch. 7 Lecture Slides",
+  "kind": "slides"
+ },
+ "defaultUnit": 7,
+ "questions": [
+  {
+   "id": "s7-001",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Two definitions",
+   "tags": [
+    "ch7",
+    "definitions"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "slide 4"
+   },
+   "prompt": "According to the slides, which statement gives the standard definition of economic growth?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The ability of an economy to produce increasing quantities of goods and services"
+    },
+    {
+     "id": "b",
+     "text": "The process by which rising productivity increases the average standard of living"
+    },
+    {
+     "id": "c",
+     "text": "An increase in the price level over time"
+    },
+    {
+     "id": "d",
+     "text": "An increase in the number of workers employed in the economy"
+    }
+   ],
+   "answer": "a",
+   "explanation": "The slides (following Chapter 4) call this the **standard definition of economic growth**: the ability to produce increasing quantities of goods and services. The \u201crising productivity raises the average standard of living\u201d wording is the textbook's (non-standard) definition of *long-run* economic growth.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s7-002",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Two definitions",
+   "tags": [
+    "ch7",
+    "definitions"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 4"
+   },
+   "prompt": "The professor says the textbook's definition of long-run economic growth is non-standard, but the course uses it to avoid confusion. Which is that definition?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The ability of an economy to produce increasing quantities of goods and services"
+    },
+    {
+     "id": "b",
+     "text": "The process by which rising productivity increases the average standard of living"
+    },
+    {
+     "id": "c",
+     "text": "Any increase in real GDP lasting more than one year"
+    },
+    {
+     "id": "d",
+     "text": "Any increase in nominal GDP caused by inflation"
+    }
+   ],
+   "answer": "b",
+   "explanation": "In the course, **long-run economic growth = the process by which rising productivity increases the average standard of living** (textbook Ch. 6), while **economic growth = the ability to produce increasing quantities of goods and services** (Ch. 4). Keep the two definitions separate on the test.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s7-003",
+   "type": "numeric",
+   "unit": 7,
+   "topic": "Compounding growth",
+   "tags": [
+    "ch7",
+    "growth-rates"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 8"
+   },
+   "prompt": "Country M's real GDP per capita grows at 1.9% a year starting from $5,000 in 1960. Approximately what is it after 65 years (in 2025)? Use 5,000 \u00d7 (1.019)\u2076\u2075.",
+   "answer": {
+    "value": 16994,
+    "tolerance": 300,
+    "prefix": "$",
+    "hint": "Nearest dollar"
+   },
+   "explanation": "1.019\u2076\u2075 \u2248 3.40, so 5,000 \u00d7 3.40 \u2248 **$17,000**. Country G, growing at only 0.4%, reaches about $6,500. **Key point: in the long run, small differences in growth rates result in large differences in living standards.**"
+  },
+  {
+   "id": "s7-004",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Compounding growth",
+   "tags": [
+    "ch7",
+    "growth-rates"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 8"
+   },
+   "prompt": "Two countries start in 1960 with real GDP per capita of $5,000. Country G grows at 0.4% per year and Country M at 1.9% per year. By about 2025, which statement is closest to the slide's result?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Both are within $1,000 of each other, since the growth-rate difference is only 1.5 percentage points"
+    },
+    {
+     "id": "b",
+     "text": "Country G is about $11,000 and Country M about $17,000"
+    },
+    {
+     "id": "c",
+     "text": "Country M is about $17,000 and Country G about $6,500: small growth-rate differences compound into big differences in living standards"
+    },
+    {
+     "id": "d",
+     "text": "Country M is about $10,000, double its 1960 level, and Country G stays at $5,000"
+    }
+   ],
+   "answer": "c",
+   "explanation": "The slides' key point: **small differences in growth rates produce large differences in living standards over the long run**. At 1.9% the level more than triples (\u2248 $17,000); at 0.4% it rises only about 30% (\u2248 $6,500).",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s7-005",
+   "type": "numeric",
+   "unit": 7,
+   "topic": "Growth rates",
+   "tags": [
+    "ch7",
+    "growth-rates"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "slide 5",
+    "label": "Ch. 6 Lecture Slides"
+   },
+   "prompt": "Real GDP per capita was $40,000 in one year and $41,200 the next. What was the growth rate (in %)?",
+   "answer": {
+    "value": 3.0,
+    "tolerance": 0.05,
+    "display": "3.0%",
+    "hint": "Percent"
+   },
+   "explanation": "Growth rate = (41,200 \u2212 40,000)/40,000 \u00d7 100 = **3.0%**: the percentage change from the previous year."
+  },
+  {
+   "id": "s7-006",
+   "type": "numeric",
+   "unit": 7,
+   "topic": "Growth rates",
+   "tags": [
+    "ch7",
+    "growth-rates"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "slide 5",
+    "label": "Ch. 6 Lecture Slides"
+   },
+   "prompt": "Real GDP growth was 2.0% in year 1, \u22121.5% in year 2 and 3.1% in year 3. Using the averaging shortcut, what is the approximate average annual growth rate (in %, 1 decimal)?",
+   "answer": {
+    "value": 1.2,
+    "tolerance": 0.05,
+    "display": "1.2%",
+    "hint": "Percent"
+   },
+   "explanation": "Average = (2.0 \u2212 1.5 + 3.1)/3 = 3.6/3 = **1.2%**. Over a few years we approximate the annual rate by averaging the yearly growth rates."
+  },
+  {
+   "id": "s7-007",
+   "type": "numeric",
+   "unit": 7,
+   "topic": "Rule of 70",
+   "tags": [
+    "ch7",
+    "growth-rates"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "slide 21"
+   },
+   "prompt": "At the Industrial Revolution growth rate of about 1.8% per year, roughly how many years does it take real GDP per capita to double? Use the Rule of 70.",
+   "answer": {
+    "value": 38.9,
+    "tolerance": 1.5,
+    "display": "about 39 years",
+    "hint": "Years, nearest whole number"
+   },
+   "explanation": "Rule of 70: years to double \u2248 70 \u00f7 growth rate = 70 \u00f7 1.8 \u2248 **39 years** (the slide says \u201croughly every 40 years\u201d; either answer is fine)."
+  },
+  {
+   "id": "s7-008",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Growth theory",
+   "tags": [
+    "ch7",
+    "solow",
+    "productivity"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "slide 11"
+   },
+   "prompt": "According to the slides, what must happen for real GDP per capita to increase?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The population must increase"
+    },
+    {
+     "id": "b",
+     "text": "The price level must rise"
+    },
+    {
+     "id": "c",
+     "text": "The government must increase spending"
+    },
+    {
+     "id": "d",
+     "text": "Labour productivity must increase"
+    }
+   ],
+   "answer": "d",
+   "explanation": "The slides state: **increases in real GDP per capita depend on increases in labour productivity**, the quantity of goods and services produced by one worker or one hour of work. This leads to the question of what causes labour productivity to grow.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s7-009",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Solow-Swan model",
+   "tags": [
+    "ch7",
+    "solow"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 12"
+   },
+   "prompt": "Which pair of inputs does the Solow-Swan model on the slides include, and what is deliberately left out to keep things simple?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Labour (L, total hours worked) and physical capital (K); natural resources and human capital are left out of the production function"
+    },
+    {
+     "id": "b",
+     "text": "Labour and technology only; physical capital is left out"
+    },
+    {
+     "id": "c",
+     "text": "Physical capital and human capital only; labour is left out"
+    },
+    {
+     "id": "d",
+     "text": "Labour, physical capital and natural resources; technology is left out"
+    }
+   ],
+   "answer": "a",
+   "explanation": "The model has **two factors of production, L (total hours worked) and K (physical capital)**. Natural resources and human capital are real inputs but are excluded to keep the model simple. (Technology A is not a factor of production here; it is in the production function.)",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s7-010",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Solow-Swan model",
+   "tags": [
+    "ch7",
+    "solow",
+    "technology"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "slide 13"
+   },
+   "prompt": "In the Solow-Swan production function, Y = A\u00b7F(K, L), what does A represent?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Total saving in the economy"
+    },
+    {
+     "id": "b",
+     "text": "The level of technology"
+    },
+    {
+     "id": "c",
+     "text": "The capital stock"
+    },
+    {
+     "id": "d",
+     "text": "Labour productivity"
+    }
+   ],
+   "answer": "b",
+   "explanation": "The production function maps the capital stock (K), labour (L) and the **level of technology (A)** into output (Y). A is not capital or labour; labour productivity is Y/L.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s7-011",
+   "type": "numeric",
+   "unit": 7,
+   "topic": "Capital accumulation",
+   "tags": [
+    "ch7",
+    "solow",
+    "capital-accumulation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "slide 14"
+   },
+   "prompt": "A closed economy invests $2.5 million in a year, and capital depreciation is $0.6 million. By how many millions of dollars does the capital stock change?",
+   "answer": {
+    "value": 1.9,
+    "tolerance": 0.01,
+    "prefix": "$",
+    "display": "$1.9 million",
+    "hint": "Millions of dollars"
+   },
+   "explanation": "\u0394K = investment \u2212 depreciation = 2.5 \u2212 0.6 = **$1.9 million**. (The slide's example: I = $1,000,000 and depreciation = $100,000 raises K by $900,000.) If I equals depreciation, K stays constant."
+  },
+  {
+   "id": "s7-012",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Capital accumulation",
+   "tags": [
+    "ch7",
+    "solow",
+    "capital-accumulation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 14"
+   },
+   "prompt": "In the Solow-Swan model's capital accumulation equation, which statement is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The capital stock keeps growing as long as depreciation is positive"
+    },
+    {
+     "id": "b",
+     "text": "In a closed economy, investment must be smaller than saving"
+    },
+    {
+     "id": "c",
+     "text": "If investment is smaller than depreciation, the capital stock shrinks"
+    },
+    {
+     "id": "d",
+     "text": "Depreciation adds to the capital stock"
+    }
+   ],
+   "answer": "c",
+   "explanation": "\u0394K = I \u2212 depreciation. **Investment adds to K; depreciation (wear and tear) subtracts from it.** If I equals depreciation, K is constant; if I is less than depreciation, K falls. In a closed economy, total saving equals investment.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s7-013",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Labour productivity",
+   "tags": [
+    "ch7",
+    "solow",
+    "productivity"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 15"
+   },
+   "prompt": "In the slides' growth model, how is labour productivity measured, and which of these is not one of its key determinants?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Labour productivity is Y/K; the determinants are K/L, technology and population size"
+    },
+    {
+     "id": "b",
+     "text": "Labour productivity is L/Y; the determinants are K/L, technology and inflation"
+    },
+    {
+     "id": "c",
+     "text": "Labour productivity is Y/L; the determinants are K/L, technology and the price level"
+    },
+    {
+     "id": "d",
+     "text": "Labour productivity is Y/L; the determinants are K/L, technology and human capital, and the size of the population is not one of them"
+    }
+   ],
+   "answer": "d",
+   "explanation": "In the model, **labour productivity = Y/L**, and its three key determinants are the **capital-labour ratio K/L, the level of technology A, and human capital**. Population size does not appear: population growth does not by itself raise output per worker.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s7-014",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Diminishing returns",
+   "tags": [
+    "ch7",
+    "solow",
+    "diminishing-returns"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "slide 16"
+   },
+   "prompt": "What does the per-worker production function (Y/L against K/L) show about adding more and more capital per hour worked?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Diminishing returns: each additional unit of capital adds less to output per hour than the one before"
+    },
+    {
+     "id": "b",
+     "text": "Constant returns: each additional unit adds exactly the same amount"
+    },
+    {
+     "id": "c",
+     "text": "Increasing returns: each additional unit adds more than the one before"
+    },
+    {
+     "id": "d",
+     "text": "Output per hour eventually falls when the capital-labour ratio rises"
+    }
+   ],
+   "answer": "a",
+   "explanation": "The slide says the first units of capital are the most effective; subsequent increases bring **diminishing returns**: smaller increases in output from raising one factor while the others are held constant. The curve flattens, but it does not fall.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s7-015",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Technological change",
+   "tags": [
+    "ch7",
+    "solow",
+    "technology"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 17"
+   },
+   "prompt": "A retailer rearranges the layout of its stores and sales rise with the same inputs. A manufacturer installs new software-controlled machinery. How does the slide classify these changes?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Both are embodied technological change"
+    },
+    {
+     "id": "b",
+     "text": "The store rearrangement is disembodied technological change; the new machinery is embodied technological change"
+    },
+    {
+     "id": "c",
+     "text": "The store rearrangement is embodied; the new machinery is disembodied"
+    },
+    {
+     "id": "d",
+     "text": "Neither is technological change, because technology means only computers"
+    }
+   ],
+   "answer": "b",
+   "explanation": "**Disembodied** technological change comes from reorganizing production (rearranging a factory floor or store layout). **Embodied** technological change is built into new machinery, equipment or software. The slide notes that most technological change is embodied.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s7-016",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Production function shifts",
+   "tags": [
+    "ch7",
+    "solow",
+    "technology",
+    "human-capital"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 18"
+   },
+   "prompt": "Which of the following would shift the per-worker production function upward rather than move the economy along it?",
+   "options": [
+    {
+     "id": "a",
+     "text": "An increase in the capital-labour ratio K/L"
+    },
+    {
+     "id": "b",
+     "text": "An increase in investment that raises K/L"
+    },
+    {
+     "id": "c",
+     "text": "An improvement in technology or an increase in human capital"
+    },
+    {
+     "id": "d",
+     "text": "A fall in depreciation that raises K/L"
+    }
+   ],
+   "answer": "c",
+   "explanation": "A change in K/L is a **movement along** the curve. **Technological change and higher human capital shift the curve up**, giving more output per hour at every level of capital per hour. The slide stresses that long-run growth in living standards requires continuous technological progress.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s7-017",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Sources of growth",
+   "tags": [
+    "ch7",
+    "solow",
+    "diminishing-returns"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 20"
+   },
+   "prompt": "According to the summary slide, which of the following cannot, on their own, produce long-run growth in GDP per capita?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Technological progress"
+    },
+    {
+     "id": "b",
+     "text": "Sustained growth in human capital"
+    },
+    {
+     "id": "c",
+     "text": "New growth theory's knowledge capital"
+    },
+    {
+     "id": "d",
+     "text": "Population growth and the accumulation of physical capital"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Long-run growth in GDP per capita **requires technological progress (or sustained growth in human capital)**. Population growth and physical-capital accumulation alone cannot do it, because of diminishing returns.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s7-018",
+   "type": "mc",
+   "unit": 7,
+   "topic": "New growth theory",
+   "tags": [
+    "ch7",
+    "new-growth"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 20"
+   },
+   "prompt": "What is the shortcoming of the Solow-Swan model, and which approach addresses it?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It does not explain why technology (A) grows; new growth theory, with knowledge capital, R&D and learning by doing, addresses this"
+    },
+    {
+     "id": "b",
+     "text": "It ignores physical capital; new growth theory adds capital to the model"
+    },
+    {
+     "id": "c",
+     "text": "It does not allow for diminishing returns; new growth theory adds them"
+    },
+    {
+     "id": "d",
+     "text": "It cannot explain catch-up; new growth theory explains it with higher tariffs"
+    }
+   ],
+   "answer": "a",
+   "explanation": "The model treats the technology variable A as given, so it **does not explain why A grows**. The new growth theory explains technological change through **knowledge capital, research and development, and learning by doing**.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s7-019",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Canada's growth record",
+   "tags": [
+    "ch7",
+    "canada"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 22"
+   },
+   "prompt": "Which is the correct description of Canada's growth in real GDP per person according to the slides?",
+   "options": [
+    {
+     "id": "a",
+     "text": "In 1950\u20131973 growth was slower than in any earlier period"
+    },
+    {
+     "id": "b",
+     "text": "In 2006\u20132020 growth averaged about 0.3%, the lowest rate in the past 150 years"
+    },
+    {
+     "id": "c",
+     "text": "In 1974\u20131995 growth was about the same as in 1950\u20131973"
+    },
+    {
+     "id": "d",
+     "text": "In the mid-1990s\u20132005 growth fell because of information technology"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Postwar boom (1950\u20131973): faster than any earlier period. Long slowdown (1974\u20131995): more than 1 percentage point lower per year. Mid-1990s\u20132005: **IT-driven rebound**. 2006\u20132020: **about 0.3%, the lowest in 150 years**.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s7-020",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Canada's growth record",
+   "tags": [
+    "ch7",
+    "canada",
+    "productivity"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 23"
+   },
+   "prompt": "Which argument would a productivity optimist most likely make about Canada's future?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Most of the easy productivity gains from the IT revolution have been exhausted"
+    },
+    {
+     "id": "b",
+     "text": "An aging population and regulation will keep growth low"
+    },
+    {
+     "id": "c",
+     "text": "Productivity is underestimated because gains in services and technology (free apps, AI, ATM-type conveniences) are not fully captured in GDP, so true productivity growth may be higher"
+    },
+    {
+     "id": "d",
+     "text": "Newer technologies mainly improve consumer experience and not labour productivity"
+    }
+   ],
+   "answer": "c",
+   "explanation": "**Optimists** argue that measurement is the problem (service-sector improvements raise living standards but are not fully captured in GDP) and that AI and semiconductors may boost productivity after an adjustment period (the productivity J-curve). The other three are **pessimist** arguments.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s7-021",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Catch-up",
+   "tags": [
+    "ch7",
+    "catch-up"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 25"
+   },
+   "prompt": "Why does the Solow-Swan model predict catch-up (convergence)?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Developing countries have a higher K/L, so capital is more productive there"
+    },
+    {
+     "id": "b",
+     "text": "Rich countries cannot use new technology, so their growth stops"
+    },
+    {
+     "id": "c",
+     "text": "Poor countries receive aid, so they must grow faster"
+    },
+    {
+     "id": "d",
+     "text": "Developing countries have a lower K/L and a lower level of technology than developed countries, so they can grow faster, and poorer countries tend to grow faster than richer ones"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Because of diminishing returns, capital is more productive where there is little of it, and poor countries can also adopt technologies already invented. The prediction: **poorer countries grow faster than richer countries until the gaps narrow**, as long as they share similar institutions and conditions for growth (rule of law, stability, education).",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s7-022",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Catch-up evidence",
+   "tags": [
+    "ch7",
+    "catch-up"
+   ],
+   "difficulty": 3,
+   "source": {
+    "ref": "slide 27"
+   },
+   "prompt": "Which statement about the evidence for catch-up (Figures 7.7\u20137.9) is supported by the slides?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Among high-income countries from 1960\u20132019 the poorer ones in 1960 (South Korea, Taiwan, Singapore, Hong Kong) grew fastest, but many countries overall have not been catching up"
+    },
+    {
+     "id": "b",
+     "text": "All countries in the world have been catching up since 1960"
+    },
+    {
+     "id": "c",
+     "text": "High-income countries that started richest in 1960 (Switzerland, New Zealand, United States) grew fastest"
+    },
+    {
+     "id": "d",
+     "text": "Other high-income countries have continued to catch up to the United States since 1990"
+    }
+   ],
+   "answer": "a",
+   "explanation": "The model's catch-up prediction holds **among today's high-income countries** (Fig 7.7), but **many countries haven't been catching up** (Fig 7.8), and other high-income countries have **stopped catching up to the United States** (Fig 7.9).",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s7-023",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Obstacles to growth",
+   "tags": [
+    "ch7",
+    "catch-up",
+    "growth-obstacles"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "slide 31"
+   },
+   "prompt": "Which of the following is NOT one of the four factors the slides give for the slow growth of many low-income countries?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Weak rule of law"
+    },
+    {
+     "id": "b",
+     "text": "Excessive government spending on infrastructure"
+    },
+    {
+     "id": "c",
+     "text": "Wars and revolutions"
+    },
+    {
+     "id": "d",
+     "text": "Poor education and health"
+    }
+   ],
+   "answer": "b",
+   "explanation": "The four factors are **weak rule of law, wars and revolutions, poor education and health, and low saving and investment**. Excessive infrastructure spending is not on the list.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s7-024",
+   "type": "mc",
+   "unit": 7,
+   "topic": "FDI vs FPI",
+   "tags": [
+    "ch7",
+    "fdi",
+    "globalization"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "slide 32"
+   },
+   "prompt": "A Canadian firm builds a new factory in Mexico, while a Canadian pension fund buys shares in a Brazilian company. How are these classified?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Both are foreign direct investment"
+    },
+    {
+     "id": "b",
+     "text": "The factory is foreign portfolio investment; the share purchase is foreign direct investment"
+    },
+    {
+     "id": "c",
+     "text": "The factory is foreign direct investment; the share purchase is foreign portfolio investment"
+    },
+    {
+     "id": "d",
+     "text": "Both are foreign portfolio investment"
+    }
+   ],
+   "answer": "c",
+   "explanation": "**Foreign direct investment** occurs when a firm builds or purchases a facility in a foreign country. **Foreign portfolio investment** occurs when an individual or firm buys stocks or bonds issued in another country. Since the 1980s, openness to both has helped developing countries grow by improving access to technology and capital.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s7-025",
+   "type": "mc",
+   "unit": 7,
+   "topic": "Growth policies",
+   "tags": [
+    "ch7",
+    "growth-policies"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "slide 33"
+   },
+   "prompt": "Which of the following is one of the pro-growth policies listed on the slides?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Imposing broad tariffs to protect domestic firms"
+    },
+    {
+     "id": "b",
+     "text": "Restricting foreign investment to keep technology at home"
+    },
+    {
+     "id": "c",
+     "text": "Taxing saving to raise government revenue"
+    },
+    {
+     "id": "d",
+     "text": "Strengthening property rights and the rule of law, with independent courts and reduced corruption"
+    }
+   ],
+   "answer": "d",
+   "explanation": "The slides' pro-growth policies: **strengthen property rights and the rule of law, improve health and education, promote technological change (often via FDI), and encourage saving and investment** (tax-deferred savings, investment tax credits). Tariffs, restrictions on foreign investment and taxes on saving all work against growth.",
+   "shuffleOptions": true
+  }
+ ],
+ "description": "Original exam-style questions written from Dr. Letendre's Chapter 7 slides (Solow-Swan growth model, catch-up, growth policies)."
+}

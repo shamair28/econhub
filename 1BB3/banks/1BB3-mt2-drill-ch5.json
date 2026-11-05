@@ -1,0 +1,767 @@
+{
+ "schema": "practice-bank/v1",
+ "id": "1BB3-mt2-drill-ch5",
+ "course": "ECON 1BB3",
+ "title": "Ch. 5 Concept Drills",
+ "description": "Generated concept drills for Chapter 5 (Unemployment and Inflation) written from the chapter learning objectives, because no Chapter 5 lecture slides were posted.",
+ "defaultSource": {
+  "label": "Ch. 5 Concept Drills",
+  "kind": "generated"
+ },
+ "defaultUnit": 5,
+ "questions": [
+  {
+   "id": "d5-1",
+   "type": "numeric",
+   "unit": 5,
+   "topic": "Unemployment rate",
+   "tags": [
+    "ch5",
+    "unemployment-rate",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "LO 5.1"
+   },
+   "prompt": "The working-age population is 30,000 (thousand). 18,000 are employed and 1,200 are unemployed. What is the unemployment rate (two decimals)?",
+   "answer": {
+    "value": 6.25,
+    "tolerance": 0.05,
+    "suffix": "%",
+    "display": "6.25%"
+   },
+   "explanation": "Labour force = 18,000 + 1,200 = 19,200. Unemployment rate = 1,200 ÷ 19,200 × 100 = **6.25%**. (Dividing by the population, 4.0%, is the common trap.)"
+  },
+  {
+   "id": "d5-2",
+   "type": "numeric",
+   "unit": 5,
+   "topic": "Participation rate",
+   "tags": [
+    "ch5",
+    "participation",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "LO 5.1"
+   },
+   "prompt": "Same data (population 30,000, employed 18,000, unemployed 1,200). What is the labour force participation rate?",
+   "answer": {
+    "value": 64,
+    "tolerance": 0.1,
+    "suffix": "%",
+    "display": "64%"
+   },
+   "explanation": "Participation rate = labour force ÷ working-age population = 19,200 ÷ 30,000 × 100 = **64%**."
+  },
+  {
+   "id": "d5-3",
+   "type": "numeric",
+   "unit": 5,
+   "topic": "Employment–population ratio",
+   "tags": [
+    "ch5",
+    "employment-population-ratio",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "LO 5.1"
+   },
+   "prompt": "Same data. What is the employment–population ratio?",
+   "answer": {
+    "value": 60,
+    "tolerance": 0.1,
+    "suffix": "%",
+    "display": "60%"
+   },
+   "explanation": "Employed ÷ working-age population = 18,000 ÷ 30,000 × 100 = **60%**."
+  },
+  {
+   "id": "d5-4",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Labour force classification",
+   "tags": [
+    "ch5",
+    "unemployment-rate"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "LO 5.1"
+   },
+   "prompt": "Which of the following people is counted as unemployed in the Labour Force Survey?",
+   "options": [
+    {
+     "id": "a",
+     "text": "A full-time student who is not looking for work."
+    },
+    {
+     "id": "b",
+     "text": "A recent graduate with no job who applied to 20 employers last week and is ready to start work."
+    },
+    {
+     "id": "c",
+     "text": "A parent who has left the workforce to care for a child."
+    },
+    {
+     "id": "d",
+     "text": "A worker who stopped searching because he believes no jobs are available."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "To be **unemployed** one must be jobless, available and actively searching. The student, the caregiver and the discouraged worker are all **outside the labour force**."
+  },
+  {
+   "id": "d5-5",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Labour force changes",
+   "tags": [
+    "ch5",
+    "unemployment-rate",
+    "participation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "LO 5.1"
+   },
+   "prompt": "An unemployed person gives up looking for work and leaves the labour force. What happens to the unemployment rate, the participation rate and the employment–population ratio?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Unemployment rate falls, participation rate unchanged, employment–population ratio rises."
+    },
+    {
+     "id": "b",
+     "text": "Unemployment rate rises, participation rate falls, employment–population ratio unchanged."
+    },
+    {
+     "id": "c",
+     "text": "Unemployment rate falls, participation rate falls, employment–population ratio unchanged."
+    },
+    {
+     "id": "d",
+     "text": "Unemployment rate falls, participation rate rises, employment–population ratio falls."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "The unemployed person leaves both numerator and denominator of the rate (rate falls) and the labour force (participation falls). Employed and population are unchanged, so **the ratio does not change**."
+  },
+  {
+   "id": "d5-6",
+   "type": "numeric",
+   "unit": 5,
+   "topic": "Unemployment rate",
+   "tags": [
+    "ch5",
+    "unemployment-rate",
+    "calculation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "LO 5.1"
+   },
+   "prompt": "The labour force is 20 million and 1 million are unemployed. If 500,000 of the unemployed stop searching, what is the new unemployment rate (two decimals)?",
+   "answer": {
+    "value": 2.56,
+    "tolerance": 0.05,
+    "suffix": "%",
+    "display": "2.56%"
+   },
+   "explanation": "New unemployed = 0.5 million; new labour force = 19.5 million. Rate = 0.5 ÷ 19.5 × 100 = **2.56%**, down from 5%, though no one found a job."
+  },
+  {
+   "id": "d5-7",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Types of unemployment",
+   "tags": [
+    "ch5",
+    "types"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "LO 5.2"
+   },
+   "prompt": "A worker loses his job because the plant moved to a new technology and he does not have the skills required for the new jobs. This is…",
+   "options": [
+    {
+     "id": "a",
+     "text": "Frictional unemployment."
+    },
+    {
+     "id": "b",
+     "text": "Cyclical unemployment."
+    },
+    {
+     "id": "c",
+     "text": "Seasonal unemployment."
+    },
+    {
+     "id": "d",
+     "text": "Structural unemployment."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "A persistent **mismatch between skills and available jobs** is structural."
+  },
+  {
+   "id": "d5-8",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Types of unemployment",
+   "tags": [
+    "ch5",
+    "types"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "LO 5.2"
+   },
+   "prompt": "A ski instructor is out of work each summer. This is…",
+   "options": [
+    {
+     "id": "a",
+     "text": "Seasonal unemployment."
+    },
+    {
+     "id": "b",
+     "text": "Cyclical unemployment."
+    },
+    {
+     "id": "c",
+     "text": "Structural unemployment."
+    },
+    {
+     "id": "d",
+     "text": "Frictional unemployment."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Recurring, calendar-related joblessness (weather, tourism) is **seasonal**."
+  },
+  {
+   "id": "d5-9",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Types of unemployment",
+   "tags": [
+    "ch5",
+    "types"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "LO 5.2"
+   },
+   "prompt": "During a recession many firms lay off workers because the demand for their products has fallen. This is…",
+   "options": [
+    {
+     "id": "a",
+     "text": "Frictional unemployment."
+    },
+    {
+     "id": "b",
+     "text": "Cyclical unemployment."
+    },
+    {
+     "id": "c",
+     "text": "Structural unemployment."
+    },
+    {
+     "id": "d",
+     "text": "Seasonal unemployment."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Unemployment caused by a **downturn of the business cycle** is cyclical; it rises in recessions and falls in expansions."
+  },
+  {
+   "id": "d5-10",
+   "type": "numeric",
+   "unit": 5,
+   "topic": "Natural rate",
+   "tags": [
+    "ch5",
+    "natural-rate",
+    "calculation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "LO 5.2"
+   },
+   "prompt": "The unemployment rate is 7.5%, and the natural rate is 5.5%. How many percentage points of cyclical unemployment are there?",
+   "answer": {
+    "value": 2,
+    "tolerance": 0.05,
+    "suffix": " pp",
+    "display": "2.0 pp"
+   },
+   "explanation": "Actual = natural + cyclical. Cyclical = 7.5 − 5.5 = **2.0 percentage points**. At full employment cyclical unemployment is 0."
+  },
+  {
+   "id": "d5-11",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Natural rate",
+   "tags": [
+    "ch5",
+    "natural-rate"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "LO 5.2"
+   },
+   "prompt": "Which statement about the natural rate of unemployment is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "It equals cyclical plus seasonal unemployment and is zero at full employment."
+    },
+    {
+     "id": "b",
+     "text": "It equals zero at full employment because everyone who wants a job has one."
+    },
+    {
+     "id": "c",
+     "text": "It equals frictional plus structural unemployment, and the economy is at full employment when unemployment equals it."
+    },
+    {
+     "id": "d",
+     "text": "It is the rate that occurs only during a recession."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "**Natural rate = frictional + structural** (also called the full-employment rate). It is positive."
+  },
+  {
+   "id": "d5-12",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Causes of unemployment",
+   "tags": [
+    "ch5",
+    "policy"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "LO 5.3"
+   },
+   "prompt": "Which of the following would NOT be expected to raise the unemployment rate?",
+   "options": [
+    {
+     "id": "a",
+     "text": "A longer period of Employment Insurance eligibility."
+    },
+    {
+     "id": "b",
+     "text": "A binding increase in the minimum wage."
+    },
+    {
+     "id": "c",
+     "text": "A rise in the share of workers covered by unions."
+    },
+    {
+     "id": "d",
+     "text": "A job-search website that makes openings easy to find."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "EI extends search time, minimum wages above equilibrium and unions push wages above market, creating surplus labour. Better information reduces frictional unemployment."
+  },
+  {
+   "id": "d5-13",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Efficiency wages",
+   "tags": [
+    "ch5",
+    "efficiency-wages"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "LO 5.3"
+   },
+   "prompt": "An efficiency wage is…",
+   "options": [
+    {
+     "id": "a",
+     "text": "a wage above the market level that a firm pays to increase worker productivity."
+    },
+    {
+     "id": "b",
+     "text": "a wage that the government sets as the legal minimum."
+    },
+    {
+     "id": "c",
+     "text": "a wage negotiated by a union for all its members."
+    },
+    {
+     "id": "d",
+     "text": "the market-clearing wage that equates labour supply and demand."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Efficiency wages are **voluntary** premium wages. Reasons: lower turnover, less shirking, better applicants."
+  },
+  {
+   "id": "d5-14",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Employment Insurance",
+   "tags": [
+    "ch5",
+    "ei"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "LO 5.3"
+   },
+   "prompt": "Employment Insurance is likely to…",
+   "options": [
+    {
+     "id": "a",
+     "text": "lower the unemployment rate and make recessions more severe."
+    },
+    {
+     "id": "b",
+     "text": "raise the unemployment rate, but reduce the severity of recessions."
+    },
+    {
+     "id": "c",
+     "text": "lower the unemployment rate and reduce the severity of recessions."
+    },
+    {
+     "id": "d",
+     "text": "raise the unemployment rate and make recessions more severe."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "EI lengthens job search but supports the spending of unemployed households."
+  },
+  {
+   "id": "d5-15",
+   "type": "numeric",
+   "unit": 5,
+   "topic": "CPI",
+   "tags": [
+    "ch5",
+    "cpi",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "LO 5.4"
+   },
+   "prompt": "The cost of the CPI basket is $400 in the base year and $450 in the current year. What is the CPI in the current year?",
+   "answer": {
+    "value": 112.5,
+    "tolerance": 0.1
+   },
+   "explanation": "CPI = cost of the basket in the current year ÷ cost in the base year × 100 = 450 ÷ 400 × 100 = **112.5**."
+  },
+  {
+   "id": "d5-16",
+   "type": "numeric",
+   "unit": 5,
+   "topic": "Inflation rate",
+   "tags": [
+    "ch5",
+    "inflation-rate",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "LO 5.4"
+   },
+   "prompt": "The CPI was 140.0 in 2023 and 143.5 in 2024. What was the 2024 inflation rate (one decimal)?",
+   "answer": {
+    "value": 2.5,
+    "tolerance": 0.05,
+    "suffix": "%",
+    "display": "2.5%"
+   },
+   "explanation": "Inflation = (143.5 − 140.0) ÷ 140.0 × 100 = **2.5%**."
+  },
+  {
+   "id": "d5-17",
+   "type": "mc",
+   "unit": 5,
+   "topic": "CPI biases",
+   "tags": [
+    "ch5",
+    "cpi",
+    "bias"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "LO 5.4"
+   },
+   "prompt": "The CPI tends to overstate the inflation rate. Which of the following is a reason?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The CPI is based on the prices producers receive, not what consumers pay."
+    },
+    {
+     "id": "b",
+     "text": "The CPI ignores prices of services."
+    },
+    {
+     "id": "c",
+     "text": "Consumers substitute away from goods whose prices rise, but the CPI keeps the basket fixed."
+    },
+    {
+     "id": "d",
+     "text": "The CPI includes only imported goods."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Biases: **substitution, new products, quality changes, outlet substitution**. Together they overstate inflation by about 0.5–1 percentage point."
+  },
+  {
+   "id": "d5-18",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Price indexes",
+   "tags": [
+    "ch5",
+    "cpi"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "LO 5.4"
+   },
+   "prompt": "Which price measure includes the prices of imported goods that households buy?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The GDP deflator."
+    },
+    {
+     "id": "b",
+     "text": "The PPI for domestic output only."
+    },
+    {
+     "id": "c",
+     "text": "None of the three measures."
+    },
+    {
+     "id": "d",
+     "text": "The CPI."
+    }
+   ],
+   "answer": "d",
+   "shuffleOptions": true,
+   "explanation": "The CPI follows what a typical household buys, whether made at home or abroad. The GDP deflator covers only goods and services **produced** in Canada."
+  },
+  {
+   "id": "d5-19",
+   "type": "numeric",
+   "unit": 5,
+   "topic": "Real wage",
+   "tags": [
+    "ch5",
+    "real-vs-nominal",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "LO 5.5"
+   },
+   "prompt": "A worker earns a nominal wage of $30 per hour when the CPI is 120. What is the real wage in base-year dollars?",
+   "answer": {
+    "value": 25,
+    "tolerance": 0.05,
+    "prefix": "$",
+    "display": "$25"
+   },
+   "explanation": "Real wage = nominal ÷ CPI × 100 = 30 ÷ 120 × 100 = **$25**."
+  },
+  {
+   "id": "d5-20",
+   "type": "numeric",
+   "unit": 5,
+   "topic": "Real GDP",
+   "tags": [
+    "ch5",
+    "real-vs-nominal",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "LO 5.5"
+   },
+   "prompt": "Nominal GDP is $1,650 billion when the CPI is 110 (base year = 100). What is real GDP in base-year dollars (billions)?",
+   "answer": {
+    "value": 1500,
+    "tolerance": 1,
+    "prefix": "$",
+    "display": "$1,500 billion"
+   },
+   "explanation": "Real GDP = 1,650 ÷ 110 × 100 = **$1,500 billion**."
+  },
+  {
+   "id": "d5-21",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Real vs nominal",
+   "tags": [
+    "ch5",
+    "real-vs-nominal",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "LO 5.5"
+   },
+   "prompt": "Nominal incomes grow 5% and the CPI rises 3%. Real income grows by approximately…",
+   "options": [
+    {
+     "id": "a",
+     "text": "2%."
+    },
+    {
+     "id": "b",
+     "text": "8%."
+    },
+    {
+     "id": "c",
+     "text": "5%."
+    },
+    {
+     "id": "d",
+     "text": "3%."
+    }
+   ],
+   "answer": "a",
+   "shuffleOptions": true,
+   "explanation": "Real growth ≈ nominal growth − inflation = 5 − 3 = **2%**."
+  },
+  {
+   "id": "d5-22",
+   "type": "numeric",
+   "unit": 5,
+   "topic": "Real interest rate",
+   "tags": [
+    "ch5",
+    "interest-rates",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "LO 5.6"
+   },
+   "prompt": "A loan has a nominal interest rate of 7% and the inflation rate is 2.5%. What is the real interest rate?",
+   "answer": {
+    "value": 4.5,
+    "tolerance": 0.05,
+    "suffix": "%",
+    "display": "4.5%"
+   },
+   "explanation": "Real = nominal − inflation = 7 − 2.5 = **4.5%**."
+  },
+  {
+   "id": "d5-23",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Real interest rate",
+   "tags": [
+    "ch5",
+    "interest-rates",
+    "inflation-costs"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "LO 5.6"
+   },
+   "prompt": "Borrowers and lenders expected 3% inflation and agreed on a 5% nominal rate. Actual inflation was 5%. What was the real interest rate?",
+   "options": [
+    {
+     "id": "a",
+     "text": "2%, as expected."
+    },
+    {
+     "id": "b",
+     "text": "0%, so the lender received a lower real return than the 2% expected."
+    },
+    {
+     "id": "c",
+     "text": "−2%, so borrowers lost."
+    },
+    {
+     "id": "d",
+     "text": "5%, the nominal rate."
+    }
+   ],
+   "answer": "b",
+   "shuffleOptions": true,
+   "explanation": "Ex post real rate = 5 − 5 = **0%**, versus the expected 5 − 3 = 2%. Unexpectedly high inflation helps borrowers and hurts lenders."
+  },
+  {
+   "id": "d5-24",
+   "type": "mc",
+   "unit": 5,
+   "topic": "Costs of inflation",
+   "tags": [
+    "ch5",
+    "inflation-costs"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "LO 5.7"
+   },
+   "prompt": "Which of the following is a cost of unanticipated (but not of anticipated) inflation?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Menu costs."
+    },
+    {
+     "id": "b",
+     "text": "Paper money losing some of its value."
+    },
+    {
+     "id": "c",
+     "text": "Arbitrary redistribution of income between borrowers and lenders."
+    },
+    {
+     "id": "d",
+     "text": "The cost of reprinting catalogues."
+    }
+   ],
+   "answer": "c",
+   "shuffleOptions": true,
+   "explanation": "Menu costs and the erosion of cash holdings occur with **anticipated** inflation. Unanticipated inflation also causes redistribution and uncertainty."
+  },
+  {
+   "id": "d5-25",
+   "type": "tf",
+   "unit": 5,
+   "topic": "Disinflation",
+   "tags": [
+    "ch5",
+    "inflation-rate"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "LO 5.4"
+   },
+   "prompt": "If the inflation rate falls from 5% to 3%, the price level is falling.",
+   "answer": false,
+   "explanation": "Disinflation is a *slower* rate of inflation; with inflation still 3%, the price level is still rising. A falling price level is deflation."
+  }
+ ]
+}

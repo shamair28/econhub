@@ -1,0 +1,1164 @@
+{
+ "schema": "practice-bank/v1",
+ "id": "1BB3-mt2-slides-ch8",
+ "course": "ECON 1BB3",
+ "title": "Ch. 8 Lecture Slides",
+ "description": "Original exam-style questions from Dr. Letendre's Chapter 8 slides and Week 8 lecture: AE model, MPC/MPS, 45°-line equilibrium, the multiplier, the algebra, and deriving AD.",
+ "defaultSource": {
+  "label": "Ch. 8 Lecture Slides",
+  "kind": "slides"
+ },
+ "defaultUnit": 8,
+ "scenarios": {
+  "table25": {
+   "title": "Macroeconomic equilibrium: a numerical example",
+   "body": "Values are in trillions of 2017 dollars. Planned investment, government purchases and net exports are constant at every level of GDP.",
+   "table": {
+    "caption": "Slide 25 / Week 8 slide 9",
+    "headers": [
+     "Real GDP (Y)",
+     "Consumption (C)",
+     "I<sub>p</sub>",
+     "G",
+     "NX",
+     "Planned AE",
+     "Unplanned inventory investment"
+    ],
+    "rows": [
+     [
+      "2.00",
+      "2.25",
+      "0.15",
+      "0.15",
+      "−0.05",
+      "2.50",
+      "−0.50"
+     ],
+     [
+      "2.50",
+      "2.50",
+      "0.15",
+      "0.15",
+      "−0.05",
+      "2.75",
+      "−0.25"
+     ],
+     [
+      "3.00",
+      "2.75",
+      "0.15",
+      "0.15",
+      "−0.05",
+      "3.00",
+      "0.00"
+     ],
+     [
+      "3.50",
+      "3.00",
+      "0.15",
+      "0.15",
+      "−0.05",
+      "3.25",
+      "0.25"
+     ],
+     [
+      "4.00",
+      "3.25",
+      "0.15",
+      "0.15",
+      "−0.05",
+      "3.50",
+      "0.50"
+     ]
+    ]
+   }
+  }
+ },
+ "questions": [
+  {
+   "id": "s8-01",
+   "type": "mc",
+   "unit": 8,
+   "topic": "AE model",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "slide 3"
+   },
+   "prompt": "The aggregate expenditure model is a short-run macroeconomic model that explains how total spending determines real GDP, assuming that…",
+   "options": [
+    {
+     "id": "a",
+     "text": "the price level adjusts instantly to clear the goods market"
+    },
+    {
+     "id": "b",
+     "text": "the price level is constant"
+    },
+    {
+     "id": "c",
+     "text": "real GDP always equals potential GDP"
+    },
+    {
+     "id": "d",
+     "text": "the interest rate is zero"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Slide 3: it is a short-run model in which the **price level is constant**. Because prices cannot adjust, **unplanned inventory changes** (not prices) push the economy to equilibrium.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s8-02",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Planned vs actual investment",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "slide 4"
+   },
+   "prompt": "Planned investment is $150 billion and firms experience an unplanned increase in inventories of $40 billion. Actual investment is…",
+   "options": [
+    {
+     "id": "a",
+     "text": "$110 billion"
+    },
+    {
+     "id": "b",
+     "text": "$150 billion"
+    },
+    {
+     "id": "c",
+     "text": "$190 billion (actual = planned + unplanned change in inventories)"
+    },
+    {
+     "id": "d",
+     "text": "$40 billion"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Slide 4: **actual investment = planned investment + unplanned change in inventories** = 150 + 40 = 190. The AE model uses planned investment, so AE differs slightly from GDP.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s8-03",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Equilibrium condition",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "slide 5"
+   },
+   "prompt": "In the AE model, macroeconomic equilibrium occurs when…",
+   "options": [
+    {
+     "id": "a",
+     "text": "planned aggregate expenditure equals potential GDP"
+    },
+    {
+     "id": "b",
+     "text": "the price level equals its long-run value"
+    },
+    {
+     "id": "c",
+     "text": "actual investment equals zero"
+    },
+    {
+     "id": "d",
+     "text": "planned aggregate expenditure equals GDP, so unplanned inventory change is zero"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Equilibrium: **C + I<sub>p</sub> + G + NX = GDP**. Then firms sell exactly what they expected and have no reason to change production.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s8-04",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "Equilibrium from a table",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "slide 25"
+   },
+   "prompt": "Using the table, what is equilibrium real GDP (trillions of 2017 dollars)?",
+   "answer": {
+    "value": 3.0,
+    "tolerance": 0.01,
+    "hint": "trillions of dollars"
+   },
+   "explanation": "Equilibrium is where planned AE = GDP. At Y = 3.00: AE = 2.75 + 0.15 + 0.15 − 0.05 = 3.00 = Y, and unplanned inventory investment is 0. Equilibrium GDP = **$3.0 trillion**.",
+   "scenario": "table25"
+  },
+  {
+   "id": "s8-05",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "Unplanned inventories",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 25"
+   },
+   "prompt": "Using the table, if real GDP is $3.5 trillion, by how much (trillions) do inventories change unexpectedly? (Enter a negative number for a decrease.)",
+   "answer": {
+    "value": 0.25,
+    "tolerance": 0.01
+   },
+   "explanation": "Unplanned inventory investment = Y − AE = 3.50 − 3.25 = **+0.25**. GDP is above AE, so inventories pile up and firms cut production.",
+   "scenario": "table25"
+  },
+  {
+   "id": "s8-06",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Adjustment to equilibrium",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 25"
+   },
+   "prompt": "Using the table, if real GDP is currently $2.0 trillion, what happens next?",
+   "options": [
+    {
+     "id": "a",
+     "text": "AE ($2.50 trillion) exceeds GDP, inventories fall unexpectedly by $0.50 trillion, so firms raise production and GDP rises"
+    },
+    {
+     "id": "b",
+     "text": "AE is below GDP, inventories rise unexpectedly, so firms raise production"
+    },
+    {
+     "id": "c",
+     "text": "Prices fall until AE equals GDP"
+    },
+    {
+     "id": "d",
+     "text": "Nothing; any level of GDP is an equilibrium in the short run"
+    }
+   ],
+   "answer": "a",
+   "explanation": "At Y = 2.0, AE = 2.50 &gt; Y, so unplanned inventory investment is −0.50. Firms see shelves emptying and **increase output** until GDP reaches 3.0. Prices don't adjust because they are assumed constant.",
+   "shuffleOptions": true,
+   "scenario": "table25"
+  },
+  {
+   "id": "s8-07",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "MPC",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "slide 12"
+   },
+   "prompt": "Consumption rises from $750 to $2,250 (billions) when real GDP rises from $1,000 to $3,000 (net taxes constant). What is the MPC?",
+   "answer": {
+    "value": 0.75,
+    "tolerance": 0.005
+   },
+   "explanation": "MPC = ΔC/ΔY = (2,250 − 750)/(3,000 − 1,000) = 1,500/2,000 = **0.75**. With constant net taxes, it is also the slope of C against GDP."
+  },
+  {
+   "id": "s8-08",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "MPC and ΔC",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "slide 10"
+   },
+   "prompt": "Using the slides' estimate MPC = 0.764, by how many dollars would consumption rise if disposable income rises by $10,000?",
+   "answer": {
+    "value": 7640,
+    "tolerance": 1,
+    "prefix": "$"
+   },
+   "explanation": "ΔC = MPC × ΔY<sub>D</sub> = 0.764 × 10,000 = **$7,640**."
+  },
+  {
+   "id": "s8-09",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "MPC + MPS",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 15"
+   },
+   "prompt": "Suppose MPC = 0.8. If national income rises by $500 (taxes constant), by how much does saving rise?",
+   "answer": {
+    "value": 100,
+    "tolerance": 0.5
+   },
+   "explanation": "MPC + MPS = 1, so MPS = 0.2. ΔS = MPS × ΔY = 0.2 × 500 = **$100** (and ΔC = $400)."
+  },
+  {
+   "id": "s8-10",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Consumption determinants",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 8"
+   },
+   "prompt": "Which of the following causes a movement along the consumption function rather than a shift of it?",
+   "options": [
+    {
+     "id": "a",
+     "text": "A rise in household wealth"
+    },
+    {
+     "id": "b",
+     "text": "A change in current disposable income"
+    },
+    {
+     "id": "c",
+     "text": "A change in expected future income"
+    },
+    {
+     "id": "d",
+     "text": "A change in real interest rates"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Current disposable income is the variable on the axis, so changing it moves you **along** the line (slope = MPC). Wealth, expectations, the price level and interest rates **shift** the function.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s8-11",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Planned investment",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "slide 17"
+   },
+   "prompt": "Which of the following would most likely increase planned investment?",
+   "options": [
+    {
+     "id": "a",
+     "text": "A rise in the real interest rate"
+    },
+    {
+     "id": "b",
+     "text": "An increase in corporate taxes"
+    },
+    {
+     "id": "c",
+     "text": "Firms become optimistic about future profitability"
+    },
+    {
+     "id": "d",
+     "text": "A fall in firms' cash flow"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Slide 17: investment rises with **expected future profits**, lower real interest rates, lower corporate taxes and stronger cash flow. The other three all lower it.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s8-12",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Net exports",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 20"
+   },
+   "prompt": "A stronger Canadian dollar will most likely…",
+   "options": [
+    {
+     "id": "a",
+     "text": "raise net exports, since Canadian goods become cheaper abroad"
+    },
+    {
+     "id": "b",
+     "text": "raise net exports, since imports become more expensive"
+    },
+    {
+     "id": "c",
+     "text": "have no effect on net exports"
+    },
+    {
+     "id": "d",
+     "text": "lower net exports, since imports become cheaper and exports more expensive"
+    }
+   ],
+   "answer": "d",
+   "explanation": "A stronger dollar makes **imports cheaper and exports more expensive**, so exports fall, imports rise and NX decreases. Faster Canadian growth also lowers NX because it raises imports.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s8-13",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Government purchases",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 18"
+   },
+   "prompt": "Which of the following is counted in government purchases (G)?",
+   "options": [
+    {
+     "id": "a",
+     "text": "A province buying a new highway interchange"
+    },
+    {
+     "id": "b",
+     "text": "Employment insurance payments to the unemployed"
+    },
+    {
+     "id": "c",
+     "text": "Old age pension payments to retirees"
+    },
+    {
+     "id": "d",
+     "text": "Interest paid on the government debt"
+    }
+   ],
+   "answer": "a",
+   "explanation": "G covers spending on **goods and services**, including government investment (roads, buildings). **Transfer payments** are excluded because no good or service is received in return.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s8-14",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "Multiplier",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "slide 31"
+   },
+   "prompt": "If MPC = 0.75, what is the value of the multiplier?",
+   "answer": {
+    "value": 4,
+    "tolerance": 0.01
+   },
+   "explanation": "Multiplier = 1/(1 − MPC) = 1/0.25 = **4**."
+  },
+  {
+   "id": "s8-15",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "AI investment example",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "slide 28"
+   },
+   "prompt": "Because of optimism about the profits AI will produce, firms raise planned investment by $250 billion. If MPC = 0.5, by how much (billions) does equilibrium GDP increase?",
+   "answer": {
+    "value": 500,
+    "tolerance": 0.5
+   },
+   "explanation": "Multiplier = 1/(1 − 0.5) = 2. ΔY = 2 × 250 = **$500 billion**: the first-round $250 plus $125 + $62.5 + … of induced consumption."
+  },
+  {
+   "id": "s8-16",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Multiplier series",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 31"
+   },
+   "prompt": "Total change in GDP = $250(1 + MPC + MPC² + MPC³ + …). Why does the series contain powers of the MPC?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Because the MPC rises in each round"
+    },
+    {
+     "id": "b",
+     "text": "Each round of income is partly re-spent: a fraction MPC of every dollar of new income becomes the next round's consumption spending"
+    },
+    {
+     "id": "c",
+     "text": "Because each round is taxed at the MPC"
+    },
+    {
+     "id": "d",
+     "text": "Because planned investment keeps rising by the MPC each round"
+    }
+   ],
+   "answer": "b",
+   "explanation": "The initial $250 of spending becomes income; households spend MPC × 250, which becomes income again, and so on. The sum of the geometric series is **250/(1 − MPC)**.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s8-17",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "Solving the model",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "slide 39"
+   },
+   "prompt": "C = 100 + 0.8Y, I<sub>p</sub> = 125, G = 125, NX = −30. Find equilibrium real GDP.",
+   "answer": {
+    "value": 1600,
+    "tolerance": 0.5
+   },
+   "explanation": "Y = 100 + 0.8Y + 125 + 125 − 30 → Y − 0.8Y = 320 → 0.2Y = 320 → Y = **1,600**."
+  },
+  {
+   "id": "s8-18",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "Planned AE and inventories",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 39"
+   },
+   "prompt": "Using the same model (C = 100 + 0.8Y, I<sub>p</sub> = 125, G = 125, NX = −30), what is the unplanned change in inventories if real GDP is 1,400? (Negative = decrease.)",
+   "answer": {
+    "value": -40,
+    "tolerance": 0.5
+   },
+   "explanation": "AE = 100 + 0.8(1,400) + 125 + 125 − 30 = 100 + 1,120 + 220 = 1,440. Unplanned inventory change = Y − AE = 1,400 − 1,440 = **−40**. Since GDP is below the equilibrium of 1,600, inventories fall and output rises."
+  },
+  {
+   "id": "s8-19",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "Policy change in the model",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 41"
+   },
+   "prompt": "In the same model (equilibrium Y = 1,600), government purchases rise from 125 to 145. What is the new equilibrium real GDP?",
+   "answer": {
+    "value": 1700,
+    "tolerance": 0.5
+   },
+   "explanation": "Multiplier = 1/(1 − 0.8) = 5. ΔG = 20, so ΔY = 5 × 20 = 100. New Y = 1,600 + 100 = **1,700** (check: 0.2Y = 340 → Y = 1,700)."
+  },
+  {
+   "id": "s8-20",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "Autonomous expenditure × multiplier",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 41"
+   },
+   "prompt": "C̄ = 150, MPC = 0.75, I<sub>p</sub> = 100, G = 120, NX = −20. Using Equilibrium GDP = autonomous expenditure × multiplier, find equilibrium GDP.",
+   "answer": {
+    "value": 1400,
+    "tolerance": 0.5
+   },
+   "explanation": "Autonomous expenditure = 150 + 100 + 120 − 20 = 350. Multiplier = 1/(1 − 0.75) = 4. Y = 350 × 4 = **1,400**."
+  },
+  {
+   "id": "s8-21",
+   "type": "numeric",
+   "unit": 8,
+   "topic": "Multiplier works both ways",
+   "tags": [
+    "ch8",
+    "calculation"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 32"
+   },
+   "prompt": "MPC = 0.6. Net exports fall by $80 billion because of a trade war. By how much (billions) does equilibrium GDP change? (Enter a negative number for a decrease.)",
+   "answer": {
+    "value": -200,
+    "tolerance": 0.5
+   },
+   "explanation": "Multiplier = 1/(1 − 0.6) = 2.5. ΔY = 2.5 × (−80) = **−$200 billion**. The multiplier works in both directions."
+  },
+  {
+   "id": "s8-22",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Recession on the 45° diagram",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 27"
+   },
+   "prompt": "Starting from equilibrium at potential GDP, US policy reduces Canadian exports. On the 45°-line diagram, what happens?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The AE line shifts up; the new equilibrium is above potential GDP and the economy overheats"
+    },
+    {
+     "id": "b",
+     "text": "The 45° line shifts down; equilibrium stays at potential GDP"
+    },
+    {
+     "id": "c",
+     "text": "The AE line shifts down; the new equilibrium is below potential GDP, firms operate below normal capacity and unemployment exceeds the natural rate"
+    },
+    {
+     "id": "d",
+     "text": "The AE line pivots so that its slope (MPC) falls, with no change in the intercept"
+    }
+   ],
+   "answer": "c",
+   "explanation": "A fall in NX is a fall in autonomous expenditure, so the **AE line shifts down** and the intersection with the 45° line moves left, below potential GDP. Cyclical unemployment appears. The 45° line never moves.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s8-23",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Potential GDP",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 1,
+   "source": {
+    "ref": "slide 26"
+   },
+   "prompt": "Potential GDP is best described as…",
+   "options": [
+    {
+     "id": "a",
+     "text": "the maximum output the economy could ever produce"
+    },
+    {
+     "id": "b",
+     "text": "the level of real GDP where AE is maximized"
+    },
+    {
+     "id": "c",
+     "text": "the level of GDP that firms plan to produce in a recession"
+    },
+    {
+     "id": "d",
+     "text": "real GDP when firms operate at normal capacity with a normal workforce, i.e. full employment with zero cyclical unemployment"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Slide 26: potential GDP reflects **sustainable** production, not maximum possible output; at potential GDP cyclical unemployment is zero. It grows with labour, capital and technology.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s8-24",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Paradox of thrift",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 33"
+   },
+   "prompt": "Households become worried and all try to save more. According to the slides, in the short run…",
+   "options": [
+    {
+     "id": "a",
+     "text": "AE and real GDP fall; incomes drop, so households may end up no better off, and the economy can enter a recession"
+    },
+    {
+     "id": "b",
+     "text": "AE and real GDP rise because higher saving funds investment immediately"
+    },
+    {
+     "id": "c",
+     "text": "Real GDP is unchanged because saving equals investment by definition"
+    },
+    {
+     "id": "d",
+     "text": "Only the price level changes"
+    }
+   ],
+   "answer": "a",
+   "explanation": "The **paradox of thrift**: saving more is good for long-run growth (it funds investment), but in the short run lower consumption cuts sales, production and jobs, so GDP falls.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s8-25",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Limits of the multiplier",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 32"
+   },
+   "prompt": "The simple multiplier formula 1/(1 − MPC) tends to overstate the effect on GDP because it ignores…",
+   "options": [
+    {
+     "id": "a",
+     "text": "the MPC, which is already in the formula"
+    },
+    {
+     "id": "b",
+     "text": "imports, inflation, interest rates and taxes, which dampen the overall effect"
+    },
+    {
+     "id": "c",
+     "text": "the fact that government purchases are autonomous"
+    },
+    {
+     "id": "d",
+     "text": "the fact that investment is planned"
+    }
+   ],
+   "answer": "b",
+   "explanation": "Slide 32: imports, taxes, interest-rate increases and price-level increases all reduce the size of the real-world multiplier.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s8-26",
+   "type": "mc",
+   "unit": 8,
+   "topic": "AD derivation",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "label": "Week 8 Lecture",
+    "ref": "slides 34–35"
+   },
+   "prompt": "Each point on the aggregate demand curve corresponds to…",
+   "options": [
+    {
+     "id": "a",
+     "text": "a point on the 45° line for a fixed real GDP"
+    },
+    {
+     "id": "b",
+     "text": "a level of potential GDP"
+    },
+    {
+     "id": "c",
+     "text": "an equilibrium of the Keynesian cross (45°-line) diagram for a given price level"
+    },
+    {
+     "id": "d",
+     "text": "the intersection of AE with the vertical axis"
+    }
+   ],
+   "answer": "c",
+   "explanation": "Slide 34: to derive AD we find how a change in P changes the AE line and the resulting equilibrium. Each (P, equilibrium Y) pair is a point on AD.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s8-27",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Price level and the AE line",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 3,
+   "source": {
+    "label": "Week 8 Lecture",
+    "ref": "slide 35"
+   },
+   "prompt": "The price level rises (P₁ to P₃). Which statement is correct?",
+   "options": [
+    {
+     "id": "a",
+     "text": "The AE line shifts up; equilibrium GDP rises: a movement along the AD curve"
+    },
+    {
+     "id": "b",
+     "text": "The AE line shifts down; this shifts the AD curve to the left"
+    },
+    {
+     "id": "c",
+     "text": "The AE line does not move; the AD curve shifts left"
+    },
+    {
+     "id": "d",
+     "text": "The AE line shifts down (C, I<sub>p</sub> and NX fall at every GDP); equilibrium GDP falls: a movement up along the AD curve"
+    }
+   ],
+   "answer": "d",
+   "explanation": "Higher P lowers real wealth (C), raises interest rates (I<sub>p</sub>) and raises Canadian prices relative to foreign (NX). The AE line **shifts**, but the change in P is a **movement along AD**, not a shift of AD. A trap on the test.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s8-28",
+   "type": "mc",
+   "unit": 8,
+   "topic": "Channels from P to AE",
+   "tags": [
+    "ch8"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 35"
+   },
+   "prompt": "Which one of the following is NOT one of the slides' reasons why a higher price level lowers planned aggregate expenditure?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Government purchases are cut automatically whenever prices rise"
+    },
+    {
+     "id": "b",
+     "text": "Real household wealth falls, lowering consumption"
+    },
+    {
+     "id": "c",
+     "text": "Canadian goods become more expensive relative to foreign goods, lowering net exports"
+    },
+    {
+     "id": "d",
+     "text": "Money demand rises, interest rates rise and planned investment falls"
+    }
+   ],
+   "answer": "a",
+   "explanation": "The three channels are consumption (wealth), net exports (relative prices) and investment (interest rates). G is set by policy and is not tied to the price level.",
+   "shuffleOptions": true
+  },
+  {
+   "id": "s8-29",
+   "type": "graph",
+   "unit": 8,
+   "topic": "Autonomous spending shifts AE",
+   "tags": [
+    "ch8",
+    "graph"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slides 28–29"
+   },
+   "prompt": "The economy is in equilibrium at E₁. Optimistic firms raise planned investment (an autonomous increase). Draw the new aggregate expenditure line AE₂ and mark the new equilibrium E₂.",
+   "graph": {
+    "x": {
+     "label": "Real GDP",
+     "min": 0,
+     "max": 100,
+     "hideTicks": true
+    },
+    "y": {
+     "label": "Planned aggregate expenditure",
+     "min": 0,
+     "max": 100,
+     "hideTicks": true
+    },
+    "curves": [
+     {
+      "id": "line45",
+      "label": "45° line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        100,
+        100
+       ]
+      ],
+      "color": "gray",
+      "style": "dashed"
+     },
+     {
+      "id": "AE",
+      "label": "AE₁",
+      "points": [
+       [
+        0,
+        30
+       ],
+       [
+        100,
+        80
+       ]
+      ],
+      "color": "blue"
+     }
+    ],
+    "points": [
+     {
+      "id": "E",
+      "label": "E₁",
+      "x": 60,
+      "y": 60,
+      "drop": "x",
+      "dropLabels": {
+       "x": "Y₁"
+      }
+     }
+    ],
+    "tasks": [
+     {
+      "id": "AE2",
+      "kind": "line",
+      "label": "AE₂",
+      "prompt": "Draw AE₂",
+      "expect": {
+       "slope": "positive",
+       "shiftOf": "AE",
+       "direction": "up"
+      }
+     },
+     {
+      "id": "E2",
+      "kind": "point",
+      "label": "E₂",
+      "prompt": "Mark the new equilibrium E₂",
+      "expect": {
+       "atIntersection": [
+        "user:AE2",
+        "line45"
+       ],
+       "relativeTo": {
+        "ref": "E",
+        "x": "+",
+        "y": "+"
+       }
+      }
+     }
+    ]
+   },
+   "explanation": "Higher planned investment is an **autonomous** increase, so the whole AE line shifts **up** (parallel; the slope is still the MPC). The new equilibrium is where AE₂ crosses the 45° line: further up and to the right, and GDP rises by **more** than the initial increase in investment (the multiplier)."
+  },
+  {
+   "id": "s8-30",
+   "type": "graph",
+   "unit": 8,
+   "topic": "Recession on the 45° diagram",
+   "tags": [
+    "ch8",
+    "graph"
+   ],
+   "difficulty": 2,
+   "source": {
+    "ref": "slide 27"
+   },
+   "prompt": "The economy starts in equilibrium at potential GDP (E₁). US policy then reduces Canadian exports. Draw the new AE line AE₂ and mark the new equilibrium E₂.",
+   "graph": {
+    "x": {
+     "label": "Real GDP",
+     "min": 0,
+     "max": 100,
+     "hideTicks": true
+    },
+    "y": {
+     "label": "Planned aggregate expenditure",
+     "min": 0,
+     "max": 100,
+     "hideTicks": true
+    },
+    "curves": [
+     {
+      "id": "line45",
+      "label": "45° line",
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        100,
+        100
+       ]
+      ],
+      "color": "gray",
+      "style": "dashed"
+     },
+     {
+      "id": "AE",
+      "label": "AE₁",
+      "points": [
+       [
+        0,
+        30
+       ],
+       [
+        100,
+        80
+       ]
+      ],
+      "color": "blue"
+     }
+    ],
+    "points": [
+     {
+      "id": "E",
+      "label": "E₁",
+      "x": 60,
+      "y": 60,
+      "drop": "x",
+      "dropLabels": {
+       "x": "Potential GDP"
+      }
+     }
+    ],
+    "tasks": [
+     {
+      "id": "AE2",
+      "kind": "line",
+      "label": "AE₂",
+      "prompt": "Draw AE₂",
+      "expect": {
+       "slope": "positive",
+       "shiftOf": "AE",
+       "direction": "down"
+      }
+     },
+     {
+      "id": "E2",
+      "kind": "point",
+      "label": "E₂",
+      "prompt": "Mark the new equilibrium E₂",
+      "expect": {
+       "atIntersection": [
+        "user:AE2",
+        "line45"
+       ],
+       "relativeTo": {
+        "ref": "E",
+        "x": "-",
+        "y": "-"
+       }
+      }
+     }
+    ]
+   },
+   "explanation": "A fall in NX is a fall in autonomous expenditure: the AE line shifts **down**. The new equilibrium is where AE₂ crosses the 45° line, **to the left of potential GDP**: firms operate below normal capacity and unemployment exceeds the natural rate (a recession)."
+  },
+  {
+   "id": "s8-31",
+   "type": "graph",
+   "unit": 8,
+   "topic": "Deriving the AD curve",
+   "tags": [
+    "ch8",
+    "graph"
+   ],
+   "difficulty": 3,
+   "source": {
+    "label": "Week 8 Lecture",
+    "ref": "slides 10–13"
+   },
+   "prompt": "At price level P₁ the quantity of real GDP demanded is 3.0 (point A). When the price level falls to P₂, the AE line shifts up and GDP demanded rises to 3.5 (point B). Draw the aggregate demand curve through A and B.",
+   "graph": {
+    "x": {
+     "label": "Real GDP (trillions)",
+     "min": 2,
+     "max": 4.5,
+     "step": 0.5
+    },
+    "y": {
+     "label": "Price level",
+     "min": 0,
+     "max": 100,
+     "hideTicks": true
+    },
+    "points": [
+     {
+      "id": "A",
+      "label": "A (P₁, 3.0)",
+      "x": 3.0,
+      "y": 60
+     },
+     {
+      "id": "B",
+      "label": "B (P₂, 3.5)",
+      "x": 3.5,
+      "y": 40
+     }
+    ],
+    "tasks": [
+     {
+      "id": "AD",
+      "kind": "line",
+      "label": "AD",
+      "prompt": "Draw the AD curve",
+      "expect": {
+       "slope": "negative",
+       "through": [
+        {
+         "x": 3.0,
+         "y": 60,
+         "label": "A"
+        },
+        {
+         "x": 3.5,
+         "y": 40,
+         "label": "B"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   "explanation": "Each point on AD is an equilibrium from the Keynesian cross for one price level. A lower P shifts AE up and raises equilibrium GDP from 3.0 to 3.5, so AD is **downward sloping**: it passes through A and B. The change in P is a movement **along** AD."
+  }
+ ]
+}

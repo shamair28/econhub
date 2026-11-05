@@ -335,7 +335,7 @@
             sources: new Set(Object.keys(sources)), units: new Set(Object.keys(units).map(String)), types: new Set(realTypes) });
         } }, 'Start')) : null;
       /* question order: shuffled · grouped by week/unit (random within each) · bank order */
-      const groupWord = this.blueprint ? 'week' : this.unitNoun;
+      const groupWord = this.blueprint ? (bpCfg.groupWord || 'week') : this.unitNoun;
       const orderOpts = [['random', 'Shuffled'], ['grouped', `By ${groupWord}`], ['bank', 'Bank order']];
       const orderOf = () => (!form.shuffle ? 'bank' : form.grouped ? 'grouped' : 'random');
       const orderHint = { random: 'Random questions in a random mix of topics.',

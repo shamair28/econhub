@@ -1,0 +1,849 @@
+{
+  "schema": "practice-bank/v1",
+  "id": "1BB3-mt2-slides-ch6",
+  "course": "ECON 1BB3",
+  "title": "Ch. 6 Lecture Slides",
+  "description": "Original exam-style questions from Dr. Letendre's Chapter 6 slides and the Week 6 lecture.",
+  "defaultSource": {
+    "label": "Ch. 6 Lecture Slides",
+    "kind": "slides"
+  },
+  "defaultUnit": 6,
+  "scenarios": {
+    "tech": {
+      "title": "Was Canada in a technical recession?",
+      "body": "In May 2026 Statistics Canada's initial release showed real GDP growth of **−0.25%** in 2025Q4 and **−0.04%** in 2026Q1. Over 2022–24, GDP growth rates were revised by 0.14 percentage points on average."
+    },
+    "clo": {
+      "title": "A closed economy",
+      "body": "Consider a closed economy (billions of dollars): **Y = 900, C = 520, G = 180, T = 190, TR = 60**."
+    }
+  },
+  "questions": [
+    {
+      "id": "s6-01",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Measuring living standards",
+      "tags": [
+        "ch6",
+        "living-standards"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 3"
+      },
+      "prompt": "According to the Chapter 6 slides, which statement about real GDP per capita is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It is the most common, albeit imperfect, measure of living standards, so real GDP must grow faster than the population for living standards to rise"
+        },
+        {
+          "id": "b",
+          "text": "It is a perfect measure of living standards because it is adjusted for inflation"
+        },
+        {
+          "id": "c",
+          "text": "It rises whenever real GDP rises, whatever happens to population"
+        },
+        {
+          "id": "d",
+          "text": "It measures the business cycle only and says nothing about long-run growth"
+        }
+      ],
+      "answer": "a",
+      "explanation": "The slides call real GDP per capita the most common, **albeit imperfect**, measure of living standards. Since it is real GDP divided by population, real GDP has to grow **faster than population** for it to rise.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s6-02",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Growth rates",
+      "tags": [
+        "ch6",
+        "growth-rates"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 5"
+      },
+      "prompt": "Real GDP was $2,340 billion in 2024 and $2,415 billion in 2025. What was the growth rate of real GDP in 2025? (percent, one decimal)",
+      "answer": {
+        "value": 3.2,
+        "tolerance": 0.06,
+        "suffix": "%"
+      },
+      "explanation": "Growth rate = (2,415 − 2,340) ÷ 2,340 × 100 = 75 ÷ 2,340 × 100 = 3.205 ≈ **3.2%**."
+    },
+    {
+      "id": "s6-03",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Growth rates",
+      "tags": [
+        "ch6",
+        "growth-rates"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 5"
+      },
+      "prompt": "Growth in real GDP was 2.4% in one year, −3.0% in the next and 3.6% in the third. Using the slides' method, what was the approximate annual growth rate over the three years? (percent)",
+      "answer": {
+        "value": 1.0,
+        "tolerance": 0.05,
+        "suffix": "%"
+      },
+      "explanation": "Over a few years the slides average the annual growth rates: (2.4 − 3.0 + 3.6) ÷ 3 = 3.0 ÷ 3 = **1.0%**."
+    },
+    {
+      "id": "s6-04",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Course coverage",
+      "tags": [
+        "ch6",
+        "course-coverage"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 6"
+      },
+      "prompt": "According to Dr. Letendre's Chapter 6 slides, where are the determinants of long-run growth (textbook pp. 155–156) and potential GDP / the output gap covered?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Determinants of long-run growth in Chapter 8; potential GDP and the output gap in Chapter 7"
+        },
+        {
+          "id": "b",
+          "text": "Determinants of long-run growth in Chapter 7; potential GDP and the output gap in Chapter 8"
+        },
+        {
+          "id": "c",
+          "text": "Both are covered in Chapter 6, as in the textbook"
+        },
+        {
+          "id": "d",
+          "text": "Neither is covered in this course"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Slide 6 lists the deviations from the textbook: the **determinants of long-run growth move to Chapter 7** (economic growth in greater detail) and **potential GDP / output gap move to Chapter 8**.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s6-05",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Business cycle",
+      "tags": [
+        "ch6",
+        "business-cycle"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 8"
+      },
+      "prompt": "Business cycle theory is concerned with explaining which of the following?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The permanent upward trend in real GDP per capita"
+        },
+        {
+          "id": "b",
+          "text": "Why population grows over time"
+        },
+        {
+          "id": "c",
+          "text": "Short-run fluctuations of real GDP around its trend"
+        },
+        {
+          "id": "d",
+          "text": "How the central bank sets the level of potential GDP"
+        }
+      ],
+      "answer": "c",
+      "explanation": "The slides separate the upward **trend** (long-run growth, studied in Ch 7) from the **short-run fluctuations around trend**, which business cycle theory tries to explain (causes include oil price shocks, monetary policy, financial crises, pandemics).",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s6-06",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Dating recessions",
+      "tags": [
+        "ch6",
+        "recession-dating"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 10"
+      },
+      "prompt": "Which statement about the dating of recessions is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Statistics Canada officially declares when Canadian recessions begin and end"
+        },
+        {
+          "id": "b",
+          "text": "The Bank of Canada officially dates recessions in Canada, and the NBER does so in the U.S."
+        },
+        {
+          "id": "c",
+          "text": "In Canada no official body dates recessions; the C.D. Howe Business Cycle Council does it unofficially, while in the U.S. the NBER is the official authority"
+        },
+        {
+          "id": "d",
+          "text": "In both countries a recession begins automatically after two quarters of positive inflation"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Statistics Canada produces the data but **does not declare recessions**. The C.D. Howe Business Cycle Council dates Canadian cycles, but it is not an official authority; the **NBER** is the official authority in the United States.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s6-08",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Dating recessions",
+      "tags": [
+        "ch6",
+        "recession-dating"
+      ],
+      "difficulty": 2,
+      "source": {
+        "label": "Week 6 Lecture",
+        "ref": "wk 6 slides 5–6"
+      },
+      "prompt": "On the initial May data and the two-quarter rule, what would you conclude?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Canada was not in a technical recession because only one quarter was negative"
+        },
+        {
+          "id": "b",
+          "text": "Canada was definitely in a deep recession because GDP fell for two quarters"
+        },
+        {
+          "id": "c",
+          "text": "The data cannot be used because Statistics Canada does not produce real GDP numbers"
+        },
+        {
+          "id": "d",
+          "text": "Canada was in a technical recession in 2025Q4 and 2026Q1, but the small decline in 2026Q1 could easily be revised away"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Two consecutive negative quarters meet the technical definition, so the initial data implied a technical recession. But a −0.04% print is smaller than a typical revision (0.14 pp), so many economists **did not rush to declare a recession**.",
+      "shuffleOptions": true,
+      "scenario": "tech"
+    },
+    {
+      "id": "s6-09",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Dating recessions",
+      "tags": [
+        "ch6",
+        "recession-dating"
+      ],
+      "difficulty": 2,
+      "source": {
+        "label": "Week 6 Lecture",
+        "ref": "wk 6 slide 6"
+      },
+      "prompt": "If the −0.04% growth for 2026Q1 is revised up by the average revision of 0.14 percentage points, what is the revised growth rate? (percent)",
+      "answer": {
+        "value": 0.1,
+        "tolerance": 0.005,
+        "suffix": "%"
+      },
+      "explanation": "−0.04% + 0.14% = **+0.10%**. The quarter turns slightly positive, so Canada did **not** have two consecutive negative quarters (the lecture notes this is exactly what happened).",
+      "scenario": "tech"
+    },
+    {
+      "id": "s6-10",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Dating recessions",
+      "tags": [
+        "ch6",
+        "recession-dating"
+      ],
+      "difficulty": 2,
+      "source": {
+        "label": "Week 6 Lecture",
+        "ref": "wk 6 slide 7"
+      },
+      "prompt": "The C.D. Howe Business Cycle Council declares a recession when a downturn is persistent, pronounced and pervasive. Which of these correctly matches the three dimensions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Persistent = duration; pronounced = amplitude (depth); pervasive = scope (how widespread across the economy)"
+        },
+        {
+          "id": "b",
+          "text": "Persistent = scope; pronounced = duration; pervasive = amplitude"
+        },
+        {
+          "id": "c",
+          "text": "Persistent = amplitude; pronounced = scope; pervasive = duration"
+        },
+        {
+          "id": "d",
+          "text": "Persistent = inflation; pronounced = unemployment; pervasive = interest rates"
+        }
+      ],
+      "answer": "a",
+      "explanation": "The three P's map to **duration** (persistent), **amplitude** (pronounced) and **scope** (pervasive). The Council (like the NBER) looks at many indicators: real GDP, employment and output across sectors.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s6-12",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Business cycle",
+      "tags": [
+        "ch6",
+        "business-cycle"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slides 11–12"
+      },
+      "prompt": "What typically happens to the inflation rate over the business cycle?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It rises during recessions because firms raise prices to cover losses"
+        },
+        {
+          "id": "b",
+          "text": "It tends to rise during expansions (especially toward the end) and fall during recessions"
+        },
+        {
+          "id": "c",
+          "text": "It is constant over the business cycle"
+        },
+        {
+          "id": "d",
+          "text": "It falls during expansions as supply catches up with demand"
+        }
+      ],
+      "answer": "b",
+      "explanation": "In expansions demand is high relative to supply, so prices rise faster; in recessions demand is low relative to supply, so inflation falls and prices may even fall (deflation).",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s6-14",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Stocks and bonds",
+      "tags": [
+        "ch6",
+        "financial-system"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slides 15–16"
+      },
+      "prompt": "Which statement correctly contrasts stocks and bonds?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A stock is partial ownership with no maturity date and may pay dividends; a bond is a loan with a fixed maturity date promising to repay a fixed amount"
+        },
+        {
+          "id": "b",
+          "text": "A stock is a loan that must be repaid on a fixed date; a bond represents partial ownership of a firm"
+        },
+        {
+          "id": "c",
+          "text": "Stocks and bonds both have maturity dates, but only bonds pay dividends"
+        },
+        {
+          "id": "d",
+          "text": "Both are forms of ownership; the difference is only the issuing firm's size"
+        }
+      ],
+      "answer": "a",
+      "explanation": "**Stock** = partial ownership, a permanent claim that does not mature; holders may receive dividends and the price reflects expected profitability. **Bond** = essentially a loan from a household to a firm with a fixed maturity.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s6-15",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Bonds",
+      "tags": [
+        "ch6",
+        "financial-system"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 16"
+      },
+      "prompt": "You buy a 4-year coupon bond for $2,500 with a 4% annual coupon rate. In the final (fourth) year, how many dollars do you receive in total (final interest payment plus principal)?",
+      "answer": {
+        "value": 2600,
+        "tolerance": 0.5,
+        "prefix": "$"
+      },
+      "explanation": "Coupon = 4% × $2,500 = $100 each year. In year 4 you receive the $100 interest **plus the $2,500 principal** = **$2,600**."
+    },
+    {
+      "id": "s6-16",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Bonds",
+      "tags": [
+        "ch6",
+        "financial-system"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 16"
+      },
+      "prompt": "A discount bond is best described as a bond that…",
+      "options": [
+        {
+          "id": "a",
+          "text": "pays interest each year and repays the face value at maturity"
+        },
+        {
+          "id": "b",
+          "text": "represents partial ownership and pays dividends"
+        },
+        {
+          "id": "c",
+          "text": "is issued by banks and can be withdrawn at any time"
+        },
+        {
+          "id": "d",
+          "text": "pays no periodic interest and is issued below its face value, with the full face value repaid at maturity"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Unlike a coupon bond, a **discount bond** pays no interest during its life; the investor's return is the difference between the low purchase price and the face value received at maturity.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s6-17",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Financial intermediaries",
+      "tags": [
+        "ch6",
+        "financial-system"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slides 15–17"
+      },
+      "prompt": "Which of the following is a financial intermediary rather than a financial market?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A mutual fund that pools household savings and invests them in stocks and bonds"
+        },
+        {
+          "id": "b",
+          "text": "The stock market"
+        },
+        {
+          "id": "c",
+          "text": "The bond market"
+        },
+        {
+          "id": "d",
+          "text": "A firm's retained earnings"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Financial markets (stock and bond markets) connect savers to firms directly. **Financial intermediaries** (banks, mutual funds/ETFs, pension funds, insurance companies) channel funds from households to firms indirectly. Retained earnings are the firm's own profits, not part of the financial system.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s6-20",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Saving and investment",
+      "tags": [
+        "ch6",
+        "saving-investment"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slides 19–20"
+      },
+      "prompt": "What is investment I in this economy ($ billion)? (Y = C + I + G)",
+      "answer": {
+        "value": 200,
+        "tolerance": 0.5,
+        "prefix": "$"
+      },
+      "explanation": "I = Y − C − G = 900 − 520 − 180 = **$200 billion**. Since S = Y − C − G, national saving is also $200 billion.",
+      "scenario": "clo"
+    },
+    {
+      "id": "s6-21",
+      "type": "numeric",
+      "unit": 6,
+      "topic": "Saving and investment",
+      "tags": [
+        "ch6",
+        "saving-investment"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 20"
+      },
+      "prompt": "What is public saving in this economy ($ billion)? (Negative if a deficit.)",
+      "answer": {
+        "value": -50,
+        "tolerance": 0.5,
+        "prefix": "$"
+      },
+      "explanation": "S<sub>public</sub> = T − G − TR = 190 − 180 − 60 = **−$50 billion**, a budget deficit. (Check: S<sub>private</sub> = Y + TR − C − T = 900 + 60 − 520 − 190 = 250; 250 − 50 = 200 = I.)",
+      "scenario": "clo"
+    },
+    {
+      "id": "s6-23",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Saving and investment",
+      "tags": [
+        "ch6",
+        "saving-investment"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "slide 20"
+      },
+      "prompt": "In a closed economy, the government raises transfer payments TR by $10 billion, with Y, C, G and T unchanged. What happens to saving?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Private saving is unchanged and public saving falls by $10 billion, so total saving falls by $10 billion"
+        },
+        {
+          "id": "b",
+          "text": "Private saving falls by $10 billion and public saving is unchanged"
+        },
+        {
+          "id": "c",
+          "text": "Private saving rises by $10 billion, public saving falls by $10 billion, and total saving is unchanged"
+        },
+        {
+          "id": "d",
+          "text": "Public saving rises by $10 billion because the government spends more"
+        }
+      ],
+      "answer": "c",
+      "explanation": "S<sub>private</sub> = Y + TR − C − T rises by 10; S<sub>public</sub> = T − G − TR falls by 10. **TR cancels out of total saving** (S = Y − C − G), so S and I are unchanged.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s6-24",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Loanable funds",
+      "tags": [
+        "ch6",
+        "loanable-funds"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slides 22–23; wk 6 slide 12"
+      },
+      "prompt": "In the slides' market for loanable funds, which statement is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Demand for loanable funds rises as the interest rate rises; the central bank sets the equilibrium rate"
+        },
+        {
+          "id": "b",
+          "text": "Supply of loanable funds comes only from foreign lenders"
+        },
+        {
+          "id": "c",
+          "text": "The relevant interest rate is the nominal rate, which makes the model independent of inflation"
+        },
+        {
+          "id": "d",
+          "text": "Firms' demand falls as the interest rate rises; private saving rises as the interest rate rises; and the equilibrium real rate is determined by borrowers and lenders, not set by an authority"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Demand comes from firms financing investment (fewer projects are profitable at higher rates); supply comes from household and government saving (private saving rises with the rate). The **real** interest rate adjusts so that quantities demanded and supplied are equal; **no authority sets it** (wk 6 slide 12).",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s6-25",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Loanable funds",
+      "tags": [
+        "ch6",
+        "loanable-funds"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 24"
+      },
+      "prompt": "Technological change makes investment projects more profitable. In the loanable funds market…",
+      "options": [
+        {
+          "id": "a",
+          "text": "supply shifts right, so the real interest rate falls and the quantity rises"
+        },
+        {
+          "id": "b",
+          "text": "demand shifts right, so the real interest rate and the quantity of funds loaned both rise"
+        },
+        {
+          "id": "c",
+          "text": "demand shifts left, so the real interest rate and quantity fall"
+        },
+        {
+          "id": "d",
+          "text": "demand shifts right, so the real interest rate falls and the quantity rises"
+        }
+      ],
+      "answer": "b",
+      "explanation": "More profitable projects raise firms' **demand** for loanable funds (Figure 6.4). With supply unchanged, equilibrium moves up the supply curve: **higher real rate, more funds**.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s6-26",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Loanable funds",
+      "tags": [
+        "ch6",
+        "loanable-funds"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 25"
+      },
+      "prompt": "Workers become worried about losing their jobs and increase their saving. In the loanable funds market…",
+      "options": [
+        {
+          "id": "a",
+          "text": "supply shifts left, so the real interest rate rises and the quantity falls"
+        },
+        {
+          "id": "b",
+          "text": "demand shifts right, so the real interest rate and quantity rise"
+        },
+        {
+          "id": "c",
+          "text": "supply shifts right, so the real interest rate rises and the quantity rises"
+        },
+        {
+          "id": "d",
+          "text": "supply shifts right, so the real interest rate falls and the quantity of funds rises"
+        }
+      ],
+      "answer": "d",
+      "explanation": "Higher saving at every interest rate is an **increase in supply** (Figure 6.5): the equilibrium real rate falls and the quantity of loanable funds (saving = investment) rises.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s6-27",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Budget deficits and crowding out",
+      "tags": [
+        "ch6",
+        "loanable-funds",
+        "crowding-out"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 26"
+      },
+      "prompt": "How do the slides (and Hubbard) treat a government budget deficit in the market for loanable funds, and what is crowding out?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The government borrows from households, which reduces national saving and shifts supply left; the real rate rises and private investment falls (crowding out)"
+        },
+        {
+          "id": "b",
+          "text": "The government adds to demand for loanable funds; the real rate rises but private investment is unaffected"
+        },
+        {
+          "id": "c",
+          "text": "The deficit shifts supply right because the government is spending more; the real rate falls"
+        },
+        {
+          "id": "d",
+          "text": "A deficit has no effect on the market for loanable funds when the economy is closed"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Slide 26: a deficit means **lower public (and national) saving**, so supply of funds available to firms shifts **left**. The real interest rate rises and private investment falls: higher government spending 'crowds out' private expenditure including investment. A surplus does the opposite.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s6-28",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Application: AI build-up",
+      "tags": [
+        "ch6",
+        "loanable-funds"
+      ],
+      "difficulty": 2,
+      "source": {
+        "label": "Week 6 Lecture",
+        "ref": "wk 6 slides 14–15"
+      },
+      "prompt": "Tech firms are borrowing massive amounts to build infrastructure for generative AI. Using the loanable funds model (nothing else changes), the effect on the real interest rate and the quantity of loanable funds is…",
+      "options": [
+        {
+          "id": "a",
+          "text": "The real interest rate falls and the quantity of loanable funds increases"
+        },
+        {
+          "id": "b",
+          "text": "The real interest rate rises and the quantity of loanable funds decreases"
+        },
+        {
+          "id": "c",
+          "text": "The real interest rate rises and the quantity of loanable funds (saving and investment) increases"
+        },
+        {
+          "id": "d",
+          "text": "The real interest rate is unchanged because only demand changes"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Heavy borrowing for AI infrastructure is an **increase in the demand for loanable funds** (right shift). Along an unchanged supply curve, the equilibrium real interest rate and quantity both rise; since S = I, saving and investment rise too.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s6-29",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Application: Productivity Mega Deduction",
+      "tags": [
+        "ch6",
+        "loanable-funds",
+        "taxes"
+      ],
+      "difficulty": 3,
+      "source": {
+        "label": "Week 6 Lecture",
+        "ref": "wk 6 slides 18–19"
+      },
+      "prompt": "The proposed Productivity Mega Deduction lets businesses immediately write off 100% of the cost of eligible capital property. Considering only its effect on firms' investment incentives (no change in the deficit), what happens in the loanable funds market?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Demand shifts right (higher after-tax profitability of investment), raising the real interest rate and the quantity of loanable funds"
+        },
+        {
+          "id": "b",
+          "text": "Supply shifts right, lowering the real interest rate and raising the quantity"
+        },
+        {
+          "id": "c",
+          "text": "Demand shifts left (higher after-tax profits make firms borrow less), lowering the real interest rate"
+        },
+        {
+          "id": "d",
+          "text": "Neither curve shifts because taxes do not affect investment decisions"
+        }
+      ],
+      "answer": "a",
+      "explanation": "A tax break that lets firms deduct capital costs at once raises the **after-tax return** on investment projects, so firms demand more loanable funds at every rate: **D shifts right** and both i and L rise. (If the lost tax revenue widened the deficit, supply would also shift left, pushing the real rate up even more.)",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s6-30",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Loanable funds",
+      "tags": [
+        "ch6",
+        "loanable-funds",
+        "business-cycle"
+      ],
+      "difficulty": 2,
+      "source": {
+        "label": "Week 6 Lecture",
+        "ref": "wk 6 slides 22–23"
+      },
+      "prompt": "Forecasters now predict that a recession is coming, and borrowers and lenders believe them. What happens in the loanable funds market (assuming only the expected profitability of investment changes)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Demand shifts right, so the real interest rate and the quantity of loanable funds both rise"
+        },
+        {
+          "id": "b",
+          "text": "Demand shifts left, so the real interest rate and the quantity of loanable funds both fall"
+        },
+        {
+          "id": "c",
+          "text": "Supply shifts left, so the real rate rises and the quantity falls"
+        },
+        {
+          "id": "d",
+          "text": "Demand shifts left, so the real interest rate falls and the quantity rises"
+        }
+      ],
+      "answer": "b",
+      "explanation": "This is the mirror image of textbook problem 2.10 (expansion forecast → D right). A recession forecast lowers the **expected profitability** of new plant and equipment: **D shifts left**; equilibrium moves down along S: lower real rate and less saving and investment.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s6-31",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Loanable funds and taxes",
+      "tags": [
+        "ch6",
+        "loanable-funds",
+        "taxes"
+      ],
+      "difficulty": 2,
+      "source": {
+        "label": "Week 6 Lecture",
+        "ref": "wk 6 slides 24–25"
+      },
+      "prompt": "Savers are taxed on nominal interest income. If the government switched to taxing only the real interest income, what would happen in the loanable funds market?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Demand shifts right: firms borrow more because inflation is lower"
+        },
+        {
+          "id": "b",
+          "text": "Supply shifts left: savers pay less tax and so save less"
+        },
+        {
+          "id": "c",
+          "text": "Supply of loanable funds shifts right: the after-tax real return to saving rises, so the real interest rate falls and saving and investment rise"
+        },
+        {
+          "id": "d",
+          "text": "Nothing, since only the nominal rate matters for the real market"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Taxing real rather than nominal interest raises savers' **after-tax real return** at any real rate, so households save more: **S shifts right**; equilibrium real rate falls and the quantity of loanable funds (saving and investment) rises.",
+      "shuffleOptions": true
+    }
+  ]
+}

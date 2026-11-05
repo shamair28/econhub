@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>ECON 1BB3 — Term Test 2 Practice</title>
+<link rel="stylesheet" href="../practice/graph.css?v=5">
+<link rel="stylesheet" href="../practice/engine.css?v=8">
+<style>
+  html, body { margin: 0; padding: 0; }
+  /* course accent: ECON 1BB3 uses teal so it is distinct from the 1B03 test */
+  .pe { --pe-accent: #0D9488; --pe-accent-2: #14B8A6; --pe-accent-soft: #F0FDFA; }
+  @media (prefers-color-scheme: dark) { .pe:not([data-theme="light"]) { --pe-accent: #2DD4BF; --pe-accent-2: #5EEAD4; --pe-accent-soft: #042F2E; } }
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script src="../practice/graph.js?v=5"></script>
+<script src="../practice/engine.js?v=10"></script>
+<script>
+PracticeEngine.mount(document.getElementById('app'), {
+  id: '1BB3-tt2',
+  course: 'ECON 1BB3',
+  courseTitle: 'Introductory Macroeconomics',
+  title: 'Term Test 2 Practice',
+  subtitle: 'Chapters 4–8 · Fall 2026 (Dr. Letendre) · Test date: Saturday November 7, 2026, 9:00 am',
+  homeHref: '/',
+  banks: [
+    'banks/1BB3-mt2-text-ch4.json',
+    'banks/1BB3-mt2-text-ch5.json',
+    'banks/1BB3-mt2-text-ch6.json',
+    'banks/1BB3-mt2-text-ch7.json',
+    'banks/1BB3-mt2-text-ch8.json',
+    'banks/1BB3-mt2-slides-ch4.json',
+    'banks/1BB3-mt2-drill-ch5.json',
+    'banks/1BB3-mt2-slides-ch6.json',
+    'banks/1BB3-mt2-slides-ch7.json',
+    'banks/1BB3-mt2-slides-ch8.json'
+  ],
+  scope: {
+    id: 'f26-tt2',
+    label: 'Fall 2026 Term Test 2',
+    units: [4, 5, 6, 7, 8],
+    note: 'Term Test 2 covers **Chapters 4–8**: 40 multiple-choice questions in 80 minutes (Ch. 4: 6 · Ch. 5: 6 · Ch. 6: 8 · Ch. 7: 9 · Ch. 8: 11). **Textbook Problems** are every end-of-chapter review question and problem from the 5th Canadian edition, made auto-gradable; there is no official key, so the answers were worked out independently and each explanation shows the working. A multi-part problem is one question whose parts appear one at a time. No Ch. 5 slides were posted, so Ch. 5 gets generated concept drills instead.'
+  },
+  unitWord: 'Ch.',
+  unitNoun: 'chapter',
+  unitNames: {
+    4: 'GDP: Measuring Total Production and Income',
+    5: 'Unemployment and Inflation',
+    6: 'Growth, the Financial System & Business Cycles',
+    7: 'Long-Run Economic Growth',
+    8: 'Aggregate Expenditure & Output in the Short Run'
+  },
+  exam: {
+    questions: 40, minutes: 80,
+    /* Dr. Letendre's Week 8 lecture: questions per chapter on Term Test 2 */
+    blueprintTitle: 'By chapter (test weighting)',
+    realTitle: 'Simulate the real Term Test 2',
+    realNote: 'multiple choice only · Dr. Letendre’s chapter split (6 · 6 · 8 · 9 · 11)',
+    realTypes: ['mc'],
+    mixLabel: 'Real Term Test 2 distribution',
+    groupWord: 'chapter',
+    blueprint: [
+      { label: 'Ch. 4 · GDP', n: 6, tags: ['ch4'] },
+      { label: 'Ch. 5 · Unemployment & inflation', n: 6, tags: ['ch5'] },
+      { label: 'Ch. 6 · Growth, finance & cycles', n: 8, tags: ['ch6'] },
+      { label: 'Ch. 7 · Long-run growth', n: 9, tags: ['ch7'] },
+      { label: 'Ch. 8 · Aggregate expenditure', n: 11, tags: ['ch8'] }
+    ]
+  }
+});
+</script>
+</body>
+</html>
