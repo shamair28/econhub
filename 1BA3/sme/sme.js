@@ -13,6 +13,7 @@
 
   const WEEKS = [];
   const byId = {};
+  const PAPERS = {};
   const slug = s => String(s).toLowerCase().replace(/<[^>]+>/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
   const strip = s => String(s || '').replace(/<[^>]+>/g, '');
   const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
@@ -30,7 +31,8 @@
       }));
       WEEKS.push(w); byId[w.id] = w;
       WEEKS.sort((a, b) => a.num - b.num);
-    }
+    },
+    addPaper(p) { PAPERS[p.id] = p; }
   };
 
   /* ── assignment config (from Dr. Kassaye's announcement) ── */
@@ -46,10 +48,9 @@
       qs: [['w1', 'Intro to OB'], ['w2', 'Abilities, Personality, Values, Attitudes'], ['w3', 'Perception'], ['w4', 'Motivation'], ['w4', 'Motivation']]
     },
     {
-      /* expected map: last year's (Nov 2025, McAteer) paper; last year's #1 matched this term's #1 topic for topic */
+      /* question → week map, verified */
       id: 'a2', short: 'A#2', name: 'Assignment #2', stakes: '10% of your grade',
       when: 'Outline: Week 10 (Nov 9–13)',
-      basis: 'Expected map, not announced yet. It follows last year’s Assignment #2 (Nov 2025, Dr. McAteer’s section). Last year’s Assignment #1 matched this term’s #1 topic for topic, so this is the best guide available. Each week page has last year’s question as an answer-practice prompt with a model answer. Confirm the map when Dr. Kassaye announces it.',
       qs: [['w5', 'Decision Making'], ['w5', 'Communication'], ['w7', 'Groups, Teams &amp; Groupthink'], ['w8', 'Culture &amp; Socialization'], ['w9', 'Leadership (path–goal)']]
     }
   ];
@@ -113,6 +114,7 @@
       <div class="dsec">SME Prep weeks</div>
       <a class="dlink ${cur === '' ? 'here' : ''}" href="#/"><span class="dnum">★</span><span class="dtxt"><span class="dt">Overview &amp; question map</span></span></a>
       ${WEEKS.map(w => `<a class="dlink ${cur === w.id ? 'here' : ''}" href="#/${w.id}" style="--wk:var(--${w.id})"><span class="dnum wk">W${w.num}</span><span class="dtxt"><span class="dt">${w.title}</span><span class="dw muted">${w.chapterLine}</span></span></a>`).join('')}
+      ${Object.values(PAPERS).map(pp => `<a class="dlink ${cur === pp.id ? 'here' : ''}" href="#/${pp.id}"><span class="dnum">📝</span><span class="dtxt"><span class="dt">${pp.title}</span><span class="dw muted">Questions &amp; model answers</span></span></a>`).join('')}
       <div class="dsec">Site</div>
       <a class="dlink" href="/"><span class="dnum">⌂</span><span class="dtxt"><span class="dt">Study hub home</span><span class="dw muted">All courses</span></span></a>`;
   }
@@ -135,6 +137,7 @@
     const h = location.hash.replace(/^#\/?/, '');
     const [wid, tab] = h.split('/');
     if (wid && byId[wid]) renderWeek(byId[wid], tab || 'study');
+    else if (wid && PAPERS[wid]) renderPaper(PAPERS[wid], tab || 'summary');
     else renderLanding();
   }
   window.addEventListener('hashchange', () => {
@@ -162,6 +165,7 @@
         <h3>${a.name}</h3>
         <div class="sub">${a.stakes} · ${a.when}</div>
         ${a.basis ? `<div class="note info" style="margin:10px 0 4px"><span class="nt">Expected map</span>${a.basis}</div>` : ''}
+        ${PAPERS[a.id] ? `<a class="paper-link" href="#/${a.id}">📝 Last year’s ${a.name} with model answers <span aria-hidden="true">→</span></a>` : ''}
         ${a.qs.map(([wid, topic], i) => {
           const w = byId[wid]; const isMine = claims[a.id] === i;
           return `<div class="qrow ${isMine ? 'mine' : ''}" style="--wk:var(--${wid})">
@@ -639,6 +643,52 @@
       $('[data-act="reveal"]', card).onclick = e => { const m = $('.model', card); m.classList.toggle('hide'); e.currentTarget.textContent = m.classList.contains('hide') ? 'Reveal model answer' : 'Hide model answer'; };
     });
     cleanup.push(() => timers.forEach(f => f()));
+  }
+
+  /* ════════════════ PAST PAPER (last year's question sheet + model answers) ════════════════ */
+  function renderPaper(pp, mode) {
+    if (!['questions', 'summary', 'full'].includes(mode)) mode = 'summary';
+    const a = ASSIGNMENTS.find(x => x.id === pp.id);
+    setCrumbs(`<a href="#/" style="color:var(--muted)">SME Prep</a><span>›</span><span style="color:var(--text)">${pp.title}</span>`, 'var(--w5)');
+    document.title = pp.title + ' · SME Prep';
+    const total = pp.questions.reduce((t, q) => t + q.parts.reduce((u, x) => u + x.marks, 0), 0);
+    const fmtM = m => (m === 1 ? '1 mark' : `${m} marks`);
+    const modes = [['questions', 'Questions only'], ['summary', 'Summary answers'], ['full', 'Full model answers']];
+    app().innerHTML = `
+      <section class="hero paper-hero">
+        <div class="eyebrow">COMM 1BA3 · ${a ? a.name : 'Assignment'} · past paper</div>
+        <h1>${pp.title}: <span class="grad">questions &amp; model answers</span></h1>
+        <p class="lede">${pp.source} Every part shows its marks. <b>Summary answers</b> hit each mark in as few words as possible, with each bullet’s weight in brackets. <b>Full model answers</b> show the complete reasoning. Notes marked <b>13th ed.</b> flag where the current textbook changes or adds to the answer.</p>
+        <div class="hero-meta">
+          <span class="chip">${pp.questions.length} questions · ${total} marks</span>
+          <span class="chip">50 min · closed book · ~10 min per question</span>
+          <span class="chip">Name → Define → Apply → Recommend</span>
+        </div>
+      </section>
+      <nav class="tabs" role="tablist">${modes.map(([id, label]) => `<a class="tab ${mode === id ? 'on' : ''}" href="#/${pp.id}/${id}" role="tab" aria-selected="${mode === id}">${label}</a>`).join('')}</nav>
+      <div class="note tip" style="margin:14px 0 4px"><span class="nt">Self-test first</span>Use <b>Questions only</b>, give yourself 10 minutes per question, write your answer, then switch to <b>Summary answers</b> to check which marks you hit.</div>
+      <div class="paper">
+        ${pp.questions.map(q => {
+          const w = byId[q.week];
+          let lastL = null;
+          return `<article class="card pq" id="q${q.n}" style="--wk:var(--${q.week})">
+            <header class="pq-head">
+              <span class="pq-n">Q${q.n}</span>
+              <div><h2>${q.topic}</h2><a class="pq-wk" href="#/${q.week}">Week ${w ? w.num : q.week.slice(1)}${w ? ' · ' + w.chapterLine : ''} · study page →</a></div>
+              <span class="pq-total">${q.parts.reduce((u, x) => u + x.marks, 0)} marks</span>
+            </header>
+            ${q.setup ? `<p class="pq-setup">${q.setup}</p>` : ''}
+            ${q.parts.map(x => {
+              const cont = x.l === lastL; lastL = x.l;
+              return `<section class="pp">
+                <div class="pp-q"><span class="pp-l">${cont ? '' : '(' + x.l + ')'}</span><div class="pp-qt">${x.q}</div><span class="pp-m">${fmtM(x.marks)}</span></div>
+                ${mode === 'questions' ? '' : `<div class="pp-a ${mode}">${mode === 'full' ? x.full : x.short}</div>`}
+                ${mode !== 'questions' && x.ed13 ? `<div class="note ed13"><span class="nt">13th ed.</span>${x.ed13}</div>` : ''}
+              </section>`;
+            }).join('')}
+          </article>`;
+        }).join('')}
+      </div>`;
   }
 
   /* ── boot ── */

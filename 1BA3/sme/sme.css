@@ -573,3 +573,36 @@ body.noscroll { overflow: hidden; }
 @media (max-width: 600px) { .topbar { gap: 8px; } .hub-btn { display: none; } }
 /* let wide tables scroll inside their card instead of stretching grid tracks */
 .items > *, .stack > *, .trapboard > *, .qz-review > *, .ap-wrap > *, .model > * { min-width: 0; }
+
+/* ── past paper (last year's question sheet + model answers) ── */
+.paper-link { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 12px; padding: 11px 14px; border-radius: 10px;
+  border: 1px dashed color-mix(in srgb, var(--w5) 55%, transparent); background: color-mix(in srgb, var(--w5) 8%, transparent);
+  color: var(--text); font-weight: 650; font-size: 14px; text-decoration: none; }
+.paper-link:hover { border-style: solid; text-decoration: none; }
+.paper { display: grid; gap: 18px; margin-top: 18px; }
+.pq { border-top: 3px solid var(--wk); }
+.pq-head { display: grid; grid-template-columns: auto 1fr auto; gap: 14px; align-items: center; }
+.pq-n { font-weight: 800; font-size: 18px; color: var(--wk); background: color-mix(in srgb, var(--wk) 14%, transparent); border-radius: 10px; padding: 6px 12px; }
+.pq-head h2 { font-size: 20px; }
+.pq-wk { font-size: 13px; color: var(--muted); }
+.pq-total { font-size: 13px; font-weight: 700; color: var(--text-2); white-space: nowrap; }
+.pq-setup { margin: 14px 0 0; font-style: italic; color: var(--text-2); }
+.pp { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--border); }
+.pp-q { display: grid; grid-template-columns: 2.4em 1fr auto; gap: 10px; align-items: baseline; }
+.pp-l { font-weight: 800; color: var(--wk); }
+.pp-qt { font-weight: 600; color: var(--text); }
+.pp-m { font-size: 12.5px; font-weight: 700; color: var(--wk); border: 1px solid color-mix(in srgb, var(--wk) 40%, transparent); border-radius: 999px; padding: 2px 9px; white-space: nowrap; }
+.pp-a { margin: 10px 0 0 2.4em; color: var(--text-2); font-size: 15px; }
+.pp-a p { margin: 0 0 8px; }
+.pp-a ul, .pp-a ol { margin: 4px 0 8px; padding-left: 20px; }
+.pp-a li { margin: 3px 0; }
+.pp-a.summary { border-left: 3px solid color-mix(in srgb, var(--wk) 55%, transparent); padding-left: 12px; }
+.pp .note.ed13 { margin: 10px 0 0 2.4em; border-left-color: var(--lec); background: var(--lec-bg); font-size: 14px; }
+.pp .note.ed13 .nt::before { content: "★ "; color: var(--lec); }
+@media (max-width: 640px) {
+  .pq-head { grid-template-columns: auto 1fr; }
+  .pq-total { grid-column: 1 / -1; }
+  .pp-q { grid-template-columns: 2em 1fr; }
+  .pp-m { grid-column: 2; justify-self: start; }
+  .pp-a, .pp .note.ed13 { margin-left: 0; }
+}
