@@ -111,8 +111,8 @@ SME.addPaper({
 <p>The model’s value is that it shows <b>every point where errors creep in</b>. For example, humour encoded in an email is easily decoded wrongly.</p>
 <p><b>On the stage count:</b> the textbook describes the model in prose and never numbers it. Dr. Kassaye’s slide 4 uses <b>seven</b> steps, with <b>Thinking</b> before encoding. For a “6-stage” question, give these six; mention that thinking (forming the idea) comes first if you have room.</p>`,
           short: `<ul>
-<li>Encode → transmit → perceive (0.5)</li>
-<li>→ decode → understand → feedback (0.5)</li>
+<li><b>Encode</b> (sender turns thoughts into words or signals) → <b>transmit</b> (sent through a channel) → <b>perceive</b> (receiver notices it) (0.5)</li>
+<li><b>Decode</b> (receiver interprets it) → <b>understand</b> (reaches the intended meaning) → <b>feedback</b> (confirms it was received and understood) (0.5)</li>
 <li>Each stage is a place errors can happen, e.g., humour decoded wrongly by email (0.5)</li>
 </ul>` },
 
@@ -197,8 +197,8 @@ SME.addPaper({
 <li><b>Completion:</b> a final burst of activity at the deadline.</li>
 </ul>`,
           short: `<ul>
-<li><b>Five-stage:</b> forming → storming → norming → performing → adjourning (1.5)</li>
-<li><b>Punctuated equilibrium</b> (deadline groups): first meeting → Phase 1 (inertia) → midpoint transition → Phase 2 → final burst at the deadline (1.5)</li>
+<li><b>Five-stage model</b> (new groups): <b>forming</b> (testing the waters) → <b>storming</b> (conflict over roles) → <b>norming</b> (norms agreed, cohesion) → <b>performing</b> (energy goes to the task) → <b>adjourning</b> (the group disperses) (1.5)</li>
+<li><b>Punctuated equilibrium</b> (Gersick, deadline groups): <b>first meeting</b> (sets the approach) → <b>Phase 1</b> (inertia, little progress) → <b>midpoint transition</b> (realizes time is short, changes approach) → <b>Phase 2</b> (carries out the new plan) → <b>final burst</b> of work at the deadline (1.5)</li>
 </ul>` },
 
         { l: 'b', marks: 1,
@@ -345,7 +345,13 @@ SME.addPaper({
 <li><b>Positive framing:</b> viewing the new situation positively, as opportunities rather than threats.</li>
 </ol>
 <p>The others are general socializing, boss-relationship building, networking and job change negotiation. Feedback and information seeking matter most for <b>sensemaking</b>.</p>`,
-          short: `<ul><li>Feedback seeking · information seeking · relationship building · positive framing (others: networking, boss-relationship building, general socializing, job change negotiation) (1)</li></ul>`,
+          short: `<ul>
+<li><b>Feedback seeking:</b> asking how you’re performing (0.25)</li>
+<li><b>Information seeking:</b> asking about your job, role, group and organization (0.25)</li>
+<li><b>Relationship building:</b> starting interactions and relationships with co-workers (0.25)</li>
+<li><b>Positive framing:</b> seeing the new situation as opportunities, not threats (0.25)</li>
+<li><i>Alternatives:</i> networking · boss-relationship building · general socializing · job change negotiation</li>
+</ul>`,
           ed13: 'The 13th edition reports that <b>positive framing</b> is the <b>strongest predictor</b> of most socialization outcomes and job change negotiation the weakest, so positive framing is the best one to include. Note: Dr. Kassaye’s slide 24 lists seven behaviours and leaves positive framing out.' }
       ] },
 
@@ -379,7 +385,10 @@ SME.addPaper({
 </ul>`,
           short: `<ul>
 <li>Core idea: leaders <b>clarify paths</b> to valued goals, which raises satisfaction, leader acceptance and effort (1)</li>
-<li>Four behaviours: <b>directive · supportive · participative · achievement-oriented</b>, each defined in a phrase (2)</li>
+<li><b>Directive:</b> schedules work, sets standards, says what’s expected (like initiating structure) (0.5)</li>
+<li><b>Supportive:</b> friendly, approachable, concerned for employee welfare (like consideration) (0.5)</li>
+<li><b>Participative:</b> consults employees and considers their opinions (0.5)</li>
+<li><b>Achievement-oriented:</b> sets challenging goals, encourages effort, expresses confidence (0.5)</li>
 <li>Employee characteristics: need for achievement → achievement-oriented; prefers direction → directive; low ability → directive and coaching (1.5)</li>
 <li>Environment: clear routine task → directive is redundant; ambiguous task → directive or participative; frustrating job → supportive (1.5)</li>
 <li>Lessons: no one best style; avoid redundant behaviour; offset what demotivates; better at predicting satisfaction than performance (1)</li>
