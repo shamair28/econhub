@@ -17,7 +17,7 @@ window.HUB_SITE = {
     {
       code: '1B03', dept: 'ECON',
       title: 'Introductory Microeconomics',
-      book: '<em>Microeconomics</em> — Hubbard, O’Brien, Serletis &amp; Childs, 4th Canadian Ed.',
+      book: '<em>Microeconomics</em> — Hubbard, O’Brien, Serletis &amp; Childs, 5th Canadian Ed.',
       chapters: [
         { n: 1, title: 'Economics: Foundations and Models', week: 1 },
         { n: 2, title: 'Trade-offs, Comparative Advantage, and the Market System', week: 2 },
@@ -46,14 +46,15 @@ window.HUB_SITE = {
     {
       code: '1BB3', dept: 'ECON',
       title: 'Introductory Macroeconomics',
-      book: '<em>Macroeconomics</em> — Hubbard, O’Brien, Serletis &amp; Childs, 4th Canadian Ed.',
+      book: '<em>Macroeconomics</em> — Hubbard, O’Brien, Serletis &amp; Childs, 5th Canadian Ed.',
       chapters: [
         { n: 1, title: 'Economics: Foundations and Models', week: 1 },
         { n: 2, title: 'Trade-offs, Comparative Advantage, and the Market System', week: 1 },
         { n: 3, title: 'Where Prices Come From: The Interaction of Supply and Demand', week: 2 },
         { n: 4, title: 'GDP: Measuring Total Production and Income', week: 3 },
         { n: 6, title: 'Economic Growth, the Financial System, and Business Cycles', week: 5 },
-        { n: 7, title: 'Long-Run Economic Growth: Sources and Policies', week: 6 }
+        { n: 7, title: 'Long-Run Economic Growth: Sources and Policies', week: 6 },
+        { n: 8, title: 'Aggregate Expenditure and Output in the Short Run', week: 7 }
       ],
       tools: [
         {
