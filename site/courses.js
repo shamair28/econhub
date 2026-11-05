@@ -52,6 +52,7 @@ window.HUB_SITE = {
         { n: 2, title: 'Trade-offs, Comparative Advantage, and the Market System', week: 1 },
         { n: 3, title: 'Where Prices Come From: The Interaction of Supply and Demand', week: 2 },
         { n: 4, title: 'GDP: Measuring Total Production and Income', week: 3 },
+        { n: 5, title: 'Unemployment and Inflation', week: 4 },
         { n: 6, title: 'Economic Growth, the Financial System, and Business Cycles', week: 5 },
         { n: 7, title: 'Long-Run Economic Growth: Sources and Policies', week: 6 },
         { n: 8, title: 'Aggregate Expenditure and Output in the Short Run', week: 7 }
