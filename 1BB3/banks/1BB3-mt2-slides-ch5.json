@@ -1,0 +1,616 @@
+{
+  "schema": "practice-bank/v1",
+  "id": "1BB3-mt2-slides-ch5",
+  "course": "ECON 1BB3",
+  "title": "Ch. 5 Lecture Slides",
+  "defaultSource": {
+    "label": "Ch. 5 Lecture Slides",
+    "kind": "slides"
+  },
+  "defaultUnit": 5,
+  "questions": [
+    {
+      "id": "s5-01",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Labour Force Survey",
+      "tags": [
+        "ch5",
+        "unemployment"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 3"
+      },
+      "prompt": "In Statistics Canada's Labour Force Survey, a person aged 15 or over without a job is classified as <b>unemployed</b> only if the person",
+      "options": [
+        "is receiving Employment Insurance benefits",
+        "has looked for work in the last 4 weeks",
+        "has been without a job for at least 4 weeks",
+        "has no source of income"
+      ],
+      "answer": "b",
+      "explanation": "The key criterion on the slide is that the person **has looked for work in the last 4 weeks** (and is without a job). Someone without a job who has not searched is classified as *not in the labour force*, whether or not they receive EI.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s5-02",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Measuring unemployment",
+      "tags": [
+        "ch5",
+        "unemployment"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 6"
+      },
+      "prompt": "Which of the following would cause the measured unemployment rate to <b>overstate</b> true joblessness?",
+      "options": [
+        "Discouraged workers stop looking for work",
+        "Part-time workers who want full-time jobs are counted as fully employed",
+        "Some people report looking for work only to remain eligible for EI",
+        "Workers increase their search effort after a recession"
+      ],
+      "answer": "c",
+      "explanation": "Overstating: people who claim to look for work to stay eligible for EI are counted as unemployed even though they are not really searching (and some workers hide informal or illegal employment). The first two options *understate* joblessness: discouraged workers drop out of the labour force, and underemployed part-timers are counted as fully employed.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "s5-03",
+      "type": "numeric",
+      "unit": 5,
+      "topic": "Unemployment and participation rates",
+      "tags": [
+        "ch5",
+        "unemployment"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 5"
+      },
+      "prompt": "In a country the working-age population is 30,000, of whom 18,000 are employed and 2,000 are unemployed (the rest are not in the labour force). What is the <b>unemployment rate</b>, in percent?",
+      "answer": {
+        "value": 10,
+        "tolerance": 0.05,
+        "display": "10%",
+        "hint": "Percent"
+      },
+      "explanation": "Labour force = 18,000 + 2,000 = 20,000. Unemployment rate = 2,000 ÷ 20,000 × 100 = **10%**. (The participation rate is 20,000 ÷ 30,000 × 100 ≈ 66.7%.) Dividing by the working-age population instead of the labour force is the classic mistake."
+    },
+    {
+      "id": "s5-04",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Types of unemployment",
+      "tags": [
+        "ch5",
+        "unemployment"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slides 10–14"
+      },
+      "prompt": "A manufacturing plant closes because demand for its cars collapses in a recession, and its workers are laid off. This is mainly which type of unemployment?",
+      "options": [
+        "Frictional",
+        "Structural",
+        "Seasonal",
+        "Cyclical"
+      ],
+      "answer": "d",
+      "explanation": "**Cyclical unemployment** is caused by a business-cycle recession: demand for goods and services falls, firms cut production and lay off workers (the slide's example is the 2009 Chrysler plant closure in Brampton). Frictional = matching/search; structural = persistent skills mismatch; seasonal = predictable changes in labour demand through the year.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s5-05",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Natural rate of unemployment",
+      "tags": [
+        "ch5",
+        "unemployment"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 15"
+      },
+      "prompt": "According to the slides, the <b>natural rate of unemployment</b> (the full-employment rate) equals",
+      "options": [
+        "frictional plus structural unemployment",
+        "frictional plus cyclical unemployment",
+        "structural plus cyclical unemployment",
+        "the sum of all four types of unemployment"
+      ],
+      "answer": "a",
+      "explanation": "The natural rate = **frictional + structural** unemployment; it is the rate when cyclical unemployment is zero (full employment). It is a theoretical concept that must be estimated, since it cannot be measured directly. Seasonal unemployment is handled through seasonal adjustment, not through the natural rate.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s5-06",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Structural vs frictional",
+      "tags": [
+        "ch5",
+        "unemployment"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slides 10–11"
+      },
+      "prompt": "A 45-year-old worker whose skills no longer match the jobs available in her region needs retraining before she can get a job. Compared with frictional unemployment, her unemployment is",
+      "options": [
+        "shorter and always avoidable",
+        "associated with longer unemployment spells",
+        "caused by a fall in aggregate demand",
+        "predictable and tied to the time of year"
+      ],
+      "answer": "b",
+      "explanation": "Structural unemployment comes from a persistent mismatch between workers' skills and the jobs available, and is **associated with longer unemployment spells**. Frictional unemployment is short-term job-search unemployment (and can even improve job matches).",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s5-07",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Factors behind unemployment",
+      "tags": [
+        "ch5",
+        "unemployment"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 16"
+      },
+      "prompt": "Which of the following is <b>not</b> one of the three key factors the slides use to explain frictional and structural unemployment?",
+      "options": [
+        "Government policies",
+        "Labour unions",
+        "Efficiency wages",
+        "The CPI basket"
+      ],
+      "answer": "d",
+      "explanation": "The three factors are **government policies** (e.g. EI, minimum wage laws), **labour unions** and **efficiency wages**. The CPI basket is part of measuring inflation, not explaining unemployment.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s5-08",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Employment Insurance",
+      "tags": [
+        "ch5",
+        "unemployment",
+        "policy"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 18"
+      },
+      "prompt": "How does Employment Insurance (EI) tend to affect unemployment, according to the slides?",
+      "options": [
+        "It raises the opportunity cost of searching, so spells shorten",
+        "It lowers the opportunity cost of job search, so workers may search longer before accepting a job",
+        "It has no effect because benefits are taxed",
+        "It raises cyclical unemployment only"
+      ],
+      "answer": "b",
+      "explanation": "EI replaces part of lost earnings (55% up to a weekly maximum), which **lowers the opportunity cost of job search**. Workers search longer for a better match, which can lengthen unemployment but may improve match quality and productivity.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s5-09",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Efficiency wages",
+      "tags": [
+        "ch5",
+        "unemployment"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 21"
+      },
+      "prompt": "An <b>efficiency wage</b> is",
+      "options": [
+        "the minimum wage set by a province",
+        "a wage negotiated by a labour union",
+        "an above-market wage a firm pays to raise workers' productivity",
+        "the wage at which the labour market clears"
+      ],
+      "answer": "c",
+      "explanation": "An efficiency wage is an **above-market wage paid to increase productivity** (workers work hard to keep a well-paid job when monitoring is costly). Because it keeps wages above equilibrium it is another reason unemployment exists even when cyclical unemployment is zero.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s5-10",
+      "type": "mc",
+      "unit": 5,
+      "topic": "GDP deflator vs CPI",
+      "tags": [
+        "ch5",
+        "inflation",
+        "price-level"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slides 22–23"
+      },
+      "prompt": "Which statement about the GDP deflator and the CPI is correct?",
+      "options": [
+        "The CPI is available quarterly; the GDP deflator is available monthly",
+        "The GDP deflator includes imports and excludes exports",
+        "The GDP deflator is available quarterly, includes exports and excludes imports, so it is not ideal for measuring households' cost of living",
+        "The CPI measures the prices of all final goods produced domestically"
+      ],
+      "answer": "c",
+      "explanation": "The GDP deflator (nominal GDP ÷ real GDP × 100) covers all final goods and services produced domestically: it is **quarterly, includes exports and excludes imports**. The CPI is **monthly** and better reflects household living costs because it covers the basket households buy (including imports).",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s5-11",
+      "type": "numeric",
+      "unit": 5,
+      "topic": "Inflation from CPI",
+      "tags": [
+        "ch5",
+        "inflation",
+        "cpi"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 25"
+      },
+      "prompt": "The CPI is 161 in 2024 and 164 in 2025. What is the CPI-based inflation rate between 2024 and 2025, in percent (to two decimals)?",
+      "answer": {
+        "value": 1.86,
+        "tolerance": 0.02,
+        "display": "1.86%",
+        "hint": "Percent, 2 decimals"
+      },
+      "explanation": "Inflation = % change in the CPI = (164 − 161) ÷ 161 × 100 = 3 ÷ 161 × 100 ≈ **1.86%**."
+    },
+    {
+      "id": "s5-12",
+      "type": "numeric",
+      "unit": 5,
+      "topic": "Calculating the CPI",
+      "tags": [
+        "ch5",
+        "cpi"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 26"
+      },
+      "prompt": "Base year 2025: the basket (400 ginger ales, 200 samosas, 12 bus passes) costs $3,120 at base-year prices ($1.50, $6.00, $110). The next year prices are $1.60, $8.00 and $130, so the same basket costs $3,800. What is the CPI in the next year (one decimal)?",
+      "answer": {
+        "value": 121.8,
+        "tolerance": 0.1,
+        "display": "121.8"
+      },
+      "explanation": "CPI = cost of the basket at current prices ÷ cost at base-year prices × 100 = 3,800 ÷ 3,120 × 100 ≈ **121.8**. (By construction the CPI is 100 in the base year.)"
+    },
+    {
+      "id": "s5-13",
+      "type": "mc",
+      "unit": 5,
+      "topic": "CPI biases",
+      "tags": [
+        "ch5",
+        "cpi",
+        "inflation"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 27"
+      },
+      "prompt": "Households switch from boutiques to warehouse stores when prices rise, but the CPI's constant basket ignores this. This is called",
+      "options": [
+        "substitution bias",
+        "outlet bias",
+        "new product bias",
+        "increase in quality bias"
+      ],
+      "answer": "b",
+      "explanation": "**Outlet bias**: consumers change *where* they shop. Substitution bias is switching to *different goods* when a price rises; new product bias is new goods missing from the basket; quality bias is price rises that partly reflect better quality. All four make the CPI **overstate** inflation.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s5-14",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Size of CPI bias",
+      "tags": [
+        "ch5",
+        "cpi",
+        "inflation"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "slide 27"
+      },
+      "prompt": "According to the slides, the four CPI biases cause measured CPI inflation to",
+      "options": [
+        "understate true inflation by 0.5 to 1 percentage point",
+        "overstate true inflation by 0.5 to 1 percentage point",
+        "overstate true inflation by 5 to 10 percentage points",
+        "have no net effect on measured inflation"
+      ],
+      "answer": "b",
+      "explanation": "The biases (quality, substitution, new product, outlet) make changes in the CPI **overstate the true rate of inflation by 0.5 to 1 percentage point**. Note the direction: overstate, not understate.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s5-15",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Producer Price Index",
+      "tags": [
+        "ch5",
+        "ppi",
+        "inflation"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 28"
+      },
+      "prompt": "The Producer Price Index (PPI) is useful because it",
+      "options": [
+        "measures the prices of imports only",
+        "can give early warning of future movements in consumer prices",
+        "is based on the same basket as the CPI",
+        "replaces the GDP deflator in the national accounts"
+      ],
+      "answer": "b",
+      "explanation": "The PPI averages prices received by producers at all stages of production, including intermediate goods and raw materials. If those prices rise, costs of final goods rise, so it **gives early warning of future consumer-price movements**. Its basket is of producer goods, not the household basket.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s5-16",
+      "type": "numeric",
+      "unit": 5,
+      "topic": "Purchasing power across years",
+      "tags": [
+        "ch5",
+        "cpi",
+        "real-income"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slides 29–30 · Week 5 slide 6"
+      },
+      "prompt": "Your mother earned $30,000 in April 1996 (CPI = 89). The CPI in April 2026 is 168. How many 2026 dollars have the same purchasing power as $30,000 in 1996? (nearest dollar)",
+      "answer": {
+        "value": 56629,
+        "tolerance": 2,
+        "display": "$56,629",
+        "prefix": "$"
+      },
+      "explanation": "Value in 2026 dollars = 30,000 × 168 ÷ 89 ≈ **$56,629**. Your $60,000 job is therefore only about 6% richer in real terms (60,000 ÷ 56,629), not twice as rich, because the price level rose by a factor of 168/89 ≈ 1.9."
+    },
+    {
+      "id": "s5-17",
+      "type": "numeric",
+      "unit": 5,
+      "topic": "Cost of living across cities",
+      "tags": [
+        "ch5",
+        "real-income",
+        "cost-of-living"
+      ],
+      "difficulty": 2,
+      "source": {
+        "label": "Week 5 Lecture",
+        "ref": "slides 31–32 · Week 5 slide 8"
+      },
+      "prompt": "City A pays $60,000 a year and City B pays $63,000. Monthly rent is $1,500 in A and $2,000 in B; other monthly costs are $3,500 in both cities. By what percent is the <b>total cost of living</b> higher in City B than in City A?",
+      "answer": {
+        "value": 10,
+        "tolerance": 0.05,
+        "display": "10%",
+        "hint": "Percent"
+      },
+      "explanation": "Monthly cost: A = 1,500 + 3,500 = $5,000; B = 2,000 + 3,500 = $5,500. Difference = 500 ÷ 5,000 × 100 = **10%**. Income is only 5% higher in B ((63,000 − 60,000) ÷ 60,000), and rent alone is 33% higher."
+    },
+    {
+      "id": "s5-18",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Cost of living across cities",
+      "tags": [
+        "ch5",
+        "real-income",
+        "cost-of-living"
+      ],
+      "difficulty": 2,
+      "source": {
+        "label": "Week 5 Lecture",
+        "ref": "slide 8"
+      },
+      "prompt": "In the two-city job offer (A: $60,000, B: $63,000, other costs $3,500 a month in both, rent $1,500 in A and $2,000 in B), what is the best decision?",
+      "options": [
+        "Take B: income is 5% higher",
+        "Take B: rent is only 33% higher while income is higher",
+        "Take A: living costs are 10% higher in B but income only 5% higher",
+        "Indifferent: the two differences cancel"
+      ],
+      "answer": "c",
+      "explanation": "Cost of living is 10% higher in B but income only 5% higher, so purchasing power is lower in B (annual income minus costs: A $60,000 - $60,000 = $0 vs B $63,000 - $66,000 = -$3,000). **Take A.** Comparing nominal income alone is not enough.",
+      "shuffleOptions": true
+    },
+    {
+      "id": "s5-19",
+      "type": "numeric",
+      "unit": 5,
+      "topic": "Real return on savings",
+      "tags": [
+        "ch5",
+        "interest-rates",
+        "real-income"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slides 33–34 · Week 5 slides 10–11"
+      },
+      "prompt": "You save $1,000 at 4% for a year. A pizza+drink combo costs $10 now and $10.30 next year. After one year, the % change in the number of combos you can buy (your real return) is closest to what percent? (two decimals)",
+      "answer": {
+        "value": 0.97,
+        "tolerance": 0.02,
+        "display": "0.97%",
+        "hint": "Percent, 2 decimals"
+      },
+      "explanation": "Now: $1,000 ÷ $10 = 100 combos. A year later: $1,040 ÷ $10.30 ≈ 100.97 combos, a rise of **about 0.97%**. The shortcut r = i − π = 4% − 3% = 1% is a close approximation."
+    },
+    {
+      "id": "s5-20",
+      "type": "numeric",
+      "unit": 5,
+      "topic": "Real interest rate",
+      "tags": [
+        "ch5",
+        "interest-rates"
+      ],
+      "difficulty": 1,
+      "source": {
+        "label": "Week 5 Lecture",
+        "ref": "slide 16"
+      },
+      "prompt": "A loan carries a nominal rate of 7%. Borrower and lender anticipated 4% inflation (an anticipated real rate of 3%), but inflation turns out to be 2%. What is the <b>actual real interest rate</b>, in percent?",
+      "answer": {
+        "value": 5,
+        "tolerance": 0.05,
+        "display": "5%",
+        "hint": "Percent"
+      },
+      "explanation": "Real rate ≈ nominal − actual inflation = 7% − 2% = **5%**. Inflation was lower than expected, so the lender gains (real return 5% instead of 3%) and the borrower loses."
+    },
+    {
+      "id": "s5-21",
+      "type": "numeric",
+      "unit": 5,
+      "topic": "Real return on a GIC",
+      "tags": [
+        "ch5",
+        "interest-rates"
+      ],
+      "difficulty": 1,
+      "source": {
+        "label": "Week 5 Lecture",
+        "ref": "slide 17"
+      },
+      "prompt": "You buy a one-year GIC with a guaranteed rate of 3.5%. You anticipated 1.5% inflation (a 2% real return), but inflation turns out to be 3.5%. What is your actual real return, in percent?",
+      "answer": {
+        "value": 0,
+        "tolerance": 0.05,
+        "display": "0%",
+        "hint": "Percent"
+      },
+      "explanation": "Real return ≈ 3.5% − 3.5% = **0%**. Unanticipated inflation made saving risky: the guaranteed nominal return did not protect purchasing power."
+    },
+    {
+      "id": "s5-22",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Practice question: deflation",
+      "tags": [
+        "ch5",
+        "interest-rates",
+        "inflation"
+      ],
+      "difficulty": 2,
+      "source": {
+        "label": "Week 5 Lecture",
+        "ref": "slide 19"
+      },
+      "prompt": "If the economy is experiencing deflation,",
+      "options": [
+        "the nominal interest rate will be equal to the real interest rate.",
+        "the nominal interest rate will be lower than the real interest rate.",
+        "the nominal interest rate will be higher than the real interest rate.",
+        "high nominal interest rates inflict serious losses on both household and business borrowers."
+      ],
+      "answer": "b",
+      "explanation": "Real rate = nominal - inflation. Under deflation, inflation is negative, so subtracting it **adds** to the nominal rate: the real rate is *higher* than the nominal rate, i.e. the nominal rate is lower than the real rate.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "s5-23",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Practice question: expected inflation",
+      "tags": [
+        "ch5",
+        "inflation",
+        "real-income"
+      ],
+      "difficulty": 2,
+      "source": {
+        "label": "Week 5 Lecture",
+        "ref": "slide 20"
+      },
+      "prompt": "Since nominal incomes increase with inflation,",
+      "options": [
+        "expected inflation does not affect the purchasing power of the average consumer.",
+        "expected inflation reduces the purchasing power of the average consumer.",
+        "expected inflation increases the purchasing power of the average consumer.",
+        "unexpected inflation does not affect the purchasing power of the average consumer."
+      ],
+      "answer": "a",
+      "explanation": "If nominal incomes rise along with prices, and inflation is expected so people adjust, the purchasing power of the **average** consumer is not changed by expected inflation. Unexpected inflation, by contrast, redistributes income and wealth and creates risk. (The slides stress that even anticipated inflation has costs through uneven adjustment, menu costs and cash holdings; this item is about the average consumer's purchasing power.)",
+      "shuffleOptions": false
+    },
+    {
+      "id": "s5-24",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Practice question: unexpected inflation",
+      "tags": [
+        "ch5",
+        "inflation",
+        "interest-rates"
+      ],
+      "difficulty": 2,
+      "source": {
+        "label": "Week 5 Lecture",
+        "ref": "slide 21"
+      },
+      "prompt": "Suppose the inflation rate turns out to be much higher than most people expected. In that case,",
+      "options": [
+        "a borrower will gain from the situation while a lender will lose.",
+        "a lender will gain from the situation while a borrower will lose.",
+        "both borrower and lender will gain from the situation.",
+        "both borrower and lender will lose in this situation."
+      ],
+      "answer": "a",
+      "explanation": "Higher-than-expected inflation lowers the real interest rate (nominal rate fixed in the contract, inflation higher). The **borrower repays in dollars worth less**, so the borrower gains and the lender loses.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "s5-25",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Costs of inflation",
+      "tags": [
+        "ch5",
+        "inflation"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "slide 38"
+      },
+      "prompt": "Which statement about the costs of inflation is correct?",
+      "options": [
+        "Only unanticipated inflation imposes any costs",
+        "Anticipated inflation causes menu costs and taxes on nominal returns, while unanticipated inflation makes lending riskier so banks become more cautious about lending",
+        "Anticipated inflation raises the real value of cash holdings",
+        "Unanticipated inflation is harmless if all wages are indexed to the CPI"
+      ],
+      "answer": "b",
+      "explanation": "Even **anticipated** inflation has costs: unequal income adjustment, diminished real value of cash, menu costs, and taxes on nominal (not real) returns. **Unanticipated** inflation adds risk to borrowing and lending, with the result that **banks become more cautious about lending**.",
+      "shuffleOptions": true
+    }
+  ]
+}
