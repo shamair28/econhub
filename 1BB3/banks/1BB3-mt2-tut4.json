@@ -1,0 +1,383 @@
+{
+  "schema": "practice-bank/v1",
+  "id": "1BB3-mt2-tut4",
+  "course": "ECON 1BB3",
+  "title": "Tutorial 4 · Test #2 Practice Questions",
+  "defaultSource": {
+    "label": "Tutorial 4 Practice",
+    "kind": "past-test"
+  },
+  "description": "Dr. Letendre’s Tutorial 4 (Nov 4–5) Test #2 practice questions, Ch. 4–8. No key was posted; answers and explanations were worked out independently.",
+  "questions": [
+    {
+      "id": "tut4-q1",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Investment in GDP",
+      "tags": [
+        "ch4",
+        "gdp-components"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Q1"
+      },
+      "prompt": "The Lee family won a $50 million jackpot and made several major purchases. Which of their purchases would be counted as <b>investment</b> when calculating <b>Canadian</b> GDP by the expenditure approach?",
+      "options": [
+        {
+          "id": "a",
+          "text": "the villa they just built in the Swiss Alps for $2 million"
+        },
+        {
+          "id": "b",
+          "text": "the second-hand yacht they purchased for $1 million and expect to sell for a profit before year’s end"
+        },
+        {
+          "id": "c",
+          "text": "the vintage Rolls Royce car they purchased in London for $500,000"
+        },
+        {
+          "id": "d",
+          "text": "the new house they built in Calgary for $200,000 to serve as living quarters for their ten new servants"
+        }
+      ],
+      "answer": "d",
+      "explanation": "**New residential construction counts as investment**, so the new Calgary house is investment in Canadian GDP. The Swiss villa is produced in Switzerland, so it is not part of Canadian GDP at all. The second-hand yacht and the vintage Rolls Royce were produced in earlier years, so buying them adds nothing to this year’s GDP (and a car bought by a household would be consumption anyway). Planning to resell something does not make it investment.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "tut4-q2",
+      "type": "mc",
+      "unit": 4,
+      "topic": "Expenditure approach",
+      "tags": [
+        "ch4",
+        "gdp-components",
+        "calculation"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Q2"
+      },
+      "prompt": "Refer to the data below. What is GDP?<br><br>Consumption: $2,000<br>Gross investment: $600<br>Government purchases: $500<br>Net exports: −$40<br>Transfer payments: $340",
+      "options": [
+        {
+          "id": "a",
+          "text": "$2,720"
+        },
+        {
+          "id": "b",
+          "text": "$3,060"
+        },
+        {
+          "id": "c",
+          "text": "$3,140"
+        },
+        {
+          "id": "d",
+          "text": "$3,400"
+        }
+      ],
+      "answer": "b",
+      "explanation": "GDP = C + I + G + NX = 2,000 + 600 + 500 − 40 = **$3,060**. **Transfer payments are left out**: they are not purchases of newly produced goods and services, just a transfer of income. Adding them gives the $3,400 trap; ignoring the minus sign on NX gives $3,140.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "tut4-q3",
+      "type": "mc",
+      "unit": 4,
+      "topic": "GDP deflator vs CPI",
+      "tags": [
+        "ch4",
+        "price-indexes"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Q3"
+      },
+      "prompt": "Most, but not all, athletic apparel sold in Canada is imported from other nations. If the price of athletic apparel increases, what will happen to the GDP deflator?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It will increase less than the consumer price index will."
+        },
+        {
+          "id": "b",
+          "text": "It will increase more than the consumer price index will."
+        },
+        {
+          "id": "c",
+          "text": "It will not increase, but the consumer price index will increase."
+        },
+        {
+          "id": "d",
+          "text": "It will increase, but the consumer price index will not increase."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The **GDP deflator only covers goods produced in Canada**, so it picks up the price rise only for the small share of apparel made here. The **CPI covers what households buy, imports included**, so it picks up the whole price rise. The deflator still rises a little (some apparel is domestic), but **less than the CPI**. It would not rise at all only if every item were imported.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "tut4-q4",
+      "type": "mc",
+      "unit": 8,
+      "topic": "45° diagram",
+      "tags": [
+        "ch8",
+        "ae-model",
+        "inventories"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Q4"
+      },
+      "prompt": "Refer to the graph. Which of the following best describes the situation at point C?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Consumption expenditures exceed disposable income."
+        },
+        {
+          "id": "b",
+          "text": "Producers are experiencing an unexpected loss in inventory."
+        },
+        {
+          "id": "c",
+          "text": "Aggregate expenditure is exactly equal to real GDP."
+        },
+        {
+          "id": "d",
+          "text": "Real GDP exceeds aggregate expenditure."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Point C is on the AE line to the **left of equilibrium (A)**, where the AE line is **above** the 45° line: aggregate expenditure is greater than real GDP. Firms sell more than they produce, so **inventories fall unexpectedly** (an unplanned inventory decrease), and they respond by raising output toward A. AE = GDP only at A; GDP exceeds AE at points to the right of A, such as B.",
+      "shuffleOptions": false,
+      "figure": {
+        "type": "image",
+        "src": "banks/img/1BB3-tut4-q4.png",
+        "alt": "45-degree diagram: the C + I + G + NX line starts at 2 on the vertical axis and is flatter than the 45-degree line, crossing it at point A (6, 6). Point C is on the AE line at real GDP 3, above the 45-degree line; point B is on the AE line at real GDP 9, below it.",
+        "caption": "Redrawn from the Tutorial 4 slide"
+      }
+    },
+    {
+      "id": "tut4-q5",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Labour force",
+      "tags": [
+        "ch5",
+        "labour-force-survey"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Q5"
+      },
+      "prompt": "Which of the following people would be counted in the labour force?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chou, who lost his job and last looked for work five months ago"
+        },
+        {
+          "id": "b",
+          "text": "Stephanie, who holds a Ph.D. in history, but can find only part-time employment at a fast-food restaurant"
+        },
+        {
+          "id": "c",
+          "text": "Jordan, who would like to work as a stockbroker but is now a househusband"
+        },
+        {
+          "id": "d",
+          "text": "Steffan, who thinks he could easily earn $100,000 per year, despite the opinion of the psychiatrist at the hospital where he is a resident patient"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Stephanie has a job, so she is **employed**, and the employed are part of the labour force (her underemployment is invisible in the statistics). Chou has not searched in the **last four weeks**, so he is not unemployed: he is not in the labour force (likely a discouraged worker). Jordan is neither working nor searching, and Steffan, a resident hospital patient, is not available to work: neither is in the labour force.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "tut4-q6",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Types of unemployment",
+      "tags": [
+        "ch5",
+        "types-of-unemployment"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Q6"
+      },
+      "prompt": "What type of unemployment is most likely to help the economy become more efficient?",
+      "options": [
+        {
+          "id": "a",
+          "text": "cyclical"
+        },
+        {
+          "id": "b",
+          "text": "structural"
+        },
+        {
+          "id": "c",
+          "text": "seasonal"
+        },
+        {
+          "id": "d",
+          "text": "frictional"
+        }
+      ],
+      "answer": "d",
+      "explanation": "**Frictional** unemployment is the time spent matching workers with jobs. Searching longer lets workers find jobs that suit their skills better, so **better matches raise productivity**. Cyclical (recession job losses), structural (skills mismatch) and seasonal unemployment do not improve matches.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "tut4-q7",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Real interest rate",
+      "tags": [
+        "ch5",
+        "interest-rates",
+        "calculation"
+      ],
+      "difficulty": 1,
+      "source": {
+        "ref": "Q7"
+      },
+      "prompt": "Suppose the inflation rate is 4 percent and the nominal interest rate is 9 percent. What is the real interest rate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "13 percent"
+        },
+        {
+          "id": "b",
+          "text": "9 percent"
+        },
+        {
+          "id": "c",
+          "text": "5 percent"
+        },
+        {
+          "id": "d",
+          "text": "–5 percent"
+        }
+      ],
+      "answer": "c",
+      "explanation": "Real interest rate = nominal rate − inflation rate = 9% − 4% = **5%**. Adding the two (13%) or subtracting the wrong way (−5%) are the traps.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "tut4-q8",
+      "type": "mc",
+      "unit": 5,
+      "topic": "Employment from rates",
+      "tags": [
+        "ch5",
+        "labour-force-survey",
+        "calculation"
+      ],
+      "difficulty": 3,
+      "source": {
+        "ref": "Q8"
+      },
+      "prompt": "In 2000 in Japan, based on concepts similar to those used to compute Canadian employment statistics, the unemployment rate was about 4.8 percent, the labour force participation rate was about 62 percent, and the adult population was about 108 million. How many people were employed?",
+      "options": [
+        {
+          "id": "a",
+          "text": "about 52 million"
+        },
+        {
+          "id": "b",
+          "text": "about 64 million"
+        },
+        {
+          "id": "c",
+          "text": "about 67 million"
+        },
+        {
+          "id": "d",
+          "text": "about 103 million"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Work backwards. Labour force = participation rate × adult population = 0.62 × 108 = **66.96 million**. Unemployed = 4.8% of the labour force, so employed = 66.96 × (1 − 0.048) = **63.7 million, about 64 million**. The 67 million option is the whole labour force; 103 million is 108 × (1 − 0.048), which wrongly applies the unemployment rate to the whole population.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "tut4-q9",
+      "type": "mc",
+      "unit": 7,
+      "topic": "Per-worker production function",
+      "tags": [
+        "ch7",
+        "production-function"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Q9"
+      },
+      "prompt": "Suppose a nation moves upward along its per-worker production function. How will labour productivity be affected?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Labour productivity will rise."
+        },
+        {
+          "id": "b",
+          "text": "Labour productivity will fall."
+        },
+        {
+          "id": "c",
+          "text": "Labour productivity will remain the same."
+        },
+        {
+          "id": "d",
+          "text": "Labour productivity will first rise and then fall."
+        }
+      ],
+      "answer": "a",
+      "explanation": "The per-worker production function plots **real GDP per hour worked (labour productivity)** against **capital per hour worked**. Moving up along it means more capital per worker, so **output per worker rises**. It rises at a decreasing rate (diminishing returns), but it never falls. Only technological change *shifts* the curve up.",
+      "shuffleOptions": false
+    },
+    {
+      "id": "tut4-q10",
+      "type": "mc",
+      "unit": 6,
+      "topic": "Loanable funds",
+      "tags": [
+        "ch6",
+        "loanable-funds"
+      ],
+      "difficulty": 2,
+      "source": {
+        "ref": "Q10"
+      },
+      "prompt": "Suppose the interest rate increases. Other things constant, how will the demand or quantity demanded of loanable funds be affected?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The demand for loanable funds curve will shift to the right."
+        },
+        {
+          "id": "b",
+          "text": "The demand for loanable funds curve will shift to the left."
+        },
+        {
+          "id": "c",
+          "text": "The quantity of loanable funds demanded will increase."
+        },
+        {
+          "id": "d",
+          "text": "The quantity of loanable funds demanded will decrease."
+        }
+      ],
+      "answer": "d",
+      "explanation": "A change in the interest rate is a **movement along** the demand curve, not a shift: the curve is drawn against the interest rate. A higher real interest rate makes borrowing for investment more expensive, so the **quantity of loanable funds demanded decreases**. The demand curve shifts only when something else changes, such as expected profitability or taxes on business.",
+      "shuffleOptions": false
+    }
+  ]
+}
