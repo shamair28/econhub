@@ -26,7 +26,10 @@ window.HUB_SITE = {
         { n: 6, title: 'Elasticity: The Responsiveness of Demand and Supply', week: 5 },
         { n: 8, title: 'Consumer Choice and Behavioural Economics', week: 6 },
         { n: 9, title: 'Technology, Production, and Costs', week: 7 },
-        { n: 10, title: 'Firms in Perfectly Competitive Markets', week: 8 }
+        { n: 10, title: 'Firms in Perfectly Competitive Markets', week: 8 },
+        { n: 11, title: 'Monopolistic Competition: The Competitive Model in a More Realistic Setting', week: 9 },
+        { n: 12, title: 'Oligopoly: Firms in Less Competitive Markets', week: 10 },
+        { n: 13, title: 'Monopoly and Competition Policy', week: 11 }
       ],
       tools: [
         {
@@ -40,6 +43,19 @@ window.HUB_SITE = {
           title: 'Midterm 2 Practice',
           desc: 'Units 5–8 · every assigned textbook homework problem (Ch. 6, 8, 9, 10) + lecture-slide &amp; in-class questions · F22 elasticity questions · timed exam mode',
           chapters: [6, 8, 9, 10]
+        },
+        {
+          href: '/1B03/graphs', icon: '↗', kind: 'Graph lab',
+          title: 'Graph Lab: Costs to Monopoly',
+          short: 'Graph Lab',
+          desc: 'Units 7–11 · drag-the-curve labs for cost curves, perfect competition, monopolistic competition, game theory and monopoly regulation · randomized graph drills with worked answers',
+          chapters: {
+            9: [['#costs', 'Unit 7 · Costs']],
+            10: [['#competition', 'Unit 8 · Perfect competition']],
+            11: [['#moncomp', 'Unit 9 · Monopolistic competition']],
+            12: [['#oligopoly', 'Unit 10 · Oligopoly']],
+            13: [['#monopoly', 'Unit 11 · Monopoly'], ['#compare', 'All four structures']]
+          }
         }
       ]
     },

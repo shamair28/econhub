@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ECON 1B03 — Graph Lab: Costs to Monopoly (Units 7–11)</title>
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/site/icon.svg?v=18" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/site/apple-touch-icon.png?v=18">
+<script>try{var d=document.documentElement,t=localStorage.getItem('hub:theme');if(t)d.setAttribute('data-theme',t);if(localStorage.getItem('hub:nav')==='closed')d.classList.add('nav-collapsed')}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/site/site.css?v=18">
+<link rel="stylesheet" href="/site/lesson.css?v=18">
+<link rel="stylesheet" href="/1B03/graphlab/lab.css?v=6">
+</head>
+<body class="lesson graphlab theme-sky">
+<a class="skip-link" href="#main">Skip to the lab</a>
+<header class="topbar" id="topbar"></header>
+<div class="shell">
+<aside class="sidenav" id="sidenav" aria-label="Course menu"></aside>
+<main class="page" id="main">
+  <header class="lesson-hero">
+  <div class="course-tag">ECON 1B03 &nbsp;·&nbsp; Introductory Microeconomics</div>
+  <h1 class="lesson-title">Graph Lab: From Cost Curves to Monopoly</h1>
+  <p class="subtitle">An interactive masterclass for Units 7–11 (Ch. 9, 10, 11, 12, 13) · drag the curves, watch the numbers move, then drill until it’s automatic · progress saves on this device</p>
+  </header>
+
+  <div class="callout tip">
+    <strong>How to use this lab</strong>
+    Every graph from Unit 7 on is built from the same handful of curves and <em>one</em> recipe. Start with Section 0 and play the four steps until you can say them without looking. Then work through the units in order. Each section has a <b>live lab</b> (move the sliders, or drag on the graph) and ends with a short <b>drill</b> of randomized questions with worked answers. The <a href="#gym">Graph Gym</a> at the bottom mixes everything and tracks which skills still need work.
+  </div>
+  <nav class="toc">
+    <strong>In This Lab</strong>
+    <ol>
+      <li><a href="#recipe">The One Recipe: Cross → Climb → Compare → Box</a></li>
+      <li><a href="#costs">Unit 7 · Production and Costs</a></li>
+      <li><a href="#competition">Unit 8 · Perfect Competition</a></li>
+      <li><a href="#moncomp">Unit 9 · Monopolistic Competition</a></li>
+      <li><a href="#oligopoly">Unit 10 · Oligopoly and Game Theory</a></li>
+      <li><a href="#monopoly">Unit 11 · Monopoly and Regulation</a></li>
+      <li><a href="#compare">All Four Structures Side by Side</a></li>
+      <li><a href="#gym">Graph Gym: Mixed Drills</a></li>
+    </ol>
+  </nav>
+
+  <section id="recipe">
+    <div class="section-number">Section 0</div>
+    <h2>The One Recipe: Cross → Climb → Compare → Box</h2>
+    <p>Every firm graph in Units 8–11 answers the same three questions in the same order: <strong>how much</strong> to produce, <strong>what price</strong> to charge, and <strong>how much profit</strong> results. The curves change shape from unit to unit, but the recipe never does.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Curve</th><th>Colour (as on Dr. Mang’s slides)</th><th>What it tells you</th></tr></thead>
+      <tbody>
+        <tr><td><strong>d / D</strong> — demand</td><td><span class="gl-sw" style="background:var(--gl-d)"></span> green</td><td>The <em>price</em> buyers will pay for each quantity. Prices are always read here.</td></tr>
+        <tr><td><strong>MR</strong> — marginal revenue</td><td><span class="gl-sw" style="background:var(--gl-mr)"></span> light blue</td><td>Extra revenue from one more unit. Same as d for a price taker; below d for everyone else.</td></tr>
+        <tr><td><strong>MC</strong> — marginal cost</td><td><span class="gl-sw" style="background:var(--gl-mc)"></span> purple</td><td>Extra cost of one more unit. With MR it decides the <em>quantity</em>.</td></tr>
+        <tr><td><strong>ATC</strong> — average total cost</td><td><span class="gl-sw" style="background:var(--gl-atc)"></span> red</td><td>Cost per unit. Compared with P, it decides <em>profit or loss</em>.</td></tr>
+        <tr><td><strong>AVC</strong> — average variable cost</td><td><span class="gl-sw" style="background:var(--gl-avc)"></span> orange</td><td>Variable cost per unit. Compared with P, it decides whether to <em>shut down</em>.</td></tr>
+      </tbody>
+    </table></div>
+    <div id="lab-recipe"></div>
+    <div class="callout tip">
+      <strong>Memory Aid — “Cross, Climb, Compare, Box”</strong>
+      <ul class="body-list">
+        <li><strong>Cross:</strong> q comes from where the <em>marginals</em> cross (MR = MC).</li>
+        <li><strong>Climb:</strong> P comes from going straight up to the <em>demand</em> curve — never from the MR or MC height.</li>
+        <li><strong>Compare:</strong> P vs ATC at that q → profit or loss. (P vs AVC → operate or shut down.)</li>
+        <li><strong>Box:</strong> profit or loss is a <em>rectangle</em>: (P − ATC) × q. Surpluses (CS, PS, DWL) are the <em>triangles</em> and other areas between demand, MC and the price.</li>
+      </ul>
+      Self-test: in a graph where MR = MC at a height of $420 and the demand curve above that point is at $560, what is the price? ($560 — climb to demand.)
+    </div>
+    <div class="callout warning">
+      <strong>The three most common graph mistakes</strong>
+      (1) Reading the price at the MR = MC height. (2) Drawing profit as the area between demand and ATC (it’s a rectangle at one q). (3) Shifting MC when only a <em>fixed</em> cost changed (fixed costs move ATC and AFC only).
+    </div>
+  </section>
+
+  <section id="costs">
+    <div class="section-number">Section 1 · Unit 7 (Ch. 9)</div>
+    <h2>Production and Costs</h2>
+    <p>Cost curves come from the production function. In the short run at least one input (the plant) is fixed, so adding workers eventually runs into <strong>diminishing marginal returns</strong>: each extra worker adds less output. Because <code>MC = wage ÷ MP</code>, falling MP means rising MC. That’s why MC is U-shaped, and why every average-cost curve it cuts is U-shaped too.</p>
+    <div id="lab-production"></div>
+    <div class="rule-card r1">
+      <div class="rule-head">The four per-unit curves</div>
+      <p><strong>AFC = FC ÷ q</strong> falls forever (the same fixed cost spread over more units). <strong>AVC = VC ÷ q</strong> and <strong>ATC = TC ÷ q = AVC + AFC</strong> are U-shaped, and the gap between them is AFC, which shrinks as q grows. <strong>MC</strong> cuts AVC and ATC <em>at their minimums</em>: when the marginal is below the average it pulls the average down; above it, it pulls it up.</p>
+    </div>
+    <div id="lab-costs"></div>
+    <div class="callout tip">
+      <strong>Memory Aid — “Fixed Fiddles with the Averages; Variable Visits them All”</strong>
+      <ul class="body-list">
+        <li><strong>Fixed cost changes</strong> (rent, licence fee, insurance) → AFC and ATC move; <strong>MC and AVC don’t</strong>.</li>
+        <li><strong>Variable cost changes</strong> (wages, materials, a per-unit tax, technology) → MC, AVC and ATC move; <strong>AFC doesn’t</strong>.</li>
+        <li><strong>Trap:</strong> MC crosses ATC at ATC’s minimum, not at MC’s own minimum. The order from left to right is: min MC → min AVC → min ATC.</li>
+      </ul>
+      Self-test: in the lab above, which three minimums occur at q = 40, 60 and about 70? (MC, AVC, ATC.)
+    </div>
+    <div id="lab-longrun"></div>
+    <div id="drill-u7"></div>
+  </section>
+
+  <section id="competition">
+    <div class="section-number">Section 2 · Unit 8 (Ch. 10)</div>
+    <h2>Perfect Competition</h2>
+    <p>The market’s supply and demand set the price; each tiny firm takes it. So the firm’s demand curve is the horizontal line <strong>d = MR = P</strong>, and the recipe’s first two steps collapse into one: produce where <strong>P = MC</strong>. Change market demand or the number of firms in the lab and watch the firm respond. Then press <b>Run to the long run</b> to see entry or exit push the price to the bottom of ATC.</p>
+    <div id="lab-competition"></div>
+    <div class="callout tip">
+      <strong>Memory Aid — “Party, Patience, Pack up”</strong>
+      <ul class="body-list">
+        <li><strong>Party</strong> (P &gt; min ATC): profit → in the long run, firms <em>enter</em>, supply shifts right, P falls.</li>
+        <li><strong>Patience</strong> (min AVC &lt; P &lt; min ATC): loss, but keep operating; you cover all variable cost and some fixed cost. Long run: firms <em>exit</em>, P rises.</li>
+        <li><strong>Pack up</strong> (P &lt; min AVC): shut down and lose only FC.</li>
+        <li><strong>Supply:</strong> the firm’s supply curve is its <em>MC above min AVC</em> (tick “Trace the firm’s supply curve”).</li>
+      </ul>
+      Self-test: what are P, profit and q in long-run equilibrium here? (P = min ATC ≈ $39.29, π = 0, q ≈ 70.)
+    </div>
+    <div id="drill-u8"></div>
+  </section>
+
+  <section id="moncomp">
+    <div class="section-number">Section 3 · Unit 9 (Ch. 11)</div>
+    <h2>Monopolistic Competition</h2>
+    <p>Many firms, easy entry — but each sells a <em>differentiated</em> product (a restaurant, a hair salon, a clothing brand). Having its own customers gives the firm a <strong>downward-sloping demand curve</strong>, so MR lies below it and the firm uses the full recipe: MR = MC, then climb to d. The lab starts from <strong>Dr. Mang’s restaurant</strong> (P = 32 − 0.2q, MC = 0.4q, ATC = 300/q + 0.2q → q = 40, P = $24, π = $340). Short-run profit attracts copycats. Each entrant takes customers <em>and</em> adds substitutes, so the firm’s demand shifts <strong>left</strong> and becomes <strong>more elastic</strong>, until it just touches ATC. Full write-up: the <a href="/1B03/ch11">Chapter 11 lesson</a>.</p>
+    <div id="lab-moncomp"></div>
+    <div class="rule-card r2">
+      <div class="rule-head">Long-run equilibrium: the tangency</div>
+      <p>d is <strong>tangent to ATC</strong> at the profit-maximizing q → <strong>P = ATC, zero economic profit</strong> (like perfect competition). But because d slopes down, the tangency is on the <em>falling</em> part of ATC: <strong>P &gt; MC</strong> (a markup, so some deadweight loss) and <strong>q &lt; the minimum-ATC output</strong> (<strong>excess capacity</strong>). Hubbard’s defence: consumers get variety, which they value.</p>
+    </div>
+    <div class="callout warning">
+      <strong>Vocabulary Trap — zero economic profit ≠ zero accounting profit</strong>
+      In the long run the restaurant still makes an accounting profit. It just earns no more than the owner could get from the next-best use of their time and money (a normal return). That’s why it stays open.
+    </div>
+    <div id="drill-u9"></div>
+  </section>
+
+  <section id="oligopoly">
+    <div class="section-number">Section 4 · Unit 10 (Ch. 12)</div>
+    <h2>Oligopoly and Game Theory</h2>
+    <p>A few firms, protected by barriers to entry (Dr. Mang’s four: economies of scale, government regulations, limited ownership of a resource, operating history and brand). With only a few rivals there is <strong>mutual interdependence</strong>: each firm’s best move depends on what the others do, so the main “graph” for oligopoly is a <strong>payoff matrix</strong>. A <strong>best response</strong> is the best choice given a conjecture about the rival; a <strong>dominant strategy</strong> is best no matter what the rival does; a <strong>Nash equilibrium</strong> is where both play best responses. The matrix lab opens on <strong>Dr. Mang’s Advertising Game</strong>; his <strong>Front Page Game</strong> is one click away. Full write-up: the <a href="/1B03/ch12">Chapter 12 lesson</a>.</p>
+    <div id="lab-matrix"></div>
+    <div class="callout tip">
+      <strong>Memory Aid — “Circle your best, find the double”</strong>
+      <ul class="body-list">
+        <li>For each rival choice, circle <em>your</em> higher payoff (Mang’s circles). If the same choice is circled in both cases, that’s your dominant strategy.</li>
+        <li>The cell with <strong>both</strong> payoffs circled is a <strong>Nash equilibrium</strong>; if both players got there with dominant strategies, it’s also a <strong>dominant strategy equilibrium</strong>.</li>
+        <li><strong>Prisoner’s dilemma:</strong> both have a dominant strategy, and the resulting equilibrium is worse for both than cooperating. That’s why collusion is unstable.</li>
+      </ul>
+      Self-test: in the Advertising Game, why don’t both firms stay at a Low budget? (Each earns $12m instead of $10m by going High, whatever the other does.)
+    </div>
+    <div id="lab-repeated"></div>
+    <div id="lab-sequential"></div>
+    <div id="drill-u10"></div>
+  </section>
+
+  <section id="monopoly">
+    <div class="section-number">Section 5 · Unit 11 (Ch. 13)</div>
+    <h2>Monopoly and Regulation</h2>
+    <p>One firm, no close substitutes, entry blocked: the firm’s demand <em>is</em> the market demand (d = D). Same recipe again. It opens on <strong>Dr. Mang’s slide example</strong> (P = 700 − 2q, MC = 6q, ATC = 8,000/q + 3q → q = 70, P = $560, π = $16,500). Then switch on each policy and watch which curve moves. The full write-up is in the <a href="/1B03/ch13">Chapter 13 lesson</a>.</p>
+    <div id="lab-monopoly"></div>
+    <div class="callout tip">
+      <strong>Memory Aid — what each policy moves</strong>
+      <ul class="body-list">
+        <li><strong>Licence fee</strong> → ATC only → same q and P; profit ↓ by the fee.</li>
+        <li><strong>Per-unit tax</strong> → MC ↑ → q ↓, P ↑, DWL ↑.</li>
+        <li><strong>Price ceiling</strong> between P = MC and P<sub>M</sub> → MR becomes flat at P<sub>max</sub> → q ↑, CS ↑, DWL ↓. At P = MC it’s competitive. Below that: shortage.</li>
+        <li><strong>Natural monopoly</strong> → P = MC loses money → regulators / SOEs set <strong>P = ATC</strong>.</li>
+        <li><strong>Perfect price discrimination</strong> → demand = MR → efficient q, CS = 0, DWL = 0.</li>
+      </ul>
+      Self-test: try a $480 ceiling on Mang’s example — why is there a shortage? (It’s below the competitive price of $525; the firm stops where MC = $480.)
+    </div>
+    <div id="drill-u11"></div>
+  </section>
+
+  <section id="compare">
+    <div class="section-number">Section 6</div>
+    <h2>All Four Structures Side by Side</h2>
+    <p>Dr. Mang’s Lesson 11.2 ties the units together. The fewer close substitutes a firm’s product has, the less elastic (steeper) its demand. That means a bigger gap between MR and demand, a bigger markup over MC, and a bigger deadweight loss. Slide from many substitutes to none.</p>
+    <div id="lab-compare"></div>
+    <div class="table-wrap"><table class="summary-table">
+      <thead><tr><th></th><th>Perfect competition</th><th>Monopolistic competition</th><th>Oligopoly</th><th>Monopoly</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Firms · product · entry</strong></td><td>Many · identical · easy</td><td>Many · differentiated · easy</td><td>Few · either · barriers</td><td>One · unique · blocked</td></tr>
+        <tr><td><strong>Firm’s demand</strong></td><td>Horizontal: d = MR = P</td><td>Downward, elastic</td><td>Downward, less elastic (and depends on rivals)</td><td>Downward = market demand</td></tr>
+        <tr><td><strong>Quantity rule</strong></td><td>P = MC</td><td>MR = MC</td><td>MR = MC / strategic (game theory)</td><td>MR = MC</td></tr>
+        <tr><td><strong>P vs MC</strong></td><td>P = MC</td><td>P &gt; MC</td><td>P &gt; MC</td><td>P &gt; MC (largest markup)</td></tr>
+        <tr><td><strong>Long-run profit</strong></td><td>Zero</td><td>Zero (tangency)</td><td>Can be positive</td><td>Usually positive (monopoly rent)</td></tr>
+        <tr><td><strong>Allocatively efficient?</strong></td><td>Yes</td><td>No (small DWL)</td><td>No</td><td>No (largest DWL)</td></tr>
+        <tr><td><strong>Productively efficient (min ATC)?</strong></td><td>Yes (LR)</td><td>No (excess capacity)</td><td>Usually not</td><td>Usually not (MC ≠ ATC)</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section id="gym">
+    <div class="section-number">Graph Gym</div>
+    <h2>Graph Gym: Mixed Drills</h2>
+    <p>Questions are drawn at random from every unit (filter with the chips). Skills you miss come up more often. Your scores save on this device, so come back before the final and look for the short bars.</p>
+    <div id="drill-gym"></div>
+  </section>
+
+</main>
+</div>
+<div class="scrim" id="scrim" hidden></div>
+<script src="/1B03/graphlab/core.js?v=6"></script>
+<script src="/1B03/graphlab/labs.js?v=7"></script>
+<script src="/1B03/graphlab/games.js?v=7"></script>
+<script src="/1B03/graphlab/drills.js?v=6"></script>
+<script>
+(function () {
+  var L = GL.labs, $ = function (id) { return document.getElementById(id); };
+  var mounts = [['lab-recipe', L.recipe], ['lab-production', L.production], ['lab-costs', L.costs], ['lab-longrun', L.longrun],
+    ['lab-competition', L.competition], ['lab-moncomp', L.moncomp], ['lab-matrix', L.matrix], ['lab-repeated', L.repeated],
+    ['lab-sequential', L.sequential], ['lab-monopoly', L.monopoly], ['lab-compare', L.compare]];
+  mounts.forEach(function (m) { try { m[1]($(m[0])); } catch (e) { console.error('Graph Lab: ' + m[0], e); } });
+  [['drill-u7', 'u7', 'Drill · Unit 7'], ['drill-u8', 'u8', 'Drill · Unit 8'], ['drill-u9', 'u9', 'Drill · Unit 9'], ['drill-u10', 'u10', 'Drill · Unit 10'], ['drill-u11', 'u11', 'Drill · Unit 11']]
+    .forEach(function (d) { try { GL.Drill($(d[0]), { title: d[2], units: [d[1]] }); } catch (e) { console.error('Graph Lab drill', e); } });
+  GL.Drill($('drill-gym'), { title: 'Graph Gym', chips: true, mastery: true });
+})();
+</script>
+<script src="/site/courses.js?v=18"></script>
+<script src="/site/site.js?v=18"></script>
+</body>
+</html>
